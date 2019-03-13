@@ -5,8 +5,8 @@ import requests
 # The petitions API is totally broken when browsing old governments so we have
 # to fix up the URL
 governments = {
-    '2010-2015_Conservative_-_Liberal_Democrat_coalition_government': ('https://petition.parliament.uk/archived/petitions.json?state=all', '&parliament=2'),
-    '2015-2017_Conservative_government': ('https://petition.parliament.uk/archived/petitions.json?parliament=1&state=all', '&parliament=1'),
+#    '2010-2015_Conservative_-_Liberal_Democrat_coalition_government': ('https://petition.parliament.uk/archived/petitions.json?state=all', '&parliament=2'),
+#    '2015-2017_Conservative_government': ('https://petition.parliament.uk/archived/petitions.json?parliament=1&state=all', '&parliament=1'),
     '2017-_Conservative_government': ('https://petition.parliament.uk/petitions.json?state=all', '')
 }
 
