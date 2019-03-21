@@ -22,17 +22,18 @@ def get_data(url):
         print("Fetching %s..." % url)
         try:
             response = requests.get(url, timeout=10)
+            data = response.json()
         except Exception as e:
             print("Request failure: %s" % e)
 
-        if not response or response.status_code != 200:
+        if response.status_code != 200 or "data" not in data:
             attempts += 1
             print("Fetch failed, retry %s" % attempts)
-            time.sleep(10)
+            time.sleep(5)
         else:
             break
 
-    return response.json()
+    return data
 
 
 for gov, (url, append) in governments.items():
