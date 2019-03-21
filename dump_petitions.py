@@ -26,7 +26,7 @@ def get_data(url):
         except Exception as e:
             print("Request failure: %s" % e)
 
-        if response.status_code != 200 or "data" not in data:
+        if not response or response.status_code != 200 or "data" not in data:
             attempts += 1
             print("Fetch failed, retry %s" % attempts)
             time.sleep(5)
