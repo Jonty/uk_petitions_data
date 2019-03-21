@@ -11,6 +11,25 @@ governments = {
     '2017-_Conservative_government': ('https://petition.parliament.uk/petitions.json?state=all', ''),
 }
 
+def get_data(url):
+    attempts = 0
+    while attempts < 100:
+        print('Fetching %s...' % url)
+        try:
+            response = requests.get(url, timeout=10)
+        except Exception as e:
+            print('Request failure: %s' % e)
+
+        if response.status_code != 200:
+            attempts += 1
+            print('Fetch failed, retry %s' % attempts)
+            time.sleep(10)
+        else:
+            break
+
+    return response.json()
+
+
 for gov, (url, append) in governments.items():
     print('Processing the %s government....' % gov)
     path = 'petitions/' + gov
@@ -20,24 +39,7 @@ for gov, (url, append) in governments.items():
         pass
 
     while url:
-        attempts = 0
-        data = None
-        while attempts < 100:
-            print('Fetching %s...' % (url + append))
-            try:
-                response = requests.get(url + append, timeout=10)
-            except Exception as e:
-                print('Request failure: %s' % e)
-
-            if response.status_code != 200:
-                attempts += 1
-                print('Fetch failed, retry %s' % attempts)
-                time.sleep(10)
-            else:
-                break
-
-        data = json.loads(response.content)
-
+        data = get_data(url + append)
         for petition in data['data']:
             filename = '%s/%s.json' % (path, petition['id'])
             exists = False
@@ -65,10 +67,9 @@ for gov, (url, append) in governments.items():
 
             if extended_data:
                 print('%s is %s, fetching full data...' % (petition['id'], petition['attributes']['state']))
-                response = requests.get(petition['links']['self'])
+                petition_data = get_data(petition['links']['self'])
 
                 # The link data is in a different location in this response, so move it
-                petition_data = response.json()
                 petition = petition_data['data']
                 petition['links'] = petition_data['links']
 
