@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import time
 
 # The petitions API is totally broken when browsing old governments so we have
 # to fix up the URL
@@ -21,7 +22,7 @@ for gov, (url, append) in governments.items():
     while url:
         attempts = 0
         data = None
-        while attempts < 10:
+        while attempts < 100:
             print('Fetching %s...' % (url + append))
             try:
                 response = requests.get(url + append, timeout=10)
@@ -31,6 +32,7 @@ for gov, (url, append) in governments.items():
             if response.status_code != 200:
                 attempts += 1
                 print('Fetch failed, retry %s' % attempts)
+                time.sleep(10)
             else:
                 break
 
