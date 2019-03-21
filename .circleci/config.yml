@@ -12,7 +12,7 @@ jobs:
             git config --global user.email "uk_petitions@jonty.co.uk"
             git config --global user.name "Petition Update Bot"
             git add petitions
-            git commit -m "Daily petitions update [skip ci]"
+            git commit -m "Automatic petitions update [skip ci]"
             git push -q https://${GITHUB_PERSONAL_TOKEN}@github.com/jonty/uk_petitions_data.git master \
             || true
 workflows:
@@ -20,10 +20,10 @@ workflows:
   build:
     jobs:
       - fetch_and_commit
-  nightly:
+  automatic_update:
     triggers:
       - schedule:
-          cron: "0 * * * *"
+          cron: "*/30 * * * *"
           filters:
             branches:
               only:
