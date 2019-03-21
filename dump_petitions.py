@@ -27,6 +27,8 @@ for gov, (url, append) in governments.items():
             if response.status_code != 200:
                 attempts += 1
                 print('Fetch failed, retry %s' % attempts)
+            else:
+                break
 
         data = json.loads(response.content)
 
