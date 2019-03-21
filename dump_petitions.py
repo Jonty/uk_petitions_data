@@ -23,7 +23,11 @@ for gov, (url, append) in governments.items():
         data = None
         while attempts < 10:
             print('Fetching %s...' % (url + append))
-            response = requests.get(url + append)
+            try:
+                response = requests.get(url + append, timeout=10)
+            except Exception as e:
+                print('Request failure: %s' % e)
+
             if response.status_code != 200:
                 attempts += 1
                 print('Fetch failed, retry %s' % attempts)
