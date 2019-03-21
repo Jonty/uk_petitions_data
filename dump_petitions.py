@@ -24,7 +24,7 @@ for gov, (url, append) in governments.items():
         while attempts < 10:
             print('Fetching %s...' % (url + append))
             response = requests.get(url + append)
-            if response.code != 200:
+            if response.status_code != 200:
                 attempts += 1
                 print('Fetch failed, retry %s' % attempts)
 
