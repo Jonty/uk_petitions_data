@@ -19,8 +19,15 @@ for gov, (url, append) in governments.items():
         pass
 
     while url:
-        print('Fetching %s...' % (url + append))
-        response = requests.get(url + append)
+        attempts = 0
+        data = None
+        while attempts < 10:
+            print('Fetching %s...' % (url + append))
+            response = requests.get(url + append)
+            if response.code != 200:
+                attempts += 1
+                print('Fetch failed, retry %s' % attempts)
+
         data = json.loads(response.content)
 
         for petition in data['data']:
