@@ -1,9 +1,12 @@
 UK Petitions Data
 =================
 
-This is a complete dump of all the [UK Government and Parliament Petitions website](https://petition.parliament.uk/) data, which is published under the [OGL](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+This is a complete dump of the [UK Government and Parliament Petitions website](https://petition.parliament.uk/) data, updated every 30 minutes. It includes geographical voting data.
+
 
 This also includes a complete machine-readable dump of the old `petitions.number10.gov.uk` website that started it all.
+
+This data is published under the [OGL](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 Current State
 =============
