@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-23T17:34:08.889Z",
         "opened_at": "2019-02-04T16:04:22.464Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 163,
+        "signature_count": 165,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Alistair Carmichael MP",
@@ -230,6 +233,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Peter Kyle MP",
+                "name": "Hove",
+                "ons_code": "E14000755",
+                "signature_count": 1
+            },
+            {
                 "mp": "Mr Barry Sheerman MP",
                 "name": "Huddersfield",
                 "ons_code": "E14000756",
@@ -317,7 +326,7 @@
                 "mp": "Mr Chris Leslie MP",
                 "name": "Nottingham East",
                 "ons_code": "E14000865",
-                "signature_count": 3
+                "signature_count": 4
             },
             {
                 "mp": "Alex Norris MP",
@@ -593,11 +602,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 162
+                "signature_count": 164
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T10:01:46.515Z"
+        "updated_at": "2019-04-12T10:58:50.682Z"
     },
     "id": 238031,
     "links": {

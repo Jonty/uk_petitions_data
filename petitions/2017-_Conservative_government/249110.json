@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T01:49:58.268Z",
         "opened_at": "2019-04-03T16:02:38.481Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 440,
+        "signature_count": 441,
         "signatures_by_constituency": [
             {
                 "mp": "Danielle Rowley MP",
@@ -590,6 +593,12 @@
                 "signature_count": 36
             },
             {
+                "mp": "Cat Smith MP",
+                "name": "Lancaster and Fleetwood",
+                "ons_code": "E14000776",
+                "signature_count": 1
+            },
+            {
                 "mp": "Alex Sobel MP",
                 "name": "Leeds North West",
                 "ons_code": "E14000780",
@@ -1038,11 +1047,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 440
+                "signature_count": 441
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T10:31:12.825Z"
+        "updated_at": "2019-04-12T10:59:00.911Z"
     },
     "id": 249110,
     "links": {
