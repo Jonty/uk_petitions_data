@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T11:57:11.792Z",
         "opened_at": "2019-04-03T17:36:57.095Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 59,
+        "signature_count": 60,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -65,6 +68,12 @@
                 "mp": "Caroline Lucas MP",
                 "name": "Brighton, Pavilion",
                 "ons_code": "E14000598",
+                "signature_count": 1
+            },
+            {
+                "mp": "Karin Smyth MP",
+                "name": "Bristol South",
+                "ons_code": "E14000601",
                 "signature_count": 1
             },
             {
@@ -281,11 +290,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 58
+                "signature_count": 59
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T08:57:30.989Z"
+        "updated_at": "2019-04-12T11:32:53.557Z"
     },
     "id": 247114,
     "links": {

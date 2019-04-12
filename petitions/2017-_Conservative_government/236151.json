@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-03T16:02:22.500Z",
         "opened_at": "2019-01-23T11:51:39.487Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 684,
+        "signature_count": 685,
         "signatures_by_constituency": [
             {
                 "mp": "David Duguid MP",
@@ -35,6 +38,12 @@
                 "mp": "Patrick Grady MP",
                 "name": "Glasgow North",
                 "ons_code": "S14000031",
+                "signature_count": 1
+            },
+            {
+                "mp": "Carol Monaghan MP",
+                "name": "Glasgow North West",
+                "ons_code": "S14000033",
                 "signature_count": 1
             },
             {
@@ -1913,11 +1922,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 683
+                "signature_count": 684
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T08:42:05.107Z"
+        "updated_at": "2019-04-12T12:01:41.053Z"
     },
     "id": 236151,
     "links": {
