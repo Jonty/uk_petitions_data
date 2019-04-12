@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-16T16:58:50.645Z",
         "opened_at": "2019-01-28T15:19:32.595Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 611,
+        "signature_count": 612,
         "signatures_by_constituency": [
             {
                 "mp": "Alison Thewliss MP",
@@ -41,6 +44,12 @@
                 "mp": "Lesley Laird MP",
                 "name": "Kirkcaldy and Cowdenbeath",
                 "ons_code": "S14000041",
+                "signature_count": 1
+            },
+            {
+                "mp": "Hannah Bardell MP",
+                "name": "Livingston",
+                "ons_code": "S14000044",
                 "signature_count": 1
             },
             {
@@ -2180,11 +2189,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 607
+                "signature_count": 608
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T07:21:14.493Z"
+        "updated_at": "2019-04-12T21:58:29.939Z"
     },
     "id": 237430,
     "links": {
