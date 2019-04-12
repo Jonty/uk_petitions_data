@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T11:57:22.972Z",
         "opened_at": "2019-04-04T16:43:19.665Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 377,
+        "signature_count": 378,
         "signatures_by_constituency": [
             {
                 "mp": "Ian Murray MP",
@@ -914,6 +917,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Rt Hon Norman Lamb MP",
+                "name": "North Norfolk",
+                "ons_code": "E14000848",
+                "signature_count": 1
+            },
+            {
                 "mp": "Rt Hon Dr Liam Fox MP",
                 "name": "North Somerset",
                 "ons_code": "E14000850",
@@ -1478,7 +1487,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 365
+                "signature_count": 366
             },
             {
                 "code": "US",
@@ -1492,7 +1501,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T07:22:05.586Z"
+        "updated_at": "2019-04-12T13:53:58.694Z"
     },
     "id": 247761,
     "links": {
