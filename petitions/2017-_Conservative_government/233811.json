@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-05T05:07:46.743Z",
         "opened_at": "2018-12-10T14:40:29.271Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 56,
+        "signature_count": 57,
         "signatures_by_constituency": [
             {
                 "mp": "Peter Grant MP",
@@ -131,6 +134,12 @@
                 "mp": "Rt Hon Sir Jeffrey M. Donaldson MP",
                 "name": "Lagan Valley",
                 "ons_code": "N06000009",
+                "signature_count": 1
+            },
+            {
+                "mp": "Vicky Foxcroft MP",
+                "name": "Lewisham, Deptford",
+                "ons_code": "E14000789",
                 "signature_count": 1
             },
             {
@@ -252,11 +261,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 56
+                "signature_count": 57
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:05:05.945Z"
+        "updated_at": "2019-04-12T15:44:28.687Z"
     },
     "id": 233811,
     "links": {
