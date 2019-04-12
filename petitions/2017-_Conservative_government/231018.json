@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-23T11:11:54.499Z",
         "opened_at": "2018-10-30T11:22:57.290Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 72,
+        "signature_count": 73,
         "signatures_by_constituency": [
             {
                 "mp": "Alison Thewliss MP",
@@ -161,6 +164,12 @@
                 "mp": "Mr Bob Seely MP",
                 "name": "Isle of Wight",
                 "ons_code": "E14000762",
+                "signature_count": 1
+            },
+            {
+                "mp": "Rt Hon Emily Thornberry MP",
+                "name": "Islington South and Finsbury",
+                "ons_code": "E14000764",
                 "signature_count": 1
             },
             {
@@ -342,11 +351,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 72
+                "signature_count": 73
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T08:07:29.937Z"
+        "updated_at": "2019-04-12T19:58:35.532Z"
     },
     "id": 231018,
     "links": {
