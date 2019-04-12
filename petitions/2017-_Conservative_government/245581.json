@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-15T22:10:55.753Z",
         "opened_at": "2019-03-26T14:10:36.644Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 14,
+        "signature_count": 15,
         "signatures_by_constituency": [
             {
                 "mp": "Andrew Bowie MP",
@@ -50,6 +53,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Sir David Amess MP",
+                "name": "Southend West",
+                "ons_code": "E14000957",
+                "signature_count": 1
+            },
+            {
                 "mp": "Jeremy Lefroy MP",
                 "name": "Stafford",
                 "ons_code": "E14000965",
@@ -77,11 +86,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 13
+                "signature_count": 14
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-06T14:03:40.981Z"
+        "updated_at": "2019-04-12T21:16:06.205Z"
     },
     "id": 245581,
     "links": {

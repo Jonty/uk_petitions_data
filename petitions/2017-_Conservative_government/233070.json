@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-15T19:21:20.302Z",
         "opened_at": "2018-11-27T10:36:09.637Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 349,
+        "signature_count": 350,
         "signatures_by_constituency": [
             {
                 "mp": "Marion Fellows MP",
@@ -308,6 +311,12 @@
                 "signature_count": 5
             },
             {
+                "mp": "Sir David Amess MP",
+                "name": "Southend West",
+                "ons_code": "E14000957",
+                "signature_count": 1
+            },
+            {
                 "mp": "Derek Thomas MP",
                 "name": "St Ives",
                 "ons_code": "E14000964",
@@ -423,11 +432,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 346
+                "signature_count": 347
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T18:29:48.668Z"
+        "updated_at": "2019-04-12T21:12:24.391Z"
     },
     "id": 233070,
     "links": {

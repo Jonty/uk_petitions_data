@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T01:50:04.418Z",
         "opened_at": "2019-04-03T11:18:38.945Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 25,
+        "signature_count": 26,
         "signatures_by_constituency": [
             {
                 "mp": "Stephen Gethins MP",
@@ -86,6 +89,12 @@
                 "signature_count": 2
             },
             {
+                "mp": "Sir David Amess MP",
+                "name": "Southend West",
+                "ons_code": "E14000957",
+                "signature_count": 1
+            },
+            {
                 "mp": "Stephen Hammond MP",
                 "name": "Wimbledon",
                 "ons_code": "E14001040",
@@ -106,11 +115,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 23
+                "signature_count": 24
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T11:17:08.561Z"
+        "updated_at": "2019-04-12T21:15:36.032Z"
     },
     "id": 249738,
     "links": {

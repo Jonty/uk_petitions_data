@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-15T17:59:42.063Z",
         "opened_at": "2019-03-27T08:01:06.453Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 51,
+        "signature_count": 52,
         "signatures_by_constituency": [
             {
                 "mp": "Douglas Ross MP",
@@ -218,6 +221,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Sir David Amess MP",
+                "name": "Southend West",
+                "ons_code": "E14000957",
+                "signature_count": 1
+            },
+            {
                 "mp": "Julie Elliott MP",
                 "name": "Sunderland Central",
                 "ons_code": "E14000982",
@@ -282,11 +291,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 51
+                "signature_count": 52
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T22:14:55.137Z"
+        "updated_at": "2019-04-12T21:14:25.405Z"
     },
     "id": 245516,
     "links": {

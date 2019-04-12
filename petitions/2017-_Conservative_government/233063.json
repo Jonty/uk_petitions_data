@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-16T21:01:15.011Z",
         "opened_at": "2018-11-26T16:37:51.340Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 183,
+        "signature_count": 184,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -752,6 +755,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Sir David Amess MP",
+                "name": "Southend West",
+                "ons_code": "E14000957",
+                "signature_count": 1
+            },
+            {
                 "mp": "Steve Double MP",
                 "name": "St Austell and Newquay",
                 "ons_code": "E14000961",
@@ -933,11 +942,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 180
+                "signature_count": 181
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T20:37:17.966Z"
+        "updated_at": "2019-04-12T21:13:24.841Z"
     },
     "id": 233063,
     "links": {
