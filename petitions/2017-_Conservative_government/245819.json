@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-17T22:30:36.460Z",
         "opened_at": "2019-04-01T09:14:34.461Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 52,
+        "signature_count": 53,
         "signatures_by_constituency": [
             {
                 "mp": "Gavin Robinson MP",
@@ -120,6 +123,12 @@
                 "name": "Leeds North East",
                 "ons_code": "E14000779",
                 "signature_count": 2
+            },
+            {
+                "mp": "Jo Platt MP",
+                "name": "Leigh",
+                "ons_code": "E14000785",
+                "signature_count": 1
             },
             {
                 "mp": "Janet Daby MP",
@@ -234,11 +243,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 52
+                "signature_count": 53
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T06:09:42.023Z"
+        "updated_at": "2019-04-12T20:17:06.514Z"
     },
     "id": 245819,
     "links": {
