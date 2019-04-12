@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T01:49:48.801Z",
         "opened_at": "2019-04-01T17:59:40.001Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 369,
+        "signature_count": 370,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -1010,6 +1013,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Mr Clive Betts MP",
+                "name": "Sheffield South East",
+                "ons_code": "E14000920",
+                "signature_count": 1
+            },
+            {
                 "mp": "Louise Haigh MP",
                 "name": "Sheffield, Heeley",
                 "ons_code": "E14000923",
@@ -1420,7 +1429,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 366
+                "signature_count": 367
             },
             {
                 "code": "US",
@@ -1429,7 +1438,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T10:25:00.318Z"
+        "updated_at": "2019-04-12T12:03:32.183Z"
     },
     "id": 247497,
     "links": {
