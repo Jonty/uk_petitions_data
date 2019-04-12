@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-24T18:47:15.134Z",
         "opened_at": "2018-11-01T14:44:15.550Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 30,
+        "signature_count": 31,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Alistair Carmichael MP",
@@ -65,6 +68,12 @@
                 "mp": "Rt Hon Damian Hinds MP",
                 "name": "East Hampshire",
                 "ons_code": "E14000680",
+                "signature_count": 1
+            },
+            {
+                "mp": "Damian Collins MP",
+                "name": "Folkestone and Hythe",
+                "ons_code": "E14000704",
                 "signature_count": 1
             },
             {
@@ -162,11 +171,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 30
+                "signature_count": 31
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T06:58:19.425Z"
+        "updated_at": "2019-04-12T18:30:08.576Z"
     },
     "id": 231009,
     "links": {
