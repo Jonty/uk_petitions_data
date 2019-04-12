@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-26T23:54:06.820Z",
         "opened_at": "2019-03-12T11:04:05.801Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 91,
+        "signature_count": 92,
         "signatures_by_constituency": [
             {
                 "mp": "Nigel Mills MP",
@@ -257,6 +260,12 @@
                 "mp": "Victoria Atkins MP",
                 "name": "Louth and Horncastle",
                 "ons_code": "E14000798",
+                "signature_count": 1
+            },
+            {
+                "mp": "Kelvin Hopkins MP",
+                "name": "Luton North",
+                "ons_code": "E14000800",
                 "signature_count": 1
             },
             {
@@ -521,11 +530,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 90
+                "signature_count": 91
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T14:07:57.028Z"
+        "updated_at": "2019-04-12T19:12:11.184Z"
     },
     "id": 243402,
     "links": {
