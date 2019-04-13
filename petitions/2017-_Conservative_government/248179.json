@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2019-03-26T11:57:31.497Z",
         "opened_at": "2019-04-04T17:02:31.569Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 15,
+        "signature_count": 16,
         "signatures_by_constituency": [
             {
                 "mp": "Lesley Laird MP",
                 "name": "Kirkcaldy and Cowdenbeath",
                 "ons_code": "S14000041",
+                "signature_count": 1
+            },
+            {
+                "mp": "Victoria Prentis MP",
+                "name": "Banbury",
+                "ons_code": "E14000539",
                 "signature_count": 1
             },
             {
@@ -72,11 +81,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 15
+                "signature_count": 16
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T21:58:05.745Z"
+        "updated_at": "2019-04-13T11:34:50.931Z"
     },
     "id": 248179,
     "links": {

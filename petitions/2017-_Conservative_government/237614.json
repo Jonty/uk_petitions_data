@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-19T10:43:22.552Z",
         "opened_at": "2019-01-24T16:56:12.270Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 20,
+        "signature_count": 21,
         "signatures_by_constituency": [
             {
                 "mp": "Conor Burns MP",
@@ -62,6 +65,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Nia Griffith MP",
+                "name": "Llanelli",
+                "ons_code": "W07000045",
+                "signature_count": 1
+            },
+            {
                 "mp": "Andy McDonald MP",
                 "name": "Middlesbrough",
                 "ons_code": "E14000819",
@@ -74,7 +83,7 @@
                 "signature_count": 2
             },
             {
-                "mp": null,
+                "mp": "Ruth Jones MP",
                 "name": "Newport West",
                 "ons_code": "W07000056",
                 "signature_count": 1
@@ -108,11 +117,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 20
+                "signature_count": 21
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T17:44:45.847Z"
+        "updated_at": "2019-04-13T11:37:42.507Z"
     },
     "id": 237614,
     "links": {
