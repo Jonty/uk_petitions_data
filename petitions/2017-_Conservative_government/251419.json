@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T13:03:03.569Z",
         "opened_at": "2019-04-02T08:38:30.914Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 26,
+        "signature_count": 27,
         "signatures_by_constituency": [
             {
                 "mp": "Leo Docherty MP",
@@ -92,6 +95,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Kelly Tolhurst MP",
+                "name": "Rochester and Strood",
+                "ons_code": "E14000898",
+                "signature_count": 1
+            },
+            {
                 "mp": "Sarah Champion MP",
                 "name": "Rotherham",
                 "ons_code": "E14000904",
@@ -144,11 +153,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 26
+                "signature_count": 27
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:14:40.773Z"
+        "updated_at": "2019-04-13T13:38:24.494Z"
     },
     "id": 251419,
     "links": {
