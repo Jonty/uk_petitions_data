@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-09-02T15:42:23.500Z",
         "opened_at": "2018-11-09T10:58:40.984Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 63,
+        "signature_count": 64,
         "signatures_by_constituency": [
             {
                 "mp": "Andrew Bowie MP",
@@ -185,6 +188,12 @@
                 "mp": "John Grogan MP",
                 "name": "Keighley",
                 "ons_code": "E14000766",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
                 "signature_count": 1
             },
             {
@@ -366,7 +375,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 62
+                "signature_count": 63
             },
             {
                 "code": "US",
@@ -375,7 +384,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-02T13:13:12.184Z"
+        "updated_at": "2019-04-13T01:17:15.633Z"
     },
     "id": 228173,
     "links": {

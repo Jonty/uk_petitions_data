@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-20T14:57:23.379Z",
         "opened_at": "2019-03-26T16:13:35.417Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 53,
+        "signature_count": 54,
         "signatures_by_constituency": [
             {
                 "mp": "Stephen Gethins MP",
@@ -131,6 +134,12 @@
                 "mp": "Chris Evans MP",
                 "name": "Islwyn",
                 "ons_code": "W07000077",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
                 "signature_count": 1
             },
             {
@@ -306,11 +315,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 45
+                "signature_count": 46
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T14:18:23.293Z"
+        "updated_at": "2019-04-13T01:26:19.146Z"
     },
     "id": 246157,
     "links": {

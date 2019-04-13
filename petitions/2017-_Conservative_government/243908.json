@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-02T18:22:51.372Z",
         "opened_at": "2019-03-13T12:39:59.130Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 56,
+        "signature_count": 57,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -140,6 +143,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
+                "signature_count": 1
+            },
+            {
                 "mp": "Fabian Hamilton MP",
                 "name": "Leeds North East",
                 "ons_code": "E14000779",
@@ -239,11 +248,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 55
+                "signature_count": 56
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T01:25:01.075Z"
+        "updated_at": "2019-04-13T01:25:58.953Z"
     },
     "id": 243908,
     "links": {

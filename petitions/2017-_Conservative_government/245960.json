@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-20T08:10:03.393Z",
         "opened_at": "2019-03-28T13:11:42.038Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 52,
+        "signature_count": 53,
         "signatures_by_constituency": [
             {
                 "mp": "Andrew Bowie MP",
@@ -131,6 +134,12 @@
                 "mp": "Catherine West MP",
                 "name": "Hornsey and Wood Green",
                 "ons_code": "E14000752",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
                 "signature_count": 1
             },
             {
@@ -267,11 +276,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 49
+                "signature_count": 50
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:04:35.483Z"
+        "updated_at": "2019-04-13T01:26:39.354Z"
     },
     "id": 245960,
     "links": {

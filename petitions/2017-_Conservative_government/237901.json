@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-22T15:13:25.938Z",
         "opened_at": "2019-01-30T19:09:24.801Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 56,
+        "signature_count": 57,
         "signatures_by_constituency": [
             {
                 "mp": "Drew Hendry MP",
@@ -89,6 +92,12 @@
                 "mp": "Rt Hon Emily Thornberry MP",
                 "name": "Islington South and Finsbury",
                 "ons_code": "E14000764",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
                 "signature_count": 1
             },
             {
@@ -286,11 +295,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 54
+                "signature_count": 55
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T04:47:38.277Z"
+        "updated_at": "2019-04-13T01:26:09.046Z"
     },
     "id": 237901,
     "links": {
