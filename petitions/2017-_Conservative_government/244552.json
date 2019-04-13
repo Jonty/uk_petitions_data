@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-07T21:49:59.066Z",
         "opened_at": "2019-03-20T08:52:30.369Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 41,
+        "signature_count": 42,
         "signatures_by_constituency": [
             {
                 "mp": "Chris Stephens MP",
@@ -101,6 +104,12 @@
                 "mp": "Rt Hon Sir Patrick McLoughlin MP",
                 "name": "Derbyshire Dales",
                 "ons_code": "E14000664",
+                "signature_count": 1
+            },
+            {
+                "mp": "Rt Hon Sammy Wilson MP",
+                "name": "East Antrim",
+                "ons_code": "N06000005",
                 "signature_count": 1
             },
             {
@@ -246,11 +255,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 41
+                "signature_count": 42
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T03:52:59.413Z"
+        "updated_at": "2019-04-13T13:07:03.846Z"
     },
     "id": 244552,
     "links": {
