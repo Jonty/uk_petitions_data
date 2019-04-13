@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-25T17:26:21.553Z",
         "opened_at": "2018-12-18T14:47:21.950Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 34,
+        "signature_count": 35,
         "signatures_by_constituency": [
             {
                 "mp": "Steve McCabe MP",
@@ -59,6 +62,12 @@
                 "mp": "Rt Hon Sammy Wilson MP",
                 "name": "East Antrim",
                 "ons_code": "N06000005",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
                 "signature_count": 1
             },
             {
@@ -131,11 +140,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 24
+                "signature_count": 25
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T20:35:04.552Z"
+        "updated_at": "2019-04-13T01:37:21.214Z"
     },
     "id": 233835,
     "links": {
