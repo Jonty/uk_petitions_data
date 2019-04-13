@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-12T16:07:24.008Z",
         "opened_at": "2019-02-25T17:14:34.955Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 94,
+        "signature_count": 95,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -29,6 +32,12 @@
                 "mp": "Stewart Malcolm McDonald MP",
                 "name": "Glasgow South",
                 "ons_code": "S14000034",
+                "signature_count": 1
+            },
+            {
+                "mp": "Alan Brown MP",
+                "name": "Kilmarnock and Loudoun",
+                "ons_code": "S14000040",
                 "signature_count": 1
             },
             {
@@ -462,11 +471,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 94
+                "signature_count": 95
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T22:51:05.491Z"
+        "updated_at": "2019-04-13T19:15:53.105Z"
     },
     "id": 241300,
     "links": {
