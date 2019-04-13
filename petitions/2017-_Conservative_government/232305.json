@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-08T12:12:00.847Z",
         "opened_at": "2018-11-15T10:37:53.943Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 160,
+        "signature_count": 161,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -348,6 +351,12 @@
                 "name": "Islington South and Finsbury",
                 "ons_code": "E14000764",
                 "signature_count": 2
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
+                "signature_count": 1
             },
             {
                 "mp": "Alex Sobel MP",
@@ -795,7 +804,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 155
+                "signature_count": 156
             },
             {
                 "code": "US",
@@ -804,7 +813,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T08:07:49.722Z"
+        "updated_at": "2019-04-13T00:56:18.784Z"
     },
     "id": 232305,
     "links": {

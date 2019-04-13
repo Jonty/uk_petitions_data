@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-26T22:08:05.445Z",
         "opened_at": "2019-01-03T19:24:44.820Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 146,
+        "signature_count": 147,
         "signatures_by_constituency": [
             {
                 "mp": "Douglas Ross MP",
@@ -299,6 +302,12 @@
                 "mp": "Mr Stephen Hepburn MP",
                 "name": "Jarrow",
                 "ons_code": "E14000765",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Dent Coad MP",
+                "name": "Kensington",
+                "ons_code": "E14000768",
                 "signature_count": 1
             },
             {
@@ -636,11 +645,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 146
+                "signature_count": 147
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T20:36:37.666Z"
+        "updated_at": "2019-04-13T00:59:29.465Z"
     },
     "id": 235990,
     "links": {
