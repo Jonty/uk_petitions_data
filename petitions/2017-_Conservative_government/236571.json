@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-05T17:28:55.224Z",
         "opened_at": "2019-01-19T10:17:49.484Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 55,
+        "signature_count": 56,
         "signatures_by_constituency": [
             {
                 "mp": "Pete Wishart MP",
@@ -116,6 +119,12 @@
                 "signature_count": 2
             },
             {
+                "mp": "Afzal Khan MP",
+                "name": "Manchester, Gorton",
+                "ons_code": "E14000808",
+                "signature_count": 1
+            },
+            {
                 "mp": "Rt Hon Dame Caroline Spelman MP",
                 "name": "Meriden",
                 "ons_code": "E14000812",
@@ -198,11 +207,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 55
+                "signature_count": 56
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T08:09:41.078Z"
+        "updated_at": "2019-04-14T10:35:21.643Z"
     },
     "id": 236571,
     "links": {
