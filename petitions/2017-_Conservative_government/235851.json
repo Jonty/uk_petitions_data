@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-22T09:40:26.041Z",
         "opened_at": "2019-01-02T17:51:06.690Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 152,
+        "signature_count": 153,
         "signatures_by_constituency": [
             {
                 "mp": "Ronnie Cowan MP",
@@ -530,6 +533,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Steve Double MP",
+                "name": "St Austell and Newquay",
+                "ons_code": "E14000961",
+                "signature_count": 1
+            },
+            {
                 "mp": "Jack Brereton MP",
                 "name": "Stoke-on-Trent South",
                 "ons_code": "E14000974",
@@ -652,7 +661,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 149
+                "signature_count": 150
             },
             {
                 "code": "US",
@@ -661,7 +670,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T20:16:55.462Z"
+        "updated_at": "2019-04-14T00:46:36.927Z"
     },
     "id": 235851,
     "links": {
