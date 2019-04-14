@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-16T12:51:58.593Z",
         "opened_at": "2018-10-23T16:36:35.614Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 110,
+        "signature_count": 111,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -320,6 +323,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Glyn Davies MP",
+                "name": "Montgomeryshire",
+                "ons_code": "W07000063",
+                "signature_count": 1
+            },
+            {
                 "mp": "Rt Hon Alistair Burt MP",
                 "name": "North East Bedfordshire",
                 "ons_code": "E14000841",
@@ -527,11 +536,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 109
+                "signature_count": 110
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T13:22:35.702Z"
+        "updated_at": "2019-04-14T16:30:56.627Z"
     },
     "id": 230492,
     "links": {
