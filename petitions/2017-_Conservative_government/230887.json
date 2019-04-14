@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-20T19:33:17.030Z",
         "opened_at": "2018-10-30T12:57:21.355Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 61,
+        "signature_count": 62,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -119,6 +122,12 @@
                 "mp": "Michelle Gildernew MP",
                 "name": "Fermanagh and South Tyrone",
                 "ons_code": "N06000007",
+                "signature_count": 1
+            },
+            {
+                "mp": "Jack Lopresti MP",
+                "name": "Filton and Bradley Stoke",
+                "ons_code": "E14000702",
                 "signature_count": 1
             },
             {
@@ -252,11 +261,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 61
+                "signature_count": 62
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T09:54:57.619Z"
+        "updated_at": "2019-04-14T22:43:54.244Z"
     },
     "id": 230887,
     "links": {

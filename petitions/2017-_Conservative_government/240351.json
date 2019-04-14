@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-03T10:49:22.089Z",
         "opened_at": "2019-02-19T11:34:09.152Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 90,
+        "signature_count": 91,
         "signatures_by_constituency": [
             {
                 "mp": "Joanna Cherry QC MP",
@@ -131,6 +134,12 @@
                 "mp": "Rt Hon Ben Bradshaw MP",
                 "name": "Exeter",
                 "ons_code": "E14000698",
+                "signature_count": 1
+            },
+            {
+                "mp": "Jack Lopresti MP",
+                "name": "Filton and Bradley Stoke",
+                "ons_code": "E14000702",
                 "signature_count": 1
             },
             {
@@ -318,11 +327,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 90
+                "signature_count": 91
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T22:38:14.480Z"
+        "updated_at": "2019-04-14T22:43:13.763Z"
     },
     "id": 240351,
     "links": {
