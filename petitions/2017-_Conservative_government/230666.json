@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-25T08:07:43.555Z",
         "opened_at": "2018-11-01T11:17:51.292Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 560,
+        "signature_count": 561,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -125,6 +128,12 @@
                 "mp": "Jack Dromey MP",
                 "name": "Birmingham, Erdington",
                 "ons_code": "E14000561",
+                "signature_count": 1
+            },
+            {
+                "mp": "Graham Stringer MP",
+                "name": "Blackley and Broughton",
+                "ons_code": "E14000571",
                 "signature_count": 1
             },
             {
@@ -1046,11 +1055,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 554
+                "signature_count": 555
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T09:31:32.465Z"
+        "updated_at": "2019-04-14T19:22:01.094Z"
     },
     "id": 230666,
     "links": {
