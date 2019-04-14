@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2018-11-03T11:06:51.996Z",
         "opened_at": "2018-11-22T11:10:20.558Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 68,
+        "signature_count": 69,
         "signatures_by_constituency": [
             {
                 "mp": "John McNally MP",
                 "name": "Falkirk",
                 "ons_code": "S14000028",
+                "signature_count": 1
+            },
+            {
+                "mp": "Danielle Rowley MP",
+                "name": "Midlothian",
+                "ons_code": "S14000045",
                 "signature_count": 1
             },
             {
@@ -372,11 +381,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 68
+                "signature_count": 69
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T16:15:09.700Z"
+        "updated_at": "2019-04-14T20:30:38.221Z"
     },
     "id": 231764,
     "links": {
