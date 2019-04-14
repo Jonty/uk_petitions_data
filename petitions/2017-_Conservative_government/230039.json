@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-09T05:22:14.777Z",
         "opened_at": "2018-10-15T13:16:08.357Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 167,
+        "signature_count": 168,
         "signatures_by_constituency": [
             {
                 "mp": "Victoria Prentis MP",
@@ -176,6 +179,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Kelly Tolhurst MP",
+                "name": "Rochester and Strood",
+                "ons_code": "E14000898",
+                "signature_count": 1
+            },
+            {
                 "mp": "Rt Hon Caroline Nokes MP",
                 "name": "Romsey and Southampton North",
                 "ons_code": "E14000901",
@@ -331,11 +340,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 161
+                "signature_count": 162
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T02:59:01.745Z"
+        "updated_at": "2019-04-14T13:30:26.403Z"
     },
     "id": 230039,
     "links": {
