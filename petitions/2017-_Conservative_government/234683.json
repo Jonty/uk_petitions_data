@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-08T03:30:49.947Z",
         "opened_at": "2018-12-17T17:18:32.876Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 261,
+        "signature_count": 262,
         "signatures_by_constituency": [
             {
                 "mp": "Alison Thewliss MP",
@@ -662,6 +665,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Andrew Lewer MP",
+                "name": "Northampton South",
+                "ons_code": "E14000862",
+                "signature_count": 1
+            },
+            {
                 "mp": "Lilian Greenwood MP",
                 "name": "Nottingham South",
                 "ons_code": "E14000867",
@@ -989,11 +998,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 260
+                "signature_count": 261
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T20:41:57.119Z"
+        "updated_at": "2019-04-14T18:34:05.532Z"
     },
     "id": 234683,
     "links": {
