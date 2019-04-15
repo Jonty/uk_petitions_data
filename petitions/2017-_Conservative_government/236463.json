@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-04T09:15:54.496Z",
         "opened_at": "2019-01-21T15:17:59.274Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 305,
+        "signature_count": 306,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -384,6 +387,12 @@
                 "name": "Enfield North",
                 "ons_code": "E14000691",
                 "signature_count": 2
+            },
+            {
+                "mp": "Rt Hon Ben Bradshaw MP",
+                "name": "Exeter",
+                "ons_code": "E14000698",
+                "signature_count": 1
             },
             {
                 "mp": "Seema Malhotra MP",
@@ -999,7 +1008,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 288
+                "signature_count": 289
             },
             {
                 "code": "US",
@@ -1008,7 +1017,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T19:39:59.666Z"
+        "updated_at": "2019-04-15T22:40:54.824Z"
     },
     "id": 236463,
     "links": {
