@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T11:35:15.658Z",
         "opened_at": "2019-03-29T18:20:43.347Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 1007,
+        "signature_count": 1008,
         "signatures_by_constituency": [
             {
                 "mp": "Ian Murray MP",
@@ -216,6 +219,12 @@
                 "name": "Barking",
                 "ons_code": "E14000540",
                 "signature_count": 3
+            },
+            {
+                "mp": "Rt Hon Maria Miller MP",
+                "name": "Basingstoke",
+                "ons_code": "E14000545",
+                "signature_count": 1
             },
             {
                 "mp": "John Mann MP",
@@ -2604,11 +2613,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 997
+                "signature_count": 998
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T12:28:24.114Z"
+        "updated_at": "2019-04-15T10:17:55.876Z"
     },
     "id": 251390,
     "links": {
