@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-06T00:03:34.845Z",
         "opened_at": "2018-12-13T10:36:36.730Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 500,
+        "signature_count": 501,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -1340,6 +1343,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Owen Smith MP",
+                "name": "Pontypridd",
+                "ons_code": "W07000075",
+                "signature_count": 1
+            },
+            {
                 "mp": "Sir Robert Syms MP",
                 "name": "Poole",
                 "ons_code": "E14000881",
@@ -1961,11 +1970,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 490
+                "signature_count": 491
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T08:01:26.423Z"
+        "updated_at": "2019-04-15T15:43:00.832Z"
     },
     "id": 234590,
     "links": {
