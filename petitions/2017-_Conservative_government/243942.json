@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-02T16:18:36.134Z",
         "opened_at": "2019-03-12T17:43:24.560Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 161,
+        "signature_count": 162,
         "signatures_by_constituency": [
             {
                 "mp": "Carol Monaghan MP",
@@ -530,6 +533,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Conor McGinn MP",
+                "name": "St Helens North",
+                "ons_code": "E14000962",
+                "signature_count": 1
+            },
+            {
                 "mp": "Gareth Snell MP",
                 "name": "Stoke-on-Trent Central",
                 "ons_code": "E14000972",
@@ -682,11 +691,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 156
+                "signature_count": 157
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T04:26:13.753Z"
+        "updated_at": "2019-04-15T18:13:57.301Z"
     },
     "id": 243942,
     "links": {
