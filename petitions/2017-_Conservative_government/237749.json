@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-19T21:04:05.736Z",
         "opened_at": "2019-02-05T11:49:07.375Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 1001,
+        "signature_count": 1002,
         "signatures_by_constituency": [
             {
                 "mp": "Ian Murray MP",
@@ -1784,6 +1787,12 @@
                 "signature_count": 7
             },
             {
+                "mp": "Barbara Keeley MP",
+                "name": "Worsley and Eccles South",
+                "ons_code": "E14001054",
+                "signature_count": 1
+            },
+            {
                 "mp": "Mr Steve Baker MP",
                 "name": "Wycombe",
                 "ons_code": "E14001056",
@@ -1836,7 +1845,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 999
+                "signature_count": 1000
             },
             {
                 "code": "US",
@@ -1850,7 +1859,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T22:42:30.227Z"
+        "updated_at": "2019-04-14T23:34:57.646Z"
     },
     "id": 237749,
     "links": {

@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-14T08:20:49.265Z",
         "opened_at": "2019-03-21T17:13:01.726Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 43,
+        "signature_count": 44,
         "signatures_by_constituency": [
             {
                 "mp": "Angela Rayner MP",
@@ -247,10 +250,15 @@
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 43
+            },
+            {
+                "code": "US",
+                "name": "United States",
+                "signature_count": 1
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T11:31:45.913Z"
+        "updated_at": "2019-04-14T23:45:30.333Z"
     },
     "id": 245116,
     "links": {
