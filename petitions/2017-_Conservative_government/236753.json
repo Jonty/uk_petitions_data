@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-08T14:21:19.047Z",
         "opened_at": "2019-01-18T15:03:17.325Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 110,
+        "signature_count": 111,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -101,6 +104,12 @@
                 "mp": "Dr Roberta Blackman-Woods MP",
                 "name": "City of Durham",
                 "ons_code": "E14000641",
+                "signature_count": 1
+            },
+            {
+                "mp": "Mr Jim Cunningham MP",
+                "name": "Coventry South",
+                "ons_code": "E14000651",
                 "signature_count": 1
             },
             {
@@ -342,11 +351,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 110
+                "signature_count": 111
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T18:19:18.942Z"
+        "updated_at": "2019-04-15T17:30:24.858Z"
     },
     "id": 236753,
     "links": {
