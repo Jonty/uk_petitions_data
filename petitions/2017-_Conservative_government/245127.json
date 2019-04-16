@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2019-03-13T19:43:30.037Z",
         "opened_at": "2019-03-19T15:38:37.020Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 12,
+        "signature_count": 13,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Sir David Evennett MP",
                 "name": "Bexleyheath and Crayford",
                 "ons_code": "E14000558",
+                "signature_count": 1
+            },
+            {
+                "mp": "Karin Smyth MP",
+                "name": "Bristol South",
+                "ons_code": "E14000601",
                 "signature_count": 1
             },
             {
@@ -89,11 +98,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 11
+                "signature_count": 12
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-01T19:55:04.919Z"
+        "updated_at": "2019-04-16T18:32:51.557Z"
     },
     "id": 245127,
     "links": {
