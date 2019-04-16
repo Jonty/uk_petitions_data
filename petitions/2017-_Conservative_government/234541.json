@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-05T18:33:31.974Z",
         "opened_at": "2018-12-18T11:34:12.784Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 66,
+        "signature_count": 67,
         "signatures_by_constituency": [
             {
                 "mp": "Joanna Cherry QC MP",
@@ -65,6 +68,12 @@
                 "mp": "Rt Hon Dominic Grieve QC MP",
                 "name": "Beaconsfield",
                 "ons_code": "E14000550",
+                "signature_count": 1
+            },
+            {
+                "mp": "Rt Hon Nigel Dodds MP",
+                "name": "Belfast North",
+                "ons_code": "N06000002",
                 "signature_count": 1
             },
             {
@@ -365,11 +374,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 65
+                "signature_count": 66
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T19:48:20.968Z"
+        "updated_at": "2019-04-16T12:55:09.324Z"
     },
     "id": 234541,
     "links": {
