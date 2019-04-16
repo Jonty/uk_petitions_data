@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-07T21:05:04.117Z",
         "opened_at": "2018-11-13T11:59:11.205Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 41,
+        "signature_count": 42,
         "signatures_by_constituency": [
             {
                 "mp": "Anne-Marie Trevelyan MP",
@@ -134,6 +137,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Kelly Tolhurst MP",
+                "name": "Rochester and Strood",
+                "ons_code": "E14000898",
+                "signature_count": 1
+            },
+            {
                 "mp": "Mrs Kemi Badenoch MP",
                 "name": "Saffron Walden",
                 "ons_code": "E14000910",
@@ -186,11 +195,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 41
+                "signature_count": 42
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-31T20:18:53.658Z"
+        "updated_at": "2019-04-16T16:06:27.411Z"
     },
     "id": 232214,
     "links": {
