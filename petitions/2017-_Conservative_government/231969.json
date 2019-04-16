@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-09T14:14:54.583Z",
         "opened_at": "2018-11-16T14:11:03.089Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 41,
+        "signature_count": 42,
         "signatures_by_constituency": [
             {
                 "mp": "Leo Docherty MP",
@@ -128,6 +131,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Clive Lewis MP",
+                "name": "Norwich South",
+                "ons_code": "E14000864",
+                "signature_count": 1
+            },
+            {
                 "mp": "Sir Robert Syms MP",
                 "name": "Poole",
                 "ons_code": "E14000881",
@@ -215,11 +224,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 40
+                "signature_count": 41
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T00:52:24.890Z"
+        "updated_at": "2019-04-16T06:58:35.650Z"
     },
     "id": 231969,
     "links": {
