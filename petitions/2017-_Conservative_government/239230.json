@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-27T13:53:28.812Z",
         "opened_at": "2019-02-01T15:22:16.838Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 69,
+        "signature_count": 70,
         "signatures_by_constituency": [
             {
                 "mp": "Peter Grant MP",
@@ -47,6 +50,12 @@
                 "mp": "Rt Hon Frank Field MP",
                 "name": "Birkenhead",
                 "ons_code": "E14000559",
+                "signature_count": 1
+            },
+            {
+                "mp": "Mr Ronnie Campbell MP",
+                "name": "Blyth Valley",
+                "ons_code": "E14000575",
                 "signature_count": 1
             },
             {
@@ -402,11 +411,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 69
+                "signature_count": 70
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T23:16:26.588Z"
+        "updated_at": "2019-04-16T19:35:33.557Z"
     },
     "id": 239230,
     "links": {
