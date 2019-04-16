@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-02T11:22:25.551Z",
         "opened_at": "2018-12-12T19:24:46.429Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 68,
+        "signature_count": 69,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon David Lidington MP",
@@ -333,13 +336,18 @@
                 "signature_count": 1
             },
             {
+                "code": "IL",
+                "name": "Israel",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 66
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T08:59:49.392Z"
+        "updated_at": "2019-04-16T07:27:56.177Z"
     },
     "id": 234322,
     "links": {
