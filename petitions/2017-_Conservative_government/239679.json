@@ -14,11 +14,20 @@
         "moderation_threshold_reached_at": "2019-01-29T11:15:56.238Z",
         "opened_at": "2019-02-12T12:13:39.071Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 291,
+        "signature_count": 292,
         "signatures_by_constituency": [
+            {
+                "mp": "Ross Thomson MP",
+                "name": "Aberdeen South",
+                "ons_code": "S14000002",
+                "signature_count": 1
+            },
             {
                 "mp": "Patricia Gibson MP",
                 "name": "North Ayrshire and Arran",
@@ -696,7 +705,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 290
+                "signature_count": 291
             },
             {
                 "code": "UY",
@@ -705,7 +714,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T14:01:53.211Z"
+        "updated_at": "2019-04-16T10:57:26.159Z"
     },
     "id": 239679,
     "links": {

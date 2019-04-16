@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-05T13:21:22.317Z",
         "opened_at": "2018-12-17T10:20:58.240Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 131,
+        "signature_count": 132,
         "signatures_by_constituency": [
             {
                 "mp": "John McNally MP",
@@ -197,6 +200,12 @@
                 "mp": "Rt Hon Emily Thornberry MP",
                 "name": "Islington South and Finsbury",
                 "ons_code": "E14000764",
+                "signature_count": 1
+            },
+            {
+                "mp": "Chris Evans MP",
+                "name": "Islwyn",
+                "ons_code": "W07000077",
                 "signature_count": 1
             },
             {
@@ -437,11 +446,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 130
+                "signature_count": 131
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:06:26.812Z"
+        "updated_at": "2019-04-16T10:55:15.232Z"
     },
     "id": 234540,
     "links": {
