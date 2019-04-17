@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-19T15:19:07.796Z",
         "opened_at": "2018-12-20T18:59:23.113Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 23,
+        "signature_count": 24,
         "signatures_by_constituency": [
             {
                 "mp": "Mr Ian Liddell-Grainger MP",
@@ -132,6 +135,12 @@
                 "name": "Wirral West",
                 "ons_code": "E14001044",
                 "signature_count": 2
+            },
+            {
+                "mp": "Hugh Gaffney MP",
+                "name": "Coatbridge, Chryston and Bellshill",
+                "ons_code": "S14000011",
+                "signature_count": 1
             }
         ],
         "signatures_by_country": [
@@ -143,11 +152,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 22
+                "signature_count": 23
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-06T20:08:36.036Z"
+        "updated_at": "2019-04-17T15:32:19.949Z"
     },
     "id": 235502,
     "links": {

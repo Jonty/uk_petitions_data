@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-31T16:47:15.099Z",
         "opened_at": "2019-02-11T11:29:16.593Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 8,
+        "signature_count": 10,
         "signatures_by_constituency": [
             {
                 "mp": "Mr Jim Cunningham MP",
@@ -30,17 +33,28 @@
                 "name": "Peterborough",
                 "ons_code": "E14000878",
                 "signature_count": 6
+            },
+            {
+                "mp": "Hugh Gaffney MP",
+                "name": "Coatbridge, Chryston and Bellshill",
+                "ons_code": "S14000011",
+                "signature_count": 1
             }
         ],
         "signatures_by_country": [
             {
+                "code": "CA",
+                "name": "Canada",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 7
+                "signature_count": 8
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-25T02:31:13.978Z"
+        "updated_at": "2019-04-17T15:28:58.242Z"
     },
     "id": 240044,
     "links": {

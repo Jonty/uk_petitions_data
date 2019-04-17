@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-04-01T19:51:12.909Z",
         "opened_at": "2019-04-09T16:29:26.000Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 12,
+        "signature_count": 13,
         "signatures_by_constituency": [
             {
                 "mp": "Bob Stewart MP",
@@ -60,17 +63,23 @@
                 "name": "Warrington North",
                 "ons_code": "E14001017",
                 "signature_count": 2
+            },
+            {
+                "mp": "Hugh Gaffney MP",
+                "name": "Coatbridge, Chryston and Bellshill",
+                "ons_code": "S14000011",
+                "signature_count": 1
             }
         ],
         "signatures_by_country": [
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 12
+                "signature_count": 13
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T05:54:27.413Z"
+        "updated_at": "2019-04-17T15:30:29.105Z"
     },
     "id": 253083,
     "links": {

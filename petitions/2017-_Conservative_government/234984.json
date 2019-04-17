@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-11T17:11:20.586Z",
         "opened_at": "2018-12-19T13:02:34.598Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 20,
+        "signature_count": 21,
         "signatures_by_constituency": [
             {
                 "mp": "Marsha De Cordova MP",
@@ -120,6 +123,12 @@
                 "name": "Watford",
                 "ons_code": "E14001021",
                 "signature_count": 1
+            },
+            {
+                "mp": "Hugh Gaffney MP",
+                "name": "Coatbridge, Chryston and Bellshill",
+                "ons_code": "S14000011",
+                "signature_count": 1
             }
         ],
         "signatures_by_country": [
@@ -131,11 +140,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 19
+                "signature_count": 20
             }
         ],
         "state": "open",
-        "updated_at": "2018-12-19T13:02:42.200Z"
+        "updated_at": "2019-04-17T15:32:09.817Z"
     },
     "id": 234984,
     "links": {
