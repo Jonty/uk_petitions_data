@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-26T08:40:19.476Z",
         "opened_at": "2018-11-02T10:48:30.302Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 55,
+        "signature_count": 56,
         "signatures_by_constituency": [
             {
                 "mp": "Alison Thewliss MP",
@@ -60,6 +63,12 @@
                 "name": "Battersea",
                 "ons_code": "E14000549",
                 "signature_count": 2
+            },
+            {
+                "mp": "Bob Stewart MP",
+                "name": "Beckenham",
+                "ons_code": "E14000551",
+                "signature_count": 1
             },
             {
                 "mp": "Preet Kaur Gill MP",
@@ -318,11 +327,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 55
+                "signature_count": 56
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T14:47:38.575Z"
+        "updated_at": "2019-04-17T15:51:02.565Z"
     },
     "id": 230900,
     "links": {
