@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-03T23:28:15.134Z",
         "opened_at": "2019-03-18T10:25:23.959Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 18,
+        "signature_count": 19,
         "signatures_by_constituency": [
             {
                 "mp": "Huw Merriman MP",
@@ -35,6 +38,12 @@
                 "mp": "Rebecca Harris MP",
                 "name": "Castle Point",
                 "ons_code": "E14000622",
+                "signature_count": 1
+            },
+            {
+                "mp": "Ben Lake MP",
+                "name": "Ceredigion",
+                "ons_code": "W07000064",
                 "signature_count": 1
             },
             {
@@ -120,11 +129,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 18
+                "signature_count": 19
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-04T19:38:20.292Z"
+        "updated_at": "2019-04-17T13:13:59.804Z"
     },
     "id": 244102,
     "links": {

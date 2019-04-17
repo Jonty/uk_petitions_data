@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-19T00:36:07.248Z",
         "opened_at": "2018-12-20T18:37:33.389Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 266,
+        "signature_count": 267,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -1046,6 +1049,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Mr Adrian Bailey MP",
+                "name": "West Bromwich West",
+                "ons_code": "E14001030",
+                "signature_count": 1
+            },
+            {
                 "mp": "Rt Hon Sir Oliver Letwin MP",
                 "name": "West Dorset",
                 "ons_code": "E14001031",
@@ -1228,11 +1237,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 241
+                "signature_count": 242
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-06T22:22:09.179Z"
+        "updated_at": "2019-04-17T13:22:14.072Z"
     },
     "id": 235596,
     "links": {
