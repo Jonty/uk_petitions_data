@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-13T15:45:09.776Z",
         "opened_at": "2019-01-21T13:02:28.383Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 31,
+        "signature_count": 32,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -47,6 +50,12 @@
                 "mp": "Chris Heaton-Harris MP",
                 "name": "Daventry",
                 "ons_code": "E14000660",
+                "signature_count": 1
+            },
+            {
+                "mp": "Stephen Lloyd MP",
+                "name": "Eastbourne",
+                "ons_code": "E14000684",
                 "signature_count": 1
             },
             {
@@ -119,11 +128,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 30
+                "signature_count": 31
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-06T13:38:39.807Z"
+        "updated_at": "2019-04-17T10:44:39.188Z"
     },
     "id": 237139,
     "links": {
