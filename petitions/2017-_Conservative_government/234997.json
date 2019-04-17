@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-12T09:32:25.021Z",
         "opened_at": "2018-12-18T11:07:54.465Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 167,
+        "signature_count": 168,
         "signatures_by_constituency": [
             {
                 "mp": "Christine Jardine MP",
@@ -404,6 +407,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Anneliese Dodds MP",
+                "name": "Oxford East",
+                "ons_code": "E14000873",
+                "signature_count": 1
+            },
+            {
                 "mp": "Sir Robert Syms MP",
                 "name": "Poole",
                 "ons_code": "E14000881",
@@ -594,11 +603,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 167
+                "signature_count": 168
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T09:09:09.813Z"
+        "updated_at": "2019-04-17T11:05:47.698Z"
     },
     "id": 234997,
     "links": {
