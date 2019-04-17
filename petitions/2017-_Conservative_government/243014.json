@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-24T08:32:32.369Z",
         "opened_at": "2019-03-06T15:03:23.307Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 33,
+        "signature_count": 34,
         "signatures_by_constituency": [
             {
                 "mp": "John McNally MP",
@@ -184,13 +187,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "FR",
+                "name": "France",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 33
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:03:24.801Z"
+        "updated_at": "2019-04-17T13:49:48.030Z"
     },
     "id": 243014,
     "links": {
