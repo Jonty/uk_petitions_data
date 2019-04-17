@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-10-25T15:10:47.576Z",
         "opened_at": "2018-11-01T19:03:27.973Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 56,
+        "signature_count": 57,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -284,6 +287,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Jack Brereton MP",
+                "name": "Stoke-on-Trent South",
+                "ons_code": "E14000974",
+                "signature_count": 1
+            },
+            {
                 "mp": "Kate Hoey MP",
                 "name": "Vauxhall",
                 "ons_code": "E14001008",
@@ -324,11 +333,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 56
+                "signature_count": 57
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T14:13:36.660Z"
+        "updated_at": "2019-04-17T17:19:17.787Z"
     },
     "id": 231184,
     "links": {
