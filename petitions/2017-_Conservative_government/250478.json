@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T01:44:48.312Z",
         "opened_at": "2019-04-01T09:17:20.471Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 52,
+        "signature_count": 53,
         "signatures_by_constituency": [
             {
                 "mp": "Stephen Kinnock MP",
@@ -218,6 +221,12 @@
                 "signature_count": 2
             },
             {
+                "mp": "Rt Hon David Lammy MP",
+                "name": "Tottenham",
+                "ons_code": "E14001002",
+                "signature_count": 1
+            },
+            {
                 "mp": "Ms Nusrat Ghani MP",
                 "name": "Wealden",
                 "ons_code": "E14001023",
@@ -234,11 +243,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 52
+                "signature_count": 53
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T18:12:08.814Z"
+        "updated_at": "2019-04-18T13:42:48.990Z"
     },
     "id": 250478,
     "links": {
