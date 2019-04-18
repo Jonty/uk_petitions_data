@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-06T18:34:34.691Z",
         "opened_at": "2018-12-12T10:42:59.451Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 82,
+        "signature_count": 83,
         "signatures_by_constituency": [
             {
                 "mp": "Tracy Brabin MP",
@@ -83,6 +86,12 @@
                 "mp": "Helen Whately MP",
                 "name": "Faversham and Mid Kent",
                 "ons_code": "E14000700",
+                "signature_count": 1
+            },
+            {
+                "mp": "Jack Lopresti MP",
+                "name": "Filton and Bradley Stoke",
+                "ons_code": "E14000702",
                 "signature_count": 1
             },
             {
@@ -316,11 +325,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 79
+                "signature_count": 80
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T10:09:38.885Z"
+        "updated_at": "2019-04-18T10:04:55.547Z"
     },
     "id": 234614,
     "links": {
