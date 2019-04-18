@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-09T14:18:53.526Z",
         "opened_at": "2019-03-14T13:16:55.011Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 21,
+        "signature_count": 22,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -48,6 +51,12 @@
                 "name": "Hemel Hempstead",
                 "ons_code": "E14000739",
                 "signature_count": 6
+            },
+            {
+                "mp": "Jonathan Ashworth MP",
+                "name": "Leicester South",
+                "ons_code": "E14000783",
+                "signature_count": 1
             },
             {
                 "mp": "Mr Gavin Shuker MP",
@@ -90,11 +99,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 18
+                "signature_count": 19
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T18:52:05.807Z"
+        "updated_at": "2019-04-18T14:11:14.968Z"
     },
     "id": 244679,
     "links": {
