@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-26T09:39:33.121Z",
         "opened_at": "2019-03-11T15:35:56.998Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 32,
+        "signature_count": 33,
         "signatures_by_constituency": [
             {
                 "mp": "Wera Hobhouse MP",
@@ -66,6 +69,12 @@
                 "name": "Newbury",
                 "ons_code": "E14000830",
                 "signature_count": 12
+            },
+            {
+                "mp": "Mr Jacob Rees-Mogg MP",
+                "name": "North East Somerset",
+                "ons_code": "E14000846",
+                "signature_count": 1
             },
             {
                 "mp": "Rt Hon Justine Greening MP",
@@ -132,11 +141,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 32
+                "signature_count": 33
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T16:37:30.543Z"
+        "updated_at": "2019-04-18T00:25:58.422Z"
     },
     "id": 242205,
     "links": {
