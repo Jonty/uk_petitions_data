@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-15T10:04:21.831Z",
         "opened_at": "2018-11-26T17:16:38.012Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 117,
+        "signature_count": 118,
         "signatures_by_constituency": [
             {
                 "mp": "Alan Brown MP",
@@ -218,6 +221,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Owen Smith MP",
+                "name": "Pontypridd",
+                "ons_code": "W07000075",
+                "signature_count": 1
+            },
+            {
                 "mp": "Mark Pawsey MP",
                 "name": "Rugby",
                 "ons_code": "E14000905",
@@ -310,11 +319,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 113
+                "signature_count": 114
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T03:00:23.191Z"
+        "updated_at": "2019-04-19T19:35:48.792Z"
     },
     "id": 232973,
     "links": {
