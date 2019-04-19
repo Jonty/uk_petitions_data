@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-09T11:16:21.164Z",
         "opened_at": "2019-01-15T18:13:05.510Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 61,
+        "signature_count": 62,
         "signatures_by_constituency": [
             {
                 "mp": "Gavin Newlands MP",
@@ -149,6 +152,12 @@
                 "mp": "Rt Hon Emily Thornberry MP",
                 "name": "Islington South and Finsbury",
                 "ons_code": "E14000764",
+                "signature_count": 1
+            },
+            {
+                "mp": "Emma Hardy MP",
+                "name": "Kingston upon Hull West and Hessle",
+                "ons_code": "E14000773",
                 "signature_count": 1
             },
             {
@@ -318,11 +327,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 61
+                "signature_count": 62
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T10:46:12.703Z"
+        "updated_at": "2019-04-19T09:52:57.588Z"
     },
     "id": 236797,
     "links": {
