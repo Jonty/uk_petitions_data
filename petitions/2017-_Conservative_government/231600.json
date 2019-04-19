@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2018-10-31T17:46:40.334Z",
         "opened_at": "2018-11-08T11:50:25.783Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 26,
+        "signature_count": 27,
         "signatures_by_constituency": [
             {
                 "mp": "Alison Thewliss MP",
                 "name": "Glasgow Central",
                 "ons_code": "S14000029",
+                "signature_count": 1
+            },
+            {
+                "mp": "Stephen Kerr MP",
+                "name": "Stirling",
+                "ons_code": "S14000057",
                 "signature_count": 1
             },
             {
@@ -101,11 +110,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 25
+                "signature_count": 26
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T23:20:41.078Z"
+        "updated_at": "2019-04-19T18:44:47.310Z"
     },
     "id": 231600,
     "links": {
