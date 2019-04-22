@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-23T10:36:22.560Z",
         "opened_at": "2019-03-05T17:24:37.004Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 25,
+        "signature_count": 26,
         "signatures_by_constituency": [
             {
                 "mp": "John McNally MP",
@@ -35,6 +38,12 @@
                 "mp": "Anne-Marie Trevelyan MP",
                 "name": "Berwick-upon-Tweed",
                 "ons_code": "E14000554",
+                "signature_count": 1
+            },
+            {
+                "mp": "Rosie Duffield MP",
+                "name": "Canterbury",
+                "ons_code": "E14000619",
                 "signature_count": 1
             },
             {
@@ -126,11 +135,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 25
+                "signature_count": 26
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T00:57:56.756Z"
+        "updated_at": "2019-04-22T07:34:08.875Z"
     },
     "id": 242754,
     "links": {
