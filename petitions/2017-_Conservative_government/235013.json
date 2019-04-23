@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-11T22:45:37.767Z",
         "opened_at": "2018-12-18T11:06:12.842Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 64,
+        "signature_count": 65,
         "signatures_by_constituency": [
             {
                 "mp": "Carol Monaghan MP",
@@ -206,6 +209,12 @@
                 "signature_count": 2
             },
             {
+                "mp": "Andrew Stephenson MP",
+                "name": "Pendle",
+                "ons_code": "E14000875",
+                "signature_count": 1
+            },
+            {
                 "mp": "Stuart Andrew MP",
                 "name": "Pudsey",
                 "ons_code": "E14000886",
@@ -306,11 +315,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 64
+                "signature_count": 65
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:05:36.159Z"
+        "updated_at": "2019-04-23T08:35:49.702Z"
     },
     "id": 235013,
     "links": {
