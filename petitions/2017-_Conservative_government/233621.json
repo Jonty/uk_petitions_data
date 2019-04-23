@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-22T14:49:49.206Z",
         "opened_at": "2018-11-29T09:51:08.022Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 514,
+        "signature_count": 515,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -1184,6 +1187,12 @@
                 "signature_count": 3
             },
             {
+                "mp": "Andrew Stephenson MP",
+                "name": "Pendle",
+                "ons_code": "E14000875",
+                "signature_count": 1
+            },
+            {
                 "mp": "Angela Smith MP",
                 "name": "Penistone and Stocksbridge",
                 "ons_code": "E14000876",
@@ -1885,7 +1894,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 506
+                "signature_count": 507
             },
             {
                 "code": "US",
@@ -1894,7 +1903,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T20:39:08.902Z"
+        "updated_at": "2019-04-23T08:21:21.692Z"
     },
     "id": 233621,
     "links": {
