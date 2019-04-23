@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2018-12-11T13:51:44.054Z",
         "opened_at": "2018-12-17T18:55:20.516Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 39,
+        "signature_count": 40,
         "signatures_by_constituency": [
             {
                 "mp": "Leo Docherty MP",
                 "name": "Aldershot",
                 "ons_code": "E14000530",
+                "signature_count": 1
+            },
+            {
+                "mp": "Gordon Marsden MP",
+                "name": "Blackpool South",
+                "ons_code": "E14000573",
                 "signature_count": 1
             },
             {
@@ -132,11 +141,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 39
+                "signature_count": 40
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T07:54:23.566Z"
+        "updated_at": "2019-04-23T09:10:23.769Z"
     },
     "id": 234945,
     "links": {
