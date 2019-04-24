@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-20T13:42:00.892Z",
         "opened_at": "2019-03-27T12:03:22.850Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 60,
+        "signature_count": 61,
         "signatures_by_constituency": [
             {
                 "mp": "Stephen Kinnock MP",
@@ -128,6 +131,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Owen Smith MP",
+                "name": "Pontypridd",
+                "ons_code": "W07000075",
+                "signature_count": 1
+            },
+            {
                 "mp": "Rt Hon Stephen Crabb MP",
                 "name": "Preseli Pembrokeshire",
                 "ons_code": "W07000065",
@@ -167,7 +176,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 58
+                "signature_count": 59
             },
             {
                 "code": "ZW",
@@ -176,7 +185,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T09:07:03.074Z"
+        "updated_at": "2019-04-24T22:11:57.581Z"
     },
     "id": 245966,
     "links": {
