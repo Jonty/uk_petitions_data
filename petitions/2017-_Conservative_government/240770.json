@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-06T21:35:09.257Z",
         "opened_at": "2019-02-19T16:57:18.596Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 159,
+        "signature_count": 160,
         "signatures_by_constituency": [
             {
                 "mp": "Luke Graham MP",
@@ -83,6 +86,12 @@
                 "mp": "David Tredinnick MP",
                 "name": "Bosworth",
                 "ons_code": "E14000583",
+                "signature_count": 1
+            },
+            {
+                "mp": "Judith Cummins MP",
+                "name": "Bradford South",
+                "ons_code": "E14000588",
                 "signature_count": 1
             },
             {
@@ -498,11 +507,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 159
+                "signature_count": 160
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-06T07:02:31.960Z"
+        "updated_at": "2019-04-24T00:39:05.664Z"
     },
     "id": 240770,
     "links": {
