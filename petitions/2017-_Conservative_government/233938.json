@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-26T21:37:30.007Z",
         "opened_at": "2018-12-05T17:20:59.770Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 156,
+        "signature_count": 157,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -368,6 +371,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Mr Gavin Shuker MP",
+                "name": "Luton South",
+                "ons_code": "E14000801",
+                "signature_count": 1
+            },
+            {
                 "mp": "Mrs Helen Grant MP",
                 "name": "Maidstone and The Weald",
                 "ons_code": "E14000804",
@@ -612,11 +621,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 156
+                "signature_count": 157
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-09T18:38:48.384Z"
+        "updated_at": "2019-04-25T15:03:15.850Z"
     },
     "id": 233938,
     "links": {
