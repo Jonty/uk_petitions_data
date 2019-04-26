@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-10T12:50:50.766Z",
         "opened_at": "2018-11-16T14:43:54.714Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 336,
+        "signature_count": 337,
         "signatures_by_constituency": [
             {
                 "mp": "Deidre Brock MP",
@@ -191,6 +194,12 @@
                 "mp": "Conor Burns MP",
                 "name": "Bournemouth West",
                 "ons_code": "E14000585",
+                "signature_count": 1
+            },
+            {
+                "mp": "Imran Hussain MP",
+                "name": "Bradford East",
+                "ons_code": "E14000587",
                 "signature_count": 1
             },
             {
@@ -1284,11 +1293,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 336
+                "signature_count": 337
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T11:33:06.316Z"
+        "updated_at": "2019-04-26T22:21:19.494Z"
     },
     "id": 232529,
     "links": {
