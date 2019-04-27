@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-02T16:08:31.114Z",
         "opened_at": "2019-01-18T14:22:10.048Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 45,
+        "signature_count": 46,
         "signatures_by_constituency": [
             {
                 "mp": "Nigel Mills MP",
@@ -216,17 +219,23 @@
                 "name": "West Worcestershire",
                 "ons_code": "E14001035",
                 "signature_count": 1
+            },
+            {
+                "mp": "Alison McGovern MP",
+                "name": "Wirral South",
+                "ons_code": "E14001043",
+                "signature_count": 1
             }
         ],
         "signatures_by_country": [
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 37
+                "signature_count": 38
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T10:16:28.949Z"
+        "updated_at": "2019-04-27T06:09:32.858Z"
     },
     "id": 236371,
     "links": {
