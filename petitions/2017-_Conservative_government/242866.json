@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-22T10:47:43.709Z",
         "opened_at": "2019-03-05T10:42:06.006Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 259,
+        "signature_count": 260,
         "signatures_by_constituency": [
             {
                 "mp": "Joanna Cherry QC MP",
@@ -257,6 +260,12 @@
                 "mp": "Giles Watling MP",
                 "name": "Clacton",
                 "ons_code": "E14000642",
+                "signature_count": 1
+            },
+            {
+                "mp": "Trudy Harrison MP",
+                "name": "Copeland",
+                "ons_code": "E14000647",
                 "signature_count": 1
             },
             {
@@ -863,7 +872,7 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 257
+                "signature_count": 258
             },
             {
                 "code": "US",
@@ -872,7 +881,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-04T18:57:29.486Z"
+        "updated_at": "2019-04-27T06:34:44.114Z"
     },
     "id": 242866,
     "links": {
