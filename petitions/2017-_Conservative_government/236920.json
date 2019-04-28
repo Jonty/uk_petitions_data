@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-12T22:17:23.360Z",
         "opened_at": "2019-01-19T13:11:02.157Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 94,
+        "signature_count": 95,
         "signatures_by_constituency": [
             {
                 "mp": "Stephen Kerr MP",
@@ -36,6 +39,12 @@
                 "name": "Barrow and Furness",
                 "ons_code": "E14000543",
                 "signature_count": 2
+            },
+            {
+                "mp": "Wera Hobhouse MP",
+                "name": "Bath",
+                "ons_code": "E14000547",
+                "signature_count": 1
             },
             {
                 "mp": "Tracy Brabin MP",
@@ -421,11 +430,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 83
+                "signature_count": 84
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-09T21:06:16.562Z"
+        "updated_at": "2019-04-28T20:44:58.042Z"
     },
     "id": 236920,
     "links": {
