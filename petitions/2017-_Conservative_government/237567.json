@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-17T17:06:01.145Z",
         "opened_at": "2019-02-04T16:44:57.634Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 351,
+        "signature_count": 352,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -830,6 +833,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Matt Rodda MP",
+                "name": "Reading East",
+                "ons_code": "E14000889",
+                "signature_count": 1
+            },
+            {
                 "mp": "Andrew Rosindell MP",
                 "name": "Romford",
                 "ons_code": "E14000900",
@@ -1297,11 +1306,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 333
+                "signature_count": 334
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-30T14:47:39.363Z"
+        "updated_at": "2019-04-28T19:52:23.430Z"
     },
     "id": 237567,
     "links": {
