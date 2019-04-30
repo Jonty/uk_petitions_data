@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-16T20:56:37.507Z",
         "opened_at": "2019-03-27T14:53:34.716Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 7,
+        "signature_count": 8,
         "signatures_by_constituency": [
             {
                 "mp": "Tommy Sheppard MP",
@@ -2396,6 +2399,12 @@
                 "signature_count": 0
             },
             {
+                "mp": "Sir David Amess MP",
+                "name": "Southend West",
+                "ons_code": "E14000957",
+                "signature_count": 1
+            },
+            {
                 "mp": "Kwasi Kwarteng MP",
                 "name": "Spelthorne",
                 "ons_code": "E14000959",
@@ -2970,11 +2979,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 7
+                "signature_count": 8
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-10T20:31:28.847Z"
+        "updated_at": "2019-04-30T00:12:30.238Z"
     },
     "id": 245003,
     "links": {
