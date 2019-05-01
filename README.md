@@ -16,7 +16,7 @@ Done:
 
 * A complete dump of all the basic petitions data for every public petition for every government
 * A complete dump of petitions.number10.gov.uk converted into the same format as the modern petitions website
-* Automatic daily updates by a CircleCi job
+* Automatic hourly updates by a CircleCi job
 * Vote counts by country and constituency
 
 Not done:
