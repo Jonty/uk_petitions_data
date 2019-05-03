@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-11-05T15:06:02.082Z",
         "opened_at": "2018-11-12T11:09:31.473Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 98,
+        "signature_count": 99,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Nigel Dodds MP",
@@ -71,6 +74,12 @@
                 "mp": "Dr Roberta Blackman-Woods MP",
                 "name": "City of Durham",
                 "ons_code": "E14000641",
+                "signature_count": 1
+            },
+            {
+                "mp": "Mr Steve Reed MP",
+                "name": "Croydon North",
+                "ons_code": "E14000655",
                 "signature_count": 1
             },
             {
@@ -456,11 +465,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 98
+                "signature_count": 99
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-30T12:06:47.124Z"
+        "updated_at": "2019-05-03T18:45:36.171Z"
     },
     "id": 231965,
     "links": {
