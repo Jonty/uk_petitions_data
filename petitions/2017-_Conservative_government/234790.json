@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-08T19:22:56.831Z",
         "opened_at": "2018-12-14T13:28:32.879Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 40,
+        "signature_count": 41,
         "signatures_by_constituency": [
             {
                 "mp": "Leo Docherty MP",
@@ -47,6 +50,12 @@
                 "mp": "Craig Whittaker MP",
                 "name": "Calder Valley",
                 "ons_code": "E14000614",
+                "signature_count": 1
+            },
+            {
+                "mp": "Rt Hon Mel Stride MP",
+                "name": "Central Devon",
+                "ons_code": "E14000623",
                 "signature_count": 1
             },
             {
@@ -209,11 +218,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 38
+                "signature_count": 39
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-08T23:21:41.307Z"
+        "updated_at": "2019-05-03T08:18:16.343Z"
     },
     "id": 234790,
     "links": {
