@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-07T19:39:32.672Z",
         "opened_at": "2019-02-20T17:10:48.134Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 16,
+        "signature_count": 17,
         "signatures_by_constituency": [
             {
                 "mp": "Laura Smith MP",
@@ -35,6 +38,12 @@
                 "mp": "Jonathan Ashworth MP",
                 "name": "Leicester South",
                 "ons_code": "E14000783",
+                "signature_count": 1
+            },
+            {
+                "mp": "Mr Gavin Shuker MP",
+                "name": "Luton South",
+                "ons_code": "E14000801",
                 "signature_count": 1
             },
             {
@@ -78,11 +87,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 16
+                "signature_count": 17
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-17T20:37:44.634Z"
+        "updated_at": "2019-05-04T19:12:11.307Z"
     },
     "id": 240827,
     "links": {
