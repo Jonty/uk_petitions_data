@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-20T17:00:18.237Z",
         "opened_at": "2018-12-20T20:10:55.622Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 68,
+        "signature_count": 69,
         "signatures_by_constituency": [
             {
                 "mp": "Danielle Rowley MP",
@@ -280,13 +283,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 68
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-01T21:42:07.297Z"
+        "updated_at": "2019-05-05T02:11:20.769Z"
     },
     "id": 235748,
     "links": {
