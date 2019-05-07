@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/869133/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/869133/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/869133/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/869133/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/869133/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T23:00:02.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869133",
+                    "label": {
+                        "_value": "Make A levels 3 years. This is to avoid psychological stress for young people."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/965363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-03T18:55:10.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869133",
+                    "label": {
+                        "_value": "Make A levels 3 years. This is to avoid psychological stress for young people."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/943637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T23:51:58.641Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869133",
+                    "label": {
+                        "_value": "Make A levels 3 years. This is to avoid psychological stress for young people."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933517",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-28T17:49:10.747Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869133",
+                    "label": {
+                        "_value": "Make A levels 3 years. This is to avoid psychological stress for young people."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/869134",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-21T14:28:17.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869133",
+                    "label": {
+                        "_value": "Make A levels 3 years. This is to avoid psychological stress for young people."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

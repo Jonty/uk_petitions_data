@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464181/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464181/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464181/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464181/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464181/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.604Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464181",
+                    "label": {
+                        "_value": "Introduce a mandatory life sentence for throwing acid causing a person harm."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547801",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464181",
+                    "label": {
+                        "_value": "Introduce a mandatory life sentence for throwing acid causing a person harm."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T09:46:48.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464181",
+                    "label": {
+                        "_value": "Introduce a mandatory life sentence for throwing acid causing a person harm."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507486",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T08:50:47.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464181",
+                    "label": {
+                        "_value": "Introduce a mandatory life sentence for throwing acid causing a person harm."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T14:54:12.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464181",
+                    "label": {
+                        "_value": "Introduce a mandatory life sentence for throwing acid causing a person harm."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T05:23:39.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464181",
+                    "label": {
+                        "_value": "Introduce a mandatory life sentence for throwing acid causing a person harm."
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

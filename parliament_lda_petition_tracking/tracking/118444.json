@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465659/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465659/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465659/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465659/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465659/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550253",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465659",
+                    "label": {
+                        "_value": "To Obligate Social Care Workers to use Digital Pen & Paper Technology"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:29.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465659",
+                    "label": {
+                        "_value": "To Obligate Social Care Workers to use Digital Pen & Paper Technology"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

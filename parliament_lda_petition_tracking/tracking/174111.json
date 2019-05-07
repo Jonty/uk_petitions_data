@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/653274/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/653274/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/653274/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/653274/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/653274/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733562",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.481Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/653274",
+                    "label": {
+                        "_value": "Make First Aid Training compulsory in Schools, Colleges and new drivers"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-15T08:51:28.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/653274",
+                    "label": {
+                        "_value": "Make First Aid Training compulsory in Schools, Colleges and new drivers"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T16:27:22.168Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/653274",
+                    "label": {
+                        "_value": "Make First Aid Training compulsory in Schools, Colleges and new drivers"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T22:29:34.320Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/653274",
+                    "label": {
+                        "_value": "Make First Aid Training compulsory in Schools, Colleges and new drivers"
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653275",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T19:20:31.972Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/653274",
+                    "label": {
+                        "_value": "Make First Aid Training compulsory in Schools, Colleges and new drivers"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

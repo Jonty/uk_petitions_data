@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465999/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465999/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465999/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465999/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465999/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465999",
+                    "label": {
+                        "_value": "Clear British criminal records after 10 yrs of no reoffending"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508889",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T17:17:06.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465999",
+                    "label": {
+                        "_value": "Clear British criminal records after 10 yrs of no reoffending"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T20:48:23.083Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465999",
+                    "label": {
+                        "_value": "Clear British criminal records after 10 yrs of no reoffending"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466000",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T15:40:20.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465999",
+                    "label": {
+                        "_value": "Clear British criminal records after 10 yrs of no reoffending"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

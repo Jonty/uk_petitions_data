@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464207/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464207/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464207/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464207/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464207/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.643Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464207",
+                    "label": {
+                        "_value": "Mr Cameron to speak to Indian Prime minister to free 6 innocent Britons"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569243",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464207",
+                    "label": {
+                        "_value": "Mr Cameron to speak to Indian Prime minister to free 6 innocent Britons"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464207",
+                    "label": {
+                        "_value": "Mr Cameron to speak to Indian Prime minister to free 6 innocent Britons"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512605",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T17:53:03.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464207",
+                    "label": {
+                        "_value": "Mr Cameron to speak to Indian Prime minister to free 6 innocent Britons"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T18:03:34.540Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464207",
+                    "label": {
+                        "_value": "Mr Cameron to speak to Indian Prime minister to free 6 innocent Britons"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T17:08:11.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464207",
+                    "label": {
+                        "_value": "Mr Cameron to speak to Indian Prime minister to free 6 innocent Britons"
+                    }
+                },
+                "numberOfSignatures": 29
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

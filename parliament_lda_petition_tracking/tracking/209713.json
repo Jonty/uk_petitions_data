@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/827835/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/827835/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/827835/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/827835/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/827835/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/949361",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-22T23:00:00.973Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/827835",
+                    "label": {
+                        "_value": "Enlarge the area eligible for high cost area supplements for NHS staff"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/843094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-17T02:19:47.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/827835",
+                    "label": {
+                        "_value": "Enlarge the area eligible for high cost area supplements for NHS staff"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-11T10:21:09.382Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/827835",
+                    "label": {
+                        "_value": "Enlarge the area eligible for high cost area supplements for NHS staff"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/827836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-22T18:22:39.111Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/827835",
+                    "label": {
+                        "_value": "Enlarge the area eligible for high cost area supplements for NHS staff"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

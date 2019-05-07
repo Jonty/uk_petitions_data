@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/691399/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/691399/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/691399/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/691399/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/691399/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726890",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:20.316Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691399",
+                    "label": {
+                        "_value": "Substantially increase funding for the NHS and our Social Care system."
+                    }
+                },
+                "numberOfSignatures": 796
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707118",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T22:38:02.830Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691399",
+                    "label": {
+                        "_value": "Substantially increase funding for the NHS and our Social Care system."
+                    }
+                },
+                "numberOfSignatures": 770
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T19:56:51.961Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691399",
+                    "label": {
+                        "_value": "Substantially increase funding for the NHS and our Social Care system."
+                    }
+                },
+                "numberOfSignatures": 761
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691400",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T23:38:50.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691399",
+                    "label": {
+                        "_value": "Substantially increase funding for the NHS and our Social Care system."
+                    }
+                },
+                "numberOfSignatures": 494
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

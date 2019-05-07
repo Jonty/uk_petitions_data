@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/866918/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/866918/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/866918/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/866918/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/866918/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/976938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-19T23:00:02.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866918",
+                    "label": {
+                        "_value": "To implement a fishery licence to shoot a maximum of 3 otters a year."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-29T09:02:03.296Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866918",
+                    "label": {
+                        "_value": "To implement a fishery licence to shoot a maximum of 3 otters a year."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/882067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-12T13:36:02.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866918",
+                    "label": {
+                        "_value": "To implement a fishery licence to shoot a maximum of 3 otters a year."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-19T22:00:51.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866918",
+                    "label": {
+                        "_value": "To implement a fishery licence to shoot a maximum of 3 otters a year."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/866919",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-19T18:30:30.489Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866918",
+                    "label": {
+                        "_value": "To implement a fishery licence to shoot a maximum of 3 otters a year."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

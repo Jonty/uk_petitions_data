@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463253/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463253/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463253/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463253/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463253/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733699",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463253",
+                    "label": {
+                        "_value": "Reduce working hours to 6 hours to improve productivity, turnover and happiness."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543521",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463253",
+                    "label": {
+                        "_value": "Reduce working hours to 6 hours to improve productivity, turnover and happiness."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T00:00:04.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463253",
+                    "label": {
+                        "_value": "Reduce working hours to 6 hours to improve productivity, turnover and happiness."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:11:50.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463253",
+                    "label": {
+                        "_value": "Reduce working hours to 6 hours to improve productivity, turnover and happiness."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467857",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T19:07:08.485Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463253",
+                    "label": {
+                        "_value": "Reduce working hours to 6 hours to improve productivity, turnover and happiness."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463254",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T23:37:34.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463253",
+                    "label": {
+                        "_value": "Reduce working hours to 6 hours to improve productivity, turnover and happiness."
+                    }
+                },
+                "numberOfSignatures": 56
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

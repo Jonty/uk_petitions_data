@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/949323/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/949323/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/949323/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/949323/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/949323/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1049927",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T00:00:02.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949323",
+                    "label": {
+                        "_value": "Make prescriptions free for all NHS staff"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1032205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-25T22:26:02.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949323",
+                    "label": {
+                        "_value": "Make prescriptions free for all NHS staff"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-31T19:30:11.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949323",
+                    "label": {
+                        "_value": "Make prescriptions free for all NHS staff"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958471",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T12:58:12.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949323",
+                    "label": {
+                        "_value": "Make prescriptions free for all NHS staff"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-27T10:04:45.665Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949323",
+                    "label": {
+                        "_value": "Make prescriptions free for all NHS staff"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

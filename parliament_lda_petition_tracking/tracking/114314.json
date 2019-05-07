@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462711/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462711/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462711/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462711/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462711/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729543",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.447Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462711",
+                    "label": {
+                        "_value": "Upgrade all of the M27 to 4 lanes before further major housing developments."
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462711",
+                    "label": {
+                        "_value": "Upgrade all of the M27 to 4 lanes before further major housing developments."
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T22:08:30.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462711",
+                    "label": {
+                        "_value": "Upgrade all of the M27 to 4 lanes before further major housing developments."
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T10:20:21.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462711",
+                    "label": {
+                        "_value": "Upgrade all of the M27 to 4 lanes before further major housing developments."
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T13:11:46.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462711",
+                    "label": {
+                        "_value": "Upgrade all of the M27 to 4 lanes before further major housing developments."
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462712",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T16:42:36.282Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462711",
+                    "label": {
+                        "_value": "Upgrade all of the M27 to 4 lanes before further major housing developments."
+                    }
+                },
+                "numberOfSignatures": 91
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

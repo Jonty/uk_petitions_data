@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/898585/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/898585/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/898585/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/898585/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/898585/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1001889",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T00:00:00.636Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898585",
+                    "label": {
+                        "_value": "Safeguard public funds with full annual NAO risk audit on all outsourcers"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-05T07:46:44.131Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898585",
+                    "label": {
+                        "_value": "Safeguard public funds with full annual NAO risk audit on all outsourcers"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

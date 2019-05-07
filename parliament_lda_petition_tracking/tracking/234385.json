@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1025793/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1025793/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1025793/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1025793/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1025793/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:02:51.194Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025793",
+                    "label": {
+                        "_value": "Make it an offence to share film footage of assault with intent to humiliate."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094118",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:10.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025793",
+                    "label": {
+                        "_value": "Make it an offence to share film footage of assault with intent to humiliate."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076144",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-19T16:36:36.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025793",
+                    "label": {
+                        "_value": "Make it an offence to share film footage of assault with intent to humiliate."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048847",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-26T16:40:50.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025793",
+                    "label": {
+                        "_value": "Make it an offence to share film footage of assault with intent to humiliate."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T20:32:01.586Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025793",
+                    "label": {
+                        "_value": "Make it an offence to share film footage of assault with intent to humiliate."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1025794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-14T14:56:21.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025793",
+                    "label": {
+                        "_value": "Make it an offence to share film footage of assault with intent to humiliate."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

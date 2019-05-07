@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/583719/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/583719/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/583719/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/583719/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/583719/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735941",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583719",
+                    "label": {
+                        "_value": "The government should rethink its policies towards international students."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T14:42:45.637Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583719",
+                    "label": {
+                        "_value": "The government should rethink its policies towards international students."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T16:58:56.383Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583719",
+                    "label": {
+                        "_value": "The government should rethink its policies towards international students."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591049",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:05:20.701Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583719",
+                    "label": {
+                        "_value": "The government should rethink its policies towards international students."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T05:51:29.819Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583719",
+                    "label": {
+                        "_value": "The government should rethink its policies towards international students."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T02:46:11.810Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583719",
+                    "label": {
+                        "_value": "The government should rethink its policies towards international students."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464109/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464109/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464109/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464109/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464109/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:05.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464109",
+                    "label": {
+                        "_value": "Change Retail Christmas Opening hours."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T17:24:31.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464109",
+                    "label": {
+                        "_value": "Change Retail Christmas Opening hours."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464109",
+                    "label": {
+                        "_value": "Change Retail Christmas Opening hours."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508837",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T09:42:24.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464109",
+                    "label": {
+                        "_value": "Change Retail Christmas Opening hours."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480411",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T18:58:57.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464109",
+                    "label": {
+                        "_value": "Change Retail Christmas Opening hours."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:16.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464109",
+                    "label": {
+                        "_value": "Change Retail Christmas Opening hours."
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

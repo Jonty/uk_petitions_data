@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464351/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464351/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464351/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464351/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464351/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735625",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464351",
+                    "label": {
+                        "_value": "Change car insurance rules"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464351",
+                    "label": {
+                        "_value": "Change car insurance rules"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506048",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T10:34:16.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464351",
+                    "label": {
+                        "_value": "Change car insurance rules"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467919",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T23:35:06.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464351",
+                    "label": {
+                        "_value": "Change car insurance rules"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T19:45:51.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464351",
+                    "label": {
+                        "_value": "Change car insurance rules"
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

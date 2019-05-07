@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462495/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462495/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462495/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462495/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462495/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462495",
+                    "label": {
+                        "_value": "Mobilise our forces and allies to put out the forest fires in Indonesia."
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462495",
+                    "label": {
+                        "_value": "Mobilise our forces and allies to put out the forest fires in Indonesia."
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-02T00:00:08.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462495",
+                    "label": {
+                        "_value": "Mobilise our forces and allies to put out the forest fires in Indonesia."
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462496",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:19:03.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462495",
+                    "label": {
+                        "_value": "Mobilise our forces and allies to put out the forest fires in Indonesia."
+                    }
+                },
+                "numberOfSignatures": 115
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

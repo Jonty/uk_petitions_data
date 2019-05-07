@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543159/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543159/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543159/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543159/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543159/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543159",
+                    "label": {
+                        "_value": "Make Voting transparent, publish who has voted , so to eliminate voting fraud"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543159",
+                    "label": {
+                        "_value": "Make Voting transparent, publish who has voted , so to eliminate voting fraud"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-23T14:36:44.038Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543159",
+                    "label": {
+                        "_value": "Make Voting transparent, publish who has voted , so to eliminate voting fraud"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T20:17:25.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543159",
+                    "label": {
+                        "_value": "Make Voting transparent, publish who has voted , so to eliminate voting fraud"
+                    }
+                },
+                "numberOfSignatures": 80
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T21:34:24.364Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543159",
+                    "label": {
+                        "_value": "Make Voting transparent, publish who has voted , so to eliminate voting fraud"
+                    }
+                },
+                "numberOfSignatures": 79
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

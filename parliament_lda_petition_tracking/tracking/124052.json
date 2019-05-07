@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465755/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465755/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465755/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465755/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465755/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/580643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465755",
+                    "label": {
+                        "_value": "Introduce Dental Receptionists to be registered professionals with the GDC"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465755",
+                    "label": {
+                        "_value": "Introduce Dental Receptionists to be registered professionals with the GDC"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:57:25.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465755",
+                    "label": {
+                        "_value": "Introduce Dental Receptionists to be registered professionals with the GDC"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480482",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T20:48:43.966Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465755",
+                    "label": {
+                        "_value": "Introduce Dental Receptionists to be registered professionals with the GDC"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467993",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T12:13:17.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465755",
+                    "label": {
+                        "_value": "Introduce Dental Receptionists to be registered professionals with the GDC"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T08:00:29.766Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465755",
+                    "label": {
+                        "_value": "Introduce Dental Receptionists to be registered professionals with the GDC"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

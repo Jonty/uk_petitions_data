@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062000/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062000/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062000/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062000/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062000/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T23:10:52.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062000",
+                    "label": {
+                        "_value": "Schools should start a period late on Monday mornings to take the edge off them."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T22:04:12.571Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062000",
+                    "label": {
+                        "_value": "Schools should start a period late on Monday mornings to take the edge off them."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T18:09:34.894Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062000",
+                    "label": {
+                        "_value": "Schools should start a period late on Monday mornings to take the edge off them."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062888",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T17:32:10.051Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062000",
+                    "label": {
+                        "_value": "Schools should start a period late on Monday mornings to take the edge off them."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062001",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T13:52:06.192Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062000",
+                    "label": {
+                        "_value": "Schools should start a period late on Monday mornings to take the edge off them."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

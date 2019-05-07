@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/972935/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/972935/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/972935/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/972935/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/972935/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1088413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T00:00:05.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972935",
+                    "label": {
+                        "_value": "Lower the NHS charges at dentists"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1046684",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-22T20:42:42.814Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972935",
+                    "label": {
+                        "_value": "Lower the NHS charges at dentists"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:20:02.410Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972935",
+                    "label": {
+                        "_value": "Lower the NHS charges at dentists"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/983734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-08T13:46:38.992Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972935",
+                    "label": {
+                        "_value": "Lower the NHS charges at dentists"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/972936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T17:00:00.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972935",
+                    "label": {
+                        "_value": "Lower the NHS charges at dentists"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

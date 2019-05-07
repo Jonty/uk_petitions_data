@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548510/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548510/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548510/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548510/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548510/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.278Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548510",
+                    "label": {
+                        "_value": "Scrap the Severn Bridge tolls."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603755",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548510",
+                    "label": {
+                        "_value": "Scrap the Severn Bridge tolls."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T23:11:30.720Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548510",
+                    "label": {
+                        "_value": "Scrap the Severn Bridge tolls."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560557",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T05:24:26.726Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548510",
+                    "label": {
+                        "_value": "Scrap the Severn Bridge tolls."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T10:44:45.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548510",
+                    "label": {
+                        "_value": "Scrap the Severn Bridge tolls."
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

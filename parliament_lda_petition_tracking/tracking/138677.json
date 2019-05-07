@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550412/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550412/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550412/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550412/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550412/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T10:58:53.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550412",
+                    "label": {
+                        "_value": "Create further protection for the UK's Human Rights Act of 1998"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:11:22.364Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550412",
+                    "label": {
+                        "_value": "Create further protection for the UK's Human Rights Act of 1998"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:05:46.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550412",
+                    "label": {
+                        "_value": "Create further protection for the UK's Human Rights Act of 1998"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570350",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T16:41:47.730Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550412",
+                    "label": {
+                        "_value": "Create further protection for the UK's Human Rights Act of 1998"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T14:34:37.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550412",
+                    "label": {
+                        "_value": "Create further protection for the UK's Human Rights Act of 1998"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

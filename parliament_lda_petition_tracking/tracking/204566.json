@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/787703/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/787703/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/787703/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/787703/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/787703/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/901014",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-08T23:00:03.710Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787703",
+                    "label": {
+                        "_value": "Change and restrict the dates for sale of fireworks around bonfire night."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/896092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-01T15:08:37.585Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787703",
+                    "label": {
+                        "_value": "Change and restrict the dates for sale of fireworks around bonfire night."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/816636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-04T17:04:07.925Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787703",
+                    "label": {
+                        "_value": "Change and restrict the dates for sale of fireworks around bonfire night."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/789853",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-14T10:48:20.418Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787703",
+                    "label": {
+                        "_value": "Change and restrict the dates for sale of fireworks around bonfire night."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787704",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-12T18:03:18.204Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787703",
+                    "label": {
+                        "_value": "Change and restrict the dates for sale of fireworks around bonfire night."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/803503/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/803503/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/803503/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/803503/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/803503/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/920435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-07T23:00:04.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803503",
+                    "label": {
+                        "_value": "Ensure HMI inspectors inspecting SEN schools have sufficient experience in SEN"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/908824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-21T19:18:29.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803503",
+                    "label": {
+                        "_value": "Ensure HMI inspectors inspecting SEN schools have sufficient experience in SEN"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-22T10:21:30.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803503",
+                    "label": {
+                        "_value": "Ensure HMI inspectors inspecting SEN schools have sufficient experience in SEN"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T06:30:59.296Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803503",
+                    "label": {
+                        "_value": "Ensure HMI inspectors inspecting SEN schools have sufficient experience in SEN"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/848286",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-22T23:20:13.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803503",
+                    "label": {
+                        "_value": "Ensure HMI inspectors inspecting SEN schools have sufficient experience in SEN"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/803504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-07T18:27:10.941Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803503",
+                    "label": {
+                        "_value": "Ensure HMI inspectors inspecting SEN schools have sufficient experience in SEN"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

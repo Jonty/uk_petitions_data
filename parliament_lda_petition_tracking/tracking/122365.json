@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465951/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465951/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465951/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465951/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465951/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/567717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465951",
+                    "label": {
+                        "_value": "To create a compulsory road safety test for UK cyclists."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553463",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T14:27:12.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465951",
+                    "label": {
+                        "_value": "To create a compulsory road safety test for UK cyclists."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T19:04:11.273Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465951",
+                    "label": {
+                        "_value": "To create a compulsory road safety test for UK cyclists."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482892",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T21:55:59.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465951",
+                    "label": {
+                        "_value": "To create a compulsory road safety test for UK cyclists."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T12:06:07.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465951",
+                    "label": {
+                        "_value": "To create a compulsory road safety test for UK cyclists."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

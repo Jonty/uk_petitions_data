@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551058/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551058/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551058/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551058/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551058/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:32:18.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551058",
+                    "label": {
+                        "_value": "Stop all Police cuts within the UK and increase high visibility patrols."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620770",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T22:08:09.365Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551058",
+                    "label": {
+                        "_value": "Stop all Police cuts within the UK and increase high visibility patrols."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:53:03.943Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551058",
+                    "label": {
+                        "_value": "Stop all Police cuts within the UK and increase high visibility patrols."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T09:08:38.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551058",
+                    "label": {
+                        "_value": "Stop all Police cuts within the UK and increase high visibility patrols."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551059",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T22:46:30.862Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551058",
+                    "label": {
+                        "_value": "Stop all Police cuts within the UK and increase high visibility patrols."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

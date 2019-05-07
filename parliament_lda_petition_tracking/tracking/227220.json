@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/960427/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/960427/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/960427/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/960427/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/960427/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1078197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-25T00:00:00.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960427",
+                    "label": {
+                        "_value": "Increase nhs staff awareness and training on the signs and symptoms of sepsis"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076624",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T12:52:33.366Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960427",
+                    "label": {
+                        "_value": "Increase nhs staff awareness and training on the signs and symptoms of sepsis"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058557",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T20:29:42.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960427",
+                    "label": {
+                        "_value": "Increase nhs staff awareness and training on the signs and symptoms of sepsis"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-25T07:22:01.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960427",
+                    "label": {
+                        "_value": "Increase nhs staff awareness and training on the signs and symptoms of sepsis"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960428",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-24T18:24:08.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960427",
+                    "label": {
+                        "_value": "Increase nhs staff awareness and training on the signs and symptoms of sepsis"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

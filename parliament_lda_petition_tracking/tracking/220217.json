@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/910863/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/910863/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/910863/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/910863/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/910863/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1014010",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-24T00:00:06.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910863",
+                    "label": {
+                        "_value": "Using a mobile phone whilst driving change to a 6 month ban and \u00a31500 fine"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001859",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T12:50:33.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910863",
+                    "label": {
+                        "_value": "Using a mobile phone whilst driving change to a 6 month ban and \u00a31500 fine"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991073",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T11:12:08.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910863",
+                    "label": {
+                        "_value": "Using a mobile phone whilst driving change to a 6 month ban and \u00a31500 fine"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/944507",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-18T16:20:12.167Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910863",
+                    "label": {
+                        "_value": "Using a mobile phone whilst driving change to a 6 month ban and \u00a31500 fine"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913735",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T15:30:10.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910863",
+                    "label": {
+                        "_value": "Using a mobile phone whilst driving change to a 6 month ban and \u00a31500 fine"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/910864",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-23T16:03:50.903Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910863",
+                    "label": {
+                        "_value": "Using a mobile phone whilst driving change to a 6 month ban and \u00a31500 fine"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

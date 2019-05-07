@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841192/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841192/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841192/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841192/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841192/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/953601",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T23:00:00.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841192",
+                    "label": {
+                        "_value": "Higher Minimum Wage for anti-social hours\n(11pm-6am)."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-28T12:51:02.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841192",
+                    "label": {
+                        "_value": "Higher Minimum Wage for anti-social hours\n(11pm-6am)."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-31T21:37:24.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841192",
+                    "label": {
+                        "_value": "Higher Minimum Wage for anti-social hours\n(11pm-6am)."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876538",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-31T09:41:45.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841192",
+                    "label": {
+                        "_value": "Higher Minimum Wage for anti-social hours\n(11pm-6am)."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-06T17:27:42.410Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841192",
+                    "label": {
+                        "_value": "Higher Minimum Wage for anti-social hours\n(11pm-6am)."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

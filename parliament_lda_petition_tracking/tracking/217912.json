@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/893633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/893633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/893633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/893633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/893633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/996962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-27T23:00:00.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893633",
+                    "label": {
+                        "_value": "Government should continue annual  breast examinations with a breast surgeon"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/897026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-02T16:46:07.186Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893633",
+                    "label": {
+                        "_value": "Government should continue annual  breast examinations with a breast surgeon"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/893634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-27T16:04:14.812Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893633",
+                    "label": {
+                        "_value": "Government should continue annual  breast examinations with a breast surgeon"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

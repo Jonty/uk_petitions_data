@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548381/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548381/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548381/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548381/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548381/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:28.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548381",
+                    "label": {
+                        "_value": "Trident to be removed from Scotland and renewed in England"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T13:07:04.089Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548381",
+                    "label": {
+                        "_value": "Trident to be removed from Scotland and renewed in England"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T00:41:02.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548381",
+                    "label": {
+                        "_value": "Trident to be removed from Scotland and renewed in England"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T22:10:07.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548381",
+                    "label": {
+                        "_value": "Trident to be removed from Scotland and renewed in England"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/968718/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/968718/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/968718/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/968718/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/968718/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1083278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T00:00:01.590Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968718",
+                    "label": {
+                        "_value": "Remove the 2 year restriction on a 125cc motorcycle upon completion of the CBT."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-12T16:46:11.141Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968718",
+                    "label": {
+                        "_value": "Remove the 2 year restriction on a 125cc motorcycle upon completion of the CBT."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-27T03:13:54.903Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968718",
+                    "label": {
+                        "_value": "Remove the 2 year restriction on a 125cc motorcycle upon completion of the CBT."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T09:20:43.214Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968718",
+                    "label": {
+                        "_value": "Remove the 2 year restriction on a 125cc motorcycle upon completion of the CBT."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/968719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-05T08:18:55.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968718",
+                    "label": {
+                        "_value": "Remove the 2 year restriction on a 125cc motorcycle upon completion of the CBT."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

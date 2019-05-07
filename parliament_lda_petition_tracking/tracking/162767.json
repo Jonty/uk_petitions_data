@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550314/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550314/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550314/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550314/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550314/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/646994",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T17:12:50.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550314",
+                    "label": {
+                        "_value": "All public transport buses to have seat belts."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635005",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T10:15:39.182Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550314",
+                    "label": {
+                        "_value": "All public transport buses to have seat belts."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T17:24:03.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550314",
+                    "label": {
+                        "_value": "All public transport buses to have seat belts."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575011",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T20:18:45.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550314",
+                    "label": {
+                        "_value": "All public transport buses to have seat belts."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572507",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T15:58:30.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550314",
+                    "label": {
+                        "_value": "All public transport buses to have seat belts."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T20:21:26.630Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550314",
+                    "label": {
+                        "_value": "All public transport buses to have seat belts."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

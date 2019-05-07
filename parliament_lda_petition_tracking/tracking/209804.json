@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835816/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835816/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835816/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835816/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835816/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/951273",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-31T23:00:02.418Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835816",
+                    "label": {
+                        "_value": "pay state pensions into pensioners bank accounts on the day they are due"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868179",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T10:44:48.387Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835816",
+                    "label": {
+                        "_value": "pay state pensions into pensioners bank accounts on the day they are due"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T06:24:30.723Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835816",
+                    "label": {
+                        "_value": "pay state pensions into pensioners bank accounts on the day they are due"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846588",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T14:19:58.049Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835816",
+                    "label": {
+                        "_value": "pay state pensions into pensioners bank accounts on the day they are due"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-01T20:18:39.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835816",
+                    "label": {
+                        "_value": "pay state pensions into pensioners bank accounts on the day they are due"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

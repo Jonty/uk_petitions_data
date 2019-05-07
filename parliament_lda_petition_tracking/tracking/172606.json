@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/641070/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/641070/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/641070/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/641070/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/641070/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641070",
+                    "label": {
+                        "_value": "Make it an offence to desecrate National flags or symbols of National importance"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T16:23:35.156Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641070",
+                    "label": {
+                        "_value": "Make it an offence to desecrate National flags or symbols of National importance"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T19:24:56.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641070",
+                    "label": {
+                        "_value": "Make it an offence to desecrate National flags or symbols of National importance"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T19:52:07.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641070",
+                    "label": {
+                        "_value": "Make it an offence to desecrate National flags or symbols of National importance"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

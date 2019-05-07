@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1088170/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1088170/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1088170/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1088170/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1088170/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T10:18:47.703Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088170",
+                    "label": {
+                        "_value": "Reject any UK hard border in Ireland or down the Irish Sea."
+                    }
+                },
+                "numberOfSignatures": 127
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:12.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088170",
+                    "label": {
+                        "_value": "Reject any UK hard border in Ireland or down the Irish Sea."
+                    }
+                },
+                "numberOfSignatures": 125
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089986",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T18:37:23.025Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088170",
+                    "label": {
+                        "_value": "Reject any UK hard border in Ireland or down the Irish Sea."
+                    }
+                },
+                "numberOfSignatures": 124
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089243",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T17:09:50.199Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088170",
+                    "label": {
+                        "_value": "Reject any UK hard border in Ireland or down the Irish Sea."
+                    }
+                },
+                "numberOfSignatures": 118
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088171",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T21:17:28.141Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088170",
+                    "label": {
+                        "_value": "Reject any UK hard border in Ireland or down the Irish Sea."
+                    }
+                },
+                "numberOfSignatures": 81
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

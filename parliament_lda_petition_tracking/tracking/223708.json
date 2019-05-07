@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/962132/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/962132/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/962132/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/962132/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/962132/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1080227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T00:00:02.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962132",
+                    "label": {
+                        "_value": "Government funding for free public transport for stage 4 cancer patients."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1017009",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-27T22:59:59.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962132",
+                    "label": {
+                        "_value": "Government funding for free public transport for stage 4 cancer patients."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T22:10:09.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962132",
+                    "label": {
+                        "_value": "Government funding for free public transport for stage 4 cancer patients."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991754",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T20:32:11.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962132",
+                    "label": {
+                        "_value": "Government funding for free public transport for stage 4 cancer patients."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/965389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-03T18:16:48.401Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962132",
+                    "label": {
+                        "_value": "Government funding for free public transport for stage 4 cancer patients."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T09:54:23.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962132",
+                    "label": {
+                        "_value": "Government funding for free public transport for stage 4 cancer patients."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

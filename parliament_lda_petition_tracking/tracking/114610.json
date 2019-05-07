@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464549/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464549/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464549/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464549/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464549/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464549",
+                    "label": {
+                        "_value": "Allow 16 year olds to LEARN to drive."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548351",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464549",
+                    "label": {
+                        "_value": "Allow 16 year olds to LEARN to drive."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T12:03:55.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464549",
+                    "label": {
+                        "_value": "Allow 16 year olds to LEARN to drive."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T23:02:53.849Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464549",
+                    "label": {
+                        "_value": "Allow 16 year olds to LEARN to drive."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T18:54:55.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464549",
+                    "label": {
+                        "_value": "Allow 16 year olds to LEARN to drive."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

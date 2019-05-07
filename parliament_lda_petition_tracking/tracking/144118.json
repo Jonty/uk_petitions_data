@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551477/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551477/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551477/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551477/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551477/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635036",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T07:55:46.217Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551477",
+                    "label": {
+                        "_value": "Parliament must not recess until there is a  ratified plan post-referendum"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551478",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T13:07:00.381Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551477",
+                    "label": {
+                        "_value": "Parliament must not recess until there is a  ratified plan post-referendum"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

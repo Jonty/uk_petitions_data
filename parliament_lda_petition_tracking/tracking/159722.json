@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550338/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550338/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550338/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550338/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550338/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550338",
+                    "label": {
+                        "_value": "Pursue a tariff free trade deal and free movement of people deal with the USA"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T20:20:59.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550338",
+                    "label": {
+                        "_value": "Pursue a tariff free trade deal and free movement of people deal with the USA"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559911",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T23:18:04.820Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550338",
+                    "label": {
+                        "_value": "Pursue a tariff free trade deal and free movement of people deal with the USA"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550339",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T00:07:34.471Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550338",
+                    "label": {
+                        "_value": "Pursue a tariff free trade deal and free movement of people deal with the USA"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

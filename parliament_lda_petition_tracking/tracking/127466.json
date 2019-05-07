@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509905/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509905/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509905/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509905/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509905/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/600443",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509905",
+                    "label": {
+                        "_value": "Call on the government to publicly confirm support for strong encryption."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T19:34:02.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509905",
+                    "label": {
+                        "_value": "Call on the government to publicly confirm support for strong encryption."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550456",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-17T13:36:23.753Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509905",
+                    "label": {
+                        "_value": "Call on the government to publicly confirm support for strong encryption."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T17:49:37.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509905",
+                    "label": {
+                        "_value": "Call on the government to publicly confirm support for strong encryption."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

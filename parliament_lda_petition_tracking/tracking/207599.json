@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/809543/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/809543/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/809543/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/809543/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/809543/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/928523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-19T23:00:00.777Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809543",
+                    "label": {
+                        "_value": "Offset any rise in the price of fuel"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/908392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-20T11:26:27.647Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809543",
+                    "label": {
+                        "_value": "Offset any rise in the price of fuel"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871269",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-24T18:01:00.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809543",
+                    "label": {
+                        "_value": "Offset any rise in the price of fuel"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/811261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-20T10:59:43.873Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809543",
+                    "label": {
+                        "_value": "Offset any rise in the price of fuel"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/809544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-19T20:00:20.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809543",
+                    "label": {
+                        "_value": "Offset any rise in the price of fuel"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

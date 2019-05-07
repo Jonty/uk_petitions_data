@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463819/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463819/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463819/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463819/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463819/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.633Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463819",
+                    "label": {
+                        "_value": "Help Private British industry save the Redcar Steelworks - a Strategic UK Asset"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463819",
+                    "label": {
+                        "_value": "Help Private British industry save the Redcar Steelworks - a Strategic UK Asset"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508818",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T00:00:04.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463819",
+                    "label": {
+                        "_value": "Help Private British industry save the Redcar Steelworks - a Strategic UK Asset"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T19:09:05.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463819",
+                    "label": {
+                        "_value": "Help Private British industry save the Redcar Steelworks - a Strategic UK Asset"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463820",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T02:40:56.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463819",
+                    "label": {
+                        "_value": "Help Private British industry save the Redcar Steelworks - a Strategic UK Asset"
+                    }
+                },
+                "numberOfSignatures": 38
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

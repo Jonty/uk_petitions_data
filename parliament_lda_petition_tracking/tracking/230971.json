@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/998396/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/998396/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/998396/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/998396/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/998396/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-15T13:20:24.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998396",
+                    "label": {
+                        "_value": "Help end the scarcity of landlords who will accept the housing element of UC."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1063342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-17T15:27:05.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998396",
+                    "label": {
+                        "_value": "Help end the scarcity of landlords who will accept the housing element of UC."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1037748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-08T19:02:36.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998396",
+                    "label": {
+                        "_value": "Help end the scarcity of landlords who will accept the housing element of UC."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1000151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-01T18:10:13.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998396",
+                    "label": {
+                        "_value": "Help end the scarcity of landlords who will accept the housing element of UC."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/998397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-30T21:47:53.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998396",
+                    "label": {
+                        "_value": "Help end the scarcity of landlords who will accept the housing element of UC."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

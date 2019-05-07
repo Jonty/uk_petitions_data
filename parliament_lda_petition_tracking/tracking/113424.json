@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462943/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462943/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462943/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462943/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462943/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462943",
+                    "label": {
+                        "_value": "Remove the frozen pension uprating discrimination"
+                    }
+                },
+                "numberOfSignatures": 78
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462943",
+                    "label": {
+                        "_value": "Remove the frozen pension uprating discrimination"
+                    }
+                },
+                "numberOfSignatures": 78
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T08:55:53.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462943",
+                    "label": {
+                        "_value": "Remove the frozen pension uprating discrimination"
+                    }
+                },
+                "numberOfSignatures": 77
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/472159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T10:38:55.545Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462943",
+                    "label": {
+                        "_value": "Remove the frozen pension uprating discrimination"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467826",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T23:30:17.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462943",
+                    "label": {
+                        "_value": "Remove the frozen pension uprating discrimination"
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462944",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:20.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462943",
+                    "label": {
+                        "_value": "Remove the frozen pension uprating discrimination"
+                    }
+                },
+                "numberOfSignatures": 73
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

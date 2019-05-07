@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091882/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091882/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091882/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091882/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091882/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T22:30:20.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091882",
+                    "label": {
+                        "_value": "Ban knife sales online"
+                    }
+                },
+                "numberOfSignatures": 325
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:51:45.433Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091882",
+                    "label": {
+                        "_value": "Ban knife sales online"
+                    }
+                },
+                "numberOfSignatures": 321
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.487Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091882",
+                    "label": {
+                        "_value": "Ban knife sales online"
+                    }
+                },
+                "numberOfSignatures": 227
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093145",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T18:21:36.030Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091882",
+                    "label": {
+                        "_value": "Ban knife sales online"
+                    }
+                },
+                "numberOfSignatures": 224
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:45:23.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091882",
+                    "label": {
+                        "_value": "Ban knife sales online"
+                    }
+                },
+                "numberOfSignatures": 107
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

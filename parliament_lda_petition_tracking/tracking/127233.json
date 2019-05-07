@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509942/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509942/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509942/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509942/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509942/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735479",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:15.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600410",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599253",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T16:37:30.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561096",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T00:08:32.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T07:00:05.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T16:27:43.538Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509942",
+                    "label": {
+                        "_value": "Don't make student nurses pay for their tuition"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

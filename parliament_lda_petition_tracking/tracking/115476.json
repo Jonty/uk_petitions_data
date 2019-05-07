@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462939/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462939/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462939/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462939/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462939/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462939",
+                    "label": {
+                        "_value": "Parliament should consider the law relating to private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462939",
+                    "label": {
+                        "_value": "Parliament should consider the law relating to private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T15:50:02.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462939",
+                    "label": {
+                        "_value": "Parliament should consider the law relating to private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:13.892Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462939",
+                    "label": {
+                        "_value": "Parliament should consider the law relating to private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 74
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

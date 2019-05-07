@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/629540/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/629540/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/629540/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/629540/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/629540/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/629540",
+                    "label": {
+                        "_value": "Give Special Constables who complete over 200 hours a year a tax incentive"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T19:32:13.811Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/629540",
+                    "label": {
+                        "_value": "Give Special Constables who complete over 200 hours a year a tax incentive"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632566",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T18:04:24.333Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/629540",
+                    "label": {
+                        "_value": "Give Special Constables who complete over 200 hours a year a tax incentive"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T17:11:36.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/629540",
+                    "label": {
+                        "_value": "Give Special Constables who complete over 200 hours a year a tax incentive"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T22:30:46.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/629540",
+                    "label": {
+                        "_value": "Give Special Constables who complete over 200 hours a year a tax incentive"
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

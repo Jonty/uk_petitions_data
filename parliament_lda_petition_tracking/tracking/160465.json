@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549463/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549463/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549463/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549463/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549463/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666314",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:48:46.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549463",
+                    "label": {
+                        "_value": "Allow all people with terminal conditions access to trial drugs."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T13:33:25.178Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549463",
+                    "label": {
+                        "_value": "Allow all people with terminal conditions access to trial drugs."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T11:25:58.817Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549463",
+                    "label": {
+                        "_value": "Allow all people with terminal conditions access to trial drugs."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T08:20:33.816Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549463",
+                    "label": {
+                        "_value": "Allow all people with terminal conditions access to trial drugs."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

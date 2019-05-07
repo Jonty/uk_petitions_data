@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464013/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464013/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464013/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464013/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464013/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464013",
+                    "label": {
+                        "_value": "Make Individuals discriminating women breastfeeding in public an offence"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547668",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464013",
+                    "label": {
+                        "_value": "Make Individuals discriminating women breastfeeding in public an offence"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T20:56:43.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464013",
+                    "label": {
+                        "_value": "Make Individuals discriminating women breastfeeding in public an offence"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T13:50:30.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464013",
+                    "label": {
+                        "_value": "Make Individuals discriminating women breastfeeding in public an offence"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464014",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T22:07:40.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464013",
+                    "label": {
+                        "_value": "Make Individuals discriminating women breastfeeding in public an offence"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

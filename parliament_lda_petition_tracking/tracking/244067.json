@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1089325/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1089325/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1089325/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1089325/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1089325/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106912",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T17:38:23.777Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089325",
+                    "label": {
+                        "_value": "Lower employment restrictions of the hour's school-aged children can work"
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093910",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089325",
+                    "label": {
+                        "_value": "Lower employment restrictions of the hour's school-aged children can work"
+                    }
+                },
+                "numberOfSignatures": 144
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093174",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T21:32:07.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089325",
+                    "label": {
+                        "_value": "Lower employment restrictions of the hour's school-aged children can work"
+                    }
+                },
+                "numberOfSignatures": 141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T20:45:39.251Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089325",
+                    "label": {
+                        "_value": "Lower employment restrictions of the hour's school-aged children can work"
+                    }
+                },
+                "numberOfSignatures": 87
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T20:26:27.935Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089325",
+                    "label": {
+                        "_value": "Lower employment restrictions of the hour's school-aged children can work"
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

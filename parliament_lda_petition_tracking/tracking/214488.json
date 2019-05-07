@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/872215/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/872215/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/872215/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/872215/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/872215/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/978576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T23:00:04.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872215",
+                    "label": {
+                        "_value": "Increase the expenditure of money on prisons."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-18T11:55:52.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872215",
+                    "label": {
+                        "_value": "Increase the expenditure of money on prisons."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/943654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T20:26:56.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872215",
+                    "label": {
+                        "_value": "Increase the expenditure of money on prisons."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899381",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-07T13:15:50.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872215",
+                    "label": {
+                        "_value": "Increase the expenditure of money on prisons."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/872216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-26T09:24:07.665Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872215",
+                    "label": {
+                        "_value": "Increase the expenditure of money on prisons."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

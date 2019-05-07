@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550898/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550898/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550898/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550898/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550898/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/573206",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T23:14:53.370Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550898",
+                    "label": {
+                        "_value": "All licenced bars and clubs should have a breathalyser to prevent drink driving"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T17:46:58.321Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550898",
+                    "label": {
+                        "_value": "All licenced bars and clubs should have a breathalyser to prevent drink driving"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

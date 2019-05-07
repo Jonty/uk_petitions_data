@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/803549/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/803549/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/803549/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/803549/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/803549/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/920473",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-07T23:00:04.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803549",
+                    "label": {
+                        "_value": "Make private ownership of reptiles and amphibians a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T14:19:46.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803549",
+                    "label": {
+                        "_value": "Make private ownership of reptiles and amphibians a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/845337",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-20T01:57:02.454Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803549",
+                    "label": {
+                        "_value": "Make private ownership of reptiles and amphibians a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/827237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-21T17:13:36.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803549",
+                    "label": {
+                        "_value": "Make private ownership of reptiles and amphibians a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/805958",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-13T01:20:13.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803549",
+                    "label": {
+                        "_value": "Make private ownership of reptiles and amphibians a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/803550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-08T02:25:24.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/803549",
+                    "label": {
+                        "_value": "Make private ownership of reptiles and amphibians a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

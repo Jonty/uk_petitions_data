@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551495/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551495/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551495/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551495/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551495/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:23:33.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551495",
+                    "label": {
+                        "_value": "Make voting eligible to only those who have paid PAYE tax for 5 or more years"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551496",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T18:16:40.225Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551495",
+                    "label": {
+                        "_value": "Make voting eligible to only those who have paid PAYE tax for 5 or more years"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

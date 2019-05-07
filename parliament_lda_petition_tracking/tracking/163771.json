@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555009/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555009/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555009/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555009/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555009/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624005",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T13:22:36.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555009",
+                    "label": {
+                        "_value": "Reduce university fees from \u00a39000 a year to \u00a31500 a year."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555010",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T15:31:18.750Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555009",
+                    "label": {
+                        "_value": "Reduce university fees from \u00a39000 a year to \u00a31500 a year."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

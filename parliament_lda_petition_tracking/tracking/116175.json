@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464173/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464173/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464173/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464173/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464173/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464173",
+                    "label": {
+                        "_value": "Make Cold Calling and Nuisance calls easier to stop"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464173",
+                    "label": {
+                        "_value": "Make Cold Calling and Nuisance calls easier to stop"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T18:23:06.515Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464173",
+                    "label": {
+                        "_value": "Make Cold Calling and Nuisance calls easier to stop"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/472879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T14:18:21.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464173",
+                    "label": {
+                        "_value": "Make Cold Calling and Nuisance calls easier to stop"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/470088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T20:26:55.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464173",
+                    "label": {
+                        "_value": "Make Cold Calling and Nuisance calls easier to stop"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464174",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T00:12:25.031Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464173",
+                    "label": {
+                        "_value": "Make Cold Calling and Nuisance calls easier to stop"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

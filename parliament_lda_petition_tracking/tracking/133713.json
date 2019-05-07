@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549052/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549052/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549052/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549052/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549052/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T17:06:41.392Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549052",
+                    "label": {
+                        "_value": "Hold a referendum on independence for London"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:28:44.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549052",
+                    "label": {
+                        "_value": "Hold a referendum on independence for London"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549053",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T22:24:31.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549052",
+                    "label": {
+                        "_value": "Hold a referendum on independence for London"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

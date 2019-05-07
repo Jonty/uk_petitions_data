@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466113/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466113/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466113/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466113/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466113/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564935",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466113",
+                    "label": {
+                        "_value": "Ban unsolicited physical post (Junk mail)"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T17:05:46.604Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466113",
+                    "label": {
+                        "_value": "Ban unsolicited physical post (Junk mail)"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T18:12:10.502Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466113",
+                    "label": {
+                        "_value": "Ban unsolicited physical post (Junk mail)"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T13:09:15.208Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466113",
+                    "label": {
+                        "_value": "Ban unsolicited physical post (Junk mail)"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

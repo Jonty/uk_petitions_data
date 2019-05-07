@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555709/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555709/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555709/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555709/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555709/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:19.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651598",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T09:26:11.551Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645652",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T16:03:50.085Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587371",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T12:51:25.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T19:26:38.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T20:47:21.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T14:29:35.561Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555709",
+                    "label": {
+                        "_value": "Make councils turn redundant grace space they own into wildflower meadows."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

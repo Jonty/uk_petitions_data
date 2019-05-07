@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/837180/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/837180/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/837180/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/837180/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/837180/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/952163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-02T23:00:01.170Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837180",
+                    "label": {
+                        "_value": "Amend TUA 2016, so non-union members pay for benefits gained from Union work."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/883296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-13T02:59:41.337Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837180",
+                    "label": {
+                        "_value": "Amend TUA 2016, so non-union members pay for benefits gained from Union work."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-14T12:40:28.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837180",
+                    "label": {
+                        "_value": "Amend TUA 2016, so non-union members pay for benefits gained from Union work."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841179",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-08T18:37:53.976Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837180",
+                    "label": {
+                        "_value": "Amend TUA 2016, so non-union members pay for benefits gained from Union work."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/837181",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-03T16:15:10.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837180",
+                    "label": {
+                        "_value": "Amend TUA 2016, so non-union members pay for benefits gained from Union work."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727833",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.740Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461633",
+                    "label": {
+                        "_value": "Wythenshawe Hospital for M.I.A"
+                    }
+                },
+                "numberOfSignatures": 294
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567565",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461633",
+                    "label": {
+                        "_value": "Wythenshawe Hospital for M.I.A"
+                    }
+                },
+                "numberOfSignatures": 294
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-07T20:28:46.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461633",
+                    "label": {
+                        "_value": "Wythenshawe Hospital for M.I.A"
+                    }
+                },
+                "numberOfSignatures": 294
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/546170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T15:44:54.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461633",
+                    "label": {
+                        "_value": "Wythenshawe Hospital for M.I.A"
+                    }
+                },
+                "numberOfSignatures": 293
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538001",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T09:40:14.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461633",
+                    "label": {
+                        "_value": "Wythenshawe Hospital for M.I.A"
+                    }
+                },
+                "numberOfSignatures": 292
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T19:22:12.868Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461633",
+                    "label": {
+                        "_value": "Wythenshawe Hospital for M.I.A"
+                    }
+                },
+                "numberOfSignatures": 289
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

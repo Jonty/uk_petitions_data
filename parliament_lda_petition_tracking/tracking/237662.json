@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1051166/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1051166/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1051166/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1051166/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1051166/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107269",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:32:54.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051166",
+                    "label": {
+                        "_value": "Make it a legal UK requirement that councils provide public toilets."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T07:31:11.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051166",
+                    "label": {
+                        "_value": "Make it a legal UK requirement that councils provide public toilets."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076068",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-20T22:41:10.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051166",
+                    "label": {
+                        "_value": "Make it a legal UK requirement that councils provide public toilets."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1056545",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-06T18:39:44.517Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051166",
+                    "label": {
+                        "_value": "Make it a legal UK requirement that councils provide public toilets."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053086",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-31T14:55:06.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051166",
+                    "label": {
+                        "_value": "Make it a legal UK requirement that councils provide public toilets."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1051167",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-29T16:10:19.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051166",
+                    "label": {
+                        "_value": "Make it a legal UK requirement that councils provide public toilets."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

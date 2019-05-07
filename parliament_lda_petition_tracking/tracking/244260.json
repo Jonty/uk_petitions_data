@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091936/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091936/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091936/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091936/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091936/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T11:00:17.771Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091936",
+                    "label": {
+                        "_value": "Make it compulsory that all public buildings/areas have bleed kits"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091937",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T09:27:23.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091936",
+                    "label": {
+                        "_value": "Make it compulsory that all public buildings/areas have bleed kits"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

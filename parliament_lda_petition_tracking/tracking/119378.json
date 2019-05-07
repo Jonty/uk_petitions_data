@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464537/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464537/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464537/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464537/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464537/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464537",
+                    "label": {
+                        "_value": "Re-Nationalise all public transport."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548154",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464537",
+                    "label": {
+                        "_value": "Re-Nationalise all public transport."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:58:35.957Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464537",
+                    "label": {
+                        "_value": "Re-Nationalise all public transport."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481456",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T19:42:03.202Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464537",
+                    "label": {
+                        "_value": "Re-Nationalise all public transport."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464538",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T18:45:07.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464537",
+                    "label": {
+                        "_value": "Re-Nationalise all public transport."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

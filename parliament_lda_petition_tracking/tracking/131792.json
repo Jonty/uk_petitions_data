@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550430/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550430/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550430/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550430/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550430/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/647011",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T23:04:56.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550430",
+                    "label": {
+                        "_value": "Stop councils forcing homeless tenants to stay past a section 21"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:12:03.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550430",
+                    "label": {
+                        "_value": "Stop councils forcing homeless tenants to stay past a section 21"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583732",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T07:47:31.587Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550430",
+                    "label": {
+                        "_value": "Stop councils forcing homeless tenants to stay past a section 21"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T06:30:55.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550430",
+                    "label": {
+                        "_value": "Stop councils forcing homeless tenants to stay past a section 21"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/707100/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/707100/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/707100/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/707100/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/707100/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726410",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:21.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707100",
+                    "label": {
+                        "_value": "Save family run pubs from 2017's massive business rates increase."
+                    }
+                },
+                "numberOfSignatures": 1652
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T22:37:04.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707100",
+                    "label": {
+                        "_value": "Save family run pubs from 2017's massive business rates increase."
+                    }
+                },
+                "numberOfSignatures": 1640
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-12T12:11:05.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707100",
+                    "label": {
+                        "_value": "Save family run pubs from 2017's massive business rates increase."
+                    }
+                },
+                "numberOfSignatures": 1630
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T22:01:11.452Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707100",
+                    "label": {
+                        "_value": "Save family run pubs from 2017's massive business rates increase."
+                    }
+                },
+                "numberOfSignatures": 1629
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T14:42:17.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707100",
+                    "label": {
+                        "_value": "Save family run pubs from 2017's massive business rates increase."
+                    }
+                },
+                "numberOfSignatures": 1626
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707101",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-02T00:45:07.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707100",
+                    "label": {
+                        "_value": "Save family run pubs from 2017's massive business rates increase."
+                    }
+                },
+                "numberOfSignatures": 884
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

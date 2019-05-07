@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543547/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543547/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543547/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543547/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543547/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:25.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543547",
+                    "label": {
+                        "_value": "A Gen Election before Article 50, free of first past the post for EU membership."
+                    }
+                },
+                "numberOfSignatures": 61
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T23:07:15.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543547",
+                    "label": {
+                        "_value": "A Gen Election before Article 50, free of first past the post for EU membership."
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603707",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:28:54.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543547",
+                    "label": {
+                        "_value": "A Gen Election before Article 50, free of first past the post for EU membership."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T02:58:34.090Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543547",
+                    "label": {
+                        "_value": "A Gen Election before Article 50, free of first past the post for EU membership."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543548",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T08:15:34.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543547",
+                    "label": {
+                        "_value": "A Gen Election before Article 50, free of first past the post for EU membership."
+                    }
+                },
+                "numberOfSignatures": 57
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

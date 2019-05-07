@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/883300/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/883300/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/883300/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/883300/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/883300/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/987638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-13T23:00:00.316Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/883300",
+                    "label": {
+                        "_value": "Scrap the make taxation digital regulations for all business below \u00a3100k profit"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/971261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-10T13:06:40.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/883300",
+                    "label": {
+                        "_value": "Scrap the make taxation digital regulations for all business below \u00a3100k profit"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952453",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-04T09:49:04.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/883300",
+                    "label": {
+                        "_value": "Scrap the make taxation digital regulations for all business below \u00a3100k profit"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-23T13:54:15.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/883300",
+                    "label": {
+                        "_value": "Scrap the make taxation digital regulations for all business below \u00a3100k profit"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T16:50:38.835Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/883300",
+                    "label": {
+                        "_value": "Scrap the make taxation digital regulations for all business below \u00a3100k profit"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/883301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-13T10:02:02.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/883300",
+                    "label": {
+                        "_value": "Scrap the make taxation digital regulations for all business below \u00a3100k profit"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

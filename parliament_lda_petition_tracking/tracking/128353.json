@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543354/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543354/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543354/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543354/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543354/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543354",
+                    "label": {
+                        "_value": "All British citizens shall have the right to vote in national referendums."
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543354",
+                    "label": {
+                        "_value": "All British citizens shall have the right to vote in national referendums."
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T03:02:14.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543354",
+                    "label": {
+                        "_value": "All British citizens shall have the right to vote in national referendums."
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562909",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T15:12:15.238Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543354",
+                    "label": {
+                        "_value": "All British citizens shall have the right to vote in national referendums."
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T21:27:32.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543354",
+                    "label": {
+                        "_value": "All British citizens shall have the right to vote in national referendums."
+                    }
+                },
+                "numberOfSignatures": 66
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

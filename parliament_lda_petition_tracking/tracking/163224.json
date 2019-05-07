@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555731/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555731/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555731/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555731/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555731/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:07:25.009Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627914",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T12:36:43.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599525",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T12:04:21.324Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T21:13:34.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557400",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T09:18:24.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556319",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T10:49:48.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555732",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T21:13:54.086Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555731",
+                    "label": {
+                        "_value": "Stop Housing Associations charging more than social rent on their properties."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

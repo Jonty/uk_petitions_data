@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551054/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551054/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551054/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551054/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551054/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/573193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T14:03:40.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551054",
+                    "label": {
+                        "_value": "Debate the sale of ARM Holdings to Softbank"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554974",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T18:07:49.289Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551054",
+                    "label": {
+                        "_value": "Debate the sale of ARM Holdings to Softbank"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551055",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T14:09:54.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551054",
+                    "label": {
+                        "_value": "Debate the sale of ARM Holdings to Softbank"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

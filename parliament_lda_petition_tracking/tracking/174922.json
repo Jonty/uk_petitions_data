@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655592/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655592/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655592/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655592/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655592/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733282",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655592",
+                    "label": {
+                        "_value": "Reduce the size of Motorcycle number plates"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T15:40:35.739Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655592",
+                    "label": {
+                        "_value": "Reduce the size of Motorcycle number plates"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659220",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T11:38:34.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655592",
+                    "label": {
+                        "_value": "Reduce the size of Motorcycle number plates"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T20:08:53.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655592",
+                    "label": {
+                        "_value": "Reduce the size of Motorcycle number plates"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

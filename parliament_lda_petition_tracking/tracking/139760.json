@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549642/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549642/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549642/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549642/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549642/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T11:26:19.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549642",
+                    "label": {
+                        "_value": "Raise the age of voting to 25"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:59:43.009Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549642",
+                    "label": {
+                        "_value": "Raise the age of voting to 25"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-06T15:20:09.718Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549642",
+                    "label": {
+                        "_value": "Raise the age of voting to 25"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

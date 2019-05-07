@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551890/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551890/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551890/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551890/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551890/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:03:40.218Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551890",
+                    "label": {
+                        "_value": "False statements and misrepresentation by politicians to be electoral fraud"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:24:23.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551890",
+                    "label": {
+                        "_value": "False statements and misrepresentation by politicians to be electoral fraud"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581196",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T14:13:46.509Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551890",
+                    "label": {
+                        "_value": "False statements and misrepresentation by politicians to be electoral fraud"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573281",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T17:09:57.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551890",
+                    "label": {
+                        "_value": "False statements and misrepresentation by politicians to be electoral fraud"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T22:54:35.459Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551890",
+                    "label": {
+                        "_value": "False statements and misrepresentation by politicians to be electoral fraud"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T20:19:11.718Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551890",
+                    "label": {
+                        "_value": "False statements and misrepresentation by politicians to be electoral fraud"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549203/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549203/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549203/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549203/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549203/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581841",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T00:24:12.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549203",
+                    "label": {
+                        "_value": "Government fund Boot Camps for teenagers instead of children's homes and units"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571700",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:56:30.548Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549203",
+                    "label": {
+                        "_value": "Government fund Boot Camps for teenagers instead of children's homes and units"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549204",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T05:28:17.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549203",
+                    "label": {
+                        "_value": "Government fund Boot Camps for teenagers instead of children's homes and units"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

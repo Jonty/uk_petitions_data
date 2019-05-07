@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/853784/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/853784/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/853784/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/853784/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/853784/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/965334",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-02T23:00:05.956Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853784",
+                    "label": {
+                        "_value": "Investigate the links between MPs and foreign intelligence services"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T16:13:30.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853784",
+                    "label": {
+                        "_value": "Investigate the links between MPs and foreign intelligence services"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-03T11:32:12.830Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853784",
+                    "label": {
+                        "_value": "Investigate the links between MPs and foreign intelligence services"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-02T18:11:44.327Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853784",
+                    "label": {
+                        "_value": "Investigate the links between MPs and foreign intelligence services"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

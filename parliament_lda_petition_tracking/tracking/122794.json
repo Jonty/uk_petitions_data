@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464607/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464607/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464607/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464607/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464607/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.965Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464607",
+                    "label": {
+                        "_value": "Review PMQs to ensure it is progressive and effective"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464607",
+                    "label": {
+                        "_value": "Review PMQs to ensure it is progressive and effective"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464607",
+                    "label": {
+                        "_value": "Review PMQs to ensure it is progressive and effective"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490763",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T15:51:16.433Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464607",
+                    "label": {
+                        "_value": "Review PMQs to ensure it is progressive and effective"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T11:36:41.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464607",
+                    "label": {
+                        "_value": "Review PMQs to ensure it is progressive and effective"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

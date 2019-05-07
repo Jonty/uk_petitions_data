@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465105/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465105/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465105/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465105/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465105/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/567719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465105",
+                    "label": {
+                        "_value": "Call for an independent review of the recent local government finance settlement"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T18:49:10.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465105",
+                    "label": {
+                        "_value": "Call for an independent review of the recent local government finance settlement"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465105",
+                    "label": {
+                        "_value": "Call for an independent review of the recent local government finance settlement"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T10:59:59.181Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465105",
+                    "label": {
+                        "_value": "Call for an independent review of the recent local government finance settlement"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T12:05:23.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465105",
+                    "label": {
+                        "_value": "Call for an independent review of the recent local government finance settlement"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

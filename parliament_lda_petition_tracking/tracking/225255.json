@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/949308/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/949308/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/949308/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/949308/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/949308/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1048792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-25T00:00:06.929Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949308",
+                    "label": {
+                        "_value": "Limit MP's to a total of 4 years in parliament to prevent career politicians."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038802",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T00:45:43.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949308",
+                    "label": {
+                        "_value": "Limit MP's to a total of 4 years in parliament to prevent career politicians."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033531",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T08:14:09.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949308",
+                    "label": {
+                        "_value": "Limit MP's to a total of 4 years in parliament to prevent career politicians."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/980645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-02T11:31:39.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949308",
+                    "label": {
+                        "_value": "Limit MP's to a total of 4 years in parliament to prevent career politicians."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960767",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-24T20:28:52.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949308",
+                    "label": {
+                        "_value": "Limit MP's to a total of 4 years in parliament to prevent career politicians."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949309",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T08:38:34.669Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949308",
+                    "label": {
+                        "_value": "Limit MP's to a total of 4 years in parliament to prevent career politicians."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

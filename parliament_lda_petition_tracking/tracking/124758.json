@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/480479/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/480479/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/480479/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/480479/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/480479/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/586396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480479",
+                    "label": {
+                        "_value": "stop ALL benefit cuts."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480479",
+                    "label": {
+                        "_value": "stop ALL benefit cuts."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T14:50:59.943Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480479",
+                    "label": {
+                        "_value": "stop ALL benefit cuts."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T20:14:15.645Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480479",
+                    "label": {
+                        "_value": "stop ALL benefit cuts."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T08:14:37.606Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480479",
+                    "label": {
+                        "_value": "stop ALL benefit cuts."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480480",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T20:48:50.902Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480479",
+                    "label": {
+                        "_value": "stop ALL benefit cuts."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1081622/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1081622/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1081622/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1081622/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1081622/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T08:36:26.358Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081622",
+                    "label": {
+                        "_value": "Make it compulsory for all vehicles to be fitted with a dash cam"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094129",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:15.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081622",
+                    "label": {
+                        "_value": "Make it compulsory for all vehicles to be fitted with a dash cam"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085780",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:35:07.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081622",
+                    "label": {
+                        "_value": "Make it compulsory for all vehicles to be fitted with a dash cam"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T19:27:01.665Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081622",
+                    "label": {
+                        "_value": "Make it compulsory for all vehicles to be fitted with a dash cam"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T14:50:42.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081622",
+                    "label": {
+                        "_value": "Make it compulsory for all vehicles to be fitted with a dash cam"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

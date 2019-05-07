@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552128/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552128/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552128/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552128/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552128/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640365",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T08:46:04.487Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552128",
+                    "label": {
+                        "_value": "Make CBD available on the NHS to children suffering dravet syndrome."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T18:52:54.008Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552128",
+                    "label": {
+                        "_value": "Make CBD available on the NHS to children suffering dravet syndrome."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T23:35:26.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552128",
+                    "label": {
+                        "_value": "Make CBD available on the NHS to children suffering dravet syndrome."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T03:12:20.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552128",
+                    "label": {
+                        "_value": "Make CBD available on the NHS to children suffering dravet syndrome."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552129",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T11:06:45.520Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552128",
+                    "label": {
+                        "_value": "Make CBD available on the NHS to children suffering dravet syndrome."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

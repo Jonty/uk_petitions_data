@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550191/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550191/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550191/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550191/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550191/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550191",
+                    "label": {
+                        "_value": "Make it Illegal to ignore the \"No Junk Mail\" and \"No Callers\" Door signs"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635006",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T11:00:04.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550191",
+                    "label": {
+                        "_value": "Make it Illegal to ignore the \"No Junk Mail\" and \"No Callers\" Door signs"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T15:21:24.443Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550191",
+                    "label": {
+                        "_value": "Make it Illegal to ignore the \"No Junk Mail\" and \"No Callers\" Door signs"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599565",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:47:49.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550191",
+                    "label": {
+                        "_value": "Make it Illegal to ignore the \"No Junk Mail\" and \"No Callers\" Door signs"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T18:23:29.188Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550191",
+                    "label": {
+                        "_value": "Make it Illegal to ignore the \"No Junk Mail\" and \"No Callers\" Door signs"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T08:55:06.175Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550191",
+                    "label": {
+                        "_value": "Make it Illegal to ignore the \"No Junk Mail\" and \"No Callers\" Door signs"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

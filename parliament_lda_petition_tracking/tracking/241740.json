@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078223/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078223/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078223/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078223/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078223/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107492",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T18:15:13.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078223",
+                    "label": {
+                        "_value": "Instigate UK Referendum on whether to complete HS/2."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080628",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T11:46:05.364Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078223",
+                    "label": {
+                        "_value": "Instigate UK Referendum on whether to complete HS/2."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T16:04:56.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078223",
+                    "label": {
+                        "_value": "Instigate UK Referendum on whether to complete HS/2."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

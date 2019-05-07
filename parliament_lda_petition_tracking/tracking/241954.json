@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1079235/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1079235/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1079235/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1079235/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1079235/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:15.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079235",
+                    "label": {
+                        "_value": "Financially help grandparents who are childcare providers"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T11:21:51.253Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079235",
+                    "label": {
+                        "_value": "Financially help grandparents who are childcare providers"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-28T11:51:45.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079235",
+                    "label": {
+                        "_value": "Financially help grandparents who are childcare providers"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T11:00:42.698Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079235",
+                    "label": {
+                        "_value": "Financially help grandparents who are childcare providers"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633363/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633363/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633363/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633363/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633363/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633363",
+                    "label": {
+                        "_value": "More of the foreign aid budget should be funded towards WASH Projects globally."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-19T07:39:49.555Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633363",
+                    "label": {
+                        "_value": "More of the foreign aid budget should be funded towards WASH Projects globally."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636101",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T15:50:57.900Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633363",
+                    "label": {
+                        "_value": "More of the foreign aid budget should be funded towards WASH Projects globally."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634975",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T20:08:08.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633363",
+                    "label": {
+                        "_value": "More of the foreign aid budget should be funded towards WASH Projects globally."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T22:39:28.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633363",
+                    "label": {
+                        "_value": "More of the foreign aid budget should be funded towards WASH Projects globally."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T23:41:32.317Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633363",
+                    "label": {
+                        "_value": "More of the foreign aid budget should be funded towards WASH Projects globally."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

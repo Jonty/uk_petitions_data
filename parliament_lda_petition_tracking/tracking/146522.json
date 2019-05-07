@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/565601/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/565601/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/565601/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/565601/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/565601/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.925Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565601",
+                    "label": {
+                        "_value": "Parliament to debate the misleading information by the EU Leave Campaign"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T20:16:21.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565601",
+                    "label": {
+                        "_value": "Parliament to debate the misleading information by the EU Leave Campaign"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:28:33.863Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565601",
+                    "label": {
+                        "_value": "Parliament to debate the misleading information by the EU Leave Campaign"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573077",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:46:12.613Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565601",
+                    "label": {
+                        "_value": "Parliament to debate the misleading information by the EU Leave Campaign"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T09:40:41.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565601",
+                    "label": {
+                        "_value": "Parliament to debate the misleading information by the EU Leave Campaign"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565602",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T20:18:46.290Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565601",
+                    "label": {
+                        "_value": "Parliament to debate the misleading information by the EU Leave Campaign"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

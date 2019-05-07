@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1034995/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1034995/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1034995/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1034995/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1034995/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1085773",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T16:47:26.368Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034995",
+                    "label": {
+                        "_value": "Increase the maximum jail term for flying a drone over a UK airport to 10 years."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T14:56:46.289Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034995",
+                    "label": {
+                        "_value": "Increase the maximum jail term for flying a drone over a UK airport to 10 years."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1056549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-06T18:37:31.551Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034995",
+                    "label": {
+                        "_value": "Increase the maximum jail term for flying a drone over a UK airport to 10 years."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1035698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-04T08:26:03.476Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034995",
+                    "label": {
+                        "_value": "Increase the maximum jail term for flying a drone over a UK airport to 10 years."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1034996",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-03T21:11:11.233Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034995",
+                    "label": {
+                        "_value": "Increase the maximum jail term for flying a drone over a UK airport to 10 years."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

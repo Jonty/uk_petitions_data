@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/569453/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/569453/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/569453/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/569453/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/569453/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T19:29:30.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569453",
+                    "label": {
+                        "_value": "Manual workers to retire at 60!!"
+                    }
+                },
+                "numberOfSignatures": 6
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T09:30:59.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569453",
+                    "label": {
+                        "_value": "Manual workers to retire at 60!!"
+                    }
+                },
+                "numberOfSignatures": 5
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569454",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T18:32:30.229Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569453",
+                    "label": {
+                        "_value": "Manual workers to retire at 60!!"
+                    }
+                },
+                "numberOfSignatures": 4
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

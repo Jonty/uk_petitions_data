@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/884854/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/884854/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/884854/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/884854/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/884854/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/990114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T23:00:01.592Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884854",
+                    "label": {
+                        "_value": "Fund \u201cOff The Street, Less Heat\u201d youth project and similar projects"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T15:29:29.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884854",
+                    "label": {
+                        "_value": "Fund \u201cOff The Street, Less Heat\u201d youth project and similar projects"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T15:05:20.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884854",
+                    "label": {
+                        "_value": "Fund \u201cOff The Street, Less Heat\u201d youth project and similar projects"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

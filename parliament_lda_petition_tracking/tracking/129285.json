@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548600/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548600/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548600/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548600/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548600/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548600",
+                    "label": {
+                        "_value": "Reconsider the National Insurance banding for public sector employees."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548600",
+                    "label": {
+                        "_value": "Reconsider the National Insurance banding for public sector employees."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T23:29:37.464Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548600",
+                    "label": {
+                        "_value": "Reconsider the National Insurance banding for public sector employees."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548601",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548600",
+                    "label": {
+                        "_value": "Reconsider the National Insurance banding for public sector employees."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

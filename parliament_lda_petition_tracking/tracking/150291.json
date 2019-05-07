@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547354/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547354/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547354/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547354/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547354/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547354",
+                    "label": {
+                        "_value": "Extend the timetable for district councils to submit their Local plans"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581093",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T17:32:17.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547354",
+                    "label": {
+                        "_value": "Extend the timetable for district councils to submit their Local plans"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575447",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T15:38:33.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547354",
+                    "label": {
+                        "_value": "Extend the timetable for district councils to submit their Local plans"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558597",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T15:39:00.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547354",
+                    "label": {
+                        "_value": "Extend the timetable for district councils to submit their Local plans"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T08:39:13.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547354",
+                    "label": {
+                        "_value": "Extend the timetable for district councils to submit their Local plans"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T15:04:14.930Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547354",
+                    "label": {
+                        "_value": "Extend the timetable for district councils to submit their Local plans"
+                    }
+                },
+                "numberOfSignatures": 49
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

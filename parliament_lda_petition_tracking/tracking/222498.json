@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933455/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933455/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933455/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933455/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933455/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T00:00:05.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933455",
+                    "label": {
+                        "_value": "Support the 'Campaign Against Nurdle Spills' to regulate nurdle handling"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984181",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T10:21:18.511Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933455",
+                    "label": {
+                        "_value": "Support the 'Campaign Against Nurdle Spills' to regulate nurdle handling"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T13:32:54.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933455",
+                    "label": {
+                        "_value": "Support the 'Campaign Against Nurdle Spills' to regulate nurdle handling"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-26T18:00:04.288Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933455",
+                    "label": {
+                        "_value": "Support the 'Campaign Against Nurdle Spills' to regulate nurdle handling"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-30T06:22:19.818Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933455",
+                    "label": {
+                        "_value": "Support the 'Campaign Against Nurdle Spills' to regulate nurdle handling"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933456",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-28T10:57:09.186Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933455",
+                    "label": {
+                        "_value": "Support the 'Campaign Against Nurdle Spills' to regulate nurdle handling"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

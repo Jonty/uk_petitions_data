@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463291/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463291/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463291/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463291/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463291/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733801",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.333Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463291",
+                    "label": {
+                        "_value": "Send money, food and drinks to help the homeless people in the north east of uk"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543584",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463291",
+                    "label": {
+                        "_value": "Send money, food and drinks to help the homeless people in the north east of uk"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T02:32:05.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463291",
+                    "label": {
+                        "_value": "Send money, food and drinks to help the homeless people in the north east of uk"
+                    }
+                },
+                "numberOfSignatures": 54
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

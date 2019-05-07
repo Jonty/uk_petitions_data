@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664919/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664919/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664919/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664919/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664919/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664919",
+                    "label": {
+                        "_value": "Urinary Tract Infections tested for and prescribed for by a pharmacist not a GP."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664920",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-23T05:50:42.235Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664919",
+                    "label": {
+                        "_value": "Urinary Tract Infections tested for and prescribed for by a pharmacist not a GP."
+                    }
+                },
+                "numberOfSignatures": 38
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

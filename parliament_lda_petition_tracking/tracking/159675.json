@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551094/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551094/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551094/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551094/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551094/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T23:16:20.306Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551094",
+                    "label": {
+                        "_value": "War and bombing a country or people must be the last option, not the first."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573231",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T17:00:17.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551094",
+                    "label": {
+                        "_value": "War and bombing a country or people must be the last option, not the first."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T18:00:09.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551094",
+                    "label": {
+                        "_value": "War and bombing a country or people must be the last option, not the first."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

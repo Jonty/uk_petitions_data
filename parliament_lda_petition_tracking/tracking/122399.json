@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466763/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466763/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466763/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466763/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466763/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/568290",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466763",
+                    "label": {
+                        "_value": "EU referendum vote only to be valid when turnout is 66% (2015 general election)"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:02:08.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466763",
+                    "label": {
+                        "_value": "EU referendum vote only to be valid when turnout is 66% (2015 general election)"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506171",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T11:51:43.745Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466763",
+                    "label": {
+                        "_value": "EU referendum vote only to be valid when turnout is 66% (2015 general election)"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:09:16.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466763",
+                    "label": {
+                        "_value": "EU referendum vote only to be valid when turnout is 66% (2015 general election)"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T12:05:57.588Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466763",
+                    "label": {
+                        "_value": "EU referendum vote only to be valid when turnout is 66% (2015 general election)"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/984193/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/984193/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/984193/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/984193/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/984193/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:06.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984193",
+                    "label": {
+                        "_value": "Demand the Government clarify the legal status of Windrush Generation"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T10:32:05.178Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984193",
+                    "label": {
+                        "_value": "Demand the Government clarify the legal status of Windrush Generation"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/987236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-13T12:24:42.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984193",
+                    "label": {
+                        "_value": "Demand the Government clarify the legal status of Windrush Generation"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T09:51:25.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984193",
+                    "label": {
+                        "_value": "Demand the Government clarify the legal status of Windrush Generation"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

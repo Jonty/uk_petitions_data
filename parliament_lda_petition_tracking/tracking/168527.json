@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/599770/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/599770/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/599770/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/599770/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/599770/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T23:00:00.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599770",
+                    "label": {
+                        "_value": "Gain funding, raise awareness&reintroduce oral health education back into the UK"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T20:07:05.491Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599770",
+                    "label": {
+                        "_value": "Gain funding, raise awareness&reintroduce oral health education back into the UK"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T17:52:15.276Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599770",
+                    "label": {
+                        "_value": "Gain funding, raise awareness&reintroduce oral health education back into the UK"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T20:10:23.682Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599770",
+                    "label": {
+                        "_value": "Gain funding, raise awareness&reintroduce oral health education back into the UK"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T16:20:14.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599770",
+                    "label": {
+                        "_value": "Gain funding, raise awareness&reintroduce oral health education back into the UK"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1094158/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1094158/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1094158/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1094158/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1094158/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107476",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T21:24:48.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094158",
+                    "label": {
+                        "_value": "Halve Stamp Duty for couples buying a house and one person is a first time buyer"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T10:36:25.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094158",
+                    "label": {
+                        "_value": "Halve Stamp Duty for couples buying a house and one person is a first time buyer"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664848/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664848/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664848/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664848/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664848/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.791Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664848",
+                    "label": {
+                        "_value": "Increase the maximum sentence for those found guilty of cruelty to a child"
+                    }
+                },
+                "numberOfSignatures": 121
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T01:36:29.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664848",
+                    "label": {
+                        "_value": "Increase the maximum sentence for those found guilty of cruelty to a child"
+                    }
+                },
+                "numberOfSignatures": 51
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

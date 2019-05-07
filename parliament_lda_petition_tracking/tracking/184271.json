@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/719811/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/719811/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/719811/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/719811/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/719811/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:20.249Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/719811",
+                    "label": {
+                        "_value": "Conduct more research into Wilkie Syndrome otherwise known as SMAS."
+                    }
+                },
+                "numberOfSignatures": 1843
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T21:02:09.108Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/719811",
+                    "label": {
+                        "_value": "Conduct more research into Wilkie Syndrome otherwise known as SMAS."
+                    }
+                },
+                "numberOfSignatures": 1608
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-14T17:43:06.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/719811",
+                    "label": {
+                        "_value": "Conduct more research into Wilkie Syndrome otherwise known as SMAS."
+                    }
+                },
+                "numberOfSignatures": 1607
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719812",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T11:18:42.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/719811",
+                    "label": {
+                        "_value": "Conduct more research into Wilkie Syndrome otherwise known as SMAS."
+                    }
+                },
+                "numberOfSignatures": 1596
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

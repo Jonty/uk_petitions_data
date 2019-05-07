@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548891/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548891/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548891/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548891/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548891/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629567",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T11:41:17.455Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548891",
+                    "label": {
+                        "_value": "Formal identification required to sign petitions for Parliament to consider."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606491",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T20:55:21.075Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548891",
+                    "label": {
+                        "_value": "Formal identification required to sign petitions for Parliament to consider."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548892",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T23:36:32.813Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548891",
+                    "label": {
+                        "_value": "Formal identification required to sign petitions for Parliament to consider."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

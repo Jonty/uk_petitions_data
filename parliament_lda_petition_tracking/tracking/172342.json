@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640049/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640049/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640049/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640049/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640049/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640049",
+                    "label": {
+                        "_value": "Fit seat belts on all public transport where there are seats provided."
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T10:51:24.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640049",
+                    "label": {
+                        "_value": "Fit seat belts on all public transport where there are seats provided."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643507",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T11:40:11.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640049",
+                    "label": {
+                        "_value": "Fit seat belts on all public transport where there are seats provided."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/642068",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T17:58:44.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640049",
+                    "label": {
+                        "_value": "Fit seat belts on all public transport where there are seats provided."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641002",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T12:40:49.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640049",
+                    "label": {
+                        "_value": "Fit seat belts on all public transport where there are seats provided."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T20:38:42.406Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640049",
+                    "label": {
+                        "_value": "Fit seat belts on all public transport where there are seats provided."
+                    }
+                },
+                "numberOfSignatures": 53
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

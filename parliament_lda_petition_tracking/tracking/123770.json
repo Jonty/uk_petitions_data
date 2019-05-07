@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/478494/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/478494/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/478494/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/478494/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/478494/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/585950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478494",
+                    "label": {
+                        "_value": "Introduce a Financial Transaction Tax, use revenue to help fight austerity cuts"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:40:41.031Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478494",
+                    "label": {
+                        "_value": "Introduce a Financial Transaction Tax, use revenue to help fight austerity cuts"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550706",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478494",
+                    "label": {
+                        "_value": "Introduce a Financial Transaction Tax, use revenue to help fight austerity cuts"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478998",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T19:07:46.853Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478494",
+                    "label": {
+                        "_value": "Introduce a Financial Transaction Tax, use revenue to help fight austerity cuts"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T14:06:02.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478494",
+                    "label": {
+                        "_value": "Introduce a Financial Transaction Tax, use revenue to help fight austerity cuts"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

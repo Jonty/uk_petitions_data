@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1089374/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1089374/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1089374/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1089374/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1089374/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T20:36:15.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089374",
+                    "label": {
+                        "_value": "Change law on sentence\u2019s for class A drug dealing.pass a minimum term of 20years"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T21:23:41.822Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089374",
+                    "label": {
+                        "_value": "Change law on sentence\u2019s for class A drug dealing.pass a minimum term of 20years"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

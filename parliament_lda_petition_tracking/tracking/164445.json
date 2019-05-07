@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558702/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558702/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558702/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558702/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558702/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/588479",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T21:16:24.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558702",
+                    "label": {
+                        "_value": "\"Superfast\" (Fibre) broadband should be made available to Exchange Only lines"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T18:06:59.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558702",
+                    "label": {
+                        "_value": "\"Superfast\" (Fibre) broadband should be made available to Exchange Only lines"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566684",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T22:52:37.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558702",
+                    "label": {
+                        "_value": "\"Superfast\" (Fibre) broadband should be made available to Exchange Only lines"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558703",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T12:10:08.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558702",
+                    "label": {
+                        "_value": "\"Superfast\" (Fibre) broadband should be made available to Exchange Only lines"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

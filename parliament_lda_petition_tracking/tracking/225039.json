@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/946051/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/946051/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/946051/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/946051/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/946051/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1045404",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-21T00:00:03.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946051",
+                    "label": {
+                        "_value": "Make it illegal for pedestrians to cross a road where a crossing is visible."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1029044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-19T06:32:19.185Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946051",
+                    "label": {
+                        "_value": "Make it illegal for pedestrians to cross a road where a crossing is visible."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T07:41:43.327Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946051",
+                    "label": {
+                        "_value": "Make it illegal for pedestrians to cross a road where a crossing is visible."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946052",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T10:14:42.074Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946051",
+                    "label": {
+                        "_value": "Make it illegal for pedestrians to cross a road where a crossing is visible."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

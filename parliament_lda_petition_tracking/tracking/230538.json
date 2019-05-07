@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/995422/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/995422/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/995422/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/995422/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/995422/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107613",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:11.071Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995422",
+                    "label": {
+                        "_value": "Reduce the age of buying beer and alco-pops 5% and under, wine under 13% to 16"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094141",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:07.459Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995422",
+                    "label": {
+                        "_value": "Reduce the age of buying beer and alco-pops 5% and under, wine under 13% to 16"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-12T20:56:20.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995422",
+                    "label": {
+                        "_value": "Reduce the age of buying beer and alco-pops 5% and under, wine under 13% to 16"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T06:49:34.729Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995422",
+                    "label": {
+                        "_value": "Reduce the age of buying beer and alco-pops 5% and under, wine under 13% to 16"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995423",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-23T09:35:24.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995422",
+                    "label": {
+                        "_value": "Reduce the age of buying beer and alco-pops 5% and under, wine under 13% to 16"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/870082/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/870082/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/870082/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/870082/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/870082/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/976962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-22T23:00:05.491Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870082",
+                    "label": {
+                        "_value": "Hold a public inquiry into why the UK issued new, lower alcohol guidelines"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/900987",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-08T21:38:30.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870082",
+                    "label": {
+                        "_value": "Hold a public inquiry into why the UK issued new, lower alcohol guidelines"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-20T14:32:28.849Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870082",
+                    "label": {
+                        "_value": "Hold a public inquiry into why the UK issued new, lower alcohol guidelines"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871250",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-24T10:46:44.437Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870082",
+                    "label": {
+                        "_value": "Hold a public inquiry into why the UK issued new, lower alcohol guidelines"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870083",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-22T20:38:04.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870082",
+                    "label": {
+                        "_value": "Hold a public inquiry into why the UK issued new, lower alcohol guidelines"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

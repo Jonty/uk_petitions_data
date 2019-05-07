@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465721/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465721/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465721/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465721/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465721/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465721",
+                    "label": {
+                        "_value": "Make it illegal for the Media to mention Ethnicity or Religion for crimes"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480497",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T00:00:10.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465721",
+                    "label": {
+                        "_value": "Make it illegal for the Media to mention Ethnicity or Religion for crimes"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465722",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:11:45.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465721",
+                    "label": {
+                        "_value": "Make it illegal for the Media to mention Ethnicity or Religion for crimes"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

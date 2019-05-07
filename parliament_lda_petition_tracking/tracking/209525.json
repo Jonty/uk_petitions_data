@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/959255/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/959255/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/959255/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/959255/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/959255/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-22T00:00:05.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959255",
+                    "label": {
+                        "_value": "Remove home address from UK Driving Licence."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/986314",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T21:43:42.700Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959255",
+                    "label": {
+                        "_value": "Remove home address from UK Driving Licence."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959641",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-22T10:28:26.408Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959255",
+                    "label": {
+                        "_value": "Remove home address from UK Driving Licence."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959256",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-21T16:55:36.116Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959255",
+                    "label": {
+                        "_value": "Remove home address from UK Driving Licence."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

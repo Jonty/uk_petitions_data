@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/504191/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/504191/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/504191/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/504191/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/504191/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594475",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504191",
+                    "label": {
+                        "_value": "Remove the 2026 deadline for claiming historic rights of way"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T21:52:15.570Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504191",
+                    "label": {
+                        "_value": "Remove the 2026 deadline for claiming historic rights of way"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T12:39:36.617Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504191",
+                    "label": {
+                        "_value": "Remove the 2026 deadline for claiming historic rights of way"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T11:07:48.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504191",
+                    "label": {
+                        "_value": "Remove the 2026 deadline for claiming historic rights of way"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T11:04:47.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504191",
+                    "label": {
+                        "_value": "Remove the 2026 deadline for claiming historic rights of way"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

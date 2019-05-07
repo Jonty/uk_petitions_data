@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664993/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664993/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664993/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664993/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664993/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664993",
+                    "label": {
+                        "_value": "Allow Foster Carers to Transfer without being subject to another lengthy process"
+                    }
+                },
+                "numberOfSignatures": 134
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T17:39:43.865Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664993",
+                    "label": {
+                        "_value": "Allow Foster Carers to Transfer without being subject to another lengthy process"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664994",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T20:16:17.368Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664993",
+                    "label": {
+                        "_value": "Allow Foster Carers to Transfer without being subject to another lengthy process"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

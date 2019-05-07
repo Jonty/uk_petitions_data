@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/862876/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/862876/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/862876/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/862876/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/862876/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/974610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-14T23:00:01.436Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/862876",
+                    "label": {
+                        "_value": "Set a minimum price per calorie for unhealthy foods"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T11:09:26.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/862876",
+                    "label": {
+                        "_value": "Set a minimum price per calorie for unhealthy foods"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936455",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-01T13:06:01.004Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/862876",
+                    "label": {
+                        "_value": "Set a minimum price per calorie for unhealthy foods"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/897038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-02T13:47:55.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/862876",
+                    "label": {
+                        "_value": "Set a minimum price per calorie for unhealthy foods"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/862877",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-14T17:07:40.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/862876",
+                    "label": {
+                        "_value": "Set a minimum price per calorie for unhealthy foods"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

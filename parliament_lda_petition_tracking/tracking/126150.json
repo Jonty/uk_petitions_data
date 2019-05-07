@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492221/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492221/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492221/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492221/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492221/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492221",
+                    "label": {
+                        "_value": "Stop Landlords from discriminating against individuals who claim housing benefit"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492221",
+                    "label": {
+                        "_value": "Stop Landlords from discriminating against individuals who claim housing benefit"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T08:21:29.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492221",
+                    "label": {
+                        "_value": "Stop Landlords from discriminating against individuals who claim housing benefit"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T11:33:29.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492221",
+                    "label": {
+                        "_value": "Stop Landlords from discriminating against individuals who claim housing benefit"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

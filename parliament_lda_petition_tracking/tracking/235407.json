@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1030066/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1030066/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1030066/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1030066/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1030066/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107202",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T15:45:52.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030066",
+                    "label": {
+                        "_value": "Lower Minimum Age of Full \"A\" Motorcycle License to 20 Through Direct Access"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T18:30:00.029Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030066",
+                    "label": {
+                        "_value": "Lower Minimum Age of Full \"A\" Motorcycle License to 20 Through Direct Access"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033525",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T11:25:15.450Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030066",
+                    "label": {
+                        "_value": "Lower Minimum Age of Full \"A\" Motorcycle License to 20 Through Direct Access"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T12:09:54.582Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030066",
+                    "label": {
+                        "_value": "Lower Minimum Age of Full \"A\" Motorcycle License to 20 Through Direct Access"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-20T18:19:37.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030066",
+                    "label": {
+                        "_value": "Lower Minimum Age of Full \"A\" Motorcycle License to 20 Through Direct Access"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

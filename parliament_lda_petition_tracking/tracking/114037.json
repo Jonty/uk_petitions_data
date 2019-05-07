@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465305/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465305/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465305/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465305/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465305/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734609",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.117Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465305",
+                    "label": {
+                        "_value": "Enact a comprehensive ban on the advertisement of gambling in all media."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547628",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465305",
+                    "label": {
+                        "_value": "Enact a comprehensive ban on the advertisement of gambling in all media."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T16:19:42.687Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465305",
+                    "label": {
+                        "_value": "Enact a comprehensive ban on the advertisement of gambling in all media."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492060",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T21:00:25.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465305",
+                    "label": {
+                        "_value": "Enact a comprehensive ban on the advertisement of gambling in all media."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T22:15:01.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465305",
+                    "label": {
+                        "_value": "Enact a comprehensive ban on the advertisement of gambling in all media."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

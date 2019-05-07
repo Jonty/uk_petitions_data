@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492177/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492177/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492177/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492177/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492177/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592833",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492177",
+                    "label": {
+                        "_value": "Scrap Air Passenger Duty (APD) on all UK flights"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T17:03:04.851Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492177",
+                    "label": {
+                        "_value": "Scrap Air Passenger Duty (APD) on all UK flights"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T07:37:23.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492177",
+                    "label": {
+                        "_value": "Scrap Air Passenger Duty (APD) on all UK flights"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492177",
+                    "label": {
+                        "_value": "Scrap Air Passenger Duty (APD) on all UK flights"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T11:15:32.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492177",
+                    "label": {
+                        "_value": "Scrap Air Passenger Duty (APD) on all UK flights"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

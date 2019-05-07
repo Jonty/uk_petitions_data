@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551547/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551547/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551547/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551547/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551547/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630613",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T13:50:59.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551547",
+                    "label": {
+                        "_value": "This government to urgently strengthen the defence of our coastline"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627964",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:41:52.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551547",
+                    "label": {
+                        "_value": "This government to urgently strengthen the defence of our coastline"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573286",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:29:12.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551547",
+                    "label": {
+                        "_value": "This government to urgently strengthen the defence of our coastline"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551548",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T11:03:05.413Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551547",
+                    "label": {
+                        "_value": "This government to urgently strengthen the defence of our coastline"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

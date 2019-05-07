@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/898547/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/898547/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/898547/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/898547/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/898547/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1001825",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T00:00:00.595Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898547",
+                    "label": {
+                        "_value": "Allow voluntary Lie Detector Tests in criminal trials for both victims & accused"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/945373",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-19T14:08:45.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898547",
+                    "label": {
+                        "_value": "Allow voluntary Lie Detector Tests in criminal trials for both victims & accused"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-13T16:46:54.119Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898547",
+                    "label": {
+                        "_value": "Allow voluntary Lie Detector Tests in criminal trials for both victims & accused"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/939216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-11T08:56:22.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898547",
+                    "label": {
+                        "_value": "Allow voluntary Lie Detector Tests in criminal trials for both victims & accused"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898548",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-04T11:43:31.068Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898547",
+                    "label": {
+                        "_value": "Allow voluntary Lie Detector Tests in criminal trials for both victims & accused"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

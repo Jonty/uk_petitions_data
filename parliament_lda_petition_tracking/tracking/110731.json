@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463599/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463599/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463599/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463599/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463599/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733977",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.790Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463599",
+                    "label": {
+                        "_value": "Stop the unjust resale prices of concert tickets"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463599",
+                    "label": {
+                        "_value": "Stop the unjust resale prices of concert tickets"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T15:31:50.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463599",
+                    "label": {
+                        "_value": "Stop the unjust resale prices of concert tickets"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T10:53:23.707Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463599",
+                    "label": {
+                        "_value": "Stop the unjust resale prices of concert tickets"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T10:22:43.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463599",
+                    "label": {
+                        "_value": "Stop the unjust resale prices of concert tickets"
+                    }
+                },
+                "numberOfSignatures": 44
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

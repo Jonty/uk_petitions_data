@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461430/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461430/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461430/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461430/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461430/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727484",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.389Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461430",
+                    "label": {
+                        "_value": "Heart screens on every unborn child and have sats machines in doctors surgeries"
+                    }
+                },
+                "numberOfSignatures": 401
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/534898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461430",
+                    "label": {
+                        "_value": "Heart screens on every unborn child and have sats machines in doctors surgeries"
+                    }
+                },
+                "numberOfSignatures": 401
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-17T00:00:12.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461430",
+                    "label": {
+                        "_value": "Heart screens on every unborn child and have sats machines in doctors surgeries"
+                    }
+                },
+                "numberOfSignatures": 401
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T03:24:16.674Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461430",
+                    "label": {
+                        "_value": "Heart screens on every unborn child and have sats machines in doctors surgeries"
+                    }
+                },
+                "numberOfSignatures": 401
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T23:03:07.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461430",
+                    "label": {
+                        "_value": "Heart screens on every unborn child and have sats machines in doctors surgeries"
+                    }
+                },
+                "numberOfSignatures": 400
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

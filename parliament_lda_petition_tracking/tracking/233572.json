@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1021592/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1021592/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1021592/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1021592/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1021592/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T11:03:51.137Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021592",
+                    "label": {
+                        "_value": "Ban the sale of non-biodegradable cigarette filters in the UK."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T08:22:12.802Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021592",
+                    "label": {
+                        "_value": "Ban the sale of non-biodegradable cigarette filters in the UK."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054528",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T18:06:34.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021592",
+                    "label": {
+                        "_value": "Ban the sale of non-biodegradable cigarette filters in the UK."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-12T14:38:05.311Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021592",
+                    "label": {
+                        "_value": "Ban the sale of non-biodegradable cigarette filters in the UK."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033568",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:04:32.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021592",
+                    "label": {
+                        "_value": "Ban the sale of non-biodegradable cigarette filters in the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-06T08:51:31.810Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021592",
+                    "label": {
+                        "_value": "Ban the sale of non-biodegradable cigarette filters in the UK."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

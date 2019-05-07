@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463563/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463563/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463563/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463563/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463563/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463563",
+                    "label": {
+                        "_value": "Cornwall needs an inpatient unit for children with mental health problems."
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463563",
+                    "label": {
+                        "_value": "Cornwall needs an inpatient unit for children with mental health problems."
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511118",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T22:51:25.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463563",
+                    "label": {
+                        "_value": "Cornwall needs an inpatient unit for children with mental health problems."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T23:15:25.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463563",
+                    "label": {
+                        "_value": "Cornwall needs an inpatient unit for children with mental health problems."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463564",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T12:10:29.611Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463563",
+                    "label": {
+                        "_value": "Cornwall needs an inpatient unit for children with mental health problems."
+                    }
+                },
+                "numberOfSignatures": 45
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

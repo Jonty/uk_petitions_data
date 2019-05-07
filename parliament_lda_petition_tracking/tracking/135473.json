@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552254/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552254/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552254/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552254/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552254/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T07:11:37.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552254",
+                    "label": {
+                        "_value": "Every referendum must include a 'No Confidence in the Government' option"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T20:39:08.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552254",
+                    "label": {
+                        "_value": "Every referendum must include a 'No Confidence in the Government' option"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T09:22:26.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552254",
+                    "label": {
+                        "_value": "Every referendum must include a 'No Confidence in the Government' option"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552255",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T15:36:51.630Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552254",
+                    "label": {
+                        "_value": "Every referendum must include a 'No Confidence in the Government' option"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

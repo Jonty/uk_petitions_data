@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/573183/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/573183/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/573183/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/573183/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/573183/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/643595",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T12:07:39.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573183",
+                    "label": {
+                        "_value": "Introduce mandatory driving licence re-testing for old age pensioners"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627920",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T20:08:34.202Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573183",
+                    "label": {
+                        "_value": "Introduce mandatory driving licence re-testing for old age pensioners"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599683",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:49:50.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573183",
+                    "label": {
+                        "_value": "Introduce mandatory driving licence re-testing for old age pensioners"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T21:35:23.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573183",
+                    "label": {
+                        "_value": "Introduce mandatory driving licence re-testing for old age pensioners"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:48:35.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573183",
+                    "label": {
+                        "_value": "Introduce mandatory driving licence re-testing for old age pensioners"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

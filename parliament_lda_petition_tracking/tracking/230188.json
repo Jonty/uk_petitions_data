@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/991755/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/991755/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/991755/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/991755/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/991755/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:43:30.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991755",
+                    "label": {
+                        "_value": "Include education on domestic abuse to the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1046688",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-22T16:20:44.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991755",
+                    "label": {
+                        "_value": "Include education on domestic abuse to the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1027131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T12:59:55.430Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991755",
+                    "label": {
+                        "_value": "Include education on domestic abuse to the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1005562",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T14:32:35.638Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991755",
+                    "label": {
+                        "_value": "Include education on domestic abuse to the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-19T10:17:57.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991755",
+                    "label": {
+                        "_value": "Include education on domestic abuse to the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

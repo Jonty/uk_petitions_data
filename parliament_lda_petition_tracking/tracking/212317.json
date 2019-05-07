@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841689/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841689/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841689/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841689/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841689/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/956975",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-14T23:00:05.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841689",
+                    "label": {
+                        "_value": "Make driving tests graded to reduce premiums for safer new drivers"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/893639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-26T23:46:34.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841689",
+                    "label": {
+                        "_value": "Make driving tests graded to reduce premiums for safer new drivers"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/842654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-16T11:09:22.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841689",
+                    "label": {
+                        "_value": "Make driving tests graded to reduce premiums for safer new drivers"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841690",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-14T19:46:39.036Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841689",
+                    "label": {
+                        "_value": "Make driving tests graded to reduce premiums for safer new drivers"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

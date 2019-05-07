@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/870136/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/870136/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/870136/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/870136/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/870136/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977040",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-22T23:00:05.693Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870136",
+                    "label": {
+                        "_value": "Introduce Religious Studies/ REPS as an EBacc humanity subject"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946048",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T18:40:35.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870136",
+                    "label": {
+                        "_value": "Introduce Religious Studies/ REPS as an EBacc humanity subject"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933561",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-27T19:31:48.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870136",
+                    "label": {
+                        "_value": "Introduce Religious Studies/ REPS as an EBacc humanity subject"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898597",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-05T10:09:29.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870136",
+                    "label": {
+                        "_value": "Introduce Religious Studies/ REPS as an EBacc humanity subject"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870137",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-22T11:55:31.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870136",
+                    "label": {
+                        "_value": "Introduce Religious Studies/ REPS as an EBacc humanity subject"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

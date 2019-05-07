@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552282/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552282/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552282/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552282/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552282/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/619021",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T23:54:49.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552282",
+                    "label": {
+                        "_value": "Urgent call for Residential Care Home Act; specific to Elderly Care"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592381",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T14:06:58.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552282",
+                    "label": {
+                        "_value": "Urgent call for Residential Care Home Act; specific to Elderly Care"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585447",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T13:05:51.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552282",
+                    "label": {
+                        "_value": "Urgent call for Residential Care Home Act; specific to Elderly Care"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552283",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552282",
+                    "label": {
+                        "_value": "Urgent call for Residential Care Home Act; specific to Elderly Care"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465411/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465411/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465411/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465411/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465411/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735613",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.324Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465411",
+                    "label": {
+                        "_value": "Ban animals from UK circuses and fine abusive animal owners"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465411",
+                    "label": {
+                        "_value": "Ban animals from UK circuses and fine abusive animal owners"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504124",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T13:24:37.699Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465411",
+                    "label": {
+                        "_value": "Ban animals from UK circuses and fine abusive animal owners"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T23:32:15.043Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465411",
+                    "label": {
+                        "_value": "Ban animals from UK circuses and fine abusive animal owners"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T22:27:41.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465411",
+                    "label": {
+                        "_value": "Ban animals from UK circuses and fine abusive animal owners"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:39.912Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465411",
+                    "label": {
+                        "_value": "Ban animals from UK circuses and fine abusive animal owners"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

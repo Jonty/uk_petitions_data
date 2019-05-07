@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/648237/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/648237/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/648237/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/648237/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/648237/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734842",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.639Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648237",
+                    "label": {
+                        "_value": "Ask retailers to not automatically issue receipts but instead give us an option."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-15T21:42:40.558Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648237",
+                    "label": {
+                        "_value": "Ask retailers to not automatically issue receipts but instead give us an option."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-13T14:20:25.429Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648237",
+                    "label": {
+                        "_value": "Ask retailers to not automatically issue receipts but instead give us an option."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T22:56:35.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648237",
+                    "label": {
+                        "_value": "Ask retailers to not automatically issue receipts but instead give us an option."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T17:44:24.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648237",
+                    "label": {
+                        "_value": "Ask retailers to not automatically issue receipts but instead give us an option."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648238",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T21:19:54.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648237",
+                    "label": {
+                        "_value": "Ask retailers to not automatically issue receipts but instead give us an option."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

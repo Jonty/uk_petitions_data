@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462543/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462543/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462543/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462543/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462543/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462543",
+                    "label": {
+                        "_value": "Increase funding for construction of new social housing to solve UK homelessness"
+                    }
+                },
+                "numberOfSignatures": 112
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538702",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462543",
+                    "label": {
+                        "_value": "Increase funding for construction of new social housing to solve UK homelessness"
+                    }
+                },
+                "numberOfSignatures": 112
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487737",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T00:00:11.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462543",
+                    "label": {
+                        "_value": "Increase funding for construction of new social housing to solve UK homelessness"
+                    }
+                },
+                "numberOfSignatures": 112
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486715",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T18:45:33.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462543",
+                    "label": {
+                        "_value": "Increase funding for construction of new social housing to solve UK homelessness"
+                    }
+                },
+                "numberOfSignatures": 112
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467786",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T22:29:52.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462543",
+                    "label": {
+                        "_value": "Increase funding for construction of new social housing to solve UK homelessness"
+                    }
+                },
+                "numberOfSignatures": 111
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T21:53:49.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462543",
+                    "label": {
+                        "_value": "Increase funding for construction of new social housing to solve UK homelessness"
+                    }
+                },
+                "numberOfSignatures": 110
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/565633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/565633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/565633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/565633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/565633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/643585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T18:32:44.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565633",
+                    "label": {
+                        "_value": "To support a longer cease-fire in Syria to allow for food and medical aid"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T13:38:00.013Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565633",
+                    "label": {
+                        "_value": "To support a longer cease-fire in Syria to allow for food and medical aid"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T20:19:27.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565633",
+                    "label": {
+                        "_value": "To support a longer cease-fire in Syria to allow for food and medical aid"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T08:10:05.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565633",
+                    "label": {
+                        "_value": "To support a longer cease-fire in Syria to allow for food and medical aid"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T12:56:15.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565633",
+                    "label": {
+                        "_value": "To support a longer cease-fire in Syria to allow for food and medical aid"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T17:33:36.900Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565633",
+                    "label": {
+                        "_value": "To support a longer cease-fire in Syria to allow for food and medical aid"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

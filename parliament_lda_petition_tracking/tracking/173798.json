@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/648207/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/648207/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/648207/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/648207/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/648207/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729304",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.189Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648207",
+                    "label": {
+                        "_value": "Make chrons disease a disability"
+                    }
+                },
+                "numberOfSignatures": 109
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/662161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-19T07:19:24.275Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648207",
+                    "label": {
+                        "_value": "Make chrons disease a disability"
+                    }
+                },
+                "numberOfSignatures": 102
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650983",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T17:39:20.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648207",
+                    "label": {
+                        "_value": "Make chrons disease a disability"
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T19:49:39.728Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648207",
+                    "label": {
+                        "_value": "Make chrons disease a disability"
+                    }
+                },
+                "numberOfSignatures": 99
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T22:30:30.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648207",
+                    "label": {
+                        "_value": "Make chrons disease a disability"
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T22:13:56.004Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648207",
+                    "label": {
+                        "_value": "Make chrons disease a disability"
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

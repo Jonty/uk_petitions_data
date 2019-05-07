@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464277/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464277/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464277/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464277/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464277/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.675Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464277",
+                    "label": {
+                        "_value": "Stop subsidies on diesel generators and reverse cuts to solar power subsidies"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547886",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464277",
+                    "label": {
+                        "_value": "Stop subsidies on diesel generators and reverse cuts to solar power subsidies"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511148",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:20:55.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464277",
+                    "label": {
+                        "_value": "Stop subsidies on diesel generators and reverse cuts to solar power subsidies"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506045",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T16:31:41.299Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464277",
+                    "label": {
+                        "_value": "Stop subsidies on diesel generators and reverse cuts to solar power subsidies"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T11:31:02.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464277",
+                    "label": {
+                        "_value": "Stop subsidies on diesel generators and reverse cuts to solar power subsidies"
+                    }
+                },
+                "numberOfSignatures": 28
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

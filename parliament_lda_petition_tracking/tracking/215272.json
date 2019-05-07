@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/868193/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/868193/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/868193/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/868193/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/868193/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-20T23:00:07.515Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868193",
+                    "label": {
+                        "_value": "Start a voluntary emigration programme for people who want to leave the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/971262",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-10T13:06:21.014Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868193",
+                    "label": {
+                        "_value": "Start a voluntary emigration programme for people who want to leave the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-28T18:23:46.947Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868193",
+                    "label": {
+                        "_value": "Start a voluntary emigration programme for people who want to leave the UK."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/927618",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-19T08:57:39.813Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868193",
+                    "label": {
+                        "_value": "Start a voluntary emigration programme for people who want to leave the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-30T02:38:17.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868193",
+                    "label": {
+                        "_value": "Start a voluntary emigration programme for people who want to leave the UK."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T11:30:01.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868193",
+                    "label": {
+                        "_value": "Start a voluntary emigration programme for people who want to leave the UK."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

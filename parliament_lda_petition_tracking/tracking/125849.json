@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492237/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492237/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492237/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492237/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492237/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492237",
+                    "label": {
+                        "_value": "Bring back the death sentence for proven murder and rape cases"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T01:43:34.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492237",
+                    "label": {
+                        "_value": "Bring back the death sentence for proven murder and rape cases"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T10:49:56.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492237",
+                    "label": {
+                        "_value": "Bring back the death sentence for proven murder and rape cases"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508910",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T11:47:51.771Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492237",
+                    "label": {
+                        "_value": "Bring back the death sentence for proven murder and rape cases"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508262",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T13:24:41.230Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492237",
+                    "label": {
+                        "_value": "Bring back the death sentence for proven murder and rape cases"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492238",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T10:24:53.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492237",
+                    "label": {
+                        "_value": "Bring back the death sentence for proven murder and rape cases"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

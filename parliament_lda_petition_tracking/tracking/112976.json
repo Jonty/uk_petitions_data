@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460510/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460510/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460510/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460510/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460510/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/718504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.117Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460510",
+                    "label": {
+                        "_value": "Extend the closing date for the NHS consultation."
+                    }
+                },
+                "numberOfSignatures": 1807
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460510",
+                    "label": {
+                        "_value": "Extend the closing date for the NHS consultation."
+                    }
+                },
+                "numberOfSignatures": 1807
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/526395",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-20T00:00:05.276Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460510",
+                    "label": {
+                        "_value": "Extend the closing date for the NHS consultation."
+                    }
+                },
+                "numberOfSignatures": 1807
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489750",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T01:15:12.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460510",
+                    "label": {
+                        "_value": "Extend the closing date for the NHS consultation."
+                    }
+                },
+                "numberOfSignatures": 1807
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481795",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T20:44:07.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460510",
+                    "label": {
+                        "_value": "Extend the closing date for the NHS consultation."
+                    }
+                },
+                "numberOfSignatures": 1805
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-21T16:30:05.899Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460510",
+                    "label": {
+                        "_value": "Extend the closing date for the NHS consultation."
+                    }
+                },
+                "numberOfSignatures": 1804
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

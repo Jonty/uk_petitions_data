@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/661040/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/661040/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/661040/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/661040/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/661040/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.331Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661040",
+                    "label": {
+                        "_value": "Transfer SouthEastern and Southern services to TfL from 2018 onwards"
+                    }
+                },
+                "numberOfSignatures": 167
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-03T19:50:58.395Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661040",
+                    "label": {
+                        "_value": "Transfer SouthEastern and Southern services to TfL from 2018 onwards"
+                    }
+                },
+                "numberOfSignatures": 116
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665742",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T17:42:14.852Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661040",
+                    "label": {
+                        "_value": "Transfer SouthEastern and Southern services to TfL from 2018 onwards"
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T18:17:34.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661040",
+                    "label": {
+                        "_value": "Transfer SouthEastern and Southern services to TfL from 2018 onwards"
+                    }
+                },
+                "numberOfSignatures": 101
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/662186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-19T12:36:08.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661040",
+                    "label": {
+                        "_value": "Transfer SouthEastern and Southern services to TfL from 2018 onwards"
+                    }
+                },
+                "numberOfSignatures": 80
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661041",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T13:48:17.374Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661040",
+                    "label": {
+                        "_value": "Transfer SouthEastern and Southern services to TfL from 2018 onwards"
+                    }
+                },
+                "numberOfSignatures": 78
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466497/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466497/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466497/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466497/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466497/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466497",
+                    "label": {
+                        "_value": "Stop Underground Coal Gasification within the UK Inland and Offshore"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:20:27.533Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466497",
+                    "label": {
+                        "_value": "Stop Underground Coal Gasification within the UK Inland and Offshore"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:10:32.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466497",
+                    "label": {
+                        "_value": "Stop Underground Coal Gasification within the UK Inland and Offshore"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

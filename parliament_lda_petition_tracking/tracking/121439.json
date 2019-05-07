@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466117/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466117/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466117/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466117/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466117/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/569345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466117",
+                    "label": {
+                        "_value": "Let the public veto unpopular proposed government legislation by online vote."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466117",
+                    "label": {
+                        "_value": "Let the public veto unpopular proposed government legislation by online vote."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482894",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T23:13:24.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466117",
+                    "label": {
+                        "_value": "Let the public veto unpopular proposed government legislation by online vote."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:09:23.502Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466117",
+                    "label": {
+                        "_value": "Let the public veto unpopular proposed government legislation by online vote."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466118",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T22:01:21.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466117",
+                    "label": {
+                        "_value": "Let the public veto unpopular proposed government legislation by online vote."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

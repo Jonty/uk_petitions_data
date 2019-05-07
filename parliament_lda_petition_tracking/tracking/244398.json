@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091907/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091907/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091907/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091907/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091907/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T22:02:13.645Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091907",
+                    "label": {
+                        "_value": "Commit to smear testing for abnormal cells and HPV regardless of HPV result"
+                    }
+                },
+                "numberOfSignatures": 197
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:08:17.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091907",
+                    "label": {
+                        "_value": "Commit to smear testing for abnormal cells and HPV regardless of HPV result"
+                    }
+                },
+                "numberOfSignatures": 195
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093944",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.372Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091907",
+                    "label": {
+                        "_value": "Commit to smear testing for abnormal cells and HPV regardless of HPV result"
+                    }
+                },
+                "numberOfSignatures": 99
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093200",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T17:30:07.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091907",
+                    "label": {
+                        "_value": "Commit to smear testing for abnormal cells and HPV regardless of HPV result"
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091908",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:51:56.119Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091907",
+                    "label": {
+                        "_value": "Commit to smear testing for abnormal cells and HPV regardless of HPV result"
+                    }
+                },
+                "numberOfSignatures": 50
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

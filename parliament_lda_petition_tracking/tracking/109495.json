@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462521/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462521/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462521/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462521/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462521/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462521",
+                    "label": {
+                        "_value": "Stop government from using the term \"Living wage\" instead of 'Minimum wage'."
+                    }
+                },
+                "numberOfSignatures": 114
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462521",
+                    "label": {
+                        "_value": "Stop government from using the term \"Living wage\" instead of 'Minimum wage'."
+                    }
+                },
+                "numberOfSignatures": 114
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T00:00:04.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462521",
+                    "label": {
+                        "_value": "Stop government from using the term \"Living wage\" instead of 'Minimum wage'."
+                    }
+                },
+                "numberOfSignatures": 114
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T13:36:21.906Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462521",
+                    "label": {
+                        "_value": "Stop government from using the term \"Living wage\" instead of 'Minimum wage'."
+                    }
+                },
+                "numberOfSignatures": 114
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T01:24:20.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462521",
+                    "label": {
+                        "_value": "Stop government from using the term \"Living wage\" instead of 'Minimum wage'."
+                    }
+                },
+                "numberOfSignatures": 113
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462522",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T16:37:59.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462521",
+                    "label": {
+                        "_value": "Stop government from using the term \"Living wage\" instead of 'Minimum wage'."
+                    }
+                },
+                "numberOfSignatures": 112
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

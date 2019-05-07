@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655557/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655557/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655557/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655557/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655557/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727672",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.730Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655557",
+                    "label": {
+                        "_value": "Stop the the imposition of business rates on solar panels"
+                    }
+                },
+                "numberOfSignatures": 335
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665775",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T09:40:49.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655557",
+                    "label": {
+                        "_value": "Stop the the imposition of business rates on solar panels"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T01:27:28.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655557",
+                    "label": {
+                        "_value": "Stop the the imposition of business rates on solar panels"
+                    }
+                },
+                "numberOfSignatures": 65
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-09T12:57:22.192Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655557",
+                    "label": {
+                        "_value": "Stop the the imposition of business rates on solar panels"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655558",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T19:27:27.074Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655557",
+                    "label": {
+                        "_value": "Stop the the imposition of business rates on solar panels"
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

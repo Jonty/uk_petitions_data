@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466961/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466961/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466961/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466961/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466961/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581200",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466961",
+                    "label": {
+                        "_value": "Cut F35 orders for RN and replace them with a capable air superiority fighter"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T06:59:07.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466961",
+                    "label": {
+                        "_value": "Cut F35 orders for RN and replace them with a capable air superiority fighter"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/469874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T19:02:43.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466961",
+                    "label": {
+                        "_value": "Cut F35 orders for RN and replace them with a capable air superiority fighter"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T18:44:46.713Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466961",
+                    "label": {
+                        "_value": "Cut F35 orders for RN and replace them with a capable air superiority fighter"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

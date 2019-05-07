@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465581/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465581/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465581/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465581/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465581/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465581",
+                    "label": {
+                        "_value": "Make it compulsory for foreign drivers in uk to sit intensive course and test!"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502784",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T22:48:14.539Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465581",
+                    "label": {
+                        "_value": "Make it compulsory for foreign drivers in uk to sit intensive course and test!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T02:19:05.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465581",
+                    "label": {
+                        "_value": "Make it compulsory for foreign drivers in uk to sit intensive course and test!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T03:11:48.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465581",
+                    "label": {
+                        "_value": "Make it compulsory for foreign drivers in uk to sit intensive course and test!"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

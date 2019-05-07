@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645714/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645714/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645714/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645714/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645714/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645714",
+                    "label": {
+                        "_value": "Make student loan repayments tax deductible."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T11:26:49.448Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645714",
+                    "label": {
+                        "_value": "Make student loan repayments tax deductible."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T21:47:27.997Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645714",
+                    "label": {
+                        "_value": "Make student loan repayments tax deductible."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646984",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T21:17:09.675Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645714",
+                    "label": {
+                        "_value": "Make student loan repayments tax deductible."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645715",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T09:06:52.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645714",
+                    "label": {
+                        "_value": "Make student loan repayments tax deductible."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

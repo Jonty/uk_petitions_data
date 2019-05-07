@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551381/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551381/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551381/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551381/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551381/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:28.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551381",
+                    "label": {
+                        "_value": "Bring back levels for assessment and stop labelling our children as failures."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T13:12:26.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551381",
+                    "label": {
+                        "_value": "Bring back levels for assessment and stop labelling our children as failures."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T23:52:26.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551381",
+                    "label": {
+                        "_value": "Bring back levels for assessment and stop labelling our children as failures."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T21:10:53.423Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551381",
+                    "label": {
+                        "_value": "Bring back levels for assessment and stop labelling our children as failures."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T15:46:37.426Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551381",
+                    "label": {
+                        "_value": "Bring back levels for assessment and stop labelling our children as failures."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

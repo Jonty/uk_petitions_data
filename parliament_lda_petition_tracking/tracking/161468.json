@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551068/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551068/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551068/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551068/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551068/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630564",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:31:16.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551068",
+                    "label": {
+                        "_value": "To force all large retail outlets to buy British produce first at a fair price"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T22:07:49.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551068",
+                    "label": {
+                        "_value": "To force all large retail outlets to buy British produce first at a fair price"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T21:19:06.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551068",
+                    "label": {
+                        "_value": "To force all large retail outlets to buy British produce first at a fair price"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594473",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T11:54:06.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551068",
+                    "label": {
+                        "_value": "To force all large retail outlets to buy British produce first at a fair price"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575049",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T18:43:19.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551068",
+                    "label": {
+                        "_value": "To force all large retail outlets to buy British produce first at a fair price"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T22:46:20.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551068",
+                    "label": {
+                        "_value": "To force all large retail outlets to buy British produce first at a fair price"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464477/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464477/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464477/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464477/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464477/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464477",
+                    "label": {
+                        "_value": "More strict law needed on people using mobile phones while driving."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464477",
+                    "label": {
+                        "_value": "More strict law needed on people using mobile phones while driving."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511155",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T07:27:59.233Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464477",
+                    "label": {
+                        "_value": "More strict law needed on people using mobile phones while driving."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508190",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T00:05:22.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464477",
+                    "label": {
+                        "_value": "More strict law needed on people using mobile phones while driving."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490091",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T21:31:14.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464477",
+                    "label": {
+                        "_value": "More strict law needed on people using mobile phones while driving."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464478",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:53.750Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464477",
+                    "label": {
+                        "_value": "More strict law needed on people using mobile phones while driving."
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

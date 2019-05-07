@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550173/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550173/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550173/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550173/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550173/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/646280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T18:09:49.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550173",
+                    "label": {
+                        "_value": "Enforce stricter banking regulations for online gambling transactions."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T17:16:24.122Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550173",
+                    "label": {
+                        "_value": "Enforce stricter banking regulations for online gambling transactions."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T21:24:35.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550173",
+                    "label": {
+                        "_value": "Enforce stricter banking regulations for online gambling transactions."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T13:49:32.768Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550173",
+                    "label": {
+                        "_value": "Enforce stricter banking regulations for online gambling transactions."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:21:48.156Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550173",
+                    "label": {
+                        "_value": "Enforce stricter banking regulations for online gambling transactions."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550174",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T18:55:05.526Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550173",
+                    "label": {
+                        "_value": "Enforce stricter banking regulations for online gambling transactions."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

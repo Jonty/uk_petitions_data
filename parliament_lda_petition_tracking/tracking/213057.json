@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/846571/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/846571/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/846571/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/846571/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/846571/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/959623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-21T23:00:01.838Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846571",
+                    "label": {
+                        "_value": "Make driving lessons and tests government funded and free for candidates."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-14T14:30:50.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846571",
+                    "label": {
+                        "_value": "Make driving lessons and tests government funded and free for candidates."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-23T00:45:41.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846571",
+                    "label": {
+                        "_value": "Make driving lessons and tests government funded and free for candidates."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/847649",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T22:46:46.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846571",
+                    "label": {
+                        "_value": "Make driving lessons and tests government funded and free for candidates."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T20:16:09.007Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846571",
+                    "label": {
+                        "_value": "Make driving lessons and tests government funded and free for candidates."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

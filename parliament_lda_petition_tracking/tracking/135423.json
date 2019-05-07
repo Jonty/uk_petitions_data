@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548792/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548792/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548792/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548792/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548792/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666250",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-20T20:07:00.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548792",
+                    "label": {
+                        "_value": "Guarantee a minimum extra \u00a3100m per week invested into the NHS."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599299",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:34:05.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548792",
+                    "label": {
+                        "_value": "Guarantee a minimum extra \u00a3100m per week invested into the NHS."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T08:54:44.306Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548792",
+                    "label": {
+                        "_value": "Guarantee a minimum extra \u00a3100m per week invested into the NHS."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

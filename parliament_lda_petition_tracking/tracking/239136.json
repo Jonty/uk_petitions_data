@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1053112/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1053112/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1053112/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1053112/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1053112/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:10:52.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053112",
+                    "label": {
+                        "_value": "Change the 9-1 grading system back to the ABCD system."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T12:52:13.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053112",
+                    "label": {
+                        "_value": "Change the 9-1 grading system back to the ABCD system."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057671",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T16:49:08.137Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053112",
+                    "label": {
+                        "_value": "Change the 9-1 grading system back to the ABCD system."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T16:51:10.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053112",
+                    "label": {
+                        "_value": "Change the 9-1 grading system back to the ABCD system."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

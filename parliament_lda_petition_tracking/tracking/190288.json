@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718513/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718513/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718513/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718513/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718513/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726387",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:25.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718513",
+                    "label": {
+                        "_value": "Resolve the inconsistencies in refunding NHS trainees under the WAT Scheme."
+                    }
+                },
+                "numberOfSignatures": 1825
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721648",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T12:44:36.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718513",
+                    "label": {
+                        "_value": "Resolve the inconsistencies in refunding NHS trainees under the WAT Scheme."
+                    }
+                },
+                "numberOfSignatures": 1812
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-14T23:15:43.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718513",
+                    "label": {
+                        "_value": "Resolve the inconsistencies in refunding NHS trainees under the WAT Scheme."
+                    }
+                },
+                "numberOfSignatures": 1809
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T10:20:26.068Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718513",
+                    "label": {
+                        "_value": "Resolve the inconsistencies in refunding NHS trainees under the WAT Scheme."
+                    }
+                },
+                "numberOfSignatures": 1787
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-06T14:20:15.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718513",
+                    "label": {
+                        "_value": "Resolve the inconsistencies in refunding NHS trainees under the WAT Scheme."
+                    }
+                },
+                "numberOfSignatures": 1777
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

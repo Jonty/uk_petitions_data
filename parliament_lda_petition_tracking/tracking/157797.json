@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548562/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548562/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548562/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548562/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548562/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735958",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548562",
+                    "label": {
+                        "_value": "Compulsory educational visits to The battle of the Somme and Churchill's bunkers"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:10:06.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548562",
+                    "label": {
+                        "_value": "Compulsory educational visits to The battle of the Somme and Churchill's bunkers"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T12:48:45.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548562",
+                    "label": {
+                        "_value": "Compulsory educational visits to The battle of the Somme and Churchill's bunkers"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T18:41:05.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548562",
+                    "label": {
+                        "_value": "Compulsory educational visits to The battle of the Somme and Churchill's bunkers"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

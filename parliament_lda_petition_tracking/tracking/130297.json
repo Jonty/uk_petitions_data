@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550664/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550664/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550664/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550664/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550664/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T13:07:30.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T15:57:08.655Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T22:52:22.481Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586932",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T19:00:31.077Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586424",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-17T22:23:01.993Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550665",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T06:13:21.918Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550664",
+                    "label": {
+                        "_value": "An alternative intergrated solution to Heathrow airport expansion"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

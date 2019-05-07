@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640458/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640458/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640458/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640458/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640458/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729483",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640458",
+                    "label": {
+                        "_value": "Remove all American military bases from UK soil."
+                    }
+                },
+                "numberOfSignatures": 97
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T19:00:27.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640458",
+                    "label": {
+                        "_value": "Remove all American military bases from UK soil."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T13:10:03.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640458",
+                    "label": {
+                        "_value": "Remove all American military bases from UK soil."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/647043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T21:49:07.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640458",
+                    "label": {
+                        "_value": "Remove all American military bases from UK soil."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640459",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T16:42:42.407Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640458",
+                    "label": {
+                        "_value": "Remove all American military bases from UK soil."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

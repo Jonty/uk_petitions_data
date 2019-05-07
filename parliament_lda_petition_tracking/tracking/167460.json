@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587922/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587922/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587922/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587922/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587922/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735361",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:34.554Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587922",
+                    "label": {
+                        "_value": "Require universities to provide night-time safety to stop sexual harassment"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/596693",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T19:18:54.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587922",
+                    "label": {
+                        "_value": "Require universities to provide night-time safety to stop sexual harassment"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590574",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T16:25:00.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587922",
+                    "label": {
+                        "_value": "Require universities to provide night-time safety to stop sexual harassment"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T21:38:23.115Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587922",
+                    "label": {
+                        "_value": "Require universities to provide night-time safety to stop sexual harassment"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T19:18:41.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587922",
+                    "label": {
+                        "_value": "Require universities to provide night-time safety to stop sexual harassment"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587923",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T10:37:31.317Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587922",
+                    "label": {
+                        "_value": "Require universities to provide night-time safety to stop sexual harassment"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

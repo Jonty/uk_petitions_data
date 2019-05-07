@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/676615/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/676615/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/676615/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/676615/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/676615/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:14.278Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676615",
+                    "label": {
+                        "_value": "Grant siblings access rights"
+                    }
+                },
+                "numberOfSignatures": 225
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/682218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-31T00:45:11.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676615",
+                    "label": {
+                        "_value": "Grant siblings access rights"
+                    }
+                },
+                "numberOfSignatures": 214
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/676616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-20T22:23:04.664Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676615",
+                    "label": {
+                        "_value": "Grant siblings access rights"
+                    }
+                },
+                "numberOfSignatures": 206
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/847668/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/847668/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/847668/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/847668/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/847668/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/960024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-22T23:00:05.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/847668",
+                    "label": {
+                        "_value": "Allow children to start school at 4"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-22T09:04:42.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/847668",
+                    "label": {
+                        "_value": "Allow children to start school at 4"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936478",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T09:55:15.620Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/847668",
+                    "label": {
+                        "_value": "Allow children to start school at 4"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/865968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-17T16:22:59.018Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/847668",
+                    "label": {
+                        "_value": "Allow children to start school at 4"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/847669",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-22T13:50:07.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/847668",
+                    "label": {
+                        "_value": "Allow children to start school at 4"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

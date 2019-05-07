@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633966/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633966/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633966/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633966/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633966/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640334",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T18:11:38.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633966",
+                    "label": {
+                        "_value": "Close Pentonville Prison"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-11T00:11:25.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633966",
+                    "label": {
+                        "_value": "Close Pentonville Prison"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T14:00:22.211Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633966",
+                    "label": {
+                        "_value": "Close Pentonville Prison"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

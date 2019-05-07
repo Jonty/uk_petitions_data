@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/957725/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/957725/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/957725/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/957725/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/957725/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T00:00:05.728Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957725",
+                    "label": {
+                        "_value": "Make it the law that truck  drivers have air con in their sleeping areas."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T12:14:46.183Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957725",
+                    "label": {
+                        "_value": "Make it the law that truck  drivers have air con in their sleeping areas."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-25T20:20:04.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957725",
+                    "label": {
+                        "_value": "Make it the law that truck  drivers have air con in their sleeping areas."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/957726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-17T16:31:35.262Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957725",
+                    "label": {
+                        "_value": "Make it the law that truck  drivers have air con in their sleeping areas."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

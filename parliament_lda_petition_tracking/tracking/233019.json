@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1012989/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1012989/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1012989/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1012989/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1012989/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107470",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:30:32.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1012989",
+                    "label": {
+                        "_value": "Change Planning Laws on Fences to require a 300mm Hole on each side for Wildlife"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-22T09:54:25.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1012989",
+                    "label": {
+                        "_value": "Change Planning Laws on Fences to require a 300mm Hole on each side for Wildlife"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T13:03:00.218Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1012989",
+                    "label": {
+                        "_value": "Change Planning Laws on Fences to require a 300mm Hole on each side for Wildlife"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-02T18:13:51.108Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1012989",
+                    "label": {
+                        "_value": "Change Planning Laws on Fences to require a 300mm Hole on each side for Wildlife"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021605",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T19:13:02.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1012989",
+                    "label": {
+                        "_value": "Change Planning Laws on Fences to require a 300mm Hole on each side for Wildlife"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1012990",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-22T17:25:05.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1012989",
+                    "label": {
+                        "_value": "Change Planning Laws on Fences to require a 300mm Hole on each side for Wildlife"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

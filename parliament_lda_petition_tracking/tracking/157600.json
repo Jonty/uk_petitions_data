@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543718/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543718/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543718/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543718/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543718/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543718",
+                    "label": {
+                        "_value": "Hold an all-party public inquiry into bullying and harassment in Parliament"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571522",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T10:13:52.874Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543718",
+                    "label": {
+                        "_value": "Hold an all-party public inquiry into bullying and harassment in Parliament"
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559707",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T17:01:34.552Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543718",
+                    "label": {
+                        "_value": "Hold an all-party public inquiry into bullying and harassment in Parliament"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T10:46:17.429Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543718",
+                    "label": {
+                        "_value": "Hold an all-party public inquiry into bullying and harassment in Parliament"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T21:52:16.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543718",
+                    "label": {
+                        "_value": "Hold an all-party public inquiry into bullying and harassment in Parliament"
+                    }
+                },
+                "numberOfSignatures": 50
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

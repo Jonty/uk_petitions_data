@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1044912/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1044912/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1044912/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1044912/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1044912/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076642",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T09:03:22.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044912",
+                    "label": {
+                        "_value": "Maintenance payments (inc Spousal) as an attachment of Earnings or via Court"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1047543",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-23T10:05:07.337Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044912",
+                    "label": {
+                        "_value": "Maintenance payments (inc Spousal) as an attachment of Earnings or via Court"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1046695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-22T20:33:31.902Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044912",
+                    "label": {
+                        "_value": "Maintenance payments (inc Spousal) as an attachment of Earnings or via Court"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-19T08:30:40.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044912",
+                    "label": {
+                        "_value": "Maintenance payments (inc Spousal) as an attachment of Earnings or via Court"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

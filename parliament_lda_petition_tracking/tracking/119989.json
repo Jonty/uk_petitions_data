@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465555/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465555/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465555/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465555/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465555/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465555",
+                    "label": {
+                        "_value": "Give UK citizens the right to bear arms."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509842",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:12:40.576Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465555",
+                    "label": {
+                        "_value": "Give UK citizens the right to bear arms."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T15:00:09.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465555",
+                    "label": {
+                        "_value": "Give UK citizens the right to bear arms."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T15:29:07.426Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465555",
+                    "label": {
+                        "_value": "Give UK citizens the right to bear arms."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T05:24:12.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465555",
+                    "label": {
+                        "_value": "Give UK citizens the right to bear arms."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

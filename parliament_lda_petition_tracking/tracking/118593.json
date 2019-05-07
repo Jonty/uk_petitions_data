@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463659/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463659/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463659/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463659/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463659/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.177Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463659",
+                    "label": {
+                        "_value": "Stop awarding bonuses to MOD civil servants while troops are losing their jobs"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463659",
+                    "label": {
+                        "_value": "Stop awarding bonuses to MOD civil servants while troops are losing their jobs"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490725",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T12:41:52.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463659",
+                    "label": {
+                        "_value": "Stop awarding bonuses to MOD civil servants while troops are losing their jobs"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T12:38:30.077Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463659",
+                    "label": {
+                        "_value": "Stop awarding bonuses to MOD civil servants while troops are losing their jobs"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T00:01:48.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463659",
+                    "label": {
+                        "_value": "Stop awarding bonuses to MOD civil servants while troops are losing their jobs"
+                    }
+                },
+                "numberOfSignatures": 42
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

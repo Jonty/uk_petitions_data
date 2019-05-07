@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466833/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466833/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466833/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466833/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466833/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466833",
+                    "label": {
+                        "_value": "MAKE ASTHMA and ANGINA MEDICATIONS EXEMPT FROM NHS PRESCRIPTION CHARGES"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T22:31:36.296Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466833",
+                    "label": {
+                        "_value": "MAKE ASTHMA and ANGINA MEDICATIONS EXEMPT FROM NHS PRESCRIPTION CHARGES"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T15:06:19.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466833",
+                    "label": {
+                        "_value": "MAKE ASTHMA and ANGINA MEDICATIONS EXEMPT FROM NHS PRESCRIPTION CHARGES"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:30.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466833",
+                    "label": {
+                        "_value": "MAKE ASTHMA and ANGINA MEDICATIONS EXEMPT FROM NHS PRESCRIPTION CHARGES"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

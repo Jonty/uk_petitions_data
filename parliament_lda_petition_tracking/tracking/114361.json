@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466191/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466191/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466191/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466191/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466191/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466191",
+                    "label": {
+                        "_value": "Have a referendum on whether there should be a new elected prime minister"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511212",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T22:17:27.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466191",
+                    "label": {
+                        "_value": "Have a referendum on whether there should be a new elected prime minister"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T21:06:58.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466191",
+                    "label": {
+                        "_value": "Have a referendum on whether there should be a new elected prime minister"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480508",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:08:52.244Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466191",
+                    "label": {
+                        "_value": "Have a referendum on whether there should be a new elected prime minister"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T02:32:00.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466191",
+                    "label": {
+                        "_value": "Have a referendum on whether there should be a new elected prime minister"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

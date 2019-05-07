@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549610/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549610/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549610/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549610/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549610/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T11:42:42.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549610",
+                    "label": {
+                        "_value": "Abusive pet owners should face harsher punishments."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T21:47:23.939Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549610",
+                    "label": {
+                        "_value": "Abusive pet owners should face harsher punishments."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573084",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:52:09.591Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549610",
+                    "label": {
+                        "_value": "Abusive pet owners should face harsher punishments."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T20:23:47.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549610",
+                    "label": {
+                        "_value": "Abusive pet owners should face harsher punishments."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T20:07:22.890Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549610",
+                    "label": {
+                        "_value": "Abusive pet owners should face harsher punishments."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T09:55:17.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549610",
+                    "label": {
+                        "_value": "Abusive pet owners should face harsher punishments."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

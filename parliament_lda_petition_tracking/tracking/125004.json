@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482129/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482129/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482129/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482129/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482129/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/587921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549705",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T15:41:00.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T13:56:47.736Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:53:32.555Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T17:57:37.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T15:28:22.357Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T14:46:53.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482129",
+                    "label": {
+                        "_value": "Raise the lifetime ISA upper age limit from 40 to 45."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

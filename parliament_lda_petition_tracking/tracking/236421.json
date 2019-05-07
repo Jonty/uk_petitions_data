@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091839/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091839/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091839/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091839/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091839/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T22:19:34.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091839",
+                    "label": {
+                        "_value": "Yoga and Meditation to be included in the UK National school curriculum."
+                    }
+                },
+                "numberOfSignatures": 4829
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106139",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:55:57.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091839",
+                    "label": {
+                        "_value": "Yoga and Meditation to be included in the UK National school curriculum."
+                    }
+                },
+                "numberOfSignatures": 4135
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:11.406Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091839",
+                    "label": {
+                        "_value": "Yoga and Meditation to be included in the UK National school curriculum."
+                    }
+                },
+                "numberOfSignatures": 1324
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T19:52:10.207Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091839",
+                    "label": {
+                        "_value": "Yoga and Meditation to be included in the UK National school curriculum."
+                    }
+                },
+                "numberOfSignatures": 1256
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091840",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:43:46.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091839",
+                    "label": {
+                        "_value": "Yoga and Meditation to be included in the UK National school curriculum."
+                    }
+                },
+                "numberOfSignatures": 257
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

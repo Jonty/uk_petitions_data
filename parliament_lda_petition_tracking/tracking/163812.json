@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555652/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555652/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555652/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555652/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555652/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640269",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T23:17:19.194Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555652",
+                    "label": {
+                        "_value": "Benefit sanctions must be stopped without exception."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T12:05:10.449Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555652",
+                    "label": {
+                        "_value": "Benefit sanctions must be stopped without exception."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:38:47.711Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555652",
+                    "label": {
+                        "_value": "Benefit sanctions must be stopped without exception."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555653",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T09:27:27.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555652",
+                    "label": {
+                        "_value": "Benefit sanctions must be stopped without exception."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

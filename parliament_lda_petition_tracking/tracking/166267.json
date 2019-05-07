@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/576167/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/576167/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/576167/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/576167/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/576167/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/580639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T22:00:05.320Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576167",
+                    "label": {
+                        "_value": "Free prescriptions for stroke survivors"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T07:12:51.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576167",
+                    "label": {
+                        "_value": "Free prescriptions for stroke survivors"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T06:28:42.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576167",
+                    "label": {
+                        "_value": "Free prescriptions for stroke survivors"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T21:13:10.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576167",
+                    "label": {
+                        "_value": "Free prescriptions for stroke survivors"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

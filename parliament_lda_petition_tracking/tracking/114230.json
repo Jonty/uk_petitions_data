@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463379/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463379/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463379/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463379/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463379/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733732",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463379",
+                    "label": {
+                        "_value": "Abolish faith schools in England (excepting, perhaps Church of England Schools)."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543542",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463379",
+                    "label": {
+                        "_value": "Abolish faith schools in England (excepting, perhaps Church of England Schools)."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509741",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:08:24.188Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463379",
+                    "label": {
+                        "_value": "Abolish faith schools in England (excepting, perhaps Church of England Schools)."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T22:39:52.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463379",
+                    "label": {
+                        "_value": "Abolish faith schools in England (excepting, perhaps Church of England Schools)."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T18:49:20.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463379",
+                    "label": {
+                        "_value": "Abolish faith schools in England (excepting, perhaps Church of England Schools)."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T17:09:46.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463379",
+                    "label": {
+                        "_value": "Abolish faith schools in England (excepting, perhaps Church of England Schools)."
+                    }
+                },
+                "numberOfSignatures": 51
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/925120/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/925120/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/925120/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/925120/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/925120/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1026619",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-16T00:00:02.961Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925120",
+                    "label": {
+                        "_value": "Urge the Commonwealth to suspend Pakistan\u2019s membership."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-12T04:10:51.810Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925120",
+                    "label": {
+                        "_value": "Urge the Commonwealth to suspend Pakistan\u2019s membership."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953190",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T09:41:11.556Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925120",
+                    "label": {
+                        "_value": "Urge the Commonwealth to suspend Pakistan\u2019s membership."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/950448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-29T21:23:15.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925120",
+                    "label": {
+                        "_value": "Urge the Commonwealth to suspend Pakistan\u2019s membership."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-14T03:35:02.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925120",
+                    "label": {
+                        "_value": "Urge the Commonwealth to suspend Pakistan\u2019s membership."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/925121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-15T14:30:05.327Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925120",
+                    "label": {
+                        "_value": "Urge the Commonwealth to suspend Pakistan\u2019s membership."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

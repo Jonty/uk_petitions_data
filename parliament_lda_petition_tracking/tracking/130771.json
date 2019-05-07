@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549221/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549221/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549221/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549221/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549221/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549221",
+                    "label": {
+                        "_value": "Make London the test city for medical/recreational marijuana"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T20:02:40.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549221",
+                    "label": {
+                        "_value": "Make London the test city for medical/recreational marijuana"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T22:50:11.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549221",
+                    "label": {
+                        "_value": "Make London the test city for medical/recreational marijuana"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590145",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T03:08:08.839Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549221",
+                    "label": {
+                        "_value": "Make London the test city for medical/recreational marijuana"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587903",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T15:41:31.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549221",
+                    "label": {
+                        "_value": "Make London the test city for medical/recreational marijuana"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549221",
+                    "label": {
+                        "_value": "Make London the test city for medical/recreational marijuana"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

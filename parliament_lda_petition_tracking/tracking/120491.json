@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464533/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464533/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464533/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464533/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464533/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464533",
+                    "label": {
+                        "_value": "Make drug testing all MP's mandatory everyday."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464533",
+                    "label": {
+                        "_value": "Make drug testing all MP's mandatory everyday."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T16:50:32.598Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464533",
+                    "label": {
+                        "_value": "Make drug testing all MP's mandatory everyday."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T18:24:13.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464533",
+                    "label": {
+                        "_value": "Make drug testing all MP's mandatory everyday."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:19.994Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464533",
+                    "label": {
+                        "_value": "Make drug testing all MP's mandatory everyday."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

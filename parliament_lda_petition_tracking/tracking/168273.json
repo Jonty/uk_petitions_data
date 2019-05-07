@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/618463/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/618463/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/618463/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/618463/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/618463/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630605",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T13:41:57.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618463",
+                    "label": {
+                        "_value": "Do not impose the Bedroom Tax on Pensioners"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T22:00:41.525Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618463",
+                    "label": {
+                        "_value": "Do not impose the Bedroom Tax on Pensioners"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621864",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T21:30:52.834Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618463",
+                    "label": {
+                        "_value": "Do not impose the Bedroom Tax on Pensioners"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T16:53:10.752Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618463",
+                    "label": {
+                        "_value": "Do not impose the Bedroom Tax on Pensioners"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

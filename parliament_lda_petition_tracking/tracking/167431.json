@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587411/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587411/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587411/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587411/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587411/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:34.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587411",
+                    "label": {
+                        "_value": "Stop the Government ripoff on car road tax transfer return to old system"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T18:40:15.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587411",
+                    "label": {
+                        "_value": "Stop the Government ripoff on car road tax transfer return to old system"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618999",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:05:32.800Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587411",
+                    "label": {
+                        "_value": "Stop the Government ripoff on car road tax transfer return to old system"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T06:07:59.894Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587411",
+                    "label": {
+                        "_value": "Stop the Government ripoff on car road tax transfer return to old system"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-24T13:21:02.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587411",
+                    "label": {
+                        "_value": "Stop the Government ripoff on car road tax transfer return to old system"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T19:56:47.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587411",
+                    "label": {
+                        "_value": "Stop the Government ripoff on car road tax transfer return to old system"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

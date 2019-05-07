@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466805/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466805/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466805/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466805/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466805/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/558022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466805",
+                    "label": {
+                        "_value": "UK Government to press the government of Iraq to grant Kurdistan's independence."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548727",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T08:38:20.328Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466805",
+                    "label": {
+                        "_value": "UK Government to press the government of Iraq to grant Kurdistan's independence."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468037",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T22:59:36.911Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466805",
+                    "label": {
+                        "_value": "UK Government to press the government of Iraq to grant Kurdistan's independence."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T20:03:06.144Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466805",
+                    "label": {
+                        "_value": "UK Government to press the government of Iraq to grant Kurdistan's independence."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

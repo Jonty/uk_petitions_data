@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463569/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463569/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463569/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463569/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463569/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463569",
+                    "label": {
+                        "_value": "Ban the sale of loud fireworks to the public"
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463569",
+                    "label": {
+                        "_value": "Ban the sale of loud fireworks to the public"
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T13:13:55.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463569",
+                    "label": {
+                        "_value": "Ban the sale of loud fireworks to the public"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502728",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T17:52:25.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463569",
+                    "label": {
+                        "_value": "Ban the sale of loud fireworks to the public"
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T17:42:06.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463569",
+                    "label": {
+                        "_value": "Ban the sale of loud fireworks to the public"
+                    }
+                },
+                "numberOfSignatures": 45
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

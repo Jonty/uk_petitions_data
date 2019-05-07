@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/981423/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/981423/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/981423/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/981423/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/981423/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T15:44:29.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981423",
+                    "label": {
+                        "_value": "Hold a referendum for devolution in the North of England."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-19T20:22:03.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981423",
+                    "label": {
+                        "_value": "Hold a referendum for devolution in the North of England."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033560",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:12:44.269Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981423",
+                    "label": {
+                        "_value": "Hold a referendum for devolution in the North of England."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1022794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-10T11:52:06.191Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981423",
+                    "label": {
+                        "_value": "Hold a referendum for devolution in the North of England."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/987637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-14T14:58:34.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981423",
+                    "label": {
+                        "_value": "Hold a referendum for devolution in the North of England."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/981424",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-04T13:59:16.476Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981423",
+                    "label": {
+                        "_value": "Hold a referendum for devolution in the North of England."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

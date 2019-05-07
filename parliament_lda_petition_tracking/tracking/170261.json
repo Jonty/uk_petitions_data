@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/625750/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/625750/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/625750/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/625750/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/625750/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735265",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-30T23:00:03.813Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625750",
+                    "label": {
+                        "_value": "Allow rape victims to receive forensic examination and results before reporting"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-16T17:26:46.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625750",
+                    "label": {
+                        "_value": "Allow rape victims to receive forensic examination and results before reporting"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T18:32:11.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625750",
+                    "label": {
+                        "_value": "Allow rape victims to receive forensic examination and results before reporting"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T20:06:19.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625750",
+                    "label": {
+                        "_value": "Allow rape victims to receive forensic examination and results before reporting"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T19:50:16.257Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625750",
+                    "label": {
+                        "_value": "Allow rape victims to receive forensic examination and results before reporting"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T22:30:31.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625750",
+                    "label": {
+                        "_value": "Allow rape victims to receive forensic examination and results before reporting"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/689869/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/689869/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/689869/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/689869/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/689869/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:19.172Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689869",
+                    "label": {
+                        "_value": "Stricter control of internships to stop misuse of free labour by employers."
+                    }
+                },
+                "numberOfSignatures": 1174
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T11:30:37.569Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689869",
+                    "label": {
+                        "_value": "Stricter control of internships to stop misuse of free labour by employers."
+                    }
+                },
+                "numberOfSignatures": 1008
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T22:20:44.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689869",
+                    "label": {
+                        "_value": "Stricter control of internships to stop misuse of free labour by employers."
+                    }
+                },
+                "numberOfSignatures": 981
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T23:55:07.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689869",
+                    "label": {
+                        "_value": "Stricter control of internships to stop misuse of free labour by employers."
+                    }
+                },
+                "numberOfSignatures": 927
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/689870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-15T23:54:56.671Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689869",
+                    "label": {
+                        "_value": "Stricter control of internships to stop misuse of free labour by employers."
+                    }
+                },
+                "numberOfSignatures": 855
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549193/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549193/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549193/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549193/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549193/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594420",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:29:15.037Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549193",
+                    "label": {
+                        "_value": "Implement a 2nd EU Referendum allowing 14-17 year olds to vote"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T12:34:37.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549193",
+                    "label": {
+                        "_value": "Implement a 2nd EU Referendum allowing 14-17 year olds to vote"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645819/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645819/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645819/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645819/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645819/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/648277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T11:12:16.037Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645819",
+                    "label": {
+                        "_value": "Ban vehicles greater than 7.5 tonnes from UK roads except between 8pm & 8am"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645820",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T21:04:42.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645819",
+                    "label": {
+                        "_value": "Ban vehicles greater than 7.5 tonnes from UK roads except between 8pm & 8am"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

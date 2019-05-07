@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/591971/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/591971/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/591971/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/591971/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/591971/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/632688",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T13:05:32.121Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591971",
+                    "label": {
+                        "_value": "To make it more financially beneficial to work than it is to claim benefits!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627974",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:41:11.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591971",
+                    "label": {
+                        "_value": "To make it more financially beneficial to work than it is to claim benefits!"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:41:23.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591971",
+                    "label": {
+                        "_value": "To make it more financially beneficial to work than it is to claim benefits!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T13:05:55.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591971",
+                    "label": {
+                        "_value": "To make it more financially beneficial to work than it is to claim benefits!"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T16:02:42.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591971",
+                    "label": {
+                        "_value": "To make it more financially beneficial to work than it is to claim benefits!"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

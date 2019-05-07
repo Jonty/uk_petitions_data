@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/584755/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/584755/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/584755/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/584755/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/584755/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/586426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T08:57:55.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584755",
+                    "label": {
+                        "_value": "Entirely ban the use of BPA for the packaging of any product sold in UK"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T20:29:35.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584755",
+                    "label": {
+                        "_value": "Entirely ban the use of BPA for the packaging of any product sold in UK"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

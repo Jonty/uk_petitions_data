@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/527365/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/527365/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/527365/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/527365/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/527365/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527365",
+                    "label": {
+                        "_value": "Ask the EU Parliament to vote on the UK\u2019s Renegotiation before the Referendum"
+                    }
+                },
+                "numberOfSignatures": 332
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527365",
+                    "label": {
+                        "_value": "Ask the EU Parliament to vote on the UK\u2019s Renegotiation before the Referendum"
+                    }
+                },
+                "numberOfSignatures": 332
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T12:35:33.505Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527365",
+                    "label": {
+                        "_value": "Ask the EU Parliament to vote on the UK\u2019s Renegotiation before the Referendum"
+                    }
+                },
+                "numberOfSignatures": 332
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-09T12:24:18.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527365",
+                    "label": {
+                        "_value": "Ask the EU Parliament to vote on the UK\u2019s Renegotiation before the Referendum"
+                    }
+                },
+                "numberOfSignatures": 328
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

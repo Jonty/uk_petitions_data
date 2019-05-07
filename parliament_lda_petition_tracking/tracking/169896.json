@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/620822/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/620822/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/620822/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/620822/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/620822/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-25T23:00:03.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620822",
+                    "label": {
+                        "_value": "stop animal cruelty and any type of testing on animals"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651629",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:55:47.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620822",
+                    "label": {
+                        "_value": "stop animal cruelty and any type of testing on animals"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-16T11:53:09.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620822",
+                    "label": {
+                        "_value": "stop animal cruelty and any type of testing on animals"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T17:08:10.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620822",
+                    "label": {
+                        "_value": "stop animal cruelty and any type of testing on animals"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T20:59:14.473Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620822",
+                    "label": {
+                        "_value": "stop animal cruelty and any type of testing on animals"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T16:25:37.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620822",
+                    "label": {
+                        "_value": "stop animal cruelty and any type of testing on animals"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

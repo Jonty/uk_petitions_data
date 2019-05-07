@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509938/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509938/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509938/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509938/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509938/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/600447",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509938",
+                    "label": {
+                        "_value": "Ban all Pornographic material"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583735",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T11:43:31.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509938",
+                    "label": {
+                        "_value": "Ban all Pornographic material"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T07:31:03.945Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509938",
+                    "label": {
+                        "_value": "Ban all Pornographic material"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T15:47:56.645Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509938",
+                    "label": {
+                        "_value": "Ban all Pornographic material"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T16:38:05.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509938",
+                    "label": {
+                        "_value": "Ban all Pornographic material"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

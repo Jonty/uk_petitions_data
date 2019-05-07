@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/940601/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/940601/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/940601/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/940601/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/940601/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1040717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-13T00:00:03.102Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033923",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-31T18:25:40.242Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030086",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-20T20:53:01.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1007639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T18:03:35.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-30T14:00:11.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-27T19:27:24.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/940602",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-12T12:41:50.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940601",
+                    "label": {
+                        "_value": "Require all schools to allow pupils to wear skirts"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

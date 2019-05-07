@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543309/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543309/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543309/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543309/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543309/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543309",
+                    "label": {
+                        "_value": "Change the law to ensure the safety of children crossing roads near schools"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-12T18:49:12.717Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543309",
+                    "label": {
+                        "_value": "Change the law to ensure the safety of children crossing roads near schools"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T18:26:00.561Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543309",
+                    "label": {
+                        "_value": "Change the law to ensure the safety of children crossing roads near schools"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T22:01:44.622Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543309",
+                    "label": {
+                        "_value": "Change the law to ensure the safety of children crossing roads near schools"
+                    }
+                },
+                "numberOfSignatures": 68
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

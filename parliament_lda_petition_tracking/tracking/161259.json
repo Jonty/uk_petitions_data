@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555735/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555735/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555735/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555735/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555735/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/578399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T20:30:21.865Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555735",
+                    "label": {
+                        "_value": "Unite all 43 police forces in England and Wales into one National Police Force."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T16:48:28.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555735",
+                    "label": {
+                        "_value": "Unite all 43 police forces in England and Wales into one National Police Force."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T12:58:04.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555735",
+                    "label": {
+                        "_value": "Unite all 43 police forces in England and Wales into one National Police Force."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

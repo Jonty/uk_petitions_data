@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/652213/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/652213/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/652213/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/652213/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/652213/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734700",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.641Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652213",
+                    "label": {
+                        "_value": "A legal aid framework for victims in the case of IVP dataset compromises."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655537",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-07T09:49:59.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652213",
+                    "label": {
+                        "_value": "A legal aid framework for victims in the case of IVP dataset compromises."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T22:10:59.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652213",
+                    "label": {
+                        "_value": "A legal aid framework for victims in the case of IVP dataset compromises."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T22:31:04.784Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652213",
+                    "label": {
+                        "_value": "A legal aid framework for victims in the case of IVP dataset compromises."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

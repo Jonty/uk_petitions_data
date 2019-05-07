@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1022808/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1022808/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1022808/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1022808/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1022808/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:11.364Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1022808",
+                    "label": {
+                        "_value": "Make PE mandatory for a minimum of 2-hours per week in primary schools."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T21:31:06.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1022808",
+                    "label": {
+                        "_value": "Make PE mandatory for a minimum of 2-hours per week in primary schools."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088404",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T21:20:57.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1022808",
+                    "label": {
+                        "_value": "Make PE mandatory for a minimum of 2-hours per week in primary schools."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-12T10:32:48.166Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1022808",
+                    "label": {
+                        "_value": "Make PE mandatory for a minimum of 2-hours per week in primary schools."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048860",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-26T09:40:40.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1022808",
+                    "label": {
+                        "_value": "Make PE mandatory for a minimum of 2-hours per week in primary schools."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1022809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-10T16:29:10.066Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1022808",
+                    "label": {
+                        "_value": "Make PE mandatory for a minimum of 2-hours per week in primary schools."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

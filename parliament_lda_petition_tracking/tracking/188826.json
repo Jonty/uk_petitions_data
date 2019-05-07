@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718423/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718423/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718423/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718423/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718423/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:23.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718423",
+                    "label": {
+                        "_value": "Make the act of child grooming illegal in England and Wales"
+                    }
+                },
+                "numberOfSignatures": 2112
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T23:31:40.810Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718423",
+                    "label": {
+                        "_value": "Make the act of child grooming illegal in England and Wales"
+                    }
+                },
+                "numberOfSignatures": 2100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721327",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-14T23:16:54.617Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718423",
+                    "label": {
+                        "_value": "Make the act of child grooming illegal in England and Wales"
+                    }
+                },
+                "numberOfSignatures": 2096
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T22:01:01.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718423",
+                    "label": {
+                        "_value": "Make the act of child grooming illegal in England and Wales"
+                    }
+                },
+                "numberOfSignatures": 2094
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718424",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-06T23:26:00.711Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718423",
+                    "label": {
+                        "_value": "Make the act of child grooming illegal in England and Wales"
+                    }
+                },
+                "numberOfSignatures": 2087
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

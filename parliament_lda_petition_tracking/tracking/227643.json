@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/962073/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/962073/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/962073/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/962073/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/962073/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1080144",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T00:00:02.887Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962073",
+                    "label": {
+                        "_value": "Make it compulsory to have lifeguards on all popular beaches in the UK"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1042161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-14T23:37:16.762Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962073",
+                    "label": {
+                        "_value": "Make it compulsory to have lifeguards on all popular beaches in the UK"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/973820",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-13T17:33:04.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962073",
+                    "label": {
+                        "_value": "Make it compulsory to have lifeguards on all popular beaches in the UK"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-30T08:40:15.777Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962073",
+                    "label": {
+                        "_value": "Make it compulsory to have lifeguards on all popular beaches in the UK"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T12:04:27.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962073",
+                    "label": {
+                        "_value": "Make it compulsory to have lifeguards on all popular beaches in the UK"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

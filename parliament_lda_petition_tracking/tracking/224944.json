@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/949388/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/949388/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/949388/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/949388/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/949388/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1049957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T00:00:01.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949388",
+                    "label": {
+                        "_value": "Ensure that AFCS pays out for service injury AND the impact to life and family"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-27T17:10:18.128Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949388",
+                    "label": {
+                        "_value": "Ensure that AFCS pays out for service injury AND the impact to life and family"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

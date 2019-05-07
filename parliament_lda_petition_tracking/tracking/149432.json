@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549032/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549032/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549032/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549032/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549032/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/652215",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T21:00:03.968Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549032",
+                    "label": {
+                        "_value": "Citizens must pass GCSE level maths and English to vote"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630473",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:18:13.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549032",
+                    "label": {
+                        "_value": "Citizens must pass GCSE level maths and English to vote"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571685",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:59:24.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549032",
+                    "label": {
+                        "_value": "Citizens must pass GCSE level maths and English to vote"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549033",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:05:06.819Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549032",
+                    "label": {
+                        "_value": "Citizens must pass GCSE level maths and English to vote"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

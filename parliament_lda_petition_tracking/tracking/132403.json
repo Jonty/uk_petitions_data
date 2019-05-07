@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548324/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548324/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548324/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548324/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548324/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:20.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548324",
+                    "label": {
+                        "_value": "Set up a Commission of Enquiry into the Bromley Housing Transfer of 1993"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548324",
+                    "label": {
+                        "_value": "Set up a Commission of Enquiry into the Bromley Housing Transfer of 1993"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T15:39:22.014Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548324",
+                    "label": {
+                        "_value": "Set up a Commission of Enquiry into the Bromley Housing Transfer of 1993"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548325",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T20:58:34.123Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548324",
+                    "label": {
+                        "_value": "Set up a Commission of Enquiry into the Bromley Housing Transfer of 1993"
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

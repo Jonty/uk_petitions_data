@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548312/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548312/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548312/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548312/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548312/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.769Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548312",
+                    "label": {
+                        "_value": "All NHS employers to pay staff at least the living wage."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T19:49:00.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548312",
+                    "label": {
+                        "_value": "All NHS employers to pay staff at least the living wage."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571622",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T22:40:28.967Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548312",
+                    "label": {
+                        "_value": "All NHS employers to pay staff at least the living wage."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T17:45:53.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548312",
+                    "label": {
+                        "_value": "All NHS employers to pay staff at least the living wage."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T19:14:40.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548312",
+                    "label": {
+                        "_value": "All NHS employers to pay staff at least the living wage."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-17T12:28:36.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548312",
+                    "label": {
+                        "_value": "All NHS employers to pay staff at least the living wage."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

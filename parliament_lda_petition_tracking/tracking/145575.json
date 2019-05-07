@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548401/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548401/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548401/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548401/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548401/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548401",
+                    "label": {
+                        "_value": "Control the right to vote, by a political knowledge test."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T12:33:56.104Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548401",
+                    "label": {
+                        "_value": "Control the right to vote, by a political knowledge test."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T18:04:21.531Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548401",
+                    "label": {
+                        "_value": "Control the right to vote, by a political knowledge test."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

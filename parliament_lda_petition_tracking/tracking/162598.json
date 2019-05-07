@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547344/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547344/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547344/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547344/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547344/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733759",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:29.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547344",
+                    "label": {
+                        "_value": "Reconsider changing bursaries to loans for Student Nurses and Midwives."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T09:55:45.073Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547344",
+                    "label": {
+                        "_value": "Reconsider changing bursaries to loans for Student Nurses and Midwives."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571517",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T13:38:23.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547344",
+                    "label": {
+                        "_value": "Reconsider changing bursaries to loans for Student Nurses and Midwives."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T15:22:10.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547344",
+                    "label": {
+                        "_value": "Reconsider changing bursaries to loans for Student Nurses and Midwives."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553353",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T19:11:24.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547344",
+                    "label": {
+                        "_value": "Reconsider changing bursaries to loans for Student Nurses and Midwives."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T21:32:09.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547344",
+                    "label": {
+                        "_value": "Reconsider changing bursaries to loans for Student Nurses and Midwives."
+                    }
+                },
+                "numberOfSignatures": 50
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

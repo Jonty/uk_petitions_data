@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/819672/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/819672/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/819672/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/819672/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/819672/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/938362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-09T23:00:08.469Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/819672",
+                    "label": {
+                        "_value": "Make it law for all age restricted products to require approved photo ID."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929860",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-22T19:09:49.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/819672",
+                    "label": {
+                        "_value": "Make it law for all age restricted products to require approved photo ID."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876056",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-30T02:37:57.525Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/819672",
+                    "label": {
+                        "_value": "Make it law for all age restricted products to require approved photo ID."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T14:20:36.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/819672",
+                    "label": {
+                        "_value": "Make it law for all age restricted products to require approved photo ID."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841711",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-13T23:11:49.249Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/819672",
+                    "label": {
+                        "_value": "Make it law for all age restricted products to require approved photo ID."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/819673",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-09T17:52:36.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/819672",
+                    "label": {
+                        "_value": "Make it law for all age restricted products to require approved photo ID."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

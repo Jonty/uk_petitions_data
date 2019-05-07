@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462569/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462569/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462569/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462569/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462569/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.350Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462569",
+                    "label": {
+                        "_value": "Ban Britian first and other extreme parties by introducing clear guidelines"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462569",
+                    "label": {
+                        "_value": "Ban Britian first and other extreme parties by introducing clear guidelines"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-19T00:00:07.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462569",
+                    "label": {
+                        "_value": "Ban Britian first and other extreme parties by introducing clear guidelines"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480250",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:12:55.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462569",
+                    "label": {
+                        "_value": "Ban Britian first and other extreme parties by introducing clear guidelines"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:13:45.813Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462569",
+                    "label": {
+                        "_value": "Ban Britian first and other extreme parties by introducing clear guidelines"
+                    }
+                },
+                "numberOfSignatures": 107
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954919/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954919/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954919/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954919/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954919/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1060434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T00:00:05.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954919",
+                    "label": {
+                        "_value": "Request intervention in Myanmar at the Security Council against genocide"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-09T13:30:29.121Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954919",
+                    "label": {
+                        "_value": "Request intervention in Myanmar at the Security Council against genocide"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956238",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-13T08:46:31.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954919",
+                    "label": {
+                        "_value": "Request intervention in Myanmar at the Security Council against genocide"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954920",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-10T16:17:45.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954919",
+                    "label": {
+                        "_value": "Request intervention in Myanmar at the Security Council against genocide"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

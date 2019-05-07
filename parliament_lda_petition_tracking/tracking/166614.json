@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/580140/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/580140/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/580140/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/580140/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/580140/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625767",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T10:29:33.448Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580140",
+                    "label": {
+                        "_value": "Put a limit on when HGV's and Tractors can access Main Roads and Motorways"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580141",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T14:54:53.256Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580140",
+                    "label": {
+                        "_value": "Put a limit on when HGV's and Tractors can access Main Roads and Motorways"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

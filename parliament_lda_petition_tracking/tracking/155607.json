@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552172/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552172/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552172/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552172/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552172/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597677",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T19:38:12.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552172",
+                    "label": {
+                        "_value": "Make it so petition makers can represent their issue and argument in parliament."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T16:23:08.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552172",
+                    "label": {
+                        "_value": "Make it so petition makers can represent their issue and argument in parliament."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T16:21:25.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552172",
+                    "label": {
+                        "_value": "Make it so petition makers can represent their issue and argument in parliament."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

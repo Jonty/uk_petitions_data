@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1021644/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1021644/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1021644/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1021644/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1021644/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107500",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T10:01:36.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021644",
+                    "label": {
+                        "_value": "The UK legal definition of rape should change to the US version."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T13:08:39.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021644",
+                    "label": {
+                        "_value": "The UK legal definition of rape should change to the US version."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T22:14:55.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021644",
+                    "label": {
+                        "_value": "The UK legal definition of rape should change to the US version."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-28T11:51:15.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021644",
+                    "label": {
+                        "_value": "The UK legal definition of rape should change to the US version."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1036097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-05T18:17:44.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021644",
+                    "label": {
+                        "_value": "The UK legal definition of rape should change to the US version."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-06T16:05:41.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021644",
+                    "label": {
+                        "_value": "The UK legal definition of rape should change to the US version."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

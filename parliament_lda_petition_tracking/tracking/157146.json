@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549620/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549620/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549620/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549620/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549620/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:18:43.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549620",
+                    "label": {
+                        "_value": "Reduce corporation tax to less than 12.5% give companies a reason to stay in UK"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623253",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:16:47.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549620",
+                    "label": {
+                        "_value": "Reduce corporation tax to less than 12.5% give companies a reason to stay in UK"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T10:22:14.477Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549620",
+                    "label": {
+                        "_value": "Reduce corporation tax to less than 12.5% give companies a reason to stay in UK"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:53:02.501Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549620",
+                    "label": {
+                        "_value": "Reduce corporation tax to less than 12.5% give companies a reason to stay in UK"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549621",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T17:19:13.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549620",
+                    "label": {
+                        "_value": "Reduce corporation tax to less than 12.5% give companies a reason to stay in UK"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

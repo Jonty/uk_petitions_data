@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549927/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549927/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549927/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549927/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549927/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T17:34:10.972Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549927",
+                    "label": {
+                        "_value": "Investigate the Use of an Oral TB Vaccine for Badgers."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571741",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T16:12:46.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549927",
+                    "label": {
+                        "_value": "Investigate the Use of an Oral TB Vaccine for Badgers."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T15:43:35.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549927",
+                    "label": {
+                        "_value": "Investigate the Use of an Oral TB Vaccine for Badgers."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T06:09:54.766Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549927",
+                    "label": {
+                        "_value": "Investigate the Use of an Oral TB Vaccine for Badgers."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T08:10:18.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549927",
+                    "label": {
+                        "_value": "Investigate the Use of an Oral TB Vaccine for Badgers."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

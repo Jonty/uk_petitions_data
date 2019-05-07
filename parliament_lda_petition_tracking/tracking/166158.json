@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/576198/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/576198/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/576198/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/576198/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/576198/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645808",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T18:58:02.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576198",
+                    "label": {
+                        "_value": "Provide statistical report of areas / numbers of culled badgers hosting TB."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599742",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T10:25:26.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576198",
+                    "label": {
+                        "_value": "Provide statistical report of areas / numbers of culled badgers hosting TB."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591958",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T18:03:52.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576198",
+                    "label": {
+                        "_value": "Provide statistical report of areas / numbers of culled badgers hosting TB."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T17:33:50.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576198",
+                    "label": {
+                        "_value": "Provide statistical report of areas / numbers of culled badgers hosting TB."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T21:12:09.238Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576198",
+                    "label": {
+                        "_value": "Provide statistical report of areas / numbers of culled badgers hosting TB."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

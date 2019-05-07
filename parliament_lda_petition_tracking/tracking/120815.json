@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466545/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466545/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466545/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466545/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466545/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/569383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466545",
+                    "label": {
+                        "_value": "Pass an Act of Parliament guaranteeing the asylum of Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550983",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T11:10:59.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466545",
+                    "label": {
+                        "_value": "Pass an Act of Parliament guaranteeing the asylum of Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T09:29:35.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466545",
+                    "label": {
+                        "_value": "Pass an Act of Parliament guaranteeing the asylum of Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

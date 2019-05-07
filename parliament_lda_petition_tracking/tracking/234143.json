@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1025798/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1025798/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1025798/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1025798/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1025798/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107469",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:02:43.199Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025798",
+                    "label": {
+                        "_value": "Call to ban \u2018cruel\u2019 pupil restraint in special schools"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:14:08.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025798",
+                    "label": {
+                        "_value": "Call to ban \u2018cruel\u2019 pupil restraint in special schools"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053536",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-02T13:29:26.448Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025798",
+                    "label": {
+                        "_value": "Call to ban \u2018cruel\u2019 pupil restraint in special schools"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-31T19:26:47.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025798",
+                    "label": {
+                        "_value": "Call to ban \u2018cruel\u2019 pupil restraint in special schools"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-18T14:44:52.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025798",
+                    "label": {
+                        "_value": "Call to ban \u2018cruel\u2019 pupil restraint in special schools"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1025799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-14T13:30:14.798Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025798",
+                    "label": {
+                        "_value": "Call to ban \u2018cruel\u2019 pupil restraint in special schools"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

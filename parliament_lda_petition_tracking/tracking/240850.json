@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1061987/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1061987/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1061987/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1061987/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1061987/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107365",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:16.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061987",
+                    "label": {
+                        "_value": "Cap private housing rent based on the house value"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085351",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T08:30:14.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061987",
+                    "label": {
+                        "_value": "Cap private housing rent based on the house value"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T21:07:05.442Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061987",
+                    "label": {
+                        "_value": "Cap private housing rent based on the house value"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T22:21:07.777Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061987",
+                    "label": {
+                        "_value": "Cap private housing rent based on the house value"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

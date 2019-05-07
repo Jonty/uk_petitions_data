@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549987/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549987/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549987/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549987/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549987/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645732",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:19:04.271Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549987",
+                    "label": {
+                        "_value": "Introduce a 3 strike policy before benefits can be sanctioned."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T12:36:12.819Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549987",
+                    "label": {
+                        "_value": "Introduce a 3 strike policy before benefits can be sanctioned."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595299",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T04:35:51.645Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549987",
+                    "label": {
+                        "_value": "Introduce a 3 strike policy before benefits can be sanctioned."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:34:27.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549987",
+                    "label": {
+                        "_value": "Introduce a 3 strike policy before benefits can be sanctioned."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T06:58:16.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549987",
+                    "label": {
+                        "_value": "Introduce a 3 strike policy before benefits can be sanctioned."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

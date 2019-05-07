@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462977/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462977/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462977/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462977/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462977/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/730003",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:05.571Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462977",
+                    "label": {
+                        "_value": "Make it an offence to record a police officer in the attempt to bring disrepute."
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462977",
+                    "label": {
+                        "_value": "Make it an offence to record a police officer in the attempt to bring disrepute."
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483931",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T12:46:06.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462977",
+                    "label": {
+                        "_value": "Make it an offence to record a police officer in the attempt to bring disrepute."
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:07:21.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462977",
+                    "label": {
+                        "_value": "Make it an offence to record a police officer in the attempt to bring disrepute."
+                    }
+                },
+                "numberOfSignatures": 72
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:16.119Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462977",
+                    "label": {
+                        "_value": "Make it an offence to record a police officer in the attempt to bring disrepute."
+                    }
+                },
+                "numberOfSignatures": 71
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

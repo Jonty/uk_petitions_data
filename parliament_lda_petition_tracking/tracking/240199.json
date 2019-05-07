@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1076011/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1076011/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1076011/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1076011/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1076011/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107154",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:11.395Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076011",
+                    "label": {
+                        "_value": "Make it a legal requirement to show all materials used in clothing and footwear."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:12.647Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076011",
+                    "label": {
+                        "_value": "Make it a legal requirement to show all materials used in clothing and footwear."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T11:24:35.823Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076011",
+                    "label": {
+                        "_value": "Make it a legal requirement to show all materials used in clothing and footwear."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T19:20:43.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076011",
+                    "label": {
+                        "_value": "Make it a legal requirement to show all materials used in clothing and footwear."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T10:44:54.098Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076011",
+                    "label": {
+                        "_value": "Make it a legal requirement to show all materials used in clothing and footwear."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076012",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T22:10:09.818Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076011",
+                    "label": {
+                        "_value": "Make it a legal requirement to show all materials used in clothing and footwear."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

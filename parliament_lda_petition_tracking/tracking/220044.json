@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/911702/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/911702/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/911702/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/911702/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/911702/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1014347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-25T00:00:05.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/911702",
+                    "label": {
+                        "_value": "A fresh look at Hi-tech solutions to reduce traffic congestion nationwide."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/980660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-02T08:52:09.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/911702",
+                    "label": {
+                        "_value": "A fresh look at Hi-tech solutions to reduce traffic congestion nationwide."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/915678",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-01T08:46:03.050Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/911702",
+                    "label": {
+                        "_value": "A fresh look at Hi-tech solutions to reduce traffic congestion nationwide."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913724",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T08:42:13.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/911702",
+                    "label": {
+                        "_value": "A fresh look at Hi-tech solutions to reduce traffic congestion nationwide."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/911703",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-24T16:45:37.829Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/911702",
+                    "label": {
+                        "_value": "A fresh look at Hi-tech solutions to reduce traffic congestion nationwide."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

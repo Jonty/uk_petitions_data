@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550005/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550005/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550005/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550005/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550005/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550005",
+                    "label": {
+                        "_value": "Stop job discrimination against returning British Citizens"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:12:23.437Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550005",
+                    "label": {
+                        "_value": "Stop job discrimination against returning British Citizens"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T19:03:58.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550005",
+                    "label": {
+                        "_value": "Stop job discrimination against returning British Citizens"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T18:39:14.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550005",
+                    "label": {
+                        "_value": "Stop job discrimination against returning British Citizens"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550006",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550005",
+                    "label": {
+                        "_value": "Stop job discrimination against returning British Citizens"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

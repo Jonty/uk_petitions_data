@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549616/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549616/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549616/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549616/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549616/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:18:54.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549616",
+                    "label": {
+                        "_value": "Fully-fund all disabled veteran British service people and their families."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T15:35:14.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549616",
+                    "label": {
+                        "_value": "Fully-fund all disabled veteran British service people and their families."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621821",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T13:48:58.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549616",
+                    "label": {
+                        "_value": "Fully-fund all disabled veteran British service people and their families."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:15:32.587Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549616",
+                    "label": {
+                        "_value": "Fully-fund all disabled veteran British service people and their families."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T18:48:42.122Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549616",
+                    "label": {
+                        "_value": "Fully-fund all disabled veteran British service people and their families."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T19:50:13.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549616",
+                    "label": {
+                        "_value": "Fully-fund all disabled veteran British service people and their families."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

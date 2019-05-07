@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/950861/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/950861/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/950861/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/950861/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/950861/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1053094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T00:00:05.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950861",
+                    "label": {
+                        "_value": "Increase government funding for assisted living facilities in care homes."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T22:25:45.056Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950861",
+                    "label": {
+                        "_value": "Increase government funding for assisted living facilities in care homes."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/981054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-03T16:55:45.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950861",
+                    "label": {
+                        "_value": "Increase government funding for assisted living facilities in care homes."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-03T10:37:28.366Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950861",
+                    "label": {
+                        "_value": "Increase government funding for assisted living facilities in care homes."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-31T22:24:34.111Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950861",
+                    "label": {
+                        "_value": "Increase government funding for assisted living facilities in care homes."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/950862",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-31T09:54:19.014Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950861",
+                    "label": {
+                        "_value": "Increase government funding for assisted living facilities in care homes."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

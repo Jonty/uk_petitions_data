@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464069/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464069/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464069/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464069/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464069/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.926Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464069",
+                    "label": {
+                        "_value": "Change Petition rules to force a parliamentary vote if a threshold is reached."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464069",
+                    "label": {
+                        "_value": "Change Petition rules to force a parliamentary vote if a threshold is reached."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509778",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T02:17:11.971Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464069",
+                    "label": {
+                        "_value": "Change Petition rules to force a parliamentary vote if a threshold is reached."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T15:22:24.881Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464069",
+                    "label": {
+                        "_value": "Change Petition rules to force a parliamentary vote if a threshold is reached."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464070",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T19:28:45.698Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464069",
+                    "label": {
+                        "_value": "Change Petition rules to force a parliamentary vote if a threshold is reached."
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

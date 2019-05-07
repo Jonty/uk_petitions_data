@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/807611/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/807611/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/807611/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/807611/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/807611/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/925521",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-15T23:00:06.167Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/807611",
+                    "label": {
+                        "_value": "Introduce legislation to protect students from universities and letting agencies"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841045",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-11T20:28:29.165Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/807611",
+                    "label": {
+                        "_value": "Introduce legislation to protect students from universities and letting agencies"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/813043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-27T02:42:29.863Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/807611",
+                    "label": {
+                        "_value": "Introduce legislation to protect students from universities and letting agencies"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/807922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-16T16:10:15.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/807611",
+                    "label": {
+                        "_value": "Introduce legislation to protect students from universities and letting agencies"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/807612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-15T19:24:41.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/807611",
+                    "label": {
+                        "_value": "Introduce legislation to protect students from universities and letting agencies"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

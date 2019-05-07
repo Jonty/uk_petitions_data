@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550362/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550362/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550362/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550362/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550362/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624499",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:14:45.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550362",
+                    "label": {
+                        "_value": "In 2018 hold a referendum on whether negotiated EU Exit terms are acceptable."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-06T16:32:35.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550362",
+                    "label": {
+                        "_value": "In 2018 hold a referendum on whether negotiated EU Exit terms are acceptable."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

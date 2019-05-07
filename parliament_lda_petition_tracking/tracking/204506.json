@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/787649/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/787649/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/787649/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/787649/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/787649/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/900984",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-08T23:00:03.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787649",
+                    "label": {
+                        "_value": "Remove stamp duty for First Time Buyers by making sellers pay the tax"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/793816",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-21T18:51:43.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787649",
+                    "label": {
+                        "_value": "Remove stamp duty for First Time Buyers by making sellers pay the tax"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/790822",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-16T14:07:27.566Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787649",
+                    "label": {
+                        "_value": "Remove stamp duty for First Time Buyers by making sellers pay the tax"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/789821",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-15T10:51:00.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787649",
+                    "label": {
+                        "_value": "Remove stamp duty for First Time Buyers by making sellers pay the tax"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-11T20:32:40.190Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787649",
+                    "label": {
+                        "_value": "Remove stamp duty for First Time Buyers by making sellers pay the tax"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

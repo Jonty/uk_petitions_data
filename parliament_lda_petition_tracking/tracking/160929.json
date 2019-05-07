@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551078/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551078/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551078/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551078/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551078/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618395",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:40:32.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551078",
+                    "label": {
+                        "_value": "cap the price of household line rental to \u00a310.00 a month."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573228",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T09:09:49.700Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551078",
+                    "label": {
+                        "_value": "cap the price of household line rental to \u00a310.00 a month."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T14:03:33.707Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551078",
+                    "label": {
+                        "_value": "cap the price of household line rental to \u00a310.00 a month."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

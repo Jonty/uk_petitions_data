@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841172/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841172/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841172/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841172/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841172/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/954883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-09T23:00:02.606Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841172",
+                    "label": {
+                        "_value": "Make it so any employer has to reply to job applications within a month."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/944498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-18T16:27:56.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841172",
+                    "label": {
+                        "_value": "Make it so any employer has to reply to job applications within a month."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/855359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-05T00:47:49.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841172",
+                    "label": {
+                        "_value": "Make it so any employer has to reply to job applications within a month."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/845343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-20T01:56:52.415Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841172",
+                    "label": {
+                        "_value": "Make it so any employer has to reply to job applications within a month."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-09T15:35:26.804Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841172",
+                    "label": {
+                        "_value": "Make it so any employer has to reply to job applications within a month."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

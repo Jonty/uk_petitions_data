@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466315/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466315/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466315/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466315/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466315/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/567739",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466315",
+                    "label": {
+                        "_value": "Give agency staff permanent contracts by law after 6 months with same company"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559919",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T22:09:08.637Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466315",
+                    "label": {
+                        "_value": "Give agency staff permanent contracts by law after 6 months with same company"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550714",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466315",
+                    "label": {
+                        "_value": "Give agency staff permanent contracts by law after 6 months with same company"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488706",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T09:48:14.541Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466315",
+                    "label": {
+                        "_value": "Give agency staff permanent contracts by law after 6 months with same company"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T13:50:49.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466315",
+                    "label": {
+                        "_value": "Give agency staff permanent contracts by law after 6 months with same company"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

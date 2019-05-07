@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/764845/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/764845/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/764845/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/764845/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/764845/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/878810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-04T23:00:00.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/764845",
+                    "label": {
+                        "_value": "Prescribe dance fitness classes on the NHS for everyone's good health"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/800348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-04T15:08:59.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/764845",
+                    "label": {
+                        "_value": "Prescribe dance fitness classes on the NHS for everyone's good health"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/797195",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-29T18:30:59.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/764845",
+                    "label": {
+                        "_value": "Prescribe dance fitness classes on the NHS for everyone's good health"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/784329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-05T17:55:51.210Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/764845",
+                    "label": {
+                        "_value": "Prescribe dance fitness classes on the NHS for everyone's good health"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/770348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-13T12:54:44.497Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/764845",
+                    "label": {
+                        "_value": "Prescribe dance fitness classes on the NHS for everyone's good health"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/764846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-04T11:17:50.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/764845",
+                    "label": {
+                        "_value": "Prescribe dance fitness classes on the NHS for everyone's good health"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482933/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482933/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482933/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482933/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482933/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/588469",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482933",
+                    "label": {
+                        "_value": "Stop the government from forcing mathematics on children until they are 18."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T21:58:33.009Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482933",
+                    "label": {
+                        "_value": "Stop the government from forcing mathematics on children until they are 18."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482933",
+                    "label": {
+                        "_value": "Stop the government from forcing mathematics on children until they are 18."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T12:08:19.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482933",
+                    "label": {
+                        "_value": "Stop the government from forcing mathematics on children until they are 18."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T17:50:06.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482933",
+                    "label": {
+                        "_value": "Stop the government from forcing mathematics on children until they are 18."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

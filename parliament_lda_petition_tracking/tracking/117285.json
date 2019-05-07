@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463397/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463397/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463397/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463397/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463397/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733918",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463397",
+                    "label": {
+                        "_value": "Stop the Met Office naming storms"
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463397",
+                    "label": {
+                        "_value": "Stop the Met Office naming storms"
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490709",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T14:39:45.641Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463397",
+                    "label": {
+                        "_value": "Stop the Met Office naming storms"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T17:56:59.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463397",
+                    "label": {
+                        "_value": "Stop the Met Office naming storms"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T07:52:40.736Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463397",
+                    "label": {
+                        "_value": "Stop the Met Office naming storms"
+                    }
+                },
+                "numberOfSignatures": 50
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

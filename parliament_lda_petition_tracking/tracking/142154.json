@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548006/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548006/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548006/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548006/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548006/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.266Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548006",
+                    "label": {
+                        "_value": "Give the right to vote to EU citizens having lived in the UK for 5 years or more"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659318",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:51:18.157Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548006",
+                    "label": {
+                        "_value": "Give the right to vote to EU citizens having lived in the UK for 5 years or more"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571601",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T22:14:51.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548006",
+                    "label": {
+                        "_value": "Give the right to vote to EU citizens having lived in the UK for 5 years or more"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564873",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T15:59:25.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548006",
+                    "label": {
+                        "_value": "Give the right to vote to EU citizens having lived in the UK for 5 years or more"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548007",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T10:23:52.814Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548006",
+                    "label": {
+                        "_value": "Give the right to vote to EU citizens having lived in the UK for 5 years or more"
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

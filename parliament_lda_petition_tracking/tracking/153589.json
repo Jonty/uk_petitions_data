@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549028/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549028/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549028/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549028/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549028/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:50:38.461Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549028",
+                    "label": {
+                        "_value": "Act against the post-EU referendum increase in racial and religious hate crime"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T09:30:27.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549028",
+                    "label": {
+                        "_value": "Act against the post-EU referendum increase in racial and religious hate crime"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T15:35:52.111Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549028",
+                    "label": {
+                        "_value": "Act against the post-EU referendum increase in racial and religious hate crime"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

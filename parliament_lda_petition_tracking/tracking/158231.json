@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551816/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551816/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551816/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551816/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551816/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/641116",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T13:33:36.229Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551816",
+                    "label": {
+                        "_value": "No free bus passes,tv licences for people holding over 100k in account."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599755",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:31:09.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551816",
+                    "label": {
+                        "_value": "No free bus passes,tv licences for people holding over 100k in account."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T13:52:45.418Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551816",
+                    "label": {
+                        "_value": "No free bus passes,tv licences for people holding over 100k in account."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T08:15:02.745Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551816",
+                    "label": {
+                        "_value": "No free bus passes,tv licences for people holding over 100k in account."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T07:37:12.517Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551816",
+                    "label": {
+                        "_value": "No free bus passes,tv licences for people holding over 100k in account."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

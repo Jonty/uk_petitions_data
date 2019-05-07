@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/526841/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/526841/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/526841/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/526841/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/526841/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/526841",
+                    "label": {
+                        "_value": "Ensure Knowsley students have the opportunity to take A-Levels"
+                    }
+                },
+                "numberOfSignatures": 423
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/526841",
+                    "label": {
+                        "_value": "Ensure Knowsley students have the opportunity to take A-Levels"
+                    }
+                },
+                "numberOfSignatures": 423
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618016",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T20:35:10.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/526841",
+                    "label": {
+                        "_value": "Ensure Knowsley students have the opportunity to take A-Levels"
+                    }
+                },
+                "numberOfSignatures": 423
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/534877",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-02T19:50:14.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/526841",
+                    "label": {
+                        "_value": "Ensure Knowsley students have the opportunity to take A-Levels"
+                    }
+                },
+                "numberOfSignatures": 422
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/526842",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-11T13:18:08.366Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/526841",
+                    "label": {
+                        "_value": "Ensure Knowsley students have the opportunity to take A-Levels"
+                    }
+                },
+                "numberOfSignatures": 419
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

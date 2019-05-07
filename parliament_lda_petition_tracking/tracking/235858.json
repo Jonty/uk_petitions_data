@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1034975/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1034975/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1034975/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1034975/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1034975/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107404",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:12.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034975",
+                    "label": {
+                        "_value": "Ban sugar in Leisure Centres, Hospitals & all other places that promote health."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T21:09:26.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034975",
+                    "label": {
+                        "_value": "Ban sugar in Leisure Centres, Hospitals & all other places that promote health."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:12:10.966Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034975",
+                    "label": {
+                        "_value": "Ban sugar in Leisure Centres, Hospitals & all other places that promote health."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1034976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-03T18:16:38.082Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1034975",
+                    "label": {
+                        "_value": "Ban sugar in Leisure Centres, Hospitals & all other places that promote health."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

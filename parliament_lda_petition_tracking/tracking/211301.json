@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/840972/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/840972/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/840972/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/840972/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/840972/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/953549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T23:00:00.186Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840972",
+                    "label": {
+                        "_value": "Lower Prescription charges"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T11:12:09.181Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840972",
+                    "label": {
+                        "_value": "Lower Prescription charges"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/906998",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-17T11:40:05.410Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840972",
+                    "label": {
+                        "_value": "Lower Prescription charges"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/855309",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-05T15:35:24.655Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840972",
+                    "label": {
+                        "_value": "Lower Prescription charges"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-03T23:18:40.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840972",
+                    "label": {
+                        "_value": "Lower Prescription charges"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/840973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-07T17:12:26.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840972",
+                    "label": {
+                        "_value": "Lower Prescription charges"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

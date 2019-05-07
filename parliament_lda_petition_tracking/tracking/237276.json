@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1049963/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1049963/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1049963/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1049963/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1049963/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:10.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049963",
+                    "label": {
+                        "_value": "Give leave to remain to Commonwealth Citizens and HM Forces service personnel"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:54:31.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049963",
+                    "label": {
+                        "_value": "Give leave to remain to Commonwealth Citizens and HM Forces service personnel"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1051175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-29T17:58:14.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049963",
+                    "label": {
+                        "_value": "Give leave to remain to Commonwealth Citizens and HM Forces service personnel"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049964",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T17:31:19.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049963",
+                    "label": {
+                        "_value": "Give leave to remain to Commonwealth Citizens and HM Forces service personnel"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

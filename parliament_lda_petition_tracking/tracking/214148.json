@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/858464/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/858464/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/858464/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/858464/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/858464/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/970820",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T23:00:02.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858464",
+                    "label": {
+                        "_value": "Introduce compulsory 6 weeks Comunity Service for 18-year-olds"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T15:26:49.485Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858464",
+                    "label": {
+                        "_value": "Introduce compulsory 6 weeks Comunity Service for 18-year-olds"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/922951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-12T18:58:25.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858464",
+                    "label": {
+                        "_value": "Introduce compulsory 6 weeks Comunity Service for 18-year-olds"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876060",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-30T02:38:37.618Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858464",
+                    "label": {
+                        "_value": "Introduce compulsory 6 weeks Comunity Service for 18-year-olds"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/858465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-08T16:28:51.039Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858464",
+                    "label": {
+                        "_value": "Introduce compulsory 6 weeks Comunity Service for 18-year-olds"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

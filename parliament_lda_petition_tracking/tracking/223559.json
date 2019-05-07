@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/940603/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/940603/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/940603/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/940603/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/940603/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1040720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-13T00:00:03.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940603",
+                    "label": {
+                        "_value": "Require all schools to provide a trouser alternative during summer periods."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-27T14:00:16.538Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940603",
+                    "label": {
+                        "_value": "Require all schools to provide a trouser alternative during summer periods."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/943653",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-17T09:55:54.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940603",
+                    "label": {
+                        "_value": "Require all schools to provide a trouser alternative during summer periods."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-13T17:52:38.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940603",
+                    "label": {
+                        "_value": "Require all schools to provide a trouser alternative during summer periods."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/940604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-12T14:01:12.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940603",
+                    "label": {
+                        "_value": "Require all schools to provide a trouser alternative during summer periods."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

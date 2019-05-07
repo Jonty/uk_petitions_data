@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1076216/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1076216/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1076216/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1076216/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1076216/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:13:52.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076216",
+                    "label": {
+                        "_value": "Automatic enrolment on the Organ Donor Register."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:35:38.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076216",
+                    "label": {
+                        "_value": "Automatic enrolment on the Organ Donor Register."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T22:58:57.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076216",
+                    "label": {
+                        "_value": "Automatic enrolment on the Organ Donor Register."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:55:22.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076216",
+                    "label": {
+                        "_value": "Automatic enrolment on the Organ Donor Register."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

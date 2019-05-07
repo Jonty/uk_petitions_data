@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463063/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463063/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463063/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463063/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463063/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733373",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463063",
+                    "label": {
+                        "_value": "British public to vote for/against boycott against Islamic countries"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463063",
+                    "label": {
+                        "_value": "British public to vote for/against boycott against Islamic countries"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T00:00:06.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463063",
+                    "label": {
+                        "_value": "British public to vote for/against boycott against Islamic countries"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T15:26:56.394Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463063",
+                    "label": {
+                        "_value": "British public to vote for/against boycott against Islamic countries"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T19:27:28.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463063",
+                    "label": {
+                        "_value": "British public to vote for/against boycott against Islamic countries"
+                    }
+                },
+                "numberOfSignatures": 66
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

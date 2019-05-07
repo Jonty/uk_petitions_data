@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461679/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461679/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461679/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461679/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461679/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461679",
+                    "label": {
+                        "_value": "Remove money creation from private banks"
+                    }
+                },
+                "numberOfSignatures": 283
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538030",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461679",
+                    "label": {
+                        "_value": "Remove money creation from private banks"
+                    }
+                },
+                "numberOfSignatures": 283
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-15T12:08:41.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461679",
+                    "label": {
+                        "_value": "Remove money creation from private banks"
+                    }
+                },
+                "numberOfSignatures": 283
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:04:24.680Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461679",
+                    "label": {
+                        "_value": "Remove money creation from private banks"
+                    }
+                },
+                "numberOfSignatures": 280
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461680",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:40:57.279Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461679",
+                    "label": {
+                        "_value": "Remove money creation from private banks"
+                    }
+                },
+                "numberOfSignatures": 279
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

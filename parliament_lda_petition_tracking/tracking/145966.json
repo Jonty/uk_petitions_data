@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551882/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551882/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551882/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551882/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551882/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651171",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T21:02:22.556Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551882",
+                    "label": {
+                        "_value": "To implement a national standard for the design of cycle lanes by cyclists."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T10:04:52.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551882",
+                    "label": {
+                        "_value": "To implement a national standard for the design of cycle lanes by cyclists."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T12:15:05.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551882",
+                    "label": {
+                        "_value": "To implement a national standard for the design of cycle lanes by cyclists."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597155",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T13:03:34.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551882",
+                    "label": {
+                        "_value": "To implement a national standard for the design of cycle lanes by cyclists."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T08:38:02.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551882",
+                    "label": {
+                        "_value": "To implement a national standard for the design of cycle lanes by cyclists."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T13:57:39.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551882",
+                    "label": {
+                        "_value": "To implement a national standard for the design of cycle lanes by cyclists."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

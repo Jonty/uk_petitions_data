@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492235/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492235/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492235/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492235/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492235/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492235",
+                    "label": {
+                        "_value": "Make legal, business's over a certain size MUST pay double time on bank holidays"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:38:39.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492235",
+                    "label": {
+                        "_value": "Make legal, business's over a certain size MUST pay double time on bank holidays"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550691",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492235",
+                    "label": {
+                        "_value": "Make legal, business's over a certain size MUST pay double time on bank holidays"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503466",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T09:48:32.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492235",
+                    "label": {
+                        "_value": "Make legal, business's over a certain size MUST pay double time on bank holidays"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T10:24:09.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492235",
+                    "label": {
+                        "_value": "Make legal, business's over a certain size MUST pay double time on bank holidays"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

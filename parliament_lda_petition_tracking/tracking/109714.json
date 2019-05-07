@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462234/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462234/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462234/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462234/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462234/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462234",
+                    "label": {
+                        "_value": "Act urgently, with France, to resolve the humanitarian crisis in Calais."
+                    }
+                },
+                "numberOfSignatures": 150
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538470",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462234",
+                    "label": {
+                        "_value": "Act urgently, with France, to resolve the humanitarian crisis in Calais."
+                    }
+                },
+                "numberOfSignatures": 150
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T00:00:05.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462234",
+                    "label": {
+                        "_value": "Act urgently, with France, to resolve the humanitarian crisis in Calais."
+                    }
+                },
+                "numberOfSignatures": 150
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467754",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T10:41:03.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462234",
+                    "label": {
+                        "_value": "Act urgently, with France, to resolve the humanitarian crisis in Calais."
+                    }
+                },
+                "numberOfSignatures": 150
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T10:33:25.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462234",
+                    "label": {
+                        "_value": "Act urgently, with France, to resolve the humanitarian crisis in Calais."
+                    }
+                },
+                "numberOfSignatures": 149
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

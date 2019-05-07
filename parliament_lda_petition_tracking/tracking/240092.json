@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1061955/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1061955/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1061955/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1061955/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1061955/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107282",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T18:40:00.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061955",
+                    "label": {
+                        "_value": "Laser hair removal free on the NHS for women with polycystic ovaries (PCOS)"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076083",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:46:52.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061955",
+                    "label": {
+                        "_value": "Laser hair removal free on the NHS for women with polycystic ovaries (PCOS)"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T09:25:59.571Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061955",
+                    "label": {
+                        "_value": "Laser hair removal free on the NHS for women with polycystic ovaries (PCOS)"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

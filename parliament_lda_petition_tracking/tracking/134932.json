@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548794/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548794/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548794/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548794/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548794/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735098",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548794",
+                    "label": {
+                        "_value": "Refrain from triggering Article 50 until trade deals negotiated."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629536",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:29:39.681Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548794",
+                    "label": {
+                        "_value": "Refrain from triggering Article 50 until trade deals negotiated."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T18:19:34.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548794",
+                    "label": {
+                        "_value": "Refrain from triggering Article 50 until trade deals negotiated."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:12:32.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548794",
+                    "label": {
+                        "_value": "Refrain from triggering Article 50 until trade deals negotiated."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578318",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:37:00.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548794",
+                    "label": {
+                        "_value": "Refrain from triggering Article 50 until trade deals negotiated."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548795",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T17:06:29.620Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548794",
+                    "label": {
+                        "_value": "Refrain from triggering Article 50 until trade deals negotiated."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718477/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718477/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718477/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718477/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718477/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:23.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718477",
+                    "label": {
+                        "_value": "I want the government to put fibromyalgia as a disability by law!"
+                    }
+                },
+                "numberOfSignatures": 2090
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721644",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T12:23:50.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718477",
+                    "label": {
+                        "_value": "I want the government to put fibromyalgia as a disability by law!"
+                    }
+                },
+                "numberOfSignatures": 1910
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-13T22:49:01.849Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718477",
+                    "label": {
+                        "_value": "I want the government to put fibromyalgia as a disability by law!"
+                    }
+                },
+                "numberOfSignatures": 1908
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-08T19:27:15.229Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718477",
+                    "label": {
+                        "_value": "I want the government to put fibromyalgia as a disability by law!"
+                    }
+                },
+                "numberOfSignatures": 1903
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718478",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-06T18:06:20.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718477",
+                    "label": {
+                        "_value": "I want the government to put fibromyalgia as a disability by law!"
+                    }
+                },
+                "numberOfSignatures": 1901
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

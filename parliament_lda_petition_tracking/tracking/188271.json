@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718416/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718416/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718416/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718416/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718416/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:23.448Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718416",
+                    "label": {
+                        "_value": "No to a cross-Tamar \u201cDevonwall\u201d parliamentary constituency"
+                    }
+                },
+                "numberOfSignatures": 2194
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T20:55:12.477Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718416",
+                    "label": {
+                        "_value": "No to a cross-Tamar \u201cDevonwall\u201d parliamentary constituency"
+                    }
+                },
+                "numberOfSignatures": 2160
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-14T23:18:05.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718416",
+                    "label": {
+                        "_value": "No to a cross-Tamar \u201cDevonwall\u201d parliamentary constituency"
+                    }
+                },
+                "numberOfSignatures": 2133
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T18:00:07.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718416",
+                    "label": {
+                        "_value": "No to a cross-Tamar \u201cDevonwall\u201d parliamentary constituency"
+                    }
+                },
+                "numberOfSignatures": 2123
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719566",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T11:25:14.753Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718416",
+                    "label": {
+                        "_value": "No to a cross-Tamar \u201cDevonwall\u201d parliamentary constituency"
+                    }
+                },
+                "numberOfSignatures": 2114
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T21:01:28.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718416",
+                    "label": {
+                        "_value": "No to a cross-Tamar \u201cDevonwall\u201d parliamentary constituency"
+                    }
+                },
+                "numberOfSignatures": 2110
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

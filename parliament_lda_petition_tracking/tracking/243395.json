@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1086456/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1086456/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1086456/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1086456/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1086456/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:15.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1086456",
+                    "label": {
+                        "_value": "UK parliament must condemn terrorist attack on Indian forces by JeM & supporters"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T16:51:58.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1086456",
+                    "label": {
+                        "_value": "UK parliament must condemn terrorist attack on Indian forces by JeM & supporters"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

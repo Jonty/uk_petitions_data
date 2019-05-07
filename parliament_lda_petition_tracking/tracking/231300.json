@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1003558/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1003558/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1003558/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1003558/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1003558/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T00:35:08.707Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003558",
+                    "label": {
+                        "_value": "Make it illegal for under 16's to have internet access on their mobile phones!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:07.991Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003558",
+                    "label": {
+                        "_value": "Make it illegal for under 16's to have internet access on their mobile phones!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:34:08.538Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003558",
+                    "label": {
+                        "_value": "Make it illegal for under 16's to have internet access on their mobile phones!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049327",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-27T00:20:20.427Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003558",
+                    "label": {
+                        "_value": "Make it illegal for under 16's to have internet access on their mobile phones!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004318",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-09T19:28:10.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003558",
+                    "label": {
+                        "_value": "Make it illegal for under 16's to have internet access on their mobile phones!"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-07T12:38:14.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003558",
+                    "label": {
+                        "_value": "Make it illegal for under 16's to have internet access on their mobile phones!"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

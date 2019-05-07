@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078309/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078309/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078309/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078309/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078309/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107531",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:47:25.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078309",
+                    "label": {
+                        "_value": "Legalise the possession of, and right to use cannabis for religious purposes."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:15.594Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078309",
+                    "label": {
+                        "_value": "Legalise the possession of, and right to use cannabis for religious purposes."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T11:09:58.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078309",
+                    "label": {
+                        "_value": "Legalise the possession of, and right to use cannabis for religious purposes."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085825",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:25:12.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078309",
+                    "label": {
+                        "_value": "Legalise the possession of, and right to use cannabis for religious purposes."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T15:48:02.609Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078309",
+                    "label": {
+                        "_value": "Legalise the possession of, and right to use cannabis for religious purposes."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

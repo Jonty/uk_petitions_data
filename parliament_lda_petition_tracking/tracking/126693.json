@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/507578/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/507578/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/507578/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/507578/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/507578/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597668",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507578",
+                    "label": {
+                        "_value": "Parliament to legislate to require employers to reply to all job applications"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550459",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T21:19:47.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507578",
+                    "label": {
+                        "_value": "Parliament to legislate to require employers to reply to all job applications"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T08:29:45.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507578",
+                    "label": {
+                        "_value": "Parliament to legislate to require employers to reply to all job applications"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509932",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T19:25:24.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507578",
+                    "label": {
+                        "_value": "Parliament to legislate to require employers to reply to all job applications"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T16:28:17.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507578",
+                    "label": {
+                        "_value": "Parliament to legislate to require employers to reply to all job applications"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

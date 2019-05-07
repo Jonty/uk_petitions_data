@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/809539/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/809539/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/809539/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/809539/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/809539/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/928522",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-19T23:00:00.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809539",
+                    "label": {
+                        "_value": "Televise Government lobby briefings"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-08T16:17:55.754Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809539",
+                    "label": {
+                        "_value": "Televise Government lobby briefings"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T17:30:14.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809539",
+                    "label": {
+                        "_value": "Televise Government lobby briefings"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/817586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-05T23:47:58.350Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809539",
+                    "label": {
+                        "_value": "Televise Government lobby briefings"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/813059",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-26T21:41:50.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809539",
+                    "label": {
+                        "_value": "Televise Government lobby briefings"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/809540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-19T11:49:02.526Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809539",
+                    "label": {
+                        "_value": "Televise Government lobby briefings"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

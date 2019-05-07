@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1024550/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1024550/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1024550/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1024550/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1024550/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:10.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024550",
+                    "label": {
+                        "_value": "Nationalise UK mobile telephone masts."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T16:34:34.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024550",
+                    "label": {
+                        "_value": "Nationalise UK mobile telephone masts."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038844",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T19:58:29.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024550",
+                    "label": {
+                        "_value": "Nationalise UK mobile telephone masts."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1024551",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-12T17:09:11.346Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024550",
+                    "label": {
+                        "_value": "Nationalise UK mobile telephone masts."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

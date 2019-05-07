@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/873416/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/873416/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/873416/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/873416/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/873416/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/978951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-27T23:00:03.541Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873416",
+                    "label": {
+                        "_value": "Stop change 4 life's campaign on healthy eating and lifestyle"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/903717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-12T22:32:55.850Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873416",
+                    "label": {
+                        "_value": "Stop change 4 life's campaign on healthy eating and lifestyle"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/892953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-26T06:05:49.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873416",
+                    "label": {
+                        "_value": "Stop change 4 life's campaign on healthy eating and lifestyle"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/874340",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-28T08:53:15.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873416",
+                    "label": {
+                        "_value": "Stop change 4 life's campaign on healthy eating and lifestyle"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/873417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-27T11:54:50.491Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873416",
+                    "label": {
+                        "_value": "Stop change 4 life's campaign on healthy eating and lifestyle"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

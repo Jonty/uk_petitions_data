@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464625/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464625/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464625/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464625/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464625/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.645Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464625",
+                    "label": {
+                        "_value": "Apply pressure on the Modi Government to help stop Adivasi women being raped."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464625",
+                    "label": {
+                        "_value": "Apply pressure on the Modi Government to help stop Adivasi women being raped."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T18:02:33.035Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464625",
+                    "label": {
+                        "_value": "Apply pressure on the Modi Government to help stop Adivasi women being raped."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T18:02:12.838Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464625",
+                    "label": {
+                        "_value": "Apply pressure on the Modi Government to help stop Adivasi women being raped."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

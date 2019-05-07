@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461488/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461488/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461488/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461488/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461488/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.649Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461488",
+                    "label": {
+                        "_value": "Withdraw UK support for any operations in Syria"
+                    }
+                },
+                "numberOfSignatures": 370
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537867",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461488",
+                    "label": {
+                        "_value": "Withdraw UK support for any operations in Syria"
+                    }
+                },
+                "numberOfSignatures": 370
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-26T00:00:13.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461488",
+                    "label": {
+                        "_value": "Withdraw UK support for any operations in Syria"
+                    }
+                },
+                "numberOfSignatures": 370
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:03:49.870Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461488",
+                    "label": {
+                        "_value": "Withdraw UK support for any operations in Syria"
+                    }
+                },
+                "numberOfSignatures": 369
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467664",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T22:25:23.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461488",
+                    "label": {
+                        "_value": "Withdraw UK support for any operations in Syria"
+                    }
+                },
+                "numberOfSignatures": 368
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T11:46:23.221Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461488",
+                    "label": {
+                        "_value": "Withdraw UK support for any operations in Syria"
+                    }
+                },
+                "numberOfSignatures": 366
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/507572/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/507572/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/507572/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/507572/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/507572/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507572",
+                    "label": {
+                        "_value": "Please include a 'Return to Sender Address' on your pro-EU Referendum leaflet."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507572",
+                    "label": {
+                        "_value": "Please include a 'Return to Sender Address' on your pro-EU Referendum leaflet."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T18:24:10.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507572",
+                    "label": {
+                        "_value": "Please include a 'Return to Sender Address' on your pro-EU Referendum leaflet."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T20:19:24.911Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507572",
+                    "label": {
+                        "_value": "Please include a 'Return to Sender Address' on your pro-EU Referendum leaflet."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T21:53:57.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507572",
+                    "label": {
+                        "_value": "Please include a 'Return to Sender Address' on your pro-EU Referendum leaflet."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

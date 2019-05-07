@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462677/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462677/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462677/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462677/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462677/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462677",
+                    "label": {
+                        "_value": "Make it illegal for non EV and hybrid cars to park in EV charging spots."
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462677",
+                    "label": {
+                        "_value": "Make it illegal for non EV and hybrid cars to park in EV charging spots."
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/475329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T21:07:43.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462677",
+                    "label": {
+                        "_value": "Make it illegal for non EV and hybrid cars to park in EV charging spots."
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462678",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T22:27:44.966Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462677",
+                    "label": {
+                        "_value": "Make it illegal for non EV and hybrid cars to park in EV charging spots."
+                    }
+                },
+                "numberOfSignatures": 94
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

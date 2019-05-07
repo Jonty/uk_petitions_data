@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/628025/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/628025/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/628025/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/628025/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/628025/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640337",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T10:59:38.853Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628025",
+                    "label": {
+                        "_value": "End disability discrimination through Essential Criteria for Driving Licences."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635528",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T10:43:37.592Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628025",
+                    "label": {
+                        "_value": "End disability discrimination through Essential Criteria for Driving Licences."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T21:38:17.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628025",
+                    "label": {
+                        "_value": "End disability discrimination through Essential Criteria for Driving Licences."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T15:24:06.129Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628025",
+                    "label": {
+                        "_value": "End disability discrimination through Essential Criteria for Driving Licences."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T19:20:28.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628025",
+                    "label": {
+                        "_value": "End disability discrimination through Essential Criteria for Driving Licences."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

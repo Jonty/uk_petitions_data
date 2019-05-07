@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461981/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461981/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461981/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461981/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461981/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.822Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461981",
+                    "label": {
+                        "_value": "Will Govnt allow companies to offer communications services which can't be read?"
+                    }
+                },
+                "numberOfSignatures": 192
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553215",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461981",
+                    "label": {
+                        "_value": "Will Govnt allow companies to offer communications services which can't be read?"
+                    }
+                },
+                "numberOfSignatures": 192
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461981",
+                    "label": {
+                        "_value": "Will Govnt allow companies to offer communications services which can't be read?"
+                    }
+                },
+                "numberOfSignatures": 192
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T11:05:23.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461981",
+                    "label": {
+                        "_value": "Will Govnt allow companies to offer communications services which can't be read?"
+                    }
+                },
+                "numberOfSignatures": 192
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461982",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T14:16:55.707Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461981",
+                    "label": {
+                        "_value": "Will Govnt allow companies to offer communications services which can't be read?"
+                    }
+                },
+                "numberOfSignatures": 191
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

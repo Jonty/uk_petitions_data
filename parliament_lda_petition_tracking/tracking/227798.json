@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/971264/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/971264/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/971264/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/971264/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/971264/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1086441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T00:00:04.925Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971264",
+                    "label": {
+                        "_value": "Ban night shift working, for the sake of the health of workers"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T20:44:00.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971264",
+                    "label": {
+                        "_value": "Ban night shift working, for the sake of the health of workers"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076171",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:34:50.850Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971264",
+                    "label": {
+                        "_value": "Ban night shift working, for the sake of the health of workers"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021603",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T22:17:51.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971264",
+                    "label": {
+                        "_value": "Ban night shift working, for the sake of the health of workers"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/971265",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-10T16:24:43.606Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971264",
+                    "label": {
+                        "_value": "Ban night shift working, for the sake of the health of workers"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

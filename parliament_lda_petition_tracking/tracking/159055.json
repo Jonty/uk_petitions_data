@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551808/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551808/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551808/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551808/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551808/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/653261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T19:30:03.401Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551808",
+                    "label": {
+                        "_value": "Fund our NHS with an additional \u00a33billion per annum using former EU finances"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640395",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T19:20:26.473Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551808",
+                    "label": {
+                        "_value": "Fund our NHS with an additional \u00a33billion per annum using former EU finances"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599791",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:58:07.858Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551808",
+                    "label": {
+                        "_value": "Fund our NHS with an additional \u00a33billion per annum using former EU finances"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T11:13:50.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551808",
+                    "label": {
+                        "_value": "Fund our NHS with an additional \u00a33billion per annum using former EU finances"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

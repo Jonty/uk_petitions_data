@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551493/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551493/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551493/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551493/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551493/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/557421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-07T20:47:42.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551493",
+                    "label": {
+                        "_value": "Make it law that a 2nd referendum cant be called for 20 years after the 1st."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551494",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T21:16:25.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551493",
+                    "label": {
+                        "_value": "Make it law that a 2nd referendum cant be called for 20 years after the 1st."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

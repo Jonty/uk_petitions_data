@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463745/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463745/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463745/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463745/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463745/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734469",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.116Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463745",
+                    "label": {
+                        "_value": "Ban smoking in outdoor public places in the United Kingdom"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547545",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463745",
+                    "label": {
+                        "_value": "Ban smoking in outdoor public places in the United Kingdom"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T00:00:09.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463745",
+                    "label": {
+                        "_value": "Ban smoking in outdoor public places in the United Kingdom"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T19:25:16.980Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463745",
+                    "label": {
+                        "_value": "Ban smoking in outdoor public places in the United Kingdom"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:53:58.696Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463745",
+                    "label": {
+                        "_value": "Ban smoking in outdoor public places in the United Kingdom"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T20:31:04.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463745",
+                    "label": {
+                        "_value": "Ban smoking in outdoor public places in the United Kingdom"
+                    }
+                },
+                "numberOfSignatures": 40
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

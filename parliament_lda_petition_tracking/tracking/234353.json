@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1025258/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1025258/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1025258/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1025258/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1025258/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107552",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T02:09:34.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025258",
+                    "label": {
+                        "_value": "Amend rail franchises so fares cannot be increased until trains are 90% on time"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T21:20:46.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025258",
+                    "label": {
+                        "_value": "Amend rail franchises so fares cannot be increased until trains are 90% on time"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1045420",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-20T22:21:40.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025258",
+                    "label": {
+                        "_value": "Amend rail franchises so fares cannot be increased until trains are 90% on time"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T20:31:41.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025258",
+                    "label": {
+                        "_value": "Amend rail franchises so fares cannot be increased until trains are 90% on time"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1034993",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-03T19:34:22.413Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025258",
+                    "label": {
+                        "_value": "Amend rail franchises so fares cannot be increased until trains are 90% on time"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1025259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-13T15:54:42.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1025258",
+                    "label": {
+                        "_value": "Amend rail franchises so fares cannot be increased until trains are 90% on time"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

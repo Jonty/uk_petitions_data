@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465187/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465187/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465187/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465187/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465187/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465187",
+                    "label": {
+                        "_value": "Make it illegal for medicinal cures that work to be kept from being used"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:55:19.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465187",
+                    "label": {
+                        "_value": "Make it illegal for medicinal cures that work to be kept from being used"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T08:56:05.934Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465187",
+                    "label": {
+                        "_value": "Make it illegal for medicinal cures that work to be kept from being used"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T09:59:46.101Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465187",
+                    "label": {
+                        "_value": "Make it illegal for medicinal cures that work to be kept from being used"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T18:13:10.166Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465187",
+                    "label": {
+                        "_value": "Make it illegal for medicinal cures that work to be kept from being used"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

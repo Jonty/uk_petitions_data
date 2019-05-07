@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/925099/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/925099/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/925099/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/925099/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/925099/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1026600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-16T00:00:02.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925099",
+                    "label": {
+                        "_value": "More help available for people who are suffering with mental health issues"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/973845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-13T17:32:44.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925099",
+                    "label": {
+                        "_value": "More help available for people who are suffering with mental health issues"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958828",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-20T12:05:45.038Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925099",
+                    "label": {
+                        "_value": "More help available for people who are suffering with mental health issues"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T16:44:29.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925099",
+                    "label": {
+                        "_value": "More help available for people who are suffering with mental health issues"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/925541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-15T21:11:58.566Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925099",
+                    "label": {
+                        "_value": "More help available for people who are suffering with mental health issues"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/925100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-15T08:42:00.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925099",
+                    "label": {
+                        "_value": "More help available for people who are suffering with mental health issues"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462141/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462141/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462141/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462141/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462141/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462141",
+                    "label": {
+                        "_value": "Ban height restrictions on open car parks."
+                    }
+                },
+                "numberOfSignatures": 164
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462141",
+                    "label": {
+                        "_value": "Ban height restrictions on open car parks."
+                    }
+                },
+                "numberOfSignatures": 164
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/476546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T00:00:09.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462141",
+                    "label": {
+                        "_value": "Ban height restrictions on open car parks."
+                    }
+                },
+                "numberOfSignatures": 164
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T16:34:53.012Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462141",
+                    "label": {
+                        "_value": "Ban height restrictions on open car parks."
+                    }
+                },
+                "numberOfSignatures": 164
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

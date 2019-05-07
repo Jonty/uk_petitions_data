@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463045/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463045/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463045/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463045/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463045/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.208Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463045",
+                    "label": {
+                        "_value": "\"Jerusalem\" to be sung at sporting events where England's national teams compete"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543321",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463045",
+                    "label": {
+                        "_value": "\"Jerusalem\" to be sung at sporting events where England's national teams compete"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491985",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T00:00:12.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463045",
+                    "label": {
+                        "_value": "\"Jerusalem\" to be sung at sporting events where England's national teams compete"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467841",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T12:14:07.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463045",
+                    "label": {
+                        "_value": "\"Jerusalem\" to be sung at sporting events where England's national teams compete"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T22:34:37.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463045",
+                    "label": {
+                        "_value": "\"Jerusalem\" to be sung at sporting events where England's national teams compete"
+                    }
+                },
+                "numberOfSignatures": 67
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466539/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466539/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466539/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466539/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466539/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466539",
+                    "label": {
+                        "_value": "A ban on airguns and bb guns"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466539",
+                    "label": {
+                        "_value": "A ban on airguns and bb guns"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T23:48:27.807Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466539",
+                    "label": {
+                        "_value": "A ban on airguns and bb guns"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T21:07:08.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466539",
+                    "label": {
+                        "_value": "A ban on airguns and bb guns"
+                    }
+                },
+                "numberOfSignatures": 61
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T19:38:17.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466539",
+                    "label": {
+                        "_value": "A ban on airguns and bb guns"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:34.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466539",
+                    "label": {
+                        "_value": "A ban on airguns and bb guns"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

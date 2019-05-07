@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/971276/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/971276/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/971276/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/971276/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/971276/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1086455",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T00:00:04.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971276",
+                    "label": {
+                        "_value": "Scrap the CQC as an onerous bombastic regulation lead organisation"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/981769",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-05T19:17:48.425Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971276",
+                    "label": {
+                        "_value": "Scrap the CQC as an onerous bombastic regulation lead organisation"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/974259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-14T16:29:48.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971276",
+                    "label": {
+                        "_value": "Scrap the CQC as an onerous bombastic regulation lead organisation"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/971277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-10T09:51:27.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/971276",
+                    "label": {
+                        "_value": "Scrap the CQC as an onerous bombastic regulation lead organisation"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

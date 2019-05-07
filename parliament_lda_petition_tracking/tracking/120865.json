@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463337/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463337/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463337/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463337/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463337/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463337",
+                    "label": {
+                        "_value": "Address the issue of human trafficking and aim to abolish it."
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463337",
+                    "label": {
+                        "_value": "Address the issue of human trafficking and aim to abolish it."
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T14:33:55.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463337",
+                    "label": {
+                        "_value": "Address the issue of human trafficking and aim to abolish it."
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T23:06:05.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463337",
+                    "label": {
+                        "_value": "Address the issue of human trafficking and aim to abolish it."
+                    }
+                },
+                "numberOfSignatures": 74
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T06:55:41.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463337",
+                    "label": {
+                        "_value": "Address the issue of human trafficking and aim to abolish it."
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T13:44:05.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463337",
+                    "label": {
+                        "_value": "Address the issue of human trafficking and aim to abolish it."
+                    }
+                },
+                "numberOfSignatures": 52
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

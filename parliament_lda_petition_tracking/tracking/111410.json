@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463595/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463595/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463595/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463595/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463595/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463595",
+                    "label": {
+                        "_value": "Ensure fair treatment of pre-pay energy users."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463595",
+                    "label": {
+                        "_value": "Ensure fair treatment of pre-pay energy users."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T03:08:07.128Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463595",
+                    "label": {
+                        "_value": "Ensure fair treatment of pre-pay energy users."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:08:47.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463595",
+                    "label": {
+                        "_value": "Ensure fair treatment of pre-pay energy users."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T13:17:36.469Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463595",
+                    "label": {
+                        "_value": "Ensure fair treatment of pre-pay energy users."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T10:20:30.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463595",
+                    "label": {
+                        "_value": "Ensure fair treatment of pre-pay energy users."
+                    }
+                },
+                "numberOfSignatures": 44
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

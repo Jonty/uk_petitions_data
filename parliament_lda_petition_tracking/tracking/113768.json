@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464939/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464939/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464939/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464939/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464939/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464939",
+                    "label": {
+                        "_value": "Take military action against ISIS"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507508",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T12:36:03.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464939",
+                    "label": {
+                        "_value": "Take military action against ISIS"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490773",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T13:08:24.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464939",
+                    "label": {
+                        "_value": "Take military action against ISIS"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:31.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464939",
+                    "label": {
+                        "_value": "Take military action against ISIS"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

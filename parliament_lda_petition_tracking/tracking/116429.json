@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462517/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462517/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462517/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462517/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462517/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729254",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.081Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462517",
+                    "label": {
+                        "_value": "Moratorium on CGT for Landlords and developers, on properties sold to FTB."
+                    }
+                },
+                "numberOfSignatures": 113
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462517",
+                    "label": {
+                        "_value": "Moratorium on CGT for Landlords and developers, on properties sold to FTB."
+                    }
+                },
+                "numberOfSignatures": 113
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527887",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-19T00:00:04.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462517",
+                    "label": {
+                        "_value": "Moratorium on CGT for Landlords and developers, on properties sold to FTB."
+                    }
+                },
+                "numberOfSignatures": 113
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T23:43:05.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462517",
+                    "label": {
+                        "_value": "Moratorium on CGT for Landlords and developers, on properties sold to FTB."
+                    }
+                },
+                "numberOfSignatures": 113
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:35.462Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462517",
+                    "label": {
+                        "_value": "Moratorium on CGT for Landlords and developers, on properties sold to FTB."
+                    }
+                },
+                "numberOfSignatures": 112
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

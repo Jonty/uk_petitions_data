@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/580134/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/580134/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/580134/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/580134/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/580134/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580134",
+                    "label": {
+                        "_value": "Abellio Greater Anglia should compensate for delays longer than 15 minutes"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-07T16:20:15.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580134",
+                    "label": {
+                        "_value": "Abellio Greater Anglia should compensate for delays longer than 15 minutes"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653210",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T18:36:44.596Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580134",
+                    "label": {
+                        "_value": "Abellio Greater Anglia should compensate for delays longer than 15 minutes"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T22:12:53.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580134",
+                    "label": {
+                        "_value": "Abellio Greater Anglia should compensate for delays longer than 15 minutes"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T17:48:08.923Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580134",
+                    "label": {
+                        "_value": "Abellio Greater Anglia should compensate for delays longer than 15 minutes"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

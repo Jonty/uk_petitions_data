@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/590599/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/590599/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/590599/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/590599/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/590599/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594373",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T16:07:27.204Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590599",
+                    "label": {
+                        "_value": "bikers with a CBT dont have to ride with L plates after 2 years on the road"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591897",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T18:21:02.596Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590599",
+                    "label": {
+                        "_value": "bikers with a CBT dont have to ride with L plates after 2 years on the road"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T19:17:26.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590599",
+                    "label": {
+                        "_value": "bikers with a CBT dont have to ride with L plates after 2 years on the road"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

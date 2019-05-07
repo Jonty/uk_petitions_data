@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1042190/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1042190/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1042190/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1042190/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1042190/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T10:02:06.433Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042190",
+                    "label": {
+                        "_value": "Declassify first class carriages on all rush hour trains"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:32:03.260Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042190",
+                    "label": {
+                        "_value": "Declassify first class carriages on all rush hour trains"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T17:14:33.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042190",
+                    "label": {
+                        "_value": "Declassify first class carriages on all rush hour trains"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1052085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-30T19:04:36.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042190",
+                    "label": {
+                        "_value": "Declassify first class carriages on all rush hour trains"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1042191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-15T19:16:34.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042190",
+                    "label": {
+                        "_value": "Declassify first class carriages on all rush hour trains"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

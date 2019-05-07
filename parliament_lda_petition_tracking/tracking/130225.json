@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551595/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551595/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551595/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551595/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551595/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T11:39:00.541Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551595",
+                    "label": {
+                        "_value": "UK public to be able to elect the Governor of the Bank of England."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/593370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T21:28:17.643Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551595",
+                    "label": {
+                        "_value": "UK public to be able to elect the Governor of the Bank of England."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T17:55:06.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551595",
+                    "label": {
+                        "_value": "UK public to be able to elect the Governor of the Bank of England."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556327",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T07:56:52.728Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551595",
+                    "label": {
+                        "_value": "UK public to be able to elect the Governor of the Bank of England."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555689",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T12:17:27.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551595",
+                    "label": {
+                        "_value": "UK public to be able to elect the Governor of the Bank of England."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T16:32:03.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551595",
+                    "label": {
+                        "_value": "UK public to be able to elect the Governor of the Bank of England."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

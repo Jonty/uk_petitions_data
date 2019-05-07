@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1021614/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1021614/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1021614/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1021614/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1021614/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T15:09:26.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021614",
+                    "label": {
+                        "_value": "Hold a second referendum on our EU membership, but this time including the Euro"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1055683",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-05T16:55:55.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021614",
+                    "label": {
+                        "_value": "Hold a second referendum on our EU membership, but this time including the Euro"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044892",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-19T20:22:23.337Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021614",
+                    "label": {
+                        "_value": "Hold a second referendum on our EU membership, but this time including the Euro"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:12:54.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021614",
+                    "label": {
+                        "_value": "Hold a second referendum on our EU membership, but this time including the Euro"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028299",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-18T16:12:43.619Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021614",
+                    "label": {
+                        "_value": "Hold a second referendum on our EU membership, but this time including the Euro"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-07T19:34:10.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021614",
+                    "label": {
+                        "_value": "Hold a second referendum on our EU membership, but this time including the Euro"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

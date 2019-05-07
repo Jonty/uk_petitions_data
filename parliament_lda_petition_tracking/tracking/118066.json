@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464217/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464217/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464217/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464217/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464217/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:05.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464217",
+                    "label": {
+                        "_value": "Antibiotic Resistance will kill millions. UK Gov to spend at least \u00a32bn per year"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548093",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464217",
+                    "label": {
+                        "_value": "Antibiotic Resistance will kill millions. UK Gov to spend at least \u00a32bn per year"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T03:22:55.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464217",
+                    "label": {
+                        "_value": "Antibiotic Resistance will kill millions. UK Gov to spend at least \u00a32bn per year"
+                    }
+                },
+                "numberOfSignatures": 29
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/914225/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/914225/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/914225/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/914225/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/914225/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1018435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-01T00:00:06.440Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T13:02:25.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-19T22:10:31.222Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T19:20:15.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-06T06:24:03.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962125",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T18:11:16.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T09:59:54.447Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914225",
+                    "label": {
+                        "_value": "Make a legal requirement to have a valid horse owners certificate to own a horse"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

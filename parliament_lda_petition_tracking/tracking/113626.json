@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462467/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462467/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462467/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462467/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462467/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462467",
+                    "label": {
+                        "_value": "Move the nuclear submarine bases back into england."
+                    }
+                },
+                "numberOfSignatures": 124
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538621",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462467",
+                    "label": {
+                        "_value": "Move the nuclear submarine bases back into england."
+                    }
+                },
+                "numberOfSignatures": 124
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527840",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-27T00:00:12.416Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462467",
+                    "label": {
+                        "_value": "Move the nuclear submarine bases back into england."
+                    }
+                },
+                "numberOfSignatures": 124
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T12:14:32.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462467",
+                    "label": {
+                        "_value": "Move the nuclear submarine bases back into england."
+                    }
+                },
+                "numberOfSignatures": 121
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462468",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:27.194Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462467",
+                    "label": {
+                        "_value": "Move the nuclear submarine bases back into england."
+                    }
+                },
+                "numberOfSignatures": 119
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1061991/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1061991/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1061991/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1061991/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1061991/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:11.555Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061991",
+                    "label": {
+                        "_value": "Force employers to show salary and benefits on all advertised jobs"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:36:29.392Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061991",
+                    "label": {
+                        "_value": "Force employers to show salary and benefits on all advertised jobs"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T00:06:05.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061991",
+                    "label": {
+                        "_value": "Force employers to show salary and benefits on all advertised jobs"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076220",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:55:22.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061991",
+                    "label": {
+                        "_value": "Force employers to show salary and benefits on all advertised jobs"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061992",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T20:09:13.455Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061991",
+                    "label": {
+                        "_value": "Force employers to show salary and benefits on all advertised jobs"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

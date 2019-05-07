@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/620775/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/620775/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/620775/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/620775/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/620775/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/623254",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T07:58:42.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620775",
+                    "label": {
+                        "_value": "To create separate employment laws for big businesses & micro/small businesses."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621833",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T17:11:00.980Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620775",
+                    "label": {
+                        "_value": "To create separate employment laws for big businesses & micro/small businesses."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T21:23:01.633Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620775",
+                    "label": {
+                        "_value": "To create separate employment laws for big businesses & micro/small businesses."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/508915/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/508915/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/508915/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/508915/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/508915/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/508915",
+                    "label": {
+                        "_value": "Government must provide Framework Documents on governance after EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/508915",
+                    "label": {
+                        "_value": "Government must provide Framework Documents on governance after EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T11:30:51.629Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/508915",
+                    "label": {
+                        "_value": "Government must provide Framework Documents on governance after EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509872",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T20:13:10.807Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/508915",
+                    "label": {
+                        "_value": "Government must provide Framework Documents on governance after EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508916",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T11:31:56.334Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/508915",
+                    "label": {
+                        "_value": "Government must provide Framework Documents on governance after EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

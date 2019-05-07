@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466319/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466319/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466319/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466319/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466319/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735727",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466319",
+                    "label": {
+                        "_value": "Phase out the minting of the 1p & 2p coin; the bane of our pockets, and lives."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466319",
+                    "label": {
+                        "_value": "Phase out the minting of the 1p & 2p coin; the bane of our pockets, and lives."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T04:51:33.373Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466319",
+                    "label": {
+                        "_value": "Phase out the minting of the 1p & 2p coin; the bane of our pockets, and lives."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490137",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T10:05:44.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466319",
+                    "label": {
+                        "_value": "Phase out the minting of the 1p & 2p coin; the bane of our pockets, and lives."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T17:23:56.802Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466319",
+                    "label": {
+                        "_value": "Phase out the minting of the 1p & 2p coin; the bane of our pockets, and lives."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

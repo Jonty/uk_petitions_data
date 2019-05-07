@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/777635/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/777635/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/777635/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/777635/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/777635/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/892934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-25T23:00:03.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T15:29:08.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/808715",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-18T17:42:30.509Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/781142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-31T11:25:43.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/779905",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-29T19:13:06.454Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/779592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-28T16:31:12.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/777636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-25T11:17:41.280Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777635",
+                    "label": {
+                        "_value": "Stop Parliamentary recess for Party Annual Conferences"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

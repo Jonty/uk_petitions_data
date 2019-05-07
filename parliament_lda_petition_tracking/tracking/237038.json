@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1048875/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1048875/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1048875/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1048875/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1048875/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107656",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T04:05:44.416Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048875",
+                    "label": {
+                        "_value": "Reform law to safeguard public interests ensuring against abuse of police power"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085795",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:31:44.849Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048875",
+                    "label": {
+                        "_value": "Reform law to safeguard public interests ensuring against abuse of police power"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T18:49:40.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048875",
+                    "label": {
+                        "_value": "Reform law to safeguard public interests ensuring against abuse of police power"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-24T16:45:55.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048875",
+                    "label": {
+                        "_value": "Reform law to safeguard public interests ensuring against abuse of police power"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463763/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463763/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463763/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463763/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463763/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734669",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463763",
+                    "label": {
+                        "_value": "Support Putin and Assad in defeating terrorism and bring peace to Syria"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463763",
+                    "label": {
+                        "_value": "Support Putin and Assad in defeating terrorism and bring peace to Syria"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489327",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T16:33:29.342Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463763",
+                    "label": {
+                        "_value": "Support Putin and Assad in defeating terrorism and bring peace to Syria"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T03:09:41.381Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463763",
+                    "label": {
+                        "_value": "Support Putin and Assad in defeating terrorism and bring peace to Syria"
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

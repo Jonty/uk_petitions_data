@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465977/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465977/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465977/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465977/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465977/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465977",
+                    "label": {
+                        "_value": "Ban all HGVs on British roads on Sundays. It's already done in France. It works."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490123",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T05:52:28.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465977",
+                    "label": {
+                        "_value": "Ban all HGVs on British roads on Sundays. It's already done in France. It works."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:15:54.464Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465977",
+                    "label": {
+                        "_value": "Ban all HGVs on British roads on Sundays. It's already done in France. It works."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T17:53:48.558Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465977",
+                    "label": {
+                        "_value": "Ban all HGVs on British roads on Sundays. It's already done in France. It works."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/993265/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/993265/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/993265/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/993265/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/993265/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:43:38.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993265",
+                    "label": {
+                        "_value": "Make it illegal for single-use plastic to be visible or used in TV Advertising."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085339",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T14:23:39.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993265",
+                    "label": {
+                        "_value": "Make it illegal for single-use plastic to be visible or used in TV Advertising."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1036063",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-05T18:20:48.266Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993265",
+                    "label": {
+                        "_value": "Make it illegal for single-use plastic to be visible or used in TV Advertising."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1016957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-27T22:56:03.278Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993265",
+                    "label": {
+                        "_value": "Make it illegal for single-use plastic to be visible or used in TV Advertising."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995339",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-25T13:14:32.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993265",
+                    "label": {
+                        "_value": "Make it illegal for single-use plastic to be visible or used in TV Advertising."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/993266",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-22T19:47:14.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993265",
+                    "label": {
+                        "_value": "Make it illegal for single-use plastic to be visible or used in TV Advertising."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

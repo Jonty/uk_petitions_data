@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1087623/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1087623/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1087623/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1087623/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1087623/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T03:22:30.082Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087623",
+                    "label": {
+                        "_value": "Increase funding to the South Tees Hospitals Foundation Trust"
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.082Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087623",
+                    "label": {
+                        "_value": "Increase funding to the South Tees Hospitals Foundation Trust"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T16:01:26.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087623",
+                    "label": {
+                        "_value": "Increase funding to the South Tees Hospitals Foundation Trust"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T18:46:28.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087623",
+                    "label": {
+                        "_value": "Increase funding to the South Tees Hospitals Foundation Trust"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087624",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T21:26:56.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087623",
+                    "label": {
+                        "_value": "Increase funding to the South Tees Hospitals Foundation Trust"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

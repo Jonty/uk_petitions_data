@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/561709/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/561709/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/561709/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/561709/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/561709/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T18:05:31.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561709",
+                    "label": {
+                        "_value": "Make it an offence to protest at an equality event or celebration"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T10:31:57.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561709",
+                    "label": {
+                        "_value": "Make it an offence to protest at an equality event or celebration"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T09:43:27.162Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561709",
+                    "label": {
+                        "_value": "Make it an offence to protest at an equality event or celebration"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

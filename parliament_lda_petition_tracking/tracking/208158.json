@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/816209/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/816209/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/816209/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/816209/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/816209/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/936363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-03T23:00:04.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/816209",
+                    "label": {
+                        "_value": "Keep accepting credit card payments for all tax payments"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849847",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T19:48:19.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/816209",
+                    "label": {
+                        "_value": "Keep accepting credit card payments for all tax payments"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/832133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-27T16:14:50.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/816209",
+                    "label": {
+                        "_value": "Keep accepting credit card payments for all tax payments"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/816612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-04T20:53:01.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/816209",
+                    "label": {
+                        "_value": "Keep accepting credit card payments for all tax payments"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/816210",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-03T19:38:32.763Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/816209",
+                    "label": {
+                        "_value": "Keep accepting credit card payments for all tax payments"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

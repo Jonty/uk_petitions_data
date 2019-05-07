@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/771193/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/771193/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/771193/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/771193/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/771193/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/885976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T23:00:00.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/771193",
+                    "label": {
+                        "_value": "Make Legal Provision for Northwest Regions of the UK to hold a Legal Referendum."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/832162",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-27T10:09:04.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/771193",
+                    "label": {
+                        "_value": "Make Legal Provision for Northwest Regions of the UK to hold a Legal Referendum."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-11T20:56:21.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/771193",
+                    "label": {
+                        "_value": "Make Legal Provision for Northwest Regions of the UK to hold a Legal Referendum."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/772933",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-18T18:50:05.074Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/771193",
+                    "label": {
+                        "_value": "Make Legal Provision for Northwest Regions of the UK to hold a Legal Referendum."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/771194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-16T18:31:57.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/771193",
+                    "label": {
+                        "_value": "Make Legal Provision for Northwest Regions of the UK to hold a Legal Referendum."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

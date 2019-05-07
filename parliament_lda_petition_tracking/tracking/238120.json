@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083374/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083374/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083374/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083374/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083374/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T10:21:23.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083374",
+                    "label": {
+                        "_value": "Allow 16-year-olds to ride 125cc Scooters/Mopeds"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T18:48:41.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083374",
+                    "label": {
+                        "_value": "Allow 16-year-olds to ride 125cc Scooters/Mopeds"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T19:41:47.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083374",
+                    "label": {
+                        "_value": "Allow 16-year-olds to ride 125cc Scooters/Mopeds"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

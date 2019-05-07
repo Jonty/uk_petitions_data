@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078012/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078012/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078012/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078012/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078012/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1089920",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T21:56:17.932Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078012",
+                    "label": {
+                        "_value": "Make rearfacing car seats a legal requirement until four years old"
+                    }
+                },
+                "numberOfSignatures": 245
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T16:29:55.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078012",
+                    "label": {
+                        "_value": "Make rearfacing car seats a legal requirement until four years old"
+                    }
+                },
+                "numberOfSignatures": 244
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T16:06:28.881Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078012",
+                    "label": {
+                        "_value": "Make rearfacing car seats a legal requirement until four years old"
+                    }
+                },
+                "numberOfSignatures": 243
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T18:32:30.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078012",
+                    "label": {
+                        "_value": "Make rearfacing car seats a legal requirement until four years old"
+                    }
+                },
+                "numberOfSignatures": 230
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T22:03:08.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078012",
+                    "label": {
+                        "_value": "Make rearfacing car seats a legal requirement until four years old"
+                    }
+                },
+                "numberOfSignatures": 174
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

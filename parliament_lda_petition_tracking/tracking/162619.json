@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552072/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552072/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552072/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552072/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552072/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/619019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:00:08.838Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552072",
+                    "label": {
+                        "_value": "Place an additional tax of 10p a packet on chewing gum to pay the clean up costs"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597674",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T19:37:55.348Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552072",
+                    "label": {
+                        "_value": "Place an additional tax of 10p a packet on chewing gum to pay the clean up costs"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585439",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T12:25:40.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552072",
+                    "label": {
+                        "_value": "Place an additional tax of 10p a packet on chewing gum to pay the clean up costs"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552073",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T15:00:12.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552072",
+                    "label": {
+                        "_value": "Place an additional tax of 10p a packet on chewing gum to pay the clean up costs"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

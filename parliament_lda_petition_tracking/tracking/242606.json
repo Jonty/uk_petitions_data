@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1080158/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1080158/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1080158/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1080158/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1080158/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107040",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:48:01.992Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080158",
+                    "label": {
+                        "_value": "Apologise for the 46,000 concentration camp civilian deaths in the Boer War"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T11:20:21.022Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080158",
+                    "label": {
+                        "_value": "Apologise for the 46,000 concentration camp civilian deaths in the Boer War"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081082",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:06:31.407Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080158",
+                    "label": {
+                        "_value": "Apologise for the 46,000 concentration camp civilian deaths in the Boer War"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080613",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T14:04:57.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080158",
+                    "label": {
+                        "_value": "Apologise for the 46,000 concentration camp civilian deaths in the Boer War"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T11:46:42.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080158",
+                    "label": {
+                        "_value": "Apologise for the 46,000 concentration camp civilian deaths in the Boer War"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

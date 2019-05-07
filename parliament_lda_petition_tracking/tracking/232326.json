@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1007621/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1007621/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1007621/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1007621/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1007621/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T04:17:56.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007621",
+                    "label": {
+                        "_value": "Introduce Knife crime awareness/first aid workshops into schools."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T20:29:29.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007621",
+                    "label": {
+                        "_value": "Introduce Knife crime awareness/first aid workshops into schools."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1016979",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-27T22:50:01.473Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007621",
+                    "label": {
+                        "_value": "Introduce Knife crime awareness/first aid workshops into schools."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1007622",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T21:43:59.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007621",
+                    "label": {
+                        "_value": "Introduce Knife crime awareness/first aid workshops into schools."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

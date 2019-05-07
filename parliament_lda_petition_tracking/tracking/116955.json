@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465669/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465669/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465669/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465669/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465669/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549873",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465669",
+                    "label": {
+                        "_value": "Make it mandatory to have your driving ability assessed every 5 years after 60"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490801",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T22:31:22.981Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465669",
+                    "label": {
+                        "_value": "Make it mandatory to have your driving ability assessed every 5 years after 60"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465670",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-19T06:23:25.934Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465669",
+                    "label": {
+                        "_value": "Make it mandatory to have your driving ability assessed every 5 years after 60"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

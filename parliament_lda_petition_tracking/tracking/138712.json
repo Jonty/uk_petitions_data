@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548897/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548897/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548897/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548897/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548897/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T16:58:38.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548897",
+                    "label": {
+                        "_value": "Free University Education for English students now that we are leaving the EU."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645668",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T20:17:55.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548897",
+                    "label": {
+                        "_value": "Free University Education for English students now that we are leaving the EU."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630462",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:17:00.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548897",
+                    "label": {
+                        "_value": "Free University Education for English students now that we are leaving the EU."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T18:47:36.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548897",
+                    "label": {
+                        "_value": "Free University Education for English students now that we are leaving the EU."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T13:56:13.155Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548897",
+                    "label": {
+                        "_value": "Free University Education for English students now that we are leaving the EU."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

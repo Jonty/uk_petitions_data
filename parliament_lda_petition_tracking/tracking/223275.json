@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/942393/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/942393/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/942393/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/942393/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/942393/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1043586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T00:00:05.139Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942393",
+                    "label": {
+                        "_value": "Urge the Nigerian Government to protect civilians "
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/976122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-19T17:38:44.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942393",
+                    "label": {
+                        "_value": "Urge the Nigerian Government to protect civilians "
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-27T14:03:18.801Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942393",
+                    "label": {
+                        "_value": "Urge the Nigerian Government to protect civilians "
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/944480",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-17T20:24:07.192Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942393",
+                    "label": {
+                        "_value": "Urge the Nigerian Government to protect civilians "
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/942394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T14:56:38.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942393",
+                    "label": {
+                        "_value": "Urge the Nigerian Government to protect civilians "
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558007/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558007/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558007/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558007/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558007/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735371",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:31.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558007",
+                    "label": {
+                        "_value": "Increase government funding on organisations aiding terminal illness patients"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569249",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T08:30:53.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558007",
+                    "label": {
+                        "_value": "Increase government funding on organisations aiding terminal illness patients"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567692",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T01:50:19.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558007",
+                    "label": {
+                        "_value": "Increase government funding on organisations aiding terminal illness patients"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T09:59:55.372Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558007",
+                    "label": {
+                        "_value": "Increase government funding on organisations aiding terminal illness patients"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T14:24:15.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558007",
+                    "label": {
+                        "_value": "Increase government funding on organisations aiding terminal illness patients"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558008",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T16:46:23.723Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558007",
+                    "label": {
+                        "_value": "Increase government funding on organisations aiding terminal illness patients"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555631/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555631/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555631/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555631/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555631/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/574976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:01:30.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555631",
+                    "label": {
+                        "_value": "Remove roadside signs supported on steel girders"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:53:56.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555631",
+                    "label": {
+                        "_value": "Remove roadside signs supported on steel girders"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T09:41:48.566Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555631",
+                    "label": {
+                        "_value": "Remove roadside signs supported on steel girders"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T09:42:19.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555631",
+                    "label": {
+                        "_value": "Remove roadside signs supported on steel girders"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

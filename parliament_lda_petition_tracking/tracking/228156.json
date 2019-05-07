@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/972939/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/972939/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/972939/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/972939/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/972939/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1088433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T00:00:05.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972939",
+                    "label": {
+                        "_value": "Mental health checkups should be completed yearly from a young age on the NHS"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087680",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T04:09:02.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972939",
+                    "label": {
+                        "_value": "Mental health checkups should be completed yearly from a young age on the NHS"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085821",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:44:38.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972939",
+                    "label": {
+                        "_value": "Mental health checkups should be completed yearly from a young age on the NHS"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-22T22:40:45.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972939",
+                    "label": {
+                        "_value": "Mental health checkups should be completed yearly from a young age on the NHS"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/972940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T18:19:16.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/972939",
+                    "label": {
+                        "_value": "Mental health checkups should be completed yearly from a young age on the NHS"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

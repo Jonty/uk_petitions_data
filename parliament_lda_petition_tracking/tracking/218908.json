@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/897854/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/897854/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/897854/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/897854/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/897854/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1001422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-04T00:00:08.807Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897854",
+                    "label": {
+                        "_value": "Require all businesses who sell food to provide dairy alternatives"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/919872",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-07T16:36:45.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897854",
+                    "label": {
+                        "_value": "Require all businesses who sell food to provide dairy alternatives"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-06T21:04:59.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897854",
+                    "label": {
+                        "_value": "Require all businesses who sell food to provide dairy alternatives"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898571",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-04T12:30:59.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897854",
+                    "label": {
+                        "_value": "Require all businesses who sell food to provide dairy alternatives"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/897855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-03T14:50:11.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897854",
+                    "label": {
+                        "_value": "Require all businesses who sell food to provide dairy alternatives"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

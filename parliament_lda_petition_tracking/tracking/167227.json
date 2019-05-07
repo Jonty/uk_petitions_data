@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587414/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587414/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587414/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587414/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587414/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T17:39:27.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587414",
+                    "label": {
+                        "_value": "Monday November 12 2018  be a UK  National Public Holiday to mark the end of WW1"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T19:18:10.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587414",
+                    "label": {
+                        "_value": "Monday November 12 2018  be a UK  National Public Holiday to mark the end of WW1"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

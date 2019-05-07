@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/527622/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/527622/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/527622/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/527622/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/527622/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527622",
+                    "label": {
+                        "_value": "If you turn 18 before the end of the academic year you should be able to vote."
+                    }
+                },
+                "numberOfSignatures": 194
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634811",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-11T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527622",
+                    "label": {
+                        "_value": "If you turn 18 before the end of the academic year you should be able to vote."
+                    }
+                },
+                "numberOfSignatures": 194
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591598",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T01:36:47.129Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527622",
+                    "label": {
+                        "_value": "If you turn 18 before the end of the academic year you should be able to vote."
+                    }
+                },
+                "numberOfSignatures": 194
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T15:42:47.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527622",
+                    "label": {
+                        "_value": "If you turn 18 before the end of the academic year you should be able to vote."
+                    }
+                },
+                "numberOfSignatures": 193
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-18T15:50:14.085Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527622",
+                    "label": {
+                        "_value": "If you turn 18 before the end of the academic year you should be able to vote."
+                    }
+                },
+                "numberOfSignatures": 189
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

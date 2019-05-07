@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/564968/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/564968/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/564968/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/564968/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/564968/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T18:29:05.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564968",
+                    "label": {
+                        "_value": "Immediate management of Seagull numbers in South West England."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:33:19.081Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564968",
+                    "label": {
+                        "_value": "Immediate management of Seagull numbers in South West England."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569857",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T09:39:55.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564968",
+                    "label": {
+                        "_value": "Immediate management of Seagull numbers in South West England."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567723",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T21:03:30.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564968",
+                    "label": {
+                        "_value": "Immediate management of Seagull numbers in South West England."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T21:03:15.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564968",
+                    "label": {
+                        "_value": "Immediate management of Seagull numbers in South West England."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T12:12:08.640Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564968",
+                    "label": {
+                        "_value": "Immediate management of Seagull numbers in South West England."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

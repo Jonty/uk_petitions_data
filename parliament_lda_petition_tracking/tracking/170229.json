@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/625737/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/625737/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/625737/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/625737/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/625737/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735564",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-30T23:00:03.807Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625737",
+                    "label": {
+                        "_value": "Make diagnosed medical need the same as disability for discrimination laws"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T22:41:48.568Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625737",
+                    "label": {
+                        "_value": "Make diagnosed medical need the same as disability for discrimination laws"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T09:30:07.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625737",
+                    "label": {
+                        "_value": "Make diagnosed medical need the same as disability for discrimination laws"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628812",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T13:49:27.242Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625737",
+                    "label": {
+                        "_value": "Make diagnosed medical need the same as disability for discrimination laws"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T20:28:22.141Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625737",
+                    "label": {
+                        "_value": "Make diagnosed medical need the same as disability for discrimination laws"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

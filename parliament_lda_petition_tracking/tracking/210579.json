@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835715/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835715/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835715/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835715/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835715/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/950434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-29T23:00:00.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835715",
+                    "label": {
+                        "_value": "Protect workers while in their Probationary period within an employment contract"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/892878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-26T10:55:53.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835715",
+                    "label": {
+                        "_value": "Protect workers while in their Probationary period within an employment contract"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-01T11:39:32.329Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835715",
+                    "label": {
+                        "_value": "Protect workers while in their Probationary period within an employment contract"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/848765",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-24T11:48:51.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835715",
+                    "label": {
+                        "_value": "Protect workers while in their Probationary period within an employment contract"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-01T10:07:02.281Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835715",
+                    "label": {
+                        "_value": "Protect workers while in their Probationary period within an employment contract"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

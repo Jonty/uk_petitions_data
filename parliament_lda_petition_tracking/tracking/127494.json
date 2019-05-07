@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/511204/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/511204/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/511204/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/511204/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/511204/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/601779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511204",
+                    "label": {
+                        "_value": "Increase fines and add 3 penalty points for illegally parking in disabled spaces"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574982",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:02:21.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511204",
+                    "label": {
+                        "_value": "Increase fines and add 3 penalty points for illegally parking in disabled spaces"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564932",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T16:00:26.561Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511204",
+                    "label": {
+                        "_value": "Increase fines and add 3 penalty points for illegally parking in disabled spaces"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T17:55:18.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511204",
+                    "label": {
+                        "_value": "Increase fines and add 3 penalty points for illegally parking in disabled spaces"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T21:01:57.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511204",
+                    "label": {
+                        "_value": "Increase fines and add 3 penalty points for illegally parking in disabled spaces"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

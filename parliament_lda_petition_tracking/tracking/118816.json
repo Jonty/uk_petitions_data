@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466369/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466369/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466369/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466369/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466369/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550252",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466369",
+                    "label": {
+                        "_value": "Mandatory community service for people on jobseeker's allowance after six months"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:14:07.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466369",
+                    "label": {
+                        "_value": "Mandatory community service for people on jobseeker's allowance after six months"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482908",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:16:08.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466369",
+                    "label": {
+                        "_value": "Mandatory community service for people on jobseeker's allowance after six months"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T19:50:56.393Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466369",
+                    "label": {
+                        "_value": "Mandatory community service for people on jobseeker's allowance after six months"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T23:56:39.674Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466369",
+                    "label": {
+                        "_value": "Mandatory community service for people on jobseeker's allowance after six months"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

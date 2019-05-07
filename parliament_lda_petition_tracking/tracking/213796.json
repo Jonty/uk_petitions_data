@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/889797/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/889797/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/889797/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/889797/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/889797/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/995437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-23T23:00:04.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889797",
+                    "label": {
+                        "_value": "Allow IVF medication to be donated or sold through appropriate channels."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/892957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-26T19:27:12.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889797",
+                    "label": {
+                        "_value": "Allow IVF medication to be donated or sold through appropriate channels."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-23T12:57:46.525Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889797",
+                    "label": {
+                        "_value": "Allow IVF medication to be donated or sold through appropriate channels."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

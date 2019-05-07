@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549199/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549199/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549199/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549199/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549199/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/623241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:17:09.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549199",
+                    "label": {
+                        "_value": "Petition for London and the South East to breakaway from the UK"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T15:40:31.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549199",
+                    "label": {
+                        "_value": "Petition for London and the South East to breakaway from the UK"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:28:44.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549199",
+                    "label": {
+                        "_value": "Petition for London and the South East to breakaway from the UK"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T01:25:21.814Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549199",
+                    "label": {
+                        "_value": "Petition for London and the South East to breakaway from the UK"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549200",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T20:11:57.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549199",
+                    "label": {
+                        "_value": "Petition for London and the South East to breakaway from the UK"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

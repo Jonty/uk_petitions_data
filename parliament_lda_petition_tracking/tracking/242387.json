@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083303/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083303/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083303/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083303/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083303/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1087644",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T15:41:07.333Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083303",
+                    "label": {
+                        "_value": "Improve awareness of HMRC's requirements for Self-employed people."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T19:35:23.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083303",
+                    "label": {
+                        "_value": "Improve awareness of HMRC's requirements for Self-employed people."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T16:40:28.168Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083303",
+                    "label": {
+                        "_value": "Improve awareness of HMRC's requirements for Self-employed people."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083304",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T16:07:47.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083303",
+                    "label": {
+                        "_value": "Improve awareness of HMRC's requirements for Self-employed people."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

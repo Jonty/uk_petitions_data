@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550428/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550428/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550428/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550428/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550428/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618371",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:04:55.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550428",
+                    "label": {
+                        "_value": "Make the government increase funds to support youth mental health."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:11:33.903Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550428",
+                    "label": {
+                        "_value": "Make the government increase funds to support youth mental health."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T20:24:40.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550428",
+                    "label": {
+                        "_value": "Make the government increase funds to support youth mental health."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550429",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T17:59:29.215Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550428",
+                    "label": {
+                        "_value": "Make the government increase funds to support youth mental health."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463693/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463693/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463693/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463693/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463693/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463693",
+                    "label": {
+                        "_value": "Issue licensing to all pet owners with legal requirement to visit a vet."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463693",
+                    "label": {
+                        "_value": "Issue licensing to all pet owners with legal requirement to visit a vet."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543778",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T15:34:38.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463693",
+                    "label": {
+                        "_value": "Issue licensing to all pet owners with legal requirement to visit a vet."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504061",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T19:53:20.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463693",
+                    "label": {
+                        "_value": "Issue licensing to all pet owners with legal requirement to visit a vet."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T19:44:32.428Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463693",
+                    "label": {
+                        "_value": "Issue licensing to all pet owners with legal requirement to visit a vet."
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463694",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T18:09:51.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463693",
+                    "label": {
+                        "_value": "Issue licensing to all pet owners with legal requirement to visit a vet."
+                    }
+                },
+                "numberOfSignatures": 41
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

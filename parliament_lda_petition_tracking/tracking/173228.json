@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645712/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645712/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645712/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645712/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645712/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735795",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.605Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645712",
+                    "label": {
+                        "_value": "Resurface the A11 between Attleborough Wymondham"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651118",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T22:23:46.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645712",
+                    "label": {
+                        "_value": "Resurface the A11 between Attleborough Wymondham"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T20:44:46.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645712",
+                    "label": {
+                        "_value": "Resurface the A11 between Attleborough Wymondham"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645713",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T22:50:36.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645712",
+                    "label": {
+                        "_value": "Resurface the A11 between Attleborough Wymondham"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

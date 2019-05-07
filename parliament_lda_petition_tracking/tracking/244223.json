@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1090871/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1090871/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1090871/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1090871/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1090871/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T15:09:59.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090871",
+                    "label": {
+                        "_value": "To be exempt from paying council tax when you reach government retirement age."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094128",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090871",
+                    "label": {
+                        "_value": "To be exempt from paying council tax when you reach government retirement age."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T13:30:04.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090871",
+                    "label": {
+                        "_value": "To be exempt from paying council tax when you reach government retirement age."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091975",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T07:48:47.145Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090871",
+                    "label": {
+                        "_value": "To be exempt from paying council tax when you reach government retirement age."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090872",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T19:30:23.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090871",
+                    "label": {
+                        "_value": "To be exempt from paying council tax when you reach government retirement age."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/896001/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/896001/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/896001/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/896001/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/896001/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/999046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-31T00:00:06.331Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/896001",
+                    "label": {
+                        "_value": "Create a Memorial Day for all killed working in emergency services"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T01:19:24.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/896001",
+                    "label": {
+                        "_value": "Create a Memorial Day for all killed working in emergency services"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/961089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T11:26:05.558Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/896001",
+                    "label": {
+                        "_value": "Create a Memorial Day for all killed working in emergency services"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/911649",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-24T18:15:50.923Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/896001",
+                    "label": {
+                        "_value": "Create a Memorial Day for all killed working in emergency services"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/896002",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-01T11:54:34.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/896001",
+                    "label": {
+                        "_value": "Create a Memorial Day for all killed working in emergency services"
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

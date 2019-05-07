@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1000183/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1000183/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1000183/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1000183/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1000183/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1049921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-27T23:44:54.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1000183",
+                    "label": {
+                        "_value": "Adjust child benefit so that the payments are higher for young children."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-06T15:39:17.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1000183",
+                    "label": {
+                        "_value": "Adjust child benefit so that the payments are higher for young children."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001856",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T20:44:54.230Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1000183",
+                    "label": {
+                        "_value": "Adjust child benefit so that the payments are higher for young children."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1000184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-01T17:18:29.245Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1000183",
+                    "label": {
+                        "_value": "Adjust child benefit so that the payments are higher for young children."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

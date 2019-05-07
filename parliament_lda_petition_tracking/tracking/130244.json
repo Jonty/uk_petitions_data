@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551593/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551593/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551593/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551593/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551593/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640374",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551593",
+                    "label": {
+                        "_value": "Adopt the 'Cornwall' model for all County Councils in England & Wales"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T22:20:08.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551593",
+                    "label": {
+                        "_value": "Adopt the 'Cornwall' model for all County Councils in England & Wales"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T21:19:46.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551593",
+                    "label": {
+                        "_value": "Adopt the 'Cornwall' model for all County Councils in England & Wales"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551594",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551593",
+                    "label": {
+                        "_value": "Adopt the 'Cornwall' model for all County Councils in England & Wales"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

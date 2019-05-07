@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551988/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551988/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551988/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551988/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551988/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636147",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551988",
+                    "label": {
+                        "_value": "Increase spending on front line policing and equip more officers with taser."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T19:06:51.242Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551988",
+                    "label": {
+                        "_value": "Increase spending on front line policing and equip more officers with taser."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T11:52:57.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551988",
+                    "label": {
+                        "_value": "Increase spending on front line policing and equip more officers with taser."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585420",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T13:01:48.615Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551988",
+                    "label": {
+                        "_value": "Increase spending on front line policing and equip more officers with taser."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551988",
+                    "label": {
+                        "_value": "Increase spending on front line policing and equip more officers with taser."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

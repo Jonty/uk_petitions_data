@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549953/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549953/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549953/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549953/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549953/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:22:00.170Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549953",
+                    "label": {
+                        "_value": "now that the British people have voted , we need an updated  magna carta"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T14:24:32.829Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549953",
+                    "label": {
+                        "_value": "now that the British people have voted , we need an updated  magna carta"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T00:08:28.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549953",
+                    "label": {
+                        "_value": "now that the British people have voted , we need an updated  magna carta"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T07:24:30.407Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549953",
+                    "label": {
+                        "_value": "now that the British people have voted , we need an updated  magna carta"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T12:46:15.852Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549953",
+                    "label": {
+                        "_value": "now that the British people have voted , we need an updated  magna carta"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

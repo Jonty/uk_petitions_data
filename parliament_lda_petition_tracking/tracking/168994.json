@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/606541/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/606541/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/606541/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/606541/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/606541/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/643623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T23:32:56.162Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606541",
+                    "label": {
+                        "_value": "Present a draft UN resolution that would implement a no fly zone over Syria."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636145",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T17:35:25.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606541",
+                    "label": {
+                        "_value": "Present a draft UN resolution that would implement a no fly zone over Syria."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T09:00:48.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606541",
+                    "label": {
+                        "_value": "Present a draft UN resolution that would implement a no fly zone over Syria."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T20:57:23.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606541",
+                    "label": {
+                        "_value": "Present a draft UN resolution that would implement a no fly zone over Syria."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606542",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T17:41:32.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606541",
+                    "label": {
+                        "_value": "Present a draft UN resolution that would implement a no fly zone over Syria."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

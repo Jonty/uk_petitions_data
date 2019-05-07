@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463875/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463875/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463875/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463875/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463875/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.761Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463875",
+                    "label": {
+                        "_value": "Get a system in place in schools & nurseries to combat the problem of head lice"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547759",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463875",
+                    "label": {
+                        "_value": "Get a system in place in schools & nurseries to combat the problem of head lice"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508825",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T00:00:04.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463875",
+                    "label": {
+                        "_value": "Get a system in place in schools & nurseries to combat the problem of head lice"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505990",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T03:05:34.930Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463875",
+                    "label": {
+                        "_value": "Get a system in place in schools & nurseries to combat the problem of head lice"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:12:35.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463875",
+                    "label": {
+                        "_value": "Get a system in place in schools & nurseries to combat the problem of head lice"
+                    }
+                },
+                "numberOfSignatures": 37
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

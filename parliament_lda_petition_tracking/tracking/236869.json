@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1043632/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1043632/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1043632/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1043632/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1043632/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108318",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T15:53:53.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1107107",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T03:20:09.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088263",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T21:21:58.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T12:48:53.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-19T23:52:35.151Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-18T17:40:31.952Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1043633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T21:05:57.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043632",
+                    "label": {
+                        "_value": "Remove the 20% VAT on all e-books."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

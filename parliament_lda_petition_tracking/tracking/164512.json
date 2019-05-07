@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558706/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558706/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558706/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558706/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558706/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T12:15:08.956Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558706",
+                    "label": {
+                        "_value": "Implement driving evaluations to make UK roads safer"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T12:24:59.911Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558706",
+                    "label": {
+                        "_value": "Implement driving evaluations to make UK roads safer"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558707",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T15:45:10.912Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558706",
+                    "label": {
+                        "_value": "Implement driving evaluations to make UK roads safer"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464715/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464715/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464715/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464715/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464715/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735395",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.912Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464715",
+                    "label": {
+                        "_value": "Increase standard paternity leave to a minimum of 3 months"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558629",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464715",
+                    "label": {
+                        "_value": "Increase standard paternity leave to a minimum of 3 months"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T19:35:56.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464715",
+                    "label": {
+                        "_value": "Increase standard paternity leave to a minimum of 3 months"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T16:24:23.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464715",
+                    "label": {
+                        "_value": "Increase standard paternity leave to a minimum of 3 months"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T12:48:29.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464715",
+                    "label": {
+                        "_value": "Increase standard paternity leave to a minimum of 3 months"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

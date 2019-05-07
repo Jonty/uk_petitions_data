@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464269/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464269/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464269/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464269/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464269/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:05.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464269",
+                    "label": {
+                        "_value": "Ensure landlords receive full rent payments from DSS tenants"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464269",
+                    "label": {
+                        "_value": "Ensure landlords receive full rent payments from DSS tenants"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:37:05.823Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464269",
+                    "label": {
+                        "_value": "Ensure landlords receive full rent payments from DSS tenants"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T14:48:43.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464269",
+                    "label": {
+                        "_value": "Ensure landlords receive full rent payments from DSS tenants"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:06:44.004Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464269",
+                    "label": {
+                        "_value": "Ensure landlords receive full rent payments from DSS tenants"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T13:18:55.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464269",
+                    "label": {
+                        "_value": "Ensure landlords receive full rent payments from DSS tenants"
+                    }
+                },
+                "numberOfSignatures": 28
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

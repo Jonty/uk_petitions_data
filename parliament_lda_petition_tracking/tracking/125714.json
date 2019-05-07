@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/490838/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/490838/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/490838/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/490838/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/490838/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490838",
+                    "label": {
+                        "_value": "Allow uk citizens to view their progress of their tax rebate online"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T11:18:40.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490838",
+                    "label": {
+                        "_value": "Allow uk citizens to view their progress of their tax rebate online"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T20:08:27.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490838",
+                    "label": {
+                        "_value": "Allow uk citizens to view their progress of their tax rebate online"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

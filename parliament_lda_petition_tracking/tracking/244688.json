@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1094162/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1094162/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1094162/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1094162/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1094162/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108202",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T21:16:26.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094162",
+                    "label": {
+                        "_value": "Change the law to protect deceased from defamation."
+                    }
+                },
+                "numberOfSignatures": 184
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T18:37:16.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094162",
+                    "label": {
+                        "_value": "Change the law to protect deceased from defamation."
+                    }
+                },
+                "numberOfSignatures": 177
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T13:11:49.509Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094162",
+                    "label": {
+                        "_value": "Change the law to protect deceased from defamation."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

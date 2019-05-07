@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/576156/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/576156/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/576156/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/576156/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/576156/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576156",
+                    "label": {
+                        "_value": "A newborn baby to be screened for Krabbe Disease"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633273",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T14:14:58.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576156",
+                    "label": {
+                        "_value": "A newborn baby to be screened for Krabbe Disease"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T15:11:29.207Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576156",
+                    "label": {
+                        "_value": "A newborn baby to be screened for Krabbe Disease"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T18:13:49.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576156",
+                    "label": {
+                        "_value": "A newborn baby to be screened for Krabbe Disease"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576157",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T20:16:07.231Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576156",
+                    "label": {
+                        "_value": "A newborn baby to be screened for Krabbe Disease"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465475/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465475/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465475/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465475/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465475/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465475",
+                    "label": {
+                        "_value": "Stop local councils charging additional for services we already pay for."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T13:33:43.676Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465475",
+                    "label": {
+                        "_value": "Stop local councils charging additional for services we already pay for."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490790",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T17:37:25.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465475",
+                    "label": {
+                        "_value": "Stop local councils charging additional for services we already pay for."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490117",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T11:09:49.200Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465475",
+                    "label": {
+                        "_value": "Stop local councils charging additional for services we already pay for."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465476",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T23:23:57.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465475",
+                    "label": {
+                        "_value": "Stop local councils charging additional for services we already pay for."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

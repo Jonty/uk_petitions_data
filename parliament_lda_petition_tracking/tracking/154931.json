@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543798/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543798/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543798/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543798/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543798/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:25.251Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543798",
+                    "label": {
+                        "_value": "EEA naturalisation and permanent residency applications ."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T14:56:47.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543798",
+                    "label": {
+                        "_value": "EEA naturalisation and permanent residency applications ."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579254",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T08:43:02.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543798",
+                    "label": {
+                        "_value": "EEA naturalisation and permanent residency applications ."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T23:53:40.404Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543798",
+                    "label": {
+                        "_value": "EEA naturalisation and permanent residency applications ."
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

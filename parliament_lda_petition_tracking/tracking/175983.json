@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664955/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664955/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664955/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664955/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664955/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728930",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664955",
+                    "label": {
+                        "_value": "More NHS funding in mental health for armed forces veterans suffering with PTSD."
+                    }
+                },
+                "numberOfSignatures": 136
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667926",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-03T22:48:27.812Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664955",
+                    "label": {
+                        "_value": "More NHS funding in mental health for armed forces veterans suffering with PTSD."
+                    }
+                },
+                "numberOfSignatures": 99
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T12:43:56.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664955",
+                    "label": {
+                        "_value": "More NHS funding in mental health for armed forces veterans suffering with PTSD."
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

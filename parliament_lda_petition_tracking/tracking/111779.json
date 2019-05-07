@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463041/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463041/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463041/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463041/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463041/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.948Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463041",
+                    "label": {
+                        "_value": "To change the law on house purchase in UK."
+                    }
+                },
+                "numberOfSignatures": 90
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463041",
+                    "label": {
+                        "_value": "To change the law on house purchase in UK."
+                    }
+                },
+                "numberOfSignatures": 90
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T20:42:57.279Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463041",
+                    "label": {
+                        "_value": "To change the law on house purchase in UK."
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490678",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T17:42:58.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463041",
+                    "label": {
+                        "_value": "To change the law on house purchase in UK."
+                    }
+                },
+                "numberOfSignatures": 87
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490034",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T20:41:59.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463041",
+                    "label": {
+                        "_value": "To change the law on house purchase in UK."
+                    }
+                },
+                "numberOfSignatures": 77
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T18:40:08.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463041",
+                    "label": {
+                        "_value": "To change the law on house purchase in UK."
+                    }
+                },
+                "numberOfSignatures": 67
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

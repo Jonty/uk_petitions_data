@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466105/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466105/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466105/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466105/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466105/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/575019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466105",
+                    "label": {
+                        "_value": "Up the minimum wage from \u00a36.70 to \u00a37.50 for all workers above the age of 21."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T15:20:15.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466105",
+                    "label": {
+                        "_value": "Up the minimum wage from \u00a36.70 to \u00a37.50 for all workers above the age of 21."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550242",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466105",
+                    "label": {
+                        "_value": "Up the minimum wage from \u00a36.70 to \u00a37.50 for all workers above the age of 21."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508900",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T00:15:20.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466105",
+                    "label": {
+                        "_value": "Up the minimum wage from \u00a36.70 to \u00a37.50 for all workers above the age of 21."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T16:33:45.334Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466105",
+                    "label": {
+                        "_value": "Up the minimum wage from \u00a36.70 to \u00a37.50 for all workers above the age of 21."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

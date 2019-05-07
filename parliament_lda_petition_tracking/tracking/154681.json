@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550364/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550364/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550364/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550364/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550364/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:07:25.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:15:22.501Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T06:05:16.926Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590162",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T07:12:31.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572490",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:39:08.065Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T14:29:27.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550365",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T15:29:13.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550364",
+                    "label": {
+                        "_value": "Ban tenant renewal fees"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

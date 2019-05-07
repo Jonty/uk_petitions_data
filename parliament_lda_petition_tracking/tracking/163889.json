@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/554994/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/554994/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/554994/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/554994/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/554994/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635052",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-11T20:41:14.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554994",
+                    "label": {
+                        "_value": "Ensure restaurant/food seller menus list any present allergens in their food"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T16:41:24.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554994",
+                    "label": {
+                        "_value": "Ensure restaurant/food seller menus list any present allergens in their food"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

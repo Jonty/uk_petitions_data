@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547998/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547998/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547998/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547998/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547998/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734769",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:28.013Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547998",
+                    "label": {
+                        "_value": "Condemn the Xenophobia of UK Tabloids and Ensure EU Free Movement Continues."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T09:30:27.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547998",
+                    "label": {
+                        "_value": "Condemn the Xenophobia of UK Tabloids and Ensure EU Free Movement Continues."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T14:18:51.067Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547998",
+                    "label": {
+                        "_value": "Condemn the Xenophobia of UK Tabloids and Ensure EU Free Movement Continues."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562295",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T01:30:22.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547998",
+                    "label": {
+                        "_value": "Condemn the Xenophobia of UK Tabloids and Ensure EU Free Movement Continues."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547999",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T16:40:24.561Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547998",
+                    "label": {
+                        "_value": "Condemn the Xenophobia of UK Tabloids and Ensure EU Free Movement Continues."
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

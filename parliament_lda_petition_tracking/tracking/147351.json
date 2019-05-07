@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549803/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549803/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549803/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549803/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549803/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645761",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:20:06.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549803",
+                    "label": {
+                        "_value": "Make it legal to listen to broadcasts not meant for the general public. (ATC)"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T08:29:37.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549803",
+                    "label": {
+                        "_value": "Make it legal to listen to broadcasts not meant for the general public. (ATC)"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

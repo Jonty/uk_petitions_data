@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461058/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461058/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461058/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461058/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461058/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727036",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:53.494Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461058",
+                    "label": {
+                        "_value": "Put measures in place to reduce the wait for DVSA driving tests."
+                    }
+                },
+                "numberOfSignatures": 678
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461058",
+                    "label": {
+                        "_value": "Put measures in place to reduce the wait for DVSA driving tests."
+                    }
+                },
+                "numberOfSignatures": 678
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461059",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T00:00:11.040Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461058",
+                    "label": {
+                        "_value": "Put measures in place to reduce the wait for DVSA driving tests."
+                    }
+                },
+                "numberOfSignatures": 678
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

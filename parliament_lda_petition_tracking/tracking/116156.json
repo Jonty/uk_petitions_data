@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/554316/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/554316/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/554316/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/554316/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/554316/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/619005",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:10:39.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554316",
+                    "label": {
+                        "_value": "End the PrePay RipOff. Prepay fuel bills cost \u00a3226 a year more than direct debit"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:41:01.830Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554316",
+                    "label": {
+                        "_value": "End the PrePay RipOff. Prepay fuel bills cost \u00a3226 a year more than direct debit"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572531",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T04:11:44.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554316",
+                    "label": {
+                        "_value": "End the PrePay RipOff. Prepay fuel bills cost \u00a3226 a year more than direct debit"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561741",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T18:23:28.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554316",
+                    "label": {
+                        "_value": "End the PrePay RipOff. Prepay fuel bills cost \u00a3226 a year more than direct debit"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554317",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T12:48:29.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554316",
+                    "label": {
+                        "_value": "End the PrePay RipOff. Prepay fuel bills cost \u00a3226 a year more than direct debit"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

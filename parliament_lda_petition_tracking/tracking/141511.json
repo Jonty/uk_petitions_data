@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550868/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550868/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550868/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550868/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550868/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630568",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:28:28.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550868",
+                    "label": {
+                        "_value": "Hold a second Brexit referendum in 2 years so that more young voters have a say."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623274",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:16:37.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550868",
+                    "label": {
+                        "_value": "Hold a second Brexit referendum in 2 years so that more young voters have a say."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T07:40:31.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550868",
+                    "label": {
+                        "_value": "Hold a second Brexit referendum in 2 years so that more young voters have a say."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:38:04.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550868",
+                    "label": {
+                        "_value": "Hold a second Brexit referendum in 2 years so that more young voters have a say."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:04:23.495Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550868",
+                    "label": {
+                        "_value": "Hold a second Brexit referendum in 2 years so that more young voters have a say."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

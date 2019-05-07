@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551112/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551112/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551112/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551112/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551112/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599705",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:20:33.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551112",
+                    "label": {
+                        "_value": "Make the drink driving law more strict or introduce a zero tolerance policy."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T18:02:40.710Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551112",
+                    "label": {
+                        "_value": "Make the drink driving law more strict or introduce a zero tolerance policy."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T17:01:26.928Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551112",
+                    "label": {
+                        "_value": "Make the drink driving law more strict or introduce a zero tolerance policy."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T14:14:42.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551112",
+                    "label": {
+                        "_value": "Make the drink driving law more strict or introduce a zero tolerance policy."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

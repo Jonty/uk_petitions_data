@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/868176/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/868176/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/868176/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/868176/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/868176/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-20T23:00:07.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868176",
+                    "label": {
+                        "_value": "Fund retraining of local authority health officers at every level"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/869128",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-21T08:16:03.246Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868176",
+                    "label": {
+                        "_value": "Fund retraining of local authority health officers at every level"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T17:55:02.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868176",
+                    "label": {
+                        "_value": "Fund retraining of local authority health officers at every level"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

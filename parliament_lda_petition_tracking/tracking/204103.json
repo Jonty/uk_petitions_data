@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/783725/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/783725/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/783725/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/783725/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/783725/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/898578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-03T23:00:01.999Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/783725",
+                    "label": {
+                        "_value": "Scrap or Re-evaluate Hazard Perception"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/896080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-30T18:47:31.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/783725",
+                    "label": {
+                        "_value": "Scrap or Re-evaluate Hazard Perception"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/883297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-13T10:05:44.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/783725",
+                    "label": {
+                        "_value": "Scrap or Re-evaluate Hazard Perception"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/862875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-14T14:04:15.488Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/783725",
+                    "label": {
+                        "_value": "Scrap or Re-evaluate Hazard Perception"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/792112",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-18T12:47:30.850Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/783725",
+                    "label": {
+                        "_value": "Scrap or Re-evaluate Hazard Perception"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/783726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-03T17:03:13.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/783725",
+                    "label": {
+                        "_value": "Scrap or Re-evaluate Hazard Perception"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

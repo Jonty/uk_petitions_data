@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463303/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463303/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463303/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463303/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463303/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733728",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463303",
+                    "label": {
+                        "_value": "Introduce self defence into the national curriculum"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543538",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463303",
+                    "label": {
+                        "_value": "Introduce self defence into the national curriculum"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504706",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T23:09:54.518Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463303",
+                    "label": {
+                        "_value": "Introduce self defence into the national curriculum"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T10:58:43.920Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463303",
+                    "label": {
+                        "_value": "Introduce self defence into the national curriculum"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463304",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T18:44:26.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463303",
+                    "label": {
+                        "_value": "Introduce self defence into the national curriculum"
+                    }
+                },
+                "numberOfSignatures": 53
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/480539/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/480539/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/480539/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/480539/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/480539/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/586422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480539",
+                    "label": {
+                        "_value": "Raise the minium wage to \u00a310ph a realistic living standard to not get into debt"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550231",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T10:37:01.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480539",
+                    "label": {
+                        "_value": "Raise the minium wage to \u00a310ph a realistic living standard to not get into debt"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:51:57.516Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480539",
+                    "label": {
+                        "_value": "Raise the minium wage to \u00a310ph a realistic living standard to not get into debt"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T16:41:55.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480539",
+                    "label": {
+                        "_value": "Raise the minium wage to \u00a310ph a realistic living standard to not get into debt"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

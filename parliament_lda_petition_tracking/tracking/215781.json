@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/873398/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/873398/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/873398/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/873398/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/873398/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/978941",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-27T23:00:03.594Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873398",
+                    "label": {
+                        "_value": "Start development of a satellite carrier rocket."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-09T13:28:08.242Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873398",
+                    "label": {
+                        "_value": "Start development of a satellite carrier rocket."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T11:28:25.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873398",
+                    "label": {
+                        "_value": "Start development of a satellite carrier rocket."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/915685",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-31T20:21:18.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873398",
+                    "label": {
+                        "_value": "Start development of a satellite carrier rocket."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-07T02:47:47.425Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873398",
+                    "label": {
+                        "_value": "Start development of a satellite carrier rocket."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/873399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-27T11:22:25.074Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/873398",
+                    "label": {
+                        "_value": "Start development of a satellite carrier rocket."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

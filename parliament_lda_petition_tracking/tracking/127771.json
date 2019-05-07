@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549696/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549696/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549696/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549696/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549696/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549696",
+                    "label": {
+                        "_value": "Scrap the proposed tax on individual landlords with mortgages"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571767",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:10:04.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549696",
+                    "label": {
+                        "_value": "Scrap the proposed tax on individual landlords with mortgages"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549697",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T06:27:53.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549696",
+                    "label": {
+                        "_value": "Scrap the proposed tax on individual landlords with mortgages"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

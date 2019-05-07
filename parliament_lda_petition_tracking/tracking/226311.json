@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/953181/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/953181/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/953181/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/953181/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/953181/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1057678",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-07T00:00:09.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953181",
+                    "label": {
+                        "_value": "Reduce the eligibility of Police long service medal from 20 to 15 years"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-14T23:12:30.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953181",
+                    "label": {
+                        "_value": "Reduce the eligibility of Police long service medal from 20 to 15 years"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T10:35:37.039Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953181",
+                    "label": {
+                        "_value": "Reduce the eligibility of Police long service medal from 20 to 15 years"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

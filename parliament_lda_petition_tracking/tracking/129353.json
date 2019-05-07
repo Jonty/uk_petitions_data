@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543579/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543579/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543579/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543579/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543579/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543579",
+                    "label": {
+                        "_value": "Bring Leasehold Housing into the Commonhold and Leasehold Reform Act 2002"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543579",
+                    "label": {
+                        "_value": "Bring Leasehold Housing into the Commonhold and Leasehold Reform Act 2002"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T15:27:35.482Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543579",
+                    "label": {
+                        "_value": "Bring Leasehold Housing into the Commonhold and Leasehold Reform Act 2002"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T19:18:45.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543579",
+                    "label": {
+                        "_value": "Bring Leasehold Housing into the Commonhold and Leasehold Reform Act 2002"
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T01:50:49.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543579",
+                    "label": {
+                        "_value": "Bring Leasehold Housing into the Commonhold and Leasehold Reform Act 2002"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543580",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-17T15:37:24.466Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543579",
+                    "label": {
+                        "_value": "Bring Leasehold Housing into the Commonhold and Leasehold Reform Act 2002"
+                    }
+                },
+                "numberOfSignatures": 56
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/661014/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/661014/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/661014/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/661014/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/661014/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727656",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661014",
+                    "label": {
+                        "_value": "Create a benefit for bereaved parents."
+                    }
+                },
+                "numberOfSignatures": 340
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/676632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-15T20:52:38.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661014",
+                    "label": {
+                        "_value": "Create a benefit for bereaved parents."
+                    }
+                },
+                "numberOfSignatures": 193
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T20:57:38.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661014",
+                    "label": {
+                        "_value": "Create a benefit for bereaved parents."
+                    }
+                },
+                "numberOfSignatures": 183
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664674",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T20:06:04.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661014",
+                    "label": {
+                        "_value": "Create a benefit for bereaved parents."
+                    }
+                },
+                "numberOfSignatures": 182
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/662143",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-19T23:13:41.394Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661014",
+                    "label": {
+                        "_value": "Create a benefit for bereaved parents."
+                    }
+                },
+                "numberOfSignatures": 145
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T20:58:37.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661014",
+                    "label": {
+                        "_value": "Create a benefit for bereaved parents."
+                    }
+                },
+                "numberOfSignatures": 109
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

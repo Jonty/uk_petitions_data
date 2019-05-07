@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550674/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550674/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550674/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550674/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550674/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550674",
+                    "label": {
+                        "_value": "Disband the polices current internal complaints investigation Service & the IPCC"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599494",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T00:16:00.805Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550674",
+                    "label": {
+                        "_value": "Disband the polices current internal complaints investigation Service & the IPCC"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T16:05:26.009Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550674",
+                    "label": {
+                        "_value": "Disband the polices current internal complaints investigation Service & the IPCC"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594453",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T12:52:38.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550674",
+                    "label": {
+                        "_value": "Disband the polices current internal complaints investigation Service & the IPCC"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589123",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-23T07:38:05.891Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550674",
+                    "label": {
+                        "_value": "Disband the polices current internal complaints investigation Service & the IPCC"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550674",
+                    "label": {
+                        "_value": "Disband the polices current internal complaints investigation Service & the IPCC"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

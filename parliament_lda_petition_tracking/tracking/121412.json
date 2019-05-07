@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466333/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466333/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466333/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466333/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466333/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/562397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466333",
+                    "label": {
+                        "_value": "To prevent MPs having anonymity if arrested."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466333",
+                    "label": {
+                        "_value": "To prevent MPs having anonymity if arrested."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:21:07.745Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466333",
+                    "label": {
+                        "_value": "To prevent MPs having anonymity if arrested."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508246",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T19:05:23.331Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466333",
+                    "label": {
+                        "_value": "To prevent MPs having anonymity if arrested."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466334",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T11:48:24.485Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466333",
+                    "label": {
+                        "_value": "To prevent MPs having anonymity if arrested."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

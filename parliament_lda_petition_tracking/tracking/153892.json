@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550582/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550582/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550582/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550582/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550582/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:35:52.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550582",
+                    "label": {
+                        "_value": "The Government to establish the workings of Article 50 TEU before invocation."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T06:58:07.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550582",
+                    "label": {
+                        "_value": "The Government to establish the workings of Article 50 TEU before invocation."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

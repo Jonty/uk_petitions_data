@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552098/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552098/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552098/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552098/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552098/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/619956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T11:48:41.732Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552098",
+                    "label": {
+                        "_value": "Change the driving license rules for up to 7.5 tonne vehicles."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594477",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T10:08:19.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552098",
+                    "label": {
+                        "_value": "Change the driving license rules for up to 7.5 tonne vehicles."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T11:35:49.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552098",
+                    "label": {
+                        "_value": "Change the driving license rules for up to 7.5 tonne vehicles."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T16:21:31.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552098",
+                    "label": {
+                        "_value": "Change the driving license rules for up to 7.5 tonne vehicles."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T15:34:37.334Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552098",
+                    "label": {
+                        "_value": "Change the driving license rules for up to 7.5 tonne vehicles."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

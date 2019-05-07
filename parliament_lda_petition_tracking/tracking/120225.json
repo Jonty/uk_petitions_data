@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465959/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465959/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465959/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465959/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465959/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/558667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465959",
+                    "label": {
+                        "_value": "Seek an EU deal where migrant worker benefit costs are met by their home state."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549718",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T22:12:35.238Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465959",
+                    "label": {
+                        "_value": "Seek an EU deal where migrant worker benefit costs are met by their home state."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468003",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T00:38:46.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465959",
+                    "label": {
+                        "_value": "Seek an EU deal where migrant worker benefit costs are met by their home state."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:13.926Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465959",
+                    "label": {
+                        "_value": "Seek an EU deal where migrant worker benefit costs are met by their home state."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

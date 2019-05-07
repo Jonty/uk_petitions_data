@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462739/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462739/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462739/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462739/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462739/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462739",
+                    "label": {
+                        "_value": "Eid holiday for Muslim school students in the UK, follow NYC public schools."
+                    }
+                },
+                "numberOfSignatures": 91
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462739",
+                    "label": {
+                        "_value": "Eid holiday for Muslim school students in the UK, follow NYC public schools."
+                    }
+                },
+                "numberOfSignatures": 91
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487761",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T00:00:11.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462739",
+                    "label": {
+                        "_value": "Eid holiday for Muslim school students in the UK, follow NYC public schools."
+                    }
+                },
+                "numberOfSignatures": 91
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467801",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T18:20:49.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462739",
+                    "label": {
+                        "_value": "Eid holiday for Muslim school students in the UK, follow NYC public schools."
+                    }
+                },
+                "numberOfSignatures": 91
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T17:17:20.965Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462739",
+                    "label": {
+                        "_value": "Eid holiday for Muslim school students in the UK, follow NYC public schools."
+                    }
+                },
+                "numberOfSignatures": 89
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

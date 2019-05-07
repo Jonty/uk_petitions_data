@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1087682/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1087682/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1087682/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1087682/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1087682/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T05:25:29.418Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087682",
+                    "label": {
+                        "_value": "Every life Matters too - Mandatory Custodial Sentences for assaults of any kind"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093367",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T22:32:12.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087682",
+                    "label": {
+                        "_value": "Every life Matters too - Mandatory Custodial Sentences for assaults of any kind"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090856",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T18:35:54.975Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087682",
+                    "label": {
+                        "_value": "Every life Matters too - Mandatory Custodial Sentences for assaults of any kind"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T14:14:47.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087682",
+                    "label": {
+                        "_value": "Every life Matters too - Mandatory Custodial Sentences for assaults of any kind"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087683",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T18:58:22.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087682",
+                    "label": {
+                        "_value": "Every life Matters too - Mandatory Custodial Sentences for assaults of any kind"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

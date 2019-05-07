@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/824221/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/824221/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/824221/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/824221/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/824221/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/943614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T23:00:05.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/824221",
+                    "label": {
+                        "_value": "To also be seen as a breach of contact when a father doesn\u2019t show up to contact"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/825182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-17T11:43:45.200Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/824221",
+                    "label": {
+                        "_value": "To also be seen as a breach of contact when a father doesn\u2019t show up to contact"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/824222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-16T19:25:59.401Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/824221",
+                    "label": {
+                        "_value": "To also be seen as a breach of contact when a father doesn\u2019t show up to contact"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

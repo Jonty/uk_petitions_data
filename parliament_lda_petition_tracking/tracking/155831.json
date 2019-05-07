@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548480/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548480/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548480/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548480/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548480/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:25.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548480",
+                    "label": {
+                        "_value": "Work with the other 27 states to reform the EU to an acceptable standard for all"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:11:10.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548480",
+                    "label": {
+                        "_value": "Work with the other 27 states to reform the EU to an acceptable standard for all"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557353",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T06:38:30.092Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548480",
+                    "label": {
+                        "_value": "Work with the other 27 states to reform the EU to an acceptable standard for all"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548481",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T16:08:59.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548480",
+                    "label": {
+                        "_value": "Work with the other 27 states to reform the EU to an acceptable standard for all"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

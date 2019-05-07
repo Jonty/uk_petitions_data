@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460172/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460172/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460172/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460172/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460172/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/716965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460172",
+                    "label": {
+                        "_value": "Debate a vote of no confidence in Rt Hon Amber Rudd Sec of State (DECC)"
+                    }
+                },
+                "numberOfSignatures": 3717
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460172",
+                    "label": {
+                        "_value": "Debate a vote of no confidence in Rt Hon Amber Rudd Sec of State (DECC)"
+                    }
+                },
+                "numberOfSignatures": 3717
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/479796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T00:00:10.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460172",
+                    "label": {
+                        "_value": "Debate a vote of no confidence in Rt Hon Amber Rudd Sec of State (DECC)"
+                    }
+                },
+                "numberOfSignatures": 3717
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T08:28:12.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460172",
+                    "label": {
+                        "_value": "Debate a vote of no confidence in Rt Hon Amber Rudd Sec of State (DECC)"
+                    }
+                },
+                "numberOfSignatures": 3717
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T20:08:08.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460172",
+                    "label": {
+                        "_value": "Debate a vote of no confidence in Rt Hon Amber Rudd Sec of State (DECC)"
+                    }
+                },
+                "numberOfSignatures": 3714
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

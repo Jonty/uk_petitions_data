@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549791/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549791/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549791/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549791/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549791/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630536",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:25:26.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549791",
+                    "label": {
+                        "_value": "Instigate a root & branch review of The FA"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T20:14:32.526Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549791",
+                    "label": {
+                        "_value": "Instigate a root & branch review of The FA"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T10:24:20.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549791",
+                    "label": {
+                        "_value": "Instigate a root & branch review of The FA"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

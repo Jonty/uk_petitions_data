@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550197/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550197/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550197/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550197/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550197/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636126",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550197",
+                    "label": {
+                        "_value": "Stop taxing and means testing veterans service pensions"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630539",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:26:48.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550197",
+                    "label": {
+                        "_value": "Stop taxing and means testing veterans service pensions"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603778",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T00:00:07.749Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550197",
+                    "label": {
+                        "_value": "Stop taxing and means testing veterans service pensions"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599571",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:48:00.164Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550197",
+                    "label": {
+                        "_value": "Stop taxing and means testing veterans service pensions"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581181",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T18:48:21.749Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550197",
+                    "label": {
+                        "_value": "Stop taxing and means testing veterans service pensions"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550197",
+                    "label": {
+                        "_value": "Stop taxing and means testing veterans service pensions"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

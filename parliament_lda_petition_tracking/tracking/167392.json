@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587395/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587395/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587395/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587395/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587395/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666290",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T12:34:04.052Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587395",
+                    "label": {
+                        "_value": "Increase the horsepower of motorcycles to 90bhp for an A2 License holder."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601773",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T18:39:51.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587395",
+                    "label": {
+                        "_value": "Increase the horsepower of motorcycles to 90bhp for an A2 License holder."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T10:26:38.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587395",
+                    "label": {
+                        "_value": "Increase the horsepower of motorcycles to 90bhp for an A2 License holder."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587910",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T08:33:19.834Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587395",
+                    "label": {
+                        "_value": "Increase the horsepower of motorcycles to 90bhp for an A2 License holder."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T17:32:01.671Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587395",
+                    "label": {
+                        "_value": "Increase the horsepower of motorcycles to 90bhp for an A2 License holder."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

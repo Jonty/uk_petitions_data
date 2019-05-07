@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551782/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551782/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551782/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551782/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551782/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T07:11:10.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551782",
+                    "label": {
+                        "_value": "Introduce better benefits for stay at home parents."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627949",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T09:51:13.346Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551782",
+                    "label": {
+                        "_value": "Introduce better benefits for stay at home parents."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573330",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:49:38.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551782",
+                    "label": {
+                        "_value": "Introduce better benefits for stay at home parents."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T22:47:01.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551782",
+                    "label": {
+                        "_value": "Introduce better benefits for stay at home parents."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

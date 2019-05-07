@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1044814/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1044814/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1044814/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1044814/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1044814/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T21:13:08.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044814",
+                    "label": {
+                        "_value": "Bring science class size restrictions in England/Wales in line with Scotland/NI."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T10:07:15.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044814",
+                    "label": {
+                        "_value": "Bring science class size restrictions in England/Wales in line with Scotland/NI."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T18:11:32.923Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044814",
+                    "label": {
+                        "_value": "Bring science class size restrictions in England/Wales in line with Scotland/NI."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1045356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-21T16:39:35.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044814",
+                    "label": {
+                        "_value": "Bring science class size restrictions in England/Wales in line with Scotland/NI."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-20T17:30:23.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1044814",
+                    "label": {
+                        "_value": "Bring science class size restrictions in England/Wales in line with Scotland/NI."
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

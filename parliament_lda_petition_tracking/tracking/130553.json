@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548596/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548596/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548596/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548596/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548596/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548596",
+                    "label": {
+                        "_value": "Petition Minister of Health -\nEstablish Hospice Suites in NHS Hospitals"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548596",
+                    "label": {
+                        "_value": "Petition Minister of Health -\nEstablish Hospice Suites in NHS Hospitals"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:24:03.045Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548596",
+                    "label": {
+                        "_value": "Petition Minister of Health -\nEstablish Hospice Suites in NHS Hospitals"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T00:07:32.438Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548596",
+                    "label": {
+                        "_value": "Petition Minister of Health -\nEstablish Hospice Suites in NHS Hospitals"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548597",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548596",
+                    "label": {
+                        "_value": "Petition Minister of Health -\nEstablish Hospice Suites in NHS Hospitals"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

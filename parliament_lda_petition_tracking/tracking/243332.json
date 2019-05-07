@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083348/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083348/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083348/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083348/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083348/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107333",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T19:38:00.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083348",
+                    "label": {
+                        "_value": "Increase funding for adult mental health services. "
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T22:06:14.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083348",
+                    "label": {
+                        "_value": "Increase funding for adult mental health services. "
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T17:43:38.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083348",
+                    "label": {
+                        "_value": "Increase funding for adult mental health services. "
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462501/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462501/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462501/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462501/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462501/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462501",
+                    "label": {
+                        "_value": "Withdraw attempts to charge non-EEA citizens for access to emergency care"
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538674",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462501",
+                    "label": {
+                        "_value": "Withdraw attempts to charge non-EEA citizens for access to emergency care"
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-04T00:00:11.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462501",
+                    "label": {
+                        "_value": "Withdraw attempts to charge non-EEA citizens for access to emergency care"
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T09:15:02.142Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462501",
+                    "label": {
+                        "_value": "Withdraw attempts to charge non-EEA citizens for access to emergency care"
+                    }
+                },
+                "numberOfSignatures": 115
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:18:38.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462501",
+                    "label": {
+                        "_value": "Withdraw attempts to charge non-EEA citizens for access to emergency care"
+                    }
+                },
+                "numberOfSignatures": 114
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

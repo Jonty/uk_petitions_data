@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/715991",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:53.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459633",
+                    "label": {
+                        "_value": "Reconsider the new Dividend Tax for small businesses"
+                    }
+                },
+                "numberOfSignatures": 58293
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459633",
+                    "label": {
+                        "_value": "Reconsider the new Dividend Tax for small businesses"
+                    }
+                },
+                "numberOfSignatures": 58293
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511741",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T13:34:36.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459633",
+                    "label": {
+                        "_value": "Reconsider the new Dividend Tax for small businesses"
+                    }
+                },
+                "numberOfSignatures": 58293
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T00:00:09.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459633",
+                    "label": {
+                        "_value": "Reconsider the new Dividend Tax for small businesses"
+                    }
+                },
+                "numberOfSignatures": 58292
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

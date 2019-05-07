@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/480560/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/480560/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/480560/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/480560/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/480560/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/586417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480560",
+                    "label": {
+                        "_value": "Stop car insurance companies from discrimination against sex, age and occupation"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564963",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T17:33:03.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480560",
+                    "label": {
+                        "_value": "Stop car insurance companies from discrimination against sex, age and occupation"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T13:05:07.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480560",
+                    "label": {
+                        "_value": "Stop car insurance companies from discrimination against sex, age and occupation"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T10:50:44.440Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480560",
+                    "label": {
+                        "_value": "Stop car insurance companies from discrimination against sex, age and occupation"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482141",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T19:43:38.739Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480560",
+                    "label": {
+                        "_value": "Stop car insurance companies from discrimination against sex, age and occupation"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480561",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:47:59.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480560",
+                    "label": {
+                        "_value": "Stop car insurance companies from discrimination against sex, age and occupation"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

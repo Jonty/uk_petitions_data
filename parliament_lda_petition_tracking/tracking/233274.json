@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1016064/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1016064/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1016064/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1016064/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1016064/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107554",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T00:29:44.773Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016064",
+                    "label": {
+                        "_value": "Abolish married couple's allowance and marriage allowance"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T16:36:11.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016064",
+                    "label": {
+                        "_value": "Abolish married couple's allowance and marriage allowance"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1032879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-28T19:34:19.086Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016064",
+                    "label": {
+                        "_value": "Abolish married couple's allowance and marriage allowance"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1025253",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-13T20:06:23.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016064",
+                    "label": {
+                        "_value": "Abolish married couple's allowance and marriage allowance"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021641",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T17:51:24.533Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016064",
+                    "label": {
+                        "_value": "Abolish married couple's allowance and marriage allowance"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1016065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-27T10:29:01.567Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016064",
+                    "label": {
+                        "_value": "Abolish married couple's allowance and marriage allowance"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

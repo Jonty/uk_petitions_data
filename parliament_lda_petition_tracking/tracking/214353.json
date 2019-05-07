@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/860482/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/860482/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/860482/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/860482/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/860482/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/973846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T23:00:08.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860482",
+                    "label": {
+                        "_value": "lower to a 5% VAT  rather than 20% vet bills and costs to every pet owner"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970443",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T09:18:41.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860482",
+                    "label": {
+                        "_value": "lower to a 5% VAT  rather than 20% vet bills and costs to every pet owner"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/945388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-19T09:15:43.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860482",
+                    "label": {
+                        "_value": "lower to a 5% VAT  rather than 20% vet bills and costs to every pet owner"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-05T22:50:03.037Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860482",
+                    "label": {
+                        "_value": "lower to a 5% VAT  rather than 20% vet bills and costs to every pet owner"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/860483",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-12T15:08:58.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860482",
+                    "label": {
+                        "_value": "lower to a 5% VAT  rather than 20% vet bills and costs to every pet owner"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

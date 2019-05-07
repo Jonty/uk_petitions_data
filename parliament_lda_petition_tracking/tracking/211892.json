@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841166/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841166/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841166/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841166/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841166/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/956221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-12T23:00:07.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841166",
+                    "label": {
+                        "_value": "Free residential or nursing care for everyone who fought during WW 2."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/865955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-17T16:23:19.976Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841166",
+                    "label": {
+                        "_value": "Free residential or nursing care for everyone who fought during WW 2."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852411",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T06:24:40.992Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841166",
+                    "label": {
+                        "_value": "Free residential or nursing care for everyone who fought during WW 2."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T14:19:16.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841166",
+                    "label": {
+                        "_value": "Free residential or nursing care for everyone who fought during WW 2."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/842165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-15T07:40:24.787Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841166",
+                    "label": {
+                        "_value": "Free residential or nursing care for everyone who fought during WW 2."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841167",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-13T13:35:24.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841166",
+                    "label": {
+                        "_value": "Free residential or nursing care for everyone who fought during WW 2."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

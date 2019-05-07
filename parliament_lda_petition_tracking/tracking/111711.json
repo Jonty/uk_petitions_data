@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464865/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464865/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464865/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464865/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464865/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464865",
+                    "label": {
+                        "_value": "Direct all companies, to only use packaging materials which are easily recycled."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:19:35.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464865",
+                    "label": {
+                        "_value": "Direct all companies, to only use packaging materials which are easily recycled."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T23:09:16.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464865",
+                    "label": {
+                        "_value": "Direct all companies, to only use packaging materials which are easily recycled."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481476",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T08:54:02.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464865",
+                    "label": {
+                        "_value": "Direct all companies, to only use packaging materials which are easily recycled."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T15:54:56.119Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464865",
+                    "label": {
+                        "_value": "Direct all companies, to only use packaging materials which are easily recycled."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

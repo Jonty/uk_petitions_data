@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/623280/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/623280/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/623280/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/623280/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/623280/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-27T23:00:00.921Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623280",
+                    "label": {
+                        "_value": "Remove the age limit from apprenticeships to help less experienced job seekers."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T21:19:30.442Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623280",
+                    "label": {
+                        "_value": "Remove the age limit from apprenticeships to help less experienced job seekers."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623982",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T12:14:27.999Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623280",
+                    "label": {
+                        "_value": "Remove the age limit from apprenticeships to help less experienced job seekers."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623281",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T21:39:04.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623280",
+                    "label": {
+                        "_value": "Remove the age limit from apprenticeships to help less experienced job seekers."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

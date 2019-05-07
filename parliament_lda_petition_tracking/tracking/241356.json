@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1088390/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1088390/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1088390/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1088390/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1088390/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T09:53:17.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088390",
+                    "label": {
+                        "_value": "Make it mandatory for MPs to publish their tax returns."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T15:42:14.710Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088390",
+                    "label": {
+                        "_value": "Make it mandatory for MPs to publish their tax returns."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T20:03:41.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088390",
+                    "label": {
+                        "_value": "Make it mandatory for MPs to publish their tax returns."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

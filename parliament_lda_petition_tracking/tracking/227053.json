@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/957737/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/957737/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/957737/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/957737/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/957737/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T00:00:05.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957737",
+                    "label": {
+                        "_value": "Place a ban on companies demanding experience for 'factory floor' jobs."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T16:46:54.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957737",
+                    "label": {
+                        "_value": "Place a ban on companies demanding experience for 'factory floor' jobs."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/961116",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T09:53:56.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957737",
+                    "label": {
+                        "_value": "Place a ban on companies demanding experience for 'factory floor' jobs."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-22T07:02:13.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957737",
+                    "label": {
+                        "_value": "Place a ban on companies demanding experience for 'factory floor' jobs."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958480",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T10:11:45.610Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957737",
+                    "label": {
+                        "_value": "Place a ban on companies demanding experience for 'factory floor' jobs."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/957738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-17T15:42:24.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957737",
+                    "label": {
+                        "_value": "Place a ban on companies demanding experience for 'factory floor' jobs."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

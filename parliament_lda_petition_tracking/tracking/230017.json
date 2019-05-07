@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/988363/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/988363/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/988363/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/988363/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/988363/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1046648",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-22T04:49:15.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/988363",
+                    "label": {
+                        "_value": "workers on benefits should be able to do overtime when needed without deductions"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-20T13:12:07.750Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/988363",
+                    "label": {
+                        "_value": "workers on benefits should be able to do overtime when needed without deductions"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1027087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T10:26:43.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/988363",
+                    "label": {
+                        "_value": "workers on benefits should be able to do overtime when needed without deductions"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/990077",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-17T10:55:25.752Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/988363",
+                    "label": {
+                        "_value": "workers on benefits should be able to do overtime when needed without deductions"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/988364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-15T19:47:46.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/988363",
+                    "label": {
+                        "_value": "workers on benefits should be able to do overtime when needed without deductions"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

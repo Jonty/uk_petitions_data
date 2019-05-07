@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549044/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549044/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549044/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549044/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549044/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629555",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:28:59.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549044",
+                    "label": {
+                        "_value": "Stop government invoking Article 50 until there is a deal in UK's interests."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603763",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T12:00:30.779Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549044",
+                    "label": {
+                        "_value": "Stop government invoking Article 50 until there is a deal in UK's interests."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:27:22.040Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549044",
+                    "label": {
+                        "_value": "Stop government invoking Article 50 until there is a deal in UK's interests."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578325",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:36:39.447Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549044",
+                    "label": {
+                        "_value": "Stop government invoking Article 50 until there is a deal in UK's interests."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T18:10:16.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549044",
+                    "label": {
+                        "_value": "Stop government invoking Article 50 until there is a deal in UK's interests."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549045",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T18:39:43.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549044",
+                    "label": {
+                        "_value": "Stop government invoking Article 50 until there is a deal in UK's interests."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

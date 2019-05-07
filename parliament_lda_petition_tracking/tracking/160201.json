@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548877/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548877/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548877/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548877/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548877/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T14:21:43.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548877",
+                    "label": {
+                        "_value": "Make killing a cat or dog with a vehicle a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T19:34:04.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548877",
+                    "label": {
+                        "_value": "Make killing a cat or dog with a vehicle a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:01:09.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548877",
+                    "label": {
+                        "_value": "Make killing a cat or dog with a vehicle a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T12:10:35.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548877",
+                    "label": {
+                        "_value": "Make killing a cat or dog with a vehicle a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T13:00:01.352Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548877",
+                    "label": {
+                        "_value": "Make killing a cat or dog with a vehicle a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

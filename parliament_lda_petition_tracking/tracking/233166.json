@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1014985/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1014985/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1014985/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1014985/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1014985/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076126",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:47:23.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014985",
+                    "label": {
+                        "_value": "Redirect UK's funds from backup power subsidies to invest in renewable energy."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-30T22:39:07.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014985",
+                    "label": {
+                        "_value": "Redirect UK's funds from backup power subsidies to invest in renewable energy."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-29T23:10:39.920Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014985",
+                    "label": {
+                        "_value": "Redirect UK's funds from backup power subsidies to invest in renewable energy."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1014986",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-26T16:59:25.885Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014985",
+                    "label": {
+                        "_value": "Redirect UK's funds from backup power subsidies to invest in renewable energy."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

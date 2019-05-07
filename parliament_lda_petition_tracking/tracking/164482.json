@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558548/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558548/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558548/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558548/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558548/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/561489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T20:46:47.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558548",
+                    "label": {
+                        "_value": "Debate current foreign policy specifically with regard to hostage John Cantlie"
+                    }
+                },
+                "numberOfSignatures": 415
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T20:06:10.198Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558548",
+                    "label": {
+                        "_value": "Debate current foreign policy specifically with regard to hostage John Cantlie"
+                    }
+                },
+                "numberOfSignatures": 403
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T20:55:45.348Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558548",
+                    "label": {
+                        "_value": "Debate current foreign policy specifically with regard to hostage John Cantlie"
+                    }
+                },
+                "numberOfSignatures": 377
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T20:47:58.116Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558548",
+                    "label": {
+                        "_value": "Debate current foreign policy specifically with regard to hostage John Cantlie"
+                    }
+                },
+                "numberOfSignatures": 340
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T21:04:02.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558548",
+                    "label": {
+                        "_value": "Debate current foreign policy specifically with regard to hostage John Cantlie"
+                    }
+                },
+                "numberOfSignatures": 147
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/808696/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/808696/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/808696/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/808696/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/808696/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/927595",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-18T23:00:04.309Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808696",
+                    "label": {
+                        "_value": "Highlights of all Test Matches (cricket) involving the Home Nations free to air"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/910029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-22T18:09:56.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808696",
+                    "label": {
+                        "_value": "Highlights of all Test Matches (cricket) involving the Home Nations free to air"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/859040",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-09T09:49:33.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808696",
+                    "label": {
+                        "_value": "Highlights of all Test Matches (cricket) involving the Home Nations free to air"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/817952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-07T05:59:33.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808696",
+                    "label": {
+                        "_value": "Highlights of all Test Matches (cricket) involving the Home Nations free to air"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/808697",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-18T18:51:16.260Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808696",
+                    "label": {
+                        "_value": "Highlights of all Test Matches (cricket) involving the Home Nations free to air"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

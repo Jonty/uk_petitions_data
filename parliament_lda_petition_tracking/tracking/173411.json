@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645661/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645661/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645661/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645661/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645661/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.794Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645661",
+                    "label": {
+                        "_value": "Legislate the number of dogs that professional dog walkers can walk at one time"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665020",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-09T23:41:22.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645661",
+                    "label": {
+                        "_value": "Legislate the number of dogs that professional dog walkers can walk at one time"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655564",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T15:55:51.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645661",
+                    "label": {
+                        "_value": "Legislate the number of dogs that professional dog walkers can walk at one time"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651601",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:58:28.487Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645661",
+                    "label": {
+                        "_value": "Legislate the number of dogs that professional dog walkers can walk at one time"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T20:01:59.204Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645661",
+                    "label": {
+                        "_value": "Legislate the number of dogs that professional dog walkers can walk at one time"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T06:43:59.436Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645661",
+                    "label": {
+                        "_value": "Legislate the number of dogs that professional dog walkers can walk at one time"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549042/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549042/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549042/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549042/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549042/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645658",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T20:20:22.817Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549042",
+                    "label": {
+                        "_value": "Hold an EU referendum where it is illegal  to knowingly misrepresent the facts"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594367",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:12:22.675Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549042",
+                    "label": {
+                        "_value": "Hold an EU referendum where it is illegal  to knowingly misrepresent the facts"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T16:40:03.404Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549042",
+                    "label": {
+                        "_value": "Hold an EU referendum where it is illegal  to knowingly misrepresent the facts"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565565",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T12:09:44.734Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549042",
+                    "label": {
+                        "_value": "Hold an EU referendum where it is illegal  to knowingly misrepresent the facts"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553460",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T18:10:35.874Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549042",
+                    "label": {
+                        "_value": "Hold an EU referendum where it is illegal  to knowingly misrepresent the facts"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T13:16:18.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549042",
+                    "label": {
+                        "_value": "Hold an EU referendum where it is illegal  to knowingly misrepresent the facts"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

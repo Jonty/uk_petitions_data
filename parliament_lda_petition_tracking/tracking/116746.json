@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461014/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461014/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461014/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461014/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461014/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461014",
+                    "label": {
+                        "_value": "Do not close the Mother and Baby Unit at Queens Campus NUH Trust"
+                    }
+                },
+                "numberOfSignatures": 718
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461014",
+                    "label": {
+                        "_value": "Do not close the Mother and Baby Unit at Queens Campus NUH Trust"
+                    }
+                },
+                "numberOfSignatures": 718
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/526666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-11T14:35:34.451Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461014",
+                    "label": {
+                        "_value": "Do not close the Mother and Baby Unit at Queens Campus NUH Trust"
+                    }
+                },
+                "numberOfSignatures": 718
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487564",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T12:54:08.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461014",
+                    "label": {
+                        "_value": "Do not close the Mother and Baby Unit at Queens Campus NUH Trust"
+                    }
+                },
+                "numberOfSignatures": 715
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T08:29:51.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461014",
+                    "label": {
+                        "_value": "Do not close the Mother and Baby Unit at Queens Campus NUH Trust"
+                    }
+                },
+                "numberOfSignatures": 714
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

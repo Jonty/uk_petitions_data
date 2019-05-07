@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466985/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466985/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466985/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466985/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466985/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/567764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466985",
+                    "label": {
+                        "_value": "Urgently Review current legislation on Oil&Gas developments near major Airports."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466985",
+                    "label": {
+                        "_value": "Urgently Review current legislation on Oil&Gas developments near major Airports."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511252",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T23:49:12.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466985",
+                    "label": {
+                        "_value": "Urgently Review current legislation on Oil&Gas developments near major Airports."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466986",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T12:24:38.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466985",
+                    "label": {
+                        "_value": "Urgently Review current legislation on Oil&Gas developments near major Airports."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

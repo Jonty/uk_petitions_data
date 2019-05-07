@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463123/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463123/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463123/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463123/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463123/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733509",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.140Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463123",
+                    "label": {
+                        "_value": "Remove Royal Mail's right to bring private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463123",
+                    "label": {
+                        "_value": "Remove Royal Mail's right to bring private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:03:28.464Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463123",
+                    "label": {
+                        "_value": "Remove Royal Mail's right to bring private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463124",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T18:52:33.524Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463123",
+                    "label": {
+                        "_value": "Remove Royal Mail's right to bring private prosecutions."
+                    }
+                },
+                "numberOfSignatures": 62
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

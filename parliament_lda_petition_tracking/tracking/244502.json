@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091890/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091890/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091890/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091890/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091890/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T21:28:43.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091890",
+                    "label": {
+                        "_value": "Implement a register for domestic violence, stalking and harassment perpetrators"
+                    }
+                },
+                "numberOfSignatures": 210
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106517",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T23:26:31.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091890",
+                    "label": {
+                        "_value": "Implement a register for domestic violence, stalking and harassment perpetrators"
+                    }
+                },
+                "numberOfSignatures": 205
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.394Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091890",
+                    "label": {
+                        "_value": "Implement a register for domestic violence, stalking and harassment perpetrators"
+                    }
+                },
+                "numberOfSignatures": 124
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T16:26:51.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091890",
+                    "label": {
+                        "_value": "Implement a register for domestic violence, stalking and harassment perpetrators"
+                    }
+                },
+                "numberOfSignatures": 119
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:39:18.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091890",
+                    "label": {
+                        "_value": "Implement a register for domestic violence, stalking and harassment perpetrators"
+                    }
+                },
+                "numberOfSignatures": 51
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

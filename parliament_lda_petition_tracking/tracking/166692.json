@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581822/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581822/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581822/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581822/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581822/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735084",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581822",
+                    "label": {
+                        "_value": "Vote on whether the Houses of Parliament should be refurbished or rebuilt."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T12:23:22.570Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581822",
+                    "label": {
+                        "_value": "Vote on whether the Houses of Parliament should be refurbished or rebuilt."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641045",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T17:39:15.699Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581822",
+                    "label": {
+                        "_value": "Vote on whether the Houses of Parliament should be refurbished or rebuilt."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T18:33:18.121Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581822",
+                    "label": {
+                        "_value": "Vote on whether the Houses of Parliament should be refurbished or rebuilt."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

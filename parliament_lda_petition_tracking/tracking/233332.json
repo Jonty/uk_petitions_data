@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1016998/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1016998/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1016998/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1016998/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1016998/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1063349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-17T13:15:12.600Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016998",
+                    "label": {
+                        "_value": "Change age limit for large engine cars as it is for motorbikes"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:05:12.520Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016998",
+                    "label": {
+                        "_value": "Change age limit for large engine cars as it is for motorbikes"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1016999",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-28T17:03:39.427Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1016998",
+                    "label": {
+                        "_value": "Change age limit for large engine cars as it is for motorbikes"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

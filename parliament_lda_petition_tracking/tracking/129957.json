@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549525/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549525/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549525/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549525/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549525/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/634998",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549525",
+                    "label": {
+                        "_value": "Make car parking charges illegal in or around public parks"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630503",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:21:28.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549525",
+                    "label": {
+                        "_value": "Make car parking charges illegal in or around public parks"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:16:03.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549525",
+                    "label": {
+                        "_value": "Make car parking charges illegal in or around public parks"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T07:26:02.029Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549525",
+                    "label": {
+                        "_value": "Make car parking charges illegal in or around public parks"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549525",
+                    "label": {
+                        "_value": "Make car parking charges illegal in or around public parks"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581892/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581892/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581892/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581892/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581892/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T19:34:48.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581892",
+                    "label": {
+                        "_value": "Stop the sale of kittens and puppies in pet shops"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581893",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T11:53:19.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581892",
+                    "label": {
+                        "_value": "Stop the sale of kittens and puppies in pet shops"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

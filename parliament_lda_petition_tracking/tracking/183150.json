@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/689860/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/689860/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/689860/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/689860/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/689860/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:19.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689860",
+                    "label": {
+                        "_value": "Prevent the local authority budget cuts affecting adult and children social care"
+                    }
+                },
+                "numberOfSignatures": 1079
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T20:18:32.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689860",
+                    "label": {
+                        "_value": "Prevent the local authority budget cuts affecting adult and children social care"
+                    }
+                },
+                "numberOfSignatures": 1061
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-24T22:41:51.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689860",
+                    "label": {
+                        "_value": "Prevent the local authority budget cuts affecting adult and children social care"
+                    }
+                },
+                "numberOfSignatures": 1056
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T22:51:35.249Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689860",
+                    "label": {
+                        "_value": "Prevent the local authority budget cuts affecting adult and children social care"
+                    }
+                },
+                "numberOfSignatures": 954
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/689861",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-15T23:09:51.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689860",
+                    "label": {
+                        "_value": "Prevent the local authority budget cuts affecting adult and children social care"
+                    }
+                },
+                "numberOfSignatures": 918
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

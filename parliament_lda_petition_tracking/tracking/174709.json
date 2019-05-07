@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664874/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664874/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664874/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664874/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664874/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664874",
+                    "label": {
+                        "_value": "Establish legal presumption of shared, 50:50, care after parents' break up"
+                    }
+                },
+                "numberOfSignatures": 173
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T16:17:01.211Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664874",
+                    "label": {
+                        "_value": "Establish legal presumption of shared, 50:50, care after parents' break up"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-27T01:11:45.648Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664874",
+                    "label": {
+                        "_value": "Establish legal presumption of shared, 50:50, care after parents' break up"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T18:16:13.135Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664874",
+                    "label": {
+                        "_value": "Establish legal presumption of shared, 50:50, care after parents' break up"
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

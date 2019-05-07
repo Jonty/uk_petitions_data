@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/993308/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/993308/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/993308/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/993308/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/993308/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107562",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T04:10:47.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993308",
+                    "label": {
+                        "_value": "Change 30 hours free child care eligible 51 weeks a year instead of term time"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1013607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-22T21:29:50.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993308",
+                    "label": {
+                        "_value": "Change 30 hours free child care eligible 51 weeks a year instead of term time"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009068",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:18:00.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993308",
+                    "label": {
+                        "_value": "Change 30 hours free child care eligible 51 weeks a year instead of term time"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-23T03:10:18.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993308",
+                    "label": {
+                        "_value": "Change 30 hours free child care eligible 51 weeks a year instead of term time"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/993309",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-22T13:38:43.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/993308",
+                    "label": {
+                        "_value": "Change 30 hours free child care eligible 51 weeks a year instead of term time"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

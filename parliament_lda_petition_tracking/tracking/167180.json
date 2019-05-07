@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/588498/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/588498/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/588498/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/588498/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/588498/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627937",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T11:47:04.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588498",
+                    "label": {
+                        "_value": "Change to Western European time to take advantage of 1hr extra evening daylight"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T15:25:55.618Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588498",
+                    "label": {
+                        "_value": "Change to Western European time to take advantage of 1hr extra evening daylight"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624505",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T14:35:12.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588498",
+                    "label": {
+                        "_value": "Change to Western European time to take advantage of 1hr extra evening daylight"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-23T19:59:55.068Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588498",
+                    "label": {
+                        "_value": "Change to Western European time to take advantage of 1hr extra evening daylight"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588499",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T16:35:50.357Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588498",
+                    "label": {
+                        "_value": "Change to Western European time to take advantage of 1hr extra evening daylight"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

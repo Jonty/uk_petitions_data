@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/978134/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/978134/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/978134/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/978134/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/978134/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T00:00:00.052Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978134",
+                    "label": {
+                        "_value": "We believe Wythenshawe Community Initiative deserves more funding"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/986277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T21:39:26.599Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978134",
+                    "label": {
+                        "_value": "We believe Wythenshawe Community Initiative deserves more funding"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T10:46:49.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978134",
+                    "label": {
+                        "_value": "We believe Wythenshawe Community Initiative deserves more funding"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

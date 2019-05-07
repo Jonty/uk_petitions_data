@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551822/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551822/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551822/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551822/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551822/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/554307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T18:35:41.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551822",
+                    "label": {
+                        "_value": "Child Maintenance Payments applied to a Card that is regularly reviewed."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T15:32:57.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551822",
+                    "label": {
+                        "_value": "Child Maintenance Payments applied to a Card that is regularly reviewed."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

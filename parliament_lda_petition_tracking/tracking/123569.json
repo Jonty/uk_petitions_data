@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466305/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466305/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466305/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466305/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466305/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/575503",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466305",
+                    "label": {
+                        "_value": "Provide funding, equipment, training & materials to repair to Iraq's Mosul Dam"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:50:41.548Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466305",
+                    "label": {
+                        "_value": "Provide funding, equipment, training & materials to repair to Iraq's Mosul Dam"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466305",
+                    "label": {
+                        "_value": "Provide funding, equipment, training & materials to repair to Iraq's Mosul Dam"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T12:56:07.257Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466305",
+                    "label": {
+                        "_value": "Provide funding, equipment, training & materials to repair to Iraq's Mosul Dam"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T21:20:14.383Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466305",
+                    "label": {
+                        "_value": "Provide funding, equipment, training & materials to repair to Iraq's Mosul Dam"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

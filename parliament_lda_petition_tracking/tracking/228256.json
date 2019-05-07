@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977418/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977418/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977418/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977418/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977418/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107669",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T00:00:04.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977418",
+                    "label": {
+                        "_value": "Make Senior and 16-25 Railcards follow the same Time & Fare restrictions"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-24T15:16:32.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977418",
+                    "label": {
+                        "_value": "Make Senior and 16-25 Railcards follow the same Time & Fare restrictions"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

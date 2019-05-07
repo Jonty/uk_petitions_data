@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/942417/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/942417/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/942417/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/942417/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/942417/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1043652",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T00:00:05.162Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942417",
+                    "label": {
+                        "_value": "Add recycling to the curriculum. Even if it's 1 day a year - possibly a visit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/992556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-21T11:03:57.092Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942417",
+                    "label": {
+                        "_value": "Add recycling to the curriculum. Even if it's 1 day a year - possibly a visit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/982121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-06T18:54:17.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942417",
+                    "label": {
+                        "_value": "Add recycling to the curriculum. Even if it's 1 day a year - possibly a visit."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/981422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-04T09:10:23.081Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942417",
+                    "label": {
+                        "_value": "Add recycling to the curriculum. Even if it's 1 day a year - possibly a visit."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/942418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T17:08:05.155Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/942417",
+                    "label": {
+                        "_value": "Add recycling to the curriculum. Even if it's 1 day a year - possibly a visit."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

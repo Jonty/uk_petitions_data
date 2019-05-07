@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1080098/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1080098/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1080098/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1080098/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1080098/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106896",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:48:23.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080098",
+                    "label": {
+                        "_value": "Increase funding for the Metro system in Tyne and Wear"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T19:19:12.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080098",
+                    "label": {
+                        "_value": "Increase funding for the Metro system in Tyne and Wear"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T12:43:53.299Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080098",
+                    "label": {
+                        "_value": "Increase funding for the Metro system in Tyne and Wear"
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T13:56:44.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080098",
+                    "label": {
+                        "_value": "Increase funding for the Metro system in Tyne and Wear"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T19:22:02.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080098",
+                    "label": {
+                        "_value": "Increase funding for the Metro system in Tyne and Wear"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T20:20:32.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080098",
+                    "label": {
+                        "_value": "Increase funding for the Metro system in Tyne and Wear"
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

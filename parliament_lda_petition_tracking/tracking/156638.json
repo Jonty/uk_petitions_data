@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550354/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550354/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550354/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550354/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550354/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624479",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:12:33.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550354",
+                    "label": {
+                        "_value": "British government should pay costs for 15 year plus ex pats to be EU citizens."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T18:03:17.986Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550354",
+                    "label": {
+                        "_value": "British government should pay costs for 15 year plus ex pats to be EU citizens."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T09:55:30.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550354",
+                    "label": {
+                        "_value": "British government should pay costs for 15 year plus ex pats to be EU citizens."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T18:34:33.222Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550354",
+                    "label": {
+                        "_value": "British government should pay costs for 15 year plus ex pats to be EU citizens."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

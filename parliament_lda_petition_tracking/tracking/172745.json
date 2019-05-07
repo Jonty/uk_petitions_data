@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/641065/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/641065/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/641065/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/641065/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/641065/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641065",
+                    "label": {
+                        "_value": "Remove Toll On Queen Elizabeth the 2nd Tunnel if in traffic longer than 30mins"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T21:27:35.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641065",
+                    "label": {
+                        "_value": "Remove Toll On Queen Elizabeth the 2nd Tunnel if in traffic longer than 30mins"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T23:56:11.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641065",
+                    "label": {
+                        "_value": "Remove Toll On Queen Elizabeth the 2nd Tunnel if in traffic longer than 30mins"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/642123",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T12:49:06.085Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641065",
+                    "label": {
+                        "_value": "Remove Toll On Queen Elizabeth the 2nd Tunnel if in traffic longer than 30mins"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T18:21:31.142Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641065",
+                    "label": {
+                        "_value": "Remove Toll On Queen Elizabeth the 2nd Tunnel if in traffic longer than 30mins"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

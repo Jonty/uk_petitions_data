@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464025/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464025/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464025/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464025/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464025/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464025",
+                    "label": {
+                        "_value": "Start British Summer Time 5 weeks Earlier"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547800",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464025",
+                    "label": {
+                        "_value": "Start British Summer Time 5 weeks Earlier"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T17:28:39.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464025",
+                    "label": {
+                        "_value": "Start British Summer Time 5 weeks Earlier"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488656",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T22:56:39.205Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464025",
+                    "label": {
+                        "_value": "Start British Summer Time 5 weeks Earlier"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485244",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T10:48:23.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464025",
+                    "label": {
+                        "_value": "Start British Summer Time 5 weeks Earlier"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T09:07:57.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464025",
+                    "label": {
+                        "_value": "Start British Summer Time 5 weeks Earlier"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

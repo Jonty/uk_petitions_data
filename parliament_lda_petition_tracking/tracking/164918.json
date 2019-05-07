@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/565031/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/565031/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/565031/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/565031/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/565031/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/566677",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-21T18:13:51.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565031",
+                    "label": {
+                        "_value": "Lift the official secrets act 1989"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566154",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T09:52:53.711Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565031",
+                    "label": {
+                        "_value": "Lift the official secrets act 1989"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T14:35:34.945Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565031",
+                    "label": {
+                        "_value": "Lift the official secrets act 1989"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

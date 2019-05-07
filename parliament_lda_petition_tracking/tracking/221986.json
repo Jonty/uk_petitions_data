@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/929805/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/929805/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/929805/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/929805/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/929805/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1030995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-22T00:00:06.669Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929805",
+                    "label": {
+                        "_value": "Issue legal guidance to councils on the eligibility for a disabled travel pass"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021374",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T17:38:04.427Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929805",
+                    "label": {
+                        "_value": "Issue legal guidance to councils on the eligibility for a disabled travel pass"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-14T02:23:19.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929805",
+                    "label": {
+                        "_value": "Issue legal guidance to councils on the eligibility for a disabled travel pass"
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/948119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-23T19:45:11.548Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929805",
+                    "label": {
+                        "_value": "Issue legal guidance to councils on the eligibility for a disabled travel pass"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-03T14:06:57.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929805",
+                    "label": {
+                        "_value": "Issue legal guidance to councils on the eligibility for a disabled travel pass"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-22T14:50:59.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929805",
+                    "label": {
+                        "_value": "Issue legal guidance to councils on the eligibility for a disabled travel pass"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

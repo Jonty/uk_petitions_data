@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664984/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664984/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664984/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664984/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664984/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734147",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664984",
+                    "label": {
+                        "_value": "Don\u2019t trigger Article 50 \u2013 just leave"
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T13:27:58.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664984",
+                    "label": {
+                        "_value": "Don\u2019t trigger Article 50 \u2013 just leave"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664985",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T16:14:58.029Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664984",
+                    "label": {
+                        "_value": "Don\u2019t trigger Article 50 \u2013 just leave"
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

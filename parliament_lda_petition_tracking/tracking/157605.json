@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547514/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547514/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547514/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547514/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547514/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547514",
+                    "label": {
+                        "_value": "The independent election of the director general of the BBC."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601715",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T12:37:03.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547514",
+                    "label": {
+                        "_value": "The independent election of the director general of the BBC."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T10:08:12.959Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547514",
+                    "label": {
+                        "_value": "The independent election of the director general of the BBC."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547515",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T14:06:57.567Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547514",
+                    "label": {
+                        "_value": "The independent election of the director general of the BBC."
+                    }
+                },
+                "numberOfSignatures": 43
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

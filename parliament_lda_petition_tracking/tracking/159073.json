@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543389/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543389/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543389/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543389/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543389/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543389",
+                    "label": {
+                        "_value": "Relax UK Drone Rules"
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-27T17:11:01.122Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543389",
+                    "label": {
+                        "_value": "Relax UK Drone Rules"
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601690",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T04:55:28.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543389",
+                    "label": {
+                        "_value": "Relax UK Drone Rules"
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T21:00:20.675Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543389",
+                    "label": {
+                        "_value": "Relax UK Drone Rules"
+                    }
+                },
+                "numberOfSignatures": 65
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T15:50:22.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543389",
+                    "label": {
+                        "_value": "Relax UK Drone Rules"
+                    }
+                },
+                "numberOfSignatures": 64
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

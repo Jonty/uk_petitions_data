@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/576192/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/576192/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/576192/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/576192/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/576192/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576192",
+                    "label": {
+                        "_value": "Make it law that all members of Parliament take regular drug and alcohol tests."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627977",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:41:21.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576192",
+                    "label": {
+                        "_value": "Make it law that all members of Parliament take regular drug and alcohol tests."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:30:25.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576192",
+                    "label": {
+                        "_value": "Make it law that all members of Parliament take regular drug and alcohol tests."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581209",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T21:53:16.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576192",
+                    "label": {
+                        "_value": "Make it law that all members of Parliament take regular drug and alcohol tests."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T17:10:40.473Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576192",
+                    "label": {
+                        "_value": "Make it law that all members of Parliament take regular drug and alcohol tests."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

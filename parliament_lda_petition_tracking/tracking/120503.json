@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464323/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464323/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464323/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464323/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464323/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464323",
+                    "label": {
+                        "_value": "A new act of Parliament giving the Honours Forfeiture Committee more powers."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554210",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464323",
+                    "label": {
+                        "_value": "A new act of Parliament giving the Honours Forfeiture Committee more powers."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T21:29:51.081Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464323",
+                    "label": {
+                        "_value": "A new act of Parliament giving the Honours Forfeiture Committee more powers."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548031",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464323",
+                    "label": {
+                        "_value": "A new act of Parliament giving the Honours Forfeiture Committee more powers."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506051",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T07:51:29.773Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464323",
+                    "label": {
+                        "_value": "A new act of Parliament giving the Honours Forfeiture Committee more powers."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T11:53:33.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464323",
+                    "label": {
+                        "_value": "A new act of Parliament giving the Honours Forfeiture Committee more powers."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

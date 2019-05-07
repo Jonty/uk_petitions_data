@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/630615/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/630615/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/630615/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/630615/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/630615/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-11T05:55:01.752Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630615",
+                    "label": {
+                        "_value": "Agency workers need to be protected against unfair dismissal by law."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T15:49:35.090Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630615",
+                    "label": {
+                        "_value": "Agency workers need to be protected against unfair dismissal by law."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

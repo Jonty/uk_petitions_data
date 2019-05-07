@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543642/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543642/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543642/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543642/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543642/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733722",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:22.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543642",
+                    "label": {
+                        "_value": "Allow tax-paying UK residents to vote in general elections and referendums"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T02:56:43.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543642",
+                    "label": {
+                        "_value": "Allow tax-paying UK residents to vote in general elections and referendums"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571515",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T20:26:35.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543642",
+                    "label": {
+                        "_value": "Allow tax-paying UK residents to vote in general elections and referendums"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T19:00:37.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543642",
+                    "label": {
+                        "_value": "Allow tax-paying UK residents to vote in general elections and referendums"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T23:04:33.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543642",
+                    "label": {
+                        "_value": "Allow tax-paying UK residents to vote in general elections and referendums"
+                    }
+                },
+                "numberOfSignatures": 53
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

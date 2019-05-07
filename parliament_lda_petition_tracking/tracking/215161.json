@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/870084/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/870084/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/870084/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/870084/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/870084/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/976937",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-22T23:00:05.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870084",
+                    "label": {
+                        "_value": "Establish 14th March as a public holiday"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871676",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-25T19:12:01.558Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870084",
+                    "label": {
+                        "_value": "Establish 14th March as a public holiday"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871244",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-24T18:23:38.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870084",
+                    "label": {
+                        "_value": "Establish 14th March as a public holiday"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-23T21:34:07.401Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870084",
+                    "label": {
+                        "_value": "Establish 14th March as a public holiday"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-22T21:08:03.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/870084",
+                    "label": {
+                        "_value": "Establish 14th March as a public holiday"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

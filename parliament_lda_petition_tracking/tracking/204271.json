@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/788205/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/788205/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/788205/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/788205/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/788205/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/904512",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-13T23:00:06.357Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/788205",
+                    "label": {
+                        "_value": "Change the law so that in court each side always pays their own legal costs"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/792094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-18T18:39:15.819Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/788205",
+                    "label": {
+                        "_value": "Change the law so that in court each side always pays their own legal costs"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/789847",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-15T13:52:59.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/788205",
+                    "label": {
+                        "_value": "Change the law so that in court each side always pays their own legal costs"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/788206",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-13T21:22:30.864Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/788205",
+                    "label": {
+                        "_value": "Change the law so that in court each side always pays their own legal costs"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

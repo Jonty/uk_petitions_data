@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/853828/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/853828/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/853828/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/853828/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/853828/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/965377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-02T23:00:05.986Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853828",
+                    "label": {
+                        "_value": "Ban all advertising boards on the side of motorways."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-22T19:10:40.279Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853828",
+                    "label": {
+                        "_value": "Ban all advertising boards on the side of motorways."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899365",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-07T02:47:17.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853828",
+                    "label": {
+                        "_value": "Ban all advertising boards on the side of motorways."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/862873",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-14T16:17:02.692Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853828",
+                    "label": {
+                        "_value": "Ban all advertising boards on the side of motorways."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-04T17:43:41.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853828",
+                    "label": {
+                        "_value": "Ban all advertising boards on the side of motorways."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-02T15:47:05.589Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853828",
+                    "label": {
+                        "_value": "Ban all advertising boards on the side of motorways."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

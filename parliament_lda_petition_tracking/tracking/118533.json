@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463079/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463079/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463079/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463079/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463079/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463079",
+                    "label": {
+                        "_value": "Give higher education students a chance, raise maintenance loans so we can live"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543274",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463079",
+                    "label": {
+                        "_value": "Give higher education students a chance, raise maintenance loans so we can live"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T09:23:47.271Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463079",
+                    "label": {
+                        "_value": "Give higher education students a chance, raise maintenance loans so we can live"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482034",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T20:40:33.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463079",
+                    "label": {
+                        "_value": "Give higher education students a chance, raise maintenance loans so we can live"
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T19:31:11.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463079",
+                    "label": {
+                        "_value": "Give higher education students a chance, raise maintenance loans so we can live"
+                    }
+                },
+                "numberOfSignatures": 65
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

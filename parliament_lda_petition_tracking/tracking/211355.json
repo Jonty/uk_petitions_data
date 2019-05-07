@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/840495/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/840495/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/840495/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/840495/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/840495/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/953128",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-05T23:00:01.995Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840495",
+                    "label": {
+                        "_value": "Introduce new opportunities for medically failing applicants for the military."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/939191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-11T11:50:26.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840495",
+                    "label": {
+                        "_value": "Introduce new opportunities for medically failing applicants for the military."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/840496",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-12T20:07:24.144Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840495",
+                    "label": {
+                        "_value": "Introduce new opportunities for medically failing applicants for the military."
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

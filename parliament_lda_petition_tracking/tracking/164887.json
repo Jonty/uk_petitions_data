@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/562412/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/562412/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/562412/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/562412/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/562412/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:32:49.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562412",
+                    "label": {
+                        "_value": "National vote to Legalise right to die"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599700",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:54:37.969Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562412",
+                    "label": {
+                        "_value": "National vote to Legalise right to die"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:41:38.238Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562412",
+                    "label": {
+                        "_value": "National vote to Legalise right to die"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T14:23:36.728Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562412",
+                    "label": {
+                        "_value": "National vote to Legalise right to die"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

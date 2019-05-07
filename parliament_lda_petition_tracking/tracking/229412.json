@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/981416/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/981416/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/981416/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/981416/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/981416/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:09.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981416",
+                    "label": {
+                        "_value": "Make Michaelmas Day (29th September) a public holiday."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T21:30:34.148Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981416",
+                    "label": {
+                        "_value": "Make Michaelmas Day (29th September) a public holiday."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/982441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-07T08:56:51.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981416",
+                    "label": {
+                        "_value": "Make Michaelmas Day (29th September) a public holiday."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/981417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-04T20:37:19.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/981416",
+                    "label": {
+                        "_value": "Make Michaelmas Day (29th September) a public holiday."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/962854/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/962854/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/962854/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/962854/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/962854/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1080189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T00:00:02.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962854",
+                    "label": {
+                        "_value": "Introduce a goverment helpline for mental health"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1014943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-26T14:17:02.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962854",
+                    "label": {
+                        "_value": "Introduce a goverment helpline for mental health"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991055",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T18:02:26.077Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962854",
+                    "label": {
+                        "_value": "Introduce a goverment helpline for mental health"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-18T20:50:51.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962854",
+                    "label": {
+                        "_value": "Introduce a goverment helpline for mental health"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970056",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-07T12:25:36.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962854",
+                    "label": {
+                        "_value": "Introduce a goverment helpline for mental health"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-30T18:08:12.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962854",
+                    "label": {
+                        "_value": "Introduce a goverment helpline for mental health"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463611/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463611/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463611/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463611/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463611/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463611",
+                    "label": {
+                        "_value": "Lower the EU referendum voting age to 17."
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463611",
+                    "label": {
+                        "_value": "Lower the EU referendum voting age to 17."
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566591",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-21T11:19:01.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463611",
+                    "label": {
+                        "_value": "Lower the EU referendum voting age to 17."
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566035",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T19:58:29.782Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463611",
+                    "label": {
+                        "_value": "Lower the EU referendum voting age to 17."
+                    }
+                },
+                "numberOfSignatures": 80
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T21:00:29.637Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463611",
+                    "label": {
+                        "_value": "Lower the EU referendum voting age to 17."
+                    }
+                },
+                "numberOfSignatures": 79
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T09:42:52.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463611",
+                    "label": {
+                        "_value": "Lower the EU referendum voting age to 17."
+                    }
+                },
+                "numberOfSignatures": 43
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

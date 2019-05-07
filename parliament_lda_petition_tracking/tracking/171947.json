@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/634953/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/634953/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/634953/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/634953/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/634953/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634953",
+                    "label": {
+                        "_value": "Make Politics a mandatory subject for the primary curriculum."
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T18:57:27.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634953",
+                    "label": {
+                        "_value": "Make Politics a mandatory subject for the primary curriculum."
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T13:06:51.876Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634953",
+                    "label": {
+                        "_value": "Make Politics a mandatory subject for the primary curriculum."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636083",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T11:03:09.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634953",
+                    "label": {
+                        "_value": "Make Politics a mandatory subject for the primary curriculum."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T15:59:10.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634953",
+                    "label": {
+                        "_value": "Make Politics a mandatory subject for the primary curriculum."
+                    }
+                },
+                "numberOfSignatures": 38
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

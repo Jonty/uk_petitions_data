@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464461/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464461/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464461/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464461/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464461/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735020",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T16:42:33.236Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507493",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T09:06:01.857Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:46:04.856Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/469868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T19:14:16.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464462",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T13:41:17.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464461",
+                    "label": {
+                        "_value": "Public Enquiry into the Google Tax Deal"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

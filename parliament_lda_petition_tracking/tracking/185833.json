@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718554/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718554/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718554/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718554/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718554/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:21.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718554",
+                    "label": {
+                        "_value": "Regard nurseries as being exempt from the rise of business rates"
+                    }
+                },
+                "numberOfSignatures": 1661
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-11T17:03:30.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718554",
+                    "label": {
+                        "_value": "Regard nurseries as being exempt from the rise of business rates"
+                    }
+                },
+                "numberOfSignatures": 1643
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T17:16:24.826Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718554",
+                    "label": {
+                        "_value": "Regard nurseries as being exempt from the rise of business rates"
+                    }
+                },
+                "numberOfSignatures": 1642
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718555",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-06T20:50:54.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718554",
+                    "label": {
+                        "_value": "Regard nurseries as being exempt from the rise of business rates"
+                    }
+                },
+                "numberOfSignatures": 1638
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

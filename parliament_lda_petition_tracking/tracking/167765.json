@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/591953/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/591953/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/591953/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/591953/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/591953/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640243",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T10:23:43.131Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591953",
+                    "label": {
+                        "_value": "Make employers test for cannabis using the saliva test rather than urine."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T14:23:41.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591953",
+                    "label": {
+                        "_value": "Make employers test for cannabis using the saliva test rather than urine."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T13:01:15.189Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591953",
+                    "label": {
+                        "_value": "Make employers test for cannabis using the saliva test rather than urine."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T20:41:00.700Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591953",
+                    "label": {
+                        "_value": "Make employers test for cannabis using the saliva test rather than urine."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

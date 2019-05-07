@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/634882/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/634882/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/634882/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/634882/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/634882/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.178Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634882",
+                    "label": {
+                        "_value": "Increase the minimum wage for young adults under the age of 18"
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667966",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-03T12:46:54.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634882",
+                    "label": {
+                        "_value": "Increase the minimum wage for young adults under the age of 18"
+                    }
+                },
+                "numberOfSignatures": 77
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-12T12:36:06.729Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634882",
+                    "label": {
+                        "_value": "Increase the minimum wage for young adults under the age of 18"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/639533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T23:23:08.104Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634882",
+                    "label": {
+                        "_value": "Increase the minimum wage for young adults under the age of 18"
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T20:01:21.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/634882",
+                    "label": {
+                        "_value": "Increase the minimum wage for young adults under the age of 18"
+                    }
+                },
+                "numberOfSignatures": 73
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

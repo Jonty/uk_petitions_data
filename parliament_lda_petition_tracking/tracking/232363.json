@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1009022/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1009022/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1009022/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1009022/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1009022/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T08:37:02.192Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009022",
+                    "label": {
+                        "_value": "Allow first time buyers to use their pension savings as a deposit for mortgage"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1022352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-09T15:17:20.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009022",
+                    "label": {
+                        "_value": "Allow first time buyers to use their pension savings as a deposit for mortgage"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-04T13:36:13.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009022",
+                    "label": {
+                        "_value": "Allow first time buyers to use their pension savings as a deposit for mortgage"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T09:18:07.052Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009022",
+                    "label": {
+                        "_value": "Allow first time buyers to use their pension savings as a deposit for mortgage"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009023",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-16T16:04:02.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009022",
+                    "label": {
+                        "_value": "Allow first time buyers to use their pension savings as a deposit for mortgage"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633319/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633319/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633319/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633319/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633319/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.856Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633319",
+                    "label": {
+                        "_value": "Ensure that in future 65% of eligible voters are required to pass a referendum."
+                    }
+                },
+                "numberOfSignatures": 483
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648262",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T19:31:09.282Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633319",
+                    "label": {
+                        "_value": "Ensure that in future 65% of eligible voters are required to pass a referendum."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T14:21:51.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633319",
+                    "label": {
+                        "_value": "Ensure that in future 65% of eligible voters are required to pass a referendum."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

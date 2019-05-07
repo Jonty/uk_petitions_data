@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463097/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463097/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463097/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463097/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463097/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733480",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463097",
+                    "label": {
+                        "_value": "Nationalise Go North East or introduce another major bus company in Tyne & Wear"
+                    }
+                },
+                "numberOfSignatures": 65
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463097",
+                    "label": {
+                        "_value": "Nationalise Go North East or introduce another major bus company in Tyne & Wear"
+                    }
+                },
+                "numberOfSignatures": 65
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T00:00:04.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463097",
+                    "label": {
+                        "_value": "Nationalise Go North East or introduce another major bus company in Tyne & Wear"
+                    }
+                },
+                "numberOfSignatures": 65
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481361",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:59:44.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463097",
+                    "label": {
+                        "_value": "Nationalise Go North East or introduce another major bus company in Tyne & Wear"
+                    }
+                },
+                "numberOfSignatures": 65
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463098",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:12:26.717Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463097",
+                    "label": {
+                        "_value": "Nationalise Go North East or introduce another major bus company in Tyne & Wear"
+                    }
+                },
+                "numberOfSignatures": 64
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

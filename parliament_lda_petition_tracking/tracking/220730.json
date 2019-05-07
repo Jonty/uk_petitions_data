@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/917061/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/917061/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/917061/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/917061/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/917061/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1021563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T00:00:03.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917061",
+                    "label": {
+                        "_value": "Impose a maximum booking fee on online cinema ticket purchases."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933501",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-26T19:21:56.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917061",
+                    "label": {
+                        "_value": "Impose a maximum booking fee on online cinema ticket purchases."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/925538",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-16T18:14:28.315Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917061",
+                    "label": {
+                        "_value": "Impose a maximum booking fee on online cinema ticket purchases."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/921278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-10T19:06:41.516Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917061",
+                    "label": {
+                        "_value": "Impose a maximum booking fee on online cinema ticket purchases."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/920892",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-09T19:18:10.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917061",
+                    "label": {
+                        "_value": "Impose a maximum booking fee on online cinema ticket purchases."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/917062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-04T12:33:56.074Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917061",
+                    "label": {
+                        "_value": "Impose a maximum booking fee on online cinema ticket purchases."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

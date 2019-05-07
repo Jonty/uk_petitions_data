@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549231/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549231/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549231/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549231/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549231/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/646973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549231",
+                    "label": {
+                        "_value": "Strip police officers who have falsified statements, of their Police Pension."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:22:13.614Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549231",
+                    "label": {
+                        "_value": "Strip police officers who have falsified statements, of their Police Pension."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562337",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T01:28:32.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549231",
+                    "label": {
+                        "_value": "Strip police officers who have falsified statements, of their Police Pension."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558031",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T08:36:42.485Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549231",
+                    "label": {
+                        "_value": "Strip police officers who have falsified statements, of their Police Pension."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-07T22:04:07.615Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549231",
+                    "label": {
+                        "_value": "Strip police officers who have falsified statements, of their Police Pension."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549231",
+                    "label": {
+                        "_value": "Strip police officers who have falsified statements, of their Police Pension."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

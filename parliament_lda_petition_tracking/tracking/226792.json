@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954869/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954869/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954869/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954869/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954869/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1060386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T00:00:05.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954869",
+                    "label": {
+                        "_value": "Put pressure on Bangladeshi government to improve road safety"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/961575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-27T09:51:26.710Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954869",
+                    "label": {
+                        "_value": "Put pressure on Bangladeshi government to improve road safety"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-15T15:46:06.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954869",
+                    "label": {
+                        "_value": "Put pressure on Bangladeshi government to improve road safety"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-10T22:15:29.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954869",
+                    "label": {
+                        "_value": "Put pressure on Bangladeshi government to improve road safety"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-10T16:34:50.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954869",
+                    "label": {
+                        "_value": "Put pressure on Bangladeshi government to improve road safety"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

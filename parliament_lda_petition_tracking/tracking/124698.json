@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/478959/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/478959/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/478959/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/478959/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/478959/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/585923",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478959",
+                    "label": {
+                        "_value": "We need a National Alan Turing Remembrance Day."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T21:32:55.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478959",
+                    "label": {
+                        "_value": "We need a National Alan Turing Remembrance Day."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478959",
+                    "label": {
+                        "_value": "We need a National Alan Turing Remembrance Day."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T22:38:31.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478959",
+                    "label": {
+                        "_value": "We need a National Alan Turing Remembrance Day."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T21:27:45.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478959",
+                    "label": {
+                        "_value": "We need a National Alan Turing Remembrance Day."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

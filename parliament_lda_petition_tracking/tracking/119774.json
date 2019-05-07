@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464327/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464327/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464327/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464327/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464327/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734231",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464327",
+                    "label": {
+                        "_value": "Introduce a tax on nonrecyclable packaging."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464327",
+                    "label": {
+                        "_value": "Introduce a tax on nonrecyclable packaging."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T18:01:36.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464327",
+                    "label": {
+                        "_value": "Introduce a tax on nonrecyclable packaging."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481443",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T10:07:32.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464327",
+                    "label": {
+                        "_value": "Introduce a tax on nonrecyclable packaging."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/475383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T20:01:08.030Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464327",
+                    "label": {
+                        "_value": "Introduce a tax on nonrecyclable packaging."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464328",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T19:45:43.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464327",
+                    "label": {
+                        "_value": "Introduce a tax on nonrecyclable packaging."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

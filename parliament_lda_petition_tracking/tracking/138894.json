@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547912/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547912/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547912/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547912/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547912/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734775",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:22.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547912",
+                    "label": {
+                        "_value": "Independence referendum for N. Ireland and Scotland"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T19:44:25.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547912",
+                    "label": {
+                        "_value": "Independence referendum for N. Ireland and Scotland"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T17:21:15.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547912",
+                    "label": {
+                        "_value": "Independence referendum for N. Ireland and Scotland"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564867",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T21:26:24.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547912",
+                    "label": {
+                        "_value": "Independence referendum for N. Ireland and Scotland"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T03:26:27.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547912",
+                    "label": {
+                        "_value": "Independence referendum for N. Ireland and Scotland"
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

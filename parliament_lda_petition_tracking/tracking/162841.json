@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553636/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553636/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553636/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553636/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553636/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T19:55:19.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553636",
+                    "label": {
+                        "_value": "The government should raise the funding for music education in primary schools."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618471",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T03:00:01.994Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553636",
+                    "label": {
+                        "_value": "The government should raise the funding for music education in primary schools."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T15:19:31.613Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553636",
+                    "label": {
+                        "_value": "The government should raise the funding for music education in primary schools."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

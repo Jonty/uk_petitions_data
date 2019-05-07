@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464191/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464191/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464191/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464191/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464191/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.730Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464191",
+                    "label": {
+                        "_value": "Please make all private parking enforcenemt illegal"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464191",
+                    "label": {
+                        "_value": "Please make all private parking enforcenemt illegal"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/471085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T00:00:11.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464191",
+                    "label": {
+                        "_value": "Please make all private parking enforcenemt illegal"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/469422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T17:17:11.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464191",
+                    "label": {
+                        "_value": "Please make all private parking enforcenemt illegal"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467910",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T00:20:15.605Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464191",
+                    "label": {
+                        "_value": "Please make all private parking enforcenemt illegal"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T20:47:48.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464191",
+                    "label": {
+                        "_value": "Please make all private parking enforcenemt illegal"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/846602/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/846602/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/846602/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/846602/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/846602/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/959637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-21T23:00:01.741Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846602",
+                    "label": {
+                        "_value": "A call for Highways England to make more sections of the M5 a smart motorway"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958481",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T12:05:03.894Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846602",
+                    "label": {
+                        "_value": "A call for Highways England to make more sections of the M5 a smart motorway"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/939232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-11T08:53:09.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846602",
+                    "label": {
+                        "_value": "A call for Highways England to make more sections of the M5 a smart motorway"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/928535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-20T15:33:16.392Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846602",
+                    "label": {
+                        "_value": "A call for Highways England to make more sections of the M5 a smart motorway"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-07T13:12:17.358Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846602",
+                    "label": {
+                        "_value": "A call for Highways England to make more sections of the M5 a smart motorway"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846603",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T19:01:42.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846602",
+                    "label": {
+                        "_value": "A call for Highways England to make more sections of the M5 a smart motorway"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

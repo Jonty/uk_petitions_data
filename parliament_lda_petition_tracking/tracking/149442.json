@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549632/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549632/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549632/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549632/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549632/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:32:38.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549632",
+                    "label": {
+                        "_value": "Parliament should vote to decide when we start negotiating to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:28:54.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549632",
+                    "label": {
+                        "_value": "Parliament should vote to decide when we start negotiating to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565580",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T13:01:35.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549632",
+                    "label": {
+                        "_value": "Parliament should vote to decide when we start negotiating to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559877",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T21:28:04.253Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549632",
+                    "label": {
+                        "_value": "Parliament should vote to decide when we start negotiating to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553499",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T15:36:57.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549632",
+                    "label": {
+                        "_value": "Parliament should vote to decide when we start negotiating to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T17:50:09.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549632",
+                    "label": {
+                        "_value": "Parliament should vote to decide when we start negotiating to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

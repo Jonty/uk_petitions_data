@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465975/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465975/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465975/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465975/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465975/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465975",
+                    "label": {
+                        "_value": "Restrict HGVs overtaking during busy motorway periods."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:55:27.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465975",
+                    "label": {
+                        "_value": "Restrict HGVs overtaking during busy motorway periods."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:15:49.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465975",
+                    "label": {
+                        "_value": "Restrict HGVs overtaking during busy motorway periods."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:08.999Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465975",
+                    "label": {
+                        "_value": "Restrict HGVs overtaking during busy motorway periods."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933583/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933583/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933583/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933583/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933583/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032219",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T00:00:05.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933583",
+                    "label": {
+                        "_value": "Provide clarity around the powers & legislation of bailiffs & civil enforcement"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/989304",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T11:24:34.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933583",
+                    "label": {
+                        "_value": "Provide clarity around the powers & legislation of bailiffs & civil enforcement"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/950874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-31T12:12:57.868Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933583",
+                    "label": {
+                        "_value": "Provide clarity around the powers & legislation of bailiffs & civil enforcement"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933584",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T16:30:48.599Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933583",
+                    "label": {
+                        "_value": "Provide clarity around the powers & legislation of bailiffs & civil enforcement"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548200/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548200/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548200/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548200/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548200/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:20.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548200",
+                    "label": {
+                        "_value": "Create a memorial or name a room within the Palace of Westminster after Jo Cox"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664992",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548200",
+                    "label": {
+                        "_value": "Create a memorial or name a room within the Palace of Westminster after Jo Cox"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-23T14:36:12.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548200",
+                    "label": {
+                        "_value": "Create a memorial or name a room within the Palace of Westminster after Jo Cox"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T09:45:37.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548200",
+                    "label": {
+                        "_value": "Create a memorial or name a room within the Palace of Westminster after Jo Cox"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548201",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-17T16:03:36.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548200",
+                    "label": {
+                        "_value": "Create a memorial or name a room within the Palace of Westminster after Jo Cox"
+                    }
+                },
+                "numberOfSignatures": 29
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

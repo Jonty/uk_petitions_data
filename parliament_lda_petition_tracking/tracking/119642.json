@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462975/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462975/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462975/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462975/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462975/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.251Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462975",
+                    "label": {
+                        "_value": "Make a mandatory 6 months ban if caught using mobile phone while driving"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/544687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462975",
+                    "label": {
+                        "_value": "Make a mandatory 6 months ban if caught using mobile phone while driving"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T23:06:46.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462975",
+                    "label": {
+                        "_value": "Make a mandatory 6 months ban if caught using mobile phone while driving"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T19:46:27.182Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462975",
+                    "label": {
+                        "_value": "Make a mandatory 6 months ban if caught using mobile phone while driving"
+                    }
+                },
+                "numberOfSignatures": 72
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T23:32:50.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462975",
+                    "label": {
+                        "_value": "Make a mandatory 6 months ban if caught using mobile phone while driving"
+                    }
+                },
+                "numberOfSignatures": 71
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

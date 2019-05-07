@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464505/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464505/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464505/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464505/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464505/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.105Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464505",
+                    "label": {
+                        "_value": "Draft media bill forcing the media to offer balanced, unbiased news and reports."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464505",
+                    "label": {
+                        "_value": "Draft media bill forcing the media to offer balanced, unbiased news and reports."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486811",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T00:00:12.618Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464505",
+                    "label": {
+                        "_value": "Draft media bill forcing the media to offer balanced, unbiased news and reports."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T19:14:53.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464505",
+                    "label": {
+                        "_value": "Draft media bill forcing the media to offer balanced, unbiased news and reports."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466513/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466513/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466513/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466513/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466513/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/571802",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T11:46:43.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466513",
+                    "label": {
+                        "_value": "Compulsory microchip scanning for dogs"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550239",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466513",
+                    "label": {
+                        "_value": "Compulsory microchip scanning for dogs"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504780",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T19:19:06.218Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466513",
+                    "label": {
+                        "_value": "Compulsory microchip scanning for dogs"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502811",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T17:35:31.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466513",
+                    "label": {
+                        "_value": "Compulsory microchip scanning for dogs"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T13:33:22.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466513",
+                    "label": {
+                        "_value": "Compulsory microchip scanning for dogs"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T17:39:01.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466513",
+                    "label": {
+                        "_value": "Compulsory microchip scanning for dogs"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

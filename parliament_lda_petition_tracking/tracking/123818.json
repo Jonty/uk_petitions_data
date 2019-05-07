@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466951/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466951/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466951/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466951/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466951/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466951",
+                    "label": {
+                        "_value": "Stop the increment of car insurance premium with \"No Blame\" accidents."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550705",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466951",
+                    "label": {
+                        "_value": "Stop the increment of car insurance premium with \"No Blame\" accidents."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508907",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T17:16:20.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466951",
+                    "label": {
+                        "_value": "Stop the increment of car insurance premium with \"No Blame\" accidents."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:17:57.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466951",
+                    "label": {
+                        "_value": "Stop the increment of car insurance premium with \"No Blame\" accidents."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468041",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T05:21:11.505Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466951",
+                    "label": {
+                        "_value": "Stop the increment of car insurance premium with \"No Blame\" accidents."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T18:28:05.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466951",
+                    "label": {
+                        "_value": "Stop the increment of car insurance premium with \"No Blame\" accidents."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

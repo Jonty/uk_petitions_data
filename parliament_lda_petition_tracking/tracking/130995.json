@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550924/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550924/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550924/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550924/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550924/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550924",
+                    "label": {
+                        "_value": "Apply diplomatic pressure to both Norway and Japan to cease killing Whales."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630571",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:30:24.623Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550924",
+                    "label": {
+                        "_value": "Apply diplomatic pressure to both Norway and Japan to cease killing Whales."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:31:02.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550924",
+                    "label": {
+                        "_value": "Apply diplomatic pressure to both Norway and Japan to cease killing Whales."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T18:19:10.013Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550924",
+                    "label": {
+                        "_value": "Apply diplomatic pressure to both Norway and Japan to cease killing Whales."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555673",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T22:54:52.336Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550924",
+                    "label": {
+                        "_value": "Apply diplomatic pressure to both Norway and Japan to cease killing Whales."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550924",
+                    "label": {
+                        "_value": "Apply diplomatic pressure to both Norway and Japan to cease killing Whales."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062013/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062013/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062013/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062013/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062013/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T13:57:26.890Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062013",
+                    "label": {
+                        "_value": "Allow objectors to appeal a planning approval decisions"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-08T07:12:02.996Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062013",
+                    "label": {
+                        "_value": "Allow objectors to appeal a planning approval decisions"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081129",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:11:18.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062013",
+                    "label": {
+                        "_value": "Allow objectors to appeal a planning approval decisions"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062884",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T12:29:49.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062013",
+                    "label": {
+                        "_value": "Allow objectors to appeal a planning approval decisions"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062014",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T17:44:45.822Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062013",
+                    "label": {
+                        "_value": "Allow objectors to appeal a planning approval decisions"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

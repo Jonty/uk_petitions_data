@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954015/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954015/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954015/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954015/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954015/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058081",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.230Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954015",
+                    "label": {
+                        "_value": "To cap tax and national insurance on wages."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004672",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-10T12:21:21.098Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954015",
+                    "label": {
+                        "_value": "To cap tax and national insurance on wages."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-18T10:47:43.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954015",
+                    "label": {
+                        "_value": "To cap tax and national insurance on wages."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-13T14:53:45.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954015",
+                    "label": {
+                        "_value": "To cap tax and national insurance on wages."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-11T10:02:22.281Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954015",
+                    "label": {
+                        "_value": "To cap tax and national insurance on wages."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954016",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T15:35:13.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954015",
+                    "label": {
+                        "_value": "To cap tax and national insurance on wages."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

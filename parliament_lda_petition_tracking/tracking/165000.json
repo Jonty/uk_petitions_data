@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/564954/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/564954/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/564954/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/564954/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/564954/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/595291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T10:23:34.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564954",
+                    "label": {
+                        "_value": "liquid vapours for e cigs to be hidden behind shutters like cigarettes"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583705",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T22:25:46.408Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564954",
+                    "label": {
+                        "_value": "liquid vapours for e cigs to be hidden behind shutters like cigarettes"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:47:27.585Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564954",
+                    "label": {
+                        "_value": "liquid vapours for e cigs to be hidden behind shutters like cigarettes"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565597",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T07:59:33.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564954",
+                    "label": {
+                        "_value": "liquid vapours for e cigs to be hidden behind shutters like cigarettes"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T20:54:44.917Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/564954",
+                    "label": {
+                        "_value": "liquid vapours for e cigs to be hidden behind shutters like cigarettes"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

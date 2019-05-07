@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463113/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463113/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463113/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463113/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463113/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463113",
+                    "label": {
+                        "_value": "Give homes and jobs to ex service men and women before giving them to immigrants"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463113",
+                    "label": {
+                        "_value": "Give homes and jobs to ex service men and women before giving them to immigrants"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T00:00:09.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463113",
+                    "label": {
+                        "_value": "Give homes and jobs to ex service men and women before giving them to immigrants"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480321",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:03:48.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463113",
+                    "label": {
+                        "_value": "Give homes and jobs to ex service men and women before giving them to immigrants"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T05:49:29.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463113",
+                    "label": {
+                        "_value": "Give homes and jobs to ex service men and women before giving them to immigrants"
+                    }
+                },
+                "numberOfSignatures": 63
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

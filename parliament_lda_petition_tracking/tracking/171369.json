@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633307/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633307/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633307/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633307/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633307/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.736Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633307",
+                    "label": {
+                        "_value": "Not new grammar schools, put the funding into high achieving comprehensives."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664998",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-21T13:23:39.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633307",
+                    "label": {
+                        "_value": "Not new grammar schools, put the funding into high achieving comprehensives."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-11T17:58:11.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633307",
+                    "label": {
+                        "_value": "Not new grammar schools, put the funding into high achieving comprehensives."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633923",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T19:34:48.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633307",
+                    "label": {
+                        "_value": "Not new grammar schools, put the funding into high achieving comprehensives."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T09:03:45.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633307",
+                    "label": {
+                        "_value": "Not new grammar schools, put the funding into high achieving comprehensives."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

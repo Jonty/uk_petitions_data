@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465073/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465073/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465073/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465073/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465073/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548982",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465073",
+                    "label": {
+                        "_value": "Stop the use of unfounded statistics in debates in the House of Commons."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503428",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:58:41.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465073",
+                    "label": {
+                        "_value": "Stop the use of unfounded statistics in debates in the House of Commons."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T23:08:27.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465073",
+                    "label": {
+                        "_value": "Stop the use of unfounded statistics in debates in the House of Commons."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T21:45:35.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465073",
+                    "label": {
+                        "_value": "Stop the use of unfounded statistics in debates in the House of Commons."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

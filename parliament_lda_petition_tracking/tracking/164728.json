@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/562357/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/562357/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/562357/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/562357/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/562357/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:31.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562357",
+                    "label": {
+                        "_value": "Amend Consumer Protection Act 1987 to include advice given by consumer experts"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T23:06:17.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562357",
+                    "label": {
+                        "_value": "Amend Consumer Protection Act 1987 to include advice given by consumer experts"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568266",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T15:44:20.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562357",
+                    "label": {
+                        "_value": "Amend Consumer Protection Act 1987 to include advice given by consumer experts"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565543",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T08:52:50.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562357",
+                    "label": {
+                        "_value": "Amend Consumer Protection Act 1987 to include advice given by consumer experts"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564897",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T18:01:28.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562357",
+                    "label": {
+                        "_value": "Amend Consumer Protection Act 1987 to include advice given by consumer experts"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T18:35:39.368Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/562357",
+                    "label": {
+                        "_value": "Amend Consumer Protection Act 1987 to include advice given by consumer experts"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

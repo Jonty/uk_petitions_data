@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/484068/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/484068/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/484068/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/484068/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/484068/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484068",
+                    "label": {
+                        "_value": "Ban the use of opinion polls in the run up to elections and referenda."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550693",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-02T11:28:12.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484068",
+                    "label": {
+                        "_value": "Ban the use of opinion polls in the run up to elections and referenda."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T13:25:54.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484068",
+                    "label": {
+                        "_value": "Ban the use of opinion polls in the run up to elections and referenda."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

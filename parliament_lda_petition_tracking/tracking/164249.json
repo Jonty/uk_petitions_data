@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558105/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558105/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558105/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558105/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558105/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/565011",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:29:33.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558105",
+                    "label": {
+                        "_value": "Introduce motorcycle licence progression training as per the 3rd EU Directive."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T15:36:29.633Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558105",
+                    "label": {
+                        "_value": "Introduce motorcycle licence progression training as per the 3rd EU Directive."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T14:18:01.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558105",
+                    "label": {
+                        "_value": "Introduce motorcycle licence progression training as per the 3rd EU Directive."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

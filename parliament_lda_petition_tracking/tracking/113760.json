@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464941/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464941/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464941/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464941/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464941/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548454",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464941",
+                    "label": {
+                        "_value": "Make it mandatory for big office buildings to have paper+plastic recycling bins."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:58:23.605Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464941",
+                    "label": {
+                        "_value": "Make it mandatory for big office buildings to have paper+plastic recycling bins."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481475",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T08:54:10.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464941",
+                    "label": {
+                        "_value": "Make it mandatory for big office buildings to have paper+plastic recycling bins."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/472173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T10:04:55.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464941",
+                    "label": {
+                        "_value": "Make it mandatory for big office buildings to have paper+plastic recycling bins."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T02:58:55.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464941",
+                    "label": {
+                        "_value": "Make it mandatory for big office buildings to have paper+plastic recycling bins."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1005538/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1005538/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1005538/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1005538/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1005538/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1034257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-01T18:00:11.591Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005538",
+                    "label": {
+                        "_value": "Ban Recruitment companies charging a percentage of your wages to process them."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-29T08:34:33.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005538",
+                    "label": {
+                        "_value": "Ban Recruitment companies charging a percentage of your wages to process them."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1029048",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-19T06:34:52.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005538",
+                    "label": {
+                        "_value": "Ban Recruitment companies charging a percentage of your wages to process them."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018052",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-29T19:16:51.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005538",
+                    "label": {
+                        "_value": "Ban Recruitment companies charging a percentage of your wages to process them."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1005539",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T19:10:23.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005538",
+                    "label": {
+                        "_value": "Ban Recruitment companies charging a percentage of your wages to process them."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

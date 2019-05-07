@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464325/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464325/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464325/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464325/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464325/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464325",
+                    "label": {
+                        "_value": "Disband the Planning Inspectorate and stop the right of appeal"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554886",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464325",
+                    "label": {
+                        "_value": "Disband the Planning Inspectorate and stop the right of appeal"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464325",
+                    "label": {
+                        "_value": "Disband the Planning Inspectorate and stop the right of appeal"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T18:31:28.753Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464325",
+                    "label": {
+                        "_value": "Disband the Planning Inspectorate and stop the right of appeal"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-06T08:08:06.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464325",
+                    "label": {
+                        "_value": "Disband the Planning Inspectorate and stop the right of appeal"
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/844633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/844633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/844633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/844633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/844633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/958839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T23:00:01.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844633",
+                    "label": {
+                        "_value": "The UK Government should provide financial aid solutions for future pilots"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-28T23:17:52.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844633",
+                    "label": {
+                        "_value": "The UK Government should provide financial aid solutions for future pilots"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T13:37:46.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844633",
+                    "label": {
+                        "_value": "The UK Government should provide financial aid solutions for future pilots"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/848316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-22T22:05:49.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844633",
+                    "label": {
+                        "_value": "The UK Government should provide financial aid solutions for future pilots"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/844634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-19T14:37:49.765Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844633",
+                    "label": {
+                        "_value": "The UK Government should provide financial aid solutions for future pilots"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

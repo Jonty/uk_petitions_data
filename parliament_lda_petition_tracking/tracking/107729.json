@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463103/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463103/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463103/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463103/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463103/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463103",
+                    "label": {
+                        "_value": "Have a UK vote on how much the govt can spend on war, aid & non-british Citizens"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463103",
+                    "label": {
+                        "_value": "Have a UK vote on how much the govt can spend on war, aid & non-british Citizens"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T00:00:13.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463103",
+                    "label": {
+                        "_value": "Have a UK vote on how much the govt can spend on war, aid & non-british Citizens"
+                    }
+                },
+                "numberOfSignatures": 64
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

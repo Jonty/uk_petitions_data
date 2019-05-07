@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/949384/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/949384/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/949384/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/949384/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/949384/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1048844",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-26T00:00:02.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949384",
+                    "label": {
+                        "_value": "All foods that contain gelatine must state what type of animal it is made from"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970458",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T19:21:28.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949384",
+                    "label": {
+                        "_value": "All foods that contain gelatine must state what type of animal it is made from"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952155",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-03T17:54:10.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949384",
+                    "label": {
+                        "_value": "All foods that contain gelatine must state what type of animal it is made from"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T19:42:58.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949384",
+                    "label": {
+                        "_value": "All foods that contain gelatine must state what type of animal it is made from"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

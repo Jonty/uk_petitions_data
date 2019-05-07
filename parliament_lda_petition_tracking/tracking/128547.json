@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550205/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550205/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550205/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550205/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550205/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/621838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550205",
+                    "label": {
+                        "_value": "Make it law that all public toilets should have baby changing facilities."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T10:26:47.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550205",
+                    "label": {
+                        "_value": "Make it law that all public toilets should have baby changing facilities."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:58:28.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550205",
+                    "label": {
+                        "_value": "Make it law that all public toilets should have baby changing facilities."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550206",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550205",
+                    "label": {
+                        "_value": "Make it law that all public toilets should have baby changing facilities."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

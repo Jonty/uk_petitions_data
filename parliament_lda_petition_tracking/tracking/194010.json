@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/721664/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/721664/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/721664/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/721664/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/721664/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:28.018Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/721664",
+                    "label": {
+                        "_value": "Ban the import and sale of all animal fur in the UK."
+                    }
+                },
+                "numberOfSignatures": 2521
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721665",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T23:12:33.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/721664",
+                    "label": {
+                        "_value": "Ban the import and sale of all animal fur in the UK."
+                    }
+                },
+                "numberOfSignatures": 1605
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

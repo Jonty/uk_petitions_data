@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1027102/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1027102/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1027102/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1027102/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1027102/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:11.620Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027102",
+                    "label": {
+                        "_value": "Recognise a day of rememberance for victims of slavery and human trafficking"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:59:13.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027102",
+                    "label": {
+                        "_value": "Recognise a day of rememberance for victims of slavery and human trafficking"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-18T12:52:03.211Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027102",
+                    "label": {
+                        "_value": "Recognise a day of rememberance for victims of slavery and human trafficking"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1031075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T22:04:35.430Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027102",
+                    "label": {
+                        "_value": "Recognise a day of rememberance for victims of slavery and human trafficking"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T21:48:38.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027102",
+                    "label": {
+                        "_value": "Recognise a day of rememberance for victims of slavery and human trafficking"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1027103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T19:58:03.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027102",
+                    "label": {
+                        "_value": "Recognise a day of rememberance for victims of slavery and human trafficking"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/661030/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/661030/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/661030/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/661030/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/661030/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728584",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.894Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661030",
+                    "label": {
+                        "_value": "Guarantee a minimum standard of contraceptive availability across the UK"
+                    }
+                },
+                "numberOfSignatures": 168
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-03T16:48:18.665Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661030",
+                    "label": {
+                        "_value": "Guarantee a minimum standard of contraceptive availability across the UK"
+                    }
+                },
+                "numberOfSignatures": 151
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T21:26:57.700Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661030",
+                    "label": {
+                        "_value": "Guarantee a minimum standard of contraceptive availability across the UK"
+                    }
+                },
+                "numberOfSignatures": 126
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/662160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-20T00:24:34.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661030",
+                    "label": {
+                        "_value": "Guarantee a minimum standard of contraceptive availability across the UK"
+                    }
+                },
+                "numberOfSignatures": 110
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661031",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T21:54:28.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/661030",
+                    "label": {
+                        "_value": "Guarantee a minimum standard of contraceptive availability across the UK"
+                    }
+                },
+                "numberOfSignatures": 91
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

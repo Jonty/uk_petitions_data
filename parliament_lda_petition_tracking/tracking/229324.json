@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/984238/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/984238/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/984238/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/984238/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/984238/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107565",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:09.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984238",
+                    "label": {
+                        "_value": "Require fire evacuation and lockdown drills in UK schools and colleges"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T00:14:42.347Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984238",
+                    "label": {
+                        "_value": "Require fire evacuation and lockdown drills in UK schools and colleges"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081125",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T17:02:13.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984238",
+                    "label": {
+                        "_value": "Require fire evacuation and lockdown drills in UK schools and colleges"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/989292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-15T20:58:25.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984238",
+                    "label": {
+                        "_value": "Require fire evacuation and lockdown drills in UK schools and colleges"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/985520",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T10:32:36.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984238",
+                    "label": {
+                        "_value": "Require fire evacuation and lockdown drills in UK schools and colleges"
+                    }
+                },
+                "numberOfSignatures": 6
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984239",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T16:19:58.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984238",
+                    "label": {
+                        "_value": "Require fire evacuation and lockdown drills in UK schools and colleges"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

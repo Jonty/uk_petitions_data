@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462839/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462839/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462839/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462839/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462839/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.896Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462839",
+                    "label": {
+                        "_value": "Stop giving Essure (a permanent method of sterilisation) on the NHS"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462839",
+                    "label": {
+                        "_value": "Stop giving Essure (a permanent method of sterilisation) on the NHS"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462839",
+                    "label": {
+                        "_value": "Stop giving Essure (a permanent method of sterilisation) on the NHS"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462840",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T09:05:14.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462839",
+                    "label": {
+                        "_value": "Stop giving Essure (a permanent method of sterilisation) on the NHS"
+                    }
+                },
+                "numberOfSignatures": 81
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

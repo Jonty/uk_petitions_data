@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548070/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548070/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548070/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548070/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548070/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.773Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548070",
+                    "label": {
+                        "_value": "more research doing into duchenne muscular dystrophy and help find a cure please"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548070",
+                    "label": {
+                        "_value": "more research doing into duchenne muscular dystrophy and help find a cure please"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T13:05:27.553Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548070",
+                    "label": {
+                        "_value": "more research doing into duchenne muscular dystrophy and help find a cure please"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548070",
+                    "label": {
+                        "_value": "more research doing into duchenne muscular dystrophy and help find a cure please"
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463119/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463119/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463119/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463119/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463119/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463119",
+                    "label": {
+                        "_value": "Change the law against the spacing of Vehicle Registration Plates."
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463119",
+                    "label": {
+                        "_value": "Change the law against the spacing of Vehicle Registration Plates."
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491990",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T23:40:38.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463119",
+                    "label": {
+                        "_value": "Change the law against the spacing of Vehicle Registration Plates."
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487802",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T18:42:54.057Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463119",
+                    "label": {
+                        "_value": "Change the law against the spacing of Vehicle Registration Plates."
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:47.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463119",
+                    "label": {
+                        "_value": "Change the law against the spacing of Vehicle Registration Plates."
+                    }
+                },
+                "numberOfSignatures": 62
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549167/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549167/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549167/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549167/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549167/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T17:08:29.346Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549167",
+                    "label": {
+                        "_value": "Both parents should have to sign off on the important decisions in a childs life"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T20:32:51.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549167",
+                    "label": {
+                        "_value": "Both parents should have to sign off on the important decisions in a childs life"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T09:58:07.336Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549167",
+                    "label": {
+                        "_value": "Both parents should have to sign off on the important decisions in a childs life"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571684",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:40:18.025Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549167",
+                    "label": {
+                        "_value": "Both parents should have to sign off on the important decisions in a childs life"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T13:51:25.675Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549167",
+                    "label": {
+                        "_value": "Both parents should have to sign off on the important decisions in a childs life"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T21:12:55.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549167",
+                    "label": {
+                        "_value": "Both parents should have to sign off on the important decisions in a childs life"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

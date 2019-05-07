@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/580187/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/580187/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/580187/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/580187/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/580187/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:41:13.300Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580187",
+                    "label": {
+                        "_value": "Make it a criminal offence for a company to keep quiet about a security breach."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597672",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T19:37:39.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580187",
+                    "label": {
+                        "_value": "Make it a criminal offence for a company to keep quiet about a security breach."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T12:25:20.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580187",
+                    "label": {
+                        "_value": "Make it a criminal offence for a company to keep quiet about a security breach."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T14:56:00.957Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580187",
+                    "label": {
+                        "_value": "Make it a criminal offence for a company to keep quiet about a security breach."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

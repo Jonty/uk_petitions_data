@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633245/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633245/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633245/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633245/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633245/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633245",
+                    "label": {
+                        "_value": "To limit fireworks to organised, licenced events before 9 at night."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651571",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:59:09.231Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633245",
+                    "label": {
+                        "_value": "To limit fireworks to organised, licenced events before 9 at night."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633886",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T22:21:47.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633245",
+                    "label": {
+                        "_value": "To limit fireworks to organised, licenced events before 9 at night."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633246",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T23:33:41.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633245",
+                    "label": {
+                        "_value": "To limit fireworks to organised, licenced events before 9 at night."
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/787600/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/787600/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/787600/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/787600/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/787600/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/902018",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-09T23:00:00.567Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787600",
+                    "label": {
+                        "_value": "Put Dropped Kerbs REQUIRED in Law into the Highways Acts, At this time it is Not"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/865040",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-15T09:46:21.736Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787600",
+                    "label": {
+                        "_value": "Put Dropped Kerbs REQUIRED in Law into the Highways Acts, At this time it is Not"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/805913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-13T00:24:08.370Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787600",
+                    "label": {
+                        "_value": "Put Dropped Kerbs REQUIRED in Law into the Highways Acts, At this time it is Not"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/791552",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-17T15:50:41.759Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787600",
+                    "label": {
+                        "_value": "Put Dropped Kerbs REQUIRED in Law into the Highways Acts, At this time it is Not"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/788170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-13T10:07:16.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787600",
+                    "label": {
+                        "_value": "Put Dropped Kerbs REQUIRED in Law into the Highways Acts, At this time it is Not"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787601",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-10T23:54:38.499Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787600",
+                    "label": {
+                        "_value": "Put Dropped Kerbs REQUIRED in Law into the Highways Acts, At this time it is Not"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

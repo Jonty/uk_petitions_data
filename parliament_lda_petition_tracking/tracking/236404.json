@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1046686/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1046686/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1046686/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1046686/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1046686/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1056519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-06T08:53:22.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1046686",
+                    "label": {
+                        "_value": "Review use of polygraph tests in Courts"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-24T13:46:21.117Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1046686",
+                    "label": {
+                        "_value": "Review use of polygraph tests in Courts"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1047523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-23T19:52:07.769Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1046686",
+                    "label": {
+                        "_value": "Review use of polygraph tests in Courts"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1046687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-22T21:05:11.694Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1046686",
+                    "label": {
+                        "_value": "Review use of polygraph tests in Courts"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

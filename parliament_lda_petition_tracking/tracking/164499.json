@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/561764/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/561764/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/561764/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/561764/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/561764/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T12:40:40.513Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561764",
+                    "label": {
+                        "_value": "A government review into the feasibility of driverless trains within the UK"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T20:22:41.538Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561764",
+                    "label": {
+                        "_value": "A government review into the feasibility of driverless trains within the UK"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T06:06:19.589Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561764",
+                    "label": {
+                        "_value": "A government review into the feasibility of driverless trains within the UK"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573321",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:34:58.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561764",
+                    "label": {
+                        "_value": "A government review into the feasibility of driverless trains within the UK"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T05:29:19.457Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561764",
+                    "label": {
+                        "_value": "A government review into the feasibility of driverless trains within the UK"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561765",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T12:10:15.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561764",
+                    "label": {
+                        "_value": "A government review into the feasibility of driverless trains within the UK"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

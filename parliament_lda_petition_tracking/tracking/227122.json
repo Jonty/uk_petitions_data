@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/960027/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/960027/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/960027/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/960027/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/960027/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076641",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T00:00:05.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960027",
+                    "label": {
+                        "_value": "UK to cut ties and impose sanctions on Pakistan until they rerun elections"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-19T22:27:54.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960027",
+                    "label": {
+                        "_value": "UK to cut ties and impose sanctions on Pakistan until they rerun elections"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T21:27:17.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960027",
+                    "label": {
+                        "_value": "UK to cut ties and impose sanctions on Pakistan until they rerun elections"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-23T15:46:38.025Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960027",
+                    "label": {
+                        "_value": "UK to cut ties and impose sanctions on Pakistan until they rerun elections"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

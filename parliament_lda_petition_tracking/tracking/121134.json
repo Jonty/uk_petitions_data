@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550979/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550979/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550979/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550979/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550979/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/647018",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550979",
+                    "label": {
+                        "_value": "Regulate rip off student accommodation companies and their extortionate prices"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573181",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:40:17.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550979",
+                    "label": {
+                        "_value": "Regulate rip off student accommodation companies and their extortionate prices"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565624",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T19:41:54.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550979",
+                    "label": {
+                        "_value": "Regulate rip off student accommodation companies and their extortionate prices"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550979",
+                    "label": {
+                        "_value": "Regulate rip off student accommodation companies and their extortionate prices"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

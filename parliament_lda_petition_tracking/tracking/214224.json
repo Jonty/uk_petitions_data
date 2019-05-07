@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/869145/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/869145/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/869145/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/869145/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/869145/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T23:00:02.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869145",
+                    "label": {
+                        "_value": "Bring Home The QE2"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T14:52:40.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869145",
+                    "label": {
+                        "_value": "Bring Home The QE2"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/885966",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-17T07:19:13.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869145",
+                    "label": {
+                        "_value": "Bring Home The QE2"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-23T17:45:22.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869145",
+                    "label": {
+                        "_value": "Bring Home The QE2"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870102",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-21T23:36:22.640Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869145",
+                    "label": {
+                        "_value": "Bring Home The QE2"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/869146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-21T21:07:04.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869145",
+                    "label": {
+                        "_value": "Bring Home The QE2"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/956231/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/956231/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/956231/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/956231/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/956231/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1061954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T00:00:02.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956231",
+                    "label": {
+                        "_value": "Make it illegal to force staff to use their own credit card for company expenses"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1031087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-22T17:53:52.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956231",
+                    "label": {
+                        "_value": "Make it illegal to force staff to use their own credit card for company expenses"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009509",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T16:46:23.623Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956231",
+                    "label": {
+                        "_value": "Make it illegal to force staff to use their own credit card for company expenses"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978157",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T06:15:18.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956231",
+                    "label": {
+                        "_value": "Make it illegal to force staff to use their own credit card for company expenses"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/961589",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-27T13:09:29.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956231",
+                    "label": {
+                        "_value": "Make it illegal to force staff to use their own credit card for company expenses"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-13T19:43:17.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956231",
+                    "label": {
+                        "_value": "Make it illegal to force staff to use their own credit card for company expenses"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549207/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549207/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549207/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549207/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549207/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549207",
+                    "label": {
+                        "_value": "Boycott the 2018 World Cup in Russia"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630463",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:17:00.521Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549207",
+                    "label": {
+                        "_value": "Boycott the 2018 World Cup in Russia"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625728",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T20:00:15.200Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549207",
+                    "label": {
+                        "_value": "Boycott the 2018 World Cup in Russia"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T15:39:28.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549207",
+                    "label": {
+                        "_value": "Boycott the 2018 World Cup in Russia"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T20:26:12.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549207",
+                    "label": {
+                        "_value": "Boycott the 2018 World Cup in Russia"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

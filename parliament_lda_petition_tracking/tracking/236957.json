@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1075970/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1075970/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1075970/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1075970/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1075970/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T07:56:19.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1075970",
+                    "label": {
+                        "_value": "Publish any research or advice on whether the referendum result is sound."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T10:13:47.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1075970",
+                    "label": {
+                        "_value": "Publish any research or advice on whether the referendum result is sound."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076609",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T20:48:33.089Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1075970",
+                    "label": {
+                        "_value": "Publish any research or advice on whether the referendum result is sound."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T06:34:17.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1075970",
+                    "label": {
+                        "_value": "Publish any research or advice on whether the referendum result is sound."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

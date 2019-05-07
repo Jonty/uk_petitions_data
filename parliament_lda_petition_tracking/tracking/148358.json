@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551874/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551874/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551874/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551874/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551874/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T09:31:10.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551874",
+                    "label": {
+                        "_value": "Debate security implications of the removal of U.K. border controls from Calais."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:30:45.609Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551874",
+                    "label": {
+                        "_value": "Debate security implications of the removal of U.K. border controls from Calais."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T15:10:13.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551874",
+                    "label": {
+                        "_value": "Debate security implications of the removal of U.K. border controls from Calais."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579353",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T13:28:16.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551874",
+                    "label": {
+                        "_value": "Debate security implications of the removal of U.K. border controls from Calais."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T09:16:23.052Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551874",
+                    "label": {
+                        "_value": "Debate security implications of the removal of U.K. border controls from Calais."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

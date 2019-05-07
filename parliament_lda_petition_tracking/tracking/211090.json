@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835839/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835839/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835839/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835839/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835839/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/951732",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-01T23:00:01.438Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835839",
+                    "label": {
+                        "_value": "Ban Admin Fees on Insurance Policies for Legal Need to report Change of Address"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-05T02:27:03.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835839",
+                    "label": {
+                        "_value": "Ban Admin Fees on Insurance Policies for Legal Need to report Change of Address"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884143",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-15T07:29:18.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835839",
+                    "label": {
+                        "_value": "Ban Admin Fees on Insurance Policies for Legal Need to report Change of Address"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/874320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-28T15:37:02.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835839",
+                    "label": {
+                        "_value": "Ban Admin Fees on Insurance Policies for Legal Need to report Change of Address"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-05T01:20:18.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835839",
+                    "label": {
+                        "_value": "Ban Admin Fees on Insurance Policies for Legal Need to report Change of Address"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835840",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-01T18:56:32.966Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835839",
+                    "label": {
+                        "_value": "Ban Admin Fees on Insurance Policies for Legal Need to report Change of Address"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

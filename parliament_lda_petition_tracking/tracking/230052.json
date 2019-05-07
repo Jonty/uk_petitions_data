@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/990108/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/990108/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/990108/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/990108/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/990108/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107564",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T17:17:31.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990108",
+                    "label": {
+                        "_value": "make it a legal requirement to inform UK phone callers the cost of phone calls"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T21:31:05.486Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990108",
+                    "label": {
+                        "_value": "make it a legal requirement to inform UK phone callers the cost of phone calls"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-27T18:24:51.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990108",
+                    "label": {
+                        "_value": "make it a legal requirement to inform UK phone callers the cost of phone calls"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/990109",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-17T10:57:40.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990108",
+                    "label": {
+                        "_value": "make it a legal requirement to inform UK phone callers the cost of phone calls"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

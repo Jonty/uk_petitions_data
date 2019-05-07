@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/557449/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/557449/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/557449/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/557449/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/557449/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/586950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T14:31:27.360Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557449",
+                    "label": {
+                        "_value": "Stop the banks from creating money from commecial debt, ending boom and bust."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T12:41:28.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557449",
+                    "label": {
+                        "_value": "Stop the banks from creating money from commecial debt, ending boom and bust."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T13:56:33.369Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557449",
+                    "label": {
+                        "_value": "Stop the banks from creating money from commecial debt, ending boom and bust."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

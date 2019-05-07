@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548018/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548018/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548018/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548018/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548018/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548018",
+                    "label": {
+                        "_value": "Require NHS Trusts to publish amounts paid for early severance etc."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548018",
+                    "label": {
+                        "_value": "Require NHS Trusts to publish amounts paid for early severance etc."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T04:25:27.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548018",
+                    "label": {
+                        "_value": "Require NHS Trusts to publish amounts paid for early severance etc."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T18:28:48.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548018",
+                    "label": {
+                        "_value": "Require NHS Trusts to publish amounts paid for early severance etc."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T20:51:48.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548018",
+                    "label": {
+                        "_value": "Require NHS Trusts to publish amounts paid for early severance etc."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T12:02:30.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548018",
+                    "label": {
+                        "_value": "Require NHS Trusts to publish amounts paid for early severance etc."
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

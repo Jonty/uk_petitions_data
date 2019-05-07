@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461809/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461809/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461809/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461809/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461809/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728102",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461809",
+                    "label": {
+                        "_value": "Governmental intentions of military action should always be taken to referendum"
+                    }
+                },
+                "numberOfSignatures": 235
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461809",
+                    "label": {
+                        "_value": "Governmental intentions of military action should always be taken to referendum"
+                    }
+                },
+                "numberOfSignatures": 235
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527522",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-04T00:00:09.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461809",
+                    "label": {
+                        "_value": "Governmental intentions of military action should always be taken to referendum"
+                    }
+                },
+                "numberOfSignatures": 235
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487671",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T18:44:40.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461809",
+                    "label": {
+                        "_value": "Governmental intentions of military action should always be taken to referendum"
+                    }
+                },
+                "numberOfSignatures": 234
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:46.381Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461809",
+                    "label": {
+                        "_value": "Governmental intentions of military action should always be taken to referendum"
+                    }
+                },
+                "numberOfSignatures": 233
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

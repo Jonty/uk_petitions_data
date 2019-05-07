@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062898/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062898/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062898/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062898/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062898/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107682",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:14.185Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062898",
+                    "label": {
+                        "_value": "Physician associate students should be able to apply for full student finance"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087689",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T04:09:42.104Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062898",
+                    "label": {
+                        "_value": "Physician associate students should be able to apply for full student finance"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085828",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:44:26.870Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062898",
+                    "label": {
+                        "_value": "Physician associate students should be able to apply for full student finance"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T09:00:47.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062898",
+                    "label": {
+                        "_value": "Physician associate students should be able to apply for full student finance"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/921747/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/921747/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/921747/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/921747/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/921747/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1024495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-12T00:00:01.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/921747",
+                    "label": {
+                        "_value": "Students doing history GCSE's should learn 5 units for History instead of 4."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-13T18:52:11.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/921747",
+                    "label": {
+                        "_value": "Students doing history GCSE's should learn 5 units for History instead of 4."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/921748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-11T20:31:16.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/921747",
+                    "label": {
+                        "_value": "Students doing history GCSE's should learn 5 units for History instead of 4."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

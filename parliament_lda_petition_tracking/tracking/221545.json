@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/922931/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/922931/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/922931/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/922931/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/922931/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1025226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-13T00:00:01.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922931",
+                    "label": {
+                        "_value": "Ensure Small/Medium Businesses have access to funds promised on Private Jobs"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930744",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T23:41:31.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922931",
+                    "label": {
+                        "_value": "Ensure Small/Medium Businesses have access to funds promised on Private Jobs"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/922932",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-12T11:15:57.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922931",
+                    "label": {
+                        "_value": "Ensure Small/Medium Businesses have access to funds promised on Private Jobs"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

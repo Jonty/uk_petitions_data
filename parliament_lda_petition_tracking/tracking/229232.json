@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/991094/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/991094/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/991094/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/991094/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/991094/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107567",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T10:01:56.330Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991094",
+                    "label": {
+                        "_value": "Impose mandatory funeral funding clause upon private pension providers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:45:01.165Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991094",
+                    "label": {
+                        "_value": "Impose mandatory funeral funding clause upon private pension providers."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T17:53:49.531Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/991094",
+                    "label": {
+                        "_value": "Impose mandatory funeral funding clause upon private pension providers."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463469/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463469/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463469/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463469/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463469/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.249Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463469",
+                    "label": {
+                        "_value": "Reduce International aid by at least 50%"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463469",
+                    "label": {
+                        "_value": "Reduce International aid by at least 50%"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490712",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T16:00:45.082Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463469",
+                    "label": {
+                        "_value": "Reduce International aid by at least 50%"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T14:30:10.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463469",
+                    "label": {
+                        "_value": "Reduce International aid by at least 50%"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463470",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T19:33:05.387Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463469",
+                    "label": {
+                        "_value": "Reduce International aid by at least 50%"
+                    }
+                },
+                "numberOfSignatures": 48
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

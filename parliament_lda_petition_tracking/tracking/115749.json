@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465295/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465295/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465295/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465295/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465295/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465295",
+                    "label": {
+                        "_value": "Overseas visitors should  be made to pay to use our health service - no excuses."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509843",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:12:55.025Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465295",
+                    "label": {
+                        "_value": "Overseas visitors should  be made to pay to use our health service - no excuses."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T18:52:14.852Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465295",
+                    "label": {
+                        "_value": "Overseas visitors should  be made to pay to use our health service - no excuses."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T20:30:48.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465295",
+                    "label": {
+                        "_value": "Overseas visitors should  be made to pay to use our health service - no excuses."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

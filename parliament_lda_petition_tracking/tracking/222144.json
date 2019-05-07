@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/929312/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/929312/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/929312/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/929312/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/929312/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1031098",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-22T00:00:06.693Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929312",
+                    "label": {
+                        "_value": "Ban Govt ministers of places where homosexuality is illegal owning UK companies"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975786",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-18T11:56:13.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929312",
+                    "label": {
+                        "_value": "Ban Govt ministers of places where homosexuality is illegal owning UK companies"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/967724",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-03T20:13:51.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929312",
+                    "label": {
+                        "_value": "Ban Govt ministers of places where homosexuality is illegal owning UK companies"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T12:49:19.920Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929312",
+                    "label": {
+                        "_value": "Ban Govt ministers of places where homosexuality is illegal owning UK companies"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-21T09:16:32.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/929312",
+                    "label": {
+                        "_value": "Ban Govt ministers of places where homosexuality is illegal owning UK companies"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

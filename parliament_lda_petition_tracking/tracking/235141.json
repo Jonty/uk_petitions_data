@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1029042/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1029042/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1029042/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1029042/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1029042/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1078194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T21:31:28.327Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1029042",
+                    "label": {
+                        "_value": "Increase the minimum wage for hgv drivers\n \n"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T00:35:14.654Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1029042",
+                    "label": {
+                        "_value": "Increase the minimum wage for hgv drivers\n \n"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T20:39:44.039Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1029042",
+                    "label": {
+                        "_value": "Increase the minimum wage for hgv drivers\n \n"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1029043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-19T17:05:49.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1029042",
+                    "label": {
+                        "_value": "Increase the minimum wage for hgv drivers\n \n"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

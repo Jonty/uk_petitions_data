@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465645/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465645/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465645/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465645/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465645/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/559906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465645",
+                    "label": {
+                        "_value": "Make tax fair - apportion multinational profit to UK based purely on salary bill"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T01:33:57.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465645",
+                    "label": {
+                        "_value": "Make tax fair - apportion multinational profit to UK based purely on salary bill"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465646",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T23:56:59.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465645",
+                    "label": {
+                        "_value": "Make tax fair - apportion multinational profit to UK based purely on salary bill"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

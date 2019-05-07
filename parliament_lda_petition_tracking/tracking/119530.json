@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/467015/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/467015/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/467015/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/467015/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/467015/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/568318",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467015",
+                    "label": {
+                        "_value": "Use ASBO's to help clean up chewing gum in public places."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551671",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467015",
+                    "label": {
+                        "_value": "Use ASBO's to help clean up chewing gum in public places."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T11:00:10.956Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467015",
+                    "label": {
+                        "_value": "Use ASBO's to help clean up chewing gum in public places."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467016",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T16:28:52.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467015",
+                    "label": {
+                        "_value": "Use ASBO's to help clean up chewing gum in public places."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

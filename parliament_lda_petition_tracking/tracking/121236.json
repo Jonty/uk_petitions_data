@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463613/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463613/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463613/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463613/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463613/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734340",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.129Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463613",
+                    "label": {
+                        "_value": "Prove that fining parents for kids' term time absence has reduced truancy rates"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463613",
+                    "label": {
+                        "_value": "Prove that fining parents for kids' term time absence has reduced truancy rates"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T11:01:28.282Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463613",
+                    "label": {
+                        "_value": "Prove that fining parents for kids' term time absence has reduced truancy rates"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547493",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463613",
+                    "label": {
+                        "_value": "Prove that fining parents for kids' term time absence has reduced truancy rates"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T23:35:34.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463613",
+                    "label": {
+                        "_value": "Prove that fining parents for kids' term time absence has reduced truancy rates"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T07:21:34.134Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463613",
+                    "label": {
+                        "_value": "Prove that fining parents for kids' term time absence has reduced truancy rates"
+                    }
+                },
+                "numberOfSignatures": 43
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465121/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465121/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465121/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465121/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465121/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465121",
+                    "label": {
+                        "_value": "Increase the pensioners income limit to \u00a342k"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:12:22.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465121",
+                    "label": {
+                        "_value": "Increase the pensioners income limit to \u00a342k"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T13:18:36.040Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465121",
+                    "label": {
+                        "_value": "Increase the pensioners income limit to \u00a342k"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T18:46:39.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465121",
+                    "label": {
+                        "_value": "Increase the pensioners income limit to \u00a342k"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466949/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466949/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466949/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466949/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466949/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/580653",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466949",
+                    "label": {
+                        "_value": "Review air quality in all airline planes cabins and cockpits-aerotoxic syndrome"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550704",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T13:31:53.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466949",
+                    "label": {
+                        "_value": "Review air quality in all airline planes cabins and cockpits-aerotoxic syndrome"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T02:45:30.429Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466949",
+                    "label": {
+                        "_value": "Review air quality in all airline planes cabins and cockpits-aerotoxic syndrome"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T19:54:29.838Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466949",
+                    "label": {
+                        "_value": "Review air quality in all airline planes cabins and cockpits-aerotoxic syndrome"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T10:53:46.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466949",
+                    "label": {
+                        "_value": "Review air quality in all airline planes cabins and cockpits-aerotoxic syndrome"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/898589/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/898589/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/898589/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/898589/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/898589/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1001851",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T00:00:00.588Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898589",
+                    "label": {
+                        "_value": "Make it a criminal offence to use lies as part of a campaign for a public vote"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T18:02:05.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898589",
+                    "label": {
+                        "_value": "Make it a criminal offence to use lies as part of a campaign for a public vote"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-06T12:11:06.049Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898589",
+                    "label": {
+                        "_value": "Make it a criminal offence to use lies as part of a campaign for a public vote"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/919881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-07T00:12:15.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898589",
+                    "label": {
+                        "_value": "Make it a criminal offence to use lies as part of a campaign for a public vote"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/912890",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-26T20:43:52.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898589",
+                    "label": {
+                        "_value": "Make it a criminal offence to use lies as part of a campaign for a public vote"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-05T07:44:11.959Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/898589",
+                    "label": {
+                        "_value": "Make it a criminal offence to use lies as part of a campaign for a public vote"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

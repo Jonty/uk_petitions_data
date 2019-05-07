@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645765/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645765/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645765/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645765/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645765/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734574",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645765",
+                    "label": {
+                        "_value": "Send aid and health trained volunteers into Aleppo to help with current crisis."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664912",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-16T08:33:31.188Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645765",
+                    "label": {
+                        "_value": "Send aid and health trained volunteers into Aleppo to help with current crisis."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659288",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T22:26:00.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645765",
+                    "label": {
+                        "_value": "Send aid and health trained volunteers into Aleppo to help with current crisis."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T10:13:11.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645765",
+                    "label": {
+                        "_value": "Send aid and health trained volunteers into Aleppo to help with current crisis."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T12:29:50.662Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645765",
+                    "label": {
+                        "_value": "Send aid and health trained volunteers into Aleppo to help with current crisis."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

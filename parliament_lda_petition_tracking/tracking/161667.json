@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547554/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547554/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547554/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547554/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547554/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:28.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547554",
+                    "label": {
+                        "_value": "Tax breaks for Arts subject tuition, for school age children."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T17:29:40.828Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547554",
+                    "label": {
+                        "_value": "Tax breaks for Arts subject tuition, for school age children."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554190",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T19:43:22.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547554",
+                    "label": {
+                        "_value": "Tax breaks for Arts subject tuition, for school age children."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T15:23:39.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547554",
+                    "label": {
+                        "_value": "Tax breaks for Arts subject tuition, for school age children."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547555",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T19:07:34.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547554",
+                    "label": {
+                        "_value": "Tax breaks for Arts subject tuition, for school age children."
+                    }
+                },
+                "numberOfSignatures": 42
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

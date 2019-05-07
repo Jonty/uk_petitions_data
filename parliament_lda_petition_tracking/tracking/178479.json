@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/682159/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/682159/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/682159/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/682159/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/682159/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727594",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:16.271Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/682159",
+                    "label": {
+                        "_value": "Ensure all premises offering Electric Vehicle Chargers enforce EV only parking."
+                    }
+                },
+                "numberOfSignatures": 361
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-06T21:00:07.857Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/682159",
+                    "label": {
+                        "_value": "Ensure all premises offering Electric Vehicle Chargers enforce EV only parking."
+                    }
+                },
+                "numberOfSignatures": 330
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/682160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-31T23:16:09.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/682159",
+                    "label": {
+                        "_value": "Ensure all premises offering Electric Vehicle Chargers enforce EV only parking."
+                    }
+                },
+                "numberOfSignatures": 271
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

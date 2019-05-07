@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1054515/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1054515/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1054515/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1054515/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1054515/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1091919",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T19:18:23.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054515",
+                    "label": {
+                        "_value": "Make Jay walking a criminal offence and save lives!"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T22:39:43.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054515",
+                    "label": {
+                        "_value": "Make Jay walking a criminal offence and save lives!"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T16:33:10.817Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054515",
+                    "label": {
+                        "_value": "Make Jay walking a criminal offence and save lives!"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1055665",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-05T00:09:22.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054515",
+                    "label": {
+                        "_value": "Make Jay walking a criminal offence and save lives!"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T16:55:31.006Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054515",
+                    "label": {
+                        "_value": "Make Jay walking a criminal offence and save lives!"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

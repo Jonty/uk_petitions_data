@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/636946/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/636946/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/636946/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/636946/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/636946/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636946",
+                    "label": {
+                        "_value": "Make the day after Remembrance Sunday a Bank Holiday to honour our Armed Forces"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T19:42:57.366Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636946",
+                    "label": {
+                        "_value": "Make the day after Remembrance Sunday a Bank Holiday to honour our Armed Forces"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T20:19:45.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636946",
+                    "label": {
+                        "_value": "Make the day after Remembrance Sunday a Bank Holiday to honour our Armed Forces"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

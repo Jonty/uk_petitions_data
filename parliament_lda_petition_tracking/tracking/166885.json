@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/586433/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/586433/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/586433/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/586433/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/586433/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.928Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586433",
+                    "label": {
+                        "_value": "all road traffic accidents with police attendance should have a written report"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T17:58:15.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586433",
+                    "label": {
+                        "_value": "all road traffic accidents with police attendance should have a written report"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T19:31:02.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586433",
+                    "label": {
+                        "_value": "all road traffic accidents with police attendance should have a written report"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T21:17:04.309Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586433",
+                    "label": {
+                        "_value": "all road traffic accidents with police attendance should have a written report"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

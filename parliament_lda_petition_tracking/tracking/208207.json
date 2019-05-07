@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/814954/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/814954/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/814954/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/814954/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/814954/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/936458",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-02T23:00:00.662Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/814954",
+                    "label": {
+                        "_value": "To have a UK referendum on the colour of the UKGB passport post Brexit."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/827236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-21T17:13:58.954Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/814954",
+                    "label": {
+                        "_value": "To have a UK referendum on the colour of the UKGB passport post Brexit."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/817584",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-05T16:21:48.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/814954",
+                    "label": {
+                        "_value": "To have a UK referendum on the colour of the UKGB passport post Brexit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/816644",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-04T20:21:39.266Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/814954",
+                    "label": {
+                        "_value": "To have a UK referendum on the colour of the UKGB passport post Brexit."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/814955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-02T14:25:39.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/814954",
+                    "label": {
+                        "_value": "To have a UK referendum on the colour of the UKGB passport post Brexit."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

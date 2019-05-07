@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492151/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492151/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492151/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492151/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492151/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592826",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492151",
+                    "label": {
+                        "_value": "Scrap the DVLA restriction to assign any age number plate to any age car"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:31:31.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492151",
+                    "label": {
+                        "_value": "Scrap the DVLA restriction to assign any age number plate to any age car"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492151",
+                    "label": {
+                        "_value": "Scrap the DVLA restriction to assign any age number plate to any age car"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T08:53:20.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492151",
+                    "label": {
+                        "_value": "Scrap the DVLA restriction to assign any age number plate to any age car"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492152",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T16:04:07.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492151",
+                    "label": {
+                        "_value": "Scrap the DVLA restriction to assign any age number plate to any age car"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

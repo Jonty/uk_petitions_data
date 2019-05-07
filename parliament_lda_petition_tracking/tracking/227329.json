@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/959642/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/959642/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/959642/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/959642/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/959642/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076206",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T00:00:02.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959642",
+                    "label": {
+                        "_value": "Impose a 3 to 5% sales tax for online every day retail purchases- exc food, hols"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1017019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-28T01:21:06.478Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959642",
+                    "label": {
+                        "_value": "Impose a 3 to 5% sales tax for online every day retail purchases- exc food, hols"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/998418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-30T08:38:56.108Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959642",
+                    "label": {
+                        "_value": "Impose a 3 to 5% sales tax for online every day retail purchases- exc food, hols"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-01T13:58:39.736Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959642",
+                    "label": {
+                        "_value": "Impose a 3 to 5% sales tax for online every day retail purchases- exc food, hols"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-22T16:30:32.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959642",
+                    "label": {
+                        "_value": "Impose a 3 to 5% sales tax for online every day retail purchases- exc food, hols"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

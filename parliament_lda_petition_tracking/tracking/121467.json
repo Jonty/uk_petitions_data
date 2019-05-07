@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462003/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462003/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462003/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462003/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462003/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462003",
+                    "label": {
+                        "_value": "A referendum keeping the NHS free for the nation at the service delivery point."
+                    }
+                },
+                "numberOfSignatures": 195
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462003",
+                    "label": {
+                        "_value": "A referendum keeping the NHS free for the nation at the service delivery point."
+                    }
+                },
+                "numberOfSignatures": 195
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T23:09:27.939Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462003",
+                    "label": {
+                        "_value": "A referendum keeping the NHS free for the nation at the service delivery point."
+                    }
+                },
+                "numberOfSignatures": 195
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527618",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-08T11:43:02.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462003",
+                    "label": {
+                        "_value": "A referendum keeping the NHS free for the nation at the service delivery point."
+                    }
+                },
+                "numberOfSignatures": 190
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/477936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T11:33:08.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462003",
+                    "label": {
+                        "_value": "A referendum keeping the NHS free for the nation at the service delivery point."
+                    }
+                },
+                "numberOfSignatures": 188
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T21:37:36.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462003",
+                    "label": {
+                        "_value": "A referendum keeping the NHS free for the nation at the service delivery point."
+                    }
+                },
+                "numberOfSignatures": 187
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

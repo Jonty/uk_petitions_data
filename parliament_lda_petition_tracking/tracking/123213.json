@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/571752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T11:46:43.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465633",
+                    "label": {
+                        "_value": "Give Ghurkas automatic citizenship."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560591",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T06:16:18.761Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465633",
+                    "label": {
+                        "_value": "Give Ghurkas automatic citizenship."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549553",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T02:14:26.212Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465633",
+                    "label": {
+                        "_value": "Give Ghurkas automatic citizenship."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T18:19:17.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465633",
+                    "label": {
+                        "_value": "Give Ghurkas automatic citizenship."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

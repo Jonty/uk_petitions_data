@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464345/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464345/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464345/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464345/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464345/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464345",
+                    "label": {
+                        "_value": "Make previous Rent payment history as a basis for mortgage assessment."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464345",
+                    "label": {
+                        "_value": "Make previous Rent payment history as a basis for mortgage assessment."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T14:53:03.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464345",
+                    "label": {
+                        "_value": "Make previous Rent payment history as a basis for mortgage assessment."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487902",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T18:31:13.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464345",
+                    "label": {
+                        "_value": "Make previous Rent payment history as a basis for mortgage assessment."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T01:21:55.795Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464345",
+                    "label": {
+                        "_value": "Make previous Rent payment history as a basis for mortgage assessment."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

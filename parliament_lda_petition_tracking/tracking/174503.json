@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655580/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655580/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655580/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655580/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655580/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734501",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655580",
+                    "label": {
+                        "_value": "Stop Govia Thameslink( GTR) from being allowed to increase fares in 2017"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T11:13:37.569Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655580",
+                    "label": {
+                        "_value": "Stop Govia Thameslink( GTR) from being allowed to increase fares in 2017"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T18:46:48.182Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655580",
+                    "label": {
+                        "_value": "Stop Govia Thameslink( GTR) from being allowed to increase fares in 2017"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T22:59:00.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655580",
+                    "label": {
+                        "_value": "Stop Govia Thameslink( GTR) from being allowed to increase fares in 2017"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

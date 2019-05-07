@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/620805/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/620805/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/620805/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/620805/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/620805/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-25T23:00:03.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620805",
+                    "label": {
+                        "_value": "Any future referendum vote on Scottish Independence must be given to all the UK."
+                    }
+                },
+                "numberOfSignatures": 512
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T18:15:15.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620805",
+                    "label": {
+                        "_value": "Any future referendum vote on Scottish Independence must be given to all the UK."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:36:45.768Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620805",
+                    "label": {
+                        "_value": "Any future referendum vote on Scottish Independence must be given to all the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T13:39:12.603Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620805",
+                    "label": {
+                        "_value": "Any future referendum vote on Scottish Independence must be given to all the UK."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T00:41:53.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620805",
+                    "label": {
+                        "_value": "Any future referendum vote on Scottish Independence must be given to all the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T19:45:44.002Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620805",
+                    "label": {
+                        "_value": "Any future referendum vote on Scottish Independence must be given to all the UK."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

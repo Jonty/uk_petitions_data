@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954041/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954041/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954041/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954041/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954041/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.270Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954041",
+                    "label": {
+                        "_value": "change  personal injury law ,  anyone injured as a child can claim with no time"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-13T17:48:07.439Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954041",
+                    "label": {
+                        "_value": "change  personal injury law ,  anyone injured as a child can claim with no time"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-12T20:58:42.594Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954041",
+                    "label": {
+                        "_value": "change  personal injury law ,  anyone injured as a child can claim with no time"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T11:51:41.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954041",
+                    "label": {
+                        "_value": "change  personal injury law ,  anyone injured as a child can claim with no time"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1052033/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1052033/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1052033/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1052033/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1052033/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T02:14:47.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052033",
+                    "label": {
+                        "_value": "Enforce LGV's to the inside lane on major dual carriageway routes at PEAK times."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:12.168Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052033",
+                    "label": {
+                        "_value": "Enforce LGV's to the inside lane on major dual carriageway routes at PEAK times."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-12T14:42:38.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052033",
+                    "label": {
+                        "_value": "Enforce LGV's to the inside lane on major dual carriageway routes at PEAK times."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-31T07:53:48.899Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052033",
+                    "label": {
+                        "_value": "Enforce LGV's to the inside lane on major dual carriageway routes at PEAK times."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1052034",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-30T21:03:35.416Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052033",
+                    "label": {
+                        "_value": "Enforce LGV's to the inside lane on major dual carriageway routes at PEAK times."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

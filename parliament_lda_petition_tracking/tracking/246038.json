@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106620/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106620/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106620/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106620/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106620/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108220",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T17:04:39.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106620",
+                    "label": {
+                        "_value": "Provide additional funding to be able to support free travel for 11-18 year olds"
+                    }
+                },
+                "numberOfSignatures": 145
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106621",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:29:52.171Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106620",
+                    "label": {
+                        "_value": "Provide additional funding to be able to support free travel for 11-18 year olds"
+                    }
+                },
+                "numberOfSignatures": 138
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

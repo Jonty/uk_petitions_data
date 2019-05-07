@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078266/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078266/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078266/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078266/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078266/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107458",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T19:58:12.923Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078266",
+                    "label": {
+                        "_value": "Raise the legal smoking age to 19 in 2019, then raise it by 1 year annually"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:11:39.031Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078266",
+                    "label": {
+                        "_value": "Raise the legal smoking age to 19 in 2019, then raise it by 1 year annually"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T15:48:53.718Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078266",
+                    "label": {
+                        "_value": "Raise the legal smoking age to 19 in 2019, then raise it by 1 year annually"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T14:59:32.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078266",
+                    "label": {
+                        "_value": "Raise the legal smoking age to 19 in 2019, then raise it by 1 year annually"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

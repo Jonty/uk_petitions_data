@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977075/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977075/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977075/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977075/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977075/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T00:00:03.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977075",
+                    "label": {
+                        "_value": "Abandon government plans to include calories on all restaurant menus"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1036090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-05T20:02:15.322Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977075",
+                    "label": {
+                        "_value": "Abandon government plans to include calories on all restaurant menus"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1032511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T21:04:23.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977075",
+                    "label": {
+                        "_value": "Abandon government plans to include calories on all restaurant menus"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/999099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-31T16:21:09.442Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977075",
+                    "label": {
+                        "_value": "Abandon government plans to include calories on all restaurant menus"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/980676",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-02T11:40:57.472Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977075",
+                    "label": {
+                        "_value": "Abandon government plans to include calories on all restaurant menus"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T15:52:35.090Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977075",
+                    "label": {
+                        "_value": "Abandon government plans to include calories on all restaurant menus"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

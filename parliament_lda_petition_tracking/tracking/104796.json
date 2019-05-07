@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459617/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459617/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459617/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459617/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459617/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/715972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:50.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459617",
+                    "label": {
+                        "_value": "Don't kill our bees! Immediately halt the use of Neonicotinoids on crops"
+                    }
+                },
+                "numberOfSignatures": 99909
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564374",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T10:36:51.496Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459617",
+                    "label": {
+                        "_value": "Don't kill our bees! Immediately halt the use of Neonicotinoids on crops"
+                    }
+                },
+                "numberOfSignatures": 99909
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529157",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459617",
+                    "label": {
+                        "_value": "Don't kill our bees! Immediately halt the use of Neonicotinoids on crops"
+                    }
+                },
+                "numberOfSignatures": 99908
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/525913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-12T11:24:19.251Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459617",
+                    "label": {
+                        "_value": "Don't kill our bees! Immediately halt the use of Neonicotinoids on crops"
+                    }
+                },
+                "numberOfSignatures": 99908
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459618",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T16:37:00.740Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459617",
+                    "label": {
+                        "_value": "Don't kill our bees! Immediately halt the use of Neonicotinoids on crops"
+                    }
+                },
+                "numberOfSignatures": 99908
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

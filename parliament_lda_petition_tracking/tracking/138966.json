@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548895/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548895/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548895/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548895/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548895/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/623235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:17:28.965Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548895",
+                    "label": {
+                        "_value": "England (w/o London) and Wales become independent and get only them out of EU"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:27:11.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548895",
+                    "label": {
+                        "_value": "England (w/o London) and Wales become independent and get only them out of EU"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T20:12:19.588Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548895",
+                    "label": {
+                        "_value": "England (w/o London) and Wales become independent and get only them out of EU"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548896",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T14:58:16.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548895",
+                    "label": {
+                        "_value": "England (w/o London) and Wales become independent and get only them out of EU"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

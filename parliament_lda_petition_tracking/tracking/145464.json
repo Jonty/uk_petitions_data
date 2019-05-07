@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548686/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548686/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548686/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548686/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548686/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.784Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548686",
+                    "label": {
+                        "_value": "All school meals in the UK to be planned and supervised by a nutritionist"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627844",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T15:09:28.051Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548686",
+                    "label": {
+                        "_value": "All school meals in the UK to be planned and supervised by a nutritionist"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T09:57:57.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548686",
+                    "label": {
+                        "_value": "All school meals in the UK to be planned and supervised by a nutritionist"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:00:39.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548686",
+                    "label": {
+                        "_value": "All school meals in the UK to be planned and supervised by a nutritionist"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T15:04:14.424Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548686",
+                    "label": {
+                        "_value": "All school meals in the UK to be planned and supervised by a nutritionist"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

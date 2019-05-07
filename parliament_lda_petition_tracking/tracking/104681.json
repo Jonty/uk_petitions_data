@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461945/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461945/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461945/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461945/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461945/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:50.032Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461945",
+                    "label": {
+                        "_value": "Abolish psychiatric electroconvulsive therapy \u2013 ECT - electroshock to the brain"
+                    }
+                },
+                "numberOfSignatures": 203
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461945",
+                    "label": {
+                        "_value": "Abolish psychiatric electroconvulsive therapy \u2013 ECT - electroshock to the brain"
+                    }
+                },
+                "numberOfSignatures": 203
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:09:09.016Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461945",
+                    "label": {
+                        "_value": "Abolish psychiatric electroconvulsive therapy \u2013 ECT - electroshock to the brain"
+                    }
+                },
+                "numberOfSignatures": 203
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

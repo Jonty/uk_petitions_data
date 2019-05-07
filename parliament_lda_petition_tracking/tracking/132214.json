@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549817/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549817/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549817/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549817/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549817/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/587401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T16:53:20.857Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549817",
+                    "label": {
+                        "_value": "Force childcare providers to cap escalating and over priced childcare costs"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549818",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T14:23:56.762Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549817",
+                    "label": {
+                        "_value": "Force childcare providers to cap escalating and over priced childcare costs"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

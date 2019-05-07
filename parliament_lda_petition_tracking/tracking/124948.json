@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482135/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482135/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482135/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482135/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482135/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/587924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482135",
+                    "label": {
+                        "_value": "Introduce other religious leaders into the house of lords to make it democratic"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549844",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482135",
+                    "label": {
+                        "_value": "Introduce other religious leaders into the house of lords to make it democratic"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482905",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T09:27:27.875Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482135",
+                    "label": {
+                        "_value": "Introduce other religious leaders into the house of lords to make it democratic"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482136",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T12:37:18.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482135",
+                    "label": {
+                        "_value": "Introduce other religious leaders into the house of lords to make it democratic"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

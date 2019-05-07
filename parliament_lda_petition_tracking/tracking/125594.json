@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/486916/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/486916/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/486916/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/486916/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/486916/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486916",
+                    "label": {
+                        "_value": "Reopen the maternity ward in Crawley Hospital"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486916",
+                    "label": {
+                        "_value": "Reopen the maternity ward in Crawley Hospital"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T19:59:55.828Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486916",
+                    "label": {
+                        "_value": "Reopen the maternity ward in Crawley Hospital"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488704",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T08:57:40.619Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486916",
+                    "label": {
+                        "_value": "Reopen the maternity ward in Crawley Hospital"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T18:13:21.101Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486916",
+                    "label": {
+                        "_value": "Reopen the maternity ward in Crawley Hospital"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486917",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T18:33:05.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486916",
+                    "label": {
+                        "_value": "Reopen the maternity ward in Crawley Hospital"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

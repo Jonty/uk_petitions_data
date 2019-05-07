@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551481/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551481/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551481/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551481/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551481/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:36:04.509Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551481",
+                    "label": {
+                        "_value": "Disallow MPs from of having secondary employment with a conflict of interest"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:23:42.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551481",
+                    "label": {
+                        "_value": "Disallow MPs from of having secondary employment with a conflict of interest"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:50:37.075Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551481",
+                    "label": {
+                        "_value": "Disallow MPs from of having secondary employment with a conflict of interest"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551482",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T14:26:37.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551481",
+                    "label": {
+                        "_value": "Disallow MPs from of having secondary employment with a conflict of interest"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

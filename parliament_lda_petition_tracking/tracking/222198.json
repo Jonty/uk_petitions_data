@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933436/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933436/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933436/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933436/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933436/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T00:00:05.783Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933436",
+                    "label": {
+                        "_value": "Fine parents who refuse to have regular contact with their children."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T14:31:19.967Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933436",
+                    "label": {
+                        "_value": "Fine parents who refuse to have regular contact with their children."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

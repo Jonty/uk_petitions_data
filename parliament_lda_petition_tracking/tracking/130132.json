@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549376/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549376/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549376/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549376/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549376/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549376",
+                    "label": {
+                        "_value": "Change the railway lines for a faster train from Weymouth to London"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T13:33:37.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549376",
+                    "label": {
+                        "_value": "Change the railway lines for a faster train from Weymouth to London"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/596712",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T20:30:49.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549376",
+                    "label": {
+                        "_value": "Change the railway lines for a faster train from Weymouth to London"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562351",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T01:25:41.860Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549376",
+                    "label": {
+                        "_value": "Change the railway lines for a faster train from Weymouth to London"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T08:38:09.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549376",
+                    "label": {
+                        "_value": "Change the railway lines for a faster train from Weymouth to London"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

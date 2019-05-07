@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464331/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464331/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464331/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464331/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464331/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735488",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464331",
+                    "label": {
+                        "_value": "Introduce Sharia-compliant student finance for Muslim students"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548155",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464331",
+                    "label": {
+                        "_value": "Introduce Sharia-compliant student finance for Muslim students"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511152",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T12:53:46.579Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464331",
+                    "label": {
+                        "_value": "Introduce Sharia-compliant student finance for Muslim students"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506052",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T18:41:53.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464331",
+                    "label": {
+                        "_value": "Introduce Sharia-compliant student finance for Muslim students"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:42.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464331",
+                    "label": {
+                        "_value": "Introduce Sharia-compliant student finance for Muslim students"
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

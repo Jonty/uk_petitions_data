@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/923870/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/923870/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/923870/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/923870/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/923870/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1025790",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-14T00:00:03.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/923870",
+                    "label": {
+                        "_value": "Create a National Roads Agency for the repair and maintenance of all roads."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009528",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T16:48:25.269Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/923870",
+                    "label": {
+                        "_value": "Create a National Roads Agency for the repair and maintenance of all roads."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-26T07:57:24.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/923870",
+                    "label": {
+                        "_value": "Create a National Roads Agency for the repair and maintenance of all roads."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/923871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-13T14:00:35.992Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/923870",
+                    "label": {
+                        "_value": "Create a National Roads Agency for the repair and maintenance of all roads."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

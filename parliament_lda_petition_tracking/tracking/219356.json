@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/902038/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/902038/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/902038/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/902038/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/902038/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1005015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-11T00:00:00.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902038",
+                    "label": {
+                        "_value": "All Mainstream Schools should have the resources to teach deaf children."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T13:02:04.482Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902038",
+                    "label": {
+                        "_value": "All Mainstream Schools should have the resources to teach deaf children."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/903305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-12T09:07:51.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902038",
+                    "label": {
+                        "_value": "All Mainstream Schools should have the resources to teach deaf children."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-11T17:47:16.429Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902038",
+                    "label": {
+                        "_value": "All Mainstream Schools should have the resources to teach deaf children."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T20:22:47.830Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902038",
+                    "label": {
+                        "_value": "All Mainstream Schools should have the resources to teach deaf children."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

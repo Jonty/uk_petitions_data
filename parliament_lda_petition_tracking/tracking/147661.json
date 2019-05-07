@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547948/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547948/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547948/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547948/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547948/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734927",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.155Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547948",
+                    "label": {
+                        "_value": "Any new Prime Minister must have the confidence of the people and Parliament"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T16:00:50.740Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547948",
+                    "label": {
+                        "_value": "Any new Prime Minister must have the confidence of the people and Parliament"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T11:38:58.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547948",
+                    "label": {
+                        "_value": "Any new Prime Minister must have the confidence of the people and Parliament"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T20:38:43.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547948",
+                    "label": {
+                        "_value": "Any new Prime Minister must have the confidence of the people and Parliament"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547949",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T13:43:19.235Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547948",
+                    "label": {
+                        "_value": "Any new Prime Minister must have the confidence of the people and Parliament"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

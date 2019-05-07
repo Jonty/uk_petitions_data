@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550448/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550448/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550448/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550448/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550448/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550448",
+                    "label": {
+                        "_value": "Make polygamy a specific criminal offence"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T21:39:37.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550448",
+                    "label": {
+                        "_value": "Make polygamy a specific criminal offence"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T06:52:26.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550448",
+                    "label": {
+                        "_value": "Make polygamy a specific criminal offence"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T07:12:47.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550448",
+                    "label": {
+                        "_value": "Make polygamy a specific criminal offence"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T07:00:39.817Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550448",
+                    "label": {
+                        "_value": "Make polygamy a specific criminal offence"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T12:58:31.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550448",
+                    "label": {
+                        "_value": "Make polygamy a specific criminal offence"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/591900/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/591900/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/591900/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/591900/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/591900/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605361",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T19:48:42.090Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591900",
+                    "label": {
+                        "_value": "increase penalties for leaving the scene of an accident in a motor vehicle"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:21:42.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591900",
+                    "label": {
+                        "_value": "increase penalties for leaving the scene of an accident in a motor vehicle"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T13:53:20.395Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591900",
+                    "label": {
+                        "_value": "increase penalties for leaving the scene of an accident in a motor vehicle"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591901",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T10:20:54.077Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591900",
+                    "label": {
+                        "_value": "increase penalties for leaving the scene of an accident in a motor vehicle"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

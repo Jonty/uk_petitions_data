@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463401/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463401/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463401/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463401/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463401/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.098Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T15:41:53.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504709",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T22:43:41.857Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T15:00:33.329Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/472875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T14:53:40.959Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T07:00:05.729Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463401",
+                    "label": {
+                        "_value": "Increase basic minimum wage to \u00a312 per hour."
+                    }
+                },
+                "numberOfSignatures": 50
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

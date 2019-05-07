@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/619964/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/619964/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/619964/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/619964/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/619964/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735266",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-24T23:00:00.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/619964",
+                    "label": {
+                        "_value": "Increase the number of years required to be eligible for UK citizenship"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630591",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:34:22.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/619964",
+                    "label": {
+                        "_value": "Increase the number of years required to be eligible for UK citizenship"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625086",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T17:58:24.906Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/619964",
+                    "label": {
+                        "_value": "Increase the number of years required to be eligible for UK citizenship"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623288",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:29:53.314Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/619964",
+                    "label": {
+                        "_value": "Increase the number of years required to be eligible for UK citizenship"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T19:45:23.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/619964",
+                    "label": {
+                        "_value": "Increase the number of years required to be eligible for UK citizenship"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T17:37:22.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/619964",
+                    "label": {
+                        "_value": "Increase the number of years required to be eligible for UK citizenship"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

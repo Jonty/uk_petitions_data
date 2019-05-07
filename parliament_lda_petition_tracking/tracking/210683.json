@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835855/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835855/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835855/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835855/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835855/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/950848",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-30T23:00:01.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835855",
+                    "label": {
+                        "_value": "Increase funding and awareness for public transport in the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T11:28:45.817Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835855",
+                    "label": {
+                        "_value": "Increase funding and awareness for public transport in the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-01T14:57:00.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835855",
+                    "label": {
+                        "_value": "Increase funding and awareness for public transport in the UK."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-24T22:31:37.740Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835855",
+                    "label": {
+                        "_value": "Increase funding and awareness for public transport in the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-05T08:36:47.491Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835855",
+                    "label": {
+                        "_value": "Increase funding and awareness for public transport in the UK."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835856",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-30T18:06:35.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835855",
+                    "label": {
+                        "_value": "Increase funding and awareness for public transport in the UK."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551102/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551102/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551102/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551102/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551102/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:06:21.050Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551102",
+                    "label": {
+                        "_value": "Make the Chilcot Enquiry free to the public instead of costing \u00a3767"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590179",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T21:40:49.172Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551102",
+                    "label": {
+                        "_value": "Make the Chilcot Enquiry free to the public instead of costing \u00a3767"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T09:09:59.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551102",
+                    "label": {
+                        "_value": "Make the Chilcot Enquiry free to the public instead of costing \u00a3767"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T16:47:07.031Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551102",
+                    "label": {
+                        "_value": "Make the Chilcot Enquiry free to the public instead of costing \u00a3767"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

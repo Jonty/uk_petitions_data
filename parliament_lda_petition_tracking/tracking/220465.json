@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/913746/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/913746/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/913746/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/913746/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/913746/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1018082",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-30T00:00:01.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913746",
+                    "label": {
+                        "_value": "Allow Left turns on red like in the USA"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003510",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T11:42:10.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913746",
+                    "label": {
+                        "_value": "Allow Left turns on red like in the USA"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991083",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T11:12:39.900Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913746",
+                    "label": {
+                        "_value": "Allow Left turns on red like in the USA"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T11:26:44.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913746",
+                    "label": {
+                        "_value": "Allow Left turns on red like in the USA"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/943661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-17T10:23:46.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913746",
+                    "label": {
+                        "_value": "Allow Left turns on red like in the USA"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913747",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T17:28:38.218Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913746",
+                    "label": {
+                        "_value": "Allow Left turns on red like in the USA"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

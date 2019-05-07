@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543104/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543104/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543104/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543104/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543104/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543104",
+                    "label": {
+                        "_value": "Reconsider increasing Asylum and immigration court fees"
+                    }
+                },
+                "numberOfSignatures": 84
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621727",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543104",
+                    "label": {
+                        "_value": "Reconsider increasing Asylum and immigration court fees"
+                    }
+                },
+                "numberOfSignatures": 84
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595196",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T02:04:24.246Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543104",
+                    "label": {
+                        "_value": "Reconsider increasing Asylum and immigration court fees"
+                    }
+                },
+                "numberOfSignatures": 84
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547201",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T13:37:11.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543104",
+                    "label": {
+                        "_value": "Reconsider increasing Asylum and immigration court fees"
+                    }
+                },
+                "numberOfSignatures": 83
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T19:35:54.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543104",
+                    "label": {
+                        "_value": "Reconsider increasing Asylum and immigration court fees"
+                    }
+                },
+                "numberOfSignatures": 82
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

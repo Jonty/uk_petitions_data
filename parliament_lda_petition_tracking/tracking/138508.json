@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549340/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549340/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549340/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549340/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549340/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T03:35:17.043Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549340",
+                    "label": {
+                        "_value": "make no cuts to Access To Work at the DWP."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T09:27:59.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549340",
+                    "label": {
+                        "_value": "make no cuts to Access To Work at the DWP."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T10:47:26.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549340",
+                    "label": {
+                        "_value": "make no cuts to Access To Work at the DWP."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T16:35:10.654Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549340",
+                    "label": {
+                        "_value": "make no cuts to Access To Work at the DWP."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

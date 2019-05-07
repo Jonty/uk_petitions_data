@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/868195/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/868195/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/868195/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/868195/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/868195/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977041",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-20T23:00:07.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868195",
+                    "label": {
+                        "_value": "The abolition of Audit total exemption for small private limited companies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-21T21:04:48.221Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868195",
+                    "label": {
+                        "_value": "The abolition of Audit total exemption for small private limited companies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T06:45:28.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868195",
+                    "label": {
+                        "_value": "The abolition of Audit total exemption for small private limited companies."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/915701",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-01T07:12:48.142Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868195",
+                    "label": {
+                        "_value": "The abolition of Audit total exemption for small private limited companies."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868196",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T12:17:34.179Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/868195",
+                    "label": {
+                        "_value": "The abolition of Audit total exemption for small private limited companies."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

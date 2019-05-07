@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547869/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547869/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547869/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547869/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547869/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.427Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547869",
+                    "label": {
+                        "_value": "Child Maintenance should not be payable whilst a custody battle is ongoing"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629527",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547869",
+                    "label": {
+                        "_value": "Child Maintenance should not be payable whilst a custody battle is ongoing"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578269",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T23:05:24.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547869",
+                    "label": {
+                        "_value": "Child Maintenance should not be payable whilst a custody battle is ongoing"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T13:37:00.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547869",
+                    "label": {
+                        "_value": "Child Maintenance should not be payable whilst a custody battle is ongoing"
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

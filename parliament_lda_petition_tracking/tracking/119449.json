@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466567/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466567/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466567/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466567/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466567/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/556305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466567",
+                    "label": {
+                        "_value": "Ban Free Pornoraphy Online. Regulate subscription Porn to safeguard under 18's"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549859",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466567",
+                    "label": {
+                        "_value": "Ban Free Pornoraphy Online. Regulate subscription Porn to safeguard under 18's"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509900",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T13:21:39.732Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466567",
+                    "label": {
+                        "_value": "Ban Free Pornoraphy Online. Regulate subscription Porn to safeguard under 18's"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506172",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T16:17:08.823Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466567",
+                    "label": {
+                        "_value": "Ban Free Pornoraphy Online. Regulate subscription Porn to safeguard under 18's"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466568",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:56.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466567",
+                    "label": {
+                        "_value": "Ban Free Pornoraphy Online. Regulate subscription Porn to safeguard under 18's"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

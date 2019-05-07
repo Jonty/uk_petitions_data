@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/946037/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/946037/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/946037/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/946037/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/946037/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1045405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-21T00:00:03.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946037",
+                    "label": {
+                        "_value": "Keep Beechen Cliff as a state school as supported by parents and pupils"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-25T19:47:33.579Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946037",
+                    "label": {
+                        "_value": "Keep Beechen Cliff as a state school as supported by parents and pupils"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T05:37:19.793Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946037",
+                    "label": {
+                        "_value": "Keep Beechen Cliff as a state school as supported by parents and pupils"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-21T09:49:34.473Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946037",
+                    "label": {
+                        "_value": "Keep Beechen Cliff as a state school as supported by parents and pupils"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T19:18:47.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/946037",
+                    "label": {
+                        "_value": "Keep Beechen Cliff as a state school as supported by parents and pupils"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

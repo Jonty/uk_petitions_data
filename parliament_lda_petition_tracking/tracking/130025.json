@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552305/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552305/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552305/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552305/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552305/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552305",
+                    "label": {
+                        "_value": "Refuse a UK visa to the rap artist known as Azealia Banks."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628014",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T10:19:59.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552305",
+                    "label": {
+                        "_value": "Refuse a UK visa to the rap artist known as Azealia Banks."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:28:13.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552305",
+                    "label": {
+                        "_value": "Refuse a UK visa to the rap artist known as Azealia Banks."
+                    }
+                },
+                "numberOfSignatures": 6
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595333",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T04:35:51.619Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552305",
+                    "label": {
+                        "_value": "Refuse a UK visa to the rap artist known as Azealia Banks."
+                    }
+                },
+                "numberOfSignatures": 5
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552305",
+                    "label": {
+                        "_value": "Refuse a UK visa to the rap artist known as Azealia Banks."
+                    }
+                },
+                "numberOfSignatures": 4
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

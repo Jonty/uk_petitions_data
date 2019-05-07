@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/559971/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/559971/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/559971/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/559971/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/559971/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T08:12:53.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559971",
+                    "label": {
+                        "_value": "All petrol/diesel pumps must display taxes taken per litre and per gallon."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636148",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T20:30:40.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559971",
+                    "label": {
+                        "_value": "All petrol/diesel pumps must display taxes taken per litre and per gallon."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624510",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T21:17:24.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559971",
+                    "label": {
+                        "_value": "All petrol/diesel pumps must display taxes taken per litre and per gallon."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:23:44.520Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559971",
+                    "label": {
+                        "_value": "All petrol/diesel pumps must display taxes taken per litre and per gallon."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T16:48:39.357Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559971",
+                    "label": {
+                        "_value": "All petrol/diesel pumps must display taxes taken per litre and per gallon."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

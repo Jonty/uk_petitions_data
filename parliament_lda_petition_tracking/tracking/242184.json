@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083326/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083326/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083326/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083326/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083326/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T22:19:24.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083326",
+                    "label": {
+                        "_value": "Urgently invest more money into mental health services\n \n"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T20:53:47.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083326",
+                    "label": {
+                        "_value": "Urgently invest more money into mental health services\n \n"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090256",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T22:32:50.285Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083326",
+                    "label": {
+                        "_value": "Urgently invest more money into mental health services\n \n"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T14:52:04.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083326",
+                    "label": {
+                        "_value": "Urgently invest more money into mental health services\n \n"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083327",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T21:44:46.754Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083326",
+                    "label": {
+                        "_value": "Urgently invest more money into mental health services\n \n"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

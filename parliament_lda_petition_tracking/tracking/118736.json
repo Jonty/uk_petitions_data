@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465209/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465209/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465209/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465209/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465209/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465209",
+                    "label": {
+                        "_value": "Plant more trees to reduce CO2 in the atmosphere"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T19:01:49.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465209",
+                    "label": {
+                        "_value": "Plant more trees to reduce CO2 in the atmosphere"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490107",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T14:51:32.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465209",
+                    "label": {
+                        "_value": "Plant more trees to reduce CO2 in the atmosphere"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T09:30:58.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465209",
+                    "label": {
+                        "_value": "Plant more trees to reduce CO2 in the atmosphere"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465210",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T13:34:48.064Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465209",
+                    "label": {
+                        "_value": "Plant more trees to reduce CO2 in the atmosphere"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

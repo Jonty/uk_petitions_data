@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/691416/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/691416/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/691416/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/691416/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/691416/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:18.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691416",
+                    "label": {
+                        "_value": "Persuade laundry appliance manufacturers to install safety sensor to save lives"
+                    }
+                },
+                "numberOfSignatures": 749
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/705043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T21:27:43.273Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691416",
+                    "label": {
+                        "_value": "Persuade laundry appliance manufacturers to install safety sensor to save lives"
+                    }
+                },
+                "numberOfSignatures": 527
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T22:40:58.991Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691416",
+                    "label": {
+                        "_value": "Persuade laundry appliance manufacturers to install safety sensor to save lives"
+                    }
+                },
+                "numberOfSignatures": 462
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

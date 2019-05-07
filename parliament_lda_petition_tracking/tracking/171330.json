@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633291/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633291/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633291/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633291/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633291/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734990",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.693Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633291",
+                    "label": {
+                        "_value": "Increase the fine on mobile phone use while driving to a minimum of \u00a310,000"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651109",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T21:02:32.975Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633291",
+                    "label": {
+                        "_value": "Increase the fine on mobile phone use while driving to a minimum of \u00a310,000"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636112",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T19:15:41.707Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633291",
+                    "label": {
+                        "_value": "Increase the fine on mobile phone use while driving to a minimum of \u00a310,000"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T21:05:49.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633291",
+                    "label": {
+                        "_value": "Increase the fine on mobile phone use while driving to a minimum of \u00a310,000"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T22:27:48.654Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633291",
+                    "label": {
+                        "_value": "Increase the fine on mobile phone use while driving to a minimum of \u00a310,000"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

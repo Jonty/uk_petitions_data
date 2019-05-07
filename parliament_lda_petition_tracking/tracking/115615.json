@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462278/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462278/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462278/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462278/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462278/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462278",
+                    "label": {
+                        "_value": "Close down petition.parliament.uk"
+                    }
+                },
+                "numberOfSignatures": 148
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538484",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462278",
+                    "label": {
+                        "_value": "Close down petition.parliament.uk"
+                    }
+                },
+                "numberOfSignatures": 148
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-15T00:00:04.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462278",
+                    "label": {
+                        "_value": "Close down petition.parliament.uk"
+                    }
+                },
+                "numberOfSignatures": 148
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T11:17:37.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462278",
+                    "label": {
+                        "_value": "Close down petition.parliament.uk"
+                    }
+                },
+                "numberOfSignatures": 144
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/469063",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T15:17:03.992Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462278",
+                    "label": {
+                        "_value": "Close down petition.parliament.uk"
+                    }
+                },
+                "numberOfSignatures": 143
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T00:10:24.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462278",
+                    "label": {
+                        "_value": "Close down petition.parliament.uk"
+                    }
+                },
+                "numberOfSignatures": 142
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

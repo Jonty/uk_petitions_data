@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/467971/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/467971/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/467971/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/467971/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/467971/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467971",
+                    "label": {
+                        "_value": "Provide the needed equipment to stop the collapse of the Mosul Dam."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:51:22.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467971",
+                    "label": {
+                        "_value": "Provide the needed equipment to stop the collapse of the Mosul Dam."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467971",
+                    "label": {
+                        "_value": "Provide the needed equipment to stop the collapse of the Mosul Dam."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/473444",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T17:34:40.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467971",
+                    "label": {
+                        "_value": "Provide the needed equipment to stop the collapse of the Mosul Dam."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T20:56:04.664Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467971",
+                    "label": {
+                        "_value": "Provide the needed equipment to stop the collapse of the Mosul Dam."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/936493/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/936493/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/936493/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/936493/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/936493/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1036094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-05T00:00:00.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936493",
+                    "label": {
+                        "_value": "Require local councils to issue parking charges by recorded delivery"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996974",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-28T08:41:28.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936493",
+                    "label": {
+                        "_value": "Require local councils to issue parking charges by recorded delivery"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-22T11:35:34.083Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936493",
+                    "label": {
+                        "_value": "Require local councils to issue parking charges by recorded delivery"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936494",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T17:02:12.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936493",
+                    "label": {
+                        "_value": "Require local councils to issue parking charges by recorded delivery"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

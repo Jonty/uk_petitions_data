@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1054537/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1054537/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1054537/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1054537/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1054537/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:09.782Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054537",
+                    "label": {
+                        "_value": "Funded places in nurseries for children with disabled parents!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:11.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054537",
+                    "label": {
+                        "_value": "Funded places in nurseries for children with disabled parents!"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T14:14:58.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054537",
+                    "label": {
+                        "_value": "Funded places in nurseries for children with disabled parents!"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1056540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-06T14:33:23.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054537",
+                    "label": {
+                        "_value": "Funded places in nurseries for children with disabled parents!"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1055681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-05T09:00:47.703Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054537",
+                    "label": {
+                        "_value": "Funded places in nurseries for children with disabled parents!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054538",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T17:52:50.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054537",
+                    "label": {
+                        "_value": "Funded places in nurseries for children with disabled parents!"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464961/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464961/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464961/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464961/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464961/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464961",
+                    "label": {
+                        "_value": "Govt to provide Met Office explanation for sharply discontinuous \u00b4con\u00b4trails."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:11:55.015Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464961",
+                    "label": {
+                        "_value": "Govt to provide Met Office explanation for sharply discontinuous \u00b4con\u00b4trails."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508867",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T14:23:20.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464961",
+                    "label": {
+                        "_value": "Govt to provide Met Office explanation for sharply discontinuous \u00b4con\u00b4trails."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T18:33:03.876Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464961",
+                    "label": {
+                        "_value": "Govt to provide Met Office explanation for sharply discontinuous \u00b4con\u00b4trails."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

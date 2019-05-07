@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/468043/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/468043/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/468043/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/468043/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/468043/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468043",
+                    "label": {
+                        "_value": "National Travel Ban on Foreign Anti-gay Officials"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568309",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T14:30:40.389Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468043",
+                    "label": {
+                        "_value": "National Travel Ban on Foreign Anti-gay Officials"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561744",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T21:43:36.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468043",
+                    "label": {
+                        "_value": "National Travel Ban on Foreign Anti-gay Officials"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551646",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468043",
+                    "label": {
+                        "_value": "National Travel Ban on Foreign Anti-gay Officials"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T13:56:46.311Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468043",
+                    "label": {
+                        "_value": "National Travel Ban on Foreign Anti-gay Officials"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T18:42:41.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468043",
+                    "label": {
+                        "_value": "National Travel Ban on Foreign Anti-gay Officials"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/998388/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/998388/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/998388/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/998388/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/998388/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1043585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T10:32:23.873Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998388",
+                    "label": {
+                        "_value": "Allow severely disabled children to remain in the care home they grew up in."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1012953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-21T21:46:31.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998388",
+                    "label": {
+                        "_value": "Allow severely disabled children to remain in the care home they grew up in."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T13:03:55.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998388",
+                    "label": {
+                        "_value": "Allow severely disabled children to remain in the care home they grew up in."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1000131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-01T20:51:22.484Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998388",
+                    "label": {
+                        "_value": "Allow severely disabled children to remain in the care home they grew up in."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/999071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-31T12:39:50.892Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998388",
+                    "label": {
+                        "_value": "Allow severely disabled children to remain in the care home they grew up in."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/998389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-30T21:08:27.928Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/998388",
+                    "label": {
+                        "_value": "Allow severely disabled children to remain in the care home they grew up in."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

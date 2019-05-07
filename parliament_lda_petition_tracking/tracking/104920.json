@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463651/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463651/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463651/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463651/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463651/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734474",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:50.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463651",
+                    "label": {
+                        "_value": "Make it illegal to have any amount of alcohol or drugs when driving."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463651",
+                    "label": {
+                        "_value": "Make it illegal to have any amount of alcohol or drugs when driving."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463652",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:09:20.443Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463651",
+                    "label": {
+                        "_value": "Make it illegal to have any amount of alcohol or drugs when driving."
+                    }
+                },
+                "numberOfSignatures": 43
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

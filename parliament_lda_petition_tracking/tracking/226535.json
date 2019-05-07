@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954032/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954032/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954032/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954032/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954032/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058096",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.375Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954032",
+                    "label": {
+                        "_value": "To make the M5 north and south bond to 4/5 lanes wide from Exeter to Bristol."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-07T16:55:14.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954032",
+                    "label": {
+                        "_value": "To make the M5 north and south bond to 4/5 lanes wide from Exeter to Bristol."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954033",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T14:20:32.943Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954032",
+                    "label": {
+                        "_value": "To make the M5 north and south bond to 4/5 lanes wide from Exeter to Bristol."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

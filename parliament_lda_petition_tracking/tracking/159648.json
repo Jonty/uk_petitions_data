@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550812/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550812/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550812/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550812/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550812/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633325",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T12:04:14.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550812",
+                    "label": {
+                        "_value": "Re-commit \u00a31 billion in funding for carbon capture and storage (CCS) technology."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550813",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T17:00:21.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550812",
+                    "label": {
+                        "_value": "Re-commit \u00a31 billion in funding for carbon capture and storage (CCS) technology."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

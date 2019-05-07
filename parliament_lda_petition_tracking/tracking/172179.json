@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640456/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640456/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640456/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640456/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640456/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640456",
+                    "label": {
+                        "_value": "Phase out LED headlights."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T18:53:17.381Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640456",
+                    "label": {
+                        "_value": "Phase out LED headlights."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/647042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T13:42:00.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640456",
+                    "label": {
+                        "_value": "Phase out LED headlights."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T16:08:44.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640456",
+                    "label": {
+                        "_value": "Phase out LED headlights."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

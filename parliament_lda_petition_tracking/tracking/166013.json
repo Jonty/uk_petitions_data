@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/573105/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/573105/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/573105/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/573105/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/573105/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/578309",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T19:46:59.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573105",
+                    "label": {
+                        "_value": "Make patent infringement a criminal offence in the UK."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T20:18:38.647Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573105",
+                    "label": {
+                        "_value": "Make patent infringement a criminal offence in the UK."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574974",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T14:47:55.606Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573105",
+                    "label": {
+                        "_value": "Make patent infringement a criminal offence in the UK."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T20:38:03.971Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573105",
+                    "label": {
+                        "_value": "Make patent infringement a criminal offence in the UK."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/787680/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/787680/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/787680/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/787680/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/787680/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/902032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-09T23:00:00.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787680",
+                    "label": {
+                        "_value": "Make the purchase of fireworks without a permit & I.D illegal."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-28T12:53:36.442Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787680",
+                    "label": {
+                        "_value": "Make the purchase of fireworks without a permit & I.D illegal."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/827818",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-22T00:06:04.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787680",
+                    "label": {
+                        "_value": "Make the purchase of fireworks without a permit & I.D illegal."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/814590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-01T20:41:12.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787680",
+                    "label": {
+                        "_value": "Make the purchase of fireworks without a permit & I.D illegal."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/805943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-13T00:49:30.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787680",
+                    "label": {
+                        "_value": "Make the purchase of fireworks without a permit & I.D illegal."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-10T07:45:50.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787680",
+                    "label": {
+                        "_value": "Make the purchase of fireworks without a permit & I.D illegal."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

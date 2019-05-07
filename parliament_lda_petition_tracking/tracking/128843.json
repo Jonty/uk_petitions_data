@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549233/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549233/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549233/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549233/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549233/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549233",
+                    "label": {
+                        "_value": "Ban diesel fuel! We deserve cleaner air."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:51:29.692Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549233",
+                    "label": {
+                        "_value": "Ban diesel fuel! We deserve cleaner air."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590147",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T20:52:43.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549233",
+                    "label": {
+                        "_value": "Ban diesel fuel! We deserve cleaner air."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:01:20.347Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549233",
+                    "label": {
+                        "_value": "Ban diesel fuel! We deserve cleaner air."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:48:01.671Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549233",
+                    "label": {
+                        "_value": "Ban diesel fuel! We deserve cleaner air."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T01:10:19.342Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549233",
+                    "label": {
+                        "_value": "Ban diesel fuel! We deserve cleaner air."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

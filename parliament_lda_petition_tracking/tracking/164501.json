@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558687/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558687/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558687/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558687/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558687/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T13:11:02.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558687",
+                    "label": {
+                        "_value": "Make it law to give bespoke acknowledgment & feedback to every job application"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T09:24:49.765Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558687",
+                    "label": {
+                        "_value": "Make it law to give bespoke acknowledgment & feedback to every job application"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T07:46:59.049Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558687",
+                    "label": {
+                        "_value": "Make it law to give bespoke acknowledgment & feedback to every job application"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T20:58:45.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558687",
+                    "label": {
+                        "_value": "Make it law to give bespoke acknowledgment & feedback to every job application"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558688",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T15:29:52.443Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558687",
+                    "label": {
+                        "_value": "Make it law to give bespoke acknowledgment & feedback to every job application"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

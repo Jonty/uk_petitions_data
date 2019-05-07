@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/910050/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/910050/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/910050/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/910050/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/910050/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1012982",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-22T00:00:04.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910050",
+                    "label": {
+                        "_value": "Improve school lunch standards to ensure all children eat lunch"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975082",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-16T14:45:01.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910050",
+                    "label": {
+                        "_value": "Improve school lunch standards to ensure all children eat lunch"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T15:56:51.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910050",
+                    "label": {
+                        "_value": "Improve school lunch standards to ensure all children eat lunch"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-05T13:00:11.740Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910050",
+                    "label": {
+                        "_value": "Improve school lunch standards to ensure all children eat lunch"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936473",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T09:58:02.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910050",
+                    "label": {
+                        "_value": "Improve school lunch standards to ensure all children eat lunch"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/910051",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-21T22:40:46.804Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910050",
+                    "label": {
+                        "_value": "Improve school lunch standards to ensure all children eat lunch"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463665/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463665/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463665/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463665/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463665/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734287",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.858Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463665",
+                    "label": {
+                        "_value": "Ex military personnel to hold firearms for defence against terrorist attacks."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547420",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463665",
+                    "label": {
+                        "_value": "Ex military personnel to hold firearms for defence against terrorist attacks."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T11:01:06.734Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463665",
+                    "label": {
+                        "_value": "Ex military personnel to hold firearms for defence against terrorist attacks."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489314",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T11:32:12.747Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463665",
+                    "label": {
+                        "_value": "Ex military personnel to hold firearms for defence against terrorist attacks."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486777",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T19:44:39.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463665",
+                    "label": {
+                        "_value": "Ex military personnel to hold firearms for defence against terrorist attacks."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-06T15:54:19.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463665",
+                    "label": {
+                        "_value": "Ex military personnel to hold firearms for defence against terrorist attacks."
+                    }
+                },
+                "numberOfSignatures": 42
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

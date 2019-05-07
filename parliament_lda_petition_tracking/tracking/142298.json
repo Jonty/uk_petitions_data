@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550139/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550139/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550139/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550139/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550139/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T12:56:55.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550139",
+                    "label": {
+                        "_value": "Free public transport for teenagers."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572491",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:39:38.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550139",
+                    "label": {
+                        "_value": "Free public transport for teenagers."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T18:37:14.562Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550139",
+                    "label": {
+                        "_value": "Free public transport for teenagers."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

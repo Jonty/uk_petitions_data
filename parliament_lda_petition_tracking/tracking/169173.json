@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/606529/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/606529/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/606529/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/606529/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/606529/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-19T23:00:04.140Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606529",
+                    "label": {
+                        "_value": "Create a national database to check who has a current DBS certificate."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T07:21:48.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606529",
+                    "label": {
+                        "_value": "Create a national database to check who has a current DBS certificate."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T14:18:23.083Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606529",
+                    "label": {
+                        "_value": "Create a national database to check who has a current DBS certificate."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T08:01:02.155Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606529",
+                    "label": {
+                        "_value": "Create a national database to check who has a current DBS certificate."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/607356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T19:58:31.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606529",
+                    "label": {
+                        "_value": "Create a national database to check who has a current DBS certificate."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606530",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T20:51:10.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606529",
+                    "label": {
+                        "_value": "Create a national database to check who has a current DBS certificate."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

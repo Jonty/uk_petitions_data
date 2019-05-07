@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461939/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461939/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461939/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461939/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461939/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728293",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.269Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461939",
+                    "label": {
+                        "_value": "Stop the tethering of Horses, Ponies and Donkies."
+                    }
+                },
+                "numberOfSignatures": 205
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461939",
+                    "label": {
+                        "_value": "Stop the tethering of Horses, Ponies and Donkies."
+                    }
+                },
+                "numberOfSignatures": 205
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467729",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T00:00:04.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461939",
+                    "label": {
+                        "_value": "Stop the tethering of Horses, Ponies and Donkies."
+                    }
+                },
+                "numberOfSignatures": 205
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T05:39:21.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461939",
+                    "label": {
+                        "_value": "Stop the tethering of Horses, Ponies and Donkies."
+                    }
+                },
+                "numberOfSignatures": 205
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841170/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841170/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841170/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841170/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841170/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/954882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-09T23:00:02.615Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841170",
+                    "label": {
+                        "_value": "British Citizens must be subject to UK taxation wherever they live in the world"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930275",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T11:28:35.654Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841170",
+                    "label": {
+                        "_value": "British Citizens must be subject to UK taxation wherever they live in the world"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884842",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T08:27:32.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841170",
+                    "label": {
+                        "_value": "British Citizens must be subject to UK taxation wherever they live in the world"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-24T22:49:38.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841170",
+                    "label": {
+                        "_value": "British Citizens must be subject to UK taxation wherever they live in the world"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841171",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-11T23:04:35.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841170",
+                    "label": {
+                        "_value": "British Citizens must be subject to UK taxation wherever they live in the world"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/576204/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/576204/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/576204/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/576204/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/576204/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:36:25.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576204",
+                    "label": {
+                        "_value": "Charge those who misuse public services through drink or drug abuse."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599744",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T19:46:37.447Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576204",
+                    "label": {
+                        "_value": "Charge those who misuse public services through drink or drug abuse."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T11:15:11.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576204",
+                    "label": {
+                        "_value": "Charge those who misuse public services through drink or drug abuse."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T17:11:31.567Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576204",
+                    "label": {
+                        "_value": "Charge those who misuse public services through drink or drug abuse."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T17:46:26.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576204",
+                    "label": {
+                        "_value": "Charge those who misuse public services through drink or drug abuse."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

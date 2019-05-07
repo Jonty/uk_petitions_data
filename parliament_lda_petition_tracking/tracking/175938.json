@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/666217/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/666217/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/666217/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/666217/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/666217/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/666217",
+                    "label": {
+                        "_value": "Make individuals' contributions to the DFID International Aid budget voluntary"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T17:17:52.276Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/666217",
+                    "label": {
+                        "_value": "Make individuals' contributions to the DFID International Aid budget voluntary"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1021486/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1021486/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1021486/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1021486/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1021486/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107145",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:10.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021486",
+                    "label": {
+                        "_value": "Make CCTV mandatory in car parks"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T00:37:07.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021486",
+                    "label": {
+                        "_value": "Make CCTV mandatory in car parks"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1046645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-22T04:46:55.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021486",
+                    "label": {
+                        "_value": "Make CCTV mandatory in car parks"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1027080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T15:09:58.490Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021486",
+                    "label": {
+                        "_value": "Make CCTV mandatory in car parks"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1022338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-09T03:32:03.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021486",
+                    "label": {
+                        "_value": "Make CCTV mandatory in car parks"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-07T07:51:34.948Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021486",
+                    "label": {
+                        "_value": "Make CCTV mandatory in car parks"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

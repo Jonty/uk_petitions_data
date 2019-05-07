@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/468049/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/468049/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/468049/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/468049/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/468049/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581877",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468049",
+                    "label": {
+                        "_value": "Make Parking free for doctors in NHS."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468049",
+                    "label": {
+                        "_value": "Make Parking free for doctors in NHS."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/471516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T06:25:28.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468049",
+                    "label": {
+                        "_value": "Make Parking free for doctors in NHS."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/469431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T17:51:40.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468049",
+                    "label": {
+                        "_value": "Make Parking free for doctors in NHS."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T18:34:03.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468049",
+                    "label": {
+                        "_value": "Make Parking free for doctors in NHS."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

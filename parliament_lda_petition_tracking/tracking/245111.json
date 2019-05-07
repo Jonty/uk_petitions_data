@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091912/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091912/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091912/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091912/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091912/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T23:03:20.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091912",
+                    "label": {
+                        "_value": "Introduce super visa category for parents of British citizens"
+                    }
+                },
+                "numberOfSignatures": 1568
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T23:28:33.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091912",
+                    "label": {
+                        "_value": "Introduce super visa category for parents of British citizens"
+                    }
+                },
+                "numberOfSignatures": 1249
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093992",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091912",
+                    "label": {
+                        "_value": "Introduce super visa category for parents of British citizens"
+                    }
+                },
+                "numberOfSignatures": 61
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T08:22:01.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091912",
+                    "label": {
+                        "_value": "Introduce super visa category for parents of British citizens"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T21:56:41.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091912",
+                    "label": {
+                        "_value": "Introduce super visa category for parents of British citizens"
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

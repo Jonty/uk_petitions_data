@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492101/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492101/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492101/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492101/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492101/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:14.337Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567701",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T01:49:59.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T12:13:59.065Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503424",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T08:53:26.948Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492102",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T17:54:57.921Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492101",
+                    "label": {
+                        "_value": "Independent public enquiry to investigate the decision to cut ESA by DWP."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

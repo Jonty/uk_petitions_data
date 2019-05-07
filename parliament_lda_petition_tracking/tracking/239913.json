@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078211/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078211/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078211/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078211/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078211/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:11:37.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078211",
+                    "label": {
+                        "_value": "Place a Fair charge \u00a320.00 Cap on Council PCN charges"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T22:15:30.874Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078211",
+                    "label": {
+                        "_value": "Place a Fair charge \u00a320.00 Cap on Council PCN charges"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081101",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:40:46.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078211",
+                    "label": {
+                        "_value": "Place a Fair charge \u00a320.00 Cap on Council PCN charges"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T19:17:29.870Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078211",
+                    "label": {
+                        "_value": "Place a Fair charge \u00a320.00 Cap on Council PCN charges"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078212",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T17:28:45.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078211",
+                    "label": {
+                        "_value": "Place a Fair charge \u00a320.00 Cap on Council PCN charges"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/842179/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/842179/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/842179/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/842179/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/842179/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/957350",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-15T23:00:05.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/842179",
+                    "label": {
+                        "_value": "International British Medical Students should be funded by the Government (SFE)."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/869138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T22:29:35.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/842179",
+                    "label": {
+                        "_value": "International British Medical Students should be funded by the Government (SFE)."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-04T14:03:35.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/842179",
+                    "label": {
+                        "_value": "International British Medical Students should be funded by the Government (SFE)."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/842659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-16T02:38:27.233Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/842179",
+                    "label": {
+                        "_value": "International British Medical Students should be funded by the Government (SFE)."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/842180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-15T12:06:08.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/842179",
+                    "label": {
+                        "_value": "International British Medical Students should be funded by the Government (SFE)."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

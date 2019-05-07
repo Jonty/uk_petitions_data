@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/606521/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/606521/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/606521/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/606521/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/606521/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645742",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:19:14.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606521",
+                    "label": {
+                        "_value": "Justice for children. Tougher prison sentences for paedophiles, 15 years minimum"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T22:33:37.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606521",
+                    "label": {
+                        "_value": "Justice for children. Tougher prison sentences for paedophiles, 15 years minimum"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T23:46:19.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606521",
+                    "label": {
+                        "_value": "Justice for children. Tougher prison sentences for paedophiles, 15 years minimum"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T19:42:31.515Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606521",
+                    "label": {
+                        "_value": "Justice for children. Tougher prison sentences for paedophiles, 15 years minimum"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606522",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T16:32:25.558Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606521",
+                    "label": {
+                        "_value": "Justice for children. Tougher prison sentences for paedophiles, 15 years minimum"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

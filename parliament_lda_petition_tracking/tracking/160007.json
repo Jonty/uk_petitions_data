@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549302/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549302/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549302/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549302/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549302/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:13:43.807Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549302",
+                    "label": {
+                        "_value": "To prevent women from serving in frontline infantry units"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T15:01:45.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549302",
+                    "label": {
+                        "_value": "To prevent women from serving in frontline infantry units"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T06:22:50.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549302",
+                    "label": {
+                        "_value": "To prevent women from serving in frontline infantry units"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T15:00:22.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549302",
+                    "label": {
+                        "_value": "To prevent women from serving in frontline infantry units"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560587",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T06:13:08.945Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549302",
+                    "label": {
+                        "_value": "To prevent women from serving in frontline infantry units"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T16:47:46.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549302",
+                    "label": {
+                        "_value": "To prevent women from serving in frontline infantry units"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

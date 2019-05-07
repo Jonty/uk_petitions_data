@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/860512/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/860512/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/860512/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/860512/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/860512/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/973861",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T23:00:08.703Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860512",
+                    "label": {
+                        "_value": "Reform the law on incarcerating drug addicts, introducing harm reduction clinics"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-29T08:53:55.969Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860512",
+                    "label": {
+                        "_value": "Reform the law on incarcerating drug addicts, introducing harm reduction clinics"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/919882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-07T00:12:05.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860512",
+                    "label": {
+                        "_value": "Reform the law on incarcerating drug addicts, introducing harm reduction clinics"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/873400",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-27T16:19:24.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860512",
+                    "label": {
+                        "_value": "Reform the law on incarcerating drug addicts, introducing harm reduction clinics"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/862878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-14T09:39:19.373Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860512",
+                    "label": {
+                        "_value": "Reform the law on incarcerating drug addicts, introducing harm reduction clinics"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/860513",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-12T20:34:04.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860512",
+                    "label": {
+                        "_value": "Reform the law on incarcerating drug addicts, introducing harm reduction clinics"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

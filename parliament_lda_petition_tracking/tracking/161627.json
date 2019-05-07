@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551772/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551772/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551772/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551772/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551772/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:42:12.105Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551772",
+                    "label": {
+                        "_value": "Increase the UK's military response against ISIS"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T18:08:55.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551772",
+                    "label": {
+                        "_value": "Increase the UK's military response against ISIS"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T19:30:20.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551772",
+                    "label": {
+                        "_value": "Increase the UK's military response against ISIS"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551773",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T22:47:11.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551772",
+                    "label": {
+                        "_value": "Increase the UK's military response against ISIS"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

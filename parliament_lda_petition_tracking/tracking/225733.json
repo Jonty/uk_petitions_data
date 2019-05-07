@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/950819/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/950819/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/950819/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/950819/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/950819/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1053049",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T00:00:06.009Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950819",
+                    "label": {
+                        "_value": "Make all goods vehicles to have speed limiters set at the national speed limit"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978918",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-28T19:20:57.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950819",
+                    "label": {
+                        "_value": "Make all goods vehicles to have speed limiters set at the national speed limit"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952139",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-03T10:35:18.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950819",
+                    "label": {
+                        "_value": "Make all goods vehicles to have speed limiters set at the national speed limit"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951711",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-02T01:05:54.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950819",
+                    "label": {
+                        "_value": "Make all goods vehicles to have speed limiters set at the national speed limit"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/950820",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-31T09:52:43.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/950819",
+                    "label": {
+                        "_value": "Make all goods vehicles to have speed limiters set at the national speed limit"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

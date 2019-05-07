@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633258/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633258/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633258/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633258/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633258/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633258",
+                    "label": {
+                        "_value": "Make humira free to patients with the eye condition uvietus"
+                    }
+                },
+                "numberOfSignatures": 176
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636081",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T09:26:03.823Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633258",
+                    "label": {
+                        "_value": "Make humira free to patients with the eye condition uvietus"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T10:15:49.413Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633258",
+                    "label": {
+                        "_value": "Make humira free to patients with the eye condition uvietus"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633893",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T15:36:05.941Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633258",
+                    "label": {
+                        "_value": "Make humira free to patients with the eye condition uvietus"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T21:51:08.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633258",
+                    "label": {
+                        "_value": "Make humira free to patients with the eye condition uvietus"
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/593378/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/593378/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/593378/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/593378/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/593378/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T16:49:06.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593378",
+                    "label": {
+                        "_value": "Stop development of new fossil fuel reserves to comply with the Paris agreement."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/593379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-03T14:21:59.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593378",
+                    "label": {
+                        "_value": "Stop development of new fossil fuel reserves to comply with the Paris agreement."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

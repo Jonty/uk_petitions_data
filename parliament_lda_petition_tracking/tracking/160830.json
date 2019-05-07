@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549781/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549781/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549781/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549781/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549781/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T08:20:57.600Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549781",
+                    "label": {
+                        "_value": "Non paying parents living partners income should be taken in to consideration"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602595",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T16:30:43.032Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549781",
+                    "label": {
+                        "_value": "Non paying parents living partners income should be taken in to consideration"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T11:30:31.466Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549781",
+                    "label": {
+                        "_value": "Non paying parents living partners income should be taken in to consideration"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T00:32:04.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549781",
+                    "label": {
+                        "_value": "Non paying parents living partners income should be taken in to consideration"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571773",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:14:21.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549781",
+                    "label": {
+                        "_value": "Non paying parents living partners income should be taken in to consideration"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T15:00:53.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549781",
+                    "label": {
+                        "_value": "Non paying parents living partners income should be taken in to consideration"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

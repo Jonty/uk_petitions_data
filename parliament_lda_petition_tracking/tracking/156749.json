@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549163/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549163/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549163/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549163/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549163/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:48:36.148Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549163",
+                    "label": {
+                        "_value": "Secure permanent right to reside in the UK for any NHS employee on 23/06/16."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:28:54.383Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549163",
+                    "label": {
+                        "_value": "Secure permanent right to reside in the UK for any NHS employee on 23/06/16."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549164",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T13:28:04.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549163",
+                    "label": {
+                        "_value": "Secure permanent right to reside in the UK for any NHS employee on 23/06/16."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

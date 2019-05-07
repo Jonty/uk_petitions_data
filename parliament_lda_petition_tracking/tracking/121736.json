@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466787/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466787/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466787/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466787/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466787/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466787",
+                    "label": {
+                        "_value": "Save Stoke-on-Trent train station to keep it where it is!"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:33:12.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466787",
+                    "label": {
+                        "_value": "Save Stoke-on-Trent train station to keep it where it is!"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:54.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466787",
+                    "label": {
+                        "_value": "Save Stoke-on-Trent train station to keep it where it is!"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

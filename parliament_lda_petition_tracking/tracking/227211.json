@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/959617/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/959617/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/959617/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/959617/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/959617/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076006",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T00:00:02.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959617",
+                    "label": {
+                        "_value": "Change Marriage Allowance to include cohabiting couples"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-25T15:14:45.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959617",
+                    "label": {
+                        "_value": "Change Marriage Allowance to include cohabiting couples"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959618",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-22T13:06:46.826Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/959617",
+                    "label": {
+                        "_value": "Change Marriage Allowance to include cohabiting couples"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

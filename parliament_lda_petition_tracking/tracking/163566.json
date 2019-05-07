@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553576/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553576/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553576/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553576/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553576/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/575055",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T17:36:00.453Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553576",
+                    "label": {
+                        "_value": "Investigate the fiscal soundness of every PFI contract current in the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T17:13:54.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553576",
+                    "label": {
+                        "_value": "Investigate the fiscal soundness of every PFI contract current in the UK."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

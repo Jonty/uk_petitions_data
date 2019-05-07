@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464159/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464159/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464159/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464159/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464159/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.198Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464159",
+                    "label": {
+                        "_value": "No more laws / rules to be changed to suit the EU until AFTER an EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547451",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464159",
+                    "label": {
+                        "_value": "No more laws / rules to be changed to suit the EU until AFTER an EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:10:35.860Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464159",
+                    "label": {
+                        "_value": "No more laws / rules to be changed to suit the EU until AFTER an EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T07:24:51.352Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464159",
+                    "label": {
+                        "_value": "No more laws / rules to be changed to suit the EU until AFTER an EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T19:43:10.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464159",
+                    "label": {
+                        "_value": "No more laws / rules to be changed to suit the EU until AFTER an EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T20:47:22.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464159",
+                    "label": {
+                        "_value": "No more laws / rules to be changed to suit the EU until AFTER an EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

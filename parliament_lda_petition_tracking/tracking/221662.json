@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/922942/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/922942/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/922942/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/922942/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/922942/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1025233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-13T00:00:01.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922942",
+                    "label": {
+                        "_value": "Fine people who call 999 or show up to A&E without life threatening problems."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1012079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-20T21:42:21.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922942",
+                    "label": {
+                        "_value": "Fine people who call 999 or show up to A&E without life threatening problems."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003493",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T11:54:48.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922942",
+                    "label": {
+                        "_value": "Fine people who call 999 or show up to A&E without life threatening problems."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/922943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-12T19:03:12.932Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/922942",
+                    "label": {
+                        "_value": "Fine people who call 999 or show up to A&E without life threatening problems."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

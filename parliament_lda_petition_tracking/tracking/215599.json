@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/872213/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/872213/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/872213/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/872213/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/872213/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/978572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T23:00:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872213",
+                    "label": {
+                        "_value": "Cap the price of private and university owned student accommodation"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-07T15:50:23.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872213",
+                    "label": {
+                        "_value": "Cap the price of private and university owned student accommodation"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-30T01:00:16.994Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872213",
+                    "label": {
+                        "_value": "Cap the price of private and university owned student accommodation"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T23:38:37.157Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872213",
+                    "label": {
+                        "_value": "Cap the price of private and university owned student accommodation"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913743",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T15:30:21.275Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872213",
+                    "label": {
+                        "_value": "Cap the price of private and university owned student accommodation"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/872214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-26T09:27:42.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872213",
+                    "label": {
+                        "_value": "Cap the price of private and university owned student accommodation"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

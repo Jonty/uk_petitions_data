@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/630464/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/630464/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/630464/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/630464/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/630464/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735560",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630464",
+                    "label": {
+                        "_value": "Allow our FIREFIGHTERS to use seized & impounded vehicles for training purposes."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T17:02:44.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630464",
+                    "label": {
+                        "_value": "Allow our FIREFIGHTERS to use seized & impounded vehicles for training purposes."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645672",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T08:51:30.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630464",
+                    "label": {
+                        "_value": "Allow our FIREFIGHTERS to use seized & impounded vehicles for training purposes."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T20:33:57.476Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630464",
+                    "label": {
+                        "_value": "Allow our FIREFIGHTERS to use seized & impounded vehicles for training purposes."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

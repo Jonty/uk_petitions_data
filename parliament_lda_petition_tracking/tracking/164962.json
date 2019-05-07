@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/565004/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/565004/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/565004/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/565004/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/565004/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T16:17:33.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565004",
+                    "label": {
+                        "_value": "Increase the restriction speed for 50cc mopeds to 60mph"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T03:21:14.906Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565004",
+                    "label": {
+                        "_value": "Increase the restriction speed for 50cc mopeds to 60mph"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T01:03:40.021Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565004",
+                    "label": {
+                        "_value": "Increase the restriction speed for 50cc mopeds to 60mph"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T11:24:14.790Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565004",
+                    "label": {
+                        "_value": "Increase the restriction speed for 50cc mopeds to 60mph"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565005",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T12:02:16.952Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565004",
+                    "label": {
+                        "_value": "Increase the restriction speed for 50cc mopeds to 60mph"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

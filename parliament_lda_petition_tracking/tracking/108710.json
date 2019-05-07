@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462589/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462589/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462589/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462589/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462589/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462589",
+                    "label": {
+                        "_value": "Make spanking children (corporal punishment) illegal."
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538759",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462589",
+                    "label": {
+                        "_value": "Make spanking children (corporal punishment) illegal."
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T00:00:12.839Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462589",
+                    "label": {
+                        "_value": "Make spanking children (corporal punishment) illegal."
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T10:25:37.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462589",
+                    "label": {
+                        "_value": "Make spanking children (corporal punishment) illegal."
+                    }
+                },
+                "numberOfSignatures": 104
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

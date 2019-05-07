@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466449/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466449/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466449/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466449/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466449/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550741",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466449",
+                    "label": {
+                        "_value": "The use of Sainte-Lagu\u00eb method to conduct future general elections."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T10:48:32.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466449",
+                    "label": {
+                        "_value": "The use of Sainte-Lagu\u00eb method to conduct future general elections."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480515",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:08:58.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466449",
+                    "label": {
+                        "_value": "The use of Sainte-Lagu\u00eb method to conduct future general elections."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:13:39.374Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466449",
+                    "label": {
+                        "_value": "The use of Sainte-Lagu\u00eb method to conduct future general elections."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

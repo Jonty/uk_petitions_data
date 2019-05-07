@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/691378/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/691378/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/691378/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/691378/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/691378/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:13.829Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691378",
+                    "label": {
+                        "_value": "Install an electric vehicle charging point in every town and village in the uk"
+                    }
+                },
+                "numberOfSignatures": 808
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/705039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T21:51:21.397Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691378",
+                    "label": {
+                        "_value": "Install an electric vehicle charging point in every town and village in the uk"
+                    }
+                },
+                "numberOfSignatures": 533
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T06:52:50.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691378",
+                    "label": {
+                        "_value": "Install an electric vehicle charging point in every town and village in the uk"
+                    }
+                },
+                "numberOfSignatures": 521
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

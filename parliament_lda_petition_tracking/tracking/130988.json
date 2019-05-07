@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548417/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548417/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548417/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548417/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548417/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735594",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.999Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548417",
+                    "label": {
+                        "_value": "One copy of the British Bill of Rights for every household."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548417",
+                    "label": {
+                        "_value": "One copy of the British Bill of Rights for every household."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T14:33:43.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548417",
+                    "label": {
+                        "_value": "One copy of the British Bill of Rights for every household."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564896",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T17:28:37.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548417",
+                    "label": {
+                        "_value": "One copy of the British Bill of Rights for every household."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T17:49:53.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548417",
+                    "label": {
+                        "_value": "One copy of the British Bill of Rights for every household."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

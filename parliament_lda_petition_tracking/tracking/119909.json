@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465795/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465795/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465795/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465795/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465795/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/556287",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465795",
+                    "label": {
+                        "_value": "Make people who claim Job Seekers Allowance do volunteering work"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548958",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T17:49:53.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465795",
+                    "label": {
+                        "_value": "Make people who claim Job Seekers Allowance do volunteering work"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T13:39:20.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465795",
+                    "label": {
+                        "_value": "Make people who claim Job Seekers Allowance do volunteering work"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:07.022Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465795",
+                    "label": {
+                        "_value": "Make people who claim Job Seekers Allowance do volunteering work"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

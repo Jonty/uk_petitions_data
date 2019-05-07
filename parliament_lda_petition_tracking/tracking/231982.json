@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1005505/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1005505/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1005505/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1005505/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1005505/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T16:46:02.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-20T00:10:55.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1008948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-16T08:45:25.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1008342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T22:50:47.278Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1007585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T09:22:39.334Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1006593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-13T20:03:31.089Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1005506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T11:18:00.069Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005505",
+                    "label": {
+                        "_value": "Name one of Her Majesties warships HMS Walker"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/557445/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/557445/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/557445/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/557445/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/557445/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T10:47:46.085Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557445",
+                    "label": {
+                        "_value": "Reform of the UK's honours system, reflecting achievement, not money donated."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560652",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T08:10:13.805Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557445",
+                    "label": {
+                        "_value": "Reform of the UK's honours system, reflecting achievement, not money donated."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T05:18:41.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557445",
+                    "label": {
+                        "_value": "Reform of the UK's honours system, reflecting achievement, not money donated."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T14:54:12.211Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557445",
+                    "label": {
+                        "_value": "Reform of the UK's honours system, reflecting achievement, not money donated."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

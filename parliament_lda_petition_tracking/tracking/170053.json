@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/621872/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/621872/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/621872/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/621872/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/621872/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-26T23:00:01.726Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/621872",
+                    "label": {
+                        "_value": "make abortion illegal in the uk unless raped or health risks to mum or baby"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640381",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T17:22:47.373Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/621872",
+                    "label": {
+                        "_value": "make abortion illegal in the uk unless raped or health risks to mum or baby"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T23:40:50.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/621872",
+                    "label": {
+                        "_value": "make abortion illegal in the uk unless raped or health risks to mum or baby"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621873",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T11:04:18.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/621872",
+                    "label": {
+                        "_value": "make abortion illegal in the uk unless raped or health risks to mum or baby"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

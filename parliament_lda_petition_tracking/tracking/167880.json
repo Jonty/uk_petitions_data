@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/590632/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/590632/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/590632/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/590632/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/590632/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/632658",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T19:21:37.322Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590632",
+                    "label": {
+                        "_value": "Make it law that animals microchips come with a tracking device"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T21:55:18.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590632",
+                    "label": {
+                        "_value": "Make it law that animals microchips come with a tracking device"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:03:55.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590632",
+                    "label": {
+                        "_value": "Make it law that animals microchips come with a tracking device"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595314",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T18:18:52.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590632",
+                    "label": {
+                        "_value": "Make it law that animals microchips come with a tracking device"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T20:47:57.941Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590632",
+                    "label": {
+                        "_value": "Make it law that animals microchips come with a tracking device"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

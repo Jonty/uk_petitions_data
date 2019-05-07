@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640143/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640143/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640143/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640143/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640143/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.089Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640143",
+                    "label": {
+                        "_value": "Make it illegal to walk a dog in a public place without a lead on"
+                    }
+                },
+                "numberOfSignatures": 84
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T21:30:17.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640143",
+                    "label": {
+                        "_value": "Make it illegal to walk a dog in a public place without a lead on"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/642105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T18:15:02.610Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640143",
+                    "label": {
+                        "_value": "Make it illegal to walk a dog in a public place without a lead on"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640144",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T23:36:49.020Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640143",
+                    "label": {
+                        "_value": "Make it illegal to walk a dog in a public place without a lead on"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

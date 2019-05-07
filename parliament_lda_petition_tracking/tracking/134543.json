@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543802/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543802/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543802/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543802/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543802/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543802",
+                    "label": {
+                        "_value": "Seek temporary suspension of EU membership rather than irrevocably leave the EU."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:18:35.892Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543802",
+                    "label": {
+                        "_value": "Seek temporary suspension of EU membership rather than irrevocably leave the EU."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591833",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T14:56:57.350Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543802",
+                    "label": {
+                        "_value": "Seek temporary suspension of EU membership rather than irrevocably leave the EU."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T07:37:05.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543802",
+                    "label": {
+                        "_value": "Seek temporary suspension of EU membership rather than irrevocably leave the EU."
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

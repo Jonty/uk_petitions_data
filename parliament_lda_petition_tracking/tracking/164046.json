@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/557398/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/557398/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/557398/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/557398/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/557398/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T11:48:36.217Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557398",
+                    "label": {
+                        "_value": "To Criminalize Ticket buying bots from buying up tickets for events"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T21:21:58.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557398",
+                    "label": {
+                        "_value": "To Criminalize Ticket buying bots from buying up tickets for events"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T10:50:07.531Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557398",
+                    "label": {
+                        "_value": "To Criminalize Ticket buying bots from buying up tickets for events"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T14:52:16.875Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557398",
+                    "label": {
+                        "_value": "To Criminalize Ticket buying bots from buying up tickets for events"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T14:21:21.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557398",
+                    "label": {
+                        "_value": "To Criminalize Ticket buying bots from buying up tickets for events"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

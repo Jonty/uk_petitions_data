@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/590595/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/590595/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/590595/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/590595/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/590595/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:34.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590595",
+                    "label": {
+                        "_value": "Enforce harsher penalties for those who breach airports during protests"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T20:06:34.973Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590595",
+                    "label": {
+                        "_value": "Enforce harsher penalties for those who breach airports during protests"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T17:10:21.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590595",
+                    "label": {
+                        "_value": "Enforce harsher penalties for those who breach airports during protests"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591023",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T17:57:42.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590595",
+                    "label": {
+                        "_value": "Enforce harsher penalties for those who breach airports during protests"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T20:30:17.208Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590595",
+                    "label": {
+                        "_value": "Enforce harsher penalties for those who breach airports during protests"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1088305/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1088305/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1088305/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1088305/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1088305/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T21:27:12.991Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088305",
+                    "label": {
+                        "_value": "Require products containing xylitol to be labelled 'Highly toxic to dogs'."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T12:52:39.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088305",
+                    "label": {
+                        "_value": "Require products containing xylitol to be labelled 'Highly toxic to dogs'."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089330",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T18:13:43.199Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088305",
+                    "label": {
+                        "_value": "Require products containing xylitol to be labelled 'Highly toxic to dogs'."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T13:41:38.045Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1088305",
+                    "label": {
+                        "_value": "Require products containing xylitol to be labelled 'Highly toxic to dogs'."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/984240/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/984240/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/984240/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/984240/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/984240/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107566",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:39:51.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984240",
+                    "label": {
+                        "_value": "Pass the Restroom Access Act 2005 (Ally's Law) in the UK"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T00:51:46.710Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984240",
+                    "label": {
+                        "_value": "Pass the Restroom Access Act 2005 (Ally's Law) in the UK"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085801",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:41:05.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984240",
+                    "label": {
+                        "_value": "Pass the Restroom Access Act 2005 (Ally's Law) in the UK"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080244",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T08:41:50.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984240",
+                    "label": {
+                        "_value": "Pass the Restroom Access Act 2005 (Ally's Law) in the UK"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/986883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-12T10:44:20.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984240",
+                    "label": {
+                        "_value": "Pass the Restroom Access Act 2005 (Ally's Law) in the UK"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T14:11:20.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984240",
+                    "label": {
+                        "_value": "Pass the Restroom Access Act 2005 (Ally's Law) in the UK"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

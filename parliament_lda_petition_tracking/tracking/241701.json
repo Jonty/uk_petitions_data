@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1081633/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1081633/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1081633/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1081633/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1081633/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107361",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T11:04:08.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081633",
+                    "label": {
+                        "_value": "Hold a 2nd referendum (2 tier), stay or leave, if leave: Mays deal or No Deal."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T00:10:47.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081633",
+                    "label": {
+                        "_value": "Hold a 2nd referendum (2 tier), stay or leave, if leave: Mays deal or No Deal."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T08:55:53.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081633",
+                    "label": {
+                        "_value": "Hold a 2nd referendum (2 tier), stay or leave, if leave: Mays deal or No Deal."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:25:22.620Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081633",
+                    "label": {
+                        "_value": "Hold a 2nd referendum (2 tier), stay or leave, if leave: Mays deal or No Deal."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T18:25:16.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081633",
+                    "label": {
+                        "_value": "Hold a 2nd referendum (2 tier), stay or leave, if leave: Mays deal or No Deal."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

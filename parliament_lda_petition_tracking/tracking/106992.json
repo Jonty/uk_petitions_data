@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459637/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459637/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459637/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459637/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459637/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/715995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:54.191Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459637",
+                    "label": {
+                        "_value": "David Cameron to take serious diplomatic action against commercial whaling"
+                    }
+                },
+                "numberOfSignatures": 56301
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529453",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459637",
+                    "label": {
+                        "_value": "David Cameron to take serious diplomatic action against commercial whaling"
+                    }
+                },
+                "numberOfSignatures": 56301
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T14:08:07.236Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459637",
+                    "label": {
+                        "_value": "David Cameron to take serious diplomatic action against commercial whaling"
+                    }
+                },
+                "numberOfSignatures": 56300
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T00:00:04.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459637",
+                    "label": {
+                        "_value": "David Cameron to take serious diplomatic action against commercial whaling"
+                    }
+                },
+                "numberOfSignatures": 56299
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

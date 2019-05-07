@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/569334/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/569334/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/569334/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/569334/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/569334/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:16:23.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569334",
+                    "label": {
+                        "_value": "Sellers should complete building survey before the property goes on the market"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T13:43:02.779Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569334",
+                    "label": {
+                        "_value": "Sellers should complete building survey before the property goes on the market"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569865",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T16:11:42.462Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569334",
+                    "label": {
+                        "_value": "Sellers should complete building survey before the property goes on the market"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T20:32:08.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569334",
+                    "label": {
+                        "_value": "Sellers should complete building survey before the property goes on the market"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

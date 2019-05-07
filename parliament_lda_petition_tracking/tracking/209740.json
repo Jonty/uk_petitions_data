@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/830129/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/830129/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/830129/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/830129/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/830129/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/949381",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T23:00:04.342Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830129",
+                    "label": {
+                        "_value": "Restore expatriate Pensioners in Spain their Winter Fuel Allowance."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T06:24:40.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830129",
+                    "label": {
+                        "_value": "Restore expatriate Pensioners in Spain their Winter Fuel Allowance."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/830132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-24T15:59:43.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830129",
+                    "label": {
+                        "_value": "Restore expatriate Pensioners in Spain their Winter Fuel Allowance."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

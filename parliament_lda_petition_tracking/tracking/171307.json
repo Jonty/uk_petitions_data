@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/632598/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/632598/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/632598/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/632598/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/632598/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733901",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.676Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632598",
+                    "label": {
+                        "_value": "Make it mandatory for all businesses to hold a defibrillator on site."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635473",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T23:37:33.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632598",
+                    "label": {
+                        "_value": "Make it mandatory for all businesses to hold a defibrillator on site."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634933",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T20:04:24.991Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632598",
+                    "label": {
+                        "_value": "Make it mandatory for all businesses to hold a defibrillator on site."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T21:43:32.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632598",
+                    "label": {
+                        "_value": "Make it mandatory for all businesses to hold a defibrillator on site."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632599",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T22:53:37.457Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632598",
+                    "label": {
+                        "_value": "Make it mandatory for all businesses to hold a defibrillator on site."
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

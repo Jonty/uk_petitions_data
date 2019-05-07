@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/830178/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/830178/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/830178/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/830178/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/830178/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/949292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T23:00:04.300Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830178",
+                    "label": {
+                        "_value": "Ban the Commercial speed restrictions on vehicles such as duel use pickups,"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-14T00:09:22.447Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830178",
+                    "label": {
+                        "_value": "Ban the Commercial speed restrictions on vehicles such as duel use pickups,"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-13T20:28:59.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830178",
+                    "label": {
+                        "_value": "Ban the Commercial speed restrictions on vehicles such as duel use pickups,"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/830180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-24T15:55:43.183Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/830178",
+                    "label": {
+                        "_value": "Ban the Commercial speed restrictions on vehicles such as duel use pickups,"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463221/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463221/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463221/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463221/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463221/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733265",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.614Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463221",
+                    "label": {
+                        "_value": "All overground rail companies should have to provide a seat for paying customers"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463221",
+                    "label": {
+                        "_value": "All overground rail companies should have to provide a seat for paying customers"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/544721",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:38:05.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463221",
+                    "label": {
+                        "_value": "All overground rail companies should have to provide a seat for paying customers"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T09:33:12.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463221",
+                    "label": {
+                        "_value": "All overground rail companies should have to provide a seat for paying customers"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T13:07:07.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463221",
+                    "label": {
+                        "_value": "All overground rail companies should have to provide a seat for paying customers"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T15:40:40.880Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463221",
+                    "label": {
+                        "_value": "All overground rail companies should have to provide a seat for paying customers"
+                    }
+                },
+                "numberOfSignatures": 57
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

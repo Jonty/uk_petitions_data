@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462641/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462641/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462641/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462641/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462641/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.720Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462641",
+                    "label": {
+                        "_value": "Produce feasibility study into reopening the Bishop Auckland,Crook branch line"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538733",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462641",
+                    "label": {
+                        "_value": "Produce feasibility study into reopening the Bishop Auckland,Crook branch line"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527912",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-17T00:00:12.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462641",
+                    "label": {
+                        "_value": "Produce feasibility study into reopening the Bishop Auckland,Crook branch line"
+                    }
+                },
+                "numberOfSignatures": 108
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T00:13:25.455Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462641",
+                    "label": {
+                        "_value": "Produce feasibility study into reopening the Bishop Auckland,Crook branch line"
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T10:22:58.939Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462641",
+                    "label": {
+                        "_value": "Produce feasibility study into reopening the Bishop Auckland,Crook branch line"
+                    }
+                },
+                "numberOfSignatures": 99
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462642",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T18:37:19.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462641",
+                    "label": {
+                        "_value": "Produce feasibility study into reopening the Bishop Auckland,Crook branch line"
+                    }
+                },
+                "numberOfSignatures": 98
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

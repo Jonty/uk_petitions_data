@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/569415/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/569415/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/569415/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/569415/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/569415/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/648259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T00:16:11.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569415",
+                    "label": {
+                        "_value": "Ban junk food and fizzy drinks companies from advertising"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T11:07:38.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569415",
+                    "label": {
+                        "_value": "Ban junk food and fizzy drinks companies from advertising"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T12:21:54.860Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569415",
+                    "label": {
+                        "_value": "Ban junk food and fizzy drinks companies from advertising"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T18:34:36.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569415",
+                    "label": {
+                        "_value": "Ban junk food and fizzy drinks companies from advertising"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:34:31.535Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569415",
+                    "label": {
+                        "_value": "Ban junk food and fizzy drinks companies from advertising"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569416",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T16:35:46.466Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569415",
+                    "label": {
+                        "_value": "Ban junk food and fizzy drinks companies from advertising"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

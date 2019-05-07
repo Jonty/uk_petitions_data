@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465027/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465027/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465027/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465027/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465027/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/553454",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465027",
+                    "label": {
+                        "_value": "Build a modern, functional, UK Parliament on Salford Quays, Greater Manchester"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T12:59:17.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465027",
+                    "label": {
+                        "_value": "Build a modern, functional, UK Parliament on Salford Quays, Greater Manchester"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T14:16:20.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465027",
+                    "label": {
+                        "_value": "Build a modern, functional, UK Parliament on Salford Quays, Greater Manchester"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

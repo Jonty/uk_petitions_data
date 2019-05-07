@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551938/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551938/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551938/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551938/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551938/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T09:48:21.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551938",
+                    "label": {
+                        "_value": "Use the EU referendum as a basis for a 2nd renegotiation of EU membership"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:06:36.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551938",
+                    "label": {
+                        "_value": "Use the EU referendum as a basis for a 2nd renegotiation of EU membership"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

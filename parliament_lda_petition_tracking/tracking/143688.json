@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550137/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550137/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550137/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550137/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550137/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/628829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T20:23:33.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550137",
+                    "label": {
+                        "_value": "Make it illegal to hold a second BREXIT referendum until 2036."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618986",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:12:50.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550137",
+                    "label": {
+                        "_value": "Make it illegal to hold a second BREXIT referendum until 2036."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T15:32:56.339Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550137",
+                    "label": {
+                        "_value": "Make it illegal to hold a second BREXIT referendum until 2036."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T17:36:44.484Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550137",
+                    "label": {
+                        "_value": "Make it illegal to hold a second BREXIT referendum until 2036."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

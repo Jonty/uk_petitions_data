@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462707/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462707/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462707/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462707/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462707/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.151Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462707",
+                    "label": {
+                        "_value": "Compulsory voting should be introduced in the UK"
+                    }
+                },
+                "numberOfSignatures": 109
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538727",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462707",
+                    "label": {
+                        "_value": "Compulsory voting should be introduced in the UK"
+                    }
+                },
+                "numberOfSignatures": 109
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527903",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-19T00:00:04.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462707",
+                    "label": {
+                        "_value": "Compulsory voting should be introduced in the UK"
+                    }
+                },
+                "numberOfSignatures": 109
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509692",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T10:49:54.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462707",
+                    "label": {
+                        "_value": "Compulsory voting should be introduced in the UK"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T13:57:44.782Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462707",
+                    "label": {
+                        "_value": "Compulsory voting should be introduced in the UK"
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462708",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T19:02:57.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462707",
+                    "label": {
+                        "_value": "Compulsory voting should be introduced in the UK"
+                    }
+                },
+                "numberOfSignatures": 91
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

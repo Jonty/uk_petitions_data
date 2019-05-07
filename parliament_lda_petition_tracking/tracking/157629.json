@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550113/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550113/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550113/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550113/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550113/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/557397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-07T23:06:28.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550113",
+                    "label": {
+                        "_value": "Amend MP's Oath to include a commitment to Nolan's 7 principles of public life"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T17:16:12.332Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550113",
+                    "label": {
+                        "_value": "Amend MP's Oath to include a commitment to Nolan's 7 principles of public life"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

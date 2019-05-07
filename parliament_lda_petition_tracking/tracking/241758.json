@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1087611/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1087611/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1087611/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1087611/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1087611/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T17:23:35.692Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087611",
+                    "label": {
+                        "_value": "Make it a criminal offence to abandon an unborn child."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090148",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-15T09:11:07.499Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087611",
+                    "label": {
+                        "_value": "Make it a criminal offence to abandon an unborn child."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T14:09:58.986Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087611",
+                    "label": {
+                        "_value": "Make it a criminal offence to abandon an unborn child."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T17:25:44.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087611",
+                    "label": {
+                        "_value": "Make it a criminal offence to abandon an unborn child."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T20:26:03.275Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1087611",
+                    "label": {
+                        "_value": "Make it a criminal offence to abandon an unborn child."
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

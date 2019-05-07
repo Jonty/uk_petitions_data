@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550662/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550662/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550662/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550662/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550662/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550662",
+                    "label": {
+                        "_value": "To scrap the literacy and numeracy tests for those wanting to become teachers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T20:15:27.206Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550662",
+                    "label": {
+                        "_value": "To scrap the literacy and numeracy tests for those wanting to become teachers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T22:55:49.067Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550662",
+                    "label": {
+                        "_value": "To scrap the literacy and numeracy tests for those wanting to become teachers."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

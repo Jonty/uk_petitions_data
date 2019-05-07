@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/588456/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/588456/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/588456/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/588456/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/588456/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630560",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:28:21.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588456",
+                    "label": {
+                        "_value": "Raise the UK speed limit on Motorways and major a roads to 85"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T16:56:54.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588456",
+                    "label": {
+                        "_value": "Raise the UK speed limit on Motorways and major a roads to 85"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

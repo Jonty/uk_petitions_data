@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587360/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587360/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587360/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587360/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587360/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:34.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587360",
+                    "label": {
+                        "_value": "Make it compulsory at all schools to have a time dedicated for napping."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/596667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T19:01:31.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587360",
+                    "label": {
+                        "_value": "Make it compulsory at all schools to have a time dedicated for napping."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589034",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T21:31:07.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587360",
+                    "label": {
+                        "_value": "Make it compulsory at all schools to have a time dedicated for napping."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T13:25:15.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587360",
+                    "label": {
+                        "_value": "Make it compulsory at all schools to have a time dedicated for napping."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587848",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T18:06:25.975Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587360",
+                    "label": {
+                        "_value": "Make it compulsory at all schools to have a time dedicated for napping."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587361",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T21:18:26.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587360",
+                    "label": {
+                        "_value": "Make it compulsory at all schools to have a time dedicated for napping."
+                    }
+                },
+                "numberOfSignatures": 43
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

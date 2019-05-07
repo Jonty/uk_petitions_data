@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462685/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462685/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462685/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462685/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462685/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:54.598Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462685",
+                    "label": {
+                        "_value": "We demand our government put pressure on the ICC to try Netanyahu for war crimes"
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462685",
+                    "label": {
+                        "_value": "We demand our government put pressure on the ICC to try Netanyahu for war crimes"
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483909",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T00:00:09.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462685",
+                    "label": {
+                        "_value": "We demand our government put pressure on the ICC to try Netanyahu for war crimes"
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T13:51:34.622Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462685",
+                    "label": {
+                        "_value": "We demand our government put pressure on the ICC to try Netanyahu for war crimes"
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T00:53:43.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462685",
+                    "label": {
+                        "_value": "We demand our government put pressure on the ICC to try Netanyahu for war crimes"
+                    }
+                },
+                "numberOfSignatures": 94
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

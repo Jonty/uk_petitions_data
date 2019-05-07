@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083397/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083397/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083397/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083397/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083397/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:48:31.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083397",
+                    "label": {
+                        "_value": "Increase direct government funding to improve the support for homeless people."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T04:04:47.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083397",
+                    "label": {
+                        "_value": "Increase direct government funding to improve the support for homeless people."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:22:37.524Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083397",
+                    "label": {
+                        "_value": "Increase direct government funding to improve the support for homeless people."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T08:11:05.491Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083397",
+                    "label": {
+                        "_value": "Increase direct government funding to improve the support for homeless people."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T16:09:17.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083397",
+                    "label": {
+                        "_value": "Increase direct government funding to improve the support for homeless people."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

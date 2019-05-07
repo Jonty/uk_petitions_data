@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466959/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466959/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466959/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466959/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466959/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/575044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466959",
+                    "label": {
+                        "_value": "Reduce the minimum drinking age of low ABV alcoholic beverages to 16."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573220",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T00:10:36.108Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466959",
+                    "label": {
+                        "_value": "Reduce the minimum drinking age of low ABV alcoholic beverages to 16."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550964",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T19:04:18.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466959",
+                    "label": {
+                        "_value": "Reduce the minimum drinking age of low ABV alcoholic beverages to 16."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T18:02:00.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466959",
+                    "label": {
+                        "_value": "Reduce the minimum drinking age of low ABV alcoholic beverages to 16."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

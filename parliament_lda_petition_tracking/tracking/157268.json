@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547853/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547853/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547853/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547853/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547853/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547853",
+                    "label": {
+                        "_value": "Stop the sale and import of dyed fish in the UK. It is cruel and unnecessary"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664908",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T02:06:21.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547853",
+                    "label": {
+                        "_value": "Stop the sale and import of dyed fish in the UK. It is cruel and unnecessary"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T21:01:05.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547853",
+                    "label": {
+                        "_value": "Stop the sale and import of dyed fish in the UK. It is cruel and unnecessary"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561084",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T20:31:55.441Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547853",
+                    "label": {
+                        "_value": "Stop the sale and import of dyed fish in the UK. It is cruel and unnecessary"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T02:28:05.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547853",
+                    "label": {
+                        "_value": "Stop the sale and import of dyed fish in the UK. It is cruel and unnecessary"
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

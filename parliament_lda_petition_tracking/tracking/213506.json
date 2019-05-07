@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/851347/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/851347/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/851347/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/851347/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/851347/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/962090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-27T23:00:00.332Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851347",
+                    "label": {
+                        "_value": "Ban credit cards being used for gambling."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949290",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-26T15:32:40.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851347",
+                    "label": {
+                        "_value": "Ban credit cards being used for gambling."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/945384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-19T09:22:07.366Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851347",
+                    "label": {
+                        "_value": "Ban credit cards being used for gambling."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/916456",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-03T06:23:31.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851347",
+                    "label": {
+                        "_value": "Ban credit cards being used for gambling."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-30T02:35:24.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851347",
+                    "label": {
+                        "_value": "Ban credit cards being used for gambling."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/851348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-27T17:05:53.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851347",
+                    "label": {
+                        "_value": "Ban credit cards being used for gambling."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

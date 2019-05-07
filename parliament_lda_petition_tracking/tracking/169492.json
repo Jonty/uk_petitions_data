@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/618377/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/618377/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/618377/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/618377/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/618377/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618970",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T08:48:07.591Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618377",
+                    "label": {
+                        "_value": "No confidence vote in Amber Rudd for denying visa to bone marrow donor."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T20:44:08.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618377",
+                    "label": {
+                        "_value": "No confidence vote in Amber Rudd for denying visa to bone marrow donor."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/606539/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/606539/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/606539/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/606539/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/606539/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/650162",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T22:30:40.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606539",
+                    "label": {
+                        "_value": "It should be law that the Governor of the Bank of England is a UK Citizen"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T13:54:24.221Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606539",
+                    "label": {
+                        "_value": "It should be law that the Governor of the Bank of England is a UK Citizen"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:41:01.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606539",
+                    "label": {
+                        "_value": "It should be law that the Governor of the Bank of England is a UK Citizen"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625775",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T09:56:19.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606539",
+                    "label": {
+                        "_value": "It should be law that the Governor of the Bank of England is a UK Citizen"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T11:48:13.961Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606539",
+                    "label": {
+                        "_value": "It should be law that the Governor of the Bank of England is a UK Citizen"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

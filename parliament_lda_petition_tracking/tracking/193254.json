@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/721336/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/721336/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/721336/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/721336/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/721336/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726001",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:27.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/721336",
+                    "label": {
+                        "_value": "Lobster Pots and Small Craft Safety \u2013 time to change the rules!"
+                    }
+                },
+                "numberOfSignatures": 6375
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/724423",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-25T22:20:13.249Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/721336",
+                    "label": {
+                        "_value": "Lobster Pots and Small Craft Safety \u2013 time to change the rules!"
+                    }
+                },
+                "numberOfSignatures": 5042
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T22:52:23.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/721336",
+                    "label": {
+                        "_value": "Lobster Pots and Small Craft Safety \u2013 time to change the rules!"
+                    }
+                },
+                "numberOfSignatures": 2163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721337",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-14T22:33:28.366Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/721336",
+                    "label": {
+                        "_value": "Lobster Pots and Small Craft Safety \u2013 time to change the rules!"
+                    }
+                },
+                "numberOfSignatures": 1969
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

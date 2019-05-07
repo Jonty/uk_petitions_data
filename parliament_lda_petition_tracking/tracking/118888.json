@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466151/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466151/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466151/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466151/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466151/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549863",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466151",
+                    "label": {
+                        "_value": "Ban the use of glycophosate on UK food crops"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:13:52.298Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466151",
+                    "label": {
+                        "_value": "Ban the use of glycophosate on UK food crops"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486865",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T12:02:23.708Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466151",
+                    "label": {
+                        "_value": "Ban the use of glycophosate on UK food crops"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466152",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:42.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466151",
+                    "label": {
+                        "_value": "Ban the use of glycophosate on UK food crops"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

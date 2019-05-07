@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/844622/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/844622/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/844622/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/844622/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/844622/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/958838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T23:00:01.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844622",
+                    "label": {
+                        "_value": "Protect consumers who order goods that are out of stock at the time."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/848308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-22T21:58:16.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844622",
+                    "label": {
+                        "_value": "Protect consumers who order goods that are out of stock at the time."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/844623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-19T17:28:18.383Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/844622",
+                    "label": {
+                        "_value": "Protect consumers who order goods that are out of stock at the time."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

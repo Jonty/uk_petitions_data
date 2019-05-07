@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083384/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083384/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083384/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083384/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083384/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:30:42.561Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083384",
+                    "label": {
+                        "_value": "Ban synthetic pesticides and herbicides"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094137",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:15.795Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083384",
+                    "label": {
+                        "_value": "Ban synthetic pesticides and herbicides"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086453",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T06:53:50.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083384",
+                    "label": {
+                        "_value": "Ban synthetic pesticides and herbicides"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:20:44.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083384",
+                    "label": {
+                        "_value": "Ban synthetic pesticides and herbicides"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T11:48:50.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083384",
+                    "label": {
+                        "_value": "Ban synthetic pesticides and herbicides"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

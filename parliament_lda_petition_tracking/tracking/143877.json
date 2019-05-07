@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549805/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549805/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549805/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549805/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549805/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:28:07.945Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549805",
+                    "label": {
+                        "_value": "Propose a referendum on whether or not HM Government should trigger Article 50."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624439",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:11:52.935Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549805",
+                    "label": {
+                        "_value": "Propose a referendum on whether or not HM Government should trigger Article 50."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:05:41.300Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549805",
+                    "label": {
+                        "_value": "Propose a referendum on whether or not HM Government should trigger Article 50."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603775",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:54:13.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549805",
+                    "label": {
+                        "_value": "Propose a referendum on whether or not HM Government should trigger Article 50."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:37:26.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549805",
+                    "label": {
+                        "_value": "Propose a referendum on whether or not HM Government should trigger Article 50."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T07:56:54.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549805",
+                    "label": {
+                        "_value": "Propose a referendum on whether or not HM Government should trigger Article 50."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

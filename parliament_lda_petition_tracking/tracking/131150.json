@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550436/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550436/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550436/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550436/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550436/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/628830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T15:29:25.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550436",
+                    "label": {
+                        "_value": "Make solar renewable energy a government-led initiative"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599560",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T09:26:33.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550436",
+                    "label": {
+                        "_value": "Make solar renewable energy a government-led initiative"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583724",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T22:27:37.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550436",
+                    "label": {
+                        "_value": "Make solar renewable energy a government-led initiative"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T18:36:54.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550436",
+                    "label": {
+                        "_value": "Make solar renewable energy a government-led initiative"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T21:26:23.777Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550436",
+                    "label": {
+                        "_value": "Make solar renewable energy a government-led initiative"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

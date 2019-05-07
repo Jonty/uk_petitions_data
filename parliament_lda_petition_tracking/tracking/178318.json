@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/686534/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/686534/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/686534/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/686534/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/686534/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:16.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/686534",
+                    "label": {
+                        "_value": "Waive bridge tolls for motorists in Warrington, Chester and Cheshire West."
+                    }
+                },
+                "numberOfSignatures": 307
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-07T11:08:43.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/686534",
+                    "label": {
+                        "_value": "Waive bridge tolls for motorists in Warrington, Chester and Cheshire West."
+                    }
+                },
+                "numberOfSignatures": 282
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

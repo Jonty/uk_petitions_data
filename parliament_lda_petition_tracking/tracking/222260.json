@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/928524/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/928524/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/928524/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/928524/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/928524/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1030611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T00:00:06.073Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928524",
+                    "label": {
+                        "_value": "The government should give every citizen,young and old,a fresh fruit/veg voucher"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1011202",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-20T18:37:08.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928524",
+                    "label": {
+                        "_value": "The government should give every citizen,young and old,a fresh fruit/veg voucher"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-10T21:28:58.604Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928524",
+                    "label": {
+                        "_value": "The government should give every citizen,young and old,a fresh fruit/veg voucher"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T23:40:50.517Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928524",
+                    "label": {
+                        "_value": "The government should give every citizen,young and old,a fresh fruit/veg voucher"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-20T23:51:31.826Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928524",
+                    "label": {
+                        "_value": "The government should give every citizen,young and old,a fresh fruit/veg voucher"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/928525",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-20T15:45:18.614Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928524",
+                    "label": {
+                        "_value": "The government should give every citizen,young and old,a fresh fruit/veg voucher"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

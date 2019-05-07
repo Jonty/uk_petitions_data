@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1007629/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1007629/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1007629/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1007629/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1007629/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:56:25.976Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007629",
+                    "label": {
+                        "_value": "Reconsider blood donation guidelines affecting female partners of bisexual men"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1014934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-25T23:43:34.819Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007629",
+                    "label": {
+                        "_value": "Reconsider blood donation guidelines affecting female partners of bisexual men"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1008997",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T20:34:17.276Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007629",
+                    "label": {
+                        "_value": "Reconsider blood donation guidelines affecting female partners of bisexual men"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1008379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-15T20:44:57.687Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007629",
+                    "label": {
+                        "_value": "Reconsider blood donation guidelines affecting female partners of bisexual men"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1007630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T12:25:40.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007629",
+                    "label": {
+                        "_value": "Reconsider blood donation guidelines affecting female partners of bisexual men"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

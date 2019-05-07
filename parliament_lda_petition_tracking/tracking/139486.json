@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549501/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549501/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549501/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549501/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549501/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624440",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:11:22.321Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549501",
+                    "label": {
+                        "_value": "Give UK citizenship to all migrants living in the UK on the 23rd June 2016."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:49:07.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549501",
+                    "label": {
+                        "_value": "Give UK citizenship to all migrants living in the UK on the 23rd June 2016."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T21:46:58.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549501",
+                    "label": {
+                        "_value": "Give UK citizenship to all migrants living in the UK on the 23rd June 2016."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549977/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549977/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549977/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549977/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549977/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625735",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T20:34:59.619Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549977",
+                    "label": {
+                        "_value": "I would like you to ban birds that are kept in cages."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576139",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T22:39:53.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549977",
+                    "label": {
+                        "_value": "I would like you to ban birds that are kept in cages."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T13:11:32.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549977",
+                    "label": {
+                        "_value": "I would like you to ban birds that are kept in cages."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555642",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T11:58:26.649Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549977",
+                    "label": {
+                        "_value": "I would like you to ban birds that are kept in cages."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T18:33:05.204Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549977",
+                    "label": {
+                        "_value": "I would like you to ban birds that are kept in cages."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

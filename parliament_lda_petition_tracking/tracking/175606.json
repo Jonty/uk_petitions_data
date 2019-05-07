@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/689881/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/689881/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/689881/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/689881/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/689881/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689881",
+                    "label": {
+                        "_value": "Make compulsory the labeling of Eggs from Caged Hens on all food products."
+                    }
+                },
+                "numberOfSignatures": 841
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T20:25:59.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689881",
+                    "label": {
+                        "_value": "Make compulsory the labeling of Eggs from Caged Hens on all food products."
+                    }
+                },
+                "numberOfSignatures": 818
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-24T16:52:33.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689881",
+                    "label": {
+                        "_value": "Make compulsory the labeling of Eggs from Caged Hens on all food products."
+                    }
+                },
+                "numberOfSignatures": 815
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T20:38:17.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689881",
+                    "label": {
+                        "_value": "Make compulsory the labeling of Eggs from Caged Hens on all food products."
+                    }
+                },
+                "numberOfSignatures": 806
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/689882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-15T12:05:43.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689881",
+                    "label": {
+                        "_value": "Make compulsory the labeling of Eggs from Caged Hens on all food products."
+                    }
+                },
+                "numberOfSignatures": 795
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

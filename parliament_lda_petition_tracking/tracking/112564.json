@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464953/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464953/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464953/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464953/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464953/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464953",
+                    "label": {
+                        "_value": "Liscenced civilians to carry stun guns for the protection of others in an attack"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T18:02:42.449Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464953",
+                    "label": {
+                        "_value": "Liscenced civilians to carry stun guns for the protection of others in an attack"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T11:09:06.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464953",
+                    "label": {
+                        "_value": "Liscenced civilians to carry stun guns for the protection of others in an attack"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T17:27:30.416Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464953",
+                    "label": {
+                        "_value": "Liscenced civilians to carry stun guns for the protection of others in an attack"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:13:56.135Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464953",
+                    "label": {
+                        "_value": "Liscenced civilians to carry stun guns for the protection of others in an attack"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

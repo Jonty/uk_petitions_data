@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1057675/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1057675/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1057675/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1057675/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1057675/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:07:53.188Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057675",
+                    "label": {
+                        "_value": "Cut aid to the Palestinian Authority until they stop paying terrorists\u2019 families"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T16:02:52.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057675",
+                    "label": {
+                        "_value": "Cut aid to the Palestinian Authority until they stop paying terrorists\u2019 families"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-12T12:45:21.917Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057675",
+                    "label": {
+                        "_value": "Cut aid to the Palestinian Authority until they stop paying terrorists\u2019 families"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058527",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T20:29:52.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057675",
+                    "label": {
+                        "_value": "Cut aid to the Palestinian Authority until they stop paying terrorists\u2019 families"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T21:18:09.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057675",
+                    "label": {
+                        "_value": "Cut aid to the Palestinian Authority until they stop paying terrorists\u2019 families"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057676",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T13:48:20.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057675",
+                    "label": {
+                        "_value": "Cut aid to the Palestinian Authority until they stop paying terrorists\u2019 families"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

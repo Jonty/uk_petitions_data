@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/486840/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/486840/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/486840/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/486840/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/486840/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486840",
+                    "label": {
+                        "_value": "Allow transgendered people to begin hormone treatment from the age of 16."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486840",
+                    "label": {
+                        "_value": "Allow transgendered people to begin hormone treatment from the age of 16."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490781",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T12:06:38.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486840",
+                    "label": {
+                        "_value": "Allow transgendered people to begin hormone treatment from the age of 16."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T02:19:23.857Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486840",
+                    "label": {
+                        "_value": "Allow transgendered people to begin hormone treatment from the age of 16."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486841",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T19:25:16.051Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486840",
+                    "label": {
+                        "_value": "Allow transgendered people to begin hormone treatment from the age of 16."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

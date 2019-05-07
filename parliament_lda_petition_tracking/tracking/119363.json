@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464463/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464463/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464463/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464463/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464463/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464463",
+                    "label": {
+                        "_value": "Extend the 'OUT OF DATE' NHS Hospital visiting times."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548275",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464463",
+                    "label": {
+                        "_value": "Extend the 'OUT OF DATE' NHS Hospital visiting times."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T11:15:44.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464463",
+                    "label": {
+                        "_value": "Extend the 'OUT OF DATE' NHS Hospital visiting times."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480428",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T20:50:13.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464463",
+                    "label": {
+                        "_value": "Extend the 'OUT OF DATE' NHS Hospital visiting times."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:54.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464463",
+                    "label": {
+                        "_value": "Extend the 'OUT OF DATE' NHS Hospital visiting times."
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

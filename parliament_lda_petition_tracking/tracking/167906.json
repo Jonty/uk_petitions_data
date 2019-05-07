@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/590626/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/590626/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/590626/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/590626/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/590626/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/619954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T12:29:36.996Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590626",
+                    "label": {
+                        "_value": "Restrict the ability to freely purchase sperm on Internet websites and now apps"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T16:30:51.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590626",
+                    "label": {
+                        "_value": "Restrict the ability to freely purchase sperm on Internet websites and now apps"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

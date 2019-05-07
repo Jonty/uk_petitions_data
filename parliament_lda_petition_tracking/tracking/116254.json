@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461695/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461695/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461695/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461695/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461695/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461695",
+                    "label": {
+                        "_value": "Make the pharmaceutical industry a public industry"
+                    }
+                },
+                "numberOfSignatures": 278
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461695",
+                    "label": {
+                        "_value": "Make the pharmaceutical industry a public industry"
+                    }
+                },
+                "numberOfSignatures": 278
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527458",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-18T00:00:11.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461695",
+                    "label": {
+                        "_value": "Make the pharmaceutical industry a public industry"
+                    }
+                },
+                "numberOfSignatures": 278
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T21:59:28.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461695",
+                    "label": {
+                        "_value": "Make the pharmaceutical industry a public industry"
+                    }
+                },
+                "numberOfSignatures": 276
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T20:27:51.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461695",
+                    "label": {
+                        "_value": "Make the pharmaceutical industry a public industry"
+                    }
+                },
+                "numberOfSignatures": 275
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T22:11:32.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461695",
+                    "label": {
+                        "_value": "Make the pharmaceutical industry a public industry"
+                    }
+                },
+                "numberOfSignatures": 274
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

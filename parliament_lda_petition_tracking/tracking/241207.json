@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1076101/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1076101/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1076101/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1076101/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1076101/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T16:34:52.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076101",
+                    "label": {
+                        "_value": "Revoke the effective ban on Onshore Wind Turnines"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T07:43:25.280Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076101",
+                    "label": {
+                        "_value": "Revoke the effective ban on Onshore Wind Turnines"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076629",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T23:57:03.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076101",
+                    "label": {
+                        "_value": "Revoke the effective ban on Onshore Wind Turnines"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076102",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-22T08:40:27.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076101",
+                    "label": {
+                        "_value": "Revoke the effective ban on Onshore Wind Turnines"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

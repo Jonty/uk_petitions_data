@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463435/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463435/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463435/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463435/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463435/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463435",
+                    "label": {
+                        "_value": "Help Britain's homeless find shelter instead of moving them on all the time."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566051",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463435",
+                    "label": {
+                        "_value": "Help Britain's homeless find shelter instead of moving them on all the time."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T21:03:04.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463435",
+                    "label": {
+                        "_value": "Help Britain's homeless find shelter instead of moving them on all the time."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503344",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:02:55.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463435",
+                    "label": {
+                        "_value": "Help Britain's homeless find shelter instead of moving them on all the time."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T18:50:00.590Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463435",
+                    "label": {
+                        "_value": "Help Britain's homeless find shelter instead of moving them on all the time."
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T11:37:46.184Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463435",
+                    "label": {
+                        "_value": "Help Britain's homeless find shelter instead of moving them on all the time."
+                    }
+                },
+                "numberOfSignatures": 49
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

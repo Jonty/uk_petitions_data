@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460256/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460256/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460256/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460256/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460256/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/717064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:52.995Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460256",
+                    "label": {
+                        "_value": "Provision of guards on trains a stipulation for all new operator contracts."
+                    }
+                },
+                "numberOfSignatures": 3074
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530014",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460256",
+                    "label": {
+                        "_value": "Provision of guards on trains a stipulation for all new operator contracts."
+                    }
+                },
+                "numberOfSignatures": 3074
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T00:00:03.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460256",
+                    "label": {
+                        "_value": "Provision of guards on trains a stipulation for all new operator contracts."
+                    }
+                },
+                "numberOfSignatures": 3074
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

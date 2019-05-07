@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492169/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492169/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492169/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492169/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492169/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492169",
+                    "label": {
+                        "_value": "force absent parents to see their children"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583725",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T17:39:40.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492169",
+                    "label": {
+                        "_value": "force absent parents to see their children"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492169",
+                    "label": {
+                        "_value": "force absent parents to see their children"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T09:46:23.904Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492169",
+                    "label": {
+                        "_value": "force absent parents to see their children"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T19:17:14.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492169",
+                    "label": {
+                        "_value": "force absent parents to see their children"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

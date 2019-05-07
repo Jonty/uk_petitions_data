@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482915/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482915/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482915/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482915/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482915/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/588464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482915",
+                    "label": {
+                        "_value": "The \u00a3829,000 should be written off by the MOD."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:39:09.648Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482915",
+                    "label": {
+                        "_value": "The \u00a3829,000 should be written off by the MOD."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482915",
+                    "label": {
+                        "_value": "The \u00a3829,000 should be written off by the MOD."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T11:03:12.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482915",
+                    "label": {
+                        "_value": "The \u00a3829,000 should be written off by the MOD."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482916",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T11:53:52.300Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482915",
+                    "label": {
+                        "_value": "The \u00a3829,000 should be written off by the MOD."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

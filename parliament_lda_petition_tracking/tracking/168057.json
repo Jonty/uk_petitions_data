@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/602640/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/602640/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/602640/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/602640/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/602640/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T12:43:23.919Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602640",
+                    "label": {
+                        "_value": "Make it illegal for a parent to allow child access to age inappropriate material"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T13:22:10.002Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602640",
+                    "label": {
+                        "_value": "Make it illegal for a parent to allow child access to age inappropriate material"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T17:35:30.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602640",
+                    "label": {
+                        "_value": "Make it illegal for a parent to allow child access to age inappropriate material"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602641",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T19:15:47.729Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602640",
+                    "label": {
+                        "_value": "Make it illegal for a parent to allow child access to age inappropriate material"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

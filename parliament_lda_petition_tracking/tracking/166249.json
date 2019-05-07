@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/583699/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/583699/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/583699/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/583699/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/583699/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583699",
+                    "label": {
+                        "_value": "Review cases of women needing breast reduction on medical grounds, not cosmetic"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/596691",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T06:47:32.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583699",
+                    "label": {
+                        "_value": "Review cases of women needing breast reduction on medical grounds, not cosmetic"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T13:52:11.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583699",
+                    "label": {
+                        "_value": "Review cases of women needing breast reduction on medical grounds, not cosmetic"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585334",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T10:00:25.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583699",
+                    "label": {
+                        "_value": "Review cases of women needing breast reduction on medical grounds, not cosmetic"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584697",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T10:44:40.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583699",
+                    "label": {
+                        "_value": "Review cases of women needing breast reduction on medical grounds, not cosmetic"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583700",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T21:45:04.206Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583699",
+                    "label": {
+                        "_value": "Review cases of women needing breast reduction on medical grounds, not cosmetic"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

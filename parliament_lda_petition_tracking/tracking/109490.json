@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463879/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463879/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463879/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463879/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463879/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463879",
+                    "label": {
+                        "_value": "Reduce amount of work at home for children and teenagers in school"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463879",
+                    "label": {
+                        "_value": "Reduce amount of work at home for children and teenagers in school"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502744",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T00:00:07.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463879",
+                    "label": {
+                        "_value": "Reduce amount of work at home for children and teenagers in school"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T19:50:25.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463879",
+                    "label": {
+                        "_value": "Reduce amount of work at home for children and teenagers in school"
+                    }
+                },
+                "numberOfSignatures": 37
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

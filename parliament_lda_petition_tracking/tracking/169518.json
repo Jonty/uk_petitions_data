@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/607399/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/607399/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/607399/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/607399/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/607399/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/620789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T19:43:32.605Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607399",
+                    "label": {
+                        "_value": "Prevent reverse charging on mobile phone contracts unless consent is given first"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/607400",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T15:00:57.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607399",
+                    "label": {
+                        "_value": "Prevent reverse charging on mobile phone contracts unless consent is given first"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

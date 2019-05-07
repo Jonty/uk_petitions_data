@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/978562/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/978562/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/978562/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/978562/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/978562/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106861",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T00:00:00.296Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978562",
+                    "label": {
+                        "_value": "Bring in a recognised standard of safety for installation of blinds."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075722",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T14:22:28.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978562",
+                    "label": {
+                        "_value": "Bring in a recognised standard of safety for installation of blinds."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1063280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-17T03:10:20.679Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978562",
+                    "label": {
+                        "_value": "Bring in a recognised standard of safety for installation of blinds."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062693",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T22:07:54.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978562",
+                    "label": {
+                        "_value": "Bring in a recognised standard of safety for installation of blinds."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T18:41:52.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978562",
+                    "label": {
+                        "_value": "Bring in a recognised standard of safety for installation of blinds."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-27T11:25:29.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/978562",
+                    "label": {
+                        "_value": "Bring in a recognised standard of safety for installation of blinds."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

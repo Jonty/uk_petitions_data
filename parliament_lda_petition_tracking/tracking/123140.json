@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465765/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465765/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465765/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465765/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465765/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/580637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465765",
+                    "label": {
+                        "_value": "Require all Members of Parliament to wear a uniform."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565591",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:46:39.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465765",
+                    "label": {
+                        "_value": "Require all Members of Parliament to wear a uniform."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549554",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T21:47:49.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465765",
+                    "label": {
+                        "_value": "Require all Members of Parliament to wear a uniform."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481499",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T01:26:15.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465765",
+                    "label": {
+                        "_value": "Require all Members of Parliament to wear a uniform."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T00:39:02.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465765",
+                    "label": {
+                        "_value": "Require all Members of Parliament to wear a uniform."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T20:42:21.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465765",
+                    "label": {
+                        "_value": "Require all Members of Parliament to wear a uniform."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

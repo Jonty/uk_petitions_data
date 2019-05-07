@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/893681/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/893681/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/893681/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/893681/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/893681/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/996971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-27T23:00:00.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893681",
+                    "label": {
+                        "_value": "Increase British military spending to \u00a365 Billion"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/950851",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-31T17:15:21.143Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893681",
+                    "label": {
+                        "_value": "Increase British military spending to \u00a365 Billion"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T14:02:41.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893681",
+                    "label": {
+                        "_value": "Increase British military spending to \u00a365 Billion"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-28T12:50:52.782Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893681",
+                    "label": {
+                        "_value": "Increase British military spending to \u00a365 Billion"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T13:32:53.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893681",
+                    "label": {
+                        "_value": "Increase British military spending to \u00a365 Billion"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/893682",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-27T15:14:48.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/893681",
+                    "label": {
+                        "_value": "Increase British military spending to \u00a365 Billion"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

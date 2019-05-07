@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106098/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106098/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106098/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106098/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106098/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T22:03:04.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106098",
+                    "label": {
+                        "_value": "Make foxes a protected species"
+                    }
+                },
+                "numberOfSignatures": 8951
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T22:46:41.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106098",
+                    "label": {
+                        "_value": "Make foxes a protected species"
+                    }
+                },
+                "numberOfSignatures": 8518
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

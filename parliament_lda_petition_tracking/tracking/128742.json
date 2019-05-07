@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/527806/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/527806/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/527806/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/527806/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/527806/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527806",
+                    "label": {
+                        "_value": "Evaluate health outcomes from a pilot of the new junior doctor contracts"
+                    }
+                },
+                "numberOfSignatures": 134
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623134",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527806",
+                    "label": {
+                        "_value": "Evaluate health outcomes from a pilot of the new junior doctor contracts"
+                    }
+                },
+                "numberOfSignatures": 134
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T00:24:54.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527806",
+                    "label": {
+                        "_value": "Evaluate health outcomes from a pilot of the new junior doctor contracts"
+                    }
+                },
+                "numberOfSignatures": 134
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527806",
+                    "label": {
+                        "_value": "Evaluate health outcomes from a pilot of the new junior doctor contracts"
+                    }
+                },
+                "numberOfSignatures": 133
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-26T07:21:49.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527806",
+                    "label": {
+                        "_value": "Evaluate health outcomes from a pilot of the new junior doctor contracts"
+                    }
+                },
+                "numberOfSignatures": 133
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

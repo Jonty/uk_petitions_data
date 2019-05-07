@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078253/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078253/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078253/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078253/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078253/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:14.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078253",
+                    "label": {
+                        "_value": "Stop the 4 year back date of repayments for families over child benefit limits"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078254",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T11:21:00.903Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078253",
+                    "label": {
+                        "_value": "Stop the 4 year back date of repayments for families over child benefit limits"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

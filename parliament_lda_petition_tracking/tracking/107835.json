@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462571/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462571/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462571/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462571/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462571/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462571",
+                    "label": {
+                        "_value": "Hold David Cameron to his word, a cap of no more than 20,000 refugees in the UK."
+                    }
+                },
+                "numberOfSignatures": 107
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462571",
+                    "label": {
+                        "_value": "Hold David Cameron to his word, a cap of no more than 20,000 refugees in the UK."
+                    }
+                },
+                "numberOfSignatures": 107
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T00:00:13.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462571",
+                    "label": {
+                        "_value": "Hold David Cameron to his word, a cap of no more than 20,000 refugees in the UK."
+                    }
+                },
+                "numberOfSignatures": 107
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

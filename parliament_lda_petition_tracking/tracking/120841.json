@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463523/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463523/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463523/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463523/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463523/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.679Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463523",
+                    "label": {
+                        "_value": "Raise awareness in the NHS of Superior Mesenteric Artery Syndrome"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559719",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463523",
+                    "label": {
+                        "_value": "Raise awareness in the NHS of Superior Mesenteric Artery Syndrome"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543749",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463523",
+                    "label": {
+                        "_value": "Raise awareness in the NHS of Superior Mesenteric Artery Syndrome"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T09:58:26.884Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463523",
+                    "label": {
+                        "_value": "Raise awareness in the NHS of Superior Mesenteric Artery Syndrome"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T15:54:35.257Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463523",
+                    "label": {
+                        "_value": "Raise awareness in the NHS of Superior Mesenteric Artery Syndrome"
+                    }
+                },
+                "numberOfSignatures": 46
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

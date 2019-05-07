@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459603/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459603/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459603/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459603/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459603/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/715950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:52.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459603",
+                    "label": {
+                        "_value": "Make an allowance for up to 2 weeks term time leave from school for holiday."
+                    }
+                },
+                "numberOfSignatures": 127199
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/535488",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T06:30:05.104Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459603",
+                    "label": {
+                        "_value": "Make an allowance for up to 2 weeks term time leave from school for holiday."
+                    }
+                },
+                "numberOfSignatures": 127199
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459603",
+                    "label": {
+                        "_value": "Make an allowance for up to 2 weeks term time leave from school for holiday."
+                    }
+                },
+                "numberOfSignatures": 127199
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/525905",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-12T11:29:07.562Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459603",
+                    "label": {
+                        "_value": "Make an allowance for up to 2 weeks term time leave from school for holiday."
+                    }
+                },
+                "numberOfSignatures": 127199
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T16:37:01.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459603",
+                    "label": {
+                        "_value": "Make an allowance for up to 2 weeks term time leave from school for holiday."
+                    }
+                },
+                "numberOfSignatures": 127199
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548488/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548488/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548488/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548488/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548488/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548488",
+                    "label": {
+                        "_value": "Delay David Cameron invoking Article 50 to provide more time for EU discussions"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633905",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T17:25:52.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548488",
+                    "label": {
+                        "_value": "Delay David Cameron invoking Article 50 to provide more time for EU discussions"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T20:45:29.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548488",
+                    "label": {
+                        "_value": "Delay David Cameron invoking Article 50 to provide more time for EU discussions"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:11:41.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548488",
+                    "label": {
+                        "_value": "Delay David Cameron invoking Article 50 to provide more time for EU discussions"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:32:24.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548488",
+                    "label": {
+                        "_value": "Delay David Cameron invoking Article 50 to provide more time for EU discussions"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465425/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465425/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465425/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465425/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465425/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465425",
+                    "label": {
+                        "_value": "Fairer State Pension, with an award set for each Qualifying N.I. year.\n(No Cap)"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T09:11:58.178Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465425",
+                    "label": {
+                        "_value": "Fairer State Pension, with an award set for each Qualifying N.I. year.\n(No Cap)"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:58.823Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465425",
+                    "label": {
+                        "_value": "Fairer State Pension, with an award set for each Qualifying N.I. year.\n(No Cap)"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

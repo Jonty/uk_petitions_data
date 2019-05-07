@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462927/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462927/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462927/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462927/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462927/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.491Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462927",
+                    "label": {
+                        "_value": "Introduce franchise for a Scotland to South West Cross Country sleeper service"
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543204",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462927",
+                    "label": {
+                        "_value": "Introduce franchise for a Scotland to South West Cross Country sleeper service"
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T22:11:52.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462927",
+                    "label": {
+                        "_value": "Introduce franchise for a Scotland to South West Cross Country sleeper service"
+                    }
+                },
+                "numberOfSignatures": 75
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

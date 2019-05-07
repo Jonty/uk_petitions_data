@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548389/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548389/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548389/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548389/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548389/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735091",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.966Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548389",
+                    "label": {
+                        "_value": "Impose a tuition fee cap for international students"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659325",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-12T02:02:06.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548389",
+                    "label": {
+                        "_value": "Impose a tuition fee cap for international students"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602553",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T01:56:31.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548389",
+                    "label": {
+                        "_value": "Impose a tuition fee cap for international students"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601763",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T14:48:15.032Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548389",
+                    "label": {
+                        "_value": "Impose a tuition fee cap for international students"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570983",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T22:52:29.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548389",
+                    "label": {
+                        "_value": "Impose a tuition fee cap for international students"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T21:23:39.424Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548389",
+                    "label": {
+                        "_value": "Impose a tuition fee cap for international students"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549338/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549338/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549338/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549338/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549338/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/634997",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T18:43:43.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549338",
+                    "label": {
+                        "_value": "A referendum should not be retaken for the same issue for at least 10years"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:23:05.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549338",
+                    "label": {
+                        "_value": "A referendum should not be retaken for the same issue for at least 10years"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549339",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T19:20:07.828Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549338",
+                    "label": {
+                        "_value": "A referendum should not be retaken for the same issue for at least 10years"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

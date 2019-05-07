@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463577/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463577/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463577/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463577/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463577/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463577",
+                    "label": {
+                        "_value": "Make Food Preparation and Nutrition compulsory at each stage of the Curriculum"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547460",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463577",
+                    "label": {
+                        "_value": "Make Food Preparation and Nutrition compulsory at each stage of the Curriculum"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T00:00:09.743Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463577",
+                    "label": {
+                        "_value": "Make Food Preparation and Nutrition compulsory at each stage of the Curriculum"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:11:36.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463577",
+                    "label": {
+                        "_value": "Make Food Preparation and Nutrition compulsory at each stage of the Curriculum"
+                    }
+                },
+                "numberOfSignatures": 45
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

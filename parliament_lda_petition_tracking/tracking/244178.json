@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091812/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091812/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091812/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091812/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091812/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T13:00:02.134Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091812",
+                    "label": {
+                        "_value": "Scrap PIP & ESA assessments for anyone receiving palliative care"
+                    }
+                },
+                "numberOfSignatures": 845
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T20:03:45.719Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091812",
+                    "label": {
+                        "_value": "Scrap PIP & ESA assessments for anyone receiving palliative care"
+                    }
+                },
+                "numberOfSignatures": 839
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091812",
+                    "label": {
+                        "_value": "Scrap PIP & ESA assessments for anyone receiving palliative care"
+                    }
+                },
+                "numberOfSignatures": 558
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093083",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T18:20:17.502Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091812",
+                    "label": {
+                        "_value": "Scrap PIP & ESA assessments for anyone receiving palliative care"
+                    }
+                },
+                "numberOfSignatures": 529
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091813",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:37:04.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091812",
+                    "label": {
+                        "_value": "Scrap PIP & ESA assessments for anyone receiving palliative care"
+                    }
+                },
+                "numberOfSignatures": 203
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

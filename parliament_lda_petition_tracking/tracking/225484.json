@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/951290/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/951290/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/951290/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/951290/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/951290/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1053546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-02T00:00:04.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951290",
+                    "label": {
+                        "_value": "digital tachographs and cpc for private hire vehicles"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-29T11:05:36.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951290",
+                    "label": {
+                        "_value": "digital tachographs and cpc for private hire vehicles"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T12:49:51.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951290",
+                    "label": {
+                        "_value": "digital tachographs and cpc for private hire vehicles"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-28T08:41:49.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951290",
+                    "label": {
+                        "_value": "digital tachographs and cpc for private hire vehicles"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-01T11:06:36.358Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951290",
+                    "label": {
+                        "_value": "digital tachographs and cpc for private hire vehicles"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

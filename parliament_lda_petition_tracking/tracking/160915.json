@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550107/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550107/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550107/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550107/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550107/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645743",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T20:14:48.578Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550107",
+                    "label": {
+                        "_value": "To scrap Grades 1 - 9 and go back to A - U grading/marking."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T01:04:53.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550107",
+                    "label": {
+                        "_value": "To scrap Grades 1 - 9 and go back to A - U grading/marking."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T07:38:26.686Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550107",
+                    "label": {
+                        "_value": "To scrap Grades 1 - 9 and go back to A - U grading/marking."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573125",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:19:13.911Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550107",
+                    "label": {
+                        "_value": "To scrap Grades 1 - 9 and go back to A - U grading/marking."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550108",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T11:02:27.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550107",
+                    "label": {
+                        "_value": "To scrap Grades 1 - 9 and go back to A - U grading/marking."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

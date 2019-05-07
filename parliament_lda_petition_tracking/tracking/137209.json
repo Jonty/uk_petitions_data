@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548790/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548790/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548790/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548790/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548790/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:22.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548790",
+                    "label": {
+                        "_value": "Europeans in the UK for more than 10 years should be given British citizenship."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:53:21.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548790",
+                    "label": {
+                        "_value": "Europeans in the UK for more than 10 years should be given British citizenship."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:12:22.610Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548790",
+                    "label": {
+                        "_value": "Europeans in the UK for more than 10 years should be given British citizenship."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T08:29:04.676Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548790",
+                    "label": {
+                        "_value": "Europeans in the UK for more than 10 years should be given British citizenship."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T12:21:06.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548790",
+                    "label": {
+                        "_value": "Europeans in the UK for more than 10 years should be given British citizenship."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548791",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T03:57:40.816Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548790",
+                    "label": {
+                        "_value": "Europeans in the UK for more than 10 years should be given British citizenship."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

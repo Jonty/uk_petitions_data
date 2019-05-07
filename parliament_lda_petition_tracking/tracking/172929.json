@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/643638/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/643638/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/643638/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/643638/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/643638/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649287",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:06:33.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643638",
+                    "label": {
+                        "_value": "Regulate & cap the rent prices in London (RRR)"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T11:52:38.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643638",
+                    "label": {
+                        "_value": "Regulate & cap the rent prices in London (RRR)"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

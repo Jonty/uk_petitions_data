@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551192/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551192/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551192/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551192/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551192/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651162",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551192",
+                    "label": {
+                        "_value": "Make it illegal for companies to make unsolicited phone calls selling services."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630587",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T18:25:26.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551192",
+                    "label": {
+                        "_value": "Make it illegal for companies to make unsolicited phone calls selling services."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599711",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:19:10.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551192",
+                    "label": {
+                        "_value": "Make it illegal for companies to make unsolicited phone calls selling services."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573212",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:53:04.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551192",
+                    "label": {
+                        "_value": "Make it illegal for companies to make unsolicited phone calls selling services."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T07:47:44.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551192",
+                    "label": {
+                        "_value": "Make it illegal for companies to make unsolicited phone calls selling services."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T09:30:06.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551192",
+                    "label": {
+                        "_value": "Make it illegal for companies to make unsolicited phone calls selling services."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

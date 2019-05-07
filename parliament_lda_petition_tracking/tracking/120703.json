@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465789/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465789/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465789/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465789/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465789/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/560585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465789",
+                    "label": {
+                        "_value": "Prevent Highways agency from removing centre white lines from UK roads"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549093",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T15:35:52.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465789",
+                    "label": {
+                        "_value": "Prevent Highways agency from removing centre white lines from UK roads"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T10:24:11.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465789",
+                    "label": {
+                        "_value": "Prevent Highways agency from removing centre white lines from UK roads"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487986",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T02:18:28.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465789",
+                    "label": {
+                        "_value": "Prevent Highways agency from removing centre white lines from UK roads"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467997",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T05:14:24.324Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465789",
+                    "label": {
+                        "_value": "Prevent Highways agency from removing centre white lines from UK roads"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465790",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T00:15:12.818Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465789",
+                    "label": {
+                        "_value": "Prevent Highways agency from removing centre white lines from UK roads"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

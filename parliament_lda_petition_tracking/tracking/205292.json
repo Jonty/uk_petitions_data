@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/793871/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/793871/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/793871/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/793871/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/793871/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/910048",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-21T23:00:03.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793871",
+                    "label": {
+                        "_value": "Ban vans parking and blocking views of crossings&driveways"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/829268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-22T23:04:14.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793871",
+                    "label": {
+                        "_value": "Ban vans parking and blocking views of crossings&driveways"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/799184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-01T02:25:24.614Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793871",
+                    "label": {
+                        "_value": "Ban vans parking and blocking views of crossings&driveways"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/796607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-24T13:27:39.271Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793871",
+                    "label": {
+                        "_value": "Ban vans parking and blocking views of crossings&driveways"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/793872",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-22T06:29:49.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793871",
+                    "label": {
+                        "_value": "Ban vans parking and blocking views of crossings&driveways"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

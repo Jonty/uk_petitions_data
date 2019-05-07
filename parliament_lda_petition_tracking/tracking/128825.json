@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/527705/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/527705/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/527705/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/527705/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/527705/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.072Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527705",
+                    "label": {
+                        "_value": "End the Junior Doctor dispute by maintaining a 5-day non-emergency care service."
+                    }
+                },
+                "numberOfSignatures": 165
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624351",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527705",
+                    "label": {
+                        "_value": "End the Junior Doctor dispute by maintaining a 5-day non-emergency care service."
+                    }
+                },
+                "numberOfSignatures": 165
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T13:51:45.029Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527705",
+                    "label": {
+                        "_value": "End the Junior Doctor dispute by maintaining a 5-day non-emergency care service."
+                    }
+                },
+                "numberOfSignatures": 165
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/540592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T11:58:42.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527705",
+                    "label": {
+                        "_value": "End the Junior Doctor dispute by maintaining a 5-day non-emergency care service."
+                    }
+                },
+                "numberOfSignatures": 164
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T23:08:57.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527705",
+                    "label": {
+                        "_value": "End the Junior Doctor dispute by maintaining a 5-day non-emergency care service."
+                    }
+                },
+                "numberOfSignatures": 163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527706",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-09T21:04:07.495Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527705",
+                    "label": {
+                        "_value": "End the Junior Doctor dispute by maintaining a 5-day non-emergency care service."
+                    }
+                },
+                "numberOfSignatures": 161
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

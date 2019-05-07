@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466511/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466511/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466511/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466511/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466511/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/575519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466511",
+                    "label": {
+                        "_value": "Stop any added increase to the pensionable age of retirement"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466511",
+                    "label": {
+                        "_value": "Stop any added increase to the pensionable age of retirement"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T20:56:13.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466511",
+                    "label": {
+                        "_value": "Stop any added increase to the pensionable age of retirement"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T07:36:44.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466511",
+                    "label": {
+                        "_value": "Stop any added increase to the pensionable age of retirement"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481530",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T12:24:50.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466511",
+                    "label": {
+                        "_value": "Stop any added increase to the pensionable age of retirement"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466512",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T16:07:56.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466511",
+                    "label": {
+                        "_value": "Stop any added increase to the pensionable age of retirement"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

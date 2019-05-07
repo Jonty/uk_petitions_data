@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/623247/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/623247/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/623247/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/623247/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/623247/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-27T23:00:00.894Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623247",
+                    "label": {
+                        "_value": "To grant leave to remain in the UK for my wife whom I'm married for 26 years."
+                    }
+                },
+                "numberOfSignatures": 341
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665021",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T21:29:16.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623247",
+                    "label": {
+                        "_value": "To grant leave to remain in the UK for my wife whom I'm married for 26 years."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T18:27:20.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623247",
+                    "label": {
+                        "_value": "To grant leave to remain in the UK for my wife whom I'm married for 26 years."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T13:10:11.005Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623247",
+                    "label": {
+                        "_value": "To grant leave to remain in the UK for my wife whom I'm married for 26 years."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T21:19:52.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623247",
+                    "label": {
+                        "_value": "To grant leave to remain in the UK for my wife whom I'm married for 26 years."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

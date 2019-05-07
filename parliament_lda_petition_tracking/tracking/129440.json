@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551232/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551232/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551232/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551232/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551232/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635014",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551232",
+                    "label": {
+                        "_value": "Select the Taxpayers Alliance to oversee Parliamentary expenses"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618998",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:11:39.971Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551232",
+                    "label": {
+                        "_value": "Select the Taxpayers Alliance to oversee Parliamentary expenses"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:40:11.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551232",
+                    "label": {
+                        "_value": "Select the Taxpayers Alliance to oversee Parliamentary expenses"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599715",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:53:15.066Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551232",
+                    "label": {
+                        "_value": "Select the Taxpayers Alliance to oversee Parliamentary expenses"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T10:37:48.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551232",
+                    "label": {
+                        "_value": "Select the Taxpayers Alliance to oversee Parliamentary expenses"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551232",
+                    "label": {
+                        "_value": "Select the Taxpayers Alliance to oversee Parliamentary expenses"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

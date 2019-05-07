@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954003/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954003/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954003/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954003/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954003/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.440Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954003",
+                    "label": {
+                        "_value": "Create a single register of eligible voters managed by the Electoral Commission"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057665",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-07T16:41:31.654Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954003",
+                    "label": {
+                        "_value": "Create a single register of eligible voters managed by the Electoral Commission"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-10T11:48:24.638Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954003",
+                    "label": {
+                        "_value": "Create a single register of eligible voters managed by the Electoral Commission"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954459",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-09T07:51:47.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954003",
+                    "label": {
+                        "_value": "Create a single register of eligible voters managed by the Electoral Commission"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T15:26:17.309Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954003",
+                    "label": {
+                        "_value": "Create a single register of eligible voters managed by the Electoral Commission"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

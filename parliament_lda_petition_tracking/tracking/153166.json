@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548680/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548680/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548680/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548680/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548680/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735711",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548680",
+                    "label": {
+                        "_value": "If Brexit happens. All previous EU spending should be forced to go to the NHS."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T19:17:49.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548680",
+                    "label": {
+                        "_value": "If Brexit happens. All previous EU spending should be forced to go to the NHS."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618300",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:24:02.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548680",
+                    "label": {
+                        "_value": "If Brexit happens. All previous EU spending should be forced to go to the NHS."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575494",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T03:43:42.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548680",
+                    "label": {
+                        "_value": "If Brexit happens. All previous EU spending should be forced to go to the NHS."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T22:50:53.884Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548680",
+                    "label": {
+                        "_value": "If Brexit happens. All previous EU spending should be forced to go to the NHS."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549688/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549688/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549688/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549688/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549688/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549688",
+                    "label": {
+                        "_value": "Stop increasing the pension age.  Reverse it back to 62 and 67 now."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630517",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:25:06.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549688",
+                    "label": {
+                        "_value": "Stop increasing the pension age.  Reverse it back to 62 and 67 now."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606503",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T07:19:18.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549688",
+                    "label": {
+                        "_value": "Stop increasing the pension age.  Reverse it back to 62 and 67 now."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:58:51.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549688",
+                    "label": {
+                        "_value": "Stop increasing the pension age.  Reverse it back to 62 and 67 now."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549689",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T23:15:33.654Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549688",
+                    "label": {
+                        "_value": "Stop increasing the pension age.  Reverse it back to 62 and 67 now."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

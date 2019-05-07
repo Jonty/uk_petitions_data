@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/865975/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/865975/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/865975/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/865975/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/865975/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/975431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-16T23:00:05.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/865975",
+                    "label": {
+                        "_value": "Start a British Foreign Legion."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958837",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-20T18:32:20.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/865975",
+                    "label": {
+                        "_value": "Start a British Foreign Legion."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T14:53:23.981Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/865975",
+                    "label": {
+                        "_value": "Start a British Foreign Legion."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/912199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-24T23:55:38.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/865975",
+                    "label": {
+                        "_value": "Start a British Foreign Legion."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-24T15:09:51.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/865975",
+                    "label": {
+                        "_value": "Start a British Foreign Legion."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/865976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-16T15:09:08.140Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/865975",
+                    "label": {
+                        "_value": "Start a British Foreign Legion."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

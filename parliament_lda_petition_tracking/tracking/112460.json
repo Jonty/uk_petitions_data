@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465453/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465453/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465453/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465453/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465453/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465453",
+                    "label": {
+                        "_value": "Bring forward the referendum and get Britain out of the European Union!"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T02:17:56.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465453",
+                    "label": {
+                        "_value": "Bring forward the referendum and get Britain out of the European Union!"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T23:27:05.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465453",
+                    "label": {
+                        "_value": "Bring forward the referendum and get Britain out of the European Union!"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T11:29:35.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465453",
+                    "label": {
+                        "_value": "Bring forward the referendum and get Britain out of the European Union!"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T23:35:09.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465453",
+                    "label": {
+                        "_value": "Bring forward the referendum and get Britain out of the European Union!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465454",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:13:53.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465453",
+                    "label": {
+                        "_value": "Bring forward the referendum and get Britain out of the European Union!"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

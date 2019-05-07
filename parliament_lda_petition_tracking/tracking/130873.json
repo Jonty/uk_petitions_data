@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549523/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549523/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549523/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549523/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549523/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549523",
+                    "label": {
+                        "_value": "Make the exclusion from any society/club based on gender, age or race illegal"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:48:49.128Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549523",
+                    "label": {
+                        "_value": "Make the exclusion from any society/club based on gender, age or race illegal"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T12:49:59.021Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549523",
+                    "label": {
+                        "_value": "Make the exclusion from any society/club based on gender, age or race illegal"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

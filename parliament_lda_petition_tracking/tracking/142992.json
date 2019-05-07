@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549179/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549179/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549179/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549179/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549179/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/572465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T10:33:47.554Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549179",
+                    "label": {
+                        "_value": "The UK should join EFTA and should stay out of the EEA and Schengen."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T23:18:14.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549179",
+                    "label": {
+                        "_value": "The UK should join EFTA and should stay out of the EEA and Schengen."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-06T14:55:04.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549179",
+                    "label": {
+                        "_value": "The UK should join EFTA and should stay out of the EEA and Schengen."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

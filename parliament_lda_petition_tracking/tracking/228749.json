@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977005/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977005/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977005/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977005/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977005/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1093363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T00:00:06.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977005",
+                    "label": {
+                        "_value": "Increase NHS budgets to help acid attack victims"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058561",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T20:28:21.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977005",
+                    "label": {
+                        "_value": "Increase NHS budgets to help acid attack victims"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-24T20:18:45.780Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977005",
+                    "label": {
+                        "_value": "Increase NHS budgets to help acid attack victims"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977006",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T11:00:20.257Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977005",
+                    "label": {
+                        "_value": "Increase NHS budgets to help acid attack victims"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

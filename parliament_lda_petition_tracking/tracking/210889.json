@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/837177/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/837177/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/837177/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/837177/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/837177/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/952156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-02T23:00:01.215Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837177",
+                    "label": {
+                        "_value": "Make it compulsory for public toilets to have better personal hygiene facilities"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T10:06:48.535Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837177",
+                    "label": {
+                        "_value": "Make it compulsory for public toilets to have better personal hygiene facilities"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/893663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-27T09:15:18.579Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837177",
+                    "label": {
+                        "_value": "Make it compulsory for public toilets to have better personal hygiene facilities"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-04T14:09:54.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837177",
+                    "label": {
+                        "_value": "Make it compulsory for public toilets to have better personal hygiene facilities"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/843105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-17T02:18:37.425Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837177",
+                    "label": {
+                        "_value": "Make it compulsory for public toilets to have better personal hygiene facilities"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/837178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-02T16:06:44.612Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837177",
+                    "label": {
+                        "_value": "Make it compulsory for public toilets to have better personal hygiene facilities"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

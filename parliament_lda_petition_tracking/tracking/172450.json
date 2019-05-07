@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640290/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640290/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640290/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640290/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640290/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/648251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T11:31:50.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640290",
+                    "label": {
+                        "_value": "Provide New Zealand with aid to help them rebuild after the earthquake."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646286",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T15:58:10.996Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640290",
+                    "label": {
+                        "_value": "Provide New Zealand with aid to help them rebuild after the earthquake."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T12:01:54.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640290",
+                    "label": {
+                        "_value": "Provide New Zealand with aid to help them rebuild after the earthquake."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

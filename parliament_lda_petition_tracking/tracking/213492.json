@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/853185/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/853185/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/853185/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/853185/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/853185/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/963954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-01T23:00:01.288Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853185",
+                    "label": {
+                        "_value": "Impose sanctions on America until they change their laws regarding firearms"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-19T12:44:05.185Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853185",
+                    "label": {
+                        "_value": "Impose sanctions on America until they change their laws regarding firearms"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-14T10:34:46.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853185",
+                    "label": {
+                        "_value": "Impose sanctions on America until they change their laws regarding firearms"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T14:11:44.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853185",
+                    "label": {
+                        "_value": "Impose sanctions on America until they change their laws regarding firearms"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-01T12:39:50.669Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853185",
+                    "label": {
+                        "_value": "Impose sanctions on America until they change their laws regarding firearms"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/960025/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/960025/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/960025/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/960025/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/960025/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T00:00:05.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960025",
+                    "label": {
+                        "_value": "Amend Road Traffic Regulation Act 1984 and Road Traffic Offenders Act 1988"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/967706",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-04T16:16:52.242Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960025",
+                    "label": {
+                        "_value": "Amend Road Traffic Regulation Act 1984 and Road Traffic Offenders Act 1988"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962455",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-29T02:40:46.693Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960025",
+                    "label": {
+                        "_value": "Amend Road Traffic Regulation Act 1984 and Road Traffic Offenders Act 1988"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960772",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-25T10:08:19.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960025",
+                    "label": {
+                        "_value": "Amend Road Traffic Regulation Act 1984 and Road Traffic Offenders Act 1988"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-24T18:49:32.172Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960025",
+                    "label": {
+                        "_value": "Amend Road Traffic Regulation Act 1984 and Road Traffic Offenders Act 1988"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-23T14:37:49.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960025",
+                    "label": {
+                        "_value": "Amend Road Traffic Regulation Act 1984 and Road Traffic Offenders Act 1988"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

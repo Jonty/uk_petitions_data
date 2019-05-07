@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/555696/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/555696/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/555696/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/555696/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/555696/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:36:14.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555696",
+                    "label": {
+                        "_value": "Stop South Africans voting in UK when Brits can't vote in SA."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:51:19.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555696",
+                    "label": {
+                        "_value": "Stop South Africans voting in UK when Brits can't vote in SA."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T10:29:15.851Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555696",
+                    "label": {
+                        "_value": "Stop South Africans voting in UK when Brits can't vote in SA."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T08:15:36.734Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555696",
+                    "label": {
+                        "_value": "Stop South Africans voting in UK when Brits can't vote in SA."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555697",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T14:43:39.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/555696",
+                    "label": {
+                        "_value": "Stop South Africans voting in UK when Brits can't vote in SA."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462168/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462168/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462168/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462168/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462168/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728685",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:52.238Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462168",
+                    "label": {
+                        "_value": "Clearer packaging for all meat - Green for UK, Amber for Europe & Red for other"
+                    }
+                },
+                "numberOfSignatures": 160
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462168",
+                    "label": {
+                        "_value": "Clearer packaging for all meat - Green for UK, Amber for Europe & Red for other"
+                    }
+                },
+                "numberOfSignatures": 160
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:10:07.373Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462168",
+                    "label": {
+                        "_value": "Clearer packaging for all meat - Green for UK, Amber for Europe & Red for other"
+                    }
+                },
+                "numberOfSignatures": 160
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

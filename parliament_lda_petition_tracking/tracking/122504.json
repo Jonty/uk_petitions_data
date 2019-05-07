@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466757/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466757/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466757/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466757/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466757/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/569406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466757",
+                    "label": {
+                        "_value": "Become Founding Members  of a organisation called The New  Common Market"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466757",
+                    "label": {
+                        "_value": "Become Founding Members  of a organisation called The New  Common Market"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:19:03.835Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466757",
+                    "label": {
+                        "_value": "Become Founding Members  of a organisation called The New  Common Market"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T20:48:38.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466757",
+                    "label": {
+                        "_value": "Become Founding Members  of a organisation called The New  Common Market"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

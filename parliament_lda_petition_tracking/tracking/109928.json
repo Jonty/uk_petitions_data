@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464569/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464569/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464569/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464569/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464569/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548463",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464569",
+                    "label": {
+                        "_value": "We need more police! We need to see them on the streets and driving around!"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T00:00:05.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464569",
+                    "label": {
+                        "_value": "We need more police! We need to see them on the streets and driving around!"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T19:57:38.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464569",
+                    "label": {
+                        "_value": "We need more police! We need to see them on the streets and driving around!"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T22:45:36.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464569",
+                    "label": {
+                        "_value": "We need more police! We need to see them on the streets and driving around!"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T13:53:09.790Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464569",
+                    "label": {
+                        "_value": "We need more police! We need to see them on the streets and driving around!"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

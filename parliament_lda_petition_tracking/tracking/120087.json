@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464717/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464717/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464717/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464717/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464717/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735848",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.771Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464717",
+                    "label": {
+                        "_value": "Urge David Cameron to visit the Calais refugee camp and respond to the crisis."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464717",
+                    "label": {
+                        "_value": "Urge David Cameron to visit the Calais refugee camp and respond to the crisis."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464717",
+                    "label": {
+                        "_value": "Urge David Cameron to visit the Calais refugee camp and respond to the crisis."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508196",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T18:02:37.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464717",
+                    "label": {
+                        "_value": "Urge David Cameron to visit the Calais refugee camp and respond to the crisis."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T11:49:49.116Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464717",
+                    "label": {
+                        "_value": "Urge David Cameron to visit the Calais refugee camp and respond to the crisis."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464718",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-01T22:17:11.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464717",
+                    "label": {
+                        "_value": "Urge David Cameron to visit the Calais refugee camp and respond to the crisis."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

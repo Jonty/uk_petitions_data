@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482152/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482152/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482152/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482152/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482152/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/587932",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482152",
+                    "label": {
+                        "_value": "Delay the referendum on EU in/out until such time as the public can be educated"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T00:07:04.804Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482152",
+                    "label": {
+                        "_value": "Delay the referendum on EU in/out until such time as the public can be educated"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486877",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T15:14:50.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482152",
+                    "label": {
+                        "_value": "Delay the referendum on EU in/out until such time as the public can be educated"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485314",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T17:05:42.621Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482152",
+                    "label": {
+                        "_value": "Delay the referendum on EU in/out until such time as the public can be educated"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482153",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T16:31:17.813Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482152",
+                    "label": {
+                        "_value": "Delay the referendum on EU in/out until such time as the public can be educated"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

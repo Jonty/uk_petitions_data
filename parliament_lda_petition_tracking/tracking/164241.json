@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558107/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558107/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558107/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558107/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558107/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630629",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T18:25:26.461Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558107",
+                    "label": {
+                        "_value": "Stop BBC Threats to Spy on all WiFi Connections, make iplayer Password Protected"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:28:27.630Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558107",
+                    "label": {
+                        "_value": "Stop BBC Threats to Spy on all WiFi Connections, make iplayer Password Protected"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T17:52:42.020Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558107",
+                    "label": {
+                        "_value": "Stop BBC Threats to Spy on all WiFi Connections, make iplayer Password Protected"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558108",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T14:08:32.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558107",
+                    "label": {
+                        "_value": "Stop BBC Threats to Spy on all WiFi Connections, make iplayer Password Protected"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

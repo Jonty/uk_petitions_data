@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461368/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461368/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461368/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461368/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461368/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.739Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461368",
+                    "label": {
+                        "_value": "Remove loophole in the 2003 sexual offences act that allows bestial necrophillia"
+                    }
+                },
+                "numberOfSignatures": 443
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/531337",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461368",
+                    "label": {
+                        "_value": "Remove loophole in the 2003 sexual offences act that allows bestial necrophillia"
+                    }
+                },
+                "numberOfSignatures": 443
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485084",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T00:00:12.839Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461368",
+                    "label": {
+                        "_value": "Remove loophole in the 2003 sexual offences act that allows bestial necrophillia"
+                    }
+                },
+                "numberOfSignatures": 443
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T23:04:58.713Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461368",
+                    "label": {
+                        "_value": "Remove loophole in the 2003 sexual offences act that allows bestial necrophillia"
+                    }
+                },
+                "numberOfSignatures": 443
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

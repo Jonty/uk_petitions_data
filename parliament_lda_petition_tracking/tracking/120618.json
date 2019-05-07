@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466131/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466131/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466131/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466131/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466131/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/555637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466131",
+                    "label": {
+                        "_value": "The NHS must be funded by a separate tax, with all funds going exclusively to it"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T10:15:52.517Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466131",
+                    "label": {
+                        "_value": "The NHS must be funded by a separate tax, with all funds going exclusively to it"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:22:25.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466131",
+                    "label": {
+                        "_value": "The NHS must be funded by a separate tax, with all funds going exclusively to it"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480507",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T17:40:34.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466131",
+                    "label": {
+                        "_value": "The NHS must be funded by a separate tax, with all funds going exclusively to it"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:22.828Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466131",
+                    "label": {
+                        "_value": "The NHS must be funded by a separate tax, with all funds going exclusively to it"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

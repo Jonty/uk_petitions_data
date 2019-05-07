@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/888417/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/888417/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/888417/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/888417/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/888417/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/992532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-20T23:00:01.035Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/982432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-07T04:25:16.388Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-29T20:21:04.566Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889769",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-23T10:04:30.214Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-22T20:45:04.168Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-20T21:13:49.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-20T18:31:49.810Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/888417",
+                    "label": {
+                        "_value": "Subsidy on \"free from\" products for people with food allergies"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/874314/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/874314/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/874314/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/874314/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/874314/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/979353",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-28T23:00:00.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874314",
+                    "label": {
+                        "_value": "Make all companies provide an e mail address as a point of contact"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-16T14:45:21.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874314",
+                    "label": {
+                        "_value": "Make all companies provide an e mail address as a point of contact"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T06:53:02.730Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874314",
+                    "label": {
+                        "_value": "Make all companies provide an e mail address as a point of contact"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-28T12:55:28.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874314",
+                    "label": {
+                        "_value": "Make all companies provide an e mail address as a point of contact"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/882091",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-12T19:10:15.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874314",
+                    "label": {
+                        "_value": "Make all companies provide an e mail address as a point of contact"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/874315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-28T18:08:26.926Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874314",
+                    "label": {
+                        "_value": "Make all companies provide an e mail address as a point of contact"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

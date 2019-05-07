@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/887795/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/887795/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/887795/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/887795/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/887795/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/992111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-19T23:00:03.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/887795",
+                    "label": {
+                        "_value": "Allow on call and volunteer emergency personnel to use green flashing lights."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/892899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-26T13:37:17.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/887795",
+                    "label": {
+                        "_value": "Allow on call and volunteer emergency personnel to use green flashing lights."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/887796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-19T14:45:59.917Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/887795",
+                    "label": {
+                        "_value": "Allow on call and volunteer emergency personnel to use green flashing lights."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

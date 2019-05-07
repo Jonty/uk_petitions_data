@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549991/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549991/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549991/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549991/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549991/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/655612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T21:23:59.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549991",
+                    "label": {
+                        "_value": "Provide 'Be a Tree' training to children in schools."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T18:39:03.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549991",
+                    "label": {
+                        "_value": "Provide 'Be a Tree' training to children in schools."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549992",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T23:54:01.586Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549991",
+                    "label": {
+                        "_value": "Provide 'Be a Tree' training to children in schools."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

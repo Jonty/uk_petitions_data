@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/590641/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/590641/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/590641/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/590641/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/590641/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/628011",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:38:20.928Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590641",
+                    "label": {
+                        "_value": "Ask this Government to consider issuing a medal to all serving armed forces."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590642",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T11:03:30.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590641",
+                    "label": {
+                        "_value": "Ask this Government to consider issuing a medal to all serving armed forces."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

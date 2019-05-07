@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552000/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552000/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552000/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552000/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552000/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552000",
+                    "label": {
+                        "_value": "Change Road tax back to engine size not emissions"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T07:38:34.438Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552000",
+                    "label": {
+                        "_value": "Change Road tax back to engine size not emissions"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T12:08:23.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552000",
+                    "label": {
+                        "_value": "Change Road tax back to engine size not emissions"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T19:02:45.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552000",
+                    "label": {
+                        "_value": "Change Road tax back to engine size not emissions"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T20:24:25.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552000",
+                    "label": {
+                        "_value": "Change Road tax back to engine size not emissions"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552001",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552000",
+                    "label": {
+                        "_value": "Change Road tax back to engine size not emissions"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

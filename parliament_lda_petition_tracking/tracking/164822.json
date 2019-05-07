@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/561752/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/561752/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/561752/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/561752/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/561752/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:31.752Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561752",
+                    "label": {
+                        "_value": "The Abolition of the Monarchy to be in effect as soon as possible"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T20:50:48.520Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561752",
+                    "label": {
+                        "_value": "The Abolition of the Monarchy to be in effect as soon as possible"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/607396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T12:37:32.533Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561752",
+                    "label": {
+                        "_value": "The Abolition of the Monarchy to be in effect as soon as possible"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T21:32:06.918Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561752",
+                    "label": {
+                        "_value": "The Abolition of the Monarchy to be in effect as soon as possible"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T13:29:53.052Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/561752",
+                    "label": {
+                        "_value": "The Abolition of the Monarchy to be in effect as soon as possible"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

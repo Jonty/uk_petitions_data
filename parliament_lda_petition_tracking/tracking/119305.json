@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466571/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466571/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466571/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466571/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466571/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466571",
+                    "label": {
+                        "_value": "To make Motorway driving part of the Cat B ( Car ) test."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:52:31.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466571",
+                    "label": {
+                        "_value": "To make Motorway driving part of the Cat B ( Car ) test."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T23:55:34.637Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466571",
+                    "label": {
+                        "_value": "To make Motorway driving part of the Cat B ( Car ) test."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

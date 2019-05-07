@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/968755/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/968755/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/968755/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/968755/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/968755/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1083297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T00:00:01.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968755",
+                    "label": {
+                        "_value": "Reform schools\u2019 complaints system "
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1035684",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-04T11:17:36.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968755",
+                    "label": {
+                        "_value": "Reform schools\u2019 complaints system "
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1005553",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T14:32:15.244Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968755",
+                    "label": {
+                        "_value": "Reform schools\u2019 complaints system "
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/985509",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T15:15:59.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968755",
+                    "label": {
+                        "_value": "Reform schools\u2019 complaints system "
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-07T20:29:12.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968755",
+                    "label": {
+                        "_value": "Reform schools\u2019 complaints system "
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/968756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-05T16:09:56.995Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/968755",
+                    "label": {
+                        "_value": "Reform schools\u2019 complaints system "
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

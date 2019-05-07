@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/990106/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/990106/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/990106/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/990106/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/990106/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107255",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:43:23.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-28T10:45:49.487Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-25T07:56:57.208Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/993253",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-22T09:34:58.717Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/992535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-21T18:25:25.117Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/992127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-20T14:40:34.578Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/990107",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-17T13:08:36.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/990106",
+                    "label": {
+                        "_value": "Install Traffic Lights on M1 J29 Southbound Exit Sliproad"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

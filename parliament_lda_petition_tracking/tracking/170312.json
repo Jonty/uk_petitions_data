@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/625791/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/625791/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/625791/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/625791/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/625791/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735563",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-30T23:00:03.829Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625791",
+                    "label": {
+                        "_value": "That the Government delay triggering Article 50 until 23rd June, 2031."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T10:59:38.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625791",
+                    "label": {
+                        "_value": "That the Government delay triggering Article 50 until 23rd June, 2031."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T15:05:24.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625791",
+                    "label": {
+                        "_value": "That the Government delay triggering Article 50 until 23rd June, 2031."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664757/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664757/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664757/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664757/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664757/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729328",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664757",
+                    "label": {
+                        "_value": "Cap insurance cancellation and ammendment charges to a reasonable admin fee only"
+                    }
+                },
+                "numberOfSignatures": 107
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-30T21:43:09.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664757",
+                    "label": {
+                        "_value": "Cap insurance cancellation and ammendment charges to a reasonable admin fee only"
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T23:46:52.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664757",
+                    "label": {
+                        "_value": "Cap insurance cancellation and ammendment charges to a reasonable admin fee only"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-27T17:46:20.112Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664757",
+                    "label": {
+                        "_value": "Cap insurance cancellation and ammendment charges to a reasonable admin fee only"
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T13:47:06.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664757",
+                    "label": {
+                        "_value": "Cap insurance cancellation and ammendment charges to a reasonable admin fee only"
+                    }
+                },
+                "numberOfSignatures": 90
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581901/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581901/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581901/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581901/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581901/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:33.880Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581901",
+                    "label": {
+                        "_value": "Get rid of the EU flag on cars number plates in Britain"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T22:09:40.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581901",
+                    "label": {
+                        "_value": "Get rid of the EU flag on cars number plates in Britain"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:45:54.211Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581901",
+                    "label": {
+                        "_value": "Get rid of the EU flag on cars number plates in Britain"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581902",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T13:12:19.997Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581901",
+                    "label": {
+                        "_value": "Get rid of the EU flag on cars number plates in Britain"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

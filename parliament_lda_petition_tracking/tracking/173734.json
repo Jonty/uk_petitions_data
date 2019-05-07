@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655585/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655585/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655585/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655585/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655585/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655585",
+                    "label": {
+                        "_value": "Implement the recommendations of the Cttee on Economic, Social & Cultural Rights"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T21:07:09.485Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655585",
+                    "label": {
+                        "_value": "Implement the recommendations of the Cttee on Economic, Social & Cultural Rights"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T11:37:46.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655585",
+                    "label": {
+                        "_value": "Implement the recommendations of the Cttee on Economic, Social & Cultural Rights"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T10:37:11.707Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655585",
+                    "label": {
+                        "_value": "Implement the recommendations of the Cttee on Economic, Social & Cultural Rights"
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T21:13:56.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655585",
+                    "label": {
+                        "_value": "Implement the recommendations of the Cttee on Economic, Social & Cultural Rights"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

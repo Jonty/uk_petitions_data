@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/910009/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/910009/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/910009/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/910009/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/910009/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1013570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-23T00:00:02.222Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910009",
+                    "label": {
+                        "_value": "Make it a legal licensing requirement for minimum x2 doorstaff on any venue"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T21:19:16.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910009",
+                    "label": {
+                        "_value": "Make it a legal licensing requirement for minimum x2 doorstaff on any venue"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-03T13:14:51.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910009",
+                    "label": {
+                        "_value": "Make it a legal licensing requirement for minimum x2 doorstaff on any venue"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/918183",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-05T01:27:41.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910009",
+                    "label": {
+                        "_value": "Make it a legal licensing requirement for minimum x2 doorstaff on any venue"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/910827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-23T10:48:58.613Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910009",
+                    "label": {
+                        "_value": "Make it a legal licensing requirement for minimum x2 doorstaff on any venue"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/910010",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-22T17:34:38.030Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/910009",
+                    "label": {
+                        "_value": "Make it a legal licensing requirement for minimum x2 doorstaff on any venue"
+                    }
+                },
+                "numberOfSignatures": 27
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

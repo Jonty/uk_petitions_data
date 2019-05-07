@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/584741/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/584741/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/584741/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/584741/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/584741/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:13:51.397Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584741",
+                    "label": {
+                        "_value": "DWP: decision to extend the waiting time for Mortgage payment to 39 weeks!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591930",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T03:35:37.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584741",
+                    "label": {
+                        "_value": "DWP: decision to extend the waiting time for Mortgage payment to 39 weeks!"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:17:14.545Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584741",
+                    "label": {
+                        "_value": "DWP: decision to extend the waiting time for Mortgage payment to 39 weeks!"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586933",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T21:06:49.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584741",
+                    "label": {
+                        "_value": "DWP: decision to extend the waiting time for Mortgage payment to 39 weeks!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584742",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T16:36:35.952Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584741",
+                    "label": {
+                        "_value": "DWP: decision to extend the waiting time for Mortgage payment to 39 weeks!"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

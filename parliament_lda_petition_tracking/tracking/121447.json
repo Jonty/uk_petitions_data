@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464385/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464385/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464385/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464385/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464385/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464385",
+                    "label": {
+                        "_value": "Abuse & Vandalism to UK War Graves & Monuments should carryBig Prison sentences."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464385",
+                    "label": {
+                        "_value": "Abuse & Vandalism to UK War Graves & Monuments should carryBig Prison sentences."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T04:39:15.486Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464385",
+                    "label": {
+                        "_value": "Abuse & Vandalism to UK War Graves & Monuments should carryBig Prison sentences."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T12:45:43.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464385",
+                    "label": {
+                        "_value": "Abuse & Vandalism to UK War Graves & Monuments should carryBig Prison sentences."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T03:01:03.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464385",
+                    "label": {
+                        "_value": "Abuse & Vandalism to UK War Graves & Monuments should carryBig Prison sentences."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

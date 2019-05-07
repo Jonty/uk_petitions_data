@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/627884/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/627884/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/627884/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/627884/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/627884/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734037",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-01T23:00:07.786Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/627884",
+                    "label": {
+                        "_value": "UK residents without right to vote in general elections to be income tax exempt"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640059",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T09:46:50.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/627884",
+                    "label": {
+                        "_value": "UK residents without right to vote in general elections to be income tax exempt"
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T14:45:15.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/627884",
+                    "label": {
+                        "_value": "UK residents without right to vote in general elections to be income tax exempt"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630321",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T15:39:28.520Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/627884",
+                    "label": {
+                        "_value": "UK residents without right to vote in general elections to be income tax exempt"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627885",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T11:15:26.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/627884",
+                    "label": {
+                        "_value": "UK residents without right to vote in general elections to be income tax exempt"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

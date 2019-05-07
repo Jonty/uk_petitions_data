@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587939/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587939/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587939/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587939/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587939/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640282",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T13:47:37.336Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587939",
+                    "label": {
+                        "_value": "Have older drivers be assessed free of charge once hitting a particular age."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591060",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:05:30.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587939",
+                    "label": {
+                        "_value": "Have older drivers be assessed free of charge once hitting a particular age."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588460",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T21:11:22.699Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587939",
+                    "label": {
+                        "_value": "Have older drivers be assessed free of charge once hitting a particular age."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T19:57:07.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587939",
+                    "label": {
+                        "_value": "Have older drivers be assessed free of charge once hitting a particular age."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509868/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509868/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509868/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509868/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509868/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:15.780Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600387",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578255",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T19:18:03.865Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T15:33:37.072Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T17:42:13.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T21:49:34.996Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T21:30:34.165Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509868",
+                    "label": {
+                        "_value": "Ban horse racing to stop anymore deaths"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

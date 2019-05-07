@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549527/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549527/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549527/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549527/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549527/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633926",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549527",
+                    "label": {
+                        "_value": "Cycling revolution will cure the nation\u2019s poor health."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630486",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:19:25.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549527",
+                    "label": {
+                        "_value": "Cycling revolution will cure the nation\u2019s poor health."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:06:00.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549527",
+                    "label": {
+                        "_value": "Cycling revolution will cure the nation\u2019s poor health."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:52:23.603Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549527",
+                    "label": {
+                        "_value": "Cycling revolution will cure the nation\u2019s poor health."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T19:41:55.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549527",
+                    "label": {
+                        "_value": "Cycling revolution will cure the nation\u2019s poor health."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549528",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T19:29:40.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549527",
+                    "label": {
+                        "_value": "Cycling revolution will cure the nation\u2019s poor health."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

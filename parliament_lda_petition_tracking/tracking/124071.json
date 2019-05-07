@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482851/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482851/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482851/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482851/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482851/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:12.450Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482851",
+                    "label": {
+                        "_value": "Make it illegal to smoke within 20 metres of a school during school hours"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482851",
+                    "label": {
+                        "_value": "Make it illegal to smoke within 20 metres of a school during school hours"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T22:40:08.638Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482851",
+                    "label": {
+                        "_value": "Make it illegal to smoke within 20 metres of a school during school hours"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T19:36:27.455Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482851",
+                    "label": {
+                        "_value": "Make it illegal to smoke within 20 metres of a school during school hours"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483998",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T10:14:47.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482851",
+                    "label": {
+                        "_value": "Make it illegal to smoke within 20 metres of a school during school hours"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T16:32:23.215Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482851",
+                    "label": {
+                        "_value": "Make it illegal to smoke within 20 metres of a school during school hours"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

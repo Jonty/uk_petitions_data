@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/804197/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/804197/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/804197/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/804197/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/804197/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/922946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-11T23:00:06.137Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/804197",
+                    "label": {
+                        "_value": "Create a devolved parliament for the county of Devon"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-21T03:54:41.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/804197",
+                    "label": {
+                        "_value": "Create a devolved parliament for the county of Devon"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/859065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-09T13:24:24.211Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/804197",
+                    "label": {
+                        "_value": "Create a devolved parliament for the county of Devon"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849239",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-24T22:33:18.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/804197",
+                    "label": {
+                        "_value": "Create a devolved parliament for the county of Devon"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/814950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-02T16:22:23.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/804197",
+                    "label": {
+                        "_value": "Create a devolved parliament for the county of Devon"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/804198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-11T20:57:27.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/804197",
+                    "label": {
+                        "_value": "Create a devolved parliament for the county of Devon"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

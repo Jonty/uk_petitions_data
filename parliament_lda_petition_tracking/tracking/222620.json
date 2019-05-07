@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/945999/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/945999/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/945999/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/945999/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/945999/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1045354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-21T00:00:03.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/945999",
+                    "label": {
+                        "_value": "Fund mental health facilities for Salisbury"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/969961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-06T02:46:08.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/945999",
+                    "label": {
+                        "_value": "Fund mental health facilities for Salisbury"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955747",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-12T19:34:11.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/945999",
+                    "label": {
+                        "_value": "Fund mental health facilities for Salisbury"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-07T17:42:28.611Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/945999",
+                    "label": {
+                        "_value": "Fund mental health facilities for Salisbury"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T08:36:02.075Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/945999",
+                    "label": {
+                        "_value": "Fund mental health facilities for Salisbury"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946000",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T20:17:20.330Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/945999",
+                    "label": {
+                        "_value": "Fund mental health facilities for Salisbury"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

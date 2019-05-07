@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1090869/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1090869/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1090869/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1090869/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1090869/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107482",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T02:28:32.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090869",
+                    "label": {
+                        "_value": "Enable recall of local councillors who bring their role into disrepute."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T16:27:24.408Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090869",
+                    "label": {
+                        "_value": "Enable recall of local councillors who bring their role into disrepute."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T07:17:19.720Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090869",
+                    "label": {
+                        "_value": "Enable recall of local councillors who bring their role into disrepute."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T17:29:55.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090869",
+                    "label": {
+                        "_value": "Enable recall of local councillors who bring their role into disrepute."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

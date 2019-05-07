@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551387/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551387/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551387/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551387/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551387/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/646294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T00:26:04.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551387",
+                    "label": {
+                        "_value": "Raise the speed limit of the motorway to unlimited"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594471",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T11:55:07.980Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551387",
+                    "label": {
+                        "_value": "Raise the speed limit of the motorway to unlimited"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583743",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T12:36:14.763Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551387",
+                    "label": {
+                        "_value": "Raise the speed limit of the motorway to unlimited"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564999",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T16:40:30.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551387",
+                    "label": {
+                        "_value": "Raise the speed limit of the motorway to unlimited"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-24T09:33:27.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551387",
+                    "label": {
+                        "_value": "Raise the speed limit of the motorway to unlimited"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

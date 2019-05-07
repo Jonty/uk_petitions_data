@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462200/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462200/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462200/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462200/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462200/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728669",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462200",
+                    "label": {
+                        "_value": "Department for Education: Don't scrap GCSE and A level Health and Social Care"
+                    }
+                },
+                "numberOfSignatures": 162
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462200",
+                    "label": {
+                        "_value": "Department for Education: Don't scrap GCSE and A level Health and Social Care"
+                    }
+                },
+                "numberOfSignatures": 162
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527704",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-19T00:00:04.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462200",
+                    "label": {
+                        "_value": "Department for Education: Don't scrap GCSE and A level Health and Social Care"
+                    }
+                },
+                "numberOfSignatures": 162
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T08:22:05.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462200",
+                    "label": {
+                        "_value": "Department for Education: Don't scrap GCSE and A level Health and Social Care"
+                    }
+                },
+                "numberOfSignatures": 155
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462201",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T20:43:06.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462200",
+                    "label": {
+                        "_value": "Department for Education: Don't scrap GCSE and A level Health and Social Care"
+                    }
+                },
+                "numberOfSignatures": 154
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

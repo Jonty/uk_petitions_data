@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550906/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550906/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550906/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550906/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550906/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/573208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T14:17:05.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550906",
+                    "label": {
+                        "_value": "Care homes to be required by law to provide Mario Kart gaming for residents."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550907",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T14:30:54.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550906",
+                    "label": {
+                        "_value": "Care homes to be required by law to provide Mario Kart gaming for residents."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

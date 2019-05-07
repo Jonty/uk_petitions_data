@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551401/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551401/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551401/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551401/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551401/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/628846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T09:48:00.820Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551401",
+                    "label": {
+                        "_value": "Make it compulsory for companies to disclose their phone number on contact."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599749",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:52:22.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551401",
+                    "label": {
+                        "_value": "Make it compulsory for companies to disclose their phone number on contact."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T09:20:48.694Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551401",
+                    "label": {
+                        "_value": "Make it compulsory for companies to disclose their phone number on contact."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

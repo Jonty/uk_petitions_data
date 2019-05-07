@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/920483/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/920483/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/920483/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/920483/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/920483/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1022354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-09T00:00:01.230Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920483",
+                    "label": {
+                        "_value": "Give all carers with SGO the same allowance regardless of income"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/983722",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-08T09:12:05.276Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920483",
+                    "label": {
+                        "_value": "Give all carers with SGO the same allowance regardless of income"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970036",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-07T15:13:58.579Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920483",
+                    "label": {
+                        "_value": "Give all carers with SGO the same allowance regardless of income"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/957736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-17T11:12:05.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920483",
+                    "label": {
+                        "_value": "Give all carers with SGO the same allowance regardless of income"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/945414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-19T18:29:52.212Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920483",
+                    "label": {
+                        "_value": "Give all carers with SGO the same allowance regardless of income"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/920484",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-08T15:21:37.566Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920483",
+                    "label": {
+                        "_value": "Give all carers with SGO the same allowance regardless of income"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

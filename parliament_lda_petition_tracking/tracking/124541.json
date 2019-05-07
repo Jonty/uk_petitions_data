@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/478490/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/478490/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/478490/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/478490/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/478490/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/585953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478490",
+                    "label": {
+                        "_value": "DVLA to review their policies of exemption circumstances for medical conditions"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478490",
+                    "label": {
+                        "_value": "DVLA to review their policies of exemption circumstances for medical conditions"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T11:07:47.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478490",
+                    "label": {
+                        "_value": "DVLA to review their policies of exemption circumstances for medical conditions"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T16:46:07.397Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478490",
+                    "label": {
+                        "_value": "DVLA to review their policies of exemption circumstances for medical conditions"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478997",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T20:53:10.045Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478490",
+                    "label": {
+                        "_value": "DVLA to review their policies of exemption circumstances for medical conditions"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478491",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T14:54:15.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478490",
+                    "label": {
+                        "_value": "DVLA to review their policies of exemption circumstances for medical conditions"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

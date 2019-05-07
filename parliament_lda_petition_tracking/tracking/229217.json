@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/980091/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/980091/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/980091/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/980091/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/980091/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T14:43:54.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/980091",
+                    "label": {
+                        "_value": "Make CCTV mandatory on streets where crime doubles in 6 months."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T16:44:01.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/980091",
+                    "label": {
+                        "_value": "Make CCTV mandatory on streets where crime doubles in 6 months."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-09T19:41:25.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/980091",
+                    "label": {
+                        "_value": "Make CCTV mandatory on streets where crime doubles in 6 months."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-28T16:26:49.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/980091",
+                    "label": {
+                        "_value": "Make CCTV mandatory on streets where crime doubles in 6 months."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-26T08:02:18.233Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/980091",
+                    "label": {
+                        "_value": "Make CCTV mandatory on streets where crime doubles in 6 months."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/980092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-01T10:51:23.455Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/980091",
+                    "label": {
+                        "_value": "Make CCTV mandatory on streets where crime doubles in 6 months."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

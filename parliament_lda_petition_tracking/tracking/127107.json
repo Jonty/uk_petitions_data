@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509930/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509930/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509930/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509930/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509930/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/600430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509930",
+                    "label": {
+                        "_value": "Crash for cash drivers to be banned from driving for life"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T17:10:08.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509930",
+                    "label": {
+                        "_value": "Crash for cash drivers to be banned from driving for life"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571733",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:51:42.600Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509930",
+                    "label": {
+                        "_value": "Crash for cash drivers to be banned from driving for life"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T08:56:16.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509930",
+                    "label": {
+                        "_value": "Crash for cash drivers to be banned from driving for life"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T22:15:00.449Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509930",
+                    "label": {
+                        "_value": "Crash for cash drivers to be banned from driving for life"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509931",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T13:55:03.038Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509930",
+                    "label": {
+                        "_value": "Crash for cash drivers to be banned from driving for life"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

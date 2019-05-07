@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/573255/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/573255/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/573255/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/573255/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/573255/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T05:11:58.382Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573255",
+                    "label": {
+                        "_value": "Abolish the wasteful Brexit (Exiting the EU) and International Trade Departments"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592374",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T13:52:18.696Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573255",
+                    "label": {
+                        "_value": "Abolish the wasteful Brexit (Exiting the EU) and International Trade Departments"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573256",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:49:49.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/573255",
+                    "label": {
+                        "_value": "Abolish the wasteful Brexit (Exiting the EU) and International Trade Departments"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

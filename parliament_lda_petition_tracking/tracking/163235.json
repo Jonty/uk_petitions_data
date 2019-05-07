@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553378/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553378/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553378/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553378/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553378/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:29.928Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553378",
+                    "label": {
+                        "_value": "Raise university tuition fees using current CPI, not forecasted RPIX"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T21:32:29.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553378",
+                    "label": {
+                        "_value": "Raise university tuition fees using current CPI, not forecasted RPIX"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T16:02:20.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553378",
+                    "label": {
+                        "_value": "Raise university tuition fees using current CPI, not forecasted RPIX"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T16:54:46.305Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553378",
+                    "label": {
+                        "_value": "Raise university tuition fees using current CPI, not forecasted RPIX"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T16:12:07.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553378",
+                    "label": {
+                        "_value": "Raise university tuition fees using current CPI, not forecasted RPIX"
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

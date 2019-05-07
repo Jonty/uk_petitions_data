@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462079/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462079/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462079/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462079/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462079/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:49.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462079",
+                    "label": {
+                        "_value": "Outlaw male as well as female genital mutilation, equalizing children's rights"
+                    }
+                },
+                "numberOfSignatures": 174
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462079",
+                    "label": {
+                        "_value": "Outlaw male as well as female genital mutilation, equalizing children's rights"
+                    }
+                },
+                "numberOfSignatures": 174
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:09:05.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462079",
+                    "label": {
+                        "_value": "Outlaw male as well as female genital mutilation, equalizing children's rights"
+                    }
+                },
+                "numberOfSignatures": 174
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

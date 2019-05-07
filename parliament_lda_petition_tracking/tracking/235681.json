@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1030045/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1030045/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1030045/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1030045/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1030045/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:05:18.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030045",
+                    "label": {
+                        "_value": "Stop local borough councils charging for replacement recycling bins"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075897",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:27:26.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030045",
+                    "label": {
+                        "_value": "Stop local borough councils charging for replacement recycling bins"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T12:30:40.352Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030045",
+                    "label": {
+                        "_value": "Stop local borough councils charging for replacement recycling bins"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030574",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T15:14:01.700Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030045",
+                    "label": {
+                        "_value": "Stop local borough councils charging for replacement recycling bins"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-20T20:07:37.184Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030045",
+                    "label": {
+                        "_value": "Stop local borough councils charging for replacement recycling bins"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

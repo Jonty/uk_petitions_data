@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/926513/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/926513/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/926513/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/926513/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/926513/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1029069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-19T00:00:01.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/926513",
+                    "label": {
+                        "_value": "Reform the police complaints system"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-08T23:33:07.148Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/926513",
+                    "label": {
+                        "_value": "Reform the police complaints system"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970477",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-07T20:31:03.894Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/926513",
+                    "label": {
+                        "_value": "Reform the police complaints system"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936510",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-01T14:54:32.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/926513",
+                    "label": {
+                        "_value": "Reform the police complaints system"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/926514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-18T16:27:35.448Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/926513",
+                    "label": {
+                        "_value": "Reform the police complaints system"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

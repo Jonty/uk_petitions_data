@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1001890/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1001890/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1001890/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1001890/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1001890/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107558",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:08.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1001890",
+                    "label": {
+                        "_value": "More Money For Unemployed"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040018",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-11T12:08:43.907Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1001890",
+                    "label": {
+                        "_value": "More Money For Unemployed"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1024549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-12T09:19:58.686Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1001890",
+                    "label": {
+                        "_value": "More Money For Unemployed"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:16:19.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1001890",
+                    "label": {
+                        "_value": "More Money For Unemployed"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T13:57:38.231Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1001890",
+                    "label": {
+                        "_value": "More Money For Unemployed"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

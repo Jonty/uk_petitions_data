@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/580183/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/580183/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/580183/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/580183/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/580183/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T11:01:09.865Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580183",
+                    "label": {
+                        "_value": "Enable Police and Telephone services to trace and prosecute cold callers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632676",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T18:24:02.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580183",
+                    "label": {
+                        "_value": "Enable Police and Telephone services to trace and prosecute cold callers."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600455",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T09:11:40.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580183",
+                    "label": {
+                        "_value": "Enable Police and Telephone services to trace and prosecute cold callers."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599781",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:30:57.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580183",
+                    "label": {
+                        "_value": "Enable Police and Telephone services to trace and prosecute cold callers."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597164",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T09:24:48.123Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580183",
+                    "label": {
+                        "_value": "Enable Police and Telephone services to trace and prosecute cold callers."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T13:57:09.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580183",
+                    "label": {
+                        "_value": "Enable Police and Telephone services to trace and prosecute cold callers."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

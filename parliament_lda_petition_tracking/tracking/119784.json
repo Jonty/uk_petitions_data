@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466137/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466137/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466137/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466137/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466137/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466137",
+                    "label": {
+                        "_value": "Stop the benefit cap going down below \u00a3500 a week"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468006",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T08:27:13.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466137",
+                    "label": {
+                        "_value": "Stop the benefit cap going down below \u00a3500 a week"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:04.194Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466137",
+                    "label": {
+                        "_value": "Stop the benefit cap going down below \u00a3500 a week"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

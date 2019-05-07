@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/995388/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/995388/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/995388/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/995388/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/995388/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T00:55:08.814Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995388",
+                    "label": {
+                        "_value": "Jeremy Hunt to make full apology for comparing the EU and Soviet Union"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T08:08:58.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995388",
+                    "label": {
+                        "_value": "Jeremy Hunt to make full apology for comparing the EU and Soviet Union"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:46:32.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995388",
+                    "label": {
+                        "_value": "Jeremy Hunt to make full apology for comparing the EU and Soviet Union"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-02T15:27:58.612Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995388",
+                    "label": {
+                        "_value": "Jeremy Hunt to make full apology for comparing the EU and Soviet Union"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:05:22.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995388",
+                    "label": {
+                        "_value": "Jeremy Hunt to make full apology for comparing the EU and Soviet Union"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T16:30:42.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995388",
+                    "label": {
+                        "_value": "Jeremy Hunt to make full apology for comparing the EU and Soviet Union"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

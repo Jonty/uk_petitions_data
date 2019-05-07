@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/797224/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/797224/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/797224/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/797224/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/797224/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/914217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T23:00:02.930Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/797224",
+                    "label": {
+                        "_value": "Rebate and partially rebate stamp duty on properties purchased since 22/11/16"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/797225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-29T19:00:00.993Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/797224",
+                    "label": {
+                        "_value": "Rebate and partially rebate stamp duty on properties purchased since 22/11/16"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

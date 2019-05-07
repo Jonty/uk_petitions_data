@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492194/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492194/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492194/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492194/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492194/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492194",
+                    "label": {
+                        "_value": "Support scrapping the 'lesser-duty' rule to save British steel industry."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T14:15:23.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492194",
+                    "label": {
+                        "_value": "Support scrapping the 'lesser-duty' rule to save British steel industry."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503459",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T12:23:38.056Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492194",
+                    "label": {
+                        "_value": "Support scrapping the 'lesser-duty' rule to save British steel industry."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502822",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T17:45:51.221Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492194",
+                    "label": {
+                        "_value": "Support scrapping the 'lesser-duty' rule to save British steel industry."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492195",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T19:46:46.646Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492194",
+                    "label": {
+                        "_value": "Support scrapping the 'lesser-duty' rule to save British steel industry."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

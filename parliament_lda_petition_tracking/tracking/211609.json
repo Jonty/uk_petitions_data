@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841228/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841228/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841228/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841228/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841228/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/954019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-07T23:00:02.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841228",
+                    "label": {
+                        "_value": "Stop Dartford toll fees."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/924614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-14T14:40:06.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841228",
+                    "label": {
+                        "_value": "Stop Dartford toll fees."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/923867",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-13T19:29:10.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841228",
+                    "label": {
+                        "_value": "Stop Dartford toll fees."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-22T12:49:12.368Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841228",
+                    "label": {
+                        "_value": "Stop Dartford toll fees."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/861872",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-13T19:08:20.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841228",
+                    "label": {
+                        "_value": "Stop Dartford toll fees."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-07T18:31:02.138Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841228",
+                    "label": {
+                        "_value": "Stop Dartford toll fees."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

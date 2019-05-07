@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463903/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463903/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463903/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463903/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463903/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734531",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463903",
+                    "label": {
+                        "_value": "This Government to do more to support our steel industry and train builders"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463903",
+                    "label": {
+                        "_value": "This Government to do more to support our steel industry and train builders"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T11:36:12.167Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463903",
+                    "label": {
+                        "_value": "This Government to do more to support our steel industry and train builders"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T15:30:17.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463903",
+                    "label": {
+                        "_value": "This Government to do more to support our steel industry and train builders"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T22:28:55.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463903",
+                    "label": {
+                        "_value": "This Government to do more to support our steel industry and train builders"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T19:29:31.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463903",
+                    "label": {
+                        "_value": "This Government to do more to support our steel industry and train builders"
+                    }
+                },
+                "numberOfSignatures": 36
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

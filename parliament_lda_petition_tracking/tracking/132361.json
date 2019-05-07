@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543804/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543804/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543804/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543804/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543804/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:20.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543804",
+                    "label": {
+                        "_value": "Introduce Automatic Voter Registration in the UK"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543804",
+                    "label": {
+                        "_value": "Introduce Automatic Voter Registration in the UK"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T17:07:57.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543804",
+                    "label": {
+                        "_value": "Introduce Automatic Voter Registration in the UK"
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

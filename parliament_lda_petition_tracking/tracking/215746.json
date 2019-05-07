@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/872173/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/872173/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/872173/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/872173/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/872173/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/978520",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-26T23:00:05.006Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872173",
+                    "label": {
+                        "_value": "Give students in unaffordable cities larger student loans for unaffordable rent."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T23:51:21.637Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872173",
+                    "label": {
+                        "_value": "Give students in unaffordable cities larger student loans for unaffordable rent."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902011",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T13:20:46.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872173",
+                    "label": {
+                        "_value": "Give students in unaffordable cities larger student loans for unaffordable rent."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/874280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-28T02:07:23.594Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872173",
+                    "label": {
+                        "_value": "Give students in unaffordable cities larger student loans for unaffordable rent."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/872174",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-26T09:30:15.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/872173",
+                    "label": {
+                        "_value": "Give students in unaffordable cities larger student loans for unaffordable rent."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465595/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465595/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465595/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465595/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465595/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550081",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465595",
+                    "label": {
+                        "_value": "Allow voluntary payments by those entitled to Free Over 75 TV Licence."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T00:00:09.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465595",
+                    "label": {
+                        "_value": "Allow voluntary payments by those entitled to Free Over 75 TV Licence."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:12:00.749Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465595",
+                    "label": {
+                        "_value": "Allow voluntary payments by those entitled to Free Over 75 TV Licence."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

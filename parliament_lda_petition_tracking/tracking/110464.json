@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462599/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462599/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462599/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462599/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462599/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462599",
+                    "label": {
+                        "_value": "We ask Government to request Monarch\u2019s pardon of Anne West of murder conviction."
+                    }
+                },
+                "numberOfSignatures": 103
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462599",
+                    "label": {
+                        "_value": "We ask Government to request Monarch\u2019s pardon of Anne West of murder conviction."
+                    }
+                },
+                "numberOfSignatures": 103
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527937",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-17T00:00:05.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462599",
+                    "label": {
+                        "_value": "We ask Government to request Monarch\u2019s pardon of Anne West of murder conviction."
+                    }
+                },
+                "numberOfSignatures": 103
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490009",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T16:25:10.887Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462599",
+                    "label": {
+                        "_value": "We ask Government to request Monarch\u2019s pardon of Anne West of murder conviction."
+                    }
+                },
+                "numberOfSignatures": 103
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:11:34.282Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462599",
+                    "label": {
+                        "_value": "We ask Government to request Monarch\u2019s pardon of Anne West of murder conviction."
+                    }
+                },
+                "numberOfSignatures": 102
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/704939/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/704939/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/704939/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/704939/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/704939/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:18.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/704939",
+                    "label": {
+                        "_value": "Fund Research into Fibromyalgia"
+                    }
+                },
+                "numberOfSignatures": 1157
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707059",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-02T00:24:33.408Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/704939",
+                    "label": {
+                        "_value": "Fund Research into Fibromyalgia"
+                    }
+                },
+                "numberOfSignatures": 1088
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T23:57:48.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/704939",
+                    "label": {
+                        "_value": "Fund Research into Fibromyalgia"
+                    }
+                },
+                "numberOfSignatures": 1038
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

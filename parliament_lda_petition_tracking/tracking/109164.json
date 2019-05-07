@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461849/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461849/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461849/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461849/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461849/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728154",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461849",
+                    "label": {
+                        "_value": "Re-enactment of a Sikh Regiment in the British Army."
+                    }
+                },
+                "numberOfSignatures": 223
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461849",
+                    "label": {
+                        "_value": "Re-enactment of a Sikh Regiment in the British Army."
+                    }
+                },
+                "numberOfSignatures": 223
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487676",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T00:00:11.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461849",
+                    "label": {
+                        "_value": "Re-enactment of a Sikh Regiment in the British Army."
+                    }
+                },
+                "numberOfSignatures": 223
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467723",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T10:46:42.138Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461849",
+                    "label": {
+                        "_value": "Re-enactment of a Sikh Regiment in the British Army."
+                    }
+                },
+                "numberOfSignatures": 223
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T09:14:53.317Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461849",
+                    "label": {
+                        "_value": "Re-enactment of a Sikh Regiment in the British Army."
+                    }
+                },
+                "numberOfSignatures": 222
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

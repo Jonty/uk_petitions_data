@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466535/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466535/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466535/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466535/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466535/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/565627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466535",
+                    "label": {
+                        "_value": "Give Council Tax Payers the option to OPT OUT of some service\nelements"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466535",
+                    "label": {
+                        "_value": "Give Council Tax Payers the option to OPT OUT of some service\nelements"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482927",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:16:57.567Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466535",
+                    "label": {
+                        "_value": "Give Council Tax Payers the option to OPT OUT of some service\nelements"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T19:50:49.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466535",
+                    "label": {
+                        "_value": "Give Council Tax Payers the option to OPT OUT of some service\nelements"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466536",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T19:34:10.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466535",
+                    "label": {
+                        "_value": "Give Council Tax Payers the option to OPT OUT of some service\nelements"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

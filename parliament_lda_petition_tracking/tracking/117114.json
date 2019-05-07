@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465979/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465979/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465979/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465979/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465979/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465979",
+                    "label": {
+                        "_value": "Stop Foreign Aid Except Emergencies."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T02:18:11.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465979",
+                    "label": {
+                        "_value": "Stop Foreign Aid Except Emergencies."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491439",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T20:58:20.904Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465979",
+                    "label": {
+                        "_value": "Stop Foreign Aid Except Emergencies."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489387",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:56:27.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465979",
+                    "label": {
+                        "_value": "Stop Foreign Aid Except Emergencies."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488701",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T10:31:13.330Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465979",
+                    "label": {
+                        "_value": "Stop Foreign Aid Except Emergencies."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:52.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465979",
+                    "label": {
+                        "_value": "Stop Foreign Aid Except Emergencies."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464947/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464947/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464947/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464947/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464947/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548743",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464947",
+                    "label": {
+                        "_value": "Phase out subsidies for fossil fuels and reintroduce them for green energy"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511164",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:19:42.613Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464947",
+                    "label": {
+                        "_value": "Phase out subsidies for fossil fuels and reintroduce them for green energy"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T14:43:22.932Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464947",
+                    "label": {
+                        "_value": "Phase out subsidies for fossil fuels and reintroduce them for green energy"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488676",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T15:01:59.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464947",
+                    "label": {
+                        "_value": "Phase out subsidies for fossil fuels and reintroduce them for green energy"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:13.369Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464947",
+                    "label": {
+                        "_value": "Phase out subsidies for fossil fuels and reintroduce them for green energy"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

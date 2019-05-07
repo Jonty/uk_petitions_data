@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1084346/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1084346/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1084346/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1084346/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1084346/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T19:52:53.186Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1084346",
+                    "label": {
+                        "_value": "Make everyone with a life time disability mental or physical have life time pip"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T11:21:19.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1084346",
+                    "label": {
+                        "_value": "Make everyone with a life time disability mental or physical have life time pip"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T22:57:11.030Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1084346",
+                    "label": {
+                        "_value": "Make everyone with a life time disability mental or physical have life time pip"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T18:14:46.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1084346",
+                    "label": {
+                        "_value": "Make everyone with a life time disability mental or physical have life time pip"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

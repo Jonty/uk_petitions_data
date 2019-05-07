@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/486883/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/486883/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/486883/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/486883/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/486883/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486883",
+                    "label": {
+                        "_value": "Scrap the \u00a39000 tuiton fees!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549703",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486883",
+                    "label": {
+                        "_value": "Scrap the \u00a39000 tuiton fees!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502808",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T22:52:27.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486883",
+                    "label": {
+                        "_value": "Scrap the \u00a39000 tuiton fees!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T19:25:23.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486883",
+                    "label": {
+                        "_value": "Scrap the \u00a39000 tuiton fees!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486884",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T12:51:52.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486883",
+                    "label": {
+                        "_value": "Scrap the \u00a39000 tuiton fees!"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

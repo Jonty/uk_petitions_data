@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464729/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464729/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464729/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464729/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464729/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464729",
+                    "label": {
+                        "_value": "Free prescriptions for long term illness animals"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T19:50:24.320Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464729",
+                    "label": {
+                        "_value": "Free prescriptions for long term illness animals"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/470330",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T21:16:58.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464729",
+                    "label": {
+                        "_value": "Free prescriptions for long term illness animals"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T20:12:15.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464729",
+                    "label": {
+                        "_value": "Free prescriptions for long term illness animals"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

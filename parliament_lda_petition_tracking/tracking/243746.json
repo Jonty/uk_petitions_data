@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091809/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091809/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091809/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091809/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091809/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108123",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T21:26:42.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091809",
+                    "label": {
+                        "_value": "Exempt people born and raised in the UK from deportation/revocation of leave"
+                    }
+                },
+                "numberOfSignatures": 566
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T20:22:59.708Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091809",
+                    "label": {
+                        "_value": "Exempt people born and raised in the UK from deportation/revocation of leave"
+                    }
+                },
+                "numberOfSignatures": 563
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093818",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091809",
+                    "label": {
+                        "_value": "Exempt people born and raised in the UK from deportation/revocation of leave"
+                    }
+                },
+                "numberOfSignatures": 410
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T15:34:17.260Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091809",
+                    "label": {
+                        "_value": "Exempt people born and raised in the UK from deportation/revocation of leave"
+                    }
+                },
+                "numberOfSignatures": 405
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:34:48.986Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091809",
+                    "label": {
+                        "_value": "Exempt people born and raised in the UK from deportation/revocation of leave"
+                    }
+                },
+                "numberOfSignatures": 234
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

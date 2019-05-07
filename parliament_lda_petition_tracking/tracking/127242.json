@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509894/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509894/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509894/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509894/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509894/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/600437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509894",
+                    "label": {
+                        "_value": "Allow katy James to stay in the Uk with her husband and 2 year old daughter!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:46:47.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509894",
+                    "label": {
+                        "_value": "Allow katy James to stay in the Uk with her husband and 2 year old daughter!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509894",
+                    "label": {
+                        "_value": "Allow katy James to stay in the Uk with her husband and 2 year old daughter!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511206",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T19:24:05.178Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509894",
+                    "label": {
+                        "_value": "Allow katy James to stay in the Uk with her husband and 2 year old daughter!"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T16:09:00.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509894",
+                    "label": {
+                        "_value": "Allow katy James to stay in the Uk with her husband and 2 year old daughter!"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

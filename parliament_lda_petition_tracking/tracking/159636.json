@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543589/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543589/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543589/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543589/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543589/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.101Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543589",
+                    "label": {
+                        "_value": "Make Government time immediately available to repeal Expats 15 year voting limit"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659183",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-12T12:36:27.038Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543589",
+                    "label": {
+                        "_value": "Make Government time immediately available to repeal Expats 15 year voting limit"
+                    }
+                },
+                "numberOfSignatures": 61
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T14:54:05.907Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543589",
+                    "label": {
+                        "_value": "Make Government time immediately available to repeal Expats 15 year voting limit"
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T21:48:20.005Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543589",
+                    "label": {
+                        "_value": "Make Government time immediately available to repeal Expats 15 year voting limit"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T22:18:05.021Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543589",
+                    "label": {
+                        "_value": "Make Government time immediately available to repeal Expats 15 year voting limit"
+                    }
+                },
+                "numberOfSignatures": 55
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

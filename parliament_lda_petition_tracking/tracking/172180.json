@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640437/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640437/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640437/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640437/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640437/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/647028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T21:27:07.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640437",
+                    "label": {
+                        "_value": "Clamp down on the tax loop holes for contractors and limited companies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T07:05:28.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640437",
+                    "label": {
+                        "_value": "Clamp down on the tax loop holes for contractors and limited companies."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T16:56:50.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640437",
+                    "label": {
+                        "_value": "Clamp down on the tax loop holes for contractors and limited companies."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

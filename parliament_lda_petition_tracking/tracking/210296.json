@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835857/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835857/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835857/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835857/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835857/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/950856",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-30T23:00:01.332Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835857",
+                    "label": {
+                        "_value": "Change PE back to 60% practical 40% theory"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T14:02:51.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835857",
+                    "label": {
+                        "_value": "Change PE back to 60% practical 40% theory"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-04T13:56:51.862Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835857",
+                    "label": {
+                        "_value": "Change PE back to 60% practical 40% theory"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841209",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-07T16:44:48.314Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835857",
+                    "label": {
+                        "_value": "Change PE back to 60% practical 40% theory"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-30T18:24:57.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835857",
+                    "label": {
+                        "_value": "Change PE back to 60% practical 40% theory"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

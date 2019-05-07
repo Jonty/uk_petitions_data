@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/960446/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/960446/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/960446/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/960446/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/960446/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1078233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-25T00:00:00.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960446",
+                    "label": {
+                        "_value": "Stop the state pension reducing tax allowances for working pensioners"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:54:52.101Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960446",
+                    "label": {
+                        "_value": "Stop the state pension reducing tax allowances for working pensioners"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/989296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T11:30:30.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960446",
+                    "label": {
+                        "_value": "Stop the state pension reducing tax allowances for working pensioners"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/961121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T18:09:22.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960446",
+                    "label": {
+                        "_value": "Stop the state pension reducing tax allowances for working pensioners"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960777",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-25T08:13:28.930Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960446",
+                    "label": {
+                        "_value": "Stop the state pension reducing tax allowances for working pensioners"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960447",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-24T09:49:45.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/960446",
+                    "label": {
+                        "_value": "Stop the state pension reducing tax allowances for working pensioners"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

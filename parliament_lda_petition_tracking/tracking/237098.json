@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1045430/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1045430/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1045430/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1045430/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1045430/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090851",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T18:28:36.562Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1045430",
+                    "label": {
+                        "_value": "Outlaw all Premium and Higher rate telephone charges for mobiles and landlines."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081134",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:11:28.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1045430",
+                    "label": {
+                        "_value": "Outlaw all Premium and Higher rate telephone charges for mobiles and landlines."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1045431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-21T12:12:40.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1045430",
+                    "label": {
+                        "_value": "Outlaw all Premium and Higher rate telephone charges for mobiles and landlines."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549217/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549217/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549217/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549217/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549217/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/655582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549217",
+                    "label": {
+                        "_value": "Stop testing children in Year 1 on 'alien' words (words that have been made up)!"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:49:47.759Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549217",
+                    "label": {
+                        "_value": "Stop testing children in Year 1 on 'alien' words (words that have been made up)!"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571702",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T11:37:09.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549217",
+                    "label": {
+                        "_value": "Stop testing children in Year 1 on 'alien' words (words that have been made up)!"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549217",
+                    "label": {
+                        "_value": "Stop testing children in Year 1 on 'alien' words (words that have been made up)!"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

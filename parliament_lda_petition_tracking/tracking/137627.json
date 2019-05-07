@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548578/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548578/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548578/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548578/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548578/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:22.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548578",
+                    "label": {
+                        "_value": "A life-time ban from politics, and punishment, for MPs that renege on promises."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T16:57:34.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548578",
+                    "label": {
+                        "_value": "A life-time ban from politics, and punishment, for MPs that renege on promises."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561683",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T05:13:31.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548578",
+                    "label": {
+                        "_value": "A life-time ban from politics, and punishment, for MPs that renege on promises."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T17:54:56.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548578",
+                    "label": {
+                        "_value": "A life-time ban from politics, and punishment, for MPs that renege on promises."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T14:10:28.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548578",
+                    "label": {
+                        "_value": "A life-time ban from politics, and punishment, for MPs that renege on promises."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

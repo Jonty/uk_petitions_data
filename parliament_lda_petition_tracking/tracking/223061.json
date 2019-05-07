@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/936499/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/936499/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/936499/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/936499/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/936499/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1034967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-03T00:00:06.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936499",
+                    "label": {
+                        "_value": "Re-skill ALL shop floor workers who have been made redundant in 2018 onwards."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/943630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-17T08:13:29.941Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936499",
+                    "label": {
+                        "_value": "Re-skill ALL shop floor workers who have been made redundant in 2018 onwards."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/942408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T09:32:37.416Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936499",
+                    "label": {
+                        "_value": "Re-skill ALL shop floor workers who have been made redundant in 2018 onwards."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-15T14:02:15.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936499",
+                    "label": {
+                        "_value": "Re-skill ALL shop floor workers who have been made redundant in 2018 onwards."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-13T17:21:38.514Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936499",
+                    "label": {
+                        "_value": "Re-skill ALL shop floor workers who have been made redundant in 2018 onwards."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936500",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-02T16:15:59.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936499",
+                    "label": {
+                        "_value": "Re-skill ALL shop floor workers who have been made redundant in 2018 onwards."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

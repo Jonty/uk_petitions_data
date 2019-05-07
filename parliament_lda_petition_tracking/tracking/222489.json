@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933382/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933382/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933382/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933382/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933382/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-27T00:00:00.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933382",
+                    "label": {
+                        "_value": "Make employers offer part-time working for new parents"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004255",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-09T06:56:42.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933382",
+                    "label": {
+                        "_value": "Make employers offer part-time working for new parents"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955725",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-12T13:43:40.346Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933382",
+                    "label": {
+                        "_value": "Make employers offer part-time working for new parents"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T20:48:06.092Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933382",
+                    "label": {
+                        "_value": "Make employers offer part-time working for new parents"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-29T03:51:26.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933382",
+                    "label": {
+                        "_value": "Make employers offer part-time working for new parents"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

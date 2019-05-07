@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/623303/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/623303/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/623303/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/623303/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/623303/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:07:04.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623303",
+                    "label": {
+                        "_value": "Special funding to Councils for social housing for adults with disabilities"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623991",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T16:23:51.404Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623303",
+                    "label": {
+                        "_value": "Special funding to Councils for social housing for adults with disabilities"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623304",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T21:33:13.157Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623303",
+                    "label": {
+                        "_value": "Special funding to Councils for social housing for adults with disabilities"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

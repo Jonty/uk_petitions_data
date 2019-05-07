@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1049977/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1049977/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1049977/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1049977/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1049977/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T00:25:01.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049977",
+                    "label": {
+                        "_value": "Increase the minimum annual leave entitlement from 5.6 weeks to 7.6 weeks."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T19:18:56.591Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049977",
+                    "label": {
+                        "_value": "Increase the minimum annual leave entitlement from 5.6 weeks to 7.6 weeks."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:38:31.771Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049977",
+                    "label": {
+                        "_value": "Increase the minimum annual leave entitlement from 5.6 weeks to 7.6 weeks."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-12T14:01:52.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049977",
+                    "label": {
+                        "_value": "Increase the minimum annual leave entitlement from 5.6 weeks to 7.6 weeks."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T20:43:24.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049977",
+                    "label": {
+                        "_value": "Increase the minimum annual leave entitlement from 5.6 weeks to 7.6 weeks."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T17:58:59.273Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049977",
+                    "label": {
+                        "_value": "Increase the minimum annual leave entitlement from 5.6 weeks to 7.6 weeks."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

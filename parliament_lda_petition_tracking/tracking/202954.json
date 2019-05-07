@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/775892/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/775892/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/775892/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/775892/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/775892/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/950436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-30T13:01:17.749Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/775892",
+                    "label": {
+                        "_value": "Law to be introduced so that members of the Emergency Services are served first."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/891174",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-23T23:00:00.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/775892",
+                    "label": {
+                        "_value": "Law to be introduced so that members of the Emergency Services are served first."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876886",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-01T16:27:24.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/775892",
+                    "label": {
+                        "_value": "Law to be introduced so that members of the Emergency Services are served first."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-30T18:50:15.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/775892",
+                    "label": {
+                        "_value": "Law to be introduced so that members of the Emergency Services are served first."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/779904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-28T21:54:15.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/775892",
+                    "label": {
+                        "_value": "Law to be introduced so that members of the Emergency Services are served first."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/775893",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-23T19:42:03.058Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/775892",
+                    "label": {
+                        "_value": "Law to be introduced so that members of the Emergency Services are served first."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

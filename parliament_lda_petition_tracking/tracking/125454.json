@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/485288/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/485288/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/485288/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/485288/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/485288/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:13.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/485288",
+                    "label": {
+                        "_value": "Debate smoking inside shared buildings and flats. Unavoidable passive smoking."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-23T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/485288",
+                    "label": {
+                        "_value": "Debate smoking inside shared buildings and flats. Unavoidable passive smoking."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T13:36:03.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/485288",
+                    "label": {
+                        "_value": "Debate smoking inside shared buildings and flats. Unavoidable passive smoking."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T20:53:16.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/485288",
+                    "label": {
+                        "_value": "Debate smoking inside shared buildings and flats. Unavoidable passive smoking."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486828",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T08:33:14.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/485288",
+                    "label": {
+                        "_value": "Debate smoking inside shared buildings and flats. Unavoidable passive smoking."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T19:31:46.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/485288",
+                    "label": {
+                        "_value": "Debate smoking inside shared buildings and flats. Unavoidable passive smoking."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

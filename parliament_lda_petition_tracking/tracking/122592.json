@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466103/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466103/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466103/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466103/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466103/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735483",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.741Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T09:01:35.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T05:27:17.686Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483985",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T16:54:51.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T21:51:19.393Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T13:50:42.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466103",
+                    "label": {
+                        "_value": "Abolish the CCG system established in 2013"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

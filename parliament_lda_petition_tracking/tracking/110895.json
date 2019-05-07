@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463475/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463475/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463475/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463475/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463475/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463475",
+                    "label": {
+                        "_value": "Better Control of Fireworks and Sky Lanterns"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463475",
+                    "label": {
+                        "_value": "Better Control of Fireworks and Sky Lanterns"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T19:54:52.552Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463475",
+                    "label": {
+                        "_value": "Better Control of Fireworks and Sky Lanterns"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502725",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T10:46:39.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463475",
+                    "label": {
+                        "_value": "Better Control of Fireworks and Sky Lanterns"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T14:19:18.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463475",
+                    "label": {
+                        "_value": "Better Control of Fireworks and Sky Lanterns"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463476",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T21:16:29.948Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463475",
+                    "label": {
+                        "_value": "Better Control of Fireworks and Sky Lanterns"
+                    }
+                },
+                "numberOfSignatures": 48
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

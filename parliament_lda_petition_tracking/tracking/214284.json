@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/859075/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/859075/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/859075/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/859075/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/859075/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/971269",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-09T23:00:03.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859075",
+                    "label": {
+                        "_value": "Get Michael Gove to maintain farming subsidies after Brexit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949404",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-24T23:02:56.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859075",
+                    "label": {
+                        "_value": "Get Michael Gove to maintain farming subsidies after Brexit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-05T20:51:01.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859075",
+                    "label": {
+                        "_value": "Get Michael Gove to maintain farming subsidies after Brexit."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/869144",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T22:23:52.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859075",
+                    "label": {
+                        "_value": "Get Michael Gove to maintain farming subsidies after Brexit."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/859076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-09T17:12:47.919Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859075",
+                    "label": {
+                        "_value": "Get Michael Gove to maintain farming subsidies after Brexit."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

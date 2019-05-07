@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461561/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461561/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461561/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461561/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461561/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.891Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461561",
+                    "label": {
+                        "_value": "Grant a temporary visa to our father 75, who is homeless as a result of war."
+                    }
+                },
+                "numberOfSignatures": 333
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461561",
+                    "label": {
+                        "_value": "Grant a temporary visa to our father 75, who is homeless as a result of war."
+                    }
+                },
+                "numberOfSignatures": 333
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-11T00:00:11.198Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461561",
+                    "label": {
+                        "_value": "Grant a temporary visa to our father 75, who is homeless as a result of war."
+                    }
+                },
+                "numberOfSignatures": 333
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T20:42:25.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461561",
+                    "label": {
+                        "_value": "Grant a temporary visa to our father 75, who is homeless as a result of war."
+                    }
+                },
+                "numberOfSignatures": 331
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461562",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T16:42:19.488Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461561",
+                    "label": {
+                        "_value": "Grant a temporary visa to our father 75, who is homeless as a result of war."
+                    }
+                },
+                "numberOfSignatures": 330
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

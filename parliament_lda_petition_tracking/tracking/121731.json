@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465109/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465109/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465109/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465109/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465109/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734109",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.681Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465109",
+                    "label": {
+                        "_value": "Ban the labelling of any container under 35L a \"fish tank\" or \"aquarium\""
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465109",
+                    "label": {
+                        "_value": "Ban the labelling of any container under 35L a \"fish tank\" or \"aquarium\""
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T15:46:19.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465109",
+                    "label": {
+                        "_value": "Ban the labelling of any container under 35L a \"fish tank\" or \"aquarium\""
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T19:48:25.798Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465109",
+                    "label": {
+                        "_value": "Ban the labelling of any container under 35L a \"fish tank\" or \"aquarium\""
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T22:25:53.663Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465109",
+                    "label": {
+                        "_value": "Ban the labelling of any container under 35L a \"fish tank\" or \"aquarium\""
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

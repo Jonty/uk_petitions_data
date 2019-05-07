@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/879305/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/879305/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/879305/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/879305/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/879305/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/982423",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-06T23:00:06.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879305",
+                    "label": {
+                        "_value": "Ban over taking on the A35 one of Dorset\u2019s most dangerous roads!"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-22T18:10:29.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879305",
+                    "label": {
+                        "_value": "Ban over taking on the A35 one of Dorset\u2019s most dangerous roads!"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/885871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-17T20:27:48.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879305",
+                    "label": {
+                        "_value": "Ban over taking on the A35 one of Dorset\u2019s most dangerous roads!"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T14:02:58.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879305",
+                    "label": {
+                        "_value": "Ban over taking on the A35 one of Dorset\u2019s most dangerous roads!"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-15T18:22:16.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879305",
+                    "label": {
+                        "_value": "Ban over taking on the A35 one of Dorset\u2019s most dangerous roads!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/879306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-06T17:06:37.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879305",
+                    "label": {
+                        "_value": "Ban over taking on the A35 one of Dorset\u2019s most dangerous roads!"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

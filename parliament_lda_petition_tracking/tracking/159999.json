@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553558/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553558/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553558/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553558/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553558/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T09:31:44.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553558",
+                    "label": {
+                        "_value": "Parliament make a full and unequivocal apology for UK's part in invading Iraq"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T23:16:30.694Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553558",
+                    "label": {
+                        "_value": "Parliament make a full and unequivocal apology for UK's part in invading Iraq"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621848",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T13:49:28.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553558",
+                    "label": {
+                        "_value": "Parliament make a full and unequivocal apology for UK's part in invading Iraq"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:48:06.610Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553558",
+                    "label": {
+                        "_value": "Parliament make a full and unequivocal apology for UK's part in invading Iraq"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T12:19:51.917Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553558",
+                    "label": {
+                        "_value": "Parliament make a full and unequivocal apology for UK's part in invading Iraq"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

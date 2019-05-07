@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718497/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718497/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718497/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718497/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718497/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:24.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718497",
+                    "label": {
+                        "_value": "Value the Arts and make them compulsory as part of Ebacc measures."
+                    }
+                },
+                "numberOfSignatures": 1830
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-13T18:05:36.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718497",
+                    "label": {
+                        "_value": "Value the Arts and make them compulsory as part of Ebacc measures."
+                    }
+                },
+                "numberOfSignatures": 1822
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T13:29:59.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718497",
+                    "label": {
+                        "_value": "Value the Arts and make them compulsory as part of Ebacc measures."
+                    }
+                },
+                "numberOfSignatures": 1819
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T11:40:14.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718497",
+                    "label": {
+                        "_value": "Value the Arts and make them compulsory as part of Ebacc measures."
+                    }
+                },
+                "numberOfSignatures": 1818
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

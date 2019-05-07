@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463373/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463373/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463373/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463373/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463373/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733769",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463373",
+                    "label": {
+                        "_value": "Make December 28th 'National Lemmy Day' in UK"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543555",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463373",
+                    "label": {
+                        "_value": "Make December 28th 'National Lemmy Day' in UK"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T09:48:11.919Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463373",
+                    "label": {
+                        "_value": "Make December 28th 'National Lemmy Day' in UK"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T22:08:17.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463373",
+                    "label": {
+                        "_value": "Make December 28th 'National Lemmy Day' in UK"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463374",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:55.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463373",
+                    "label": {
+                        "_value": "Make December 28th 'National Lemmy Day' in UK"
+                    }
+                },
+                "numberOfSignatures": 51
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

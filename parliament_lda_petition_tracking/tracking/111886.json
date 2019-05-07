@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466451/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466451/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466451/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466451/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466451/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550073",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466451",
+                    "label": {
+                        "_value": "To investigate a possible link between artificial sweeteners and cancer."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T12:30:55.935Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466451",
+                    "label": {
+                        "_value": "To investigate a possible link between artificial sweeteners and cancer."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T22:53:11.210Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466451",
+                    "label": {
+                        "_value": "To investigate a possible link between artificial sweeteners and cancer."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489420",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:53:12.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466451",
+                    "label": {
+                        "_value": "To investigate a possible link between artificial sweeteners and cancer."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T20:30:29.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466451",
+                    "label": {
+                        "_value": "To investigate a possible link between artificial sweeteners and cancer."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

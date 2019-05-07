@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463301/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463301/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463301/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463301/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463301/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463301",
+                    "label": {
+                        "_value": "pension age to remain at age 65, if you Left school at 15 years of age."
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547287",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463301",
+                    "label": {
+                        "_value": "pension age to remain at age 65, if you Left school at 15 years of age."
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543486",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T22:03:44.369Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463301",
+                    "label": {
+                        "_value": "pension age to remain at age 65, if you Left school at 15 years of age."
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T03:34:31.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463301",
+                    "label": {
+                        "_value": "pension age to remain at age 65, if you Left school at 15 years of age."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T06:53:23.342Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463301",
+                    "label": {
+                        "_value": "pension age to remain at age 65, if you Left school at 15 years of age."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:11.143Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463301",
+                    "label": {
+                        "_value": "pension age to remain at age 65, if you Left school at 15 years of age."
+                    }
+                },
+                "numberOfSignatures": 53
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

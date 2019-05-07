@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/565019/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/565019/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/565019/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/565019/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/565019/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629602",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T19:08:04.315Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565019",
+                    "label": {
+                        "_value": "Limit maximum private parking charges."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T18:11:10.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565019",
+                    "label": {
+                        "_value": "Limit maximum private parking charges."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:09:58.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565019",
+                    "label": {
+                        "_value": "Limit maximum private parking charges."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:56:59.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565019",
+                    "label": {
+                        "_value": "Limit maximum private parking charges."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565020",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T21:37:44.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/565019",
+                    "label": {
+                        "_value": "Limit maximum private parking charges."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551421/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551421/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551421/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551421/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551421/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/571782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:19:08.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551421",
+                    "label": {
+                        "_value": "Promise to match EU spending within the UK in the event of Brexit."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554274",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T13:11:53.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551421",
+                    "label": {
+                        "_value": "Promise to match EU spending within the UK in the event of Brexit."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553560",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T16:56:58.178Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551421",
+                    "label": {
+                        "_value": "Promise to match EU spending within the UK in the event of Brexit."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T09:18:35.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551421",
+                    "label": {
+                        "_value": "Promise to match EU spending within the UK in the event of Brexit."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

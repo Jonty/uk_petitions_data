@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463501/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463501/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463501/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463501/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463501/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.514Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463501",
+                    "label": {
+                        "_value": "Remove the right to abort up to 40 weeks if there is a risk of disability"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463501",
+                    "label": {
+                        "_value": "Remove the right to abort up to 40 weeks if there is a risk of disability"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508811",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T13:35:03.620Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463501",
+                    "label": {
+                        "_value": "Remove the right to abort up to 40 weeks if there is a risk of disability"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487822",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T13:54:55.517Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463501",
+                    "label": {
+                        "_value": "Remove the right to abort up to 40 weeks if there is a risk of disability"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T21:55:40.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463501",
+                    "label": {
+                        "_value": "Remove the right to abort up to 40 weeks if there is a risk of disability"
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T07:42:43.541Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463501",
+                    "label": {
+                        "_value": "Remove the right to abort up to 40 weeks if there is a risk of disability"
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

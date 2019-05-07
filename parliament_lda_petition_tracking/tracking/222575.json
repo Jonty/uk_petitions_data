@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933453/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933453/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933453/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933453/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933453/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T00:00:05.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933453",
+                    "label": {
+                        "_value": "Revoke the right of the OfS to share data with private entities without consent."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952769",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-05T12:54:50.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933453",
+                    "label": {
+                        "_value": "Revoke the right of the OfS to share data with private entities without consent."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933454",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T16:18:44.814Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933453",
+                    "label": {
+                        "_value": "Revoke the right of the OfS to share data with private entities without consent."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

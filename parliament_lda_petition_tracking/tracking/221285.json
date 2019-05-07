@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/920495/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/920495/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/920495/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/920495/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/920495/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1022360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-09T00:00:01.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920495",
+                    "label": {
+                        "_value": "Reverse 20 years long residency rule to 14 years residency to legalise status."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/957735",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-16T22:51:27.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920495",
+                    "label": {
+                        "_value": "Reverse 20 years long residency rule to 14 years residency to legalise status."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/938363",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-10T16:46:20.829Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920495",
+                    "label": {
+                        "_value": "Reverse 20 years long residency rule to 14 years residency to legalise status."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/920891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-09T10:17:53.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920495",
+                    "label": {
+                        "_value": "Reverse 20 years long residency rule to 14 years residency to legalise status."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/920496",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-08T15:12:13.623Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/920495",
+                    "label": {
+                        "_value": "Reverse 20 years long residency rule to 14 years residency to legalise status."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

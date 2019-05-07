@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462801/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462801/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462801/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462801/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462801/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462801",
+                    "label": {
+                        "_value": "Make it standard packaging ingredients lists include suitability for diet needs"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462801",
+                    "label": {
+                        "_value": "Make it standard packaging ingredients lists include suitability for diet needs"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487765",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T20:46:57.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462801",
+                    "label": {
+                        "_value": "Make it standard packaging ingredients lists include suitability for diet needs"
+                    }
+                },
+                "numberOfSignatures": 87
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480284",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:07:45.352Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462801",
+                    "label": {
+                        "_value": "Make it standard packaging ingredients lists include suitability for diet needs"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462802",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T20:47:37.302Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462801",
+                    "label": {
+                        "_value": "Make it standard packaging ingredients lists include suitability for diet needs"
+                    }
+                },
+                "numberOfSignatures": 84
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

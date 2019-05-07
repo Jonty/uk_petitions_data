@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1076134/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1076134/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1076134/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1076134/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1076134/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090250",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T20:37:44.634Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076134",
+                    "label": {
+                        "_value": "Make the NHS prescribe drugs based on the patient\u2019s medical need not the cost."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T19:58:43.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076134",
+                    "label": {
+                        "_value": "Make the NHS prescribe drugs based on the patient\u2019s medical need not the cost."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T14:40:25.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076134",
+                    "label": {
+                        "_value": "Make the NHS prescribe drugs based on the patient\u2019s medical need not the cost."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076135",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T20:01:20.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076134",
+                    "label": {
+                        "_value": "Make the NHS prescribe drugs based on the patient\u2019s medical need not the cost."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

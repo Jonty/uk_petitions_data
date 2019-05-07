@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/647002/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/647002/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/647002/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/647002/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/647002/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 172
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T13:34:10.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651008",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T08:00:00.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 80
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T22:51:50.073Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 79
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T22:02:49.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T22:45:23.865Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/647003",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T23:13:43.348Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/647002",
+                    "label": {
+                        "_value": "Ban the giving of goldfish as prizes at fairgrounds in the UK."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

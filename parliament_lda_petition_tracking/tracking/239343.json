@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1057698/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1057698/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1057698/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1057698/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1057698/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107652",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T13:56:48.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057698",
+                    "label": {
+                        "_value": "Allow motorcyclists with a valid CBT (aged 17+) to have up to a 300cc."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T20:39:19.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057698",
+                    "label": {
+                        "_value": "Allow motorcyclists with a valid CBT (aged 17+) to have up to a 300cc."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057699",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T11:00:59.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057698",
+                    "label": {
+                        "_value": "Allow motorcyclists with a valid CBT (aged 17+) to have up to a 300cc."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

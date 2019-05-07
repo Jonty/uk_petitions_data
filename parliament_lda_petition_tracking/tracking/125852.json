@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/491456/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/491456/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/491456/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/491456/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/491456/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T00:37:04.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564944",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T16:12:35.743Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T21:42:48.522Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T06:01:57.981Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504167",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T16:16:41.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T14:54:31.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/491456",
+                    "label": {
+                        "_value": "Abolish corporation tax and impose a land value tax of 1%."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

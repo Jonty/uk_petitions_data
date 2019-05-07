@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640071/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640071/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640071/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640071/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640071/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640071",
+                    "label": {
+                        "_value": "Force Local Authorities to allocate a proportion of housing to pet owners."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T17:03:21.925Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640071",
+                    "label": {
+                        "_value": "Force Local Authorities to allocate a proportion of housing to pet owners."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/642078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T18:15:43.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640071",
+                    "label": {
+                        "_value": "Force Local Authorities to allocate a proportion of housing to pet owners."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641009",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T22:53:41.907Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640071",
+                    "label": {
+                        "_value": "Force Local Authorities to allocate a proportion of housing to pet owners."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T23:25:54.451Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640071",
+                    "label": {
+                        "_value": "Force Local Authorities to allocate a proportion of housing to pet owners."
+                    }
+                },
+                "numberOfSignatures": 44
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

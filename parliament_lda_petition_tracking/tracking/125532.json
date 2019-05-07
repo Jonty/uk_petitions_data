@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492245/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492245/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492245/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492245/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492245/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592844",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492245",
+                    "label": {
+                        "_value": "restore the definition of fuel poverty to spending 10% of income"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T11:58:40.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492245",
+                    "label": {
+                        "_value": "restore the definition of fuel poverty to spending 10% of income"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T21:45:03.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492245",
+                    "label": {
+                        "_value": "restore the definition of fuel poverty to spending 10% of income"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492245",
+                    "label": {
+                        "_value": "restore the definition of fuel poverty to spending 10% of income"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T18:22:05.379Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492245",
+                    "label": {
+                        "_value": "restore the definition of fuel poverty to spending 10% of income"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492246",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T11:03:41.516Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492245",
+                    "label": {
+                        "_value": "restore the definition of fuel poverty to spending 10% of income"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/914223/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/914223/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/914223/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/914223/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/914223/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1018442",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-01T00:00:06.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914223",
+                    "label": {
+                        "_value": "Introduce a (5%) Voluntary Tax where people can allocate as they choose"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:15:08.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914223",
+                    "label": {
+                        "_value": "Introduce a (5%) Voluntary Tax where people can allocate as they choose"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/979370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-29T15:09:29.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914223",
+                    "label": {
+                        "_value": "Introduce a (5%) Voluntary Tax where people can allocate as they choose"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936512",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-06T11:31:49.108Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914223",
+                    "label": {
+                        "_value": "Introduce a (5%) Voluntary Tax where people can allocate as they choose"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T15:19:23.501Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914223",
+                    "label": {
+                        "_value": "Introduce a (5%) Voluntary Tax where people can allocate as they choose"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551864/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551864/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551864/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551864/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551864/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/573277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:27:00.440Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551864",
+                    "label": {
+                        "_value": "Seize this opportunity to reform the EU by offering an alternative system."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T23:17:44.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551864",
+                    "label": {
+                        "_value": "Seize this opportunity to reform the EU by offering an alternative system."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551865",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T11:12:57.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551864",
+                    "label": {
+                        "_value": "Seize this opportunity to reform the EU by offering an alternative system."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

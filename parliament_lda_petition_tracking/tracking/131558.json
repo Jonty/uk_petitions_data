@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547952/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547952/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547952/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547952/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547952/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:19.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547952",
+                    "label": {
+                        "_value": "Make History a mandatory Core subject which can't be dropped"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547952",
+                    "label": {
+                        "_value": "Make History a mandatory Core subject which can't be dropped"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625020",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T12:48:25.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547952",
+                    "label": {
+                        "_value": "Make History a mandatory Core subject which can't be dropped"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T02:09:08.766Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547952",
+                    "label": {
+                        "_value": "Make History a mandatory Core subject which can't be dropped"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

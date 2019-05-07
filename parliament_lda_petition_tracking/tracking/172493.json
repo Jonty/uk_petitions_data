@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/641138/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/641138/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/641138/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/641138/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/641138/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651628",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:56:37.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641138",
+                    "label": {
+                        "_value": "Change the law and policy on the use of fireworks in the UK."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/647027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T22:07:28.820Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641138",
+                    "label": {
+                        "_value": "Change the law and policy on the use of fireworks in the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641139",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T16:41:59.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/641138",
+                    "label": {
+                        "_value": "Change the law and policy on the use of fireworks in the UK."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

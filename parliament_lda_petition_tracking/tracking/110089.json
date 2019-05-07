@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465227/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465227/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465227/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465227/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465227/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548462",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465227",
+                    "label": {
+                        "_value": "Change the legal drinking age to 16."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491416",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T16:23:22.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465227",
+                    "label": {
+                        "_value": "Change the legal drinking age to 16."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T12:13:16.236Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465227",
+                    "label": {
+                        "_value": "Change the legal drinking age to 16."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T11:21:22.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465227",
+                    "label": {
+                        "_value": "Change the legal drinking age to 16."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T14:29:58.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465227",
+                    "label": {
+                        "_value": "Change the legal drinking age to 16."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465228",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T02:44:57.935Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465227",
+                    "label": {
+                        "_value": "Change the legal drinking age to 16."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

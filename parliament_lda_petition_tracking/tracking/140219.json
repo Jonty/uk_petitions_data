@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548574/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548574/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548574/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548574/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548574/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594357",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:12:12.236Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548574",
+                    "label": {
+                        "_value": "Give all teenagers aged under 18 on 23.6.16 a vote in a supplemental referendum."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T15:49:01.025Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548574",
+                    "label": {
+                        "_value": "Give all teenagers aged under 18 on 23.6.16 a vote in a supplemental referendum."
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

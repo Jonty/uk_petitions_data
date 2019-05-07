@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/659199/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/659199/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/659199/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/659199/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/659199/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659199",
+                    "label": {
+                        "_value": "Add gender-neutral name fields to the marriage certificate"
+                    }
+                },
+                "numberOfSignatures": 367
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661073",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-15T15:42:41.069Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659199",
+                    "label": {
+                        "_value": "Add gender-neutral name fields to the marriage certificate"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659200",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-13T00:41:02.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659199",
+                    "label": {
+                        "_value": "Add gender-neutral name fields to the marriage certificate"
+                    }
+                },
+                "numberOfSignatures": 56
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

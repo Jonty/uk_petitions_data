@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/484057/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/484057/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/484057/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/484057/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/484057/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:13.713Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484057",
+                    "label": {
+                        "_value": "Ban the sale of all energy drinks to under 18's"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484057",
+                    "label": {
+                        "_value": "Ban the sale of all energy drinks to under 18's"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T08:39:55.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484057",
+                    "label": {
+                        "_value": "Ban the sale of all energy drinks to under 18's"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547827",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T17:01:22.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484057",
+                    "label": {
+                        "_value": "Ban the sale of all energy drinks to under 18's"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489403",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:55:07.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484057",
+                    "label": {
+                        "_value": "Ban the sale of all energy drinks to under 18's"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T18:27:35.447Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484057",
+                    "label": {
+                        "_value": "Ban the sale of all energy drinks to under 18's"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

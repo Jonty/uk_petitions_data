@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463443/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463443/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463443/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463443/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463443/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733772",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463443",
+                    "label": {
+                        "_value": "Reverse Ofqual/DfE's decision to abolish Critical Thinking at AS/A Level."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543557",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463443",
+                    "label": {
+                        "_value": "Reverse Ofqual/DfE's decision to abolish Critical Thinking at AS/A Level."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482795",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T15:09:22.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463443",
+                    "label": {
+                        "_value": "Reverse Ofqual/DfE's decision to abolish Critical Thinking at AS/A Level."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T19:23:05.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463443",
+                    "label": {
+                        "_value": "Reverse Ofqual/DfE's decision to abolish Critical Thinking at AS/A Level."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T19:52:10.346Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463443",
+                    "label": {
+                        "_value": "Reverse Ofqual/DfE's decision to abolish Critical Thinking at AS/A Level."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463444",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T20:36:50.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463443",
+                    "label": {
+                        "_value": "Reverse Ofqual/DfE's decision to abolish Critical Thinking at AS/A Level."
+                    }
+                },
+                "numberOfSignatures": 49
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

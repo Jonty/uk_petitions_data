@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1014966/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1014966/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1014966/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1014966/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1014966/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1089382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T11:21:50.922Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014966",
+                    "label": {
+                        "_value": "Stop firework work displays  on armistice Sunday"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078219",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T17:32:47.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014966",
+                    "label": {
+                        "_value": "Stop firework work displays  on armistice Sunday"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1016987",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-28T19:14:00.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014966",
+                    "label": {
+                        "_value": "Stop firework work displays  on armistice Sunday"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1014967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-26T16:52:26.850Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1014966",
+                    "label": {
+                        "_value": "Stop firework work displays  on armistice Sunday"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

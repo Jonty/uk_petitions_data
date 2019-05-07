@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/953203/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/953203/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/953203/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/953203/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/953203/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1057654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-07T00:00:09.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953203",
+                    "label": {
+                        "_value": "Create a new Ministerial Department called the Department For a Fair Society."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1000673",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-02T13:03:43.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953203",
+                    "label": {
+                        "_value": "Create a new Ministerial Department called the Department For a Fair Society."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/967698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-04T14:41:37.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953203",
+                    "label": {
+                        "_value": "Create a new Ministerial Department called the Department For a Fair Society."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/965372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-03T20:00:41.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953203",
+                    "label": {
+                        "_value": "Create a new Ministerial Department called the Department For a Fair Society."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/959241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-21T19:59:45.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953203",
+                    "label": {
+                        "_value": "Create a new Ministerial Department called the Department For a Fair Society."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953204",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T15:09:52.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953203",
+                    "label": {
+                        "_value": "Create a new Ministerial Department called the Department For a Fair Society."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

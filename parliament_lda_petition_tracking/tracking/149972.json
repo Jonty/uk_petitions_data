@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548124/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548124/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548124/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548124/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548124/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.488Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548124",
+                    "label": {
+                        "_value": "Debate within 100 days the Government's costed plan for the UK to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T15:53:49.951Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548124",
+                    "label": {
+                        "_value": "Debate within 100 days the Government's costed plan for the UK to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566082",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T07:52:30.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548124",
+                    "label": {
+                        "_value": "Debate within 100 days the Government's costed plan for the UK to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548125",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T16:43:44.701Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548124",
+                    "label": {
+                        "_value": "Debate within 100 days the Government's costed plan for the UK to leave the EU"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

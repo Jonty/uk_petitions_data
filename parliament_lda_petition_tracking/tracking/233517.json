@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1021654/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1021654/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1021654/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1021654/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1021654/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T18:34:36.852Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021654",
+                    "label": {
+                        "_value": "Individuals should pay half the amount of tax on overtime."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106996",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T20:25:41.598Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021654",
+                    "label": {
+                        "_value": "Individuals should pay half the amount of tax on overtime."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:45:11.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021654",
+                    "label": {
+                        "_value": "Individuals should pay half the amount of tax on overtime."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:55:53.522Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021654",
+                    "label": {
+                        "_value": "Individuals should pay half the amount of tax on overtime."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-04T10:20:37.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021654",
+                    "label": {
+                        "_value": "Individuals should pay half the amount of tax on overtime."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

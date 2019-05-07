@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1083395/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1083395/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1083395/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1083395/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1083395/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107334",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T15:44:39.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083395",
+                    "label": {
+                        "_value": "A representation for Wales in the union Jack flag."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:45:01.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083395",
+                    "label": {
+                        "_value": "A representation for Wales in the union Jack flag."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T15:15:02.135Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1083395",
+                    "label": {
+                        "_value": "A representation for Wales in the union Jack flag."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

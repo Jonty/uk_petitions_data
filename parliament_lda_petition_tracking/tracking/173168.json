@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/643604/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/643604/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/643604/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/643604/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/643604/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643604",
+                    "label": {
+                        "_value": "hold referendum on ending public financing of the royal family."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646997",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T19:56:37.804Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643604",
+                    "label": {
+                        "_value": "hold referendum on ending public financing of the royal family."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T17:34:58.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643604",
+                    "label": {
+                        "_value": "hold referendum on ending public financing of the royal family."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645767",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T22:40:27.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643604",
+                    "label": {
+                        "_value": "hold referendum on ending public financing of the royal family."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643605",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T17:14:10.649Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643604",
+                    "label": {
+                        "_value": "hold referendum on ending public financing of the royal family."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

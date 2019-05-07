@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/630424/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/630424/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/630424/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/630424/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/630424/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734319",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.606Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630424",
+                    "label": {
+                        "_value": "Require all local councils in England to use LED bulbs in street lights."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T00:35:56.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630424",
+                    "label": {
+                        "_value": "Require all local councils in England to use LED bulbs in street lights."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T03:02:35.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630424",
+                    "label": {
+                        "_value": "Require all local councils in England to use LED bulbs in street lights."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632602",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T19:47:46.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630424",
+                    "label": {
+                        "_value": "Require all local councils in England to use LED bulbs in street lights."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T20:11:08.217Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630424",
+                    "label": {
+                        "_value": "Require all local councils in England to use LED bulbs in street lights."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

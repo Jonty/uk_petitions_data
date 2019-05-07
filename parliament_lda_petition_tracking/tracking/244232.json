@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1090811/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1090811/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1090811/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1090811/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1090811/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1093324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-20T09:24:28.430Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090811",
+                    "label": {
+                        "_value": "Cancel the Myanmar Trade and Investment Conference in London, March 2019"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091932",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T18:52:08.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090811",
+                    "label": {
+                        "_value": "Cancel the Myanmar Trade and Investment Conference in London, March 2019"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090812",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T17:27:07.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090811",
+                    "label": {
+                        "_value": "Cancel the Myanmar Trade and Investment Conference in London, March 2019"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

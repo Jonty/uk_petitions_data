@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/917051/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/917051/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/917051/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/917051/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/917051/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1021578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T00:00:03.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917051",
+                    "label": {
+                        "_value": "Grants for wash/dry toilets installed in households. Stop use of wipes/tissue."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933515",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-28T19:17:03.852Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917051",
+                    "label": {
+                        "_value": "Grants for wash/dry toilets installed in households. Stop use of wipes/tissue."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/924610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-14T15:11:59.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917051",
+                    "label": {
+                        "_value": "Grants for wash/dry toilets installed in households. Stop use of wipes/tissue."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/923864",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-13T07:58:26.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917051",
+                    "label": {
+                        "_value": "Grants for wash/dry toilets installed in households. Stop use of wipes/tissue."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/917052",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-04T17:31:26.401Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/917051",
+                    "label": {
+                        "_value": "Grants for wash/dry toilets installed in households. Stop use of wipes/tissue."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

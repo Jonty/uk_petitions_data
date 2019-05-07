@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551928/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551928/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551928/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551928/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551928/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/652235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T21:52:48.406Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551928",
+                    "label": {
+                        "_value": "Make discrimination against homeless people a lawfully recognised hate crime"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640367",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T14:01:01.435Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551928",
+                    "label": {
+                        "_value": "Make discrimination against homeless people a lawfully recognised hate crime"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T10:06:54.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551928",
+                    "label": {
+                        "_value": "Make discrimination against homeless people a lawfully recognised hate crime"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:27:54.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551928",
+                    "label": {
+                        "_value": "Make discrimination against homeless people a lawfully recognised hate crime"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-09T23:51:40.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551928",
+                    "label": {
+                        "_value": "Make discrimination against homeless people a lawfully recognised hate crime"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

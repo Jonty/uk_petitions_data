@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547996/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547996/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547996/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547996/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547996/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:28.306Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547996",
+                    "label": {
+                        "_value": "Grant British citizenship to all settled EU nationals in UK"
+                    }
+                },
+                "numberOfSignatures": 192
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:51:48.603Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547996",
+                    "label": {
+                        "_value": "Grant British citizenship to all settled EU nationals in UK"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618911",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:55:02.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547996",
+                    "label": {
+                        "_value": "Grant British citizenship to all settled EU nationals in UK"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T15:53:19.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547996",
+                    "label": {
+                        "_value": "Grant British citizenship to all settled EU nationals in UK"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T22:38:27.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547996",
+                    "label": {
+                        "_value": "Grant British citizenship to all settled EU nationals in UK"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547997",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T06:34:55.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547996",
+                    "label": {
+                        "_value": "Grant British citizenship to all settled EU nationals in UK"
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

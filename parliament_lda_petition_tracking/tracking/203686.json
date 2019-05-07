@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/781120/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/781120/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/781120/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/781120/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/781120/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/896039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-30T23:00:01.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781120",
+                    "label": {
+                        "_value": "Set up an online registry for living organ donation"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/824224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-16T09:43:42.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781120",
+                    "label": {
+                        "_value": "Set up an online registry for living organ donation"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/797191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-29T17:59:56.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781120",
+                    "label": {
+                        "_value": "Set up an online registry for living organ donation"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/784322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-05T17:51:27.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781120",
+                    "label": {
+                        "_value": "Set up an online registry for living organ donation"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/781937",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-01T14:02:59.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781120",
+                    "label": {
+                        "_value": "Set up an online registry for living organ donation"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/781121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-31T21:50:57.429Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781120",
+                    "label": {
+                        "_value": "Set up an online registry for living organ donation"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

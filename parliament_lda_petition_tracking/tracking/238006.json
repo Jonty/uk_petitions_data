@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1051160/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1051160/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1051160/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1051160/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1051160/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1080588",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T10:56:14.454Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051160",
+                    "label": {
+                        "_value": "Make Albanian a GCSE or A Level"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T09:00:04.669Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051160",
+                    "label": {
+                        "_value": "Make Albanian a GCSE or A Level"
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T16:57:35.730Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051160",
+                    "label": {
+                        "_value": "Make Albanian a GCSE or A Level"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T21:35:51.853Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051160",
+                    "label": {
+                        "_value": "Make Albanian a GCSE or A Level"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1051161",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-29T19:48:08.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051160",
+                    "label": {
+                        "_value": "Make Albanian a GCSE or A Level"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

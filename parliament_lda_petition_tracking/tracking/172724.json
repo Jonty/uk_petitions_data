@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640069/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640069/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640069/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640069/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640069/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733283",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640069",
+                    "label": {
+                        "_value": "Move Houses of Parliament to the North of England"
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T21:27:18.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640069",
+                    "label": {
+                        "_value": "Move Houses of Parliament to the North of England"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T18:05:27.236Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640069",
+                    "label": {
+                        "_value": "Move Houses of Parliament to the North of England"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640070",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T08:31:39.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640069",
+                    "label": {
+                        "_value": "Move Houses of Parliament to the North of England"
+                    }
+                },
+                "numberOfSignatures": 43
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

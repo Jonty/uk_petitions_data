@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078183/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078183/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078183/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078183/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078183/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106990",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:15.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078183",
+                    "label": {
+                        "_value": "Abolish registration fees for all care workers"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T12:56:07.339Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078183",
+                    "label": {
+                        "_value": "Abolish registration fees for all care workers"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083244",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T07:01:38.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078183",
+                    "label": {
+                        "_value": "Abolish registration fees for all care workers"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T21:21:56.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078183",
+                    "label": {
+                        "_value": "Abolish registration fees for all care workers"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T15:42:23.835Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078183",
+                    "label": {
+                        "_value": "Abolish registration fees for all care workers"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

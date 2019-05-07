@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548602/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548602/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548602/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548602/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548602/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T20:51:58.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T17:38:18.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T08:47:11.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T09:34:09.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548603",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T14:59:00.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548602",
+                    "label": {
+                        "_value": "Remove hereditary peers from the House of Lords"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

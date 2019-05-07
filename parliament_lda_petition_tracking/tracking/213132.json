@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/849892/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/849892/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/849892/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/849892/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/849892/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/961573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T23:00:03.002Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849892",
+                    "label": {
+                        "_value": "Change the Yellow Box Junction Law to allow motorist to wait for upto 20 seconds"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/925527",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-15T20:37:12.817Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849892",
+                    "label": {
+                        "_value": "Change the Yellow Box Junction Law to allow motorist to wait for upto 20 seconds"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/883272",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-13T14:06:40.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849892",
+                    "label": {
+                        "_value": "Change the Yellow Box Junction Law to allow motorist to wait for upto 20 seconds"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-01T16:28:29.487Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849892",
+                    "label": {
+                        "_value": "Change the Yellow Box Junction Law to allow motorist to wait for upto 20 seconds"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/851345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-27T10:33:33.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849892",
+                    "label": {
+                        "_value": "Change the Yellow Box Junction Law to allow motorist to wait for upto 20 seconds"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849893",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T21:49:04.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849892",
+                    "label": {
+                        "_value": "Change the Yellow Box Junction Law to allow motorist to wait for upto 20 seconds"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

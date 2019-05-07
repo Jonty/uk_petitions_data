@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547685/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547685/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547685/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547685/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547685/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547685",
+                    "label": {
+                        "_value": "Ensure disabled people are not treated less favourably when winning sport events"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T17:12:33.269Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547685",
+                    "label": {
+                        "_value": "Ensure disabled people are not treated less favourably when winning sport events"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580589",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T19:35:42.246Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547685",
+                    "label": {
+                        "_value": "Ensure disabled people are not treated less favourably when winning sport events"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T00:04:28.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547685",
+                    "label": {
+                        "_value": "Ensure disabled people are not treated less favourably when winning sport events"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T01:38:19.676Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547685",
+                    "label": {
+                        "_value": "Ensure disabled people are not treated less favourably when winning sport events"
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/691278/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/691278/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/691278/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/691278/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/691278/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:18.144Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691278",
+                    "label": {
+                        "_value": "Referendum to accept final Brexit deal and leave EU or reject it and stay in EU."
+                    }
+                },
+                "numberOfSignatures": 1144
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707077",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T22:15:03.954Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691278",
+                    "label": {
+                        "_value": "Referendum to accept final Brexit deal and leave EU or reject it and stay in EU."
+                    }
+                },
+                "numberOfSignatures": 1016
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T22:20:14.156Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691278",
+                    "label": {
+                        "_value": "Referendum to accept final Brexit deal and leave EU or reject it and stay in EU."
+                    }
+                },
+                "numberOfSignatures": 1002
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T22:56:21.273Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691278",
+                    "label": {
+                        "_value": "Referendum to accept final Brexit deal and leave EU or reject it and stay in EU."
+                    }
+                },
+                "numberOfSignatures": 965
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

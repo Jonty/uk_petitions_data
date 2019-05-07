@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551848/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551848/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551848/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551848/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551848/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627996",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T23:14:25.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551848",
+                    "label": {
+                        "_value": "Raise the speed limit for vans below 7.5ton to the same as cars on a A road"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T18:22:39.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551848",
+                    "label": {
+                        "_value": "Raise the speed limit for vans below 7.5ton to the same as cars on a A road"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

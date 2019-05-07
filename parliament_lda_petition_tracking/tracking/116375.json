@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464115/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464115/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464115/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464115/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464115/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464115",
+                    "label": {
+                        "_value": "Let there be a parliamentary debate on fracking under protected national parks"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464115",
+                    "label": {
+                        "_value": "Let there be a parliamentary debate on fracking under protected national parks"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T17:34:56.155Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464115",
+                    "label": {
+                        "_value": "Let there be a parliamentary debate on fracking under protected national parks"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T20:25:16.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464115",
+                    "label": {
+                        "_value": "Let there be a parliamentary debate on fracking under protected national parks"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464116",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T11:04:55.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464115",
+                    "label": {
+                        "_value": "Let there be a parliamentary debate on fracking under protected national parks"
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

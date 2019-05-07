@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459729/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459729/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459729/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459729/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459729/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/716101",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:54.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459729",
+                    "label": {
+                        "_value": "Prohibit the building of mosques in the UK"
+                    }
+                },
+                "numberOfSignatures": 23141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529508",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459729",
+                    "label": {
+                        "_value": "Prohibit the building of mosques in the UK"
+                    }
+                },
+                "numberOfSignatures": 23141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/525968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-19T16:58:09.947Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459729",
+                    "label": {
+                        "_value": "Prohibit the building of mosques in the UK"
+                    }
+                },
+                "numberOfSignatures": 23141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T00:00:13.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459729",
+                    "label": {
+                        "_value": "Prohibit the building of mosques in the UK"
+                    }
+                },
+                "numberOfSignatures": 23139
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

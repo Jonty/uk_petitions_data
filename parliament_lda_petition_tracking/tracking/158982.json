@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551411/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551411/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551411/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551411/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551411/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:36:55.858Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551411",
+                    "label": {
+                        "_value": "Reduce basic VAT rate to 15%, with further reduction after we have left the EU"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:33:36.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551411",
+                    "label": {
+                        "_value": "Reduce basic VAT rate to 15%, with further reduction after we have left the EU"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T10:48:27.771Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551411",
+                    "label": {
+                        "_value": "Reduce basic VAT rate to 15%, with further reduction after we have left the EU"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T09:18:45.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551411",
+                    "label": {
+                        "_value": "Reduce basic VAT rate to 15%, with further reduction after we have left the EU"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

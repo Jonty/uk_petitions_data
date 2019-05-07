@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1003454/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1003454/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1003454/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1003454/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1003454/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1021518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-06T01:00:20.205Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003454",
+                    "label": {
+                        "_value": "Invest at least 1% of the new Digital Tech Tax to tackle online abuse!"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-10T12:06:10.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003454",
+                    "label": {
+                        "_value": "Invest at least 1% of the new Digital Tech Tax to tackle online abuse!"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003455",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T12:39:45.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003454",
+                    "label": {
+                        "_value": "Invest at least 1% of the new Digital Tech Tax to tackle online abuse!"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

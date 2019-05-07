@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543591/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543591/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543591/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543591/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543591/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:22.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543591",
+                    "label": {
+                        "_value": "Hold a public enquiry into the legitimacy of the result of the EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:53:37.932Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543591",
+                    "label": {
+                        "_value": "Hold a public enquiry into the legitimacy of the result of the EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:08:51.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543591",
+                    "label": {
+                        "_value": "Hold a public enquiry into the legitimacy of the result of the EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591800",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T14:56:27.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543591",
+                    "label": {
+                        "_value": "Hold a public enquiry into the legitimacy of the result of the EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T16:08:25.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543591",
+                    "label": {
+                        "_value": "Hold a public enquiry into the legitimacy of the result of the EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T12:31:57.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543591",
+                    "label": {
+                        "_value": "Hold a public enquiry into the legitimacy of the result of the EU Referendum."
+                    }
+                },
+                "numberOfSignatures": 55
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

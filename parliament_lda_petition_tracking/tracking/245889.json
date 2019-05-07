@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106786/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106786/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106786/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106786/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106786/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108256",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T07:10:18.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106786",
+                    "label": {
+                        "_value": "Make all CCG's provide GF Bread and GF Mix to coeliac patients on prescription."
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T23:26:31.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106786",
+                    "label": {
+                        "_value": "Make all CCG's provide GF Bread and GF Mix to coeliac patients on prescription."
+                    }
+                },
+                "numberOfSignatures": 72
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462809/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462809/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462809/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462809/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462809/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.568Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462809",
+                    "label": {
+                        "_value": "For there to be a central register for care provision for Autistic adults"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462809",
+                    "label": {
+                        "_value": "For there to be a central register for care provision for Autistic adults"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505885",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T00:00:05.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462809",
+                    "label": {
+                        "_value": "For there to be a central register for care provision for Autistic adults"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T08:29:21.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462809",
+                    "label": {
+                        "_value": "For there to be a central register for care provision for Autistic adults"
+                    }
+                },
+                "numberOfSignatures": 86
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T09:20:39.993Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462809",
+                    "label": {
+                        "_value": "For there to be a central register for care provision for Autistic adults"
+                    }
+                },
+                "numberOfSignatures": 84
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

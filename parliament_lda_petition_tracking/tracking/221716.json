@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/924598/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/924598/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/924598/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/924598/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/924598/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1026131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-15T00:00:07.285Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/924598",
+                    "label": {
+                        "_value": "Make high blood pressure tablets free on the NHS"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T22:09:49.364Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/924598",
+                    "label": {
+                        "_value": "Make high blood pressure tablets free on the NHS"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963231",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-31T19:31:42.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/924598",
+                    "label": {
+                        "_value": "Make high blood pressure tablets free on the NHS"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-30T00:14:06.579Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/924598",
+                    "label": {
+                        "_value": "Make high blood pressure tablets free on the NHS"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/924599",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-14T11:12:57.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/924598",
+                    "label": {
+                        "_value": "Make high blood pressure tablets free on the NHS"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

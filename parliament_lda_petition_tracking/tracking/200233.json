@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/763012/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/763012/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/763012/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/763012/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/763012/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/873397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-26T23:00:07.177Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/763012",
+                    "label": {
+                        "_value": "Scrap the OISC and extend the remit of the SRA to Immigration Advisers"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/817587",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-05T19:33:16.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/763012",
+                    "label": {
+                        "_value": "Scrap the OISC and extend the remit of the SRA to Immigration Advisers"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/780290",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-29T22:06:44.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/763012",
+                    "label": {
+                        "_value": "Scrap the OISC and extend the remit of the SRA to Immigration Advisers"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/763013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-09-26T15:43:44.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/763012",
+                    "label": {
+                        "_value": "Scrap the OISC and extend the remit of the SRA to Immigration Advisers"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

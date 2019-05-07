@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465287/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465287/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465287/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465287/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465287/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465287",
+                    "label": {
+                        "_value": "Fully switch the UK's energy consumption to renewable energy sources by 2035."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:19:57.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465287",
+                    "label": {
+                        "_value": "Fully switch the UK's energy consumption to renewable energy sources by 2035."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465288",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T15:15:59.005Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465287",
+                    "label": {
+                        "_value": "Fully switch the UK's energy consumption to renewable energy sources by 2035."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

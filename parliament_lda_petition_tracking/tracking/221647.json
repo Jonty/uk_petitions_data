@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/925105/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/925105/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/925105/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/925105/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/925105/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1026614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-16T00:00:02.995Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925105",
+                    "label": {
+                        "_value": "Make compassionate leave a Statutory Right With Reasonable Period off & full pay"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/992548",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-21T17:24:50.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925105",
+                    "label": {
+                        "_value": "Make compassionate leave a Statutory Right With Reasonable Period off & full pay"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946033",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T06:15:08.026Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925105",
+                    "label": {
+                        "_value": "Make compassionate leave a Statutory Right With Reasonable Period off & full pay"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936447",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-29T23:21:39.007Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925105",
+                    "label": {
+                        "_value": "Make compassionate leave a Statutory Right With Reasonable Period off & full pay"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/925106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-15T14:03:45.885Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/925105",
+                    "label": {
+                        "_value": "Make compassionate leave a Statutory Right With Reasonable Period off & full pay"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

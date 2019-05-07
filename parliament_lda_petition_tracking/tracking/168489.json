@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/599445/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/599445/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/599445/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/599445/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/599445/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T23:00:00.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599445",
+                    "label": {
+                        "_value": "Change the law on court child access fees"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T19:53:19.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599445",
+                    "label": {
+                        "_value": "Change the law on court child access fees"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T22:16:35.604Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599445",
+                    "label": {
+                        "_value": "Change the law on court child access fees"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T19:13:10.372Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599445",
+                    "label": {
+                        "_value": "Change the law on court child access fees"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T15:27:00.533Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599445",
+                    "label": {
+                        "_value": "Change the law on court child access fees"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

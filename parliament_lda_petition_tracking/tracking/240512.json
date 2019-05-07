@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062770/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062770/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062770/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062770/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062770/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:14.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062770",
+                    "label": {
+                        "_value": "Free-Range Learning: Make daily outdoor education compulsory in Primary Schools"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T16:53:00.170Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062770",
+                    "label": {
+                        "_value": "Free-Range Learning: Make daily outdoor education compulsory in Primary Schools"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1063320",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-17T20:12:01.004Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062770",
+                    "label": {
+                        "_value": "Free-Range Learning: Make daily outdoor education compulsory in Primary Schools"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T13:36:20.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062770",
+                    "label": {
+                        "_value": "Free-Range Learning: Make daily outdoor education compulsory in Primary Schools"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

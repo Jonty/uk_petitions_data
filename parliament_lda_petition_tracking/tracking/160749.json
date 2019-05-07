@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549461/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549461/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549461/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549461/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549461/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649252",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T11:46:58.696Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549461",
+                    "label": {
+                        "_value": "Harsher penalties for racially abusing foreigners, blacks, Muslims and Asians."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645702",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:16:27.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549461",
+                    "label": {
+                        "_value": "Harsher penalties for racially abusing foreigners, blacks, Muslims and Asians."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T21:19:57.156Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549461",
+                    "label": {
+                        "_value": "Harsher penalties for racially abusing foreigners, blacks, Muslims and Asians."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T14:42:38.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549461",
+                    "label": {
+                        "_value": "Harsher penalties for racially abusing foreigners, blacks, Muslims and Asians."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:59:36.424Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549461",
+                    "label": {
+                        "_value": "Harsher penalties for racially abusing foreigners, blacks, Muslims and Asians."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549462",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T21:50:25.587Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549461",
+                    "label": {
+                        "_value": "Harsher penalties for racially abusing foreigners, blacks, Muslims and Asians."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078311/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078311/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078311/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078311/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078311/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1080230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-28T13:29:42.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078311",
+                    "label": {
+                        "_value": "Expand The Dogs (Fouling of Land) Act 1996 To Cover All Animals."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079252",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T22:01:49.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078311",
+                    "label": {
+                        "_value": "Expand The Dogs (Fouling of Land) Act 1996 To Cover All Animals."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078312",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T16:16:25.726Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078311",
+                    "label": {
+                        "_value": "Expand The Dogs (Fouling of Land) Act 1996 To Cover All Animals."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

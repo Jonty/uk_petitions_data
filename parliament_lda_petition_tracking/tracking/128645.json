@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548425/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548425/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548425/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548425/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548425/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735722",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.891Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548425",
+                    "label": {
+                        "_value": "The U.K. To exit Europe and start its own trade federation."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548425",
+                    "label": {
+                        "_value": "The U.K. To exit Europe and start its own trade federation."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618283",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T18:01:34.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548425",
+                    "label": {
+                        "_value": "The U.K. To exit Europe and start its own trade federation."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554228",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T09:31:18.511Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548425",
+                    "label": {
+                        "_value": "The U.K. To exit Europe and start its own trade federation."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T13:58:14.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548425",
+                    "label": {
+                        "_value": "The U.K. To exit Europe and start its own trade federation."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

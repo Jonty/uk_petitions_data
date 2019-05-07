@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/983749/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/983749/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/983749/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/983749/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/983749/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:42:08.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983749",
+                    "label": {
+                        "_value": "Fund non-vocational degrees for people over 60"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T18:26:22.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983749",
+                    "label": {
+                        "_value": "Fund non-vocational degrees for people over 60"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076204",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:36:49.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983749",
+                    "label": {
+                        "_value": "Fund non-vocational degrees for people over 60"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-25T10:38:27.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983749",
+                    "label": {
+                        "_value": "Fund non-vocational degrees for people over 60"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/996202",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-26T13:47:06.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983749",
+                    "label": {
+                        "_value": "Fund non-vocational degrees for people over 60"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/983750",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-08T16:31:04.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983749",
+                    "label": {
+                        "_value": "Fund non-vocational degrees for people over 60"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

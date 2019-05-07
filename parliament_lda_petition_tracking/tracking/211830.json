@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841224/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841224/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841224/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841224/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841224/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/954892",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-09T23:00:02.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841224",
+                    "label": {
+                        "_value": "I believe that every adult in the UK should pay \u00a310 a month to the NHS."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T06:12:25.849Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841224",
+                    "label": {
+                        "_value": "I believe that every adult in the UK should pay \u00a310 a month to the NHS."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-15T13:35:54.975Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841224",
+                    "label": {
+                        "_value": "I believe that every adult in the UK should pay \u00a310 a month to the NHS."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T13:30:40.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841224",
+                    "label": {
+                        "_value": "I believe that every adult in the UK should pay \u00a310 a month to the NHS."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-09T13:07:59.428Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841224",
+                    "label": {
+                        "_value": "I believe that every adult in the UK should pay \u00a310 a month to the NHS."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/623321/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/623321/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/623321/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/623321/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/623321/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624001",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T23:42:45.616Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623321",
+                    "label": {
+                        "_value": "All councils and H/A should offer any new build properties to existing tenants"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T20:25:06.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623321",
+                    "label": {
+                        "_value": "All councils and H/A should offer any new build properties to existing tenants"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

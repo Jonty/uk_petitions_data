@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/772319/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/772319/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/772319/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/772319/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/772319/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/886971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-17T23:00:03.031Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/772319",
+                    "label": {
+                        "_value": "Reintroduce the old National Curriculum sub\u2010divided level grading system"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/830128",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-24T19:47:19.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/772319",
+                    "label": {
+                        "_value": "Reintroduce the old National Curriculum sub\u2010divided level grading system"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/793866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-22T15:42:14.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/772319",
+                    "label": {
+                        "_value": "Reintroduce the old National Curriculum sub\u2010divided level grading system"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-11T18:34:36.545Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/772319",
+                    "label": {
+                        "_value": "Reintroduce the old National Curriculum sub\u2010divided level grading system"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/783097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-02T19:14:19.517Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/772319",
+                    "label": {
+                        "_value": "Reintroduce the old National Curriculum sub\u2010divided level grading system"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/772323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-17T19:45:00.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/772319",
+                    "label": {
+                        "_value": "Reintroduce the old National Curriculum sub\u2010divided level grading system"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

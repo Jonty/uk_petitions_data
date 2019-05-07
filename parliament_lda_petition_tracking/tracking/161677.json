@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551066/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551066/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551066/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551066/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551066/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T12:43:25.518Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551066",
+                    "label": {
+                        "_value": "Train operators should provide more rolling stock to give all commuters a seat"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T19:31:12.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551066",
+                    "label": {
+                        "_value": "Train operators should provide more rolling stock to give all commuters a seat"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T09:58:09.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551066",
+                    "label": {
+                        "_value": "Train operators should provide more rolling stock to give all commuters a seat"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

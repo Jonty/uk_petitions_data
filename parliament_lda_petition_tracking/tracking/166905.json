@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581864/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581864/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581864/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581864/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581864/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645684",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T15:44:07.375Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581864",
+                    "label": {
+                        "_value": "Create more awareness and help for Children affected and bereaved by Suicide."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T19:13:12.198Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581864",
+                    "label": {
+                        "_value": "Create more awareness and help for Children affected and bereaved by Suicide."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581865",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T20:55:27.807Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581864",
+                    "label": {
+                        "_value": "Create more awareness and help for Children affected and bereaved by Suicide."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

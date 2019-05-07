@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/484031/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/484031/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/484031/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/484031/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/484031/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484031",
+                    "label": {
+                        "_value": "Allow parents to supervise a child fishing without having to purchase a licence."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484031",
+                    "label": {
+                        "_value": "Allow parents to supervise a child fishing without having to purchase a licence."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T10:25:08.426Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484031",
+                    "label": {
+                        "_value": "Allow parents to supervise a child fishing without having to purchase a licence."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T12:26:49.592Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484031",
+                    "label": {
+                        "_value": "Allow parents to supervise a child fishing without having to purchase a licence."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T22:01:40.131Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/484031",
+                    "label": {
+                        "_value": "Allow parents to supervise a child fishing without having to purchase a licence."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

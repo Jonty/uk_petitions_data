@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550660/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550660/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550660/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550660/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550660/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645800",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550660",
+                    "label": {
+                        "_value": "Pedestrian crossings by all schools"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599692",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:54:06.669Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550660",
+                    "label": {
+                        "_value": "Pedestrian crossings by all schools"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:36:15.246Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550660",
+                    "label": {
+                        "_value": "Pedestrian crossings by all schools"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T20:36:02.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550660",
+                    "label": {
+                        "_value": "Pedestrian crossings by all schools"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

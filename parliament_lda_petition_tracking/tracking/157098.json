@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550348/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550348/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550348/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550348/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550348/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624488",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:13:14.249Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550348",
+                    "label": {
+                        "_value": "Set the voting age for referendums to 16"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T17:21:13.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550348",
+                    "label": {
+                        "_value": "Set the voting age for referendums to 16"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T21:31:28.925Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550348",
+                    "label": {
+                        "_value": "Set the voting age for referendums to 16"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

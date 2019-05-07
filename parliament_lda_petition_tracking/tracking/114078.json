@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460302/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460302/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460302/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460302/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460302/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/717378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.189Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460302",
+                    "label": {
+                        "_value": "To change the decision of the ECO having rejected an export licence."
+                    }
+                },
+                "numberOfSignatures": 2822
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530045",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460302",
+                    "label": {
+                        "_value": "To change the decision of the ECO having rejected an export licence."
+                    }
+                },
+                "numberOfSignatures": 2822
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/526270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-03T00:00:09.240Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460302",
+                    "label": {
+                        "_value": "To change the decision of the ECO having rejected an export licence."
+                    }
+                },
+                "numberOfSignatures": 2822
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T21:06:00.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460302",
+                    "label": {
+                        "_value": "To change the decision of the ECO having rejected an export licence."
+                    }
+                },
+                "numberOfSignatures": 2822
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T17:11:10.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460302",
+                    "label": {
+                        "_value": "To change the decision of the ECO having rejected an export licence."
+                    }
+                },
+                "numberOfSignatures": 2820
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T15:40:31.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460302",
+                    "label": {
+                        "_value": "To change the decision of the ECO having rejected an export licence."
+                    }
+                },
+                "numberOfSignatures": 2819
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

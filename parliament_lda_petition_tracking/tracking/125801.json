@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549840/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549840/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549840/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549840/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549840/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/632632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:21:18.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T17:52:19.175Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618344",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T22:23:26.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:06:57.750Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566665",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-21T16:07:28.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549841",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T08:29:16.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549840",
+                    "label": {
+                        "_value": "Erect a statue of a famous woman on Parliament square."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

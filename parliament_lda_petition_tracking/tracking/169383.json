@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/606543/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/606543/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/606543/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/606543/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/606543/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T13:00:21.720Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606543",
+                    "label": {
+                        "_value": "Ban the use of driverless cars before it's too late."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T18:39:49.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606543",
+                    "label": {
+                        "_value": "Ban the use of driverless cars before it's too late."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624503",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T21:19:36.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606543",
+                    "label": {
+                        "_value": "Ban the use of driverless cars before it's too late."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T09:19:57.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606543",
+                    "label": {
+                        "_value": "Ban the use of driverless cars before it's too late."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/607401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T20:06:28.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606543",
+                    "label": {
+                        "_value": "Ban the use of driverless cars before it's too late."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T20:13:57.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/606543",
+                    "label": {
+                        "_value": "Ban the use of driverless cars before it's too late."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

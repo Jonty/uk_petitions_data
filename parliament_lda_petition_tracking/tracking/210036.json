@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835792/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835792/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835792/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835792/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835792/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/950837",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-30T23:00:01.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835792",
+                    "label": {
+                        "_value": "UK residents with ILR to access EU passport or fast track queues at UK Borders"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T22:50:02.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835792",
+                    "label": {
+                        "_value": "UK residents with ILR to access EU passport or fast track queues at UK Borders"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933521",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-27T18:37:43.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835792",
+                    "label": {
+                        "_value": "UK residents with ILR to access EU passport or fast track queues at UK Borders"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/837157",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-02T20:10:49.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835792",
+                    "label": {
+                        "_value": "UK residents with ILR to access EU passport or fast track queues at UK Borders"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-31T10:35:57.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835792",
+                    "label": {
+                        "_value": "UK residents with ILR to access EU passport or fast track queues at UK Borders"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549475/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549475/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549475/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549475/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549475/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/634994",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T09:52:09.527Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549475",
+                    "label": {
+                        "_value": "Make BBC Parliament exempt from the TV licencing requirements"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630496",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:22:30.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549475",
+                    "label": {
+                        "_value": "Make BBC Parliament exempt from the TV licencing requirements"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:40:47.686Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549475",
+                    "label": {
+                        "_value": "Make BBC Parliament exempt from the TV licencing requirements"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571743",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T12:56:02.190Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549475",
+                    "label": {
+                        "_value": "Make BBC Parliament exempt from the TV licencing requirements"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549476",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T20:29:08.568Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549475",
+                    "label": {
+                        "_value": "Make BBC Parliament exempt from the TV licencing requirements"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

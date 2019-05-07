@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/936420/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/936420/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/936420/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/936420/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/936420/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1034970",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-03T00:00:06.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936420",
+                    "label": {
+                        "_value": "Prevent requesting ID for energy drinks"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/967708",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-04T15:42:50.852Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936420",
+                    "label": {
+                        "_value": "Prevent requesting ID for energy drinks"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/965362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-03T17:00:55.708Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936420",
+                    "label": {
+                        "_value": "Prevent requesting ID for energy drinks"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T18:40:28.562Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936420",
+                    "label": {
+                        "_value": "Prevent requesting ID for energy drinks"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-03T08:25:09.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936420",
+                    "label": {
+                        "_value": "Prevent requesting ID for energy drinks"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1091970/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1091970/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1091970/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1091970/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1091970/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T18:15:11.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091970",
+                    "label": {
+                        "_value": "ban the sale of plastic bottle fizzy drinks in the UK"
+                    }
+                },
+                "numberOfSignatures": 102
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106709",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T23:09:46.379Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091970",
+                    "label": {
+                        "_value": "ban the sale of plastic bottle fizzy drinks in the UK"
+                    }
+                },
+                "numberOfSignatures": 96
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091970",
+                    "label": {
+                        "_value": "ban the sale of plastic bottle fizzy drinks in the UK"
+                    }
+                },
+                "numberOfSignatures": 80
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T18:09:02.323Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091970",
+                    "label": {
+                        "_value": "ban the sale of plastic bottle fizzy drinks in the UK"
+                    }
+                },
+                "numberOfSignatures": 79
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091971",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:44:40.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1091970",
+                    "label": {
+                        "_value": "ban the sale of plastic bottle fizzy drinks in the UK"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/642109/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/642109/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/642109/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/642109/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/642109/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734755",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.139Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/642109",
+                    "label": {
+                        "_value": "Make physical appearance a protected characteristic."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650116",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T23:18:57.064Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/642109",
+                    "label": {
+                        "_value": "Make physical appearance a protected characteristic."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T17:30:48.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/642109",
+                    "label": {
+                        "_value": "Make physical appearance a protected characteristic."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643541",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T17:23:43.884Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/642109",
+                    "label": {
+                        "_value": "Make physical appearance a protected characteristic."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/642110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T20:09:44.482Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/642109",
+                    "label": {
+                        "_value": "Make physical appearance a protected characteristic."
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664698/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664698/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664698/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664698/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664698/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728723",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664698",
+                    "label": {
+                        "_value": "Please give extra money to keep our Isle of Wight acute inpatient hospital open."
+                    }
+                },
+                "numberOfSignatures": 156
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-30T23:11:25.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664698",
+                    "label": {
+                        "_value": "Please give extra money to keep our Isle of Wight acute inpatient hospital open."
+                    }
+                },
+                "numberOfSignatures": 148
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665721",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T19:02:42.968Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664698",
+                    "label": {
+                        "_value": "Please give extra money to keep our Isle of Wight acute inpatient hospital open."
+                    }
+                },
+                "numberOfSignatures": 147
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664699",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-23T07:51:06.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664698",
+                    "label": {
+                        "_value": "Please give extra money to keep our Isle of Wight acute inpatient hospital open."
+                    }
+                },
+                "numberOfSignatures": 146
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

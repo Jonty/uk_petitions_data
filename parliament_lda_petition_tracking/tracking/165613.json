@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/569372/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/569372/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/569372/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/569372/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/569372/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636964",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T22:25:38.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569372",
+                    "label": {
+                        "_value": "Reduce the full time working week to 35 hours, without lowering current salary."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630578",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:33:09.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569372",
+                    "label": {
+                        "_value": "Reduce the full time working week to 35 hours, without lowering current salary."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619931",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T01:47:00.382Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569372",
+                    "label": {
+                        "_value": "Reduce the full time working week to 35 hours, without lowering current salary."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575035",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T13:32:52.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569372",
+                    "label": {
+                        "_value": "Reduce the full time working week to 35 hours, without lowering current salary."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569373",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T07:26:39.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569372",
+                    "label": {
+                        "_value": "Reduce the full time working week to 35 hours, without lowering current salary."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460872/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460872/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460872/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460872/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460872/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.225Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460872",
+                    "label": {
+                        "_value": "To allow Airman who serve in the RAF to wear neat/trimmed facial hair"
+                    }
+                },
+                "numberOfSignatures": 907
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530443",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460872",
+                    "label": {
+                        "_value": "To allow Airman who serve in the RAF to wear neat/trimmed facial hair"
+                    }
+                },
+                "numberOfSignatures": 907
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491812",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T00:00:12.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460872",
+                    "label": {
+                        "_value": "To allow Airman who serve in the RAF to wear neat/trimmed facial hair"
+                    }
+                },
+                "numberOfSignatures": 907
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467528",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T13:17:52.415Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460872",
+                    "label": {
+                        "_value": "To allow Airman who serve in the RAF to wear neat/trimmed facial hair"
+                    }
+                },
+                "numberOfSignatures": 907
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460873",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-27T16:14:06.973Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460872",
+                    "label": {
+                        "_value": "To allow Airman who serve in the RAF to wear neat/trimmed facial hair"
+                    }
+                },
+                "numberOfSignatures": 906
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

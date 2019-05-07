@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552094/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552094/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552094/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552094/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552094/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624509",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T10:58:00.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552094",
+                    "label": {
+                        "_value": "Require restaurants to specify menu items that are microwave meals"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T16:45:17.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552094",
+                    "label": {
+                        "_value": "Require restaurants to specify menu items that are microwave meals"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T12:26:00.486Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552094",
+                    "label": {
+                        "_value": "Require restaurants to specify menu items that are microwave meals"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T14:51:28.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552094",
+                    "label": {
+                        "_value": "Require restaurants to specify menu items that are microwave meals"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

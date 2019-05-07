@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463451/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463451/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463451/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463451/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463451/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463451",
+                    "label": {
+                        "_value": "Urge David Cameron into action against animal cruelty laws in the UK & worldwide"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543731",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463451",
+                    "label": {
+                        "_value": "Urge David Cameron into action against animal cruelty laws in the UK & worldwide"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480367",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T00:00:10.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463451",
+                    "label": {
+                        "_value": "Urge David Cameron into action against animal cruelty laws in the UK & worldwide"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/470761",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T22:35:21.649Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463451",
+                    "label": {
+                        "_value": "Urge David Cameron into action against animal cruelty laws in the UK & worldwide"
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T13:08:15.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463451",
+                    "label": {
+                        "_value": "Urge David Cameron into action against animal cruelty laws in the UK & worldwide"
+                    }
+                },
+                "numberOfSignatures": 49
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465637/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465637/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465637/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465637/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465637/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/566113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465637",
+                    "label": {
+                        "_value": "Make MP's have to sit seven days a week as they are providing a public service."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465637",
+                    "label": {
+                        "_value": "Make MP's have to sit seven days a week as they are providing a public service."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T17:46:29.826Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465637",
+                    "label": {
+                        "_value": "Make MP's have to sit seven days a week as they are providing a public service."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T10:54:04.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465637",
+                    "label": {
+                        "_value": "Make MP's have to sit seven days a week as they are providing a public service."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465638",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T09:03:42.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465637",
+                    "label": {
+                        "_value": "Make MP's have to sit seven days a week as they are providing a public service."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

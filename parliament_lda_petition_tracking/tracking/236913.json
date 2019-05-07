@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1043620/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1043620/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1043620/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1043620/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1043620/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T14:46:49.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043620",
+                    "label": {
+                        "_value": "Increase funding for suicide research & offer specialist support to stop it."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075949",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:58:42.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043620",
+                    "label": {
+                        "_value": "Increase funding for suicide research & offer specialist support to stop it."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-20T18:51:20.694Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043620",
+                    "label": {
+                        "_value": "Increase funding for suicide research & offer specialist support to stop it."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044125",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-18T11:27:04.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043620",
+                    "label": {
+                        "_value": "Increase funding for suicide research & offer specialist support to stop it."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1043621",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T20:48:13.627Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043620",
+                    "label": {
+                        "_value": "Increase funding for suicide research & offer specialist support to stop it."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

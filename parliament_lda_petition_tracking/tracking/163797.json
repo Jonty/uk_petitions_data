@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/559973/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/559973/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/559973/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/559973/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/559973/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:06:54.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559973",
+                    "label": {
+                        "_value": "Cap private rents at Local Housing Allowance (LHA) levels in England"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646300",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T17:00:45.976Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559973",
+                    "label": {
+                        "_value": "Cap private rents at Local Housing Allowance (LHA) levels in England"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588486",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T10:50:53.885Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559973",
+                    "label": {
+                        "_value": "Cap private rents at Local Housing Allowance (LHA) levels in England"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T17:37:42.157Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559973",
+                    "label": {
+                        "_value": "Cap private rents at Local Housing Allowance (LHA) levels in England"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T05:40:21.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559973",
+                    "label": {
+                        "_value": "Cap private rents at Local Housing Allowance (LHA) levels in England"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559974",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T17:04:44.605Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559973",
+                    "label": {
+                        "_value": "Cap private rents at Local Housing Allowance (LHA) levels in England"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

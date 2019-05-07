@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549213/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549213/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549213/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549213/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549213/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T15:44:55.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549213",
+                    "label": {
+                        "_value": "Public Inquiry and full disclosure of corrupt covert operations"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T12:50:16.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549213",
+                    "label": {
+                        "_value": "Public Inquiry and full disclosure of corrupt covert operations"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

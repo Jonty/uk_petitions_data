@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464465/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464465/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464465/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464465/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464465/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735731",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.795Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464465",
+                    "label": {
+                        "_value": "Government to fund improved transport links in suburbs and estates"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464465",
+                    "label": {
+                        "_value": "Government to fund improved transport links in suburbs and estates"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464465",
+                    "label": {
+                        "_value": "Government to fund improved transport links in suburbs and estates"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:58:55.311Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464465",
+                    "label": {
+                        "_value": "Government to fund improved transport links in suburbs and estates"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464466",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T09:39:44.169Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464465",
+                    "label": {
+                        "_value": "Government to fund improved transport links in suburbs and estates"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

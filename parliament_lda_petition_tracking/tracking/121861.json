@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465107/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465107/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465107/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465107/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465107/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729442",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465107",
+                    "label": {
+                        "_value": "Offer the NHS breast screening service to all women over the age of 21."
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465107",
+                    "label": {
+                        "_value": "Offer the NHS breast screening service to all women over the age of 21."
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:26:40.377Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465107",
+                    "label": {
+                        "_value": "Offer the NHS breast screening service to all women over the age of 21."
+                    }
+                },
+                "numberOfSignatures": 100
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T16:28:43.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465107",
+                    "label": {
+                        "_value": "Offer the NHS breast screening service to all women over the age of 21."
+                    }
+                },
+                "numberOfSignatures": 99
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T09:31:15.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465107",
+                    "label": {
+                        "_value": "Offer the NHS breast screening service to all women over the age of 21."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465108",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:57.092Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465107",
+                    "label": {
+                        "_value": "Offer the NHS breast screening service to all women over the age of 21."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

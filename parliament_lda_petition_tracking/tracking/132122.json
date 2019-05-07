@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550646/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550646/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550646/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550646/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550646/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/647017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T21:24:43.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550646",
+                    "label": {
+                        "_value": "Increase the speed limit on roads for vans or put up speed road sign for vans."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T14:10:45.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550646",
+                    "label": {
+                        "_value": "Increase the speed limit on roads for vans or put up speed road sign for vans."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465039/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465039/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465039/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465039/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465039/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465039",
+                    "label": {
+                        "_value": "Stop the new pay scale for the armed forces. They alreay had pensions cut."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/469660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T18:31:34.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465039",
+                    "label": {
+                        "_value": "Stop the new pay scale for the armed forces. They alreay had pensions cut."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T13:35:16.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465039",
+                    "label": {
+                        "_value": "Stop the new pay scale for the armed forces. They alreay had pensions cut."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465040",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:14.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465039",
+                    "label": {
+                        "_value": "Stop the new pay scale for the armed forces. They alreay had pensions cut."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

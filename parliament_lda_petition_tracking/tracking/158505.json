@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547851/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547851/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547851/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547851/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547851/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734443",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547851",
+                    "label": {
+                        "_value": "Legislation to curb newspapers from knowingly printing factual inaccuracies."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T12:10:16.742Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547851",
+                    "label": {
+                        "_value": "Legislation to curb newspapers from knowingly printing factual inaccuracies."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600395",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T15:19:07.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547851",
+                    "label": {
+                        "_value": "Legislation to curb newspapers from knowingly printing factual inaccuracies."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T15:45:38.981Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547851",
+                    "label": {
+                        "_value": "Legislation to curb newspapers from knowingly printing factual inaccuracies."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592781",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T14:43:49.253Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547851",
+                    "label": {
+                        "_value": "Legislation to curb newspapers from knowingly printing factual inaccuracies."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T11:03:37.623Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547851",
+                    "label": {
+                        "_value": "Legislation to curb newspapers from knowingly printing factual inaccuracies."
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

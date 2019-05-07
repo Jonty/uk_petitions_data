@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664771/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664771/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664771/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664771/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664771/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664771",
+                    "label": {
+                        "_value": "Introduce more tax for Buy To Let Landlords and Foreign Property Investors"
+                    }
+                },
+                "numberOfSignatures": 117
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-01T14:35:12.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664771",
+                    "label": {
+                        "_value": "Introduce more tax for Buy To Let Landlords and Foreign Property Investors"
+                    }
+                },
+                "numberOfSignatures": 83
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-27T07:37:45.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664771",
+                    "label": {
+                        "_value": "Introduce more tax for Buy To Let Landlords and Foreign Property Investors"
+                    }
+                },
+                "numberOfSignatures": 81
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664772",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T22:14:08.495Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664771",
+                    "label": {
+                        "_value": "Introduce more tax for Buy To Let Landlords and Foreign Property Investors"
+                    }
+                },
+                "numberOfSignatures": 80
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

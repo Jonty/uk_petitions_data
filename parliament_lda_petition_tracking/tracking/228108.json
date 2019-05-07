@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977060/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977060/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977060/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977060/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977060/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1093382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T00:00:06.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977060",
+                    "label": {
+                        "_value": "Create a governing body to regulate private landlords to protect tenants"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-19T11:00:29.761Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977060",
+                    "label": {
+                        "_value": "Create a governing body to regulate private landlords to protect tenants"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1032217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T01:40:39.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977060",
+                    "label": {
+                        "_value": "Create a governing body to regulate private landlords to protect tenants"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T12:50:02.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977060",
+                    "label": {
+                        "_value": "Create a governing body to regulate private landlords to protect tenants"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/989301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T11:25:16.109Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977060",
+                    "label": {
+                        "_value": "Create a governing body to regulate private landlords to protect tenants"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977061",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-20T16:25:44.556Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977060",
+                    "label": {
+                        "_value": "Create a governing body to regulate private landlords to protect tenants"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1052059/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1052059/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1052059/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1052059/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1052059/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1062783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T10:50:36.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052059",
+                    "label": {
+                        "_value": "Fund IVF for every same-sex female couple who meets NICE criteria"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T18:29:51.777Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052059",
+                    "label": {
+                        "_value": "Fund IVF for every same-sex female couple who meets NICE criteria"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-02T16:56:21.140Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052059",
+                    "label": {
+                        "_value": "Fund IVF for every same-sex female couple who meets NICE criteria"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T21:49:02.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052059",
+                    "label": {
+                        "_value": "Fund IVF for every same-sex female couple who meets NICE criteria"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1052060",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-30T21:34:46.653Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052059",
+                    "label": {
+                        "_value": "Fund IVF for every same-sex female couple who meets NICE criteria"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

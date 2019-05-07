@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465937/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465937/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465937/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465937/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465937/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/571769",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T11:46:43.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465937",
+                    "label": {
+                        "_value": "Give people in Overseas Territories & Crown Dependencies an EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T06:06:53.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465937",
+                    "label": {
+                        "_value": "Give people in Overseas Territories & Crown Dependencies an EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T19:58:19.427Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465937",
+                    "label": {
+                        "_value": "Give people in Overseas Territories & Crown Dependencies an EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549848",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T01:33:36.826Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465937",
+                    "label": {
+                        "_value": "Give people in Overseas Territories & Crown Dependencies an EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492155",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T20:40:19.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465937",
+                    "label": {
+                        "_value": "Give people in Overseas Territories & Crown Dependencies an EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T15:33:44.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465937",
+                    "label": {
+                        "_value": "Give people in Overseas Territories & Crown Dependencies an EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

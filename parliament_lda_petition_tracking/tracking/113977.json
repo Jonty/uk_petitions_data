@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466203/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466203/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466203/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466203/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466203/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466203",
+                    "label": {
+                        "_value": "Border Control desks for UK passport holders only, separate queues for others!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T22:15:21.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466203",
+                    "label": {
+                        "_value": "Border Control desks for UK passport holders only, separate queues for others!"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T08:55:26.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466203",
+                    "label": {
+                        "_value": "Border Control desks for UK passport holders only, separate queues for others!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484055",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T20:07:45.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466203",
+                    "label": {
+                        "_value": "Border Control desks for UK passport holders only, separate queues for others!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466204",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:37.005Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466203",
+                    "label": {
+                        "_value": "Border Control desks for UK passport holders only, separate queues for others!"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/583766/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/583766/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/583766/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/583766/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/583766/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/647010",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T15:17:37.555Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583766",
+                    "label": {
+                        "_value": "Reduce the working day to 6 hours with the same salary."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640300",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T12:11:42.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583766",
+                    "label": {
+                        "_value": "Reduce the working day to 6 hours with the same salary."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T17:21:29.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583766",
+                    "label": {
+                        "_value": "Reduce the working day to 6 hours with the same salary."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599780",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:31:51.453Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583766",
+                    "label": {
+                        "_value": "Reduce the working day to 6 hours with the same salary."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T14:54:23.566Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583766",
+                    "label": {
+                        "_value": "Reduce the working day to 6 hours with the same salary."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583767",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T15:23:37.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583766",
+                    "label": {
+                        "_value": "Reduce the working day to 6 hours with the same salary."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

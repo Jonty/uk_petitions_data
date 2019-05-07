@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/937414/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/937414/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/937414/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/937414/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/937414/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1039513",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-10T00:00:00.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937414",
+                    "label": {
+                        "_value": "Remove the 'minimum ban' on drink drivers and replace with a lifetime ban"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962086",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T18:16:46.640Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937414",
+                    "label": {
+                        "_value": "Remove the 'minimum ban' on drink drivers and replace with a lifetime ban"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954857",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-10T15:49:08.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937414",
+                    "label": {
+                        "_value": "Remove the 'minimum ban' on drink drivers and replace with a lifetime ban"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/943631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-17T16:13:12.548Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937414",
+                    "label": {
+                        "_value": "Remove the 'minimum ban' on drink drivers and replace with a lifetime ban"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/942410",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-16T17:42:45.081Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937414",
+                    "label": {
+                        "_value": "Remove the 'minimum ban' on drink drivers and replace with a lifetime ban"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/937415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-09T07:50:32.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937414",
+                    "label": {
+                        "_value": "Remove the 'minimum ban' on drink drivers and replace with a lifetime ban"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

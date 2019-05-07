@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1017028/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1017028/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1017028/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1017028/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1017028/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1040383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-12T14:14:51.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1017028",
+                    "label": {
+                        "_value": "Create provision in law for Overtime Payments & max normal hours to be 40/week!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-08T22:15:17.551Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1017028",
+                    "label": {
+                        "_value": "Create provision in law for Overtime Payments & max normal hours to be 40/week!"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1036879",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-07T12:19:17.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1017028",
+                    "label": {
+                        "_value": "Create provision in law for Overtime Payments & max normal hours to be 40/week!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-08T10:57:42.514Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1017028",
+                    "label": {
+                        "_value": "Create provision in law for Overtime Payments & max normal hours to be 40/week!"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1017029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-28T17:32:22.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1017028",
+                    "label": {
+                        "_value": "Create provision in law for Overtime Payments & max normal hours to be 40/week!"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655583/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655583/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655583/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655583/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655583/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655583",
+                    "label": {
+                        "_value": "Scrap the idea to hand over maintenance responsibility from Network Rail to TOCs"
+                    }
+                },
+                "numberOfSignatures": 87
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664773",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-23T12:16:00.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655583",
+                    "label": {
+                        "_value": "Scrap the idea to hand over maintenance responsibility from Network Rail to TOCs"
+                    }
+                },
+                "numberOfSignatures": 78
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661043",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-15T21:21:55.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655583",
+                    "label": {
+                        "_value": "Scrap the idea to hand over maintenance responsibility from Network Rail to TOCs"
+                    }
+                },
+                "numberOfSignatures": 77
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659139",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T19:44:32.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655583",
+                    "label": {
+                        "_value": "Scrap the idea to hand over maintenance responsibility from Network Rail to TOCs"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655584",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T23:04:15.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655583",
+                    "label": {
+                        "_value": "Scrap the idea to hand over maintenance responsibility from Network Rail to TOCs"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

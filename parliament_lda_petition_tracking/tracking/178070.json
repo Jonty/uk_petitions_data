@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/689848/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/689848/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/689848/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/689848/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/689848/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:15.496Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689848",
+                    "label": {
+                        "_value": "Hold a 2nd referendum which includes 2 million EU Nationals living in Britain."
+                    }
+                },
+                "numberOfSignatures": 1569
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T15:48:44.337Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689848",
+                    "label": {
+                        "_value": "Hold a 2nd referendum which includes 2 million EU Nationals living in Britain."
+                    }
+                },
+                "numberOfSignatures": 1562
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T20:18:11.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689848",
+                    "label": {
+                        "_value": "Hold a 2nd referendum which includes 2 million EU Nationals living in Britain."
+                    }
+                },
+                "numberOfSignatures": 1440
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T23:08:26.333Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689848",
+                    "label": {
+                        "_value": "Hold a 2nd referendum which includes 2 million EU Nationals living in Britain."
+                    }
+                },
+                "numberOfSignatures": 1421
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691250",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-19T23:52:54.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689848",
+                    "label": {
+                        "_value": "Hold a 2nd referendum which includes 2 million EU Nationals living in Britain."
+                    }
+                },
+                "numberOfSignatures": 1204
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/689849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-15T23:28:47.013Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/689848",
+                    "label": {
+                        "_value": "Hold a 2nd referendum which includes 2 million EU Nationals living in Britain."
+                    }
+                },
+                "numberOfSignatures": 980
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

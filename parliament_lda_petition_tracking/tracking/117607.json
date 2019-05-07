@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466849/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466849/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466849/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466849/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466849/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466849",
+                    "label": {
+                        "_value": "This 0.7% of GDP is approx.12 billion pounds a year should be repealed."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T22:20:16.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466849",
+                    "label": {
+                        "_value": "This 0.7% of GDP is approx.12 billion pounds a year should be repealed."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T16:01:00.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466849",
+                    "label": {
+                        "_value": "This 0.7% of GDP is approx.12 billion pounds a year should be repealed."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T16:27:26.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466849",
+                    "label": {
+                        "_value": "This 0.7% of GDP is approx.12 billion pounds a year should be repealed."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488709",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T13:50:52.139Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466849",
+                    "label": {
+                        "_value": "This 0.7% of GDP is approx.12 billion pounds a year should be repealed."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:05.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466849",
+                    "label": {
+                        "_value": "This 0.7% of GDP is approx.12 billion pounds a year should be repealed."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

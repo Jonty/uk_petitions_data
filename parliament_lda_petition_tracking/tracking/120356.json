@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465119/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465119/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465119/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465119/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465119/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/554242",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465119",
+                    "label": {
+                        "_value": "Remove the time restrictions on bus passes for disabled people."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548624",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T21:27:46.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465119",
+                    "label": {
+                        "_value": "Remove the time restrictions on bus passes for disabled people."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:58:44.598Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465119",
+                    "label": {
+                        "_value": "Remove the time restrictions on bus passes for disabled people."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T18:40:25.952Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465119",
+                    "label": {
+                        "_value": "Remove the time restrictions on bus passes for disabled people."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

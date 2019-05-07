@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463185/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463185/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463185/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463185/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463185/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733325",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.501Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463185",
+                    "label": {
+                        "_value": "UK Parliament to exchange the collapsing \u00a3 for gold offered by World Bank & IMF"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559651",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463185",
+                    "label": {
+                        "_value": "UK Parliament to exchange the collapsing \u00a3 for gold offered by World Bank & IMF"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463185",
+                    "label": {
+                        "_value": "UK Parliament to exchange the collapsing \u00a3 for gold offered by World Bank & IMF"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509721",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T05:53:50.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463185",
+                    "label": {
+                        "_value": "UK Parliament to exchange the collapsing \u00a3 for gold offered by World Bank & IMF"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T10:23:51.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463185",
+                    "label": {
+                        "_value": "UK Parliament to exchange the collapsing \u00a3 for gold offered by World Bank & IMF"
+                    }
+                },
+                "numberOfSignatures": 61
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T19:29:03.029Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463185",
+                    "label": {
+                        "_value": "UK Parliament to exchange the collapsing \u00a3 for gold offered by World Bank & IMF"
+                    }
+                },
+                "numberOfSignatures": 59
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

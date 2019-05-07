@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547613/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547613/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547613/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547613/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547613/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547613",
+                    "label": {
+                        "_value": "Make it illegal for people to smoke while in charge of a motor vehicle."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633889",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547613",
+                    "label": {
+                        "_value": "Make it illegal for people to smoke while in charge of a motor vehicle."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T10:39:07.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547613",
+                    "label": {
+                        "_value": "Make it illegal for people to smoke while in charge of a motor vehicle."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574905",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T14:24:21.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547613",
+                    "label": {
+                        "_value": "Make it illegal for people to smoke while in charge of a motor vehicle."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557323",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T19:43:32.020Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547613",
+                    "label": {
+                        "_value": "Make it illegal for people to smoke while in charge of a motor vehicle."
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T22:24:53.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547613",
+                    "label": {
+                        "_value": "Make it illegal for people to smoke while in charge of a motor vehicle."
+                    }
+                },
+                "numberOfSignatures": 41
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

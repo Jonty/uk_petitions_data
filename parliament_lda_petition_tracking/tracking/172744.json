@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/648306/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/648306/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/648306/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/648306/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/648306/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.153Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648306",
+                    "label": {
+                        "_value": "Double the free child care hours for working parents or single working parent."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T08:14:42.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648306",
+                    "label": {
+                        "_value": "Double the free child care hours for working parents or single working parent."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655547",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-07T15:40:50.387Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648306",
+                    "label": {
+                        "_value": "Double the free child care hours for working parents or single working parent."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T22:13:46.266Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648306",
+                    "label": {
+                        "_value": "Double the free child care hours for working parents or single working parent."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649262",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T22:05:14.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648306",
+                    "label": {
+                        "_value": "Double the free child care hours for working parents or single working parent."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T11:27:44.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648306",
+                    "label": {
+                        "_value": "Double the free child care hours for working parents or single working parent."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

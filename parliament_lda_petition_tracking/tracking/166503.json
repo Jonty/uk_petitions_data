@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/578385/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/578385/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/578385/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/578385/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/578385/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T15:54:47.944Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/578385",
+                    "label": {
+                        "_value": "Make it illegal to park on or in front of a dropped kerb and private driveways."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:12:36.141Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/578385",
+                    "label": {
+                        "_value": "Make it illegal to park on or in front of a dropped kerb and private driveways."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T12:44:13.334Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/578385",
+                    "label": {
+                        "_value": "Make it illegal to park on or in front of a dropped kerb and private driveways."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T13:44:40.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/578385",
+                    "label": {
+                        "_value": "Make it illegal to park on or in front of a dropped kerb and private driveways."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T09:35:37.155Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/578385",
+                    "label": {
+                        "_value": "Make it illegal to park on or in front of a dropped kerb and private driveways."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578386",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T19:25:03.145Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/578385",
+                    "label": {
+                        "_value": "Make it illegal to park on or in front of a dropped kerb and private driveways."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

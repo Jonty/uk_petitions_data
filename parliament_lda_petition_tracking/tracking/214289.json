@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/874343/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/874343/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/874343/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/874343/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/874343/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/979362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-28T23:00:00.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874343",
+                    "label": {
+                        "_value": "End Child Maintenance for Shared care parents."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/910854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-23T10:49:19.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874343",
+                    "label": {
+                        "_value": "End Child Maintenance for Shared care parents."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884853",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T20:41:29.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874343",
+                    "label": {
+                        "_value": "End Child Maintenance for Shared care parents."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/877906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-03T11:14:13.134Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874343",
+                    "label": {
+                        "_value": "End Child Maintenance for Shared care parents."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/874344",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-28T19:31:28.234Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874343",
+                    "label": {
+                        "_value": "End Child Maintenance for Shared care parents."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

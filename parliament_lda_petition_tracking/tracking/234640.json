@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1028316/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1028316/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1028316/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1028316/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1028316/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1087679",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T15:29:08.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1028316",
+                    "label": {
+                        "_value": "Change student loan arrangements to reflect career success"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T15:49:22.988Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1028316",
+                    "label": {
+                        "_value": "Change student loan arrangements to reflect career success"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040020",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-11T20:47:45.302Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1028316",
+                    "label": {
+                        "_value": "Change student loan arrangements to reflect career success"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-20T10:55:24.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1028316",
+                    "label": {
+                        "_value": "Change student loan arrangements to reflect career success"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028317",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-18T14:47:48.957Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1028316",
+                    "label": {
+                        "_value": "Change student loan arrangements to reflect career success"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

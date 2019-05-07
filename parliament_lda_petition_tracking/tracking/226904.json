@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/957727/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/957727/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/957727/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/957727/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/957727/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1076096",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T00:00:05.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957727",
+                    "label": {
+                        "_value": "Make practicing beauty/nail/hairdressing treatments without insurance illegal"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/989270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T11:28:22.214Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957727",
+                    "label": {
+                        "_value": "Make practicing beauty/nail/hairdressing treatments without insurance illegal"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-09T13:26:07.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957727",
+                    "label": {
+                        "_value": "Make practicing beauty/nail/hairdressing treatments without insurance illegal"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/957728",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-17T11:12:46.513Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/957727",
+                    "label": {
+                        "_value": "Make practicing beauty/nail/hairdressing treatments without insurance illegal"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

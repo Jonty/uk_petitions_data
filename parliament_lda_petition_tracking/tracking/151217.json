@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548568/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548568/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548568/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548568/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548568/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.784Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548568",
+                    "label": {
+                        "_value": "Invoke The Treaty of Windsor to protect Portuguese in the UK and vice versa"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/650121",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T15:26:43.337Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548568",
+                    "label": {
+                        "_value": "Invoke The Treaty of Windsor to protect Portuguese in the UK and vice versa"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646261",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T20:13:17.853Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548568",
+                    "label": {
+                        "_value": "Invoke The Treaty of Windsor to protect Portuguese in the UK and vice versa"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/596703",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T19:48:01.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548568",
+                    "label": {
+                        "_value": "Invoke The Treaty of Windsor to protect Portuguese in the UK and vice versa"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T15:59:45.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548568",
+                    "label": {
+                        "_value": "Invoke The Treaty of Windsor to protect Portuguese in the UK and vice versa"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T12:49:15.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548568",
+                    "label": {
+                        "_value": "Invoke The Treaty of Windsor to protect Portuguese in the UK and vice versa"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

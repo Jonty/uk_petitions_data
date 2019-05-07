@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933581/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933581/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933581/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933581/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933581/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1033228",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-29T00:00:02.811Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1032509",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-27T02:39:16.675Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/999093",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-31T14:56:09.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/981772",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-05T15:17:25.622Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/974612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-15T08:07:06.382Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960778",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-25T19:47:40.395Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-28T08:01:48.515Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933581",
+                    "label": {
+                        "_value": "Increase the annual salary of all public sector workers by 3%."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

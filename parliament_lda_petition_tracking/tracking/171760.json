@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640407/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640407/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640407/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640407/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640407/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/643631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T11:38:39.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640407",
+                    "label": {
+                        "_value": "Scrap High Speed 2 (HS2). Put forward Hyperloop for consideration."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T09:43:05.860Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640407",
+                    "label": {
+                        "_value": "Scrap High Speed 2 (HS2). Put forward Hyperloop for consideration."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

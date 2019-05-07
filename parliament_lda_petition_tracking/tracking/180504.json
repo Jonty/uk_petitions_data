@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/685095/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/685095/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/685095/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/685095/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/685095/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:17.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/685095",
+                    "label": {
+                        "_value": "Call for a general election"
+                    }
+                },
+                "numberOfSignatures": 856
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/705025",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T14:50:29.469Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/685095",
+                    "label": {
+                        "_value": "Call for a general election"
+                    }
+                },
+                "numberOfSignatures": 595
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-16T10:27:11.397Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/685095",
+                    "label": {
+                        "_value": "Call for a general election"
+                    }
+                },
+                "numberOfSignatures": 590
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686410",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-07T23:47:28.389Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/685095",
+                    "label": {
+                        "_value": "Call for a general election"
+                    }
+                },
+                "numberOfSignatures": 543
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/685096",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-05T14:16:20.013Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/685095",
+                    "label": {
+                        "_value": "Call for a general election"
+                    }
+                },
+                "numberOfSignatures": 527
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

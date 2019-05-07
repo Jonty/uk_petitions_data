@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551784/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551784/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551784/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551784/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551784/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627983",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:41:01.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551784",
+                    "label": {
+                        "_value": "Sue the EU via the ECJ for the monies the UK should of had under our old rebate"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:59:33.771Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551784",
+                    "label": {
+                        "_value": "Sue the EU via the ECJ for the monies the UK should of had under our old rebate"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T16:39:24.762Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551784",
+                    "label": {
+                        "_value": "Sue the EU via the ECJ for the monies the UK should of had under our old rebate"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

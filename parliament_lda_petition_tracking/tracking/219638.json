@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/906189/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/906189/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/906189/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/906189/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/906189/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1008994",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T00:00:01.348Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/906189",
+                    "label": {
+                        "_value": "The N.H.S should fund properly regulated homeopathy clinics."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/976980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T07:25:14.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/906189",
+                    "label": {
+                        "_value": "The N.H.S should fund properly regulated homeopathy clinics."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/911677",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-24T09:15:40.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/906189",
+                    "label": {
+                        "_value": "The N.H.S should fund properly regulated homeopathy clinics."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/907032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-17T13:47:39.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/906189",
+                    "label": {
+                        "_value": "The N.H.S should fund properly regulated homeopathy clinics."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/906190",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-16T13:23:36.256Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/906189",
+                    "label": {
+                        "_value": "The N.H.S should fund properly regulated homeopathy clinics."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

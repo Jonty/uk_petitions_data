@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/506135/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/506135/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/506135/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/506135/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/506135/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597136",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506135",
+                    "label": {
+                        "_value": "Reallocate BBC licence fee to assist with the Chancellors budget plan."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506135",
+                    "label": {
+                        "_value": "Reallocate BBC licence fee to assist with the Chancellors budget plan."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T23:48:20.787Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506135",
+                    "label": {
+                        "_value": "Reallocate BBC licence fee to assist with the Chancellors budget plan."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506136",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T21:53:49.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506135",
+                    "label": {
+                        "_value": "Reallocate BBC licence fee to assist with the Chancellors budget plan."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

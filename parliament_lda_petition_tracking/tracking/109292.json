@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464087/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464087/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464087/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464087/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464087/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.021Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464087",
+                    "label": {
+                        "_value": "Legislate for the tobacco companies to only make Biodegradeable Cigarettes"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547984",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464087",
+                    "label": {
+                        "_value": "Legislate for the tobacco companies to only make Biodegradeable Cigarettes"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487877",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T00:00:11.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464087",
+                    "label": {
+                        "_value": "Legislate for the tobacco companies to only make Biodegradeable Cigarettes"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T22:35:34.484Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464087",
+                    "label": {
+                        "_value": "Legislate for the tobacco companies to only make Biodegradeable Cigarettes"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:12:17.967Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464087",
+                    "label": {
+                        "_value": "Legislate for the tobacco companies to only make Biodegradeable Cigarettes"
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

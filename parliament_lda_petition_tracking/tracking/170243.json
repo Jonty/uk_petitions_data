@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/623263/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/623263/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/623263/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/623263/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/623263/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/632634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T20:40:51.488Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623263",
+                    "label": {
+                        "_value": "Do not cut NHS unsociable hours pay."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T09:07:12.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623263",
+                    "label": {
+                        "_value": "Do not cut NHS unsociable hours pay."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623979",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T10:21:30.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623263",
+                    "label": {
+                        "_value": "Do not cut NHS unsociable hours pay."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623264",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T12:37:01.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623263",
+                    "label": {
+                        "_value": "Do not cut NHS unsociable hours pay."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

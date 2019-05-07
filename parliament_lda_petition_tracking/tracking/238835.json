@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1057704/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1057704/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1057704/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1057704/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1057704/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107601",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:32:18.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057704",
+                    "label": {
+                        "_value": "Sanction Turkey until military action against Kurd groups in Rojava stops"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:12:50.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057704",
+                    "label": {
+                        "_value": "Sanction Turkey until military action against Kurd groups in Rojava stops"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T15:43:12.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057704",
+                    "label": {
+                        "_value": "Sanction Turkey until military action against Kurd groups in Rojava stops"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057705",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T09:57:29.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057704",
+                    "label": {
+                        "_value": "Sanction Turkey until military action against Kurd groups in Rojava stops"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

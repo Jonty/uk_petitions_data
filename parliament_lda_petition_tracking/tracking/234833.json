@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1027119/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1027119/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1027119/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1027119/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1027119/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:32:18.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027119",
+                    "label": {
+                        "_value": "Review racially discriminatory Gang Matrix(ces) obedience to human rights laws."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T11:41:45.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027119",
+                    "label": {
+                        "_value": "Review racially discriminatory Gang Matrix(ces) obedience to human rights laws."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:11:59.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027119",
+                    "label": {
+                        "_value": "Review racially discriminatory Gang Matrix(ces) obedience to human rights laws."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028281",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T23:01:08.179Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027119",
+                    "label": {
+                        "_value": "Review racially discriminatory Gang Matrix(ces) obedience to human rights laws."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1027120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T19:33:30.836Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1027119",
+                    "label": {
+                        "_value": "Review racially discriminatory Gang Matrix(ces) obedience to human rights laws."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

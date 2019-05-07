@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640213/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640213/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640213/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640213/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640213/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729288",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.472Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640213",
+                    "label": {
+                        "_value": "Make PIP Questionnaires fit for purpose regarding Mental Health."
+                    }
+                },
+                "numberOfSignatures": 110
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-27T16:03:23.930Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640213",
+                    "label": {
+                        "_value": "Make PIP Questionnaires fit for purpose regarding Mental Health."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T17:02:19.471Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640213",
+                    "label": {
+                        "_value": "Make PIP Questionnaires fit for purpose regarding Mental Health."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

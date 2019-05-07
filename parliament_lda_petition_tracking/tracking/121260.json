@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466335/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466335/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466335/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466335/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466335/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/561740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466335",
+                    "label": {
+                        "_value": "Change specialist schools starting age for disabled children."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550977",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T17:08:12.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466335",
+                    "label": {
+                        "_value": "Change specialist schools starting age for disabled children."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466336",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:42.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466335",
+                    "label": {
+                        "_value": "Change specialist schools starting age for disabled children."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

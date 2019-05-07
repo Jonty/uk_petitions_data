@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463207/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463207/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463207/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463207/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463207/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733651",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463207",
+                    "label": {
+                        "_value": "Remove MOD crown immunity from health and safety failures"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463207",
+                    "label": {
+                        "_value": "Remove MOD crown immunity from health and safety failures"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T09:18:12.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463207",
+                    "label": {
+                        "_value": "Remove MOD crown immunity from health and safety failures"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T09:58:49.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463207",
+                    "label": {
+                        "_value": "Remove MOD crown immunity from health and safety failures"
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T12:18:19.946Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463207",
+                    "label": {
+                        "_value": "Remove MOD crown immunity from health and safety failures"
+                    }
+                },
+                "numberOfSignatures": 58
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

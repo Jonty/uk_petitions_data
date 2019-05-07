@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1021616/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1021616/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1021616/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1021616/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1021616/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:07.786Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021616",
+                    "label": {
+                        "_value": "Allow 3 wheeled vehicles to be driven on a car licence at 17"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-03T14:30:34.350Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1021616",
+                    "label": {
+                        "_value": "Allow 3 wheeled vehicles to be driven on a car licence at 17"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

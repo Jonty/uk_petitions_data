@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464925/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464925/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464925/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464925/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464925/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464925",
+                    "label": {
+                        "_value": "Make ALL New Builds on Floodplains Raised on stilts Common Sense ?"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T09:31:53.828Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464925",
+                    "label": {
+                        "_value": "Make ALL New Builds on Floodplains Raised on stilts Common Sense ?"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464926",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T16:29:16.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464925",
+                    "label": {
+                        "_value": "Make ALL New Builds on Floodplains Raised on stilts Common Sense ?"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

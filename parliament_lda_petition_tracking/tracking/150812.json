@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548188/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548188/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548188/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548188/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548188/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.694Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548188",
+                    "label": {
+                        "_value": "Allow a second referendum on the subject of our membership of the European Union"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T03:06:22.457Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548188",
+                    "label": {
+                        "_value": "Allow a second referendum on the subject of our membership of the European Union"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603183",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T00:20:17.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548188",
+                    "label": {
+                        "_value": "Allow a second referendum on the subject of our membership of the European Union"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:10:50.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548188",
+                    "label": {
+                        "_value": "Allow a second referendum on the subject of our membership of the European Union"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T19:14:17.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548188",
+                    "label": {
+                        "_value": "Allow a second referendum on the subject of our membership of the European Union"
+                    }
+                },
+                "numberOfSignatures": 29
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

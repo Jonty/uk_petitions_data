@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/726699/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/726699/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/726699/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/726699/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/726699/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/732834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-06-15T12:16:27.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/726699",
+                    "label": {
+                        "_value": "FND Awareness. Recognise FND in medical assessments & Funding for Research"
+                    }
+                },
+                "numberOfSignatures": 1009
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/726700",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:28.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/726699",
+                    "label": {
+                        "_value": "FND Awareness. Recognise FND in medical assessments & Funding for Research"
+                    }
+                },
+                "numberOfSignatures": 1008
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/588494/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/588494/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/588494/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/588494/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/588494/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T10:24:59.188Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588494",
+                    "label": {
+                        "_value": "Government should put a stop to paying of TV licence in the UK!!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:42:52.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588494",
+                    "label": {
+                        "_value": "Government should put a stop to paying of TV licence in the UK!!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624508",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T21:19:36.749Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588494",
+                    "label": {
+                        "_value": "Government should put a stop to paying of TV licence in the UK!!"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589136",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T22:41:00.732Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588494",
+                    "label": {
+                        "_value": "Government should put a stop to paying of TV licence in the UK!!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-22T18:13:07.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/588494",
+                    "label": {
+                        "_value": "Government should put a stop to paying of TV licence in the UK!!"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

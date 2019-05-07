@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/586935/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/586935/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/586935/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/586935/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/586935/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645774",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:20:59.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586935",
+                    "label": {
+                        "_value": "Keep present allowances for disabled and assisted accomodation tenants."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599607",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:48:10.795Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586935",
+                    "label": {
+                        "_value": "Keep present allowances for disabled and assisted accomodation tenants."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587935",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T20:24:21.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586935",
+                    "label": {
+                        "_value": "Keep present allowances for disabled and assisted accomodation tenants."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T18:15:46.187Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586935",
+                    "label": {
+                        "_value": "Keep present allowances for disabled and assisted accomodation tenants."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

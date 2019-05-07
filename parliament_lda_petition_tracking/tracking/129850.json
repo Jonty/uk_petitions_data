@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548706/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548706/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548706/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548706/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548706/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.994Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548706",
+                    "label": {
+                        "_value": "Tougher consequences for Domestic Abuse including mental and financial abuse."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548706",
+                    "label": {
+                        "_value": "Tougher consequences for Domestic Abuse including mental and financial abuse."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/596704",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T19:13:51.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548706",
+                    "label": {
+                        "_value": "Tougher consequences for Domestic Abuse including mental and financial abuse."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T13:50:36.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548706",
+                    "label": {
+                        "_value": "Tougher consequences for Domestic Abuse including mental and financial abuse."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566096",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T14:04:56.166Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548706",
+                    "label": {
+                        "_value": "Tougher consequences for Domestic Abuse including mental and financial abuse."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548707",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548706",
+                    "label": {
+                        "_value": "Tougher consequences for Domestic Abuse including mental and financial abuse."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

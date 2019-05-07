@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550910/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550910/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550910/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550910/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550910/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:30:45.405Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550910",
+                    "label": {
+                        "_value": "Receiving Carers Allowance should not affect other benefits or taxes"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T11:38:48.306Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550910",
+                    "label": {
+                        "_value": "Receiving Carers Allowance should not affect other benefits or taxes"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:32:00.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550910",
+                    "label": {
+                        "_value": "Receiving Carers Allowance should not affect other benefits or taxes"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T00:07:25.179Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550910",
+                    "label": {
+                        "_value": "Receiving Carers Allowance should not affect other benefits or taxes"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550911",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550910",
+                    "label": {
+                        "_value": "Receiving Carers Allowance should not affect other benefits or taxes"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

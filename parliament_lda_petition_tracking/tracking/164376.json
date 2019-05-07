@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558011/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558011/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558011/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558011/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558011/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:31.224Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558011",
+                    "label": {
+                        "_value": "We want to make a change to the government cuts towards disabled people."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640151",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T15:31:59.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558011",
+                    "label": {
+                        "_value": "We want to make a change to the government cuts towards disabled people."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599262",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:14:22.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558011",
+                    "label": {
+                        "_value": "We want to make a change to the government cuts towards disabled people."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570980",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T12:31:52.298Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558011",
+                    "label": {
+                        "_value": "We want to make a change to the government cuts towards disabled people."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559826",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T23:03:16.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558011",
+                    "label": {
+                        "_value": "We want to make a change to the government cuts towards disabled people."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558012",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T20:04:17.402Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558011",
+                    "label": {
+                        "_value": "We want to make a change to the government cuts towards disabled people."
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

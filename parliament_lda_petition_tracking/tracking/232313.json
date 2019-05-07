@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1007649/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1007649/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1007649/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1007649/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1007649/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:57:05.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007649",
+                    "label": {
+                        "_value": "UK to sign the United Nations Convention on Migrants\u2019 Rights"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1024545",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-12T10:35:38.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007649",
+                    "label": {
+                        "_value": "UK to sign the United Nations Convention on Migrants\u2019 Rights"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1014977",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-26T17:46:51.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007649",
+                    "label": {
+                        "_value": "UK to sign the United Nations Convention on Migrants\u2019 Rights"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T11:38:25.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007649",
+                    "label": {
+                        "_value": "UK to sign the United Nations Convention on Migrants\u2019 Rights"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1007650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T17:12:30.473Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1007649",
+                    "label": {
+                        "_value": "UK to sign the United Nations Convention on Migrants\u2019 Rights"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

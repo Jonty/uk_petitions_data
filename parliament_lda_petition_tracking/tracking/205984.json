@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/811666/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/811666/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/811666/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/811666/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/811666/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/930278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-22T23:00:01.734Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811666",
+                    "label": {
+                        "_value": "Council Right To Build"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T13:14:25.641Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811666",
+                    "label": {
+                        "_value": "Council Right To Build"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/832160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-27T10:08:46.086Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811666",
+                    "label": {
+                        "_value": "Council Right To Build"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/818547",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-07T22:09:04.610Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811666",
+                    "label": {
+                        "_value": "Council Right To Build"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/814277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-31T19:36:30.963Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811666",
+                    "label": {
+                        "_value": "Council Right To Build"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/811667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-22T21:33:13.998Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811666",
+                    "label": {
+                        "_value": "Council Right To Build"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

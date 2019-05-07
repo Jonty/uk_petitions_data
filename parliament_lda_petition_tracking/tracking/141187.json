@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549497/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549497/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549497/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549497/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549497/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:34:51.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549497",
+                    "label": {
+                        "_value": "Petition for a referendum to decide on a 2nd British referendum on EU membership"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:46:50.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549497",
+                    "label": {
+                        "_value": "Petition for a referendum to decide on a 2nd British referendum on EU membership"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T20:08:44.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549497",
+                    "label": {
+                        "_value": "Petition for a referendum to decide on a 2nd British referendum on EU membership"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

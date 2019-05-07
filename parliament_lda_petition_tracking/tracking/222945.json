@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/937416/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/937416/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/937416/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/937416/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/937416/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1039523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-10T00:00:00.299Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937416",
+                    "label": {
+                        "_value": "Abolish International Student Fees and Finance Ineligibility for UK Citizens"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-18T15:44:09.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937416",
+                    "label": {
+                        "_value": "Abolish International Student Fees and Finance Ineligibility for UK Citizens"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/967715",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-04T15:50:55.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937416",
+                    "label": {
+                        "_value": "Abolish International Student Fees and Finance Ineligibility for UK Citizens"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-31T15:59:46.818Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937416",
+                    "label": {
+                        "_value": "Abolish International Student Fees and Finance Ineligibility for UK Citizens"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951742",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-02T15:56:14.317Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937416",
+                    "label": {
+                        "_value": "Abolish International Student Fees and Finance Ineligibility for UK Citizens"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/937417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-09T20:08:40.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/937416",
+                    "label": {
+                        "_value": "Abolish International Student Fees and Finance Ineligibility for UK Citizens"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/953161/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/953161/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/953161/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/953161/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/953161/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1057651",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-07T00:00:09.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953161",
+                    "label": {
+                        "_value": "Ban the riding of bicycles while walking dogs."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044124",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-18T16:07:14.830Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953161",
+                    "label": {
+                        "_value": "Ban the riding of bicycles while walking dogs."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-06T12:57:30.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953161",
+                    "label": {
+                        "_value": "Ban the riding of bicycles while walking dogs."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T12:03:35.436Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953161",
+                    "label": {
+                        "_value": "Ban the riding of bicycles while walking dogs."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/953162",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T10:13:55.182Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/953161",
+                    "label": {
+                        "_value": "Ban the riding of bicycles while walking dogs."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

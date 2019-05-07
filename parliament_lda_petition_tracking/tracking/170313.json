@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/625739/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/625739/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/625739/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/625739/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/625739/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-30T23:00:03.834Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625739",
+                    "label": {
+                        "_value": "Consider a second runway for Gatwick"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T08:13:14.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625739",
+                    "label": {
+                        "_value": "Consider a second runway for Gatwick"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630455",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:14:35.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625739",
+                    "label": {
+                        "_value": "Consider a second runway for Gatwick"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T19:31:41.591Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625739",
+                    "label": {
+                        "_value": "Consider a second runway for Gatwick"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T15:05:08.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/625739",
+                    "label": {
+                        "_value": "Consider a second runway for Gatwick"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/851367/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/851367/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/851367/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/851367/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/851367/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/962102",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-27T23:00:00.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851367",
+                    "label": {
+                        "_value": "HMG to advise Her Majesty to remove \u201cRoyal\u201d from Borough of Kensington & Chelsea"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-28T07:13:21.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851367",
+                    "label": {
+                        "_value": "HMG to advise Her Majesty to remove \u201cRoyal\u201d from Borough of Kensington & Chelsea"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T14:02:21.490Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851367",
+                    "label": {
+                        "_value": "HMG to advise Her Majesty to remove \u201cRoyal\u201d from Borough of Kensington & Chelsea"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914679",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-31T11:59:31.662Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851367",
+                    "label": {
+                        "_value": "HMG to advise Her Majesty to remove \u201cRoyal\u201d from Borough of Kensington & Chelsea"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852423",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T20:59:26.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851367",
+                    "label": {
+                        "_value": "HMG to advise Her Majesty to remove \u201cRoyal\u201d from Borough of Kensington & Chelsea"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/851368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-27T16:23:52.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/851367",
+                    "label": {
+                        "_value": "HMG to advise Her Majesty to remove \u201cRoyal\u201d from Borough of Kensington & Chelsea"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

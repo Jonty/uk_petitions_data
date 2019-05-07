@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/584761/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/584761/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/584761/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/584761/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/584761/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/653259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T21:11:32.535Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584761",
+                    "label": {
+                        "_value": "Increase wage for qualified level 3 nursery assistants and early years educators"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T20:53:35.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584761",
+                    "label": {
+                        "_value": "Increase wage for qualified level 3 nursery assistants and early years educators"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:04:47.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584761",
+                    "label": {
+                        "_value": "Increase wage for qualified level 3 nursery assistants and early years educators"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T16:24:04.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/584761",
+                    "label": {
+                        "_value": "Increase wage for qualified level 3 nursery assistants and early years educators"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

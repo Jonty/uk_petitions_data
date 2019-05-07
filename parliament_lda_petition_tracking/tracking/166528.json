@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/583728/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/583728/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/583728/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/583728/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/583728/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/606501",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T12:40:02.352Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583728",
+                    "label": {
+                        "_value": "Making it easier for adults to be diagnosed with autism"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T09:27:25.921Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583728",
+                    "label": {
+                        "_value": "Making it easier for adults to be diagnosed with autism"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584734",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T16:38:57.540Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583728",
+                    "label": {
+                        "_value": "Making it easier for adults to be diagnosed with autism"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583729",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T15:31:18.321Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583728",
+                    "label": {
+                        "_value": "Making it easier for adults to be diagnosed with autism"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

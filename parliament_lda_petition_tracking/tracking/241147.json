@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1076045/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1076045/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1076045/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1076045/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1076045/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107362",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:11.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076045",
+                    "label": {
+                        "_value": "Make it optional to leave education at the age of 16."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078200",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T15:49:30.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076045",
+                    "label": {
+                        "_value": "Make it optional to leave education at the age of 16."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-21T08:41:13.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076045",
+                    "label": {
+                        "_value": "Make it optional to leave education at the age of 16."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

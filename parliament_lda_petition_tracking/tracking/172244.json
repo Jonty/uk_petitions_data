@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640114/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640114/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640114/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640114/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640114/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734264",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640114",
+                    "label": {
+                        "_value": "Fully regulate Counselling and Psychotherapy, to properly protect the public."
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T20:00:29.138Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640114",
+                    "label": {
+                        "_value": "Fully regulate Counselling and Psychotherapy, to properly protect the public."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646249",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T13:25:28.102Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640114",
+                    "label": {
+                        "_value": "Fully regulate Counselling and Psychotherapy, to properly protect the public."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T16:00:40.849Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640114",
+                    "label": {
+                        "_value": "Fully regulate Counselling and Psychotherapy, to properly protect the public."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T19:39:29.967Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640114",
+                    "label": {
+                        "_value": "Fully regulate Counselling and Psychotherapy, to properly protect the public."
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

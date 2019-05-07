@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/918224/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/918224/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/918224/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/918224/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/918224/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1021577",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T00:00:03.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/918224",
+                    "label": {
+                        "_value": "Do not ban 'cartoon characters' from 'unhealthy foods'."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991728",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T20:02:40.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/918224",
+                    "label": {
+                        "_value": "Do not ban 'cartoon characters' from 'unhealthy foods'."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T18:19:22.957Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/918224",
+                    "label": {
+                        "_value": "Do not ban 'cartoon characters' from 'unhealthy foods'."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-06T11:32:09.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/918224",
+                    "label": {
+                        "_value": "Do not ban 'cartoon characters' from 'unhealthy foods'."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/918225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-04T21:06:44.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/918224",
+                    "label": {
+                        "_value": "Do not ban 'cartoon characters' from 'unhealthy foods'."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1043674/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1043674/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1043674/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1043674/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1043674/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:11.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043674",
+                    "label": {
+                        "_value": "Raise awareness of possible depo provera injection side effects"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T12:16:11.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043674",
+                    "label": {
+                        "_value": "Raise awareness of possible depo provera injection side effects"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-23T21:39:55.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043674",
+                    "label": {
+                        "_value": "Raise awareness of possible depo provera injection side effects"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044909",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-20T16:24:24.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043674",
+                    "label": {
+                        "_value": "Raise awareness of possible depo provera injection side effects"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1043675",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T10:59:32.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1043674",
+                    "label": {
+                        "_value": "Raise awareness of possible depo provera injection side effects"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

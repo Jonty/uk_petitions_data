@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549219/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549219/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549219/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549219/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549219/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/655575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-07T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549219",
+                    "label": {
+                        "_value": "Close all remaining 'City' zoo's."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T19:34:24.933Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549219",
+                    "label": {
+                        "_value": "Close all remaining 'City' zoo's."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602588",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T17:11:31.718Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549219",
+                    "label": {
+                        "_value": "Close all remaining 'City' zoo's."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569312",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T13:51:35.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549219",
+                    "label": {
+                        "_value": "Close all remaining 'City' zoo's."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549220",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T20:34:47.701Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549219",
+                    "label": {
+                        "_value": "Close all remaining 'City' zoo's."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

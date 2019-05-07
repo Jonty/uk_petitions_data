@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463375/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463375/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463375/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463375/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463375/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733837",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463375",
+                    "label": {
+                        "_value": "The UK Honours system is falling into disrepute through misuse and needs review."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543605",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463375",
+                    "label": {
+                        "_value": "The UK Honours system is falling into disrepute through misuse and needs review."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509746",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T10:49:39.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463375",
+                    "label": {
+                        "_value": "The UK Honours system is falling into disrepute through misuse and needs review."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T17:00:31.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463375",
+                    "label": {
+                        "_value": "The UK Honours system is falling into disrepute through misuse and needs review."
+                    }
+                },
+                "numberOfSignatures": 51
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

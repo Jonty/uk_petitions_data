@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552218/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552218/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552218/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552218/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552218/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630631",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T19:39:19.121Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552218",
+                    "label": {
+                        "_value": "Independence For The South West Of England Creating The Kingdom Of Wessex."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T23:53:38.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552218",
+                    "label": {
+                        "_value": "Independence For The South West Of England Creating The Kingdom Of Wessex."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575073",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-02T22:20:18.296Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552218",
+                    "label": {
+                        "_value": "Independence For The South West Of England Creating The Kingdom Of Wessex."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552219",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T17:24:03.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552218",
+                    "label": {
+                        "_value": "Independence For The South West Of England Creating The Kingdom Of Wessex."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

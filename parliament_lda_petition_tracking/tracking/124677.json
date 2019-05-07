@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/480543/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/480543/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/480543/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/480543/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/480543/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/586430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480543",
+                    "label": {
+                        "_value": "Confiscate the mobile phones of drivers caught using one whilst driving."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585411",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T08:48:44.719Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480543",
+                    "label": {
+                        "_value": "Confiscate the mobile phones of drivers caught using one whilst driving."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480543",
+                    "label": {
+                        "_value": "Confiscate the mobile phones of drivers caught using one whilst driving."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:18:05.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480543",
+                    "label": {
+                        "_value": "Confiscate the mobile phones of drivers caught using one whilst driving."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T17:12:41.269Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/480543",
+                    "label": {
+                        "_value": "Confiscate the mobile phones of drivers caught using one whilst driving."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

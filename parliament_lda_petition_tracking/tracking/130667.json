@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550007/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550007/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550007/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550007/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550007/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550007",
+                    "label": {
+                        "_value": "Require all computer operating systems have up/down scroll bar arrows."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-26T00:45:50.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550007",
+                    "label": {
+                        "_value": "Require all computer operating systems have up/down scroll bar arrows."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580116",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T08:39:19.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550007",
+                    "label": {
+                        "_value": "Require all computer operating systems have up/down scroll bar arrows."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566124",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T23:53:00.982Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550007",
+                    "label": {
+                        "_value": "Require all computer operating systems have up/down scroll bar arrows."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550008",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T07:01:56.067Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550007",
+                    "label": {
+                        "_value": "Require all computer operating systems have up/down scroll bar arrows."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

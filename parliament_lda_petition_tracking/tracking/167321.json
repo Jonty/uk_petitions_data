@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/587967/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/587967/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/587967/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/587967/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/587967/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633963",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T19:41:58.593Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587967",
+                    "label": {
+                        "_value": "Introduce a mandatory one month driving ban, for mobile phone use whilst driving"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T19:16:47.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587967",
+                    "label": {
+                        "_value": "Introduce a mandatory one month driving ban, for mobile phone use whilst driving"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588490",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T21:58:36.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587967",
+                    "label": {
+                        "_value": "Introduce a mandatory one month driving ban, for mobile phone use whilst driving"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T15:23:34.353Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/587967",
+                    "label": {
+                        "_value": "Introduce a mandatory one month driving ban, for mobile phone use whilst driving"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465551/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465551/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465551/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465551/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465551/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/559893",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465551",
+                    "label": {
+                        "_value": "Make law/part of MOT high viz vests first aid kit and fire extinguisher in cars."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549716",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465551",
+                    "label": {
+                        "_value": "Make law/part of MOT high viz vests first aid kit and fire extinguisher in cars."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:57:31.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465551",
+                    "label": {
+                        "_value": "Make law/part of MOT high viz vests first aid kit and fire extinguisher in cars."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488688",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T18:09:22.521Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465551",
+                    "label": {
+                        "_value": "Make law/part of MOT high viz vests first aid kit and fire extinguisher in cars."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465552",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T11:32:45.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465551",
+                    "label": {
+                        "_value": "Make law/part of MOT high viz vests first aid kit and fire extinguisher in cars."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

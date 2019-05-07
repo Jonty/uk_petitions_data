@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461835/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461835/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461835/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461835/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461835/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728141",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:05.374Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461835",
+                    "label": {
+                        "_value": "The UK should send food relief to Madaya, a town besieged since July 2015"
+                    }
+                },
+                "numberOfSignatures": 226
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538164",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461835",
+                    "label": {
+                        "_value": "The UK should send food relief to Madaya, a town besieged since July 2015"
+                    }
+                },
+                "numberOfSignatures": 226
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527547",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-28T17:32:50.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461835",
+                    "label": {
+                        "_value": "The UK should send food relief to Madaya, a town besieged since July 2015"
+                    }
+                },
+                "numberOfSignatures": 226
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:36:56.594Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461835",
+                    "label": {
+                        "_value": "The UK should send food relief to Madaya, a town besieged since July 2015"
+                    }
+                },
+                "numberOfSignatures": 225
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

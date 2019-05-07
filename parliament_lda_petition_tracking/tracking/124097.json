@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552307/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552307/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552307/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552307/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552307/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640467",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T09:48:42.184Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552307",
+                    "label": {
+                        "_value": "Allow EU citizens on the UK electoral register for 5 years a vote in referendum."
+                    }
+                },
+                "numberOfSignatures": 6
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T16:35:51.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552307",
+                    "label": {
+                        "_value": "Allow EU citizens on the UK electoral register for 5 years a vote in referendum."
+                    }
+                },
+                "numberOfSignatures": 5
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-02T13:42:01.183Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552307",
+                    "label": {
+                        "_value": "Allow EU citizens on the UK electoral register for 5 years a vote in referendum."
+                    }
+                },
+                "numberOfSignatures": 4
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

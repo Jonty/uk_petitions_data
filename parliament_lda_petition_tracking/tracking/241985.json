@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1079179/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1079179/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1079179/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1079179/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1079179/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-30T00:28:53.439Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079179",
+                    "label": {
+                        "_value": "Raise awareness of the problems climate change poses"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T13:31:02.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079179",
+                    "label": {
+                        "_value": "Raise awareness of the problems climate change poses"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080597",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T12:00:19.731Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079179",
+                    "label": {
+                        "_value": "Raise awareness of the problems climate change poses"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080101",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T13:38:49.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079179",
+                    "label": {
+                        "_value": "Raise awareness of the problems climate change poses"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T20:49:57.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079179",
+                    "label": {
+                        "_value": "Raise awareness of the problems climate change poses"
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977073/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977073/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977073/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977073/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977073/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1093389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T00:00:06.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977073",
+                    "label": {
+                        "_value": "Require all dog breeders to keep a correct record of Dogs chipped and sold on."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T21:30:55.200Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977073",
+                    "label": {
+                        "_value": "Require all dog breeders to keep a correct record of Dogs chipped and sold on."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-09T13:13:40.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977073",
+                    "label": {
+                        "_value": "Require all dog breeders to keep a correct record of Dogs chipped and sold on."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T19:53:47.731Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977073",
+                    "label": {
+                        "_value": "Require all dog breeders to keep a correct record of Dogs chipped and sold on."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001887",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T00:13:44.696Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977073",
+                    "label": {
+                        "_value": "Require all dog breeders to keep a correct record of Dogs chipped and sold on."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-20T16:10:11.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977073",
+                    "label": {
+                        "_value": "Require all dog breeders to keep a correct record of Dogs chipped and sold on."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

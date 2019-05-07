@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462222/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462222/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462222/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462222/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462222/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.215Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462222",
+                    "label": {
+                        "_value": "Stop the creation of additional peers to deliberately constrain the Hse of Lords"
+                    }
+                },
+                "numberOfSignatures": 154
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538450",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462222",
+                    "label": {
+                        "_value": "Stop the creation of additional peers to deliberately constrain the Hse of Lords"
+                    }
+                },
+                "numberOfSignatures": 154
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527729",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-02T00:00:08.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462222",
+                    "label": {
+                        "_value": "Stop the creation of additional peers to deliberately constrain the Hse of Lords"
+                    }
+                },
+                "numberOfSignatures": 154
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T10:51:29.973Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462222",
+                    "label": {
+                        "_value": "Stop the creation of additional peers to deliberately constrain the Hse of Lords"
+                    }
+                },
+                "numberOfSignatures": 153
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T11:22:24.628Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462222",
+                    "label": {
+                        "_value": "Stop the creation of additional peers to deliberately constrain the Hse of Lords"
+                    }
+                },
+                "numberOfSignatures": 152
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

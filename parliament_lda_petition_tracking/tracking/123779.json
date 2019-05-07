@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466953/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466953/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466953/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466953/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466953/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/579347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466953",
+                    "label": {
+                        "_value": "Britain must evacuate all children from the refugee camps in Northern France."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T19:38:59.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466953",
+                    "label": {
+                        "_value": "Britain must evacuate all children from the refugee camps in Northern France."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T22:03:00.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466953",
+                    "label": {
+                        "_value": "Britain must evacuate all children from the refugee camps in Northern France."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T12:38:15.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466953",
+                    "label": {
+                        "_value": "Britain must evacuate all children from the refugee camps in Northern France."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

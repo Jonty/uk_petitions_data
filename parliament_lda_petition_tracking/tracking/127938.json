@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548512/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548512/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548512/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548512/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548512/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.191Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548512",
+                    "label": {
+                        "_value": "Increase drink driving ban from a minimum of 12 months to a minimum of 24 months"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548512",
+                    "label": {
+                        "_value": "Increase drink driving ban from a minimum of 12 months to a minimum of 24 months"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T09:16:21.609Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548512",
+                    "label": {
+                        "_value": "Increase drink driving ban from a minimum of 12 months to a minimum of 24 months"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548513",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:33:53.086Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548512",
+                    "label": {
+                        "_value": "Increase drink driving ban from a minimum of 12 months to a minimum of 24 months"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/936312/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/936312/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/936312/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/936312/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/936312/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1035671",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-04T00:00:06.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936312",
+                    "label": {
+                        "_value": "6 points on the persons driving licence if caught leaving a dog in a hot car"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1011183",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-20T19:29:21.317Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936312",
+                    "label": {
+                        "_value": "6 points on the persons driving licence if caught leaving a dog in a hot car"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-01T13:36:42.156Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936312",
+                    "label": {
+                        "_value": "6 points on the persons driving licence if caught leaving a dog in a hot car"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/937375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-09T16:11:03.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936312",
+                    "label": {
+                        "_value": "6 points on the persons driving licence if caught leaving a dog in a hot car"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-08T08:27:26.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936312",
+                    "label": {
+                        "_value": "6 points on the persons driving licence if caught leaving a dog in a hot car"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T14:46:24.425Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936312",
+                    "label": {
+                        "_value": "6 points on the persons driving licence if caught leaving a dog in a hot car"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

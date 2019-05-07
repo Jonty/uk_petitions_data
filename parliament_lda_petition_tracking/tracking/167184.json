@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/585405/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/585405/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/585405/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/585405/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/585405/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/593352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-03T11:53:38.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/585405",
+                    "label": {
+                        "_value": "Review extra funding for m60 ring road and m56 and other adjoining motorways"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T18:33:12.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/585405",
+                    "label": {
+                        "_value": "Review extra funding for m60 ring road and m56 and other adjoining motorways"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T20:57:49.855Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/585405",
+                    "label": {
+                        "_value": "Review extra funding for m60 ring road and m56 and other adjoining motorways"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T08:59:56.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/585405",
+                    "label": {
+                        "_value": "Review extra funding for m60 ring road and m56 and other adjoining motorways"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585935",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-17T18:46:15.182Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/585405",
+                    "label": {
+                        "_value": "Review extra funding for m60 ring road and m56 and other adjoining motorways"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T21:43:37.336Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/585405",
+                    "label": {
+                        "_value": "Review extra funding for m60 ring road and m56 and other adjoining motorways"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

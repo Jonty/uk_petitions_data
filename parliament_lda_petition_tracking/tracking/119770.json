@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466347/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466347/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466347/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466347/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466347/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550051",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466347",
+                    "label": {
+                        "_value": "Reduce the number of unnecessary traffic lights and speed cameras"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T11:06:03.820Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466347",
+                    "label": {
+                        "_value": "Reduce the number of unnecessary traffic lights and speed cameras"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T05:18:06.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466347",
+                    "label": {
+                        "_value": "Reduce the number of unnecessary traffic lights and speed cameras"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:03.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466347",
+                    "label": {
+                        "_value": "Reduce the number of unnecessary traffic lights and speed cameras"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

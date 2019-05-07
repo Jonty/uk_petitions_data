@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548068/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548068/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548068/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548068/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548068/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:19.058Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548068",
+                    "label": {
+                        "_value": "Make edible ring holders compulsory for the protection of marine and wildlife."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645625",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548068",
+                    "label": {
+                        "_value": "Make edible ring holders compulsory for the protection of marine and wildlife."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T10:01:56.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548068",
+                    "label": {
+                        "_value": "Make edible ring holders compulsory for the protection of marine and wildlife."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T13:49:26.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548068",
+                    "label": {
+                        "_value": "Make edible ring holders compulsory for the protection of marine and wildlife."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548069",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T03:33:17.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548068",
+                    "label": {
+                        "_value": "Make edible ring holders compulsory for the protection of marine and wildlife."
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

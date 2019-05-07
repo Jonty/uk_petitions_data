@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106641/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106641/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106641/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106641/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106641/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108441",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-30T21:38:38.837Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106641",
+                    "label": {
+                        "_value": "Leave EU by April 12th 2019 with deal or no deal."
+                    }
+                },
+                "numberOfSignatures": 20943
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1107966",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T22:23:07.072Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106641",
+                    "label": {
+                        "_value": "Leave EU by April 12th 2019 with deal or no deal."
+                    }
+                },
+                "numberOfSignatures": 5906
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106642",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T01:32:05.115Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106641",
+                    "label": {
+                        "_value": "Leave EU by April 12th 2019 with deal or no deal."
+                    }
+                },
+                "numberOfSignatures": 169
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462681/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462681/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462681/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462681/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462681/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462681",
+                    "label": {
+                        "_value": "Make prescriptions free for all university students."
+                    }
+                },
+                "numberOfSignatures": 96
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538837",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462681",
+                    "label": {
+                        "_value": "Make prescriptions free for all university students."
+                    }
+                },
+                "numberOfSignatures": 96
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T00:00:07.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462681",
+                    "label": {
+                        "_value": "Make prescriptions free for all university students."
+                    }
+                },
+                "numberOfSignatures": 96
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T13:28:20.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462681",
+                    "label": {
+                        "_value": "Make prescriptions free for all university students."
+                    }
+                },
+                "numberOfSignatures": 96
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489250",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T15:01:04.234Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462681",
+                    "label": {
+                        "_value": "Make prescriptions free for all university students."
+                    }
+                },
+                "numberOfSignatures": 95
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462682",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T17:29:31.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462681",
+                    "label": {
+                        "_value": "Make prescriptions free for all university students."
+                    }
+                },
+                "numberOfSignatures": 94
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

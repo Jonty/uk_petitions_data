@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465793/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465793/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465793/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465793/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465793/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465793",
+                    "label": {
+                        "_value": "Hold a referendum to move the Houses of Parliament out of London permanently."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T12:20:27.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465793",
+                    "label": {
+                        "_value": "Hold a referendum to move the Houses of Parliament out of London permanently."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T15:21:32.839Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465793",
+                    "label": {
+                        "_value": "Hold a referendum to move the Houses of Parliament out of London permanently."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:08.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465793",
+                    "label": {
+                        "_value": "Hold a referendum to move the Houses of Parliament out of London permanently."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

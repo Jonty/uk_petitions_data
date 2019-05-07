@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/808727/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/808727/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/808727/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/808727/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/808727/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/927619",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-18T23:00:04.290Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808727",
+                    "label": {
+                        "_value": "Exempt Charities from paying Insurance Premium Tax (IPT)"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/865057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-15T10:38:55.879Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808727",
+                    "label": {
+                        "_value": "Exempt Charities from paying Insurance Premium Tax (IPT)"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846594",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T15:59:41.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808727",
+                    "label": {
+                        "_value": "Exempt Charities from paying Insurance Premium Tax (IPT)"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/844640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-19T17:44:59.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808727",
+                    "label": {
+                        "_value": "Exempt Charities from paying Insurance Premium Tax (IPT)"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/808728",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-18T18:10:03.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/808727",
+                    "label": {
+                        "_value": "Exempt Charities from paying Insurance Premium Tax (IPT)"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550175/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550175/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550175/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550175/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550175/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T07:21:25.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550175",
+                    "label": {
+                        "_value": "A law that restricts roadworks to 5 miles in any 30 mile stretch on a motorway."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572493",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:57:57.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550175",
+                    "label": {
+                        "_value": "A law that restricts roadworks to 5 miles in any 30 mile stretch on a motorway."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550176",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550175",
+                    "label": {
+                        "_value": "A law that restricts roadworks to 5 miles in any 30 mile stretch on a motorway."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

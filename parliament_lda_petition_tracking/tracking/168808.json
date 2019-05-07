@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/599254/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/599254/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/599254/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/599254/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/599254/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734993",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T23:00:00.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599254",
+                    "label": {
+                        "_value": "Scrap fees for renunciation of all types of British nationalities."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640130",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T16:27:06.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599254",
+                    "label": {
+                        "_value": "Scrap fees for renunciation of all types of British nationalities."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T10:09:27.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599254",
+                    "label": {
+                        "_value": "Scrap fees for renunciation of all types of British nationalities."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T14:00:31.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599254",
+                    "label": {
+                        "_value": "Scrap fees for renunciation of all types of British nationalities."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599255",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T12:17:19.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599254",
+                    "label": {
+                        "_value": "Scrap fees for renunciation of all types of British nationalities."
+                    }
+                },
+                "numberOfSignatures": 29
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

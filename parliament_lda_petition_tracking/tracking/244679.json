@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1089390/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1089390/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1089390/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1089390/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1089390/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.461Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089390",
+                    "label": {
+                        "_value": "Put Fencing on the GCSE PE Syllabus as a sport option."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T08:21:00.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089390",
+                    "label": {
+                        "_value": "Put Fencing on the GCSE PE Syllabus as a sport option."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-14T14:35:13.102Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1089390",
+                    "label": {
+                        "_value": "Put Fencing on the GCSE PE Syllabus as a sport option."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/628816/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/628816/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/628816/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/628816/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/628816/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727555",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:07.497Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628816",
+                    "label": {
+                        "_value": "Change the Postal Voting System"
+                    }
+                },
+                "numberOfSignatures": 374
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666244",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T00:21:03.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628816",
+                    "label": {
+                        "_value": "Change the Postal Voting System"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T07:37:42.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628816",
+                    "label": {
+                        "_value": "Change the Postal Voting System"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T23:26:16.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628816",
+                    "label": {
+                        "_value": "Change the Postal Voting System"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T20:29:05.482Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628816",
+                    "label": {
+                        "_value": "Change the Postal Voting System"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

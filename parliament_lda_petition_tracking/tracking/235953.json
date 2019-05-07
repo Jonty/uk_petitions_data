@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1037770/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1037770/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1037770/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1037770/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1037770/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107547",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:12.302Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1037770",
+                    "label": {
+                        "_value": "Move the British embassy in Israel to Jerusalem"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-26T20:39:19.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1037770",
+                    "label": {
+                        "_value": "Move the British embassy in Israel to Jerusalem"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1045418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-21T08:55:59.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1037770",
+                    "label": {
+                        "_value": "Move the British embassy in Israel to Jerusalem"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1044902",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-20T16:28:36.972Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1037770",
+                    "label": {
+                        "_value": "Move the British embassy in Israel to Jerusalem"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038841",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T20:59:36.633Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1037770",
+                    "label": {
+                        "_value": "Move the British embassy in Israel to Jerusalem"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1037771",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-08T11:02:12.906Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1037770",
+                    "label": {
+                        "_value": "Move the British embassy in Israel to Jerusalem"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

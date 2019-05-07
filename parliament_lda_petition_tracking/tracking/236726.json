@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1042181/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1042181/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1042181/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1042181/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1042181/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107657",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T12:02:55.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042181",
+                    "label": {
+                        "_value": "Ban the sale of 7.5% Cheap White Cider which is highly addictive and deadly!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:31:53.031Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042181",
+                    "label": {
+                        "_value": "Ban the sale of 7.5% Cheap White Cider which is highly addictive and deadly!"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T16:35:00.873Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042181",
+                    "label": {
+                        "_value": "Ban the sale of 7.5% Cheap White Cider which is highly addictive and deadly!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1042182",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-15T18:11:43.531Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042181",
+                    "label": {
+                        "_value": "Ban the sale of 7.5% Cheap White Cider which is highly addictive and deadly!"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

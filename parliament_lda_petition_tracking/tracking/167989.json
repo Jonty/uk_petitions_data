@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/594381/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/594381/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/594381/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/594381/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/594381/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T23:00:01.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594381",
+                    "label": {
+                        "_value": "Tax on Premier League transfers to install and maintain free to use 4G pitches."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640118",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-16T10:15:58.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594381",
+                    "label": {
+                        "_value": "Tax on Premier League transfers to install and maintain free to use 4G pitches."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595263",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T20:34:32.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594381",
+                    "label": {
+                        "_value": "Tax on Premier League transfers to install and maintain free to use 4G pitches."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T21:45:49.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594381",
+                    "label": {
+                        "_value": "Tax on Premier League transfers to install and maintain free to use 4G pitches."
+                    }
+                },
+                "numberOfSignatures": 28
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

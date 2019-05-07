@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1009063/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1009063/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1009063/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1009063/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1009063/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107321",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:32:18.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009063",
+                    "label": {
+                        "_value": "Ease the employment restrictions on asylum seekers."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1029033",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-19T07:34:32.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009063",
+                    "label": {
+                        "_value": "Ease the employment restrictions on asylum seekers."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1012076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-21T15:27:23.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009063",
+                    "label": {
+                        "_value": "Ease the employment restrictions on asylum seekers."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009064",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:18:11.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1009063",
+                    "label": {
+                        "_value": "Ease the employment restrictions on asylum seekers."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

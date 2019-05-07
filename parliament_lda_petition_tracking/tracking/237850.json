@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1052035/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1052035/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1052035/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1052035/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1052035/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T04:05:22.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052035",
+                    "label": {
+                        "_value": "Make it Law for all Nursing / Care Homes to store a Defribrillator (AED)"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053908",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-03T20:06:40.975Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052035",
+                    "label": {
+                        "_value": "Make it Law for all Nursing / Care Homes to store a Defribrillator (AED)"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T20:36:18.379Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052035",
+                    "label": {
+                        "_value": "Make it Law for all Nursing / Care Homes to store a Defribrillator (AED)"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1052036",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-30T21:42:40.257Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052035",
+                    "label": {
+                        "_value": "Make it Law for all Nursing / Care Homes to store a Defribrillator (AED)"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

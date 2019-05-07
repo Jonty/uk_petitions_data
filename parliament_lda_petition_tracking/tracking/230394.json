@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/995428/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/995428/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/995428/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/995428/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/995428/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107561",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:10.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995428",
+                    "label": {
+                        "_value": "Consider funding a northern bypass for Ipswich."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1017018",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-28T01:21:01.083Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995428",
+                    "label": {
+                        "_value": "Consider funding a northern bypass for Ipswich."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T21:53:43.405Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995428",
+                    "label": {
+                        "_value": "Consider funding a northern bypass for Ipswich."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995429",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T13:32:30.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995428",
+                    "label": {
+                        "_value": "Consider funding a northern bypass for Ipswich."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

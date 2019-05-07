@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933426/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933426/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933426/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933426/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933426/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-26T00:00:05.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933426",
+                    "label": {
+                        "_value": "Bring AS exams back and rid of A Level exams for the sake of youth mental health"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1024489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-12T18:50:10.481Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933426",
+                    "label": {
+                        "_value": "Bring AS exams back and rid of A Level exams for the sake of youth mental health"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T09:42:32.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933426",
+                    "label": {
+                        "_value": "Bring AS exams back and rid of A Level exams for the sake of youth mental health"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-17T23:13:20.717Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933426",
+                    "label": {
+                        "_value": "Bring AS exams back and rid of A Level exams for the sake of youth mental health"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/960001",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-23T13:29:14.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933426",
+                    "label": {
+                        "_value": "Bring AS exams back and rid of A Level exams for the sake of youth mental health"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-27T21:54:26.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933426",
+                    "label": {
+                        "_value": "Bring AS exams back and rid of A Level exams for the sake of youth mental health"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

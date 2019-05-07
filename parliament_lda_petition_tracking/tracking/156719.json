@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548887/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548887/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548887/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548887/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548887/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/558648",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T19:08:42.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548887",
+                    "label": {
+                        "_value": "Ban the use of \"committed suicide\" by public bodies or in any official context."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548888",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T23:41:52.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548887",
+                    "label": {
+                        "_value": "Ban the use of \"committed suicide\" by public bodies or in any official context."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

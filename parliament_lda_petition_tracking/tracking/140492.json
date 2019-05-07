@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547689/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547689/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547689/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547689/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547689/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734588",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.035Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547689",
+                    "label": {
+                        "_value": "All British expats in EU should have the Right To Vote in a Second Referendum"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T15:13:22.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547689",
+                    "label": {
+                        "_value": "All British expats in EU should have the Right To Vote in a Second Referendum"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547690",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T06:50:19.270Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547689",
+                    "label": {
+                        "_value": "All British expats in EU should have the Right To Vote in a Second Referendum"
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463081/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463081/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463081/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463081/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463081/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733328",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.838Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463081",
+                    "label": {
+                        "_value": "No Devolved Welsh Income Tax powers unless we have a Referendum."
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463081",
+                    "label": {
+                        "_value": "No Devolved Welsh Income Tax powers unless we have a Referendum."
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468691",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T13:39:59.597Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463081",
+                    "label": {
+                        "_value": "No Devolved Welsh Income Tax powers unless we have a Referendum."
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T19:04:05.426Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463081",
+                    "label": {
+                        "_value": "No Devolved Welsh Income Tax powers unless we have a Referendum."
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463082",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:33.587Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463081",
+                    "label": {
+                        "_value": "No Devolved Welsh Income Tax powers unless we have a Referendum."
+                    }
+                },
+                "numberOfSignatures": 65
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466331/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466331/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466331/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466331/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466331/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564952",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466331",
+                    "label": {
+                        "_value": "Free driving lessons for people on jobcentre plus benefits 17 to 24 to get a job"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T13:15:23.408Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466331",
+                    "label": {
+                        "_value": "Free driving lessons for people on jobcentre plus benefits 17 to 24 to get a job"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550044",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466331",
+                    "label": {
+                        "_value": "Free driving lessons for people on jobcentre plus benefits 17 to 24 to get a job"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T03:34:48.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466331",
+                    "label": {
+                        "_value": "Free driving lessons for people on jobcentre plus benefits 17 to 24 to get a job"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T00:21:10.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466331",
+                    "label": {
+                        "_value": "Free driving lessons for people on jobcentre plus benefits 17 to 24 to get a job"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

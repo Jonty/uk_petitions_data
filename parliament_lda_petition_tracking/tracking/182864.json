@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/691413/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/691413/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/691413/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/691413/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/691413/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:18.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691413",
+                    "label": {
+                        "_value": "Set a minimum wage of \u00a38.50 per hour for pubs and bars staff."
+                    }
+                },
+                "numberOfSignatures": 480
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-18T11:59:10.232Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691413",
+                    "label": {
+                        "_value": "Set a minimum wage of \u00a38.50 per hour for pubs and bars staff."
+                    }
+                },
+                "numberOfSignatures": 464
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

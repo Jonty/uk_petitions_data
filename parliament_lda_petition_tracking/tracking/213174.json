@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/849882/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/849882/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/849882/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/849882/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/849882/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/961587",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T23:00:03.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849882",
+                    "label": {
+                        "_value": "Legally enforce an opt-out solution for paper publications sent by organisations"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T15:37:57.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849882",
+                    "label": {
+                        "_value": "Legally enforce an opt-out solution for paper publications sent by organisations"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/893652",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-26T23:47:04.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849882",
+                    "label": {
+                        "_value": "Legally enforce an opt-out solution for paper publications sent by organisations"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/873391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-27T08:26:10.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849882",
+                    "label": {
+                        "_value": "Legally enforce an opt-out solution for paper publications sent by organisations"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T18:14:46.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849882",
+                    "label": {
+                        "_value": "Legally enforce an opt-out solution for paper publications sent by organisations"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

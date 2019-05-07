@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/884864/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/884864/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/884864/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/884864/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/884864/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/990115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T23:00:01.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884864",
+                    "label": {
+                        "_value": "Set out a date for the introduction of care home fees cap."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-27T17:59:24.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884864",
+                    "label": {
+                        "_value": "Set out a date for the introduction of care home fees cap."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-07T15:38:49.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884864",
+                    "label": {
+                        "_value": "Set out a date for the introduction of care home fees cap."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884865",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T09:29:15.103Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/884864",
+                    "label": {
+                        "_value": "Set out a date for the introduction of care home fees cap."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

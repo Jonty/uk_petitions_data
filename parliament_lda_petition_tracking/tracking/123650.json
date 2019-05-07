@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466957/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466957/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466957/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466957/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466957/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/579322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466957",
+                    "label": {
+                        "_value": "To implement a minimum wage for people under the age of 16."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572500",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:59:09.065Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466957",
+                    "label": {
+                        "_value": "To implement a minimum wage for people under the age of 16."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T21:20:10.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466957",
+                    "label": {
+                        "_value": "To implement a minimum wage for people under the age of 16."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550471",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T20:05:33.260Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466957",
+                    "label": {
+                        "_value": "To implement a minimum wage for people under the age of 16."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466958",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T12:34:50.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466957",
+                    "label": {
+                        "_value": "To implement a minimum wage for people under the age of 16."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/860524/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/860524/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/860524/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/860524/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/860524/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/973869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T23:00:08.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860524",
+                    "label": {
+                        "_value": "Ratify Kampala amendments, give ICC jurisdiction over UK for crime of aggression"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/961596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-27T15:26:37.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860524",
+                    "label": {
+                        "_value": "Ratify Kampala amendments, give ICC jurisdiction over UK for crime of aggression"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949416",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-23T19:05:20.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860524",
+                    "label": {
+                        "_value": "Ratify Kampala amendments, give ICC jurisdiction over UK for crime of aggression"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/928540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-19T22:20:14.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860524",
+                    "label": {
+                        "_value": "Ratify Kampala amendments, give ICC jurisdiction over UK for crime of aggression"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/860525",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-12T12:23:12.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860524",
+                    "label": {
+                        "_value": "Ratify Kampala amendments, give ICC jurisdiction over UK for crime of aggression"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

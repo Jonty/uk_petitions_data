@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655605/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655605/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655605/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655605/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655605/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.822Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655605",
+                    "label": {
+                        "_value": "Reform the law on the defence of Insanity to benefit the mentally ill"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-12T00:56:58.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655605",
+                    "label": {
+                        "_value": "Reform the law on the defence of Insanity to benefit the mentally ill"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T13:06:31.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655605",
+                    "label": {
+                        "_value": "Reform the law on the defence of Insanity to benefit the mentally ill"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

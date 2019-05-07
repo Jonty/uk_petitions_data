@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464009/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464009/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464009/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464009/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464009/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.147Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464009",
+                    "label": {
+                        "_value": "Raise child refugee safeguarding needs with European partner states"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554207",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464009",
+                    "label": {
+                        "_value": "Raise child refugee safeguarding needs with European partner states"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T15:36:24.190Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464009",
+                    "label": {
+                        "_value": "Raise child refugee safeguarding needs with European partner states"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464010",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T14:23:40.597Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464009",
+                    "label": {
+                        "_value": "Raise child refugee safeguarding needs with European partner states"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

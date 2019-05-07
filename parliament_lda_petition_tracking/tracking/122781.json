@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465769/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465769/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465769/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465769/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465769/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/569313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465769",
+                    "label": {
+                        "_value": "Allow 15-17 year olds who take an interest in the EU Referendum to vote."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-21T11:18:51.485Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465769",
+                    "label": {
+                        "_value": "Allow 15-17 year olds who take an interest in the EU Referendum to vote."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T19:58:19.679Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465769",
+                    "label": {
+                        "_value": "Allow 15-17 year olds who take an interest in the EU Referendum to vote."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T20:52:51.170Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465769",
+                    "label": {
+                        "_value": "Allow 15-17 year olds who take an interest in the EU Referendum to vote."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465770",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T17:03:13.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465769",
+                    "label": {
+                        "_value": "Allow 15-17 year olds who take an interest in the EU Referendum to vote."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

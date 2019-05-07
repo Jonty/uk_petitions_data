@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/905277/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/905277/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/905277/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/905277/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/905277/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1009021",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-16T00:00:02.948Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/905277",
+                    "label": {
+                        "_value": "Make it illegal for freeholders to receive insurance commission over 10%"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995403",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T22:12:36.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/905277",
+                    "label": {
+                        "_value": "Make it illegal for freeholders to receive insurance commission over 10%"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/912194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-25T19:22:50.558Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/905277",
+                    "label": {
+                        "_value": "Make it illegal for freeholders to receive insurance commission over 10%"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/905278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-15T11:39:04.166Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/905277",
+                    "label": {
+                        "_value": "Make it illegal for freeholders to receive insurance commission over 10%"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

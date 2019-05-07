@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/630541/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/630541/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/630541/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/630541/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/630541/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T09:25:04.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630541",
+                    "label": {
+                        "_value": "Ensure that fireworks remain unrestricted to the general public."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630542",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T22:34:47.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/630541",
+                    "label": {
+                        "_value": "Ensure that fireworks remain unrestricted to the general public."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

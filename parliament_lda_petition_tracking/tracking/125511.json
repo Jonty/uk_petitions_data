@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/486920/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/486920/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/486920/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/486920/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/486920/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-24T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486920",
+                    "label": {
+                        "_value": "allow kids out of school for ten days per school year for holidays"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T19:27:27.514Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486920",
+                    "label": {
+                        "_value": "allow kids out of school for ten days per school year for holidays"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T13:48:09.490Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486920",
+                    "label": {
+                        "_value": "allow kids out of school for ten days per school year for holidays"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T23:27:51.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486920",
+                    "label": {
+                        "_value": "allow kids out of school for ten days per school year for holidays"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:52:07.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486920",
+                    "label": {
+                        "_value": "allow kids out of school for ten days per school year for holidays"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T21:44:59.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/486920",
+                    "label": {
+                        "_value": "allow kids out of school for ten days per school year for holidays"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

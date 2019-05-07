@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549159/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549159/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549159/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549159/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549159/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.050Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549159",
+                    "label": {
+                        "_value": "Guarantee that EU nationals legally settled here before the Referendum can stay."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618933",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:52:10.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549159",
+                    "label": {
+                        "_value": "Guarantee that EU nationals legally settled here before the Referendum can stay."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579293",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T08:41:10.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549159",
+                    "label": {
+                        "_value": "Guarantee that EU nationals legally settled here before the Referendum can stay."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T16:00:16.392Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549159",
+                    "label": {
+                        "_value": "Guarantee that EU nationals legally settled here before the Referendum can stay."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559864",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T12:27:16.499Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549159",
+                    "label": {
+                        "_value": "Guarantee that EU nationals legally settled here before the Referendum can stay."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549160",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T16:24:14.943Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549159",
+                    "label": {
+                        "_value": "Guarantee that EU nationals legally settled here before the Referendum can stay."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

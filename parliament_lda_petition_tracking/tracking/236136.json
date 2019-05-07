@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1042882/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1042882/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1042882/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1042882/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1042882/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:09.375Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042882",
+                    "label": {
+                        "_value": "Review how sexual assault victims are treated in court"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094154",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:11.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042882",
+                    "label": {
+                        "_value": "Review how sexual assault victims are treated in court"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:41:36.597Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042882",
+                    "label": {
+                        "_value": "Review how sexual assault victims are treated in court"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-28T11:51:35.489Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042882",
+                    "label": {
+                        "_value": "Review how sexual assault victims are treated in court"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1042883",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-16T17:51:36.097Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1042882",
+                    "label": {
+                        "_value": "Review how sexual assault victims are treated in court"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

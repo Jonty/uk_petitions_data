@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/986843/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/986843/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/986843/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/986843/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/986843/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1087621",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T00:15:17.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/986843",
+                    "label": {
+                        "_value": "Reduce tax on fuel for the road haulage industry"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1022766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-10T19:54:04.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/986843",
+                    "label": {
+                        "_value": "Reduce tax on fuel for the road haulage industry"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1012062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-21T19:35:10.941Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/986843",
+                    "label": {
+                        "_value": "Reduce tax on fuel for the road haulage industry"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/988370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-15T09:54:49.515Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/986843",
+                    "label": {
+                        "_value": "Reduce tax on fuel for the road haulage industry"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/986844",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-12T13:04:10.478Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/986843",
+                    "label": {
+                        "_value": "Reduce tax on fuel for the road haulage industry"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466119/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466119/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466119/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466119/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466119/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/560609",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466119",
+                    "label": {
+                        "_value": "Make take away shops use bio-degradable containers for serving food near beaches"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549855",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-29T13:50:42.260Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466119",
+                    "label": {
+                        "_value": "Make take away shops use bio-degradable containers for serving food near beaches"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508893",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T11:16:20.575Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466119",
+                    "label": {
+                        "_value": "Make take away shops use bio-degradable containers for serving food near beaches"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502812",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T22:51:51.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466119",
+                    "label": {
+                        "_value": "Make take away shops use bio-degradable containers for serving food near beaches"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:17:44.469Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466119",
+                    "label": {
+                        "_value": "Make take away shops use bio-degradable containers for serving food near beaches"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

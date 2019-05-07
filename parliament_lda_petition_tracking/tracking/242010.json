@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1079213/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1079213/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1079213/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1079213/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1079213/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107266",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:21.522Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079213",
+                    "label": {
+                        "_value": "Increase legal drinking age to 21 in the UK."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084325",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T16:33:05.663Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079213",
+                    "label": {
+                        "_value": "Increase legal drinking age to 21 in the UK."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-02T00:43:56.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079213",
+                    "label": {
+                        "_value": "Increase legal drinking age to 21 in the UK."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080176",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T14:34:45.443Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079213",
+                    "label": {
+                        "_value": "Increase legal drinking age to 21 in the UK."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T10:56:52.970Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079213",
+                    "label": {
+                        "_value": "Increase legal drinking age to 21 in the UK."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

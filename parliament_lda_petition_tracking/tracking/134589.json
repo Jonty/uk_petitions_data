@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547918/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547918/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547918/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547918/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547918/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547918",
+                    "label": {
+                        "_value": "We want the UK to appoint a dedicated minister for young people."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:13:25.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547918",
+                    "label": {
+                        "_value": "We want the UK to appoint a dedicated minister for young people."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T12:34:54.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547918",
+                    "label": {
+                        "_value": "We want the UK to appoint a dedicated minister for young people."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567155",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-21T22:05:49.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547918",
+                    "label": {
+                        "_value": "We want the UK to appoint a dedicated minister for young people."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547919",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T12:41:18.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547918",
+                    "label": {
+                        "_value": "We want the UK to appoint a dedicated minister for young people."
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

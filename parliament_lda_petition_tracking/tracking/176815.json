@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/719908/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/719908/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/719908/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/719908/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/719908/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726436",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:13.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/719908",
+                    "label": {
+                        "_value": "Affordable Clear Citizenship Path for all who earned Permanent Leave to Remain."
+                    }
+                },
+                "numberOfSignatures": 1435
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719909",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T20:21:23.787Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/719908",
+                    "label": {
+                        "_value": "Affordable Clear Citizenship Path for all who earned Permanent Leave to Remain."
+                    }
+                },
+                "numberOfSignatures": 1425
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062773/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062773/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062773/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062773/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062773/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107088",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T14:46:45.878Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062773",
+                    "label": {
+                        "_value": "No to increasing tv license fees"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T15:59:25.369Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062773",
+                    "label": {
+                        "_value": "No to increasing tv license fees"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T16:13:27.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062773",
+                    "label": {
+                        "_value": "No to increasing tv license fees"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076603",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T12:53:34.231Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062773",
+                    "label": {
+                        "_value": "No to increasing tv license fees"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T18:39:52.641Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062773",
+                    "label": {
+                        "_value": "No to increasing tv license fees"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062774",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T21:06:30.234Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062773",
+                    "label": {
+                        "_value": "No to increasing tv license fees"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

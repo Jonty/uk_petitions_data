@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548064/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548064/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548064/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548064/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548064/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735288",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:19.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548064",
+                    "label": {
+                        "_value": "Fully fund University Education for priority careers e.g. Health,Sciences Eng..."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548064",
+                    "label": {
+                        "_value": "Fully fund University Education for priority careers e.g. Health,Sciences Eng..."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635493",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T21:18:59.925Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548064",
+                    "label": {
+                        "_value": "Fully fund University Education for priority careers e.g. Health,Sciences Eng..."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548065",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T20:05:23.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548064",
+                    "label": {
+                        "_value": "Fully fund University Education for priority careers e.g. Health,Sciences Eng..."
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

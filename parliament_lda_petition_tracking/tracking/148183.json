@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550858/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550858/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550858/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550858/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550858/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630554",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:30:55.703Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550858",
+                    "label": {
+                        "_value": "Re-Nationalise British Steel Industry following Brexit."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T20:23:43.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550858",
+                    "label": {
+                        "_value": "Re-Nationalise British Steel Industry following Brexit."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599688",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:59:27.373Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550858",
+                    "label": {
+                        "_value": "Re-Nationalise British Steel Industry following Brexit."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T06:04:53.863Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550858",
+                    "label": {
+                        "_value": "Re-Nationalise British Steel Industry following Brexit."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573202",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T23:14:33.040Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550858",
+                    "label": {
+                        "_value": "Re-Nationalise British Steel Industry following Brexit."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550859",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T12:28:55.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550858",
+                    "label": {
+                        "_value": "Re-Nationalise British Steel Industry following Brexit."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

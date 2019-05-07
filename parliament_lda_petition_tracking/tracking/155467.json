@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550574/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550574/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550574/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550574/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550574/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624480",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:13:14.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550574",
+                    "label": {
+                        "_value": "Debate triggering Art.50 and withdrawing from the EU is in the national interest"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:26:42.640Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550574",
+                    "label": {
+                        "_value": "Debate triggering Art.50 and withdrawing from the EU is in the national interest"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:38:31.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550574",
+                    "label": {
+                        "_value": "Debate triggering Art.50 and withdrawing from the EU is in the national interest"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T06:48:23.012Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550574",
+                    "label": {
+                        "_value": "Debate triggering Art.50 and withdrawing from the EU is in the national interest"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:04:01.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550574",
+                    "label": {
+                        "_value": "Debate triggering Art.50 and withdrawing from the EU is in the national interest"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

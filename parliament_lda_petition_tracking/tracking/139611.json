@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548409/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548409/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548409/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548409/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548409/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:22.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548409",
+                    "label": {
+                        "_value": "UK Cities who voted \"Remain\" to be granted freedom to leave the UK & join the EU"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630395",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T12:23:10.670Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548409",
+                    "label": {
+                        "_value": "UK Cities who voted \"Remain\" to be granted freedom to leave the UK & join the EU"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T12:35:47.242Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548409",
+                    "label": {
+                        "_value": "UK Cities who voted \"Remain\" to be granted freedom to leave the UK & join the EU"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:11:00.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548409",
+                    "label": {
+                        "_value": "UK Cities who voted \"Remain\" to be granted freedom to leave the UK & join the EU"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T17:28:58.185Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548409",
+                    "label": {
+                        "_value": "UK Cities who voted \"Remain\" to be granted freedom to leave the UK & join the EU"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548410",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T16:21:33.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548409",
+                    "label": {
+                        "_value": "UK Cities who voted \"Remain\" to be granted freedom to leave the UK & join the EU"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

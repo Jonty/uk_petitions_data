@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/811661/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/811661/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/811661/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/811661/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/811661/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/930277",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-22T23:00:01.759Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811661",
+                    "label": {
+                        "_value": "Stop councils having to pay when planning decisions are overturned on appeal"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/876533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-31T15:13:42.814Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811661",
+                    "label": {
+                        "_value": "Stop councils having to pay when planning decisions are overturned on appeal"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/826353",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-18T13:17:44.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811661",
+                    "label": {
+                        "_value": "Stop councils having to pay when planning decisions are overturned on appeal"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/816217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-03T20:00:26.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811661",
+                    "label": {
+                        "_value": "Stop councils having to pay when planning decisions are overturned on appeal"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/814276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-31T19:36:40.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811661",
+                    "label": {
+                        "_value": "Stop councils having to pay when planning decisions are overturned on appeal"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/811662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-22T10:19:18.230Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/811661",
+                    "label": {
+                        "_value": "Stop councils having to pay when planning decisions are overturned on appeal"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

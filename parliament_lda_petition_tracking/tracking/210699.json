@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835806/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835806/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835806/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835806/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835806/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/950847",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-30T23:00:01.395Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835806",
+                    "label": {
+                        "_value": "Lower wait time for new universal credit claims"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-22T17:54:42.971Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835806",
+                    "label": {
+                        "_value": "Lower wait time for new universal credit claims"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/899367",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-06T21:50:43.032Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835806",
+                    "label": {
+                        "_value": "Lower wait time for new universal credit claims"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/852426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-28T14:14:47.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835806",
+                    "label": {
+                        "_value": "Lower wait time for new universal credit claims"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-01T19:10:47.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835806",
+                    "label": {
+                        "_value": "Lower wait time for new universal credit claims"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

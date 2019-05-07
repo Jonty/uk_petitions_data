@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552108/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552108/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552108/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552108/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552108/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629599",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:27:26.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552108",
+                    "label": {
+                        "_value": "Any decision which may lead to significant changes must be agreed by parliament."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603781",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:21:46.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552108",
+                    "label": {
+                        "_value": "Any decision which may lead to significant changes must be agreed by parliament."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:39:15.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552108",
+                    "label": {
+                        "_value": "Any decision which may lead to significant changes must be agreed by parliament."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572537",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T10:54:05.479Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552108",
+                    "label": {
+                        "_value": "Any decision which may lead to significant changes must be agreed by parliament."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552109",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T16:25:16.033Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552108",
+                    "label": {
+                        "_value": "Any decision which may lead to significant changes must be agreed by parliament."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

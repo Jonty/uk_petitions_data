@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/761487/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/761487/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/761487/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/761487/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/761487/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/866948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-19T00:00:01.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/761487",
+                    "label": {
+                        "_value": "Install ANPR systems on the A2 junction with the A282."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/763576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-09-28T22:41:38.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/761487",
+                    "label": {
+                        "_value": "Install ANPR systems on the A2 junction with the A282."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/761845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-09-20T07:01:29.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/761487",
+                    "label": {
+                        "_value": "Install ANPR systems on the A2 junction with the A282."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/761488",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-09-18T15:26:41.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/761487",
+                    "label": {
+                        "_value": "Install ANPR systems on the A2 junction with the A282."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

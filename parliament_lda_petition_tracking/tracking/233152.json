@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1013611/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1013611/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1013611/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1013611/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1013611/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107555",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T02:37:56.022Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1013611",
+                    "label": {
+                        "_value": "legally require a receipt to be printed only if a customer actually wants one"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T08:54:20.311Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1013611",
+                    "label": {
+                        "_value": "legally require a receipt to be printed only if a customer actually wants one"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T21:12:01.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1013611",
+                    "label": {
+                        "_value": "legally require a receipt to be printed only if a customer actually wants one"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1013612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-23T17:18:29.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1013611",
+                    "label": {
+                        "_value": "legally require a receipt to be printed only if a customer actually wants one"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1011217/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1011217/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1011217/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1011217/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1011217/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107292",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T03:13:47.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1011217",
+                    "label": {
+                        "_value": "Recognise in DWP assessments that depression and anxiety are debilitating "
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T04:03:21.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1011217",
+                    "label": {
+                        "_value": "Recognise in DWP assessments that depression and anxiety are debilitating "
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-22T18:52:04.640Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1011217",
+                    "label": {
+                        "_value": "Recognise in DWP assessments that depression and anxiety are debilitating "
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T11:55:30.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1011217",
+                    "label": {
+                        "_value": "Recognise in DWP assessments that depression and anxiety are debilitating "
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021565",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-04T23:12:09.828Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1011217",
+                    "label": {
+                        "_value": "Recognise in DWP assessments that depression and anxiety are debilitating "
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1011218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-20T11:06:00.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1011217",
+                    "label": {
+                        "_value": "Recognise in DWP assessments that depression and anxiety are debilitating "
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

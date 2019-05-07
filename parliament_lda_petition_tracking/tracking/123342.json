@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463999/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463999/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463999/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463999/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463999/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:11.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463999",
+                    "label": {
+                        "_value": "Change wording from father and mother to parents on all legal certificates."
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571501",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T11:46:43.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463999",
+                    "label": {
+                        "_value": "Change wording from father and mother to parents on all legal certificates."
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T14:57:30.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463999",
+                    "label": {
+                        "_value": "Change wording from father and mother to parents on all legal certificates."
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T21:55:49.214Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463999",
+                    "label": {
+                        "_value": "Change wording from father and mother to parents on all legal certificates."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464000",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T21:21:06.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463999",
+                    "label": {
+                        "_value": "Change wording from father and mother to parents on all legal certificates."
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

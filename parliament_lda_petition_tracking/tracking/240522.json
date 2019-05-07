@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1060448/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1060448/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1060448/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1060448/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1060448/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107651",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T11:50:25.140Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060448",
+                    "label": {
+                        "_value": "Make English Literature an optional subject for GCSE"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083373",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T22:57:08.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060448",
+                    "label": {
+                        "_value": "Make English Literature an optional subject for GCSE"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061993",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-13T10:20:37.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060448",
+                    "label": {
+                        "_value": "Make English Literature an optional subject for GCSE"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-12T13:33:08.868Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060448",
+                    "label": {
+                        "_value": "Make English Literature an optional subject for GCSE"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

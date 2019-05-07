@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461170/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461170/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461170/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461170/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461170/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.870Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461170",
+                    "label": {
+                        "_value": "Education Secretary to complete a u-turn on proposed new tests for 7 year-olds."
+                    }
+                },
+                "numberOfSignatures": 563
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/531249",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461170",
+                    "label": {
+                        "_value": "Education Secretary to complete a u-turn on proposed new tests for 7 year-olds."
+                    }
+                },
+                "numberOfSignatures": 563
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/526748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-10T00:00:04.288Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461170",
+                    "label": {
+                        "_value": "Education Secretary to complete a u-turn on proposed new tests for 7 year-olds."
+                    }
+                },
+                "numberOfSignatures": 563
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T22:41:00.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461170",
+                    "label": {
+                        "_value": "Education Secretary to complete a u-turn on proposed new tests for 7 year-olds."
+                    }
+                },
+                "numberOfSignatures": 552
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T22:22:50.811Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461170",
+                    "label": {
+                        "_value": "Education Secretary to complete a u-turn on proposed new tests for 7 year-olds."
+                    }
+                },
+                "numberOfSignatures": 551
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461171",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-01T23:01:23.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461170",
+                    "label": {
+                        "_value": "Education Secretary to complete a u-turn on proposed new tests for 7 year-olds."
+                    }
+                },
+                "numberOfSignatures": 550
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/781145/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/781145/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/781145/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/781145/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/781145/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/896072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-30T23:00:01.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781145",
+                    "label": {
+                        "_value": "Raise awareness of germ spreading by licking fingers to open bags/give out paper"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/845331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-20T01:57:22.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781145",
+                    "label": {
+                        "_value": "Raise awareness of germ spreading by licking fingers to open bags/give out paper"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/813342",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-27T23:34:53.739Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781145",
+                    "label": {
+                        "_value": "Raise awareness of germ spreading by licking fingers to open bags/give out paper"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/801630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-05T10:23:33.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781145",
+                    "label": {
+                        "_value": "Raise awareness of germ spreading by licking fingers to open bags/give out paper"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/797229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-29T16:36:19.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781145",
+                    "label": {
+                        "_value": "Raise awareness of germ spreading by licking fingers to open bags/give out paper"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/781146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-31T10:29:45.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/781145",
+                    "label": {
+                        "_value": "Raise awareness of germ spreading by licking fingers to open bags/give out paper"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

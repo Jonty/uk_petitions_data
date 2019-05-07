@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551900/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551900/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551900/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551900/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551900/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T03:06:16.509Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551900",
+                    "label": {
+                        "_value": "Have the EU referendum for 28.8% that didn't vote, teens & British residents."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551901",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:06:06.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551900",
+                    "label": {
+                        "_value": "Have the EU referendum for 28.8% that didn't vote, teens & British residents."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

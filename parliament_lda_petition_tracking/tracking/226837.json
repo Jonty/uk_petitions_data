@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/956223/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/956223/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/956223/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/956223/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/956223/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1061953",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T00:00:02.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956223",
+                    "label": {
+                        "_value": "alter law so that biological parents are legal guardian of their surrogate child"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T03:24:02.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956223",
+                    "label": {
+                        "_value": "alter law so that biological parents are legal guardian of their surrogate child"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021569",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T08:07:47.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956223",
+                    "label": {
+                        "_value": "alter law so that biological parents are legal guardian of their surrogate child"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-01T13:59:19.896Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956223",
+                    "label": {
+                        "_value": "alter law so that biological parents are legal guardian of their surrogate child"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/958066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-18T11:37:03.436Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956223",
+                    "label": {
+                        "_value": "alter law so that biological parents are legal guardian of their surrogate child"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-13T13:50:33.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/956223",
+                    "label": {
+                        "_value": "alter law so that biological parents are legal guardian of their surrogate child"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

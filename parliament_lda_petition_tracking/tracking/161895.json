@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553595/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553595/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553595/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553595/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553595/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:32:07.967Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553595",
+                    "label": {
+                        "_value": "Bring back national service"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:40:22.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553595",
+                    "label": {
+                        "_value": "Bring back national service"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601800",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T20:17:21.718Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553595",
+                    "label": {
+                        "_value": "Bring back national service"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554975",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T07:07:36.469Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553595",
+                    "label": {
+                        "_value": "Bring back national service"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T20:58:39.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553595",
+                    "label": {
+                        "_value": "Bring back national service"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

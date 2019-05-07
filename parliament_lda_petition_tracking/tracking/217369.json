@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/886972/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/886972/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/886972/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/886972/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/886972/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/991732",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T23:00:01.209Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/886972",
+                    "label": {
+                        "_value": "No military action in Syria until perpetrators of chemical attacks are verified."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894602",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-29T17:11:49.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/886972",
+                    "label": {
+                        "_value": "No military action in Syria until perpetrators of chemical attacks are verified."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/886973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-18T12:09:36.090Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/886972",
+                    "label": {
+                        "_value": "No military action in Syria until perpetrators of chemical attacks are verified."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

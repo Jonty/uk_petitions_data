@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549195/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549195/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549195/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549195/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549195/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/643553",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T21:13:53.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549195",
+                    "label": {
+                        "_value": "Demand a re-evaluation of the Barnett Formula in the wake of leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630485",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:19:35.315Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549195",
+                    "label": {
+                        "_value": "Demand a re-evaluation of the Barnett Formula in the wake of leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T19:43:31.309Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549195",
+                    "label": {
+                        "_value": "Demand a re-evaluation of the Barnett Formula in the wake of leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549196",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T05:42:35.898Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549195",
+                    "label": {
+                        "_value": "Demand a re-evaluation of the Barnett Formula in the wake of leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

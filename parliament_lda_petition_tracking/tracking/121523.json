@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465639/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465639/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465639/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465639/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465639/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564941",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465639",
+                    "label": {
+                        "_value": "Let's keep personal data personal"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T06:19:08.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465639",
+                    "label": {
+                        "_value": "Let's keep personal data personal"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T10:22:34.372Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465639",
+                    "label": {
+                        "_value": "Let's keep personal data personal"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T08:35:12.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465639",
+                    "label": {
+                        "_value": "Let's keep personal data personal"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

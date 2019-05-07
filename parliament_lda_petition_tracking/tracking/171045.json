@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/628839/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/628839/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/628839/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/628839/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/628839/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/652221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T22:36:08.471Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628839",
+                    "label": {
+                        "_value": "Make dealing with panic attacks part of standard first aid courses/training"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645724",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T23:00:50.918Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628839",
+                    "label": {
+                        "_value": "Make dealing with panic attacks part of standard first aid courses/training"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628840",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:26:35.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628839",
+                    "label": {
+                        "_value": "Make dealing with panic attacks part of standard first aid courses/training"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

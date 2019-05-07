@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/643551/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/643551/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/643551/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/643551/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/643551/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643551",
+                    "label": {
+                        "_value": "\u00a3369 million proposed for Buckingham Palace to be used to fund Social Housing"
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T18:39:25.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643551",
+                    "label": {
+                        "_value": "\u00a3369 million proposed for Buckingham Palace to be used to fund Social Housing"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T19:56:48.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643551",
+                    "label": {
+                        "_value": "\u00a3369 million proposed for Buckingham Palace to be used to fund Social Housing"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646247",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T17:30:48.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643551",
+                    "label": {
+                        "_value": "\u00a3369 million proposed for Buckingham Palace to be used to fund Social Housing"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645598",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T14:09:25.759Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643551",
+                    "label": {
+                        "_value": "\u00a3369 million proposed for Buckingham Palace to be used to fund Social Housing"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643552",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T23:43:26.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643551",
+                    "label": {
+                        "_value": "\u00a3369 million proposed for Buckingham Palace to be used to fund Social Housing"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464915/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464915/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464915/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464915/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464915/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464915",
+                    "label": {
+                        "_value": "Whole of life sentences for terrorist acts, multiple, child and sex murders."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464915",
+                    "label": {
+                        "_value": "Whole of life sentences for terrorist acts, multiple, child and sex murders."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T21:10:04.753Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464915",
+                    "label": {
+                        "_value": "Whole of life sentences for terrorist acts, multiple, child and sex murders."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T09:31:47.423Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464915",
+                    "label": {
+                        "_value": "Whole of life sentences for terrorist acts, multiple, child and sex murders."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464916",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:59.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464915",
+                    "label": {
+                        "_value": "Whole of life sentences for terrorist acts, multiple, child and sex murders."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

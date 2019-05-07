@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/593371/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/593371/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/593371/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/593371/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/593371/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:19:35.832Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593371",
+                    "label": {
+                        "_value": "Ban the use of button batteries in children's toys"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T09:32:15.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593371",
+                    "label": {
+                        "_value": "Ban the use of button batteries in children's toys"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605420",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T07:17:16.144Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593371",
+                    "label": {
+                        "_value": "Ban the use of button batteries in children's toys"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599680",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:49:34.648Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593371",
+                    "label": {
+                        "_value": "Ban the use of button batteries in children's toys"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594464",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T10:18:26.996Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593371",
+                    "label": {
+                        "_value": "Ban the use of button batteries in children's toys"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/593372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-03T13:50:35.373Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/593371",
+                    "label": {
+                        "_value": "Ban the use of button batteries in children's toys"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1057643/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1057643/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1057643/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1057643/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1057643/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107007",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T04:24:39.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057643",
+                    "label": {
+                        "_value": "Let us vote on petitions"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075821",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T13:30:43.336Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057643",
+                    "label": {
+                        "_value": "Let us vote on petitions"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060312",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T20:03:32.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057643",
+                    "label": {
+                        "_value": "Let us vote on petitions"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T04:16:20.713Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057643",
+                    "label": {
+                        "_value": "Let us vote on petitions"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058061",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T21:45:30.191Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057643",
+                    "label": {
+                        "_value": "Let us vote on petitions"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057644",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T19:34:22.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057643",
+                    "label": {
+                        "_value": "Let us vote on petitions"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

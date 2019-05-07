@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/933591/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/933591/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/933591/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/933591/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/933591/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1032880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-28T00:00:06.129Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933591",
+                    "label": {
+                        "_value": "Tax breaks for public houses that ONLY serve beverages manufactured in the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962116",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T18:20:13.600Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933591",
+                    "label": {
+                        "_value": "Tax breaks for public houses that ONLY serve beverages manufactured in the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-02T10:10:44.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933591",
+                    "label": {
+                        "_value": "Tax breaks for public houses that ONLY serve beverages manufactured in the UK."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-15T15:53:30.603Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933591",
+                    "label": {
+                        "_value": "Tax breaks for public houses that ONLY serve beverages manufactured in the UK."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-27T15:37:45.021Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/933591",
+                    "label": {
+                        "_value": "Tax breaks for public houses that ONLY serve beverages manufactured in the UK."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

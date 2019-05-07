@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/718466/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/718466/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/718466/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/718466/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/718466/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726113",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:21.037Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718466",
+                    "label": {
+                        "_value": "Amend PIP rules so that mentally disabled adults can get a Blue parking Badge"
+                    }
+                },
+                "numberOfSignatures": 2328
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T22:32:32.207Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718466",
+                    "label": {
+                        "_value": "Amend PIP rules so that mentally disabled adults can get a Blue parking Badge"
+                    }
+                },
+                "numberOfSignatures": 2038
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-14T23:14:02.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718466",
+                    "label": {
+                        "_value": "Amend PIP rules so that mentally disabled adults can get a Blue parking Badge"
+                    }
+                },
+                "numberOfSignatures": 2018
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719788",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-10T16:56:19.939Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718466",
+                    "label": {
+                        "_value": "Amend PIP rules so that mentally disabled adults can get a Blue parking Badge"
+                    }
+                },
+                "numberOfSignatures": 1954
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T09:19:46.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718466",
+                    "label": {
+                        "_value": "Amend PIP rules so that mentally disabled adults can get a Blue parking Badge"
+                    }
+                },
+                "numberOfSignatures": 1947
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718467",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-06T21:14:25.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/718466",
+                    "label": {
+                        "_value": "Amend PIP rules so that mentally disabled adults can get a Blue parking Badge"
+                    }
+                },
+                "numberOfSignatures": 1938
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/576164/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/576164/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/576164/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/576164/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/576164/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735944",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:32.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576164",
+                    "label": {
+                        "_value": "STOP Council Housing Benefit taking student loans into account as an income!"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T17:11:02.783Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576164",
+                    "label": {
+                        "_value": "STOP Council Housing Benefit taking student loans into account as an income!"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645701",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:16:16.801Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576164",
+                    "label": {
+                        "_value": "STOP Council Housing Benefit taking student loans into account as an income!"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:16:23.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576164",
+                    "label": {
+                        "_value": "STOP Council Housing Benefit taking student loans into account as an income!"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T11:30:15.732Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576164",
+                    "label": {
+                        "_value": "STOP Council Housing Benefit taking student loans into account as an income!"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T20:59:17.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/576164",
+                    "label": {
+                        "_value": "STOP Council Housing Benefit taking student loans into account as an income!"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

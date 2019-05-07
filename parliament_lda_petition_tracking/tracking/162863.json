@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550312/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550312/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550312/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550312/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550312/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630508",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:23:53.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550312",
+                    "label": {
+                        "_value": "stop the WPD from making radical changes to existing final salary schemes"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568284",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T11:11:29.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550312",
+                    "label": {
+                        "_value": "stop the WPD from making radical changes to existing final salary schemes"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559887",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T11:05:18.537Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550312",
+                    "label": {
+                        "_value": "stop the WPD from making radical changes to existing final salary schemes"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554944",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T14:32:56.235Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550312",
+                    "label": {
+                        "_value": "stop the WPD from making radical changes to existing final salary schemes"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553521",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T07:26:02.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550312",
+                    "label": {
+                        "_value": "stop the WPD from making radical changes to existing final salary schemes"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T22:55:40.296Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550312",
+                    "label": {
+                        "_value": "stop the WPD from making radical changes to existing final salary schemes"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

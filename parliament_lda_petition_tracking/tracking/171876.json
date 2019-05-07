@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/636937/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/636937/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/636937/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/636937/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/636937/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733859",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.162Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636937",
+                    "label": {
+                        "_value": "Make political education a compulsory lesson in schools"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659252",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:22:53.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636937",
+                    "label": {
+                        "_value": "Make political education a compulsory lesson in schools"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T19:49:07.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636937",
+                    "label": {
+                        "_value": "Make political education a compulsory lesson in schools"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T22:10:02.513Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/636937",
+                    "label": {
+                        "_value": "Make political education a compulsory lesson in schools"
+                    }
+                },
+                "numberOfSignatures": 28
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

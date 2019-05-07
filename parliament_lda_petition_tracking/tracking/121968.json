@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466325/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466325/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466325/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466325/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466325/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/565611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466325",
+                    "label": {
+                        "_value": "Delay EU membership referendum until EU Parliament approval for agreements"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466325",
+                    "label": {
+                        "_value": "Delay EU membership referendum until EU Parliament approval for agreements"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T14:54:57.502Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466325",
+                    "label": {
+                        "_value": "Delay EU membership referendum until EU Parliament approval for agreements"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:16:52.662Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466325",
+                    "label": {
+                        "_value": "Delay EU membership referendum until EU Parliament approval for agreements"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T23:05:46.121Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466325",
+                    "label": {
+                        "_value": "Delay EU membership referendum until EU Parliament approval for agreements"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

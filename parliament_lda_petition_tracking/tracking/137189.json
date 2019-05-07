@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551166/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551166/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551166/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551166/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551166/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:29:24.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551166",
+                    "label": {
+                        "_value": "Ensure the Brexit negotiating team is politically representative"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603784",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T18:19:03.982Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551166",
+                    "label": {
+                        "_value": "Ensure the Brexit negotiating team is politically representative"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T10:10:11.477Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551166",
+                    "label": {
+                        "_value": "Ensure the Brexit negotiating team is politically representative"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551167",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T16:29:47.939Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551166",
+                    "label": {
+                        "_value": "Ensure the Brexit negotiating team is politically representative"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

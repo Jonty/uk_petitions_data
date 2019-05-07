@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550634/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550634/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550634/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550634/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550634/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627915",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T11:49:18.014Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550634",
+                    "label": {
+                        "_value": "Force credit/debit card providers allow a customer block on contactless payments"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618987",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:12:47.553Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550634",
+                    "label": {
+                        "_value": "Force credit/debit card providers allow a customer block on contactless payments"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T19:39:51.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550634",
+                    "label": {
+                        "_value": "Force credit/debit card providers allow a customer block on contactless payments"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599690",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:58:35.452Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550634",
+                    "label": {
+                        "_value": "Force credit/debit card providers allow a customer block on contactless payments"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:35:44.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550634",
+                    "label": {
+                        "_value": "Force credit/debit card providers allow a customer block on contactless payments"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T07:46:07.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550634",
+                    "label": {
+                        "_value": "Force credit/debit card providers allow a customer block on contactless payments"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

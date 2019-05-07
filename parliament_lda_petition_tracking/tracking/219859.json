@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/907666/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/907666/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/907666/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/907666/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/907666/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1010071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-19T00:00:07.094Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907666",
+                    "label": {
+                        "_value": "Establish an Atrocities Prevention Board."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009056",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:14:48.360Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907666",
+                    "label": {
+                        "_value": "Establish an Atrocities Prevention Board."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/915695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-01T19:20:34.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907666",
+                    "label": {
+                        "_value": "Establish an Atrocities Prevention Board."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/907667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-18T12:08:00.862Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907666",
+                    "label": {
+                        "_value": "Establish an Atrocities Prevention Board."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

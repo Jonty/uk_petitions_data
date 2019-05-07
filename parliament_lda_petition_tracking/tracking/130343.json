@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550189/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550189/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550189/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550189/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550189/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550189",
+                    "label": {
+                        "_value": "Make letting agents pay double the holding deposit for cancelling a tenancy."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627911",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T10:50:17.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550189",
+                    "label": {
+                        "_value": "Make letting agents pay double the holding deposit for cancelling a tenancy."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618975",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:14:11.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550189",
+                    "label": {
+                        "_value": "Make letting agents pay double the holding deposit for cancelling a tenancy."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571790",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T18:39:24.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550189",
+                    "label": {
+                        "_value": "Make letting agents pay double the holding deposit for cancelling a tenancy."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556312",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T04:49:09.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550189",
+                    "label": {
+                        "_value": "Make letting agents pay double the holding deposit for cancelling a tenancy."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550190",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550189",
+                    "label": {
+                        "_value": "Make letting agents pay double the holding deposit for cancelling a tenancy."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

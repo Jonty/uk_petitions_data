@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1079222/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1079222/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1079222/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1079222/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1079222/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107137",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T14:45:55.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079222",
+                    "label": {
+                        "_value": "Condemn Pulwama attack by stopping the millions in British aid to Pakistan."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090215",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T20:01:14.524Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079222",
+                    "label": {
+                        "_value": "Condemn Pulwama attack by stopping the millions in British aid to Pakistan."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T23:33:59.316Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079222",
+                    "label": {
+                        "_value": "Condemn Pulwama attack by stopping the millions in British aid to Pakistan."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083294",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T18:51:28.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079222",
+                    "label": {
+                        "_value": "Condemn Pulwama attack by stopping the millions in British aid to Pakistan."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-28T07:18:13.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079222",
+                    "label": {
+                        "_value": "Condemn Pulwama attack by stopping the millions in British aid to Pakistan."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T17:24:34.406Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079222",
+                    "label": {
+                        "_value": "Condemn Pulwama attack by stopping the millions in British aid to Pakistan."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

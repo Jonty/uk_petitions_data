@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/559935/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/559935/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/559935/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/559935/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/559935/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645727",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:18:22.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559935",
+                    "label": {
+                        "_value": "Agree never to sell or give our NHS details to anyone outside the NHS."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:05:05.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559935",
+                    "label": {
+                        "_value": "Agree never to sell or give our NHS details to anyone outside the NHS."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599468",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:58:23.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559935",
+                    "label": {
+                        "_value": "Agree never to sell or give our NHS details to anyone outside the NHS."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T06:26:51.285Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559935",
+                    "label": {
+                        "_value": "Agree never to sell or give our NHS details to anyone outside the NHS."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T16:55:47.288Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559935",
+                    "label": {
+                        "_value": "Agree never to sell or give our NHS details to anyone outside the NHS."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T16:16:04.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559935",
+                    "label": {
+                        "_value": "Agree never to sell or give our NHS details to anyone outside the NHS."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

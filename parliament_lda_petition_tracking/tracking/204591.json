@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/787602/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/787602/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/787602/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/787602/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/787602/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/902022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-09T23:00:00.551Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787602",
+                    "label": {
+                        "_value": "reduce the brightness of vehicle emergency blue lights by half at night."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898941",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-06T11:25:52.364Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787602",
+                    "label": {
+                        "_value": "reduce the brightness of vehicle emergency blue lights by half at night."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-21T16:49:24.191Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787602",
+                    "label": {
+                        "_value": "reduce the brightness of vehicle emergency blue lights by half at night."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/799129",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-01T02:33:46.501Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787602",
+                    "label": {
+                        "_value": "reduce the brightness of vehicle emergency blue lights by half at night."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787603",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-11T13:10:51.472Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787602",
+                    "label": {
+                        "_value": "reduce the brightness of vehicle emergency blue lights by half at night."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551571/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551571/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551571/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551571/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551571/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T07:28:42.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551571",
+                    "label": {
+                        "_value": "Stop Privatisation Public Transport and British Business"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599777",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:27:43.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551571",
+                    "label": {
+                        "_value": "Stop Privatisation Public Transport and British Business"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:29:40.560Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551571",
+                    "label": {
+                        "_value": "Stop Privatisation Public Transport and British Business"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

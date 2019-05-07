@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547646/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547646/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547646/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547646/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547646/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547646",
+                    "label": {
+                        "_value": "Implement 3 month cooling off period for the EU referendum"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T13:12:55.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547646",
+                    "label": {
+                        "_value": "Implement 3 month cooling off period for the EU referendum"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T15:47:32.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547646",
+                    "label": {
+                        "_value": "Implement 3 month cooling off period for the EU referendum"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T16:15:12.725Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547646",
+                    "label": {
+                        "_value": "Implement 3 month cooling off period for the EU referendum"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T21:59:02.004Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547646",
+                    "label": {
+                        "_value": "Implement 3 month cooling off period for the EU referendum"
+                    }
+                },
+                "numberOfSignatures": 40
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552104/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552104/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552104/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552104/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552104/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/555708",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T21:06:29.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552104",
+                    "label": {
+                        "_value": "Final Leader elections in Government or Opposition should be by national vote."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T12:41:53.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552104",
+                    "label": {
+                        "_value": "Final Leader elections in Government or Opposition should be by national vote."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

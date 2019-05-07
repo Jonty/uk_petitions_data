@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/666179/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/666179/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/666179/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/666179/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/666179/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.927Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/666179",
+                    "label": {
+                        "_value": "Throw out plans requiring voters to produce ID at polling stations"
+                    }
+                },
+                "numberOfSignatures": 141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/667878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-02T15:33:01.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/666179",
+                    "label": {
+                        "_value": "Throw out plans requiring voters to produce ID at polling stations"
+                    }
+                },
+                "numberOfSignatures": 135
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-30T00:23:33.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/666179",
+                    "label": {
+                        "_value": "Throw out plans requiring voters to produce ID at polling stations"
+                    }
+                },
+                "numberOfSignatures": 44
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

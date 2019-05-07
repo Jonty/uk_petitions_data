@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549535/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549535/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549535/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549535/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549535/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627896",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549535",
+                    "label": {
+                        "_value": "Hillsborough families compensated in full for 27 years of legal fees."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:37:58.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549535",
+                    "label": {
+                        "_value": "Hillsborough families compensated in full for 27 years of legal fees."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571748",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:48:39.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549535",
+                    "label": {
+                        "_value": "Hillsborough families compensated in full for 27 years of legal fees."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549536",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T13:49:41.612Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549535",
+                    "label": {
+                        "_value": "Hillsborough families compensated in full for 27 years of legal fees."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

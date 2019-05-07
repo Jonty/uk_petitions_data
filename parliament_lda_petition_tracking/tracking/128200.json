@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550021/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550021/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550021/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550021/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550021/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/607366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-19T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550021",
+                    "label": {
+                        "_value": "Put a cap on the monthly rent payments for individuals in the UK"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:56:50.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550021",
+                    "label": {
+                        "_value": "Put a cap on the monthly rent payments for individuals in the UK"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591051",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T23:19:27.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550021",
+                    "label": {
+                        "_value": "Put a cap on the monthly rent payments for individuals in the UK"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572478",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T18:37:21.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550021",
+                    "label": {
+                        "_value": "Put a cap on the monthly rent payments for individuals in the UK"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559897",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T09:04:40.884Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550021",
+                    "label": {
+                        "_value": "Put a cap on the monthly rent payments for individuals in the UK"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T11:32:41.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550021",
+                    "label": {
+                        "_value": "Put a cap on the monthly rent payments for individuals in the UK"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

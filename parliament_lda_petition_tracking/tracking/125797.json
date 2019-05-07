@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492145/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492145/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492145/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492145/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492145/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592811",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492145",
+                    "label": {
+                        "_value": "All police forces and MPs have drug tests every 3 months"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T16:01:52.624Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492145",
+                    "label": {
+                        "_value": "All police forces and MPs have drug tests every 3 months"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:46:09.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492145",
+                    "label": {
+                        "_value": "All police forces and MPs have drug tests every 3 months"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549702",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T06:57:14.626Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492145",
+                    "label": {
+                        "_value": "All police forces and MPs have drug tests every 3 months"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T09:29:35.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492145",
+                    "label": {
+                        "_value": "All police forces and MPs have drug tests every 3 months"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T19:07:52.743Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492145",
+                    "label": {
+                        "_value": "All police forces and MPs have drug tests every 3 months"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

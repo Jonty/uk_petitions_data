@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548508/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548508/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548508/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548508/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548508/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735723",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548508",
+                    "label": {
+                        "_value": "More funding into Camhs and mental health in the uk"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/606472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548508",
+                    "label": {
+                        "_value": "More funding into Camhs and mental health in the uk"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599273",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T18:09:10.290Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548508",
+                    "label": {
+                        "_value": "More funding into Camhs and mental health in the uk"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T12:30:01.507Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548508",
+                    "label": {
+                        "_value": "More funding into Camhs and mental health in the uk"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T11:21:59.453Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548508",
+                    "label": {
+                        "_value": "More funding into Camhs and mental health in the uk"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548509",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-06T12:04:05.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548508",
+                    "label": {
+                        "_value": "More funding into Camhs and mental health in the uk"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

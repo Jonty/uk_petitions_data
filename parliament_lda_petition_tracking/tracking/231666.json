@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1003477/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1003477/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1003477/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1003477/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1003477/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1075983",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:59:56.600Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003477",
+                    "label": {
+                        "_value": "Make Ofsted inspections every 3 years for all schools, regardless of grading."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T20:32:42.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003477",
+                    "label": {
+                        "_value": "Make Ofsted inspections every 3 years for all schools, regardless of grading."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1006606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-13T17:56:46.556Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003477",
+                    "label": {
+                        "_value": "Make Ofsted inspections every 3 years for all schools, regardless of grading."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1005514",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T12:37:35.636Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003477",
+                    "label": {
+                        "_value": "Make Ofsted inspections every 3 years for all schools, regardless of grading."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1004285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-09T19:44:01.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003477",
+                    "label": {
+                        "_value": "Make Ofsted inspections every 3 years for all schools, regardless of grading."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003478",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-08T20:40:49.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1003477",
+                    "label": {
+                        "_value": "Make Ofsted inspections every 3 years for all schools, regardless of grading."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

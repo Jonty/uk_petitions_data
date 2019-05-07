@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464395/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464395/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464395/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464395/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464395/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735210",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.800Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464395",
+                    "label": {
+                        "_value": "Stop charging NHS Staff for parking at a work place."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547977",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464395",
+                    "label": {
+                        "_value": "Stop charging NHS Staff for parking at a work place."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T19:40:37.632Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464395",
+                    "label": {
+                        "_value": "Stop charging NHS Staff for parking at a work place."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:29.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464395",
+                    "label": {
+                        "_value": "Stop charging NHS Staff for parking at a work place."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

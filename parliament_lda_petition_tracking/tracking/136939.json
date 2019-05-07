@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551168/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551168/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551168/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551168/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551168/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T16:12:38.678Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551168",
+                    "label": {
+                        "_value": "Allow just THE CAR to be insured, not each individual driver of a car."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551169",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T17:52:40.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551168",
+                    "label": {
+                        "_value": "Allow just THE CAR to be insured, not each individual driver of a car."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

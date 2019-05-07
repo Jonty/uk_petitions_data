@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463927/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463927/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463927/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463927/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463927/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.782Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463927",
+                    "label": {
+                        "_value": "Vote on freezing foreign aid handouts for the next 4 years"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463927",
+                    "label": {
+                        "_value": "Vote on freezing foreign aid handouts for the next 4 years"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T13:42:07.069Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463927",
+                    "label": {
+                        "_value": "Vote on freezing foreign aid handouts for the next 4 years"
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511134",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T20:18:21.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463927",
+                    "label": {
+                        "_value": "Vote on freezing foreign aid handouts for the next 4 years"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490744",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T04:29:52.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463927",
+                    "label": {
+                        "_value": "Vote on freezing foreign aid handouts for the next 4 years"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-08T13:15:12.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463927",
+                    "label": {
+                        "_value": "Vote on freezing foreign aid handouts for the next 4 years"
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

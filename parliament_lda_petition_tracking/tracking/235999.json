@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1036888/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1036888/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1036888/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1036888/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1036888/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1081110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T16:40:40.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1036888",
+                    "label": {
+                        "_value": "Make dog ownership/dog microchip details operate like car ownership."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1043634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T13:54:45.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1036888",
+                    "label": {
+                        "_value": "Make dog ownership/dog microchip details operate like car ownership."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040009",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-11T16:45:39.080Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1036888",
+                    "label": {
+                        "_value": "Make dog ownership/dog microchip details operate like car ownership."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1039524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-10T14:22:19.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1036888",
+                    "label": {
+                        "_value": "Make dog ownership/dog microchip details operate like car ownership."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1037761",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-08T17:19:05.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1036888",
+                    "label": {
+                        "_value": "Make dog ownership/dog microchip details operate like car ownership."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1036889",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-07T18:31:12.057Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1036888",
+                    "label": {
+                        "_value": "Make dog ownership/dog microchip details operate like car ownership."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

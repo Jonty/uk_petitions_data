@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/607357/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/607357/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/607357/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/607357/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/607357/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-20T23:00:02.407Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607357",
+                    "label": {
+                        "_value": "Change laws on house buying/selling make \"accepted offer\" legally binding"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665034",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T21:28:46.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607357",
+                    "label": {
+                        "_value": "Change laws on house buying/selling make \"accepted offer\" legally binding"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T16:19:45.889Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607357",
+                    "label": {
+                        "_value": "Change laws on house buying/selling make \"accepted offer\" legally binding"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T18:00:44.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607357",
+                    "label": {
+                        "_value": "Change laws on house buying/selling make \"accepted offer\" legally binding"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/607358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T21:05:47.403Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607357",
+                    "label": {
+                        "_value": "Change laws on house buying/selling make \"accepted offer\" legally binding"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

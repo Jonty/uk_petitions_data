@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/554998/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/554998/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/554998/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/554998/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/554998/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T21:13:33.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554998",
+                    "label": {
+                        "_value": "Make GCSE Food Technology compulsory"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597669",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T12:37:22.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554998",
+                    "label": {
+                        "_value": "Make GCSE Food Technology compulsory"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597153",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T13:02:33.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554998",
+                    "label": {
+                        "_value": "Make GCSE Food Technology compulsory"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/593380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T20:13:23.626Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554998",
+                    "label": {
+                        "_value": "Make GCSE Food Technology compulsory"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554999",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T19:19:23.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/554998",
+                    "label": {
+                        "_value": "Make GCSE Food Technology compulsory"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

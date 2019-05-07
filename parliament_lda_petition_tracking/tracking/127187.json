@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509944/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509944/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509944/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509944/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509944/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/600452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509944",
+                    "label": {
+                        "_value": "UK should double its Gold because other central banks are buying up all the gold"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T00:10:05.923Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509944",
+                    "label": {
+                        "_value": "UK should double its Gold because other central banks are buying up all the gold"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564991",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T12:41:18.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509944",
+                    "label": {
+                        "_value": "UK should double its Gold because other central banks are buying up all the gold"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551252",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509944",
+                    "label": {
+                        "_value": "UK should double its Gold because other central banks are buying up all the gold"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509945",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T17:37:56.525Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509944",
+                    "label": {
+                        "_value": "UK should double its Gold because other central banks are buying up all the gold"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

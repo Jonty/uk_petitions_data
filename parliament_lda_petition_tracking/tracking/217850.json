@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/889752/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/889752/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/889752/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/889752/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/889752/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/995249",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-23T23:00:04.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889752",
+                    "label": {
+                        "_value": "Re-introduce a rail network along the old Wyre Forest / Tenbury line"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/918170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-05T16:10:26.798Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889752",
+                    "label": {
+                        "_value": "Re-introduce a rail network along the old Wyre Forest / Tenbury line"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/907584",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-17T22:09:28.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889752",
+                    "label": {
+                        "_value": "Re-introduce a rail network along the old Wyre Forest / Tenbury line"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/891094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-24T20:43:20.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889752",
+                    "label": {
+                        "_value": "Re-introduce a rail network along the old Wyre Forest / Tenbury line"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-23T20:01:56.932Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/889752",
+                    "label": {
+                        "_value": "Re-introduce a rail network along the old Wyre Forest / Tenbury line"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

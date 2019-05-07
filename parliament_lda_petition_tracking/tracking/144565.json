@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548058/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548058/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548058/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548058/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548058/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.634Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548058",
+                    "label": {
+                        "_value": "Referendums must garner over 50% in all four nations of the UK to be passed"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T03:06:32.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548058",
+                    "label": {
+                        "_value": "Referendums must garner over 50% in all four nations of the UK to be passed"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T15:53:43.686Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548058",
+                    "label": {
+                        "_value": "Referendums must garner over 50% in all four nations of the UK to be passed"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560527",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T04:24:56.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548058",
+                    "label": {
+                        "_value": "Referendums must garner over 50% in all four nations of the UK to be passed"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548059",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T19:30:25.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548058",
+                    "label": {
+                        "_value": "Referendums must garner over 50% in all four nations of the UK to be passed"
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

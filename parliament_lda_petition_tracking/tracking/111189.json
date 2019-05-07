@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462983/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462983/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462983/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462983/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462983/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/730005",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462983",
+                    "label": {
+                        "_value": "Increase funding and government support for antibiotic development"
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543231",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462983",
+                    "label": {
+                        "_value": "Increase funding and government support for antibiotic development"
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T20:25:42.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462983",
+                    "label": {
+                        "_value": "Increase funding and government support for antibiotic development"
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505905",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T21:16:17.669Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462983",
+                    "label": {
+                        "_value": "Increase funding and government support for antibiotic development"
+                    }
+                },
+                "numberOfSignatures": 72
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462984",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T18:59:58.202Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462983",
+                    "label": {
+                        "_value": "Increase funding and government support for antibiotic development"
+                    }
+                },
+                "numberOfSignatures": 71
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

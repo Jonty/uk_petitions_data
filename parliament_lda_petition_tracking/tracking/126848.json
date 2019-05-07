@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/506147/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/506147/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/506147/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/506147/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/506147/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597134",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-07T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506147",
+                    "label": {
+                        "_value": "The UK to join the Eurozone"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:47:20.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506147",
+                    "label": {
+                        "_value": "The UK to join the Eurozone"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T18:24:02.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506147",
+                    "label": {
+                        "_value": "The UK to join the Eurozone"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511209",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T09:38:16.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506147",
+                    "label": {
+                        "_value": "The UK to join the Eurozone"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508239",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T15:48:53.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506147",
+                    "label": {
+                        "_value": "The UK to join the Eurozone"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506148",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T15:40:15.326Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/506147",
+                    "label": {
+                        "_value": "The UK to join the Eurozone"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

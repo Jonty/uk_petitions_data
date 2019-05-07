@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655578/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655578/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655578/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655578/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655578/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.921Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655578",
+                    "label": {
+                        "_value": "Don't add the age verification and censoring of \"non-conventional\" on porn sites"
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T11:39:52.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655578",
+                    "label": {
+                        "_value": "Don't add the age verification and censoring of \"non-conventional\" on porn sites"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659304",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-13T23:55:59.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655578",
+                    "label": {
+                        "_value": "Don't add the age verification and censoring of \"non-conventional\" on porn sites"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T18:29:32.692Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655578",
+                    "label": {
+                        "_value": "Don't add the age verification and censoring of \"non-conventional\" on porn sites"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

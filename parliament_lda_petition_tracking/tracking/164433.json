@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/559969/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/559969/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/559969/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/559969/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/559969/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633339",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T15:46:51.759Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559969",
+                    "label": {
+                        "_value": "Restrict the speed of cyclists on mixed pedestrian/cyclist paths to 4 mph."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T21:54:21.441Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559969",
+                    "label": {
+                        "_value": "Restrict the speed of cyclists on mixed pedestrian/cyclist paths to 4 mph."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565023",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T05:39:26.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559969",
+                    "label": {
+                        "_value": "Restrict the speed of cyclists on mixed pedestrian/cyclist paths to 4 mph."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559970",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T11:52:24.394Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559969",
+                    "label": {
+                        "_value": "Restrict the speed of cyclists on mixed pedestrian/cyclist paths to 4 mph."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

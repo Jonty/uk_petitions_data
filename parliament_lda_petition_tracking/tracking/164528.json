@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/571829/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/571829/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/571829/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/571829/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/571829/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:06:10.918Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571829",
+                    "label": {
+                        "_value": "Establish a National Burkini Day."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T10:41:38.555Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571829",
+                    "label": {
+                        "_value": "Establish a National Burkini Day."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T20:53:34.917Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571829",
+                    "label": {
+                        "_value": "Establish a National Burkini Day."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T09:07:17.548Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571829",
+                    "label": {
+                        "_value": "Establish a National Burkini Day."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T18:03:39.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571829",
+                    "label": {
+                        "_value": "Establish a National Burkini Day."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

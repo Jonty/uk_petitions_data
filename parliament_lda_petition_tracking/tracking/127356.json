@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/511256/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/511256/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/511256/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/511256/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/511256/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728900",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:15.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 139
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 139
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592718",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-02T17:27:01.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 139
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T08:02:36.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 138
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538543",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 137
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-15T21:29:18.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 136
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511257",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T21:10:37.330Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/511256",
+                    "label": {
+                        "_value": "Life Imprisonment for the abuse, neglect and ill-treatment of children."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/673234/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/673234/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/673234/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/673234/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/673234/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727424",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:13.585Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673234",
+                    "label": {
+                        "_value": "Increase minimum wage for 18+ year olds to the same as the national living wage"
+                    }
+                },
+                "numberOfSignatures": 428
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686481",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-07T17:12:15.072Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673234",
+                    "label": {
+                        "_value": "Increase minimum wage for 18+ year olds to the same as the national living wage"
+                    }
+                },
+                "numberOfSignatures": 353
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/682094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-31T22:06:50.623Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673234",
+                    "label": {
+                        "_value": "Increase minimum wage for 18+ year olds to the same as the national living wage"
+                    }
+                },
+                "numberOfSignatures": 340
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/680731",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-30T00:10:00.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673234",
+                    "label": {
+                        "_value": "Increase minimum wage for 18+ year olds to the same as the national living wage"
+                    }
+                },
+                "numberOfSignatures": 323
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/676523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-16T00:57:06.806Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673234",
+                    "label": {
+                        "_value": "Increase minimum wage for 18+ year olds to the same as the national living wage"
+                    }
+                },
+                "numberOfSignatures": 317
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/673235",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-14T11:29:23.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673234",
+                    "label": {
+                        "_value": "Increase minimum wage for 18+ year olds to the same as the national living wage"
+                    }
+                },
+                "numberOfSignatures": 316
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

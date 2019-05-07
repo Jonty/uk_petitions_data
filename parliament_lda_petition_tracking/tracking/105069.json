@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462118/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462118/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462118/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462118/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462118/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:50.642Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462118",
+                    "label": {
+                        "_value": "For the United Kingdom to Cut the overseas aid budget by 75%"
+                    }
+                },
+                "numberOfSignatures": 169
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462118",
+                    "label": {
+                        "_value": "For the United Kingdom to Cut the overseas aid budget by 75%"
+                    }
+                },
+                "numberOfSignatures": 169
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:09:25.320Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462118",
+                    "label": {
+                        "_value": "For the United Kingdom to Cut the overseas aid budget by 75%"
+                    }
+                },
+                "numberOfSignatures": 169
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

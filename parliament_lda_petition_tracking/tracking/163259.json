@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553592/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553592/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553592/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553592/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553592/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/601795",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T17:27:39.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553592",
+                    "label": {
+                        "_value": "Arm all police officers with firearms, to deter and limit impact of terrorism."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T20:57:18.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553592",
+                    "label": {
+                        "_value": "Arm all police officers with firearms, to deter and limit impact of terrorism."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T22:32:34.290Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553592",
+                    "label": {
+                        "_value": "Arm all police officers with firearms, to deter and limit impact of terrorism."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T14:43:59.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553592",
+                    "label": {
+                        "_value": "Arm all police officers with firearms, to deter and limit impact of terrorism."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1090848/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1090848/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1090848/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1090848/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1090848/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107241",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:49:13.069Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090848",
+                    "label": {
+                        "_value": "Introduce a Rolling road tax exemption for vehicles over 30 years old."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T06:21:23.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090848",
+                    "label": {
+                        "_value": "Introduce a Rolling road tax exemption for vehicles over 30 years old."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T16:54:47.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090848",
+                    "label": {
+                        "_value": "Introduce a Rolling road tax exemption for vehicles over 30 years old."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T10:30:04.989Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090848",
+                    "label": {
+                        "_value": "Introduce a Rolling road tax exemption for vehicles over 30 years old."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

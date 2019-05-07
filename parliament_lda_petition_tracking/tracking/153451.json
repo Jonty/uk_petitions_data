@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550584/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550584/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550584/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550584/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550584/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/571783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:20:19.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550584",
+                    "label": {
+                        "_value": "Potential employers must contact the applicant whether they're accepted or not"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T22:55:28.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550584",
+                    "label": {
+                        "_value": "Potential employers must contact the applicant whether they're accepted or not"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550585",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T00:13:06.549Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550584",
+                    "label": {
+                        "_value": "Potential employers must contact the applicant whether they're accepted or not"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

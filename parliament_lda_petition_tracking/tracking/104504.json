@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460270/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460270/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460270/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460270/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460270/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/717081",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:49.680Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460270",
+                    "label": {
+                        "_value": "Hold a referendum to decide whether this country wants a nuclear deterrent."
+                    }
+                },
+                "numberOfSignatures": 2970
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T10:59:57.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460270",
+                    "label": {
+                        "_value": "Hold a referendum to decide whether this country wants a nuclear deterrent."
+                    }
+                },
+                "numberOfSignatures": 2970
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460270",
+                    "label": {
+                        "_value": "Hold a referendum to decide whether this country wants a nuclear deterrent."
+                    }
+                },
+                "numberOfSignatures": 2970
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T11:03:32.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460270",
+                    "label": {
+                        "_value": "Hold a referendum to decide whether this country wants a nuclear deterrent."
+                    }
+                },
+                "numberOfSignatures": 2970
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:08:57.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460270",
+                    "label": {
+                        "_value": "Hold a referendum to decide whether this country wants a nuclear deterrent."
+                    }
+                },
+                "numberOfSignatures": 2969
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

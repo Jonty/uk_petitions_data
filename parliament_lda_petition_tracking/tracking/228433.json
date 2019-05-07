@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977056/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977056/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977056/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977056/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977056/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T00:00:03.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977056",
+                    "label": {
+                        "_value": "Make both GCSE English papers optional"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T22:59:22.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977056",
+                    "label": {
+                        "_value": "Make both GCSE English papers optional"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053954",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-03T00:46:14.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977056",
+                    "label": {
+                        "_value": "Make both GCSE English papers optional"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-27T10:22:37.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977056",
+                    "label": {
+                        "_value": "Make both GCSE English papers optional"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-06T15:28:16.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977056",
+                    "label": {
+                        "_value": "Make both GCSE English papers optional"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T15:21:02.026Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977056",
+                    "label": {
+                        "_value": "Make both GCSE English papers optional"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

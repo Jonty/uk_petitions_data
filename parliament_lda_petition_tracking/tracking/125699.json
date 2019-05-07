@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492171/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492171/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492171/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492171/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492171/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492171",
+                    "label": {
+                        "_value": "Require Royal Mint to 'buy back' Legal Tender coinage it has issued"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591926",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T20:54:18.585Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492171",
+                    "label": {
+                        "_value": "Require Royal Mint to 'buy back' Legal Tender coinage it has issued"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T22:58:48.646Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492171",
+                    "label": {
+                        "_value": "Require Royal Mint to 'buy back' Legal Tender coinage it has issued"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492171",
+                    "label": {
+                        "_value": "Require Royal Mint to 'buy back' Legal Tender coinage it has issued"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504781",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T19:19:54.610Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492171",
+                    "label": {
+                        "_value": "Require Royal Mint to 'buy back' Legal Tender coinage it has issued"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492172",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T11:42:12.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492171",
+                    "label": {
+                        "_value": "Require Royal Mint to 'buy back' Legal Tender coinage it has issued"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

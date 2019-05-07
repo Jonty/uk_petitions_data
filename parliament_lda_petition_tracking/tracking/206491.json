@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/800392/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/800392/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/800392/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/800392/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/800392/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/918226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-04T23:00:03.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/800392",
+                    "label": {
+                        "_value": "Allow people with amblyopia, also known as lazy eye to join armed forces"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841702",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-13T23:11:49.244Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/800392",
+                    "label": {
+                        "_value": "Allow people with amblyopia, also known as lazy eye to join armed forces"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-08T21:10:21.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/800392",
+                    "label": {
+                        "_value": "Allow people with amblyopia, also known as lazy eye to join armed forces"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/800393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-04T17:08:20.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/800392",
+                    "label": {
+                        "_value": "Allow people with amblyopia, also known as lazy eye to join armed forces"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664797/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664797/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664797/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664797/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664797/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729668",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664797",
+                    "label": {
+                        "_value": "Establish an independent inquiry into Child Sexual Exploitation in Telford"
+                    }
+                },
+                "numberOfSignatures": 87
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-26T16:19:36.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664797",
+                    "label": {
+                        "_value": "Establish an independent inquiry into Child Sexual Exploitation in Telford"
+                    }
+                },
+                "numberOfSignatures": 73
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T10:39:46.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664797",
+                    "label": {
+                        "_value": "Establish an independent inquiry into Child Sexual Exploitation in Telford"
+                    }
+                },
+                "numberOfSignatures": 71
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

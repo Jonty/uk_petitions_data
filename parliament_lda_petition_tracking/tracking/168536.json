@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/595306/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/595306/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/595306/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/595306/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/595306/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-06T23:00:09.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595306",
+                    "label": {
+                        "_value": "Abandon plans to force companies to 'list foreign workers'"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T17:03:47.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595306",
+                    "label": {
+                        "_value": "Abandon plans to force companies to 'list foreign workers'"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627862",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T12:44:43.354Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595306",
+                    "label": {
+                        "_value": "Abandon plans to force companies to 'list foreign workers'"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597653",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:39:37.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595306",
+                    "label": {
+                        "_value": "Abandon plans to force companies to 'list foreign workers'"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T14:59:52.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595306",
+                    "label": {
+                        "_value": "Abandon plans to force companies to 'list foreign workers'"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595307",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T18:59:01.200Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595306",
+                    "label": {
+                        "_value": "Abandon plans to force companies to 'list foreign workers'"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

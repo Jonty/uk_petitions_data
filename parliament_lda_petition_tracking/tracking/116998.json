@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464393/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464393/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464393/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464393/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464393/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734721",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464393",
+                    "label": {
+                        "_value": "The title of \"Engineer\" needs to become legally protected by government."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547702",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464393",
+                    "label": {
+                        "_value": "The title of \"Engineer\" needs to become legally protected by government."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511153",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T01:02:43.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464393",
+                    "label": {
+                        "_value": "The title of \"Engineer\" needs to become legally protected by government."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506053",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T14:52:41.838Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464393",
+                    "label": {
+                        "_value": "The title of \"Engineer\" needs to become legally protected by government."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:46:59.996Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464393",
+                    "label": {
+                        "_value": "The title of \"Engineer\" needs to become legally protected by government."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-01T09:21:01.057Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464393",
+                    "label": {
+                        "_value": "The title of \"Engineer\" needs to become legally protected by government."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

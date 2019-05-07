@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1024504/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1024504/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1024504/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1024504/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1024504/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1043590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T13:39:06.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024504",
+                    "label": {
+                        "_value": "Homeoffice should not over charge health surcharge from UK Visa Applicants"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1026120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-15T03:35:12.676Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024504",
+                    "label": {
+                        "_value": "Homeoffice should not over charge health surcharge from UK Visa Applicants"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1024505",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-12T20:03:08.790Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1024504",
+                    "label": {
+                        "_value": "Homeoffice should not over charge health surcharge from UK Visa Applicants"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

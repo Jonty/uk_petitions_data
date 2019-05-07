@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/633369/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/633369/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/633369/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/633369/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/633369/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645841",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T14:29:35.856Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633369",
+                    "label": {
+                        "_value": "Restrict all heavy lorries with speed limiters to one lane on motorways."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640411",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T12:31:18.680Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633369",
+                    "label": {
+                        "_value": "Restrict all heavy lorries with speed limiters to one lane on motorways."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T20:42:26.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/633369",
+                    "label": {
+                        "_value": "Restrict all heavy lorries with speed limiters to one lane on motorways."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

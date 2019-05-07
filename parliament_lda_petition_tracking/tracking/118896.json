@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463861/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463861/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463861/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463861/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463861/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.425Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463861",
+                    "label": {
+                        "_value": "More funding for services providing help and support for victims of rape."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555566",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463861",
+                    "label": {
+                        "_value": "More funding for services providing help and support for victims of rape."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547749",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T13:53:05.075Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463861",
+                    "label": {
+                        "_value": "More funding for services providing help and support for victims of rape."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463862",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T00:51:39.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463861",
+                    "label": {
+                        "_value": "More funding for services providing help and support for victims of rape."
+                    }
+                },
+                "numberOfSignatures": 37
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

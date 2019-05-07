@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/595300/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/595300/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/595300/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/595300/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/595300/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T08:59:07.309Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595300",
+                    "label": {
+                        "_value": "Raise awareness about Motorcyclist for drivers. Add a Section for Practical test"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:51:02.322Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595300",
+                    "label": {
+                        "_value": "Raise awareness about Motorcyclist for drivers. Add a Section for Practical test"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595301",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T13:53:00.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/595300",
+                    "label": {
+                        "_value": "Raise awareness about Motorcyclist for drivers. Add a Section for Practical test"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

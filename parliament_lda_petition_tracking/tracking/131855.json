@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548696/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548696/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548696/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548696/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548696/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666233",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-09T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548696",
+                    "label": {
+                        "_value": "Change the law to clarify election expenses and end the current controversy."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T08:28:56.090Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548696",
+                    "label": {
+                        "_value": "Change the law to clarify election expenses and end the current controversy."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559837",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T17:58:10.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548696",
+                    "label": {
+                        "_value": "Change the law to clarify election expenses and end the current controversy."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548697",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T15:12:26.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548696",
+                    "label": {
+                        "_value": "Change the law to clarify election expenses and end the current controversy."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/559920/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/559920/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/559920/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/559920/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/559920/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/572526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T19:35:35.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559920",
+                    "label": {
+                        "_value": "make naloxone available to all opiate / opioid users in the uk."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559921",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T21:10:09.348Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/559920",
+                    "label": {
+                        "_value": "make naloxone available to all opiate / opioid users in the uk."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

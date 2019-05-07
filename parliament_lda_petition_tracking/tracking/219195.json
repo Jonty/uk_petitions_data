@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/901021/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/901021/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/901021/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/901021/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/901021/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1004689",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-10T00:00:02.442Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/901021",
+                    "label": {
+                        "_value": "Make the current VED rates retrospective to cars registered from 2000 onwards."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1000691",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-01T22:27:47.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/901021",
+                    "label": {
+                        "_value": "Make the current VED rates retrospective to cars registered from 2000 onwards."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/908393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-20T07:48:51.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/901021",
+                    "label": {
+                        "_value": "Make the current VED rates retrospective to cars registered from 2000 onwards."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T19:33:44.634Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/901021",
+                    "label": {
+                        "_value": "Make the current VED rates retrospective to cars registered from 2000 onwards."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/901022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-09T17:05:33.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/901021",
+                    "label": {
+                        "_value": "Make the current VED rates retrospective to cars registered from 2000 onwards."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

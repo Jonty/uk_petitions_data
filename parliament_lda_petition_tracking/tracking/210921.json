@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/858466/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/858466/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/858466/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/858466/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/858466/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/970819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T23:00:02.123Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858466",
+                    "label": {
+                        "_value": "Require all UK betting shops to have security screens to protect staff."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962843",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-30T01:10:17.639Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858466",
+                    "label": {
+                        "_value": "Require all UK betting shops to have security screens to protect staff."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T07:51:18.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858466",
+                    "label": {
+                        "_value": "Require all UK betting shops to have security screens to protect staff."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/896100",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-30T11:55:02.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858466",
+                    "label": {
+                        "_value": "Require all UK betting shops to have security screens to protect staff."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-21T03:52:01.001Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858466",
+                    "label": {
+                        "_value": "Require all UK betting shops to have security screens to protect staff."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/858467",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-08T14:08:06.930Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/858466",
+                    "label": {
+                        "_value": "Require all UK betting shops to have security screens to protect staff."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

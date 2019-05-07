@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548560/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548560/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548560/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548560/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548560/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735468",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.365Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548560",
+                    "label": {
+                        "_value": "A General Election or another EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T12:34:46.714Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548560",
+                    "label": {
+                        "_value": "A General Election or another EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623970",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T18:54:57.759Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548560",
+                    "label": {
+                        "_value": "A General Election or another EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T05:52:07.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548560",
+                    "label": {
+                        "_value": "A General Election or another EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594353",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:11:51.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548560",
+                    "label": {
+                        "_value": "A General Election or another EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548561",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T14:35:56.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548560",
+                    "label": {
+                        "_value": "A General Election or another EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

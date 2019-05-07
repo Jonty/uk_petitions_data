@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462595/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462595/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462595/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462595/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462595/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462595",
+                    "label": {
+                        "_value": "Adopt Australia's immigration control for UK"
+                    }
+                },
+                "numberOfSignatures": 105
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538750",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462595",
+                    "label": {
+                        "_value": "Adopt Australia's immigration control for UK"
+                    }
+                },
+                "numberOfSignatures": 105
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/471070",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T00:00:11.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462595",
+                    "label": {
+                        "_value": "Adopt Australia's immigration control for UK"
+                    }
+                },
+                "numberOfSignatures": 105
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T13:15:30.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462595",
+                    "label": {
+                        "_value": "Adopt Australia's immigration control for UK"
+                    }
+                },
+                "numberOfSignatures": 105
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462596",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T09:07:59.964Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462595",
+                    "label": {
+                        "_value": "Adopt Australia's immigration control for UK"
+                    }
+                },
+                "numberOfSignatures": 103
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

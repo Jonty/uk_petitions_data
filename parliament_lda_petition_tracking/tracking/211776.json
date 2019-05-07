@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841130/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841130/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841130/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841130/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841130/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/954868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-09T23:00:02.576Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841130",
+                    "label": {
+                        "_value": "Make MPs provide an annual report to constituents on the work they've done"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894108",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-28T12:56:09.430Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841130",
+                    "label": {
+                        "_value": "Make MPs provide an annual report to constituents on the work they've done"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/877881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-03T10:25:23.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841130",
+                    "label": {
+                        "_value": "Make MPs provide an annual report to constituents on the work they've done"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/844611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-19T17:54:21.900Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841130",
+                    "label": {
+                        "_value": "Make MPs provide an annual report to constituents on the work they've done"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-11T09:48:21.945Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841130",
+                    "label": {
+                        "_value": "Make MPs provide an annual report to constituents on the work they've done"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

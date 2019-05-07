@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543599/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543599/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543599/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543599/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543599/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.644Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543599",
+                    "label": {
+                        "_value": "Gerard Batten, to lead the delegation negotiating terms for leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632558",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543599",
+                    "label": {
+                        "_value": "Gerard Batten, to lead the delegation negotiating terms for leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556221",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T17:01:34.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543599",
+                    "label": {
+                        "_value": "Gerard Batten, to lead the delegation negotiating terms for leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T10:53:39.699Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543599",
+                    "label": {
+                        "_value": "Gerard Batten, to lead the delegation negotiating terms for leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T04:04:39.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543599",
+                    "label": {
+                        "_value": "Gerard Batten, to lead the delegation negotiating terms for leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 55
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

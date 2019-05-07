@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106597/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106597/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106597/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106597/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106597/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-30T00:06:52.268Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106597",
+                    "label": {
+                        "_value": "Make the availability of a multi-faith prayer room compulsory at all schools."
+                    }
+                },
+                "numberOfSignatures": 370
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106598",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T01:24:23.085Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106597",
+                    "label": {
+                        "_value": "Make the availability of a multi-faith prayer room compulsory at all schools."
+                    }
+                },
+                "numberOfSignatures": 159
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

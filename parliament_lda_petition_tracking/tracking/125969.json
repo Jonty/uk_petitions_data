@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550222/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550222/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550222/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550222/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550222/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625082",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550222",
+                    "label": {
+                        "_value": "Make the size of motorcyle you are able to get at the age of 19-20 be a 600 cc"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562385",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T07:23:39.399Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550222",
+                    "label": {
+                        "_value": "Make the size of motorcyle you are able to get at the age of 19-20 be a 600 cc"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T16:12:08.322Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550222",
+                    "label": {
+                        "_value": "Make the size of motorcyle you are able to get at the age of 19-20 be a 600 cc"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

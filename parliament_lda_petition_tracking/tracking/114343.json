@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464851/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464851/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464851/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464851/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464851/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548640",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464851",
+                    "label": {
+                        "_value": "Vote of no confidence in David Cameron - air strikes in Syria."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508201",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T18:02:29.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464851",
+                    "label": {
+                        "_value": "Vote of no confidence in David Cameron - air strikes in Syria."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507503",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T10:56:24.058Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464851",
+                    "label": {
+                        "_value": "Vote of no confidence in David Cameron - air strikes in Syria."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T19:06:23.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464851",
+                    "label": {
+                        "_value": "Vote of no confidence in David Cameron - air strikes in Syria."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:48.556Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464851",
+                    "label": {
+                        "_value": "Vote of no confidence in David Cameron - air strikes in Syria."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

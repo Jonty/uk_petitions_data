@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551599/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551599/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551599/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551599/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551599/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551599",
+                    "label": {
+                        "_value": "Overseas Aid should be a voluntary opt in contribution collected via HMRC."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/619017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:38:46.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551599",
+                    "label": {
+                        "_value": "Overseas Aid should be a voluntary opt in contribution collected via HMRC."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599778",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:27:20.890Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551599",
+                    "label": {
+                        "_value": "Overseas Aid should be a voluntary opt in contribution collected via HMRC."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551599",
+                    "label": {
+                        "_value": "Overseas Aid should be a voluntary opt in contribution collected via HMRC."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

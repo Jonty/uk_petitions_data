@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463309/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463309/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463309/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463309/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463309/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733580",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.067Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463309",
+                    "label": {
+                        "_value": "Ban conversion therapy in the UK"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543453",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463309",
+                    "label": {
+                        "_value": "Ban conversion therapy in the UK"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T16:47:29.985Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463309",
+                    "label": {
+                        "_value": "Ban conversion therapy in the UK"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487811",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T00:20:47.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463309",
+                    "label": {
+                        "_value": "Ban conversion therapy in the UK"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T13:56:41.514Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463309",
+                    "label": {
+                        "_value": "Ban conversion therapy in the UK"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T21:29:06.018Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463309",
+                    "label": {
+                        "_value": "Ban conversion therapy in the UK"
+                    }
+                },
+                "numberOfSignatures": 53
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462807/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462807/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462807/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462807/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462807/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.586Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462807",
+                    "label": {
+                        "_value": "Mandatory Politics lessons in secondary schools and lower the voting age to 16."
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538966",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462807",
+                    "label": {
+                        "_value": "Mandatory Politics lessons in secondary schools and lower the voting age to 16."
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512387",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T00:00:05.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462807",
+                    "label": {
+                        "_value": "Mandatory Politics lessons in secondary schools and lower the voting age to 16."
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T07:02:24.839Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462807",
+                    "label": {
+                        "_value": "Mandatory Politics lessons in secondary schools and lower the voting age to 16."
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462808",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T19:40:01.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462807",
+                    "label": {
+                        "_value": "Mandatory Politics lessons in secondary schools and lower the voting age to 16."
+                    }
+                },
+                "numberOfSignatures": 84
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

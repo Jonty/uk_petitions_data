@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461821/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461821/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461821/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461821/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461821/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728112",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.392Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461821",
+                    "label": {
+                        "_value": "the government to have local councils provide homeless shelter in winter months"
+                    }
+                },
+                "numberOfSignatures": 233
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461821",
+                    "label": {
+                        "_value": "the government to have local councils provide homeless shelter in winter months"
+                    }
+                },
+                "numberOfSignatures": 233
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527527",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-23T00:00:05.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461821",
+                    "label": {
+                        "_value": "the government to have local councils provide homeless shelter in winter months"
+                    }
+                },
+                "numberOfSignatures": 233
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482701",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T15:49:51.406Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461821",
+                    "label": {
+                        "_value": "the government to have local councils provide homeless shelter in winter months"
+                    }
+                },
+                "numberOfSignatures": 231
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461822",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T11:34:02.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461821",
+                    "label": {
+                        "_value": "the government to have local councils provide homeless shelter in winter months"
+                    }
+                },
+                "numberOfSignatures": 230
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

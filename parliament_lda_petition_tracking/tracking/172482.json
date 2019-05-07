@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640377/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640377/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640377/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640377/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640377/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.697Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640377",
+                    "label": {
+                        "_value": "Referendum on replacing the House of Lords with a fully elected upper house"
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/647024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T20:30:36.426Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640377",
+                    "label": {
+                        "_value": "Referendum on replacing the House of Lords with a fully elected upper house"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T17:08:06.732Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640377",
+                    "label": {
+                        "_value": "Referendum on replacing the House of Lords with a fully elected upper house"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

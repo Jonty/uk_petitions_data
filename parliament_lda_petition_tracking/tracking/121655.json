@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464057/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464057/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464057/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464057/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464057/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735018",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:09.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464057",
+                    "label": {
+                        "_value": "Make the details of bids for public sector provision in the NHS public."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464057",
+                    "label": {
+                        "_value": "Make the details of bids for public sector provision in the NHS public."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T11:56:21.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464057",
+                    "label": {
+                        "_value": "Make the details of bids for public sector provision in the NHS public."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487875",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T16:15:01.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464057",
+                    "label": {
+                        "_value": "Make the details of bids for public sector provision in the NHS public."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T19:29:00.365Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464057",
+                    "label": {
+                        "_value": "Make the details of bids for public sector provision in the NHS public."
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

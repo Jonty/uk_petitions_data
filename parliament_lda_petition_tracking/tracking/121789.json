@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466783/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466783/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466783/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466783/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466783/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564985",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466783",
+                    "label": {
+                        "_value": "Make the hosting and running of revenge porn sites a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T07:37:27.993Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466783",
+                    "label": {
+                        "_value": "Make the hosting and running of revenge porn sites a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550973",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-11T08:24:46.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466783",
+                    "label": {
+                        "_value": "Make the hosting and running of revenge porn sites a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466784",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T03:10:52.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466783",
+                    "label": {
+                        "_value": "Make the hosting and running of revenge porn sites a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/908839/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/908839/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/908839/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/908839/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/908839/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1012978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-22T00:00:03.969Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/908839",
+                    "label": {
+                        "_value": "Remove all benefit caps on Kinship/sgo carers"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-16T14:04:51.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/908839",
+                    "label": {
+                        "_value": "Remove all benefit caps on Kinship/sgo carers"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T23:40:28.300Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/908839",
+                    "label": {
+                        "_value": "Remove all benefit caps on Kinship/sgo carers"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/908840",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-21T18:33:23.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/908839",
+                    "label": {
+                        "_value": "Remove all benefit caps on Kinship/sgo carers"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460544/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460544/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460544/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460544/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460544/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/718550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460544",
+                    "label": {
+                        "_value": "Repeal section 127 of the Criminal Justice and Public Order Act 1994"
+                    }
+                },
+                "numberOfSignatures": 1657
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530222",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460544",
+                    "label": {
+                        "_value": "Repeal section 127 of the Criminal Justice and Public Order Act 1994"
+                    }
+                },
+                "numberOfSignatures": 1657
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/526417",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-02T00:00:08.053Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460544",
+                    "label": {
+                        "_value": "Repeal section 127 of the Criminal Justice and Public Order Act 1994"
+                    }
+                },
+                "numberOfSignatures": 1657
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T20:25:40.281Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460544",
+                    "label": {
+                        "_value": "Repeal section 127 of the Criminal Justice and Public Order Act 1994"
+                    }
+                },
+                "numberOfSignatures": 1655
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481012",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T21:39:11.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460544",
+                    "label": {
+                        "_value": "Repeal section 127 of the Criminal Justice and Public Order Act 1994"
+                    }
+                },
+                "numberOfSignatures": 1654
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460545",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:32:15.536Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460544",
+                    "label": {
+                        "_value": "Repeal section 127 of the Criminal Justice and Public Order Act 1994"
+                    }
+                },
+                "numberOfSignatures": 1653
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/590611/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/590611/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/590611/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/590611/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/590611/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T21:47:44.586Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590611",
+                    "label": {
+                        "_value": "Stop educational institutes in the UK from sending farm animals off to slaughter"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T23:46:46.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590611",
+                    "label": {
+                        "_value": "Stop educational institutes in the UK from sending farm animals off to slaughter"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597141",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T09:49:30.210Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590611",
+                    "label": {
+                        "_value": "Stop educational institutes in the UK from sending farm animals off to slaughter"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590612",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T15:54:36.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/590611",
+                    "label": {
+                        "_value": "Stop educational institutes in the UK from sending farm animals off to slaughter"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

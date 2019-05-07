@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459655/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459655/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459655/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459655/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459655/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/716013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:49.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459655",
+                    "label": {
+                        "_value": "To debate a vote of no confidence in DWP secretary Ian Duncan Smith"
+                    }
+                },
+                "numberOfSignatures": 46161
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459655",
+                    "label": {
+                        "_value": "To debate a vote of no confidence in DWP secretary Ian Duncan Smith"
+                    }
+                },
+                "numberOfSignatures": 46161
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/525936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-15T09:54:40.733Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459655",
+                    "label": {
+                        "_value": "To debate a vote of no confidence in DWP secretary Ian Duncan Smith"
+                    }
+                },
+                "numberOfSignatures": 46161
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490896",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T11:03:31.570Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459655",
+                    "label": {
+                        "_value": "To debate a vote of no confidence in DWP secretary Ian Duncan Smith"
+                    }
+                },
+                "numberOfSignatures": 46159
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459656",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T13:48:41.280Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459655",
+                    "label": {
+                        "_value": "To debate a vote of no confidence in DWP secretary Ian Duncan Smith"
+                    }
+                },
+                "numberOfSignatures": 46158
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

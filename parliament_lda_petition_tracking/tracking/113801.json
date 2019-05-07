@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466619/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466619/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466619/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466619/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466619/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466619",
+                    "label": {
+                        "_value": "Increase the border security to the UK drastically"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T22:15:55.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466619",
+                    "label": {
+                        "_value": "Increase the border security to the UK drastically"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508226",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T20:57:58.936Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466619",
+                    "label": {
+                        "_value": "Increase the border security to the UK drastically"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T15:52:35.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466619",
+                    "label": {
+                        "_value": "Increase the border security to the UK drastically"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:17:34.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466619",
+                    "label": {
+                        "_value": "Increase the border security to the UK drastically"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466620",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:14:32.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466619",
+                    "label": {
+                        "_value": "Increase the border security to the UK drastically"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

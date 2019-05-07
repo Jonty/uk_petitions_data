@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/777608/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/777608/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/777608/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/777608/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/777608/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/892894",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-25T23:00:03.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777608",
+                    "label": {
+                        "_value": "Create a new public holiday for Indian new year's day"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868163",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-19T21:30:19.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777608",
+                    "label": {
+                        "_value": "Create a new public holiday for Indian new year's day"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/862849",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-14T07:25:51.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777608",
+                    "label": {
+                        "_value": "Create a new public holiday for Indian new year's day"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/831018",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-25T16:43:34.336Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777608",
+                    "label": {
+                        "_value": "Create a new public holiday for Indian new year's day"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/789829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-14T09:09:08.165Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777608",
+                    "label": {
+                        "_value": "Create a new public holiday for Indian new year's day"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/777609",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-25T16:10:48.918Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/777608",
+                    "label": {
+                        "_value": "Create a new public holiday for Indian new year's day"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

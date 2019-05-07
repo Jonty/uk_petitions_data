@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464923/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464923/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464923/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464923/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464923/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/566097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464923",
+                    "label": {
+                        "_value": "A full enquiry into G4S management of all youth and custody services."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T01:28:52.327Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464923",
+                    "label": {
+                        "_value": "A full enquiry into G4S management of all youth and custody services."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T10:46:40.998Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464923",
+                    "label": {
+                        "_value": "A full enquiry into G4S management of all youth and custody services."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-26T02:53:39.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464923",
+                    "label": {
+                        "_value": "A full enquiry into G4S management of all youth and custody services."
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

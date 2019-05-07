@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551754/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551754/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551754/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551754/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551754/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T23:03:19.067Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551754",
+                    "label": {
+                        "_value": "Stop the minting of Copper Coins"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T20:08:24.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551754",
+                    "label": {
+                        "_value": "Stop the minting of Copper Coins"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T11:55:59.780Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551754",
+                    "label": {
+                        "_value": "Stop the minting of Copper Coins"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T16:41:47.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551754",
+                    "label": {
+                        "_value": "Stop the minting of Copper Coins"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569391",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T14:32:28.772Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551754",
+                    "label": {
+                        "_value": "Stop the minting of Copper Coins"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551755",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T15:21:03.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551754",
+                    "label": {
+                        "_value": "Stop the minting of Copper Coins"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

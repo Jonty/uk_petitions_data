@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664978/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664978/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664978/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664978/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664978/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664978",
+                    "label": {
+                        "_value": "Establish a Financial Services Tribunal to resolve customer disputes."
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T18:05:47.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664978",
+                    "label": {
+                        "_value": "Establish a Financial Services Tribunal to resolve customer disputes."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664979",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-23T09:33:53.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664978",
+                    "label": {
+                        "_value": "Establish a Financial Services Tribunal to resolve customer disputes."
+                    }
+                },
+                "numberOfSignatures": 32
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

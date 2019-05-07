@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/580185/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/580185/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/580185/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/580185/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/580185/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630643",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T08:56:14.779Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580185",
+                    "label": {
+                        "_value": "To ban electronic cigarettes in all public places in England."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/588500",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T20:02:01.462Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580185",
+                    "label": {
+                        "_value": "To ban electronic cigarettes in all public places in England."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T15:29:21.739Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/580185",
+                    "label": {
+                        "_value": "To ban electronic cigarettes in all public places in England."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

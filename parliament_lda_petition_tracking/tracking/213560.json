@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/853197/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/853197/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/853197/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/853197/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/853197/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/963959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-01T23:00:01.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853197",
+                    "label": {
+                        "_value": "Make 11/11/2018 a non-trading day in remembrance of the First World War"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/865924",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-17T13:35:13.210Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853197",
+                    "label": {
+                        "_value": "Make 11/11/2018 a non-trading day in remembrance of the First World War"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854777",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-04T13:06:55.599Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853197",
+                    "label": {
+                        "_value": "Make 11/11/2018 a non-trading day in remembrance of the First World War"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/854281",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-03T19:15:14.760Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853197",
+                    "label": {
+                        "_value": "Make 11/11/2018 a non-trading day in remembrance of the First World War"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-02T14:00:03.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853197",
+                    "label": {
+                        "_value": "Make 11/11/2018 a non-trading day in remembrance of the First World War"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-01T15:27:07.592Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853197",
+                    "label": {
+                        "_value": "Make 11/11/2018 a non-trading day in remembrance of the First World War"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462354/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462354/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462354/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462354/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462354/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729003",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462354",
+                    "label": {
+                        "_value": "Make it law that all first time mothers to give birth in hospital"
+                    }
+                },
+                "numberOfSignatures": 131
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462354",
+                    "label": {
+                        "_value": "Make it law that all first time mothers to give birth in hospital"
+                    }
+                },
+                "numberOfSignatures": 131
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T00:00:05.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462354",
+                    "label": {
+                        "_value": "Make it law that all first time mothers to give birth in hospital"
+                    }
+                },
+                "numberOfSignatures": 131
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T10:17:51.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462354",
+                    "label": {
+                        "_value": "Make it law that all first time mothers to give birth in hospital"
+                    }
+                },
+                "numberOfSignatures": 130
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

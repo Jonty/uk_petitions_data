@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551543/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551543/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551543/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551543/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551543/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T15:48:41.942Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551543",
+                    "label": {
+                        "_value": "Ban teaching children under 16 religion"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/579329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-08T11:07:17.379Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551543",
+                    "label": {
+                        "_value": "Ban teaching children under 16 religion"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573207",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:53:45.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551543",
+                    "label": {
+                        "_value": "Ban teaching children under 16 religion"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T14:29:18.896Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551543",
+                    "label": {
+                        "_value": "Ban teaching children under 16 religion"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T10:20:17.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551543",
+                    "label": {
+                        "_value": "Ban teaching children under 16 religion"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T20:31:08.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551543",
+                    "label": {
+                        "_value": "Ban teaching children under 16 religion"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551946/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551946/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551946/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551946/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551946/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T17:56:09.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551946",
+                    "label": {
+                        "_value": "Scrap 9-1 GCSE's for the current year 10 (leaving in 2k17)"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600462",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T18:26:43.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551946",
+                    "label": {
+                        "_value": "Scrap 9-1 GCSE's for the current year 10 (leaving in 2k17)"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T17:35:20.907Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551946",
+                    "label": {
+                        "_value": "Scrap 9-1 GCSE's for the current year 10 (leaving in 2k17)"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

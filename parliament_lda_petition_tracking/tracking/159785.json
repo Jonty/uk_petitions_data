@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551798/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551798/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551798/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551798/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551798/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T15:53:47.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551798",
+                    "label": {
+                        "_value": "Make it so you do not have to declare none fault accidents on motor insurance"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-19T18:46:36.801Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551798",
+                    "label": {
+                        "_value": "Make it so you do not have to declare none fault accidents on motor insurance"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

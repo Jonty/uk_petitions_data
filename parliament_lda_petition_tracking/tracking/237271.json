@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1048759/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1048759/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1048759/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1048759/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1048759/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:10.223Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048759",
+                    "label": {
+                        "_value": "Make cases of unfair dismissal appealable for any employee post-probation"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-15T07:55:18.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048759",
+                    "label": {
+                        "_value": "Make cases of unfair dismissal appealable for any employee post-probation"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T18:55:48.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048759",
+                    "label": {
+                        "_value": "Make cases of unfair dismissal appealable for any employee post-probation"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-25T12:27:26.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1048759",
+                    "label": {
+                        "_value": "Make cases of unfair dismissal appealable for any employee post-probation"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

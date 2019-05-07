@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/600450/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/600450/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/600450/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/600450/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/600450/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-12T23:00:07.704Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/600450",
+                    "label": {
+                        "_value": "Make the 5p bag charge go towards the NHS."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659291",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T01:10:30.361Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/600450",
+                    "label": {
+                        "_value": "Make the 5p bag charge go towards the NHS."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-11T16:58:22.370Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/600450",
+                    "label": {
+                        "_value": "Make the 5p bag charge go towards the NHS."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T19:41:13.793Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/600450",
+                    "label": {
+                        "_value": "Make the 5p bag charge go towards the NHS."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601765",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T21:40:26.956Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/600450",
+                    "label": {
+                        "_value": "Make the 5p bag charge go towards the NHS."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600451",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-12T20:55:51.801Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/600450",
+                    "label": {
+                        "_value": "Make the 5p bag charge go towards the NHS."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

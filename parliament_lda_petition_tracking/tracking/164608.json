@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/571853/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/571853/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/571853/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/571853/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/571853/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627958",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T22:26:58.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571853",
+                    "label": {
+                        "_value": "Stop cataract eye operations being rationed for the elderly .."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620797",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T22:09:00.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571853",
+                    "label": {
+                        "_value": "Stop cataract eye operations being rationed for the elderly .."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591963",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T18:34:34.145Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571853",
+                    "label": {
+                        "_value": "Stop cataract eye operations being rationed for the elderly .."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T18:50:43.713Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571853",
+                    "label": {
+                        "_value": "Stop cataract eye operations being rationed for the elderly .."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T10:28:10.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571853",
+                    "label": {
+                        "_value": "Stop cataract eye operations being rationed for the elderly .."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

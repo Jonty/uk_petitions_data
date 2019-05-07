@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106988/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106988/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106988/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106988/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106988/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T23:25:51.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106988",
+                    "label": {
+                        "_value": "Negotiate open trade and free movement with Canada, Australia and New Zealand."
+                    }
+                },
+                "numberOfSignatures": 177
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T03:27:53.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106988",
+                    "label": {
+                        "_value": "Negotiate open trade and free movement with Canada, Australia and New Zealand."
+                    }
+                },
+                "numberOfSignatures": 91
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548395/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548395/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548395/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548395/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548395/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735709",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:25.834Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548395",
+                    "label": {
+                        "_value": "Add a capture code to the government petition site to prevent false signatures."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T16:02:57.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548395",
+                    "label": {
+                        "_value": "Add a capture code to the government petition site to prevent false signatures."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T21:50:14.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548395",
+                    "label": {
+                        "_value": "Add a capture code to the government petition site to prevent false signatures."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T15:21:44.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548395",
+                    "label": {
+                        "_value": "Add a capture code to the government petition site to prevent false signatures."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

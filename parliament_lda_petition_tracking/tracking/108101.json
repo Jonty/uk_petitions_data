@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/460880/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/460880/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/460880/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/460880/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/460880/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.557Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460880",
+                    "label": {
+                        "_value": "Ban the use of ALL animals in circuses"
+                    }
+                },
+                "numberOfSignatures": 897
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460880",
+                    "label": {
+                        "_value": "Ban the use of ALL animals in circuses"
+                    }
+                },
+                "numberOfSignatures": 897
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/471054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T00:00:11.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460880",
+                    "label": {
+                        "_value": "Ban the use of ALL animals in circuses"
+                    }
+                },
+                "numberOfSignatures": 897
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-14T13:03:26.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460880",
+                    "label": {
+                        "_value": "Ban the use of ALL animals in circuses"
+                    }
+                },
+                "numberOfSignatures": 897
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-13T19:03:25.801Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460880",
+                    "label": {
+                        "_value": "Ban the use of ALL animals in circuses"
+                    }
+                },
+                "numberOfSignatures": 896
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/460881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T02:45:31.221Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/460880",
+                    "label": {
+                        "_value": "Ban the use of ALL animals in circuses"
+                    }
+                },
+                "numberOfSignatures": 891
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

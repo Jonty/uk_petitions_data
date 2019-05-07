@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465139/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465139/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465139/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465139/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465139/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.935Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465139",
+                    "label": {
+                        "_value": "Legalise drugs"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465139",
+                    "label": {
+                        "_value": "Legalise drugs"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509816",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T10:49:18.255Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465139",
+                    "label": {
+                        "_value": "Legalise drugs"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T19:38:00.046Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465139",
+                    "label": {
+                        "_value": "Legalise drugs"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:00.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465139",
+                    "label": {
+                        "_value": "Legalise drugs"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

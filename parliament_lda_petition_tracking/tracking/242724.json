@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1086301/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1086301/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1086301/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1086301/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1086301/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090057",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T13:29:05.300Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1086301",
+                    "label": {
+                        "_value": "Act now for children with Type 1 diabetes "
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088177",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T20:04:22.128Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1086301",
+                    "label": {
+                        "_value": "Act now for children with Type 1 diabetes "
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087491",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T21:11:31.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1086301",
+                    "label": {
+                        "_value": "Act now for children with Type 1 diabetes "
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1086302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-11T19:51:09.248Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1086301",
+                    "label": {
+                        "_value": "Act now for children with Type 1 diabetes "
+                    }
+                },
+                "numberOfSignatures": 59
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

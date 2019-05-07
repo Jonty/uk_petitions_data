@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/646988/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/646988/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/646988/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/646988/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/646988/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734430",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.025Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/646988",
+                    "label": {
+                        "_value": "Increase the standard paid length of Paternity Leave in the UK to 4 weeks."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664923",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-21T17:10:17.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/646988",
+                    "label": {
+                        "_value": "Increase the standard paid length of Paternity Leave in the UK to 4 weeks."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T18:14:45.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/646988",
+                    "label": {
+                        "_value": "Increase the standard paid length of Paternity Leave in the UK to 4 weeks."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

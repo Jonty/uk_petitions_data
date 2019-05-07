@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551567/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551567/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551567/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551567/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551567/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551567",
+                    "label": {
+                        "_value": "Make 'motorway driving' lessons a mandatory part of the driving license test"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T14:01:16.282Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551567",
+                    "label": {
+                        "_value": "Make 'motorway driving' lessons a mandatory part of the driving license test"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594452",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T10:14:23.412Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551567",
+                    "label": {
+                        "_value": "Make 'motorway driving' lessons a mandatory part of the driving license test"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/593366",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-03T19:14:46.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551567",
+                    "label": {
+                        "_value": "Make 'motorway driving' lessons a mandatory part of the driving license test"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586428",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T09:15:11.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551567",
+                    "label": {
+                        "_value": "Make 'motorway driving' lessons a mandatory part of the driving license test"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551568",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T13:56:02.552Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551567",
+                    "label": {
+                        "_value": "Make 'motorway driving' lessons a mandatory part of the driving license test"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

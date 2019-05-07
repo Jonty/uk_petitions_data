@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/599822/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/599822/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/599822/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/599822/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/599822/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618461",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T03:02:45.149Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599822",
+                    "label": {
+                        "_value": "Decrease the required number of signatures for a debate by 10,000"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T16:36:21.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/599822",
+                    "label": {
+                        "_value": "Decrease the required number of signatures for a debate by 10,000"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

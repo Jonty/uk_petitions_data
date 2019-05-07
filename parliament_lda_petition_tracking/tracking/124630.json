@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/478462/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/478462/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/478462/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/478462/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/478462/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/585940",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478462",
+                    "label": {
+                        "_value": "Introduce a temporary visa scheme for refugees"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T15:36:55.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478462",
+                    "label": {
+                        "_value": "Introduce a temporary visa scheme for refugees"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478978",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T21:15:35.049Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478462",
+                    "label": {
+                        "_value": "Introduce a temporary visa scheme for refugees"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478463",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T13:42:06.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/478462",
+                    "label": {
+                        "_value": "Introduce a temporary visa scheme for refugees"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1054507/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1054507/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1054507/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1054507/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1054507/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1078095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-25T15:39:02.519Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054507",
+                    "label": {
+                        "_value": "Strip Southeastern Railway of its ill managed franchise."
+                    }
+                },
+                "numberOfSignatures": 58
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1063271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-17T17:39:06.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054507",
+                    "label": {
+                        "_value": "Strip Southeastern Railway of its ill managed franchise."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062678",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T10:11:14.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054507",
+                    "label": {
+                        "_value": "Strip Southeastern Railway of its ill managed franchise."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T22:17:58.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054507",
+                    "label": {
+                        "_value": "Strip Southeastern Railway of its ill managed franchise."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054508",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T16:47:43.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1054507",
+                    "label": {
+                        "_value": "Strip Southeastern Railway of its ill managed franchise."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

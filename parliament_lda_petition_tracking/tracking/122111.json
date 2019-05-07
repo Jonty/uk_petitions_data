@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466987/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466987/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466987/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466987/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466987/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/566152",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466987",
+                    "label": {
+                        "_value": "Require online Parliamentary petitions to count any votes against a proposal"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466987",
+                    "label": {
+                        "_value": "Require online Parliamentary petitions to count any votes against a proposal"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/485326",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T23:15:38.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466987",
+                    "label": {
+                        "_value": "Require online Parliamentary petitions to count any votes against a proposal"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-19T18:16:22.066Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466987",
+                    "label": {
+                        "_value": "Require online Parliamentary petitions to count any votes against a proposal"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

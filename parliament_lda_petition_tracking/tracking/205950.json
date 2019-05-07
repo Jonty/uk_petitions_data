@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/837169/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/837169/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/837169/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/837169/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/837169/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/952150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-02T23:00:01.098Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837169",
+                    "label": {
+                        "_value": "Ensure Cricket Test Matches played by England are on Terrestrial TV."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/945406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-19T20:23:28.926Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837169",
+                    "label": {
+                        "_value": "Ensure Cricket Test Matches played by England are on Terrestrial TV."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/848783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-24T17:53:45.794Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837169",
+                    "label": {
+                        "_value": "Ensure Cricket Test Matches played by England are on Terrestrial TV."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/847657",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-22T18:27:51.695Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837169",
+                    "label": {
+                        "_value": "Ensure Cricket Test Matches played by England are on Terrestrial TV."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/845346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-20T15:09:22.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837169",
+                    "label": {
+                        "_value": "Ensure Cricket Test Matches played by England are on Terrestrial TV."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/837170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-03T18:12:20.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/837169",
+                    "label": {
+                        "_value": "Ensure Cricket Test Matches played by England are on Terrestrial TV."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

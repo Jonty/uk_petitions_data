@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549963/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549963/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549963/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549963/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549963/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T22:28:39.028Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549963",
+                    "label": {
+                        "_value": "Not to invoke Article 50 until the year 2026."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:11:22.303Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549963",
+                    "label": {
+                        "_value": "Not to invoke Article 50 until the year 2026."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578350",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:37:53.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549963",
+                    "label": {
+                        "_value": "Not to invoke Article 50 until the year 2026."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572477",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T06:51:57.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549963",
+                    "label": {
+                        "_value": "Not to invoke Article 50 until the year 2026."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:44:48.151Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549963",
+                    "label": {
+                        "_value": "Not to invoke Article 50 until the year 2026."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549964",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:02:49.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549963",
+                    "label": {
+                        "_value": "Not to invoke Article 50 until the year 2026."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

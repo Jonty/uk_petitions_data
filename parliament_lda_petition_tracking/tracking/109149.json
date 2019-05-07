@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461771/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461771/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461771/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461771/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461771/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728031",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461771",
+                    "label": {
+                        "_value": "Allow fox hunting"
+                    }
+                },
+                "numberOfSignatures": 248
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538107",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461771",
+                    "label": {
+                        "_value": "Allow fox hunting"
+                    }
+                },
+                "numberOfSignatures": 248
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T00:00:11.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461771",
+                    "label": {
+                        "_value": "Allow fox hunting"
+                    }
+                },
+                "numberOfSignatures": 248
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T20:23:24.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461771",
+                    "label": {
+                        "_value": "Allow fox hunting"
+                    }
+                },
+                "numberOfSignatures": 248
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/473039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T15:25:37.643Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461771",
+                    "label": {
+                        "_value": "Allow fox hunting"
+                    }
+                },
+                "numberOfSignatures": 247
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461772",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T21:03:19.150Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461771",
+                    "label": {
+                        "_value": "Allow fox hunting"
+                    }
+                },
+                "numberOfSignatures": 246
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

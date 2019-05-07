@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/509924/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/509924/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/509924/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/509924/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/509924/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735724",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:15.726Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509924",
+                    "label": {
+                        "_value": "Stop HS2. Instead, invest in a more beneficial option such as UK ultraspeed."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600414",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509924",
+                    "label": {
+                        "_value": "Stop HS2. Instead, invest in a more beneficial option such as UK ultraspeed."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T07:25:52.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509924",
+                    "label": {
+                        "_value": "Stop HS2. Instead, invest in a more beneficial option such as UK ultraspeed."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553426",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T21:18:47.826Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509924",
+                    "label": {
+                        "_value": "Stop HS2. Instead, invest in a more beneficial option such as UK ultraspeed."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T21:34:56.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509924",
+                    "label": {
+                        "_value": "Stop HS2. Instead, invest in a more beneficial option such as UK ultraspeed."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T13:54:15.773Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/509924",
+                    "label": {
+                        "_value": "Stop HS2. Instead, invest in a more beneficial option such as UK ultraspeed."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

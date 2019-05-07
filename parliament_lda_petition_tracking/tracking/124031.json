@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466085/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466085/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466085/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466085/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466085/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466085",
+                    "label": {
+                        "_value": "Have a set minimum wage of at least \u00a38.50 per hour for care/support workers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573179",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T21:39:40.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466085",
+                    "label": {
+                        "_value": "Have a set minimum wage of at least \u00a38.50 per hour for care/support workers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550703",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T23:38:43.699Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466085",
+                    "label": {
+                        "_value": "Have a set minimum wage of at least \u00a38.50 per hour for care/support workers."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466086",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T17:57:12.562Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466085",
+                    "label": {
+                        "_value": "Have a set minimum wage of at least \u00a38.50 per hour for care/support workers."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

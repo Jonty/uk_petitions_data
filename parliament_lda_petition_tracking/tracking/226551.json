@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954011/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954011/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954011/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954011/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954011/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954011",
+                    "label": {
+                        "_value": "Install a fence or screen in the middle of motorways to prevent rubber necking"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021575",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-07T13:28:12.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954011",
+                    "label": {
+                        "_value": "Install a fence or screen in the middle of motorways to prevent rubber necking"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954467",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-09T09:56:01.339Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954011",
+                    "label": {
+                        "_value": "Install a fence or screen in the middle of motorways to prevent rubber necking"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954012",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T19:54:46.026Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954011",
+                    "label": {
+                        "_value": "Install a fence or screen in the middle of motorways to prevent rubber necking"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

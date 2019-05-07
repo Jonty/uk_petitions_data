@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466327/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466327/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466327/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466327/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466327/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/564933",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466327",
+                    "label": {
+                        "_value": "Give Us An Annual Poppy Day For All Animals To Be Remembered."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T21:37:57.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466327",
+                    "label": {
+                        "_value": "Give Us An Annual Poppy Day For All Animals To Be Remembered."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508244",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T00:03:59.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466327",
+                    "label": {
+                        "_value": "Give Us An Annual Poppy Day For All Animals To Be Remembered."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T19:39:17.726Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466327",
+                    "label": {
+                        "_value": "Give Us An Annual Poppy Day For All Animals To Be Remembered."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466328",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T21:24:46.890Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466327",
+                    "label": {
+                        "_value": "Give Us An Annual Poppy Day For All Animals To Be Remembered."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

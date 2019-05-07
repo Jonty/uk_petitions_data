@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/949417/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/949417/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/949417/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/949417/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/949417/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1049949",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T00:00:02.036Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949417",
+                    "label": {
+                        "_value": "Give the Firemen, the Police, The Emergency Services a National Day."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001854",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T12:03:57.428Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949417",
+                    "label": {
+                        "_value": "Give the Firemen, the Police, The Emergency Services a National Day."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/990103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-17T10:53:25.204Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949417",
+                    "label": {
+                        "_value": "Give the Firemen, the Police, The Emergency Services a National Day."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-03T17:10:52.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949417",
+                    "label": {
+                        "_value": "Give the Firemen, the Police, The Emergency Services a National Day."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-28T07:51:07.401Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949417",
+                    "label": {
+                        "_value": "Give the Firemen, the Police, The Emergency Services a National Day."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949418",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-27T15:08:36.298Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/949417",
+                    "label": {
+                        "_value": "Give the Firemen, the Police, The Emergency Services a National Day."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954045/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954045/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954045/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954045/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954045/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.189Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954045",
+                    "label": {
+                        "_value": "Registration with the charities commission be mandatory for religious bodies."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033582",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:13:04.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954045",
+                    "label": {
+                        "_value": "Registration with the charities commission be mandatory for religious bodies."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009049",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:16:19.419Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954045",
+                    "label": {
+                        "_value": "Registration with the charities commission be mandatory for religious bodies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/979369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-29T15:07:47.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954045",
+                    "label": {
+                        "_value": "Registration with the charities commission be mandatory for religious bodies."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-28T01:31:00.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954045",
+                    "label": {
+                        "_value": "Registration with the charities commission be mandatory for religious bodies."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T16:12:11.590Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954045",
+                    "label": {
+                        "_value": "Registration with the charities commission be mandatory for religious bodies."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

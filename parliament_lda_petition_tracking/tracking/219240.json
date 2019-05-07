@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/902067/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/902067/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/902067/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/902067/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/902067/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1005027",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-11T00:00:00.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902067",
+                    "label": {
+                        "_value": "Rename HMS Prince Of Wales to HMS Ark Royal"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/976150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-19T15:54:44.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902067",
+                    "label": {
+                        "_value": "Rename HMS Prince Of Wales to HMS Ark Royal"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955843",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-11T22:40:57.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902067",
+                    "label": {
+                        "_value": "Rename HMS Prince Of Wales to HMS Ark Royal"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949415",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-26T15:37:34.442Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902067",
+                    "label": {
+                        "_value": "Rename HMS Prince Of Wales to HMS Ark Royal"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-28T18:23:16.321Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902067",
+                    "label": {
+                        "_value": "Rename HMS Prince Of Wales to HMS Ark Royal"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902068",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T18:27:23.419Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902067",
+                    "label": {
+                        "_value": "Rename HMS Prince Of Wales to HMS Ark Royal"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462065/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462065/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462065/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462065/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462065/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.265Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462065",
+                    "label": {
+                        "_value": "To make 'Attachment & Early Brain Development' part of the National Curriculum."
+                    }
+                },
+                "numberOfSignatures": 177
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538335",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462065",
+                    "label": {
+                        "_value": "To make 'Attachment & Early Brain Development' part of the National Curriculum."
+                    }
+                },
+                "numberOfSignatures": 177
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527658",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-17T00:00:12.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462065",
+                    "label": {
+                        "_value": "To make 'Attachment & Early Brain Development' part of the National Curriculum."
+                    }
+                },
+                "numberOfSignatures": 177
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481273",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T14:57:23.910Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462065",
+                    "label": {
+                        "_value": "To make 'Attachment & Early Brain Development' part of the National Curriculum."
+                    }
+                },
+                "numberOfSignatures": 177
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-01T21:13:43.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462065",
+                    "label": {
+                        "_value": "To make 'Attachment & Early Brain Development' part of the National Curriculum."
+                    }
+                },
+                "numberOfSignatures": 176
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

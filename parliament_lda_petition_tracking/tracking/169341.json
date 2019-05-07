@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/607402/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/607402/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/607402/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/607402/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/607402/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/653245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T19:33:25.791Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607402",
+                    "label": {
+                        "_value": "Ban advertising of alcohol, restrict opening times, picture of damaged liver"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651125",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T14:13:57.216Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607402",
+                    "label": {
+                        "_value": "Ban advertising of alcohol, restrict opening times, picture of damaged liver"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T18:38:11.551Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607402",
+                    "label": {
+                        "_value": "Ban advertising of alcohol, restrict opening times, picture of damaged liver"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T08:28:33.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607402",
+                    "label": {
+                        "_value": "Ban advertising of alcohol, restrict opening times, picture of damaged liver"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/607403",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-20T13:46:12.768Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/607402",
+                    "label": {
+                        "_value": "Ban advertising of alcohol, restrict opening times, picture of damaged liver"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

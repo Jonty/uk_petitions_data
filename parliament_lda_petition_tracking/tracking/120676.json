@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461653/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461653/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461653/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461653/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461653/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.461Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461653",
+                    "label": {
+                        "_value": "UK Gov't to follow Germany's example and force Facebook to delete Hate Speech"
+                    }
+                },
+                "numberOfSignatures": 300
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461653",
+                    "label": {
+                        "_value": "UK Gov't to follow Germany's example and force Facebook to delete Hate Speech"
+                    }
+                },
+                "numberOfSignatures": 300
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537991",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T23:11:59.783Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461653",
+                    "label": {
+                        "_value": "UK Gov't to follow Germany's example and force Facebook to delete Hate Speech"
+                    }
+                },
+                "numberOfSignatures": 300
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-19T18:38:00.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461653",
+                    "label": {
+                        "_value": "UK Gov't to follow Germany's example and force Facebook to delete Hate Speech"
+                    }
+                },
+                "numberOfSignatures": 294
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T19:21:30.073Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461653",
+                    "label": {
+                        "_value": "UK Gov't to follow Germany's example and force Facebook to delete Hate Speech"
+                    }
+                },
+                "numberOfSignatures": 286
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

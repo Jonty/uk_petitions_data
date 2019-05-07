@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954897/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954897/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954897/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954897/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954897/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1060401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T00:00:05.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954897",
+                    "label": {
+                        "_value": "Condemn the Bangladeshi Government's violent crackdown on student protests."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009507",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T16:46:13.379Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954897",
+                    "label": {
+                        "_value": "Condemn the Bangladeshi Government's violent crackdown on student protests."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-12T14:02:14.969Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954897",
+                    "label": {
+                        "_value": "Condemn the Bangladeshi Government's violent crackdown on student protests."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/955306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-11T14:57:23.236Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954897",
+                    "label": {
+                        "_value": "Condemn the Bangladeshi Government's violent crackdown on student protests."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-10T10:30:36.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954897",
+                    "label": {
+                        "_value": "Condemn the Bangladeshi Government's violent crackdown on student protests."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

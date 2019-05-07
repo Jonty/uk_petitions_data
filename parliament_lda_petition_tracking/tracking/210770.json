@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835788/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835788/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835788/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835788/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835788/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/951729",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-01T23:00:01.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835788",
+                    "label": {
+                        "_value": "Have Friday , Saturday and Sunday as a day of for all school children."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/896061",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-01T19:26:22.561Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835788",
+                    "label": {
+                        "_value": "Have Friday , Saturday and Sunday as a day of for all school children."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894120",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-28T12:58:21.888Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835788",
+                    "label": {
+                        "_value": "Have Friday , Saturday and Sunday as a day of for all school children."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/870094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-22T18:40:58.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835788",
+                    "label": {
+                        "_value": "Have Friday , Saturday and Sunday as a day of for all school children."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/837156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-03T10:23:18.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835788",
+                    "label": {
+                        "_value": "Have Friday , Saturday and Sunday as a day of for all school children."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835789",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-01T19:18:04.114Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835788",
+                    "label": {
+                        "_value": "Have Friday , Saturday and Sunday as a day of for all school children."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

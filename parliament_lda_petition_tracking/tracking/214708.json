@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/866973/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/866973/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/866973/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/866973/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/866973/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-19T23:00:02.539Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866973",
+                    "label": {
+                        "_value": "5 year driving ban for speads in excess of 10mph over the specified limit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933545",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-26T12:53:32.677Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866973",
+                    "label": {
+                        "_value": "5 year driving ban for speads in excess of 10mph over the specified limit."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913739",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T15:30:47.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866973",
+                    "label": {
+                        "_value": "5 year driving ban for speads in excess of 10mph over the specified limit."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/897053",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-02T13:48:35.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866973",
+                    "label": {
+                        "_value": "5 year driving ban for speads in excess of 10mph over the specified limit."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/866974",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-19T17:55:35.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/866973",
+                    "label": {
+                        "_value": "5 year driving ban for speads in excess of 10mph over the specified limit."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

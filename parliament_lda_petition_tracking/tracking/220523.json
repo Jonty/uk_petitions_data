@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/915706/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/915706/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/915706/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/915706/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/915706/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1018762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-02T00:00:06.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/915706",
+                    "label": {
+                        "_value": "Extend the Culture Secretary's recent FOBT decision to cover online casino games"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/917048",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-04T07:06:47.947Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/915706",
+                    "label": {
+                        "_value": "Extend the Culture Secretary's recent FOBT decision to cover online casino games"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/916111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-01T21:07:57.571Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/915706",
+                    "label": {
+                        "_value": "Extend the Culture Secretary's recent FOBT decision to cover online casino games"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/915707",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-01T20:05:54.597Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/915706",
+                    "label": {
+                        "_value": "Extend the Culture Secretary's recent FOBT decision to cover online casino games"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

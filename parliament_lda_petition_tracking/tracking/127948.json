@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543285/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543285/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543285/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543285/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543285/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733293",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.196Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543285",
+                    "label": {
+                        "_value": "Parliament to make Companies in UK offer Royal mail rates and courier rates."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603695",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543285",
+                    "label": {
+                        "_value": "Parliament to make Companies in UK offer Royal mail rates and courier rates."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591756",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T03:03:24.597Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543285",
+                    "label": {
+                        "_value": "Parliament to make Companies in UK offer Royal mail rates and courier rates."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543286",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543285",
+                    "label": {
+                        "_value": "Parliament to make Companies in UK offer Royal mail rates and courier rates."
+                    }
+                },
+                "numberOfSignatures": 69
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

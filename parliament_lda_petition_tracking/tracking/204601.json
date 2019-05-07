@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/787686/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/787686/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/787686/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/787686/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/787686/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/902835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-10T23:00:04.172Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/829248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-23T14:47:59.921Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/801609",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-05T10:23:14.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/793856",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-22T00:42:32.749Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/791593",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-17T10:52:42.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/789846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-14T19:13:27.003Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/787687",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-10T18:52:35.599Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/787686",
+                    "label": {
+                        "_value": "Ban spice!"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

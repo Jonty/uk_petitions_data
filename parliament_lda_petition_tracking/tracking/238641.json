@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1051188/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1051188/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1051188/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1051188/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1051188/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1062858",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T08:32:40.671Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051188",
+                    "label": {
+                        "_value": "Put a limit on the amount of homework students can be given in a week."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-03T20:07:53.093Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051188",
+                    "label": {
+                        "_value": "Put a limit on the amount of homework students can be given in a week."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1051189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-29T16:37:05.622Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051188",
+                    "label": {
+                        "_value": "Put a limit on the amount of homework students can be given in a week."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

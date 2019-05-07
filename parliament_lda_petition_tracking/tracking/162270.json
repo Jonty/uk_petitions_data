@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551371/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551371/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551371/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551371/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551371/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/573263",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T13:02:11.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551371",
+                    "label": {
+                        "_value": "Close schools when temperature reaches 30 Degrees Celsius."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551372",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T16:27:14.617Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551371",
+                    "label": {
+                        "_value": "Close schools when temperature reaches 30 Degrees Celsius."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

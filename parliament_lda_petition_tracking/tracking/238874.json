@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1057672/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1057672/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1057672/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1057672/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1057672/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:10:52.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057672",
+                    "label": {
+                        "_value": "Increase the Minimum wage for Under 18's, because it is too low to cover costs"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T23:33:55.454Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057672",
+                    "label": {
+                        "_value": "Increase the Minimum wage for Under 18's, because it is too low to cover costs"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057673",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-07T22:32:01.801Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1057672",
+                    "label": {
+                        "_value": "Increase the Minimum wage for Under 18's, because it is too low to cover costs"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

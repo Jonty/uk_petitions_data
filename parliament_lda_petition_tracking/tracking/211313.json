@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/841132/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/841132/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/841132/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/841132/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/841132/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/953166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-05T23:00:01.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841132",
+                    "label": {
+                        "_value": "Cyclists to wear mandatory cycling helmet, high viz vest and front light."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930243",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T11:27:55.122Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841132",
+                    "label": {
+                        "_value": "Cyclists to wear mandatory cycling helmet, high viz vest and front light."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/877878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-03T10:27:05.748Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841132",
+                    "label": {
+                        "_value": "Cyclists to wear mandatory cycling helmet, high viz vest and front light."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/847650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-22T21:46:50.392Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841132",
+                    "label": {
+                        "_value": "Cyclists to wear mandatory cycling helmet, high viz vest and front light."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/845329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-20T09:19:46.165Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841132",
+                    "label": {
+                        "_value": "Cyclists to wear mandatory cycling helmet, high viz vest and front light."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-05T18:16:50.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/841132",
+                    "label": {
+                        "_value": "Cyclists to wear mandatory cycling helmet, high viz vest and front light."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

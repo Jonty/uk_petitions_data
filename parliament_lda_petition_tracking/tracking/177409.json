@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/717501/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/717501/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/717501/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/717501/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/717501/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/732751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-06-15T12:18:47.321Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717501",
+                    "label": {
+                        "_value": "We want the UK Government to ban the sale of all arms to Israel"
+                    }
+                },
+                "numberOfSignatures": 2321
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/726114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:14.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717501",
+                    "label": {
+                        "_value": "We want the UK Government to ban the sale of all arms to Israel"
+                    }
+                },
+                "numberOfSignatures": 2320
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719551",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T09:51:42.886Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717501",
+                    "label": {
+                        "_value": "We want the UK Government to ban the sale of all arms to Israel"
+                    }
+                },
+                "numberOfSignatures": 2304
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/717502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-01T17:45:49.408Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717501",
+                    "label": {
+                        "_value": "We want the UK Government to ban the sale of all arms to Israel"
+                    }
+                },
+                "numberOfSignatures": 2299
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

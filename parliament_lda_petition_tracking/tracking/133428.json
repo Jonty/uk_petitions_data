@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550167/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550167/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550167/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550167/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550167/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/636956",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-15T07:39:59.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550167",
+                    "label": {
+                        "_value": "Make it illegal for workers in dog shelters to kill unwanted dogs."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T21:09:05.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550167",
+                    "label": {
+                        "_value": "Make it illegal for workers in dog shelters to kill unwanted dogs."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599551",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T18:47:18.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550167",
+                    "label": {
+                        "_value": "Make it illegal for workers in dog shelters to kill unwanted dogs."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T14:54:50.250Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550167",
+                    "label": {
+                        "_value": "Make it illegal for workers in dog shelters to kill unwanted dogs."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-06T11:32:42.270Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550167",
+                    "label": {
+                        "_value": "Make it illegal for workers in dog shelters to kill unwanted dogs."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459685/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459685/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459685/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459685/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459685/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/716037",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:49.932Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459685",
+                    "label": {
+                        "_value": "Allow transgender people to self-define their legal gender"
+                    }
+                },
+                "numberOfSignatures": 35352
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T15:25:48.753Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459685",
+                    "label": {
+                        "_value": "Allow transgender people to self-define their legal gender"
+                    }
+                },
+                "numberOfSignatures": 35352
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529481",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459685",
+                    "label": {
+                        "_value": "Allow transgender people to self-define their legal gender"
+                    }
+                },
+                "numberOfSignatures": 35352
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/525950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-12T11:15:19.386Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459685",
+                    "label": {
+                        "_value": "Allow transgender people to self-define their legal gender"
+                    }
+                },
+                "numberOfSignatures": 35351
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:09:06.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459685",
+                    "label": {
+                        "_value": "Allow transgender people to self-define their legal gender"
+                    }
+                },
+                "numberOfSignatures": 35353
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

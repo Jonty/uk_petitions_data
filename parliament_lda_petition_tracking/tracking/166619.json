@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/586958/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/586958/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/586958/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/586958/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/586958/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/618427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T09:43:07.862Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586958",
+                    "label": {
+                        "_value": "Hold a referendum to see if UK citizens wish to keep all their current rights."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T07:21:18.954Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586958",
+                    "label": {
+                        "_value": "Hold a referendum to see if UK citizens wish to keep all their current rights."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T14:07:48.710Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586958",
+                    "label": {
+                        "_value": "Hold a referendum to see if UK citizens wish to keep all their current rights."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

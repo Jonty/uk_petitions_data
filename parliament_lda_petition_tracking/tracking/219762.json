@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/907052/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/907052/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/907052/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/907052/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/907052/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1009531",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T00:00:02.811Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907052",
+                    "label": {
+                        "_value": "Make a new law to protect independent shops from competing chain supermarkets"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/972175",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-11T07:55:18.091Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907052",
+                    "label": {
+                        "_value": "Make a new law to protect independent shops from competing chain supermarkets"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930791",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-24T11:35:16.324Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907052",
+                    "label": {
+                        "_value": "Make a new law to protect independent shops from competing chain supermarkets"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T17:45:21.792Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907052",
+                    "label": {
+                        "_value": "Make a new law to protect independent shops from competing chain supermarkets"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/912895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-26T20:38:57.222Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907052",
+                    "label": {
+                        "_value": "Make a new law to protect independent shops from competing chain supermarkets"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/907053",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-17T13:44:07.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/907052",
+                    "label": {
+                        "_value": "Make a new law to protect independent shops from competing chain supermarkets"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

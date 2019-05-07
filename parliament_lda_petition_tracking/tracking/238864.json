@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1060422/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1060422/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1060422/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1060422/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1060422/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1083329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T21:43:22.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060422",
+                    "label": {
+                        "_value": "Mandatory minimum life sentence for rape"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-28T11:52:56.464Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060422",
+                    "label": {
+                        "_value": "Mandatory minimum life sentence for rape"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T12:52:03.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060422",
+                    "label": {
+                        "_value": "Mandatory minimum life sentence for rape"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076154",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:47:53.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060422",
+                    "label": {
+                        "_value": "Mandatory minimum life sentence for rape"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060423",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T11:29:36.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060422",
+                    "label": {
+                        "_value": "Mandatory minimum life sentence for rape"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

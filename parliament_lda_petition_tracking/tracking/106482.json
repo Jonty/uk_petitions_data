@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462286/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462286/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462286/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462286/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462286/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:53.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462286",
+                    "label": {
+                        "_value": "FREE KURDISTAN\nUK government to support Kurdish independence."
+                    }
+                },
+                "numberOfSignatures": 141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462286",
+                    "label": {
+                        "_value": "FREE KURDISTAN\nUK government to support Kurdish independence."
+                    }
+                },
+                "numberOfSignatures": 141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462287",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T00:00:04.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462286",
+                    "label": {
+                        "_value": "FREE KURDISTAN\nUK government to support Kurdish independence."
+                    }
+                },
+                "numberOfSignatures": 141
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

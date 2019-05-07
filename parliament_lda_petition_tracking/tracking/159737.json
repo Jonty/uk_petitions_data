@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543587/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543587/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543587/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543587/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543587/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733393",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543587",
+                    "label": {
+                        "_value": "Reduce 6 weeks hols to 5, let kids chose their 6th week."
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583566",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T15:51:36.321Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543587",
+                    "label": {
+                        "_value": "Reduce 6 weeks hols to 5, let kids chose their 6th week."
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555525",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T22:31:24.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543587",
+                    "label": {
+                        "_value": "Reduce 6 weeks hols to 5, let kids chose their 6th week."
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553328",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T16:12:58.761Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543587",
+                    "label": {
+                        "_value": "Reduce 6 weeks hols to 5, let kids chose their 6th week."
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543588",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T17:47:27.099Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543587",
+                    "label": {
+                        "_value": "Reduce 6 weeks hols to 5, let kids chose their 6th week."
+                    }
+                },
+                "numberOfSignatures": 55
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

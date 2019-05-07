@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/655560/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/655560/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/655560/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/655560/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/655560/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655560",
+                    "label": {
+                        "_value": "Eliminate the state pension & benefits to pay for the costs of brexit"
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/661075",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-16T18:29:49.441Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655560",
+                    "label": {
+                        "_value": "Eliminate the state pension & benefits to pay for the costs of brexit"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T05:52:19.511Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655560",
+                    "label": {
+                        "_value": "Eliminate the state pension & benefits to pay for the costs of brexit"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655561",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T22:02:16.631Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/655560",
+                    "label": {
+                        "_value": "Eliminate the state pension & benefits to pay for the costs of brexit"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

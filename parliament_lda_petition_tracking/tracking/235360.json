@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1030103/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1030103/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1030103/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1030103/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1030103/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1084904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-08T16:35:14.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1043616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-17T13:05:09.222Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1042853",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-15T22:14:19.165Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T08:14:21.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1031959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-25T11:53:35.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030618",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T17:07:47.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-20T21:09:08.144Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1030103",
+                    "label": {
+                        "_value": "Put the negotiated Brexit deal to the electorate."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

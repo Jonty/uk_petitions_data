@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/809529/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/809529/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/809529/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/809529/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/809529/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/928518",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-19T23:00:00.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809529",
+                    "label": {
+                        "_value": "Put a revenue tax on all retail sales in the UK."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/817963",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-07T05:59:53.124Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809529",
+                    "label": {
+                        "_value": "Put a revenue tax on all retail sales in the UK."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/814268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-31T19:37:01.026Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809529",
+                    "label": {
+                        "_value": "Put a revenue tax on all retail sales in the UK."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/811650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-21T22:31:36.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809529",
+                    "label": {
+                        "_value": "Put a revenue tax on all retail sales in the UK."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/809530",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-19T16:30:35.827Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/809529",
+                    "label": {
+                        "_value": "Put a revenue tax on all retail sales in the UK."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

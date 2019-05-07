@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/507553/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/507553/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/507553/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/507553/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/507553/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/597658",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507553",
+                    "label": {
+                        "_value": "Force all motorcycle delivery riders to pass a full UK motorcycle driving test"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580105",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T08:38:17.728Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507553",
+                    "label": {
+                        "_value": "Force all motorcycle delivery riders to pass a full UK motorcycle driving test"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T07:25:18.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507553",
+                    "label": {
+                        "_value": "Force all motorcycle delivery riders to pass a full UK motorcycle driving test"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T11:55:03.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507553",
+                    "label": {
+                        "_value": "Force all motorcycle delivery riders to pass a full UK motorcycle driving test"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508242",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T18:29:10.016Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507553",
+                    "label": {
+                        "_value": "Force all motorcycle delivery riders to pass a full UK motorcycle driving test"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507554",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T18:34:49.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507553",
+                    "label": {
+                        "_value": "Force all motorcycle delivery riders to pass a full UK motorcycle driving test"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

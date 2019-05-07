@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549175/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549175/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549175/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549175/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549175/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735822",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:24.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549175",
+                    "label": {
+                        "_value": "Hold an EU referendum for British expatriates."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/580616",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T22:01:26.050Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549175",
+                    "label": {
+                        "_value": "Hold an EU referendum for British expatriates."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564917",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T16:00:06.172Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549175",
+                    "label": {
+                        "_value": "Hold an EU referendum for British expatriates."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558030",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T00:02:53.753Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549175",
+                    "label": {
+                        "_value": "Hold an EU referendum for British expatriates."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549176",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T11:21:58.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549175",
+                    "label": {
+                        "_value": "Hold an EU referendum for British expatriates."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

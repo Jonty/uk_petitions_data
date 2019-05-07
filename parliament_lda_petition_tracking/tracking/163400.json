@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553502/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553502/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553502/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553502/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553502/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/573099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:03:32.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553502",
+                    "label": {
+                        "_value": "Make fast food, take aways & restaurants clearly lable items containing alcohol"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553503",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T14:06:03.711Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553502",
+                    "label": {
+                        "_value": "Make fast food, take aways & restaurants clearly lable items containing alcohol"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/673224/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/673224/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/673224/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/673224/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/673224/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727481",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:11.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673224",
+                    "label": {
+                        "_value": "Introduce legislation to make all strike action on the railways illegal."
+                    }
+                },
+                "numberOfSignatures": 402
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686465",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-07T19:53:59.306Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673224",
+                    "label": {
+                        "_value": "Introduce legislation to make all strike action on the railways illegal."
+                    }
+                },
+                "numberOfSignatures": 376
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/682080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-31T08:43:28.602Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673224",
+                    "label": {
+                        "_value": "Introduce legislation to make all strike action on the railways illegal."
+                    }
+                },
+                "numberOfSignatures": 366
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/680705",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-29T22:31:06.146Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673224",
+                    "label": {
+                        "_value": "Introduce legislation to make all strike action on the railways illegal."
+                    }
+                },
+                "numberOfSignatures": 362
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/676504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-17T22:06:54.968Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673224",
+                    "label": {
+                        "_value": "Introduce legislation to make all strike action on the railways illegal."
+                    }
+                },
+                "numberOfSignatures": 357
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/673225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-13T13:53:35.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/673224",
+                    "label": {
+                        "_value": "Introduce legislation to make all strike action on the railways illegal."
+                    }
+                },
+                "numberOfSignatures": 340
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

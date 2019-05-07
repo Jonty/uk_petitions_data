@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462164/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462164/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462164/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462164/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462164/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728654",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.183Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462164",
+                    "label": {
+                        "_value": "Prevent any council from charging elderly if they need assistance"
+                    }
+                },
+                "numberOfSignatures": 163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538410",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462164",
+                    "label": {
+                        "_value": "Prevent any council from charging elderly if they need assistance"
+                    }
+                },
+                "numberOfSignatures": 163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527698",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-19T00:00:04.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462164",
+                    "label": {
+                        "_value": "Prevent any council from charging elderly if they need assistance"
+                    }
+                },
+                "numberOfSignatures": 163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505807",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T03:21:05.778Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462164",
+                    "label": {
+                        "_value": "Prevent any council from charging elderly if they need assistance"
+                    }
+                },
+                "numberOfSignatures": 163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480209",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:16:36.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462164",
+                    "label": {
+                        "_value": "Prevent any council from charging elderly if they need assistance"
+                    }
+                },
+                "numberOfSignatures": 162
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T19:27:37.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462164",
+                    "label": {
+                        "_value": "Prevent any council from charging elderly if they need assistance"
+                    }
+                },
+                "numberOfSignatures": 161
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

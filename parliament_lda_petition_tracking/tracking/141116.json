@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549187/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549187/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549187/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549187/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549187/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:29:15.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549187",
+                    "label": {
+                        "_value": "Lower the Voting Age to 15 so 15-17 year olds can vote."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T00:49:18.135Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549187",
+                    "label": {
+                        "_value": "Lower the Voting Age to 15 so 15-17 year olds can vote."
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

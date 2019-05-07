@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645693/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645693/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645693/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645693/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645693/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.072Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645693",
+                    "label": {
+                        "_value": "Legal minimum age to enter into marriage in UK to change from 16 to 18 years."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T16:56:54.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645693",
+                    "label": {
+                        "_value": "Legal minimum age to enter into marriage in UK to change from 16 to 18 years."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T21:36:48.527Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645693",
+                    "label": {
+                        "_value": "Legal minimum age to enter into marriage in UK to change from 16 to 18 years."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T19:29:50.530Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645693",
+                    "label": {
+                        "_value": "Legal minimum age to enter into marriage in UK to change from 16 to 18 years."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645694",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T21:36:08.390Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645693",
+                    "label": {
+                        "_value": "Legal minimum age to enter into marriage in UK to change from 16 to 18 years."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

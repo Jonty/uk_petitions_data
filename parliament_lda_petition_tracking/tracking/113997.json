@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465149/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465149/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465149/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465149/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465149/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548975",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465149",
+                    "label": {
+                        "_value": "Scrap all fossil fuel consumption by 2030 and replace it with renewable energy."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502777",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T18:58:51.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465149",
+                    "label": {
+                        "_value": "Scrap all fossil fuel consumption by 2030 and replace it with renewable energy."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465150",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-06T23:04:33.682Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465149",
+                    "label": {
+                        "_value": "Scrap all fossil fuel consumption by 2030 and replace it with renewable energy."
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

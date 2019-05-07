@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543640/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543640/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543640/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543640/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543640/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733681",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:28.437Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543640",
+                    "label": {
+                        "_value": "Independent review on which voting system delivers the greatest representation."
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T17:03:32.809Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543640",
+                    "label": {
+                        "_value": "Independent review on which voting system delivers the greatest representation."
+                    }
+                },
+                "numberOfSignatures": 57
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T23:16:09.843Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543640",
+                    "label": {
+                        "_value": "Independent review on which voting system delivers the greatest representation."
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578210",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T22:57:37.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543640",
+                    "label": {
+                        "_value": "Independent review on which voting system delivers the greatest representation."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547315",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T17:02:04.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543640",
+                    "label": {
+                        "_value": "Independent review on which voting system delivers the greatest representation."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543641",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T12:57:33.318Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543640",
+                    "label": {
+                        "_value": "Independent review on which voting system delivers the greatest representation."
+                    }
+                },
+                "numberOfSignatures": 53
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

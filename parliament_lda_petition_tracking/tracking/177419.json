@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/676635/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/676635/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/676635/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/676635/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/676635/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:14.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676635",
+                    "label": {
+                        "_value": "Reinstate Legal Aid for family law matters."
+                    }
+                },
+                "numberOfSignatures": 308
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-07T14:22:47.587Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676635",
+                    "label": {
+                        "_value": "Reinstate Legal Aid for family law matters."
+                    }
+                },
+                "numberOfSignatures": 292
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/682134",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-31T23:34:24.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676635",
+                    "label": {
+                        "_value": "Reinstate Legal Aid for family law matters."
+                    }
+                },
+                "numberOfSignatures": 287
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/676636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-01-20T22:19:42.591Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/676635",
+                    "label": {
+                        "_value": "Reinstate Legal Aid for family law matters."
+                    }
+                },
+                "numberOfSignatures": 196
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

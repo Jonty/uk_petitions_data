@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/793869/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/793869/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/793869/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/793869/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/793869/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/801618",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-05T04:11:16.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793869",
+                    "label": {
+                        "_value": "Scrap Vehicle Excise Duty (car tax), get the revenue by increasing tax on petrol"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/796581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-28T16:32:26.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793869",
+                    "label": {
+                        "_value": "Scrap Vehicle Excise Duty (car tax), get the revenue by increasing tax on petrol"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/794950",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-23T12:48:40.564Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793869",
+                    "label": {
+                        "_value": "Scrap Vehicle Excise Duty (car tax), get the revenue by increasing tax on petrol"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/793870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-22T16:27:00.893Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793869",
+                    "label": {
+                        "_value": "Scrap Vehicle Excise Duty (car tax), get the revenue by increasing tax on petrol"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466969/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466969/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466969/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466969/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466969/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/580647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466969",
+                    "label": {
+                        "_value": "Abolish PFI contracts in the NHS"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T20:32:31.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466969",
+                    "label": {
+                        "_value": "Abolish PFI contracts in the NHS"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-20T17:39:00.904Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466969",
+                    "label": {
+                        "_value": "Abolish PFI contracts in the NHS"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466970",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T11:46:14.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466969",
+                    "label": {
+                        "_value": "Abolish PFI contracts in the NHS"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550382/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550382/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550382/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550382/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550382/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645778",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:21:20.105Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550382",
+                    "label": {
+                        "_value": "Introduce a complaints commission that holds the UK press truly accountable"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T15:05:40.775Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550382",
+                    "label": {
+                        "_value": "Introduce a complaints commission that holds the UK press truly accountable"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:28:17.973Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550382",
+                    "label": {
+                        "_value": "Introduce a complaints commission that holds the UK press truly accountable"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T15:26:47.833Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550382",
+                    "label": {
+                        "_value": "Introduce a complaints commission that holds the UK press truly accountable"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

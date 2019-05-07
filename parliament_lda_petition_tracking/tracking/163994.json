@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/557439/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/557439/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/557439/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/557439/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/557439/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T12:14:48.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557439",
+                    "label": {
+                        "_value": "To start the Tax Office and Government standard tax year from the 1st January."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557440",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T15:49:10.975Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557439",
+                    "label": {
+                        "_value": "To start the Tax Office and Government standard tax year from the 1st January."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

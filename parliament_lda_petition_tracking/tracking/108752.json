@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461382/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461382/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461382/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461382/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461382/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727412",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.317Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461382",
+                    "label": {
+                        "_value": "Launch an inquiry into BBC funding"
+                    }
+                },
+                "numberOfSignatures": 435
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/531349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461382",
+                    "label": {
+                        "_value": "Launch an inquiry into BBC funding"
+                    }
+                },
+                "numberOfSignatures": 435
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483800",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T00:00:09.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461382",
+                    "label": {
+                        "_value": "Launch an inquiry into BBC funding"
+                    }
+                },
+                "numberOfSignatures": 435
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481176",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T18:11:50.725Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461382",
+                    "label": {
+                        "_value": "Launch an inquiry into BBC funding"
+                    }
+                },
+                "numberOfSignatures": 435
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480102",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T03:19:07.718Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461382",
+                    "label": {
+                        "_value": "Launch an inquiry into BBC funding"
+                    }
+                },
+                "numberOfSignatures": 434
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T00:09:16.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461382",
+                    "label": {
+                        "_value": "Launch an inquiry into BBC funding"
+                    }
+                },
+                "numberOfSignatures": 433
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549638/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549638/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549638/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549638/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549638/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:11:12.169Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549638",
+                    "label": {
+                        "_value": "Define rights of EU citizens currently living in Britain after leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T06:26:21.285Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549638",
+                    "label": {
+                        "_value": "Define rights of EU citizens currently living in Britain after leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T21:22:33.198Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549638",
+                    "label": {
+                        "_value": "Define rights of EU citizens currently living in Britain after leaving the EU"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

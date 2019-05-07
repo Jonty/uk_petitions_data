@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062737/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062737/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062737/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062737/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062737/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094031",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:12.917Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062737",
+                    "label": {
+                        "_value": "Extend maternity protection to returning mothers."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T19:31:56.327Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062737",
+                    "label": {
+                        "_value": "Extend maternity protection to returning mothers."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079176",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T15:47:37.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062737",
+                    "label": {
+                        "_value": "Extend maternity protection to returning mothers."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T19:50:40.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062737",
+                    "label": {
+                        "_value": "Extend maternity protection to returning mothers."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T13:08:20.937Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062737",
+                    "label": {
+                        "_value": "Extend maternity protection to returning mothers."
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

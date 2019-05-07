@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1055666/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1055666/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1055666/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1055666/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1055666/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107017",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T15:55:21.909Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1055666",
+                    "label": {
+                        "_value": "Introduce a legal age restriction on the use of smart phones."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075835",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-19T16:38:31.887Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1055666",
+                    "label": {
+                        "_value": "Introduce a legal age restriction on the use of smart phones."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1057590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T16:12:37.171Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1055666",
+                    "label": {
+                        "_value": "Introduce a legal age restriction on the use of smart phones."
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1056472",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-06T21:20:59.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1055666",
+                    "label": {
+                        "_value": "Introduce a legal age restriction on the use of smart phones."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1055667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-05T21:58:04.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1055666",
+                    "label": {
+                        "_value": "Introduce a legal age restriction on the use of smart phones."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

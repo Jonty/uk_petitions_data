@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543187/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543187/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543187/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543187/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543187/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:16.851Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543187",
+                    "label": {
+                        "_value": "Hold a debate concerning change in the financing of the Royal Family"
+                    }
+                },
+                "numberOfSignatures": 78
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543187",
+                    "label": {
+                        "_value": "Hold a debate concerning change in the financing of the Royal Family"
+                    }
+                },
+                "numberOfSignatures": 78
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559628",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T14:27:05.908Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543187",
+                    "label": {
+                        "_value": "Hold a debate concerning change in the financing of the Royal Family"
+                    }
+                },
+                "numberOfSignatures": 78
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543187",
+                    "label": {
+                        "_value": "Hold a debate concerning change in the financing of the Royal Family"
+                    }
+                },
+                "numberOfSignatures": 76
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

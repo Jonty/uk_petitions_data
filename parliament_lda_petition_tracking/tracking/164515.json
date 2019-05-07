@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/558649/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/558649/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/558649/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/558649/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/558649/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:31.389Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558649",
+                    "label": {
+                        "_value": "Stop legally classifying pets as property."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:08:53.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558649",
+                    "label": {
+                        "_value": "Stop legally classifying pets as property."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574941",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:00:29.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558649",
+                    "label": {
+                        "_value": "Stop legally classifying pets as property."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-12T20:59:25.984Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558649",
+                    "label": {
+                        "_value": "Stop legally classifying pets as property."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-10T20:46:58.793Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/558649",
+                    "label": {
+                        "_value": "Stop legally classifying pets as property."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

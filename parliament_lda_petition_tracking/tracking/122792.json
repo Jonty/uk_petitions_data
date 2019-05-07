@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464003/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464003/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464003/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464003/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464003/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734656",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464003",
+                    "label": {
+                        "_value": "Make it illegal for anyone to use images of service men without consent"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464003",
+                    "label": {
+                        "_value": "Make it illegal for anyone to use images of service men without consent"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T13:41:13.279Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464003",
+                    "label": {
+                        "_value": "Make it illegal for anyone to use images of service men without consent"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T08:57:49.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464003",
+                    "label": {
+                        "_value": "Make it illegal for anyone to use images of service men without consent"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T14:00:38.419Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464003",
+                    "label": {
+                        "_value": "Make it illegal for anyone to use images of service men without consent"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

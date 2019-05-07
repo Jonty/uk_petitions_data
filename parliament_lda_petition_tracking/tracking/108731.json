@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461004/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461004/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461004/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461004/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461004/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.271Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461004",
+                    "label": {
+                        "_value": "For Government to make it law for the media to produce unbiased  news reports"
+                    }
+                },
+                "numberOfSignatures": 732
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/530534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461004",
+                    "label": {
+                        "_value": "For Government to make it law for the media to produce unbiased  news reports"
+                    }
+                },
+                "numberOfSignatures": 732
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481126",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T00:00:06.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461004",
+                    "label": {
+                        "_value": "For Government to make it law for the media to produce unbiased  news reports"
+                    }
+                },
+                "numberOfSignatures": 732
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T22:28:05.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461004",
+                    "label": {
+                        "_value": "For Government to make it law for the media to produce unbiased  news reports"
+                    }
+                },
+                "numberOfSignatures": 732
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461005",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T21:05:33.887Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461004",
+                    "label": {
+                        "_value": "For Government to make it law for the media to produce unbiased  news reports"
+                    }
+                },
+                "numberOfSignatures": 731
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/490114/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/490114/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/490114/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/490114/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/490114/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490114",
+                    "label": {
+                        "_value": "Make all public houses in Nottinghamshire wheelchair accessible."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T13:48:22.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490114",
+                    "label": {
+                        "_value": "Make all public houses in Nottinghamshire wheelchair accessible."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549416",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490114",
+                    "label": {
+                        "_value": "Make all public houses in Nottinghamshire wheelchair accessible."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T11:50:38.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490114",
+                    "label": {
+                        "_value": "Make all public houses in Nottinghamshire wheelchair accessible."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T14:26:11.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/490114",
+                    "label": {
+                        "_value": "Make all public houses in Nottinghamshire wheelchair accessible."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

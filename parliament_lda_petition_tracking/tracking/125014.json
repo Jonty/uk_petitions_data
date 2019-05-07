@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482116/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482116/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482116/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482116/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482116/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/587912",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482116",
+                    "label": {
+                        "_value": "Stop the closure of malling health at telford town centre"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482116",
+                    "label": {
+                        "_value": "Stop the closure of malling health at telford town centre"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T12:03:28.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482116",
+                    "label": {
+                        "_value": "Stop the closure of malling health at telford town centre"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482872",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T20:02:36.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482116",
+                    "label": {
+                        "_value": "Stop the closure of malling health at telford town centre"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482117",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T17:15:25.874Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482116",
+                    "label": {
+                        "_value": "Stop the closure of malling health at telford town centre"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

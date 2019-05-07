@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1090803/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1090803/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1090803/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1090803/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1090803/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T23:45:01.171Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090803",
+                    "label": {
+                        "_value": "Set up a Public Inquiry into Greater Manchester Police (GMP)"
+                    }
+                },
+                "numberOfSignatures": 396
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T00:33:23.521Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090803",
+                    "label": {
+                        "_value": "Set up a Public Inquiry into Greater Manchester Police (GMP)"
+                    }
+                },
+                "numberOfSignatures": 343
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090803",
+                    "label": {
+                        "_value": "Set up a Public Inquiry into Greater Manchester Police (GMP)"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T00:18:16.063Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090803",
+                    "label": {
+                        "_value": "Set up a Public Inquiry into Greater Manchester Police (GMP)"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T22:43:17.431Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090803",
+                    "label": {
+                        "_value": "Set up a Public Inquiry into Greater Manchester Police (GMP)"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090804",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-18T21:33:44.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1090803",
+                    "label": {
+                        "_value": "Set up a Public Inquiry into Greater Manchester Police (GMP)"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

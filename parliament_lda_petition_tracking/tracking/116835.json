@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463661/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463661/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463661/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463661/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463661/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.467Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463661",
+                    "label": {
+                        "_value": "Allow members of the Cabinet to campaign freely on the EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543820",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T09:16:08.110Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463661",
+                    "label": {
+                        "_value": "Allow members of the Cabinet to campaign freely on the EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T03:47:46.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463661",
+                    "label": {
+                        "_value": "Allow members of the Cabinet to campaign freely on the EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 45
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T13:48:32.096Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463661",
+                    "label": {
+                        "_value": "Allow members of the Cabinet to campaign freely on the EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T23:35:33.464Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463661",
+                    "label": {
+                        "_value": "Allow members of the Cabinet to campaign freely on the EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T00:48:08.319Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463661",
+                    "label": {
+                        "_value": "Allow members of the Cabinet to campaign freely on the EU referendum vote."
+                    }
+                },
+                "numberOfSignatures": 42
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

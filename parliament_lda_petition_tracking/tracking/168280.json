@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/594431/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/594431/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/594431/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/594431/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/594431/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T23:00:01.369Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594431",
+                    "label": {
+                        "_value": "All products with gelatine must be labelled clearly,animal or vegetable gelatine"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-20T20:02:48.816Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594431",
+                    "label": {
+                        "_value": "All products with gelatine must be labelled clearly,animal or vegetable gelatine"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T20:48:30.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594431",
+                    "label": {
+                        "_value": "All products with gelatine must be labelled clearly,animal or vegetable gelatine"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T19:20:36.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594431",
+                    "label": {
+                        "_value": "All products with gelatine must be labelled clearly,animal or vegetable gelatine"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T21:47:34.422Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594431",
+                    "label": {
+                        "_value": "All products with gelatine must be labelled clearly,animal or vegetable gelatine"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T13:57:01.438Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/594431",
+                    "label": {
+                        "_value": "All products with gelatine must be labelled clearly,animal or vegetable gelatine"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

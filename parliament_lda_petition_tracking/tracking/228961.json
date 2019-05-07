@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977780/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977780/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977780/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977780/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977780/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107568",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T00:00:00.873Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977780",
+                    "label": {
+                        "_value": "Ban body-shaming and bullying in magazines and newspapers"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090280",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T15:17:30.068Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977780",
+                    "label": {
+                        "_value": "Ban body-shaming and bullying in magazines and newspapers"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:35:55.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977780",
+                    "label": {
+                        "_value": "Ban body-shaming and bullying in magazines and newspapers"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1048871",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-26T12:42:47.082Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977780",
+                    "label": {
+                        "_value": "Ban body-shaming and bullying in magazines and newspapers"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1013615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-23T11:28:54.781Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977780",
+                    "label": {
+                        "_value": "Ban body-shaming and bullying in magazines and newspapers"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977781",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-25T15:06:49.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977780",
+                    "label": {
+                        "_value": "Ban body-shaming and bullying in magazines and newspapers"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

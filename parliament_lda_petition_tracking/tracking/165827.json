@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/571837/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/571837/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/571837/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/571837/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/571837/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/643580",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T22:33:25.747Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571837",
+                    "label": {
+                        "_value": "Tougher law on paedophiles,prison sentences in category  of manslaughter"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625742",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-30T23:46:19.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571837",
+                    "label": {
+                        "_value": "Tougher law on paedophiles,prison sentences in category  of manslaughter"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T10:04:47.073Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571837",
+                    "label": {
+                        "_value": "Tougher law on paedophiles,prison sentences in category  of manslaughter"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575008",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T15:20:55.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571837",
+                    "label": {
+                        "_value": "Tougher law on paedophiles,prison sentences in category  of manslaughter"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T17:16:04.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571837",
+                    "label": {
+                        "_value": "Tougher law on paedophiles,prison sentences in category  of manslaughter"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T18:11:59.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571837",
+                    "label": {
+                        "_value": "Tougher law on paedophiles,prison sentences in category  of manslaughter"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

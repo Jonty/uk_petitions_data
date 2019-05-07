@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/984236/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/984236/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/984236/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/984236/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/984236/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T04:10:37.363Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984236",
+                    "label": {
+                        "_value": "Set up a single tribunal service for all public services complaints/ grievances."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:38:27.191Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984236",
+                    "label": {
+                        "_value": "Set up a single tribunal service for all public services complaints/ grievances."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033587",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:13:24.539Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984236",
+                    "label": {
+                        "_value": "Set up a single tribunal service for all public services complaints/ grievances."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-01T05:30:38.752Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984236",
+                    "label": {
+                        "_value": "Set up a single tribunal service for all public services complaints/ grievances."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/985515",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T11:57:46.199Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984236",
+                    "label": {
+                        "_value": "Set up a single tribunal service for all public services complaints/ grievances."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/984237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T16:18:48.279Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/984236",
+                    "label": {
+                        "_value": "Set up a single tribunal service for all public services complaints/ grievances."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

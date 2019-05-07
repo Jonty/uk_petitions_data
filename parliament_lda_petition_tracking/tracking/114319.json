@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463141/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463141/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463141/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463141/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463141/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733266",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.452Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463141",
+                    "label": {
+                        "_value": "Free freeview Television for Children in hospital"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463141",
+                    "label": {
+                        "_value": "Free freeview Television for Children in hospital"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480324",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:03:16.606Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463141",
+                    "label": {
+                        "_value": "Free freeview Television for Children in hospital"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T19:03:48.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463141",
+                    "label": {
+                        "_value": "Free freeview Television for Children in hospital"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T21:05:40.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463141",
+                    "label": {
+                        "_value": "Free freeview Television for Children in hospital"
+                    }
+                },
+                "numberOfSignatures": 61
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

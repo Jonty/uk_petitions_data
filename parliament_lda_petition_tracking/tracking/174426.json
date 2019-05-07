@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/659023/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/659023/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/659023/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/659023/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/659023/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659023",
+                    "label": {
+                        "_value": "GOVT Ban all existing & proposed PSPOs affecting quality of life of dog owners"
+                    }
+                },
+                "numberOfSignatures": 254
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-29T17:43:14.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659023",
+                    "label": {
+                        "_value": "GOVT Ban all existing & proposed PSPOs affecting quality of life of dog owners"
+                    }
+                },
+                "numberOfSignatures": 163
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/660983",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-17T07:51:01.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659023",
+                    "label": {
+                        "_value": "GOVT Ban all existing & proposed PSPOs affecting quality of life of dog owners"
+                    }
+                },
+                "numberOfSignatures": 161
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659024",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-14T11:50:43.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/659023",
+                    "label": {
+                        "_value": "GOVT Ban all existing & proposed PSPOs affecting quality of life of dog owners"
+                    }
+                },
+                "numberOfSignatures": 153
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548782/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548782/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548782/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548782/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548782/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735961",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.836Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548782",
+                    "label": {
+                        "_value": "Call for an early election with support for proportional representation."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T17:40:14.622Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548782",
+                    "label": {
+                        "_value": "Call for an early election with support for proportional representation."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T18:41:03.002Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548782",
+                    "label": {
+                        "_value": "Call for an early election with support for proportional representation."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621813",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T17:00:31.266Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548782",
+                    "label": {
+                        "_value": "Call for an early election with support for proportional representation."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602576",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T20:38:54.723Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548782",
+                    "label": {
+                        "_value": "Call for an early election with support for proportional representation."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548783",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T13:09:18.148Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548782",
+                    "label": {
+                        "_value": "Call for an early election with support for proportional representation."
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

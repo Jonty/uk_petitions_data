@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640236/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640236/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640236/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640236/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640236/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734989",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.309Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640236",
+                    "label": {
+                        "_value": "All HGVs and PCVs on british roads to have driver monitoring technology"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T15:37:18.420Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640236",
+                    "label": {
+                        "_value": "All HGVs and PCVs on british roads to have driver monitoring technology"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645632",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T12:15:39.998Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640236",
+                    "label": {
+                        "_value": "All HGVs and PCVs on british roads to have driver monitoring technology"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643570",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T20:27:56.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640236",
+                    "label": {
+                        "_value": "All HGVs and PCVs on british roads to have driver monitoring technology"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640237",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T13:07:52.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640236",
+                    "label": {
+                        "_value": "All HGVs and PCVs on british roads to have driver monitoring technology"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463057/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463057/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463057/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463057/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463057/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733330",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:58.290Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463057",
+                    "label": {
+                        "_value": "Introduce a health/sight check for drivers over 70"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543296",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463057",
+                    "label": {
+                        "_value": "Introduce a health/sight check for drivers over 70"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509714",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T02:16:16.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463057",
+                    "label": {
+                        "_value": "Introduce a health/sight check for drivers over 70"
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505915",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T17:04:17.204Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463057",
+                    "label": {
+                        "_value": "Introduce a health/sight check for drivers over 70"
+                    }
+                },
+                "numberOfSignatures": 68
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490041",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T09:41:17.662Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463057",
+                    "label": {
+                        "_value": "Introduce a health/sight check for drivers over 70"
+                    }
+                },
+                "numberOfSignatures": 67
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463058",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T18:43:30.056Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463057",
+                    "label": {
+                        "_value": "Introduce a health/sight check for drivers over 70"
+                    }
+                },
+                "numberOfSignatures": 66
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

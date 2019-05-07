@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548072/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548072/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548072/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548072/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548072/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735104",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:17.043Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548072",
+                    "label": {
+                        "_value": "Invest in cleaning up and preventing the pollution in the River Thames"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/629533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548072",
+                    "label": {
+                        "_value": "Invest in cleaning up and preventing the pollution in the River Thames"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T16:35:00.278Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548072",
+                    "label": {
+                        "_value": "Invest in cleaning up and preventing the pollution in the River Thames"
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-21T16:05:26.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548072",
+                    "label": {
+                        "_value": "Invest in cleaning up and preventing the pollution in the River Thames"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-03T19:16:10.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548072",
+                    "label": {
+                        "_value": "Invest in cleaning up and preventing the pollution in the River Thames"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548073",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T05:44:09.161Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548072",
+                    "label": {
+                        "_value": "Invest in cleaning up and preventing the pollution in the River Thames"
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

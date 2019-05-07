@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/648223/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/648223/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/648223/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/648223/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/648223/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.021Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648223",
+                    "label": {
+                        "_value": "more funding for paediatric cardiac teaching more complex /rare heart conditions"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-30T08:00:11.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648223",
+                    "label": {
+                        "_value": "more funding for paediatric cardiac teaching more complex /rare heart conditions"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/648224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T22:32:09.181Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/648223",
+                    "label": {
+                        "_value": "more funding for paediatric cardiac teaching more complex /rare heart conditions"
+                    }
+                },
+                "numberOfSignatures": 30
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

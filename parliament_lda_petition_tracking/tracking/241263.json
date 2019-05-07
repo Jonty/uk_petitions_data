@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078250/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078250/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078250/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078250/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078250/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T03:56:40.762Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078250",
+                    "label": {
+                        "_value": "The school testing system need to change. Student choice of exam method."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083367",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T16:48:57.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078250",
+                    "label": {
+                        "_value": "The school testing system need to change. Student choice of exam method."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T17:13:54.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078250",
+                    "label": {
+                        "_value": "The school testing system need to change. Student choice of exam method."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

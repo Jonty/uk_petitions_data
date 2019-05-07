@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547377/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547377/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547377/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547377/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547377/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734045",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.633Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547377",
+                    "label": {
+                        "_value": "Qualify MA (LPC with Business) for Postgraduate Student Finance funding."
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T16:28:56.456Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547377",
+                    "label": {
+                        "_value": "Qualify MA (LPC with Business) for Postgraduate Student Finance funding."
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T15:25:01.813Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547377",
+                    "label": {
+                        "_value": "Qualify MA (LPC with Business) for Postgraduate Student Finance funding."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T15:46:16.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547377",
+                    "label": {
+                        "_value": "Qualify MA (LPC with Business) for Postgraduate Student Finance funding."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-29T10:23:18.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547377",
+                    "label": {
+                        "_value": "Qualify MA (LPC with Business) for Postgraduate Student Finance funding."
+                    }
+                },
+                "numberOfSignatures": 47
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

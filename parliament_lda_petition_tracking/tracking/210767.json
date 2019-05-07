@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/835851/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/835851/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/835851/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/835851/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/835851/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/951740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-01T23:00:01.286Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835851",
+                    "label": {
+                        "_value": "suspend work on smart motorways & use the money to repair the carriageways"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888407",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-20T15:34:19.159Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835851",
+                    "label": {
+                        "_value": "suspend work on smart motorways & use the money to repair the carriageways"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/881035",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-10T18:11:56.505Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835851",
+                    "label": {
+                        "_value": "suspend work on smart motorways & use the money to repair the carriageways"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-24T17:46:22.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835851",
+                    "label": {
+                        "_value": "suspend work on smart motorways & use the money to repair the carriageways"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/837179",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-04T22:04:18.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835851",
+                    "label": {
+                        "_value": "suspend work on smart motorways & use the money to repair the carriageways"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/835852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-01T14:02:55.276Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/835851",
+                    "label": {
+                        "_value": "suspend work on smart motorways & use the money to repair the carriageways"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

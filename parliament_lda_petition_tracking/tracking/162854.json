@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/557447/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/557447/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/557447/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/557447/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/557447/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599808",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T20:21:42.756Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557447",
+                    "label": {
+                        "_value": "Stop banks charging,for IN THE RED on pensioners & those on low incomes,"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557448",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T14:51:21.026Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/557447",
+                    "label": {
+                        "_value": "Stop banks charging,for IN THE RED on pensioners & those on low incomes,"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

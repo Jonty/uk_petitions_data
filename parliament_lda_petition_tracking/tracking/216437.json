@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/879284/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/879284/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/879284/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/879284/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/879284/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/982434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-06T23:00:06.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879284",
+                    "label": {
+                        "_value": "Stop roll out of \"Academies\" to SEN schools."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/972925",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T19:57:54.016Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879284",
+                    "label": {
+                        "_value": "Stop roll out of \"Academies\" to SEN schools."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930752",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-23T23:41:00.907Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879284",
+                    "label": {
+                        "_value": "Stop roll out of \"Academies\" to SEN schools."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/889245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-22T10:21:52.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879284",
+                    "label": {
+                        "_value": "Stop roll out of \"Academies\" to SEN schools."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/879285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-06T11:23:35.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/879284",
+                    "label": {
+                        "_value": "Stop roll out of \"Academies\" to SEN schools."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

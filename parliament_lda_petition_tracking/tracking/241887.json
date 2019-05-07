@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1078247/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1078247/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1078247/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1078247/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1078247/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:32:18.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078247",
+                    "label": {
+                        "_value": "Mandatory regular lessons at school about first aid"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081127",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T20:11:59.234Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078247",
+                    "label": {
+                        "_value": "Mandatory regular lessons at school about first aid"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T15:48:17.115Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1078247",
+                    "label": {
+                        "_value": "Mandatory regular lessons at school about first aid"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

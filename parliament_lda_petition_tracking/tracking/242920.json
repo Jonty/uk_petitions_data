@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1080206/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1080206/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1080206/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1080206/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1080206/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:16.319Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080206",
+                    "label": {
+                        "_value": "Abolish passport fee for women who change their name on marriage"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T21:02:41.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080206",
+                    "label": {
+                        "_value": "Abolish passport fee for women who change their name on marriage"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1087663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-12T15:41:23.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080206",
+                    "label": {
+                        "_value": "Abolish passport fee for women who change their name on marriage"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-09T08:15:39.859Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080206",
+                    "label": {
+                        "_value": "Abolish passport fee for women who change their name on marriage"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083344",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-05T09:24:23.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080206",
+                    "label": {
+                        "_value": "Abolish passport fee for women who change their name on marriage"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080207",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T07:25:05.024Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080206",
+                    "label": {
+                        "_value": "Abolish passport fee for women who change their name on marriage"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1053029/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1053029/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1053029/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1053029/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1053029/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:10.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053029",
+                    "label": {
+                        "_value": "Change the law so the driver not the owner is responsible for a PCN"
+                    }
+                },
+                "numberOfSignatures": 32
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075865",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-21T22:48:32.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053029",
+                    "label": {
+                        "_value": "Change the law so the driver not the owner is responsible for a PCN"
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-03T14:42:54.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053029",
+                    "label": {
+                        "_value": "Change the law so the driver not the owner is responsible for a PCN"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053030",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T00:37:38.358Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053029",
+                    "label": {
+                        "_value": "Change the law so the driver not the owner is responsible for a PCN"
+                    }
+                },
+                "numberOfSignatures": 28
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1052086/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1052086/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1052086/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1052086/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1052086/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107655",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:16.199Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052086",
+                    "label": {
+                        "_value": "Bring Finland\u2019s \u2018National Jealousy Day\u2019 to the UK"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094153",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:12.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052086",
+                    "label": {
+                        "_value": "Bring Finland\u2019s \u2018National Jealousy Day\u2019 to the UK"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1083376",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T13:21:57.044Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052086",
+                    "label": {
+                        "_value": "Bring Finland\u2019s \u2018National Jealousy Day\u2019 to the UK"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1054552",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-04T20:43:14.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052086",
+                    "label": {
+                        "_value": "Bring Finland\u2019s \u2018National Jealousy Day\u2019 to the UK"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1052087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-30T19:08:29.360Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1052086",
+                    "label": {
+                        "_value": "Bring Finland\u2019s \u2018National Jealousy Day\u2019 to the UK"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

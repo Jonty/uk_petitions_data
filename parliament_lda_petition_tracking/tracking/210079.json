@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/849868/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/849868/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/849868/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/849868/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/849868/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/961581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T23:00:02.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849868",
+                    "label": {
+                        "_value": "Electrocardiogram (ECG) scans should be made compulsory for all young people."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949333",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T13:24:07.332Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849868",
+                    "label": {
+                        "_value": "Electrocardiogram (ECG) scans should be made compulsory for all young people."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/879283",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-05T22:58:47.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849868",
+                    "label": {
+                        "_value": "Electrocardiogram (ECG) scans should be made compulsory for all young people."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849869",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T15:09:08.515Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849868",
+                    "label": {
+                        "_value": "Electrocardiogram (ECG) scans should be made compulsory for all young people."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547916/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547916/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547916/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547916/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547916/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.906Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547916",
+                    "label": {
+                        "_value": "Parliament to pass a Bill affirming the UK will remain in the EU."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/642097",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-22T16:04:02.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547916",
+                    "label": {
+                        "_value": "Parliament to pass a Bill affirming the UK will remain in the EU."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591859",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T15:48:03.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547916",
+                    "label": {
+                        "_value": "Parliament to pass a Bill affirming the UK will remain in the EU."
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T16:14:47.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547916",
+                    "label": {
+                        "_value": "Parliament to pass a Bill affirming the UK will remain in the EU."
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T05:49:26.812Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547916",
+                    "label": {
+                        "_value": "Parliament to pass a Bill affirming the UK will remain in the EU."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547917",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T22:11:51.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547916",
+                    "label": {
+                        "_value": "Parliament to pass a Bill affirming the UK will remain in the EU."
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

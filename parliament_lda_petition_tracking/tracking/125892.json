@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492202/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492202/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492202/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492202/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492202/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492202",
+                    "label": {
+                        "_value": "The gov to look at LED in all of it's buildings to save up to 90% on energy!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/565603",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-19T09:45:29.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492202",
+                    "label": {
+                        "_value": "The gov to look at LED in all of it's buildings to save up to 90% on energy!"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T17:03:05.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492202",
+                    "label": {
+                        "_value": "The gov to look at LED in all of it's buildings to save up to 90% on energy!"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511238",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T00:20:42.446Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492202",
+                    "label": {
+                        "_value": "The gov to look at LED in all of it's buildings to save up to 90% on energy!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492203",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T13:38:03.649Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492202",
+                    "label": {
+                        "_value": "The gov to look at LED in all of it's buildings to save up to 90% on energy!"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

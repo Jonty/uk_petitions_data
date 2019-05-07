@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/913730/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/913730/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/913730/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/913730/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/913730/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1018072",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-30T00:00:01.722Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913730",
+                    "label": {
+                        "_value": "Make Government Funds Available for Victims & Families of Terrorist Attacks"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009517",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-18T16:47:04.193Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913730",
+                    "label": {
+                        "_value": "Make Government Funds Available for Victims & Families of Terrorist Attacks"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1003501",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-07T00:47:47.973Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913730",
+                    "label": {
+                        "_value": "Make Government Funds Available for Victims & Families of Terrorist Attacks"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933530",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T10:26:13.525Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913730",
+                    "label": {
+                        "_value": "Make Government Funds Available for Victims & Families of Terrorist Attacks"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T09:33:37.371Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913730",
+                    "label": {
+                        "_value": "Make Government Funds Available for Victims & Families of Terrorist Attacks"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/913731",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-29T17:27:57.979Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/913730",
+                    "label": {
+                        "_value": "Make Government Funds Available for Victims & Families of Terrorist Attacks"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

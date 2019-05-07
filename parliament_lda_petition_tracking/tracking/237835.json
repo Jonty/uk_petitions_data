@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1062860/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1062860/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1062860/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1062860/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1062860/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107431",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T20:23:38.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062860",
+                    "label": {
+                        "_value": "Make the running of a stationary car in any car park, public or private illegal."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084343",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T00:14:42.601Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062860",
+                    "label": {
+                        "_value": "Make the running of a stationary car in any car park, public or private illegal."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081117",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T17:02:24.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062860",
+                    "label": {
+                        "_value": "Make the running of a stationary car in any car park, public or private illegal."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062861",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-15T17:08:24.078Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1062860",
+                    "label": {
+                        "_value": "Make the running of a stationary car in any car park, public or private illegal."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

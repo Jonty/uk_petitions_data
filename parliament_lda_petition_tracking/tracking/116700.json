@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465571/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465571/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465571/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465571/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465571/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465571",
+                    "label": {
+                        "_value": "Make Network Rail provide free public toilets in train stations."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509851",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T22:13:11.438Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465571",
+                    "label": {
+                        "_value": "Make Network Rail provide free public toilets in train stations."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T20:39:09.701Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465571",
+                    "label": {
+                        "_value": "Make Network Rail provide free public toilets in train stations."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467982",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T11:22:33.319Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465571",
+                    "label": {
+                        "_value": "Make Network Rail provide free public toilets in train stations."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465572",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:41.743Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465571",
+                    "label": {
+                        "_value": "Make Network Rail provide free public toilets in train stations."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

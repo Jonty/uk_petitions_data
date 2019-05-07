@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466765/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466765/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466765/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466765/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466765/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/569382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466765",
+                    "label": {
+                        "_value": "Close the Westminster Parliament if Britain votes yes in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466765",
+                    "label": {
+                        "_value": "Close the Westminster Parliament if Britain votes yes in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T17:24:33.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466765",
+                    "label": {
+                        "_value": "Close the Westminster Parliament if Britain votes yes in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T14:19:24.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466765",
+                    "label": {
+                        "_value": "Close the Westminster Parliament if Britain votes yes in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466766",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T12:35:07.735Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466765",
+                    "label": {
+                        "_value": "Close the Westminster Parliament if Britain votes yes in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

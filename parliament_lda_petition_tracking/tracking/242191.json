@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1080245/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1080245/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1080245/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1080245/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1080245/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107489",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T14:43:23.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080245",
+                    "label": {
+                        "_value": "Support a Referendum to abolish compulsory BBC licence fee"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090857",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T21:30:00.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080245",
+                    "label": {
+                        "_value": "Support a Referendum to abolish compulsory BBC licence fee"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1088421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T16:08:51.752Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080245",
+                    "label": {
+                        "_value": "Support a Referendum to abolish compulsory BBC licence fee"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085808",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:41:15.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080245",
+                    "label": {
+                        "_value": "Support a Referendum to abolish compulsory BBC licence fee"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080246",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T12:33:28.018Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1080245",
+                    "label": {
+                        "_value": "Support a Referendum to abolish compulsory BBC licence fee"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

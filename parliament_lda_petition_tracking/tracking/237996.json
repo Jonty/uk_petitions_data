@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1053114/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1053114/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1053114/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1053114/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1053114/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1090845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T21:27:56.504Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053114",
+                    "label": {
+                        "_value": "Ensure parliamentary privilege does not apply to deliberate misrepresentation."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081122",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-03T12:41:52.049Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053114",
+                    "label": {
+                        "_value": "Ensure parliamentary privilege does not apply to deliberate misrepresentation."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T17:58:31.274Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053114",
+                    "label": {
+                        "_value": "Ensure parliamentary privilege does not apply to deliberate misrepresentation."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053115",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T10:23:56.657Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1053114",
+                    "label": {
+                        "_value": "Ensure parliamentary privilege does not apply to deliberate misrepresentation."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

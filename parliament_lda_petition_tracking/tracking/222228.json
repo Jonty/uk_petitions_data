@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/928532/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/928532/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/928532/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/928532/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/928532/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1030650",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T00:00:06.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928532",
+                    "label": {
+                        "_value": "Allow store loyalty card schemes to award points on the purchase of baby formula"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021604",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-05T21:59:54.417Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928532",
+                    "label": {
+                        "_value": "Allow store loyalty card schemes to award points on the purchase of baby formula"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/929305",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-20T21:44:49.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928532",
+                    "label": {
+                        "_value": "Allow store loyalty card schemes to award points on the purchase of baby formula"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/928533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-20T15:39:46.171Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/928532",
+                    "label": {
+                        "_value": "Allow store loyalty card schemes to award points on the purchase of baby formula"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

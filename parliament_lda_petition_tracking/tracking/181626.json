@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/686531/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/686531/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/686531/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/686531/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/686531/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726981",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:18.006Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/686531",
+                    "label": {
+                        "_value": "Reduce the fuel duty rate by 50% on all road fuels."
+                    }
+                },
+                "numberOfSignatures": 720
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/705038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-24T16:52:23.764Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/686531",
+                    "label": {
+                        "_value": "Reduce the fuel duty rate by 50% on all road fuels."
+                    }
+                },
+                "numberOfSignatures": 535
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691374",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-16T18:11:35.885Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/686531",
+                    "label": {
+                        "_value": "Reduce the fuel duty rate by 50% on all road fuels."
+                    }
+                },
+                "numberOfSignatures": 530
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/686532",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-07T23:39:08.651Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/686531",
+                    "label": {
+                        "_value": "Reduce the fuel duty rate by 50% on all road fuels."
+                    }
+                },
+                "numberOfSignatures": 302
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

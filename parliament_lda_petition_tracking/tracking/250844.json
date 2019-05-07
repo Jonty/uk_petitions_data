@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106235/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106235/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106235/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106235/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106235/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108004",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T22:44:59.306Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106235",
+                    "label": {
+                        "_value": "Give us the option to get our driving licence with out the Union Jack flag."
+                    }
+                },
+                "numberOfSignatures": 2599
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106236",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T23:24:40.635Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106235",
+                    "label": {
+                        "_value": "Give us the option to get our driving licence with out the Union Jack flag."
+                    }
+                },
+                "numberOfSignatures": 1609
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

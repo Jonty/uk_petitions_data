@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548889/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548889/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548889/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548889/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548889/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:12:22.650Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548889",
+                    "label": {
+                        "_value": "The Government to discuss increase in racism brought about by the referrendum."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575497",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T12:53:11.668Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548889",
+                    "label": {
+                        "_value": "The Government to discuss increase in racism brought about by the referrendum."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559846",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T18:03:37.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548889",
+                    "label": {
+                        "_value": "The Government to discuss increase in racism brought about by the referrendum."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548890",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T16:31:22.949Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548889",
+                    "label": {
+                        "_value": "The Government to discuss increase in racism brought about by the referrendum."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

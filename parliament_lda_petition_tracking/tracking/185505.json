@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/707102/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/707102/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/707102/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/707102/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/707102/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:21.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707102",
+                    "label": {
+                        "_value": "Make it illegal not to allow LGV drivers access to welfare facilities at RDC's"
+                    }
+                },
+                "numberOfSignatures": 863
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707103",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-01T22:23:41.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/707102",
+                    "label": {
+                        "_value": "Make it illegal not to allow LGV drivers access to welfare facilities at RDC's"
+                    }
+                },
+                "numberOfSignatures": 833
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

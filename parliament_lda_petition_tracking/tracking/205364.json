@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/793879/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/793879/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/793879/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/793879/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/793879/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/910046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-21T23:00:03.912Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793879",
+                    "label": {
+                        "_value": "Make Falconry in the UK licensed."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-21T03:55:31.687Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793879",
+                    "label": {
+                        "_value": "Make Falconry in the UK licensed."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841147",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-11T19:11:11.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793879",
+                    "label": {
+                        "_value": "Make Falconry in the UK licensed."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/825232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-01-17T15:06:13.335Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793879",
+                    "label": {
+                        "_value": "Make Falconry in the UK licensed."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/796606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-28T18:05:34.213Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793879",
+                    "label": {
+                        "_value": "Make Falconry in the UK licensed."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/793880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-22T06:29:52.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/793879",
+                    "label": {
+                        "_value": "Make Falconry in the UK licensed."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

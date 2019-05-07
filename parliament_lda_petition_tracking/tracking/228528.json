@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977045/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977045/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977045/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977045/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977045/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1094133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T00:00:03.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977045",
+                    "label": {
+                        "_value": "Ensure school curriculum includes educating students on crime and consequences"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076167",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:35:45.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977045",
+                    "label": {
+                        "_value": "Ensure school curriculum includes educating students on crime and consequences"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1030649",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-21T03:23:12.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977045",
+                    "label": {
+                        "_value": "Ensure school curriculum includes educating students on crime and consequences"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/983733",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-08T14:16:10.884Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977045",
+                    "label": {
+                        "_value": "Ensure school curriculum includes educating students on crime and consequences"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T13:32:54.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977045",
+                    "label": {
+                        "_value": "Ensure school curriculum includes educating students on crime and consequences"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

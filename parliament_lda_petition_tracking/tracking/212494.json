@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/846585/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/846585/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/846585/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/846585/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/846585/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/959627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-21T23:00:01.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846585",
+                    "label": {
+                        "_value": "Legal Protection for children under age of 16 sending images to sexual predators"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-01T08:09:25.170Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846585",
+                    "label": {
+                        "_value": "Legal Protection for children under age of 16 sending images to sexual predators"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/941111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-13T16:53:00.784Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846585",
+                    "label": {
+                        "_value": "Legal Protection for children under age of 16 sending images to sexual predators"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914677",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-31T11:59:21.139Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846585",
+                    "label": {
+                        "_value": "Legal Protection for children under age of 16 sending images to sexual predators"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/866955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-19T17:58:56.396Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846585",
+                    "label": {
+                        "_value": "Legal Protection for children under age of 16 sending images to sexual predators"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/846586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-21T18:56:41.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/846585",
+                    "label": {
+                        "_value": "Legal Protection for children under age of 16 sending images to sexual predators"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

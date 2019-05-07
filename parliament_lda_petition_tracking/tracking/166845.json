@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581886/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581886/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581886/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581886/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581886/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/589657",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T18:02:48.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581886",
+                    "label": {
+                        "_value": "Hold a parliamentary debate on the re-introduction of selective State Education"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589129",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-23T21:30:44.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581886",
+                    "label": {
+                        "_value": "Hold a parliamentary debate on the re-introduction of selective State Education"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T19:16:17.115Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581886",
+                    "label": {
+                        "_value": "Hold a parliamentary debate on the re-introduction of selective State Education"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583755",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T20:10:18.141Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581886",
+                    "label": {
+                        "_value": "Hold a parliamentary debate on the re-introduction of selective State Education"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581887",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T13:14:50.563Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581886",
+                    "label": {
+                        "_value": "Hold a parliamentary debate on the re-introduction of selective State Education"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

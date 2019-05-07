@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549624/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549624/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549624/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549624/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549624/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624443",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:08:09.555Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549624",
+                    "label": {
+                        "_value": "For ALL EU Protected Sites & Species to carry on being so even if not in the EU"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560597",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T06:28:28.572Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549624",
+                    "label": {
+                        "_value": "For ALL EU Protected Sites & Species to carry on being so even if not in the EU"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549625",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T15:51:09.360Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549624",
+                    "label": {
+                        "_value": "For ALL EU Protected Sites & Species to carry on being so even if not in the EU"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

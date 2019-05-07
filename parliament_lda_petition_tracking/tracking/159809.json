@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551092/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551092/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551092/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551092/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551092/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/650147",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T15:08:33.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551092",
+                    "label": {
+                        "_value": "Get NHS backing for MAP vaccine for Crohn's disease and colitis cure"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645759",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:19:56.462Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551092",
+                    "label": {
+                        "_value": "Get NHS backing for MAP vaccine for Crohn's disease and colitis cure"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630553",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:31:05.854Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551092",
+                    "label": {
+                        "_value": "Get NHS backing for MAP vaccine for Crohn's disease and colitis cure"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569360",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T21:28:16.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551092",
+                    "label": {
+                        "_value": "Get NHS backing for MAP vaccine for Crohn's disease and colitis cure"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T15:50:18.617Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551092",
+                    "label": {
+                        "_value": "Get NHS backing for MAP vaccine for Crohn's disease and colitis cure"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551093",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T22:11:09.217Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551092",
+                    "label": {
+                        "_value": "Get NHS backing for MAP vaccine for Crohn's disease and colitis cure"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1005521/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1005521/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1005521/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1005521/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1005521/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1007600",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-14T14:51:23.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005521",
+                    "label": {
+                        "_value": "Ban inflatable bouncy slides at private and public events"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1005522",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T20:19:37.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1005521",
+                    "label": {
+                        "_value": "Ban inflatable bouncy slides at private and public events"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

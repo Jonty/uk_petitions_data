@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/467986/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/467986/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/467986/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/467986/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/467986/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581853",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467986",
+                    "label": {
+                        "_value": "Remove reprimands from PNC records as soon as the offender turns into an adult."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573091",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T06:54:20.526Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467986",
+                    "label": {
+                        "_value": "Remove reprimands from PNC records as soon as the offender turns into an adult."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570345",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T20:28:22.580Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467986",
+                    "label": {
+                        "_value": "Remove reprimands from PNC records as soon as the offender turns into an adult."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549549",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467986",
+                    "label": {
+                        "_value": "Remove reprimands from PNC records as soon as the offender turns into an adult."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T19:47:34.011Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467986",
+                    "label": {
+                        "_value": "Remove reprimands from PNC records as soon as the offender turns into an adult."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467987",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T08:49:50.780Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/467986",
+                    "label": {
+                        "_value": "Remove reprimands from PNC records as soon as the offender turns into an adult."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464613/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464613/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464613/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464613/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464613/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:10.441Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464613",
+                    "label": {
+                        "_value": "Work with other countries to try and free Ahmed Mansour Karni."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567696",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-22T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464613",
+                    "label": {
+                        "_value": "Work with other countries to try and free Ahmed Mansour Karni."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T19:06:37.052Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464613",
+                    "label": {
+                        "_value": "Work with other countries to try and free Ahmed Mansour Karni."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502759",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T05:24:42.294Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464613",
+                    "label": {
+                        "_value": "Work with other countries to try and free Ahmed Mansour Karni."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T19:43:50.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464613",
+                    "label": {
+                        "_value": "Work with other countries to try and free Ahmed Mansour Karni."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T22:09:36.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464613",
+                    "label": {
+                        "_value": "Work with other countries to try and free Ahmed Mansour Karni."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

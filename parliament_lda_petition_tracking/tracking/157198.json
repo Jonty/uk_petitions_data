@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548393/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548393/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548393/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548393/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548393/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735378",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:26.074Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548393",
+                    "label": {
+                        "_value": "Empty black bins once a week in summer and hot spells."
+                    }
+                },
+                "numberOfSignatures": 31
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630402",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T22:14:27.359Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548393",
+                    "label": {
+                        "_value": "Empty black bins once a week in summer and hot spells."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618282",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T18:01:44.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548393",
+                    "label": {
+                        "_value": "Empty black bins once a week in summer and hot spells."
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T19:31:41.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548393",
+                    "label": {
+                        "_value": "Empty black bins once a week in summer and hot spells."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548394",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T08:15:12.910Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548393",
+                    "label": {
+                        "_value": "Empty black bins once a week in summer and hot spells."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

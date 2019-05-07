@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552088/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552088/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552088/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552088/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552088/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T21:00:49.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552088",
+                    "label": {
+                        "_value": "Put metal detectors in all schools in England make our schools safer"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T13:04:04.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552088",
+                    "label": {
+                        "_value": "Put metal detectors in all schools in England make our schools safer"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T13:16:53.185Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552088",
+                    "label": {
+                        "_value": "Put metal detectors in all schools in England make our schools safer"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

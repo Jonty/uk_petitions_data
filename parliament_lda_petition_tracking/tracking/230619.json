@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/995438/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/995438/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/995438/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/995438/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/995438/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107559",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T01:52:19.378Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995438",
+                    "label": {
+                        "_value": "Make cat calling an illegal act in the UK"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-17T15:16:49.234Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995438",
+                    "label": {
+                        "_value": "Make cat calling an illegal act in the UK"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1085800",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-10T20:40:55.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995438",
+                    "label": {
+                        "_value": "Make cat calling an illegal act in the UK"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-06T23:17:34.791Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995438",
+                    "label": {
+                        "_value": "Make cat calling an illegal act in the UK"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1006642",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-13T02:47:44.438Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995438",
+                    "label": {
+                        "_value": "Make cat calling an illegal act in the UK"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995439",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-24T13:43:31.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/995438",
+                    "label": {
+                        "_value": "Make cat calling an illegal act in the UK"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

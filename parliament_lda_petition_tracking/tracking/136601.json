@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551519/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551519/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551519/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551519/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551519/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/648276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T19:14:48.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551519",
+                    "label": {
+                        "_value": "Make smoking a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:51:53.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551519",
+                    "label": {
+                        "_value": "Make smoking a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569890",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T12:07:26.141Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551519",
+                    "label": {
+                        "_value": "Make smoking a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560647",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T08:01:27.039Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551519",
+                    "label": {
+                        "_value": "Make smoking a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551520",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-10T15:57:15.977Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551519",
+                    "label": {
+                        "_value": "Make smoking a criminal offence"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

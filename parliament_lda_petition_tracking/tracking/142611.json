@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547908/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547908/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547908/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547908/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547908/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734857",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.351Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547908",
+                    "label": {
+                        "_value": "Ensure all future national referendums need more than 50% of electorate to pass"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659317",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T09:51:30.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547908",
+                    "label": {
+                        "_value": "Ensure all future national referendums need more than 50% of electorate to pass"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547909",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T03:25:25.955Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547908",
+                    "label": {
+                        "_value": "Ensure all future national referendums need more than 50% of electorate to pass"
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

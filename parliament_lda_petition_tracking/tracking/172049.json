@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/640309/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/640309/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/640309/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/640309/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/640309/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:08.253Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640309",
+                    "label": {
+                        "_value": "No Trump in the UK if he deports Muslim citizens from US with no terror links"
+                    }
+                },
+                "numberOfSignatures": 191
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-24T14:46:16.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640309",
+                    "label": {
+                        "_value": "No Trump in the UK if he deports Muslim citizens from US with no terror links"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645697",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T16:03:57.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640309",
+                    "label": {
+                        "_value": "No Trump in the UK if he deports Muslim citizens from US with no terror links"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/641078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-21T19:59:26.474Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640309",
+                    "label": {
+                        "_value": "No Trump in the UK if he deports Muslim citizens from US with no terror links"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T16:58:17.835Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/640309",
+                    "label": {
+                        "_value": "No Trump in the UK if he deports Muslim citizens from US with no terror links"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

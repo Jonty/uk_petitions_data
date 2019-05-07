@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/628879/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/628879/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/628879/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/628879/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/628879/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651625",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:58:18.398Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628879",
+                    "label": {
+                        "_value": "Ban the use of loud fireworks in residential areas"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632670",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-07T23:44:05.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628879",
+                    "label": {
+                        "_value": "Ban the use of loud fireworks in residential areas"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630627",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T21:23:09.151Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628879",
+                    "label": {
+                        "_value": "Ban the use of loud fireworks in residential areas"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/628880",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-03T17:42:09.409Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/628879",
+                    "label": {
+                        "_value": "Ban the use of loud fireworks in residential areas"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

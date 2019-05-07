@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465431/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465431/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465431/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465431/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465431/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549425",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465431",
+                    "label": {
+                        "_value": "Respond favorably to a petition of the people at least once in the 21st century."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492123",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T23:33:28.395Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465431",
+                    "label": {
+                        "_value": "Respond favorably to a petition of the people at least once in the 21st century."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/484015",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T15:24:53.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465431",
+                    "label": {
+                        "_value": "Respond favorably to a petition of the people at least once in the 21st century."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465432",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:15:26.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465431",
+                    "label": {
+                        "_value": "Respond favorably to a petition of the people at least once in the 21st century."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

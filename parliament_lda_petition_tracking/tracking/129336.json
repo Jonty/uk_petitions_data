@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550676/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550676/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550676/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550676/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550676/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550676",
+                    "label": {
+                        "_value": "Offer a free workshop on healthy eating on a budget to all UK residents"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/595310",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-06T10:17:49.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550676",
+                    "label": {
+                        "_value": "Offer a free workshop on healthy eating on a budget to all UK residents"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578368",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T08:04:17.013Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550676",
+                    "label": {
+                        "_value": "Offer a free workshop on healthy eating on a budget to all UK residents"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575033",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T22:04:11.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550676",
+                    "label": {
+                        "_value": "Offer a free workshop on healthy eating on a budget to all UK residents"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550677",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-24T21:55:51.038Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550676",
+                    "label": {
+                        "_value": "Offer a free workshop on healthy eating on a budget to all UK residents"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

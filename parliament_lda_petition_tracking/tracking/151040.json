@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549485/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549485/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549485/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549485/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549485/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/605383",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T11:25:48.407Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549485",
+                    "label": {
+                        "_value": "Stop Imports from Germany"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:42:21.282Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549485",
+                    "label": {
+                        "_value": "Stop Imports from Germany"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549486",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T19:48:20.098Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549485",
+                    "label": {
+                        "_value": "Stop Imports from Germany"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

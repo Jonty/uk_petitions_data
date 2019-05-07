@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464031/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464031/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464031/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464031/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464031/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.968Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464031",
+                    "label": {
+                        "_value": "To Add both Muslim Holidays (Eidul Adha and Fitr) to National holidays in the UK"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547985",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464031",
+                    "label": {
+                        "_value": "To Add both Muslim Holidays (Eidul Adha and Fitr) to National holidays in the UK"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T00:00:07.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464031",
+                    "label": {
+                        "_value": "To Add both Muslim Holidays (Eidul Adha and Fitr) to National holidays in the UK"
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-19T00:31:19.179Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464031",
+                    "label": {
+                        "_value": "To Add both Muslim Holidays (Eidul Adha and Fitr) to National holidays in the UK"
+                    }
+                },
+                "numberOfSignatures": 33
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

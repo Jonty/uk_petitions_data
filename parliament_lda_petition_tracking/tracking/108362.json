@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464355/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464355/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464355/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464355/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464355/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735630",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.821Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464355",
+                    "label": {
+                        "_value": "Law L A's do not divert funds Care of Elderly to refugees illegal immigrants"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464355",
+                    "label": {
+                        "_value": "Law L A's do not divert funds Care of Elderly to refugees illegal immigrants"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T00:00:09.743Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464355",
+                    "label": {
+                        "_value": "Law L A's do not divert funds Care of Elderly to refugees illegal immigrants"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478440",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T13:08:08.581Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464355",
+                    "label": {
+                        "_value": "Law L A's do not divert funds Care of Elderly to refugees illegal immigrants"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T17:51:31.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464355",
+                    "label": {
+                        "_value": "Law L A's do not divert funds Care of Elderly to refugees illegal immigrants"
+                    }
+                },
+                "numberOfSignatures": 28
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

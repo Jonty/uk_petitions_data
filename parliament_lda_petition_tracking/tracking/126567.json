@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/504793/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/504793/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/504793/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/504793/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/504793/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/595313",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-05T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504793",
+                    "label": {
+                        "_value": "Let children go on holiday when they like & keep schools open 253 days a year."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550216",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T21:54:10.892Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504793",
+                    "label": {
+                        "_value": "Let children go on holiday when they like & keep schools open 253 days a year."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T16:06:08.940Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504793",
+                    "label": {
+                        "_value": "Let children go on holiday when they like & keep schools open 253 days a year."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T16:16:18.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/504793",
+                    "label": {
+                        "_value": "Let children go on holiday when they like & keep schools open 253 days a year."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

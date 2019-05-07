@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/954022/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/954022/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/954022/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/954022/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/954022/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1058077",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-09T00:00:05.365Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954022",
+                    "label": {
+                        "_value": "Make sensory rooms compulsory in schools and provide separate funding for it."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-15T10:06:49.088Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954022",
+                    "label": {
+                        "_value": "Make sensory rooms compulsory in schools and provide separate funding for it."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/956592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-14T20:39:29.292Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954022",
+                    "label": {
+                        "_value": "Make sensory rooms compulsory in schools and provide separate funding for it."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954473",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T23:50:19.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954022",
+                    "label": {
+                        "_value": "Make sensory rooms compulsory in schools and provide separate funding for it."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954023",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T13:59:30.705Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/954022",
+                    "label": {
+                        "_value": "Make sensory rooms compulsory in schools and provide separate funding for it."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

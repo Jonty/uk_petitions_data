@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548875/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548875/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548875/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548875/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548875/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735818",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.531Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548875",
+                    "label": {
+                        "_value": "Changes to Protect 'Asthma' Sufferers from Smoke from Garden Fires, Clean Air."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618928",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T15:52:30.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548875",
+                    "label": {
+                        "_value": "Changes to Protect 'Asthma' Sufferers from Smoke from Garden Fires, Clean Air."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T09:57:20.464Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548875",
+                    "label": {
+                        "_value": "Changes to Protect 'Asthma' Sufferers from Smoke from Garden Fires, Clean Air."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578317",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T18:30:53.545Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548875",
+                    "label": {
+                        "_value": "Changes to Protect 'Asthma' Sufferers from Smoke from Garden Fires, Clean Air."
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548876",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T15:45:46.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548875",
+                    "label": {
+                        "_value": "Changes to Protect 'Asthma' Sufferers from Smoke from Garden Fires, Clean Air."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

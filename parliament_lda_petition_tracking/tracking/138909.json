@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552297/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552297/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552297/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552297/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552297/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/555023",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T12:50:23.380Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552297",
+                    "label": {
+                        "_value": "Review of UK voting age - Vote at 16 not at 75"
+                    }
+                },
+                "numberOfSignatures": 6
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T18:21:20.842Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552297",
+                    "label": {
+                        "_value": "Review of UK voting age - Vote at 16 not at 75"
+                    }
+                },
+                "numberOfSignatures": 5
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

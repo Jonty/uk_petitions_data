@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/717515/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/717515/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/717515/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/717515/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/717515/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:22.783Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717515",
+                    "label": {
+                        "_value": "Allow The Speaker of The House to silence MP's who attempt to 'talk out' a bill"
+                    }
+                },
+                "numberOfSignatures": 2280
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721316",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-12T21:22:04.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717515",
+                    "label": {
+                        "_value": "Allow The Speaker of The House to silence MP's who attempt to 'talk out' a bill"
+                    }
+                },
+                "numberOfSignatures": 2267
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719554",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T13:21:49.846Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717515",
+                    "label": {
+                        "_value": "Allow The Speaker of The House to silence MP's who attempt to 'talk out' a bill"
+                    }
+                },
+                "numberOfSignatures": 2265
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718401",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T19:44:25.193Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717515",
+                    "label": {
+                        "_value": "Allow The Speaker of The House to silence MP's who attempt to 'talk out' a bill"
+                    }
+                },
+                "numberOfSignatures": 2259
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/717516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-01T22:03:52.212Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717515",
+                    "label": {
+                        "_value": "Allow The Speaker of The House to silence MP's who attempt to 'talk out' a bill"
+                    }
+                },
+                "numberOfSignatures": 2258
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

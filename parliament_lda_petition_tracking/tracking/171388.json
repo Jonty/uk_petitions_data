@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/632668/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/632668/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/632668/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/632668/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/632668/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633306",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T20:33:31.763Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632668",
+                    "label": {
+                        "_value": "Make 12/11/2018 a Public Bank Holiday and let's celebrate the Great War ending!"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632669",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T11:27:05.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/632668",
+                    "label": {
+                        "_value": "Make 12/11/2018 a Public Bank Holiday and let's celebrate the Great War ending!"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

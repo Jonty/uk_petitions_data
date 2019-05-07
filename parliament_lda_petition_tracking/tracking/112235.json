@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463941/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463941/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463941/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463941/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463941/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734666",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.414Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463941",
+                    "label": {
+                        "_value": "Reveal the Documents to the public and reinvestigate the death of Dr David Kelly"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547672",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463941",
+                    "label": {
+                        "_value": "Reveal the Documents to the public and reinvestigate the death of Dr David Kelly"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480397",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T23:13:16.589Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463941",
+                    "label": {
+                        "_value": "Reveal the Documents to the public and reinvestigate the death of Dr David Kelly"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478926",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T20:23:37.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463941",
+                    "label": {
+                        "_value": "Reveal the Documents to the public and reinvestigate the death of Dr David Kelly"
+                    }
+                },
+                "numberOfSignatures": 36
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T19:29:06.788Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463941",
+                    "label": {
+                        "_value": "Reveal the Documents to the public and reinvestigate the death of Dr David Kelly"
+                    }
+                },
+                "numberOfSignatures": 35
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

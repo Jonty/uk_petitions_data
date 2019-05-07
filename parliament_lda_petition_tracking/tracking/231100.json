@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/999107/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/999107/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/999107/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/999107/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/999107/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107380",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T02:06:54.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/999107",
+                    "label": {
+                        "_value": "Widen the A21"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076190",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-21T16:55:27.724Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/999107",
+                    "label": {
+                        "_value": "Widen the A21"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058092",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-08T22:42:00.819Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/999107",
+                    "label": {
+                        "_value": "Widen the A21"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1027140",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-17T09:42:51.177Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/999107",
+                    "label": {
+                        "_value": "Widen the A21"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/999108",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-31T17:57:53.128Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/999107",
+                    "label": {
+                        "_value": "Widen the A21"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

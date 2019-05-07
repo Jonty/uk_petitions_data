@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/897828/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/897828/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/897828/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/897828/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/897828/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1001408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-04T00:00:08.738Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897828",
+                    "label": {
+                        "_value": "Ensure the Windrush generation can exercise their right to vote."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T12:34:19.686Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897828",
+                    "label": {
+                        "_value": "Ensure the Windrush generation can exercise their right to vote."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978540",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-27T03:30:00.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897828",
+                    "label": {
+                        "_value": "Ensure the Windrush generation can exercise their right to vote."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963227",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-31T15:59:16.333Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897828",
+                    "label": {
+                        "_value": "Ensure the Windrush generation can exercise their right to vote."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/897829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-03T15:54:04.077Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/897828",
+                    "label": {
+                        "_value": "Ensure the Windrush generation can exercise their right to vote."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

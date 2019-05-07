@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1093228/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1093228/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1093228/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1093228/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1093228/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T14:07:57.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1093228",
+                    "label": {
+                        "_value": "Increase the maintenance loan to cover the UK average university accommodation."
+                    }
+                },
+                "numberOfSignatures": 206
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T18:32:33.690Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1093228",
+                    "label": {
+                        "_value": "Increase the maintenance loan to cover the UK average university accommodation."
+                    }
+                },
+                "numberOfSignatures": 203
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093960",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T02:31:16.509Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1093228",
+                    "label": {
+                        "_value": "Increase the maintenance loan to cover the UK average university accommodation."
+                    }
+                },
+                "numberOfSignatures": 83
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1093229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T19:52:19.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1093228",
+                    "label": {
+                        "_value": "Increase the maintenance loan to cover the UK average university accommodation."
+                    }
+                },
+                "numberOfSignatures": 67
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

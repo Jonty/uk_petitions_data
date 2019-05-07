@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/583736/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/583736/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/583736/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/583736/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/583736/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651620",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:53:46.626Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583736",
+                    "label": {
+                        "_value": "Seek a UN treaty on mutual recognition and enforcement of telephone privacy laws"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/632659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-08T18:23:51.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583736",
+                    "label": {
+                        "_value": "Seek a UN treaty on mutual recognition and enforcement of telephone privacy laws"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591931",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T16:57:17.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583736",
+                    "label": {
+                        "_value": "Seek a UN treaty on mutual recognition and enforcement of telephone privacy laws"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585944",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T20:23:22.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583736",
+                    "label": {
+                        "_value": "Seek a UN treaty on mutual recognition and enforcement of telephone privacy laws"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583737",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T21:36:19.892Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/583736",
+                    "label": {
+                        "_value": "Seek a UN treaty on mutual recognition and enforcement of telephone privacy laws"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

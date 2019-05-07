@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/962448/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/962448/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/962448/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/962448/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/962448/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1080170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T00:00:02.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962448",
+                    "label": {
+                        "_value": "Utility companies to move elderly customers onto the cheapest available tariff."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978927",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-28T09:13:11.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962448",
+                    "label": {
+                        "_value": "Utility companies to move elderly customers onto the cheapest available tariff."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970429",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-08T09:30:37.108Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962448",
+                    "label": {
+                        "_value": "Utility companies to move elderly customers onto the cheapest available tariff."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/963230",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-31T13:41:44.492Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962448",
+                    "label": {
+                        "_value": "Utility companies to move elderly customers onto the cheapest available tariff."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-29T14:12:38.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/962448",
+                    "label": {
+                        "_value": "Utility companies to move elderly customers onto the cheapest available tariff."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

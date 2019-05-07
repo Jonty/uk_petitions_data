@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1010062/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1010062/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1010062/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1010062/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1010062/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T10:56:36.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1010062",
+                    "label": {
+                        "_value": "Review the use of Palm Oil in products consumed in the UK and it\u2019s taxation."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1107377",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T20:23:17.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1010062",
+                    "label": {
+                        "_value": "Review the use of Palm Oil in products consumed in the UK and it\u2019s taxation."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076055",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:34:45.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1010062",
+                    "label": {
+                        "_value": "Review the use of Palm Oil in products consumed in the UK and it\u2019s taxation."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1012074",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-21T15:21:39.713Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1010062",
+                    "label": {
+                        "_value": "Review the use of Palm Oil in products consumed in the UK and it\u2019s taxation."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1011211",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-20T02:04:40.906Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1010062",
+                    "label": {
+                        "_value": "Review the use of Palm Oil in products consumed in the UK and it\u2019s taxation."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1010063",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-19T20:59:48.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1010062",
+                    "label": {
+                        "_value": "Review the use of Palm Oil in products consumed in the UK and it\u2019s taxation."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

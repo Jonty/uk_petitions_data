@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463029/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463029/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463029/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463029/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463029/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.990Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463029",
+                    "label": {
+                        "_value": "Propose CITES resolutions enhancing rhinoceros, lion and elephant protection."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463029",
+                    "label": {
+                        "_value": "Propose CITES resolutions enhancing rhinoceros, lion and elephant protection."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505909",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T00:00:04.301Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463029",
+                    "label": {
+                        "_value": "Propose CITES resolutions enhancing rhinoceros, lion and elephant protection."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T08:55:07.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463029",
+                    "label": {
+                        "_value": "Propose CITES resolutions enhancing rhinoceros, lion and elephant protection."
+                    }
+                },
+                "numberOfSignatures": 70
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480312",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T10:04:47.803Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463029",
+                    "label": {
+                        "_value": "Propose CITES resolutions enhancing rhinoceros, lion and elephant protection."
+                    }
+                },
+                "numberOfSignatures": 69
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463030",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-28T20:50:24.319Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463029",
+                    "label": {
+                        "_value": "Propose CITES resolutions enhancing rhinoceros, lion and elephant protection."
+                    }
+                },
+                "numberOfSignatures": 68
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/538883/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/538883/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/538883/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/538883/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/538883/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729552",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.076Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/538883",
+                    "label": {
+                        "_value": "Don't cancel the British EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664753",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/538883",
+                    "label": {
+                        "_value": "Don't cancel the British EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623890",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T16:51:00.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/538883",
+                    "label": {
+                        "_value": "Don't cancel the British EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T20:53:03.349Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/538883",
+                    "label": {
+                        "_value": "Don't cancel the British EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T16:33:08.987Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/538883",
+                    "label": {
+                        "_value": "Don't cancel the British EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538884",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T10:38:31.444Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/538883",
+                    "label": {
+                        "_value": "Don't cancel the British EU Referendum"
+                    }
+                },
+                "numberOfSignatures": 91
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

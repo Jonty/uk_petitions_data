@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553610/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553610/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553610/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553610/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553610/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/585399",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T23:04:42.045Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553610",
+                    "label": {
+                        "_value": "Limit the cost of mandatory insurance policies, i.e. motor insurance."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575048",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:27:29.618Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553610",
+                    "label": {
+                        "_value": "Limit the cost of mandatory insurance policies, i.e. motor insurance."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T13:01:09.457Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553610",
+                    "label": {
+                        "_value": "Limit the cost of mandatory insurance policies, i.e. motor insurance."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554991",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T16:12:15.252Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553610",
+                    "label": {
+                        "_value": "Limit the cost of mandatory insurance policies, i.e. motor insurance."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T15:59:28.903Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553610",
+                    "label": {
+                        "_value": "Limit the cost of mandatory insurance policies, i.e. motor insurance."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548804/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548804/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548804/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548804/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548804/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651119",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548804",
+                    "label": {
+                        "_value": "Make food producers include corn/additives derived from corn in allergens info"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T17:01:20.266Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548804",
+                    "label": {
+                        "_value": "Make food producers include corn/additives derived from corn in allergens info"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548805",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T08:58:52.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548804",
+                    "label": {
+                        "_value": "Make food producers include corn/additives derived from corn in allergens info"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

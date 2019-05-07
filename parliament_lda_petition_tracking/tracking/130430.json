@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548421/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548421/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548421/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548421/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548421/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548421",
+                    "label": {
+                        "_value": "Ethical consumption rating to be displayed alongside price for all products"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640158",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548421",
+                    "label": {
+                        "_value": "Ethical consumption rating to be displayed alongside price for all products"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564889",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-18T14:19:04.991Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548421",
+                    "label": {
+                        "_value": "Ethical consumption rating to be displayed alongside price for all products"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T15:43:37.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548421",
+                    "label": {
+                        "_value": "Ethical consumption rating to be displayed alongside price for all products"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548422",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-26T19:53:16.472Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548421",
+                    "label": {
+                        "_value": "Ethical consumption rating to be displayed alongside price for all products"
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

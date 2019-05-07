@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461607/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461607/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461607/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461607/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461607/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727792",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461607",
+                    "label": {
+                        "_value": "Use fees from fishing licences to improve rivers and stop illegal fishing."
+                    }
+                },
+                "numberOfSignatures": 306
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537979",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461607",
+                    "label": {
+                        "_value": "Use fees from fishing licences to improve rivers and stop illegal fishing."
+                    }
+                },
+                "numberOfSignatures": 306
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527405",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-18T00:00:06.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461607",
+                    "label": {
+                        "_value": "Use fees from fishing licences to improve rivers and stop illegal fishing."
+                    }
+                },
+                "numberOfSignatures": 306
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T09:32:23.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461607",
+                    "label": {
+                        "_value": "Use fees from fishing licences to improve rivers and stop illegal fishing."
+                    }
+                },
+                "numberOfSignatures": 306
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:13:41.725Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461607",
+                    "label": {
+                        "_value": "Use fees from fishing licences to improve rivers and stop illegal fishing."
+                    }
+                },
+                "numberOfSignatures": 305
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

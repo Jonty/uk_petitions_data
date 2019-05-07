@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462775/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462775/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462775/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462775/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462775/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729645",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:07.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462775",
+                    "label": {
+                        "_value": "Repeal the UK Immigration Act 2014"
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547186",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462775",
+                    "label": {
+                        "_value": "Repeal the UK Immigration Act 2014"
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538913",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462775",
+                    "label": {
+                        "_value": "Repeal the UK Immigration Act 2014"
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512381",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T01:31:47.625Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462775",
+                    "label": {
+                        "_value": "Repeal the UK Immigration Act 2014"
+                    }
+                },
+                "numberOfSignatures": 88
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462776",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T22:44:11.017Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462775",
+                    "label": {
+                        "_value": "Repeal the UK Immigration Act 2014"
+                    }
+                },
+                "numberOfSignatures": 87
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

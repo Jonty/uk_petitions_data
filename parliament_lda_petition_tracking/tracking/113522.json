@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464659/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464659/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464659/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464659/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464659/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735857",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464659",
+                    "label": {
+                        "_value": "Require all high ranking public officials to openly disclose all finances."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548354",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464659",
+                    "label": {
+                        "_value": "Require all high ranking public officials to openly disclose all finances."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509803",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T02:17:34.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464659",
+                    "label": {
+                        "_value": "Require all high ranking public officials to openly disclose all finances."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490094",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T22:01:21.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464659",
+                    "label": {
+                        "_value": "Require all high ranking public officials to openly disclose all finances."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/473439",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-15T17:12:56.347Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464659",
+                    "label": {
+                        "_value": "Require all high ranking public officials to openly disclose all finances."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T15:46:10.184Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464659",
+                    "label": {
+                        "_value": "Require all high ranking public officials to openly disclose all finances."
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

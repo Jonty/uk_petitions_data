@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462897/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462897/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462897/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462897/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462897/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.595Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462897",
+                    "label": {
+                        "_value": "Provide humanitarian assistance for refugees in Northern France"
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462897",
+                    "label": {
+                        "_value": "Provide humanitarian assistance for refugees in Northern France"
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538963",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-08T22:21:20.310Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462897",
+                    "label": {
+                        "_value": "Provide humanitarian assistance for refugees in Northern France"
+                    }
+                },
+                "numberOfSignatures": 85
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508782",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T08:58:33.939Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462897",
+                    "label": {
+                        "_value": "Provide humanitarian assistance for refugees in Northern France"
+                    }
+                },
+                "numberOfSignatures": 79
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462898",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T13:22:54.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462897",
+                    "label": {
+                        "_value": "Provide humanitarian assistance for refugees in Northern France"
+                    }
+                },
+                "numberOfSignatures": 77
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

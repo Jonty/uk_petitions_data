@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543132/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543132/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543132/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543132/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543132/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543132",
+                    "label": {
+                        "_value": "Revise section 59 and withdraw the photographer / Car Spotter 48 hour ban/fine"
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561591",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-14T23:28:11.935Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543132",
+                    "label": {
+                        "_value": "Revise section 59 and withdraw the photographer / Car Spotter 48 hour ban/fine"
+                    }
+                },
+                "numberOfSignatures": 94
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T20:53:50.612Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543132",
+                    "label": {
+                        "_value": "Revise section 59 and withdraw the photographer / Car Spotter 48 hour ban/fine"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T21:31:18.527Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543132",
+                    "label": {
+                        "_value": "Revise section 59 and withdraw the photographer / Car Spotter 48 hour ban/fine"
+                    }
+                },
+                "numberOfSignatures": 92
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/544678",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T07:14:44.116Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543132",
+                    "label": {
+                        "_value": "Revise section 59 and withdraw the photographer / Car Spotter 48 hour ban/fine"
+                    }
+                },
+                "numberOfSignatures": 89
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-23T19:05:43.451Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543132",
+                    "label": {
+                        "_value": "Revise section 59 and withdraw the photographer / Car Spotter 48 hour ban/fine"
+                    }
+                },
+                "numberOfSignatures": 79
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

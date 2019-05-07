@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548762/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548762/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548762/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548762/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548762/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:27.008Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548762",
+                    "label": {
+                        "_value": "Change the gambling age to 21+ now!"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645649",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T16:03:39.332Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548762",
+                    "label": {
+                        "_value": "Change the gambling age to 21+ now!"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640172",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T07:01:09.222Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548762",
+                    "label": {
+                        "_value": "Change the gambling age to 21+ now!"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/636111",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-14T13:49:53.246Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548762",
+                    "label": {
+                        "_value": "Change the gambling age to 21+ now!"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562330",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T01:28:42.316Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548762",
+                    "label": {
+                        "_value": "Change the gambling age to 21+ now!"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548763",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T23:32:52.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548762",
+                    "label": {
+                        "_value": "Change the gambling age to 21+ now!"
+                    }
+                },
+                "numberOfSignatures": 22
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

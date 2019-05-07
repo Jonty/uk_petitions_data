@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581907/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581907/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581907/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581907/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581907/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/599740",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:26:38.882Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581907",
+                    "label": {
+                        "_value": "DLA low rate mobility and standard rate pip mobility entitled to a free car"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-29T11:54:49.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581907",
+                    "label": {
+                        "_value": "DLA low rate mobility and standard rate pip mobility entitled to a free car"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T11:56:41.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581907",
+                    "label": {
+                        "_value": "DLA low rate mobility and standard rate pip mobility entitled to a free car"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T11:45:33.529Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581907",
+                    "label": {
+                        "_value": "DLA low rate mobility and standard rate pip mobility entitled to a free car"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581908",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T13:42:48.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581907",
+                    "label": {
+                        "_value": "DLA low rate mobility and standard rate pip mobility entitled to a free car"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

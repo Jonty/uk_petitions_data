@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/482165/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/482165/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/482165/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/482165/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/482165/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/587929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482165",
+                    "label": {
+                        "_value": "Abolish SEN statements on diagnosis of ASD. Those without one, are being failed."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-28T08:53:34.069Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482165",
+                    "label": {
+                        "_value": "Abolish SEN statements on diagnosis of ASD. Those without one, are being failed."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482920",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T14:21:25.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482165",
+                    "label": {
+                        "_value": "Abolish SEN statements on diagnosis of ASD. Those without one, are being failed."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T21:43:34.763Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/482165",
+                    "label": {
+                        "_value": "Abolish SEN statements on diagnosis of ASD. Those without one, are being failed."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

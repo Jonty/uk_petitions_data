@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461873/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461873/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461873/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461873/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461873/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728170",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.258Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461873",
+                    "label": {
+                        "_value": "speed up the process for misscarriages of justice"
+                    }
+                },
+                "numberOfSignatures": 220
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538181",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461873",
+                    "label": {
+                        "_value": "speed up the process for misscarriages of justice"
+                    }
+                },
+                "numberOfSignatures": 220
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T00:00:13.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461873",
+                    "label": {
+                        "_value": "speed up the process for misscarriages of justice"
+                    }
+                },
+                "numberOfSignatures": 220
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

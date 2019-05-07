@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551437/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551437/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551437/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551437/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551437/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/603794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T11:35:22.055Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551437",
+                    "label": {
+                        "_value": "Reform this country before deciding on enacting Article 50 to leave the EU."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578396",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-07T05:37:05.890Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551437",
+                    "label": {
+                        "_value": "Reform this country before deciding on enacting Article 50 to leave the EU."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T10:17:23.891Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551437",
+                    "label": {
+                        "_value": "Reform this country before deciding on enacting Article 50 to leave the EU."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

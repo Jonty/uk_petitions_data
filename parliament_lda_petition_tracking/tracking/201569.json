@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/765132/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/765132/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/765132/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/765132/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/765132/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/879293",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-05T23:00:02.184Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/765132",
+                    "label": {
+                        "_value": "change workplace drugs tests. Oral mouth swabs should be the compulsory method."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/804184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-11T14:52:15.732Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/765132",
+                    "label": {
+                        "_value": "change workplace drugs tests. Oral mouth swabs should be the compulsory method."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/774265",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-19T08:59:38.734Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/765132",
+                    "label": {
+                        "_value": "change workplace drugs tests. Oral mouth swabs should be the compulsory method."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/766713",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-07T01:14:51.773Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/765132",
+                    "label": {
+                        "_value": "change workplace drugs tests. Oral mouth swabs should be the compulsory method."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/765133",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-10-05T15:17:23.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/765132",
+                    "label": {
+                        "_value": "change workplace drugs tests. Oral mouth swabs should be the compulsory method."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/869147/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/869147/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/869147/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/869147/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/869147/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/977026",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-21T23:00:02.839Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869147",
+                    "label": {
+                        "_value": "Remove defensive architecture to help homeless people sleep safely"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/949375",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-25T10:07:46.534Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869147",
+                    "label": {
+                        "_value": "Remove defensive architecture to help homeless people sleep safely"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946714",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-22T17:28:56.582Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869147",
+                    "label": {
+                        "_value": "Remove defensive architecture to help homeless people sleep safely"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/888839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-21T03:52:51.004Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869147",
+                    "label": {
+                        "_value": "Remove defensive architecture to help homeless people sleep safely"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/887826",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-19T11:14:08.441Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869147",
+                    "label": {
+                        "_value": "Remove defensive architecture to help homeless people sleep safely"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/869148",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-21T18:10:33.253Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/869147",
+                    "label": {
+                        "_value": "Remove defensive architecture to help homeless people sleep safely"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

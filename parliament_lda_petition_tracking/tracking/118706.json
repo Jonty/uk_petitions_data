@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464635/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464635/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464635/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464635/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464635/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735614",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.270Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464635",
+                    "label": {
+                        "_value": "Make noise from immediate neighbours over 75 dB after 8pm an illegal offense"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464635",
+                    "label": {
+                        "_value": "Make noise from immediate neighbours over 75 dB after 8pm an illegal offense"
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-09T00:05:11.604Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464635",
+                    "label": {
+                        "_value": "Make noise from immediate neighbours over 75 dB after 8pm an illegal offense"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480440",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T12:49:51.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464635",
+                    "label": {
+                        "_value": "Make noise from immediate neighbours over 75 dB after 8pm an illegal offense"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T01:41:42.130Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464635",
+                    "label": {
+                        "_value": "Make noise from immediate neighbours over 75 dB after 8pm an illegal offense"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

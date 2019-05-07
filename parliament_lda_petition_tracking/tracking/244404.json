@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1094089/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1094089/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1094089/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1094089/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1094089/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1106959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-27T23:12:24.609Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094089",
+                    "label": {
+                        "_value": "Require credit card issuers to check ID as part of an application"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1094090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-22T13:16:25.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1094089",
+                    "label": {
+                        "_value": "Require credit card issuers to check ID as part of an application"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

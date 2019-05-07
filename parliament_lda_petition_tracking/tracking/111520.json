@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461725/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461725/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461725/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461725/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461725/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727951",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.619Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461725",
+                    "label": {
+                        "_value": "Give grandparents the right to see their grandchildren."
+                    }
+                },
+                "numberOfSignatures": 267
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538066",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461725",
+                    "label": {
+                        "_value": "Give grandparents the right to see their grandchildren."
+                    }
+                },
+                "numberOfSignatures": 267
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527474",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-12T00:00:11.030Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461725",
+                    "label": {
+                        "_value": "Give grandparents the right to see their grandchildren."
+                    }
+                },
+                "numberOfSignatures": 267
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487660",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T18:49:49.875Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461725",
+                    "label": {
+                        "_value": "Give grandparents the right to see their grandchildren."
+                    }
+                },
+                "numberOfSignatures": 264
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T13:14:22.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461725",
+                    "label": {
+                        "_value": "Give grandparents the right to see their grandchildren."
+                    }
+                },
+                "numberOfSignatures": 263
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T17:27:08.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461725",
+                    "label": {
+                        "_value": "Give grandparents the right to see their grandchildren."
+                    }
+                },
+                "numberOfSignatures": 261
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

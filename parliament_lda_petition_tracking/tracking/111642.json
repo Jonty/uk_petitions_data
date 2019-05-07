@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462597/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462597/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462597/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462597/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462597/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729387",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.768Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462597",
+                    "label": {
+                        "_value": "Allow Neurofibromatosis  (NF patients  treatments )"
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462597",
+                    "label": {
+                        "_value": "Allow Neurofibromatosis  (NF patients  treatments )"
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-05T00:00:09.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462597",
+                    "label": {
+                        "_value": "Allow Neurofibromatosis  (NF patients  treatments )"
+                    }
+                },
+                "numberOfSignatures": 104
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462598",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T03:31:04.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462597",
+                    "label": {
+                        "_value": "Allow Neurofibromatosis  (NF patients  treatments )"
+                    }
+                },
+                "numberOfSignatures": 102
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

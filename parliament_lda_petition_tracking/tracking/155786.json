@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547434/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547434/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547434/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547434/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547434/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734271",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:25.463Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547434",
+                    "label": {
+                        "_value": "Permit a one off national holiday celebrating immigrants and their contributions"
+                    }
+                },
+                "numberOfSignatures": 46
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547435",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T20:20:10.840Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547434",
+                    "label": {
+                        "_value": "Permit a one off national holiday celebrating immigrants and their contributions"
+                    }
+                },
+                "numberOfSignatures": 45
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

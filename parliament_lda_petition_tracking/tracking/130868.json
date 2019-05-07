@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548504/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548504/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548504/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548504/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548504/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735833",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.825Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548504",
+                    "label": {
+                        "_value": "MPs should be paid the National Living Wage after regaining control of their pay"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640166",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548504",
+                    "label": {
+                        "_value": "MPs should be paid the National Living Wage after regaining control of their pay"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T11:11:17.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548504",
+                    "label": {
+                        "_value": "MPs should be paid the National Living Wage after regaining control of their pay"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/589634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T16:44:00.140Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548504",
+                    "label": {
+                        "_value": "MPs should be paid the National Living Wage after regaining control of their pay"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548505",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-07T13:36:10.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548504",
+                    "label": {
+                        "_value": "MPs should be paid the National Living Wage after regaining control of their pay"
+                    }
+                },
+                "numberOfSignatures": 25
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

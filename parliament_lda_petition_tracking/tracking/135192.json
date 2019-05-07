@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551529/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551529/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551529/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551529/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551529/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630586",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:34:32.510Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551529",
+                    "label": {
+                        "_value": "Begin a UK Space Program"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591077",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T07:07:29.410Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551529",
+                    "label": {
+                        "_value": "Begin a UK Space Program"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/557409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-08T14:51:45.465Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551529",
+                    "label": {
+                        "_value": "Begin a UK Space Program"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554976",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-04T12:45:08.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551529",
+                    "label": {
+                        "_value": "Begin a UK Space Program"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551530",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T10:42:24.404Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551529",
+                    "label": {
+                        "_value": "Begin a UK Space Program"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664909/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664909/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664909/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664909/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664909/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734212",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.107Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664909",
+                    "label": {
+                        "_value": "Take military action against the Syrian President Bashar al-Assad's Government."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T10:41:44.450Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664909",
+                    "label": {
+                        "_value": "Take military action against the Syrian President Bashar al-Assad's Government."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664910",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-22T20:53:59.020Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664909",
+                    "label": {
+                        "_value": "Take military action against the Syrian President Bashar al-Assad's Government."
+                    }
+                },
+                "numberOfSignatures": 40
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

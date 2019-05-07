@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/543504/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/543504/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/543504/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/543504/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/543504/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733573",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:21.272Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543504",
+                    "label": {
+                        "_value": "Ban pre packed cooked bones being sold as dog treats"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665780",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-27T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543504",
+                    "label": {
+                        "_value": "Ban pre packed cooked bones being sold as dog treats"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T10:59:19.054Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543504",
+                    "label": {
+                        "_value": "Ban pre packed cooked bones being sold as dog treats"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630302",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T16:42:01.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543504",
+                    "label": {
+                        "_value": "Ban pre packed cooked bones being sold as dog treats"
+                    }
+                },
+                "numberOfSignatures": 61
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578198",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-06T14:56:42.452Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543504",
+                    "label": {
+                        "_value": "Ban pre packed cooked bones being sold as dog treats"
+                    }
+                },
+                "numberOfSignatures": 60
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543505",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-17T17:19:19.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/543504",
+                    "label": {
+                        "_value": "Ban pre packed cooked bones being sold as dog treats"
+                    }
+                },
+                "numberOfSignatures": 59
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

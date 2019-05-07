@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461549/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461549/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461549/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461549/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461549/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727661",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:52.870Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461549",
+                    "label": {
+                        "_value": "Introduce a national prostate screening programme for all men aged over 50."
+                    }
+                },
+                "numberOfSignatures": 339
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537918",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461549",
+                    "label": {
+                        "_value": "Introduce a national prostate screening programme for all men aged over 50."
+                    }
+                },
+                "numberOfSignatures": 339
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461550",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T11:54:46.424Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461549",
+                    "label": {
+                        "_value": "Introduce a national prostate screening programme for all men aged over 50."
+                    }
+                },
+                "numberOfSignatures": 339
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

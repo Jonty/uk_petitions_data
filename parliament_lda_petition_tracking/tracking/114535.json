@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462941/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462941/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462941/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462941/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462941/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729929",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.604Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462941",
+                    "label": {
+                        "_value": "Improve the postal voting system for England, Wales and Scotland"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543194",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462941",
+                    "label": {
+                        "_value": "Improve the postal voting system for England, Wales and Scotland"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T13:58:49.916Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462941",
+                    "label": {
+                        "_value": "Improve the postal voting system for England, Wales and Scotland"
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482774",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-20T22:27:17.586Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462941",
+                    "label": {
+                        "_value": "Improve the postal voting system for England, Wales and Scotland"
+                    }
+                },
+                "numberOfSignatures": 74
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T22:20:30.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462941",
+                    "label": {
+                        "_value": "Improve the postal voting system for England, Wales and Scotland"
+                    }
+                },
+                "numberOfSignatures": 73
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

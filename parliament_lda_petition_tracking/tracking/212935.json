@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/853192/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/853192/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/853192/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/853192/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/853192/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/963955",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-01T23:00:01.181Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/928488",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-20T13:26:04.070Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/871248",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-24T14:57:52.652Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/866408",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-18T10:50:40.890Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/856750",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-05T21:09:26.918Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-02T10:34:06.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/853193",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-01T16:00:45.997Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/853192",
+                    "label": {
+                        "_value": "Put pressure on the US government to be stricter in relation to gun usage"
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

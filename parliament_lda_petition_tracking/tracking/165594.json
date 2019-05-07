@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/569354/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/569354/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/569354/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/569354/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/569354/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/625754",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T07:20:55.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569354",
+                    "label": {
+                        "_value": "Legal limit for clearance of the accidents and road re opening under 2 hours."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618990",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:12:30.681Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569354",
+                    "label": {
+                        "_value": "Legal limit for clearance of the accidents and road re opening under 2 hours."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-26T13:11:44.795Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/569354",
+                    "label": {
+                        "_value": "Legal limit for clearance of the accidents and road re opening under 2 hours."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

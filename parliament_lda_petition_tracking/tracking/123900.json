@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466947/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466947/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466947/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466947/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466947/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/580646",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573132",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:25:53.869Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572521",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T19:34:54.685Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550467",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T17:41:26.692Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489434",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T15:06:12.993Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/476712",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T00:31:52.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466948",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T14:18:56.797Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466947",
+                    "label": {
+                        "_value": "Impose a ban on leaving your engine running whilst your vehicle is parked."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

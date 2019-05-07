@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/860522/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/860522/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/860522/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/860522/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/860522/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/973868",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-12T23:00:08.569Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860522",
+                    "label": {
+                        "_value": "Let 15 year olds take their CBT once they reach their final school year"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936477",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-04T09:54:17.665Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860522",
+                    "label": {
+                        "_value": "Let 15 year olds take their CBT once they reach their final school year"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/896106",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-29T20:29:11.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860522",
+                    "label": {
+                        "_value": "Let 15 year olds take their CBT once they reach their final school year"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884862",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T12:30:10.844Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860522",
+                    "label": {
+                        "_value": "Let 15 year olds take their CBT once they reach their final school year"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/860523",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-12T16:42:34.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/860522",
+                    "label": {
+                        "_value": "Let 15 year olds take their CBT once they reach their final school year"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

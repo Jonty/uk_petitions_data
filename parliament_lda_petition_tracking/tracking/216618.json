@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/881049/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/881049/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/881049/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/881049/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/881049/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/986308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T23:00:02.607Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/881049",
+                    "label": {
+                        "_value": "Teach about Babylonian history in schools!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/982439",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-06T20:22:32.254Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/881049",
+                    "label": {
+                        "_value": "Teach about Babylonian history in schools!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970053",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-07T12:25:56.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/881049",
+                    "label": {
+                        "_value": "Teach about Babylonian history in schools!"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/894138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-28T15:08:26.212Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/881049",
+                    "label": {
+                        "_value": "Teach about Babylonian history in schools!"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/881599",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-11T12:56:52.553Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/881049",
+                    "label": {
+                        "_value": "Teach about Babylonian history in schools!"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/881050",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-10T16:50:41.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/881049",
+                    "label": {
+                        "_value": "Teach about Babylonian history in schools!"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

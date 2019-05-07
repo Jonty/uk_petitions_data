@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1061964/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1061964/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1061964/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1061964/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1061964/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107429",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:13:31.796Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061964",
+                    "label": {
+                        "_value": "Allow gritting lorries to use blue lights during snow emergencies."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1062830",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-16T19:15:07.291Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061964",
+                    "label": {
+                        "_value": "Allow gritting lorries to use blue lights during snow emergencies."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-13T22:24:41.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061964",
+                    "label": {
+                        "_value": "Allow gritting lorries to use blue lights during snow emergencies."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

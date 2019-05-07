@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1061922/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1061922/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1061922/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1061922/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1061922/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107087",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:14.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061922",
+                    "label": {
+                        "_value": "Ban anyone born after 2003 from ever buying cigarettes, to stop future smokers."
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090184",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-15T08:51:42.834Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061922",
+                    "label": {
+                        "_value": "Ban anyone born after 2003 from ever buying cigarettes, to stop future smokers."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081589",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T07:41:59.490Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061922",
+                    "label": {
+                        "_value": "Ban anyone born after 2003 from ever buying cigarettes, to stop future smokers."
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075936",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T09:43:36.007Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061922",
+                    "label": {
+                        "_value": "Ban anyone born after 2003 from ever buying cigarettes, to stop future smokers."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061923",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T19:32:13.682Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061922",
+                    "label": {
+                        "_value": "Ban anyone born after 2003 from ever buying cigarettes, to stop future smokers."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550346/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550346/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550346/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550346/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550346/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624487",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:14:45.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550346",
+                    "label": {
+                        "_value": "A public enquiry to review why people voted as they did in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605428",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-17T05:51:26.120Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550346",
+                    "label": {
+                        "_value": "A public enquiry to review why people voted as they did in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550347",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-22T09:46:33.592Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550346",
+                    "label": {
+                        "_value": "A public enquiry to review why people voted as they did in the EU referendum."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

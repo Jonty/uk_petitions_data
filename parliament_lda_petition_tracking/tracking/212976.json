@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/859079/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/859079/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/859079/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/859079/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/859079/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/971270",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-09T23:00:03.512Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859079",
+                    "label": {
+                        "_value": "Black Ancient History to be taught in schools. As a course, module, in all level"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/903334",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-11T21:44:47.458Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859079",
+                    "label": {
+                        "_value": "Black Ancient History to be taught in schools. As a course, module, in all level"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/898957",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-06T19:41:26.574Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859079",
+                    "label": {
+                        "_value": "Black Ancient History to be taught in schools. As a course, module, in all level"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/868189",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-20T16:22:08.986Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859079",
+                    "label": {
+                        "_value": "Black Ancient History to be taught in schools. As a course, module, in all level"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/859080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-09T17:22:44.746Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/859079",
+                    "label": {
+                        "_value": "Black Ancient History to be taught in schools. As a course, module, in all level"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

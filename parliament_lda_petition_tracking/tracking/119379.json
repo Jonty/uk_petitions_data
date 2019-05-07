@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466355/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466355/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466355/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466355/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466355/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/553524",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466355",
+                    "label": {
+                        "_value": "Always oppose Taiwan independence"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550052",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T00:43:48.938Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466355",
+                    "label": {
+                        "_value": "Always oppose Taiwan independence"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481519",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-18T19:09:11.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466355",
+                    "label": {
+                        "_value": "Always oppose Taiwan independence"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-22T13:56:43.587Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466355",
+                    "label": {
+                        "_value": "Always oppose Taiwan independence"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

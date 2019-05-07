@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/849902/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/849902/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/849902/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/849902/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/849902/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/961595",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-26T23:00:02.974Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849902",
+                    "label": {
+                        "_value": "Charge a set \u00a35 fee for every use of the NHS (i.e. GPs, ambulance or hospital)"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946049",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T06:14:17.345Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849902",
+                    "label": {
+                        "_value": "Charge a set \u00a35 fee for every use of the NHS (i.e. GPs, ambulance or hospital)"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/939234",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-11T08:46:41.969Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849902",
+                    "label": {
+                        "_value": "Charge a set \u00a35 fee for every use of the NHS (i.e. GPs, ambulance or hospital)"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936517",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-06T11:30:58.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849902",
+                    "label": {
+                        "_value": "Charge a set \u00a35 fee for every use of the NHS (i.e. GPs, ambulance or hospital)"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/849903",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-26T18:55:26.500Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/849902",
+                    "label": {
+                        "_value": "Charge a set \u00a35 fee for every use of the NHS (i.e. GPs, ambulance or hospital)"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

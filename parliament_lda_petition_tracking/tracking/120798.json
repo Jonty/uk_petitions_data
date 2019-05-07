@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464387/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464387/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464387/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464387/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464387/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735611",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:08.623Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464387",
+                    "label": {
+                        "_value": "For the UK government to accept the UN findings on Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464387",
+                    "label": {
+                        "_value": "For the UK government to accept the UN findings on Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548215",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T11:09:08.298Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464387",
+                    "label": {
+                        "_value": "For the UK government to accept the UN findings on Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 29
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464388",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T19:41:06.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464387",
+                    "label": {
+                        "_value": "For the UK government to accept the UN findings on Julian Assange."
+                    }
+                },
+                "numberOfSignatures": 26
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

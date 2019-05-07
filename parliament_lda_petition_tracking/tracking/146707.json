@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549634/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549634/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549634/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549634/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549634/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624456",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:11:42.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549634",
+                    "label": {
+                        "_value": "Allow Tunbridge Wells a referendum to separate from the UK alongside Scotland."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-02T09:51:52.387Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549634",
+                    "label": {
+                        "_value": "Allow Tunbridge Wells a referendum to separate from the UK alongside Scotland."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

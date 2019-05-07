@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551880/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551880/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551880/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551880/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551880/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627986",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T01:40:12.344Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551880",
+                    "label": {
+                        "_value": "Add political history and international relations to the school curriculum."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-21T03:06:26.522Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551880",
+                    "label": {
+                        "_value": "Add political history and international relations to the school curriculum."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551881",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-02T20:42:37.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551880",
+                    "label": {
+                        "_value": "Add political history and international relations to the school curriculum."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

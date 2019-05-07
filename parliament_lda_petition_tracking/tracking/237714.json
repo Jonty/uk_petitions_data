@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1051182/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1051182/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1051182/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1051182/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1051182/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107497",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:09:59.702Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051182",
+                    "label": {
+                        "_value": "Change law so a caring original owner can reclaim their dog\n"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T09:08:29.367Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051182",
+                    "label": {
+                        "_value": "Change law so a caring original owner can reclaim their dog\n"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1063352",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-17T16:39:55.881Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051182",
+                    "label": {
+                        "_value": "Change law so a caring original owner can reclaim their dog\n"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1053108",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-01T16:42:32.264Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051182",
+                    "label": {
+                        "_value": "Change law so a caring original owner can reclaim their dog\n"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1051183",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-29T17:24:34.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1051182",
+                    "label": {
+                        "_value": "Change law so a caring original owner can reclaim their dog\n"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

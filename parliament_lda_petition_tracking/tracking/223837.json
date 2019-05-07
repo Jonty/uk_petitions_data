@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/940593/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/940593/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/940593/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/940593/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/940593/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1040718",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-13T00:00:03.219Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940593",
+                    "label": {
+                        "_value": "Limit new drivers 1100cc- first 12 mths, 14000cc-12-24 mths, 1600cc-24-36 mths"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1033574",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-30T07:13:14.477Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940593",
+                    "label": {
+                        "_value": "Limit new drivers 1100cc- first 12 mths, 14000cc-12-24 mths, 1600cc-24-36 mths"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1001870",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-05T12:50:23.202Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940593",
+                    "label": {
+                        "_value": "Limit new drivers 1100cc- first 12 mths, 14000cc-12-24 mths, 1600cc-24-36 mths"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/989297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-16T11:27:09.754Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940593",
+                    "label": {
+                        "_value": "Limit new drivers 1100cc- first 12 mths, 14000cc-12-24 mths, 1600cc-24-36 mths"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/940594",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-12T17:00:25.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/940593",
+                    "label": {
+                        "_value": "Limit new drivers 1100cc- first 12 mths, 14000cc-12-24 mths, 1600cc-24-36 mths"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

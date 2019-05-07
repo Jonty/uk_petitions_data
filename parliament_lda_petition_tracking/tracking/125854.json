@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492204/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492204/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492204/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492204/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492204/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492204",
+                    "label": {
+                        "_value": "Force news outlets to place more prominent apologies in publications."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573300",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T17:14:32.577Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492204",
+                    "label": {
+                        "_value": "Force news outlets to place more prominent apologies in publications."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551636",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492204",
+                    "label": {
+                        "_value": "Force news outlets to place more prominent apologies in publications."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502824",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T19:59:15.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492204",
+                    "label": {
+                        "_value": "Force news outlets to place more prominent apologies in publications."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492205",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T15:51:21.701Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492204",
+                    "label": {
+                        "_value": "Force news outlets to place more prominent apologies in publications."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466717/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466717/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466717/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466717/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466717/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-10T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/574968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T01:07:10.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/562338",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-16T03:56:43.197Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/559861",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-11T13:09:39.086Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/555615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-05T14:50:36.709Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549240",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466718",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-10T21:05:17.971Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466717",
+                    "label": {
+                        "_value": "Allow 16 year olds to ride 125cc motorbikes"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

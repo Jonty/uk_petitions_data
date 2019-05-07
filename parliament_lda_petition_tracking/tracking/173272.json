@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/645815/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/645815/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/645815/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/645815/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/645815/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/651167",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-02T19:00:22.374Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645815",
+                    "label": {
+                        "_value": "Ban all-metal manhole covers on roads"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646297",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T00:27:26.920Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645815",
+                    "label": {
+                        "_value": "Ban all-metal manhole covers on roads"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645816",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T15:45:57.050Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/645815",
+                    "label": {
+                        "_value": "Ban all-metal manhole covers on roads"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

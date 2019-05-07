@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548564/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548564/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548564/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548564/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548564/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735708",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:25.960Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548564",
+                    "label": {
+                        "_value": "Hold a general election in 2017 under proportional representation"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T17:40:14.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548564",
+                    "label": {
+                        "_value": "Hold a general election in 2017 under proportional representation"
+                    }
+                },
+                "numberOfSignatures": 28
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621806",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T17:00:09.493Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548564",
+                    "label": {
+                        "_value": "Hold a general election in 2017 under proportional representation"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/600419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-11T20:05:48.768Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548564",
+                    "label": {
+                        "_value": "Hold a general election in 2017 under proportional representation"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/594355",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:12:01.962Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548564",
+                    "label": {
+                        "_value": "Hold a general election in 2017 under proportional representation"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548565",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-15T09:13:39.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548564",
+                    "label": {
+                        "_value": "Hold a general election in 2017 under proportional representation"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

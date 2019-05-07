@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463403/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463403/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463403/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463403/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463403/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733878",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.084Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463403",
+                    "label": {
+                        "_value": "Muslim marriage (Nikah) in the UK should be recognised, polygamy is common."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543634",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463403",
+                    "label": {
+                        "_value": "Muslim marriage (Nikah) in the UK should be recognised, polygamy is common."
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511110",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T12:50:42.646Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463403",
+                    "label": {
+                        "_value": "Muslim marriage (Nikah) in the UK should be recognised, polygamy is common."
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504713",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-05T08:32:10.595Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463403",
+                    "label": {
+                        "_value": "Muslim marriage (Nikah) in the UK should be recognised, polygamy is common."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/488639",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T18:15:11.739Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463403",
+                    "label": {
+                        "_value": "Muslim marriage (Nikah) in the UK should be recognised, polygamy is common."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463404",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-19T00:21:12.334Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463403",
+                    "label": {
+                        "_value": "Muslim marriage (Nikah) in the UK should be recognised, polygamy is common."
+                    }
+                },
+                "numberOfSignatures": 50
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

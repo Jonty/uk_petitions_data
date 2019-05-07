@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462937/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462937/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462937/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462937/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462937/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729764",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:06.470Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462937",
+                    "label": {
+                        "_value": "Employ ministers with experience relative to their role in the next reshuffle"
+                    }
+                },
+                "numberOfSignatures": 83
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462937",
+                    "label": {
+                        "_value": "Employ ministers with experience relative to their role in the next reshuffle"
+                    }
+                },
+                "numberOfSignatures": 83
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/504020",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-04T08:57:04.448Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462937",
+                    "label": {
+                        "_value": "Employ ministers with experience relative to their role in the next reshuffle"
+                    }
+                },
+                "numberOfSignatures": 77
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/477965",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T11:29:54.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462937",
+                    "label": {
+                        "_value": "Employ ministers with experience relative to their role in the next reshuffle"
+                    }
+                },
+                "numberOfSignatures": 76
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467825",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T08:14:28.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462937",
+                    "label": {
+                        "_value": "Employ ministers with experience relative to their role in the next reshuffle"
+                    }
+                },
+                "numberOfSignatures": 75
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462938",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-09T21:01:42.901Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462937",
+                    "label": {
+                        "_value": "Employ ministers with experience relative to their role in the next reshuffle"
+                    }
+                },
+                "numberOfSignatures": 74
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

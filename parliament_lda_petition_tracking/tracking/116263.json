@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463759/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463759/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463759/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463759/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463759/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734398",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:03.868Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463759",
+                    "label": {
+                        "_value": "Make PSHE statutory."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547496",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463759",
+                    "label": {
+                        "_value": "Make PSHE statutory."
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/483964",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-22T20:57:59.755Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463759",
+                    "label": {
+                        "_value": "Make PSHE statutory."
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/467884",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-12T17:04:29.836Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463759",
+                    "label": {
+                        "_value": "Make PSHE statutory."
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T14:17:50.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463759",
+                    "label": {
+                        "_value": "Make PSHE statutory."
+                    }
+                },
+                "numberOfSignatures": 39
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

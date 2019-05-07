@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/902861/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/902861/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/902861/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/902861/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/902861/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1005546",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T00:00:09.304Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902861",
+                    "label": {
+                        "_value": "Introduce a requirement for address verification for internet applications"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/995404",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-23T08:49:00.432Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902861",
+                    "label": {
+                        "_value": "Introduce a requirement for address verification for internet applications"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/982440",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-07T09:39:32.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902861",
+                    "label": {
+                        "_value": "Introduce a requirement for address verification for internet applications"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/930794",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-24T05:19:52.589Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902861",
+                    "label": {
+                        "_value": "Introduce a requirement for address verification for internet applications"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/902862",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-11T20:08:01.969Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/902861",
+                    "label": {
+                        "_value": "Introduce a requirement for address verification for internet applications"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

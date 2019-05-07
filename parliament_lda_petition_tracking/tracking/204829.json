@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/789838/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/789838/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/789838/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/789838/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/789838/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/905265",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-14T23:00:06.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/789838",
+                    "label": {
+                        "_value": "Increase the funding for additional support for prison officers well-being."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/841062",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-11T20:24:27.698Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/789838",
+                    "label": {
+                        "_value": "Increase the funding for additional support for prison officers well-being."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/811224",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-20T10:52:42.152Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/789838",
+                    "label": {
+                        "_value": "Increase the funding for additional support for prison officers well-being."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/799159",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-12-01T19:32:21.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/789838",
+                    "label": {
+                        "_value": "Increase the funding for additional support for prison officers well-being."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/792090",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-19T16:40:53.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/789838",
+                    "label": {
+                        "_value": "Increase the funding for additional support for prison officers well-being."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/789839",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-11-15T13:46:14.871Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/789838",
+                    "label": {
+                        "_value": "Increase the funding for additional support for prison officers well-being."
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

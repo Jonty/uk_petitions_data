@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/643607/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/643607/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/643607/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/643607/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/643607/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735796",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:09.520Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643607",
+                    "label": {
+                        "_value": "Put the \u00a3369 million going into Buckingham Palace into the NHS."
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/666289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T11:11:51.706Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643607",
+                    "label": {
+                        "_value": "Put the \u00a3369 million going into Buckingham Palace into the NHS."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646987",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T19:56:37.815Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643607",
+                    "label": {
+                        "_value": "Put the \u00a3369 million going into Buckingham Palace into the NHS."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646279",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-27T17:33:24.427Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643607",
+                    "label": {
+                        "_value": "Put the \u00a3369 million going into Buckingham Palace into the NHS."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T05:32:33.210Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643607",
+                    "label": {
+                        "_value": "Put the \u00a3369 million going into Buckingham Palace into the NHS."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/643608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-23T19:04:13.062Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/643607",
+                    "label": {
+                        "_value": "Put the \u00a3369 million going into Buckingham Palace into the NHS."
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

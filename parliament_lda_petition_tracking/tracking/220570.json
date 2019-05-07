@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/914190/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/914190/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/914190/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/914190/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/914190/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1018419",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-01T00:00:06.484Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914190",
+                    "label": {
+                        "_value": "Legalise the use of Pyrotechnics at UK football grounds"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991019",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T18:02:38.552Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914190",
+                    "label": {
+                        "_value": "Legalise the use of Pyrotechnics at UK football grounds"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/978535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-27T15:40:03.835Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914190",
+                    "label": {
+                        "_value": "Legalise the use of Pyrotechnics at UK football grounds"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914191",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T14:06:26.774Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/914190",
+                    "label": {
+                        "_value": "Legalise the use of Pyrotechnics at UK football grounds"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

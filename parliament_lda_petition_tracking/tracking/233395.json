@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1018083/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1018083/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1018083/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1018083/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1018083/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107438",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-25T02:31:10.674Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1018083",
+                    "label": {
+                        "_value": "Force Rail Ticketing to allow for WFH and Auto Delay/Cancellation Repayments"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078208",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T09:21:32.895Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1018083",
+                    "label": {
+                        "_value": "Force Rail Ticketing to allow for WFH and Auto Delay/Cancellation Repayments"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1023780",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-11T14:34:04.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1018083",
+                    "label": {
+                        "_value": "Force Rail Ticketing to allow for WFH and Auto Delay/Cancellation Repayments"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1021583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-03T14:12:36.765Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1018083",
+                    "label": {
+                        "_value": "Force Rail Ticketing to allow for WFH and Auto Delay/Cancellation Repayments"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018433",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-01T11:30:09.423Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1018083",
+                    "label": {
+                        "_value": "Force Rail Ticketing to allow for WFH and Auto Delay/Cancellation Repayments"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1018084",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-30T20:12:50.452Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1018083",
+                    "label": {
+                        "_value": "Force Rail Ticketing to allow for WFH and Auto Delay/Cancellation Repayments"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

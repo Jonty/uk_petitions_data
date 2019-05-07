@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/652242/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/652242/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/652242/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/652242/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/652242/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.307Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652242",
+                    "label": {
+                        "_value": "Make all care homes/care providers not for profit organisations"
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653254",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T14:20:02.672Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652242",
+                    "label": {
+                        "_value": "Make all care homes/care providers not for profit organisations"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/652243",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T16:43:18.259Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/652242",
+                    "label": {
+                        "_value": "Make all care homes/care providers not for profit organisations"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

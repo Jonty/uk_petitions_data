@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/977011/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/977011/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/977011/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/977011/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/977011/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1093364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-21T00:00:06.480Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977011",
+                    "label": {
+                        "_value": "Introduce unlimited compassionate leave for those with terminally ill relatives"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076079",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:46:42.132Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977011",
+                    "label": {
+                        "_value": "Introduce unlimited compassionate leave for those with terminally ill relatives"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/999080",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-31T14:55:59.064Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977011",
+                    "label": {
+                        "_value": "Introduce unlimited compassionate leave for those with terminally ill relatives"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/977012",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-22T12:24:36.554Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/977011",
+                    "label": {
+                        "_value": "Introduce unlimited compassionate leave for those with terminally ill relatives"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

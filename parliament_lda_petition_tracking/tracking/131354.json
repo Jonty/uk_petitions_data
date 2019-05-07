@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551196/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551196/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551196/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551196/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551196/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/650165",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551196",
+                    "label": {
+                        "_value": "Allow dividends paid to a Sipp in drawdown to be withdrawn tax free up to limit."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T00:06:04.600Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551196",
+                    "label": {
+                        "_value": "Allow dividends paid to a Sipp in drawdown to be withdrawn tax free up to limit."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/572535",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-31T09:35:48.543Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551196",
+                    "label": {
+                        "_value": "Allow dividends paid to a Sipp in drawdown to be withdrawn tax free up to limit."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-25T19:13:54.087Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551196",
+                    "label": {
+                        "_value": "Allow dividends paid to a Sipp in drawdown to be withdrawn tax free up to limit."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

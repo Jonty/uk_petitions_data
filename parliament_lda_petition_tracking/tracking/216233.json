@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/878355/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/878355/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/878355/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/878355/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/878355/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/981755",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-04T23:00:09.508Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/878355",
+                    "label": {
+                        "_value": "Mandatory weekly hour classes in current politics in secondary schools."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/952786",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-05T18:00:36.315Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/878355",
+                    "label": {
+                        "_value": "Mandatory weekly hour classes in current politics in secondary schools."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/907042",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-17T12:29:05.868Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/878355",
+                    "label": {
+                        "_value": "Mandatory weekly hour classes in current politics in secondary schools."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/878832",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-05T09:33:44.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/878355",
+                    "label": {
+                        "_value": "Mandatory weekly hour classes in current politics in secondary schools."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/878356",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-04T19:14:24.360Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/878355",
+                    "label": {
+                        "_value": "Mandatory weekly hour classes in current politics in secondary schools."
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

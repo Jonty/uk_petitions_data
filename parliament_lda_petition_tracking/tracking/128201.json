@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548933/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548933/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548933/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548933/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548933/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/627874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-02T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548933",
+                    "label": {
+                        "_value": "Scrap the 15 year limit for voting rights of British citizens living abroad"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/564919",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-17T16:00:16.381Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548933",
+                    "label": {
+                        "_value": "Scrap the 15 year limit for voting rights of British citizens living abroad"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-18T22:17:54.903Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548933",
+                    "label": {
+                        "_value": "Scrap the 15 year limit for voting rights of British citizens living abroad"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

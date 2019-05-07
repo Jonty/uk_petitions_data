@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466661/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466661/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466661/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466661/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466661/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/550747",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466661",
+                    "label": {
+                        "_value": "Grants for those in low income families to provide for university."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/506153",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T21:46:37.565Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466661",
+                    "label": {
+                        "_value": "Grants for those in low income families to provide for university."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T12:20:46.676Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466661",
+                    "label": {
+                        "_value": "Grants for those in low income families to provide for university."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490821",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T01:03:18.596Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466661",
+                    "label": {
+                        "_value": "Grants for those in low income families to provide for university."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466662",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:12:38.567Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466661",
+                    "label": {
+                        "_value": "Grants for those in low income families to provide for university."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

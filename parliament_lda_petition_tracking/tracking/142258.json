@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550141/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550141/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550141/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550141/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550141/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633934",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T20:41:55.923Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550141",
+                    "label": {
+                        "_value": "Continue a pro immigration policy and recognise the value migrants bring the UK"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624447",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:13:44.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550141",
+                    "label": {
+                        "_value": "Continue a pro immigration policy and recognise the value migrants bring the UK"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620744",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T09:24:33.802Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550141",
+                    "label": {
+                        "_value": "Continue a pro immigration policy and recognise the value migrants bring the UK"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597663",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-09T05:30:51.568Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550141",
+                    "label": {
+                        "_value": "Continue a pro immigration policy and recognise the value migrants bring the UK"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550142",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T21:48:03.225Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550141",
+                    "label": {
+                        "_value": "Continue a pro immigration policy and recognise the value migrants bring the UK"
+                    }
+                },
+                "numberOfSignatures": 13
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

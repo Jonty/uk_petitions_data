@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/492184/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/492184/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/492184/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/492184/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/492184/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/592843",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492184",
+                    "label": {
+                        "_value": "Maintain the current policy that the Royal Air Force has on tattoos."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576173",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T07:53:07.048Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492184",
+                    "label": {
+                        "_value": "Maintain the current policy that the Royal Air Force has on tattoos."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551258",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492184",
+                    "label": {
+                        "_value": "Maintain the current policy that the Royal Air Force has on tattoos."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508906",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T18:39:02.131Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492184",
+                    "label": {
+                        "_value": "Maintain the current policy that the Royal Air Force has on tattoos."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/492185",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-01T11:09:13.206Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/492184",
+                    "label": {
+                        "_value": "Maintain the current policy that the Royal Air Force has on tattoos."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

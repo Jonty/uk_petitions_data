@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106622/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106622/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106622/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106622/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106622/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T10:16:29.598Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106622",
+                    "label": {
+                        "_value": "National projects should only be awarded to contractors who work 24/7/364"
+                    }
+                },
+                "numberOfSignatures": 133
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T23:26:01.694Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106622",
+                    "label": {
+                        "_value": "National projects should only be awarded to contractors who work 24/7/364"
+                    }
+                },
+                "numberOfSignatures": 132
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

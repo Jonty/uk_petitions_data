@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1081618/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1081618/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1081618/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1081618/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1081618/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107454",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-24T02:31:21.751Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081618",
+                    "label": {
+                        "_value": "Keep May 4th 2020 as a bank holiday"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090263",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T10:29:37.564Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081618",
+                    "label": {
+                        "_value": "Keep May 4th 2020 as a bank holiday"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1084351",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-06T21:36:04.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081618",
+                    "label": {
+                        "_value": "Keep May 4th 2020 as a bank holiday"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1081619",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-04T18:24:20.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1081618",
+                    "label": {
+                        "_value": "Keep May 4th 2020 as a bank holiday"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

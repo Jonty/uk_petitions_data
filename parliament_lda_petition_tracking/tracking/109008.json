@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463881/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463881/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463881/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463881/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463881/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:56.683Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463881",
+                    "label": {
+                        "_value": "For the public to vote on whether MP's should get a pay rise. As we pay for it."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547760",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463881",
+                    "label": {
+                        "_value": "For the public to vote on whether MP's should get a pay rise. As we pay for it."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490071",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T00:00:10.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463881",
+                    "label": {
+                        "_value": "For the public to vote on whether MP's should get a pay rise. As we pay for it."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-27T23:30:47.971Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463881",
+                    "label": {
+                        "_value": "For the public to vote on whether MP's should get a pay rise. As we pay for it."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463882",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T19:29:38.073Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463881",
+                    "label": {
+                        "_value": "For the public to vote on whether MP's should get a pay rise. As we pay for it."
+                    }
+                },
+                "numberOfSignatures": 37
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/623966/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/623966/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/623966/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/623966/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/623966/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733823",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-28T23:00:09.374Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623966",
+                    "label": {
+                        "_value": "Stop schools from giving awards for 100% attendance."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645609",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T16:01:01.475Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623966",
+                    "label": {
+                        "_value": "Stop schools from giving awards for 100% attendance."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/634959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-10T22:12:54.115Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623966",
+                    "label": {
+                        "_value": "Stop schools from giving awards for 100% attendance."
+                    }
+                },
+                "numberOfSignatures": 34
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624421",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:05:47.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623966",
+                    "label": {
+                        "_value": "Stop schools from giving awards for 100% attendance."
+                    }
+                },
+                "numberOfSignatures": 33
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T21:14:11.805Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/623966",
+                    "label": {
+                        "_value": "Stop schools from giving awards for 100% attendance."
+                    }
+                },
+                "numberOfSignatures": 31
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

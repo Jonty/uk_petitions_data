@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553512/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553512/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553512/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553512/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553512/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:17:35.992Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553512",
+                    "label": {
+                        "_value": "Road works on motorways should require 24/7 working."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640245",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-19T21:58:55.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553512",
+                    "label": {
+                        "_value": "Road works on motorways should require 24/7 working."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630534",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:25:28.460Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553512",
+                    "label": {
+                        "_value": "Road works on motorways should require 24/7 working."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/625747",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-31T07:21:15.550Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553512",
+                    "label": {
+                        "_value": "Road works on motorways should require 24/7 working."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553513",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T20:55:35.789Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553512",
+                    "label": {
+                        "_value": "Road works on motorways should require 24/7 working."
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

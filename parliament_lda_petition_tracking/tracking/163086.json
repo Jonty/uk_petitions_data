@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/553634/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/553634/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/553634/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/553634/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/553634/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640340",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T08:07:21.730Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553634",
+                    "label": {
+                        "_value": "Ban personal and commercial drone flights over residential properties"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627959",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T10:28:00.449Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553634",
+                    "label": {
+                        "_value": "Ban personal and commercial drone flights over residential properties"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-27T20:10:11.111Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553634",
+                    "label": {
+                        "_value": "Ban personal and commercial drone flights over residential properties"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560653",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T08:11:50.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553634",
+                    "label": {
+                        "_value": "Ban personal and commercial drone flights over residential properties"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556336",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T09:03:42.523Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553634",
+                    "label": {
+                        "_value": "Ban personal and commercial drone flights over residential properties"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553635",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T16:10:19.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/553634",
+                    "label": {
+                        "_value": "Ban personal and commercial drone flights over residential properties"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

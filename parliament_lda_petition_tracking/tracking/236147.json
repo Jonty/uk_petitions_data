@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1038847/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1038847/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1038847/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1038847/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1038847/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1041156",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-14T12:14:12.267Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1038847",
+                    "label": {
+                        "_value": "Devise a national public campaign to increase awareness of Bone Marrow Donation."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-13T00:20:36.608Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1038847",
+                    "label": {
+                        "_value": "Devise a national public campaign to increase awareness of Bone Marrow Donation."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040370",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-12T20:50:46.051Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1038847",
+                    "label": {
+                        "_value": "Devise a national public campaign to increase awareness of Bone Marrow Donation."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1040002",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-11T13:10:06.144Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1038847",
+                    "label": {
+                        "_value": "Devise a national public campaign to increase awareness of Bone Marrow Donation."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1038848",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-09T14:07:30.261Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1038847",
+                    "label": {
+                        "_value": "Devise a national public campaign to increase awareness of Bone Marrow Donation."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/507570/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/507570/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/507570/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/507570/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/507570/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734453",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:15.503Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507570",
+                    "label": {
+                        "_value": "Increase preschool and nursery funding entitlements."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/597633",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-08T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507570",
+                    "label": {
+                        "_value": "Increase preschool and nursery funding entitlements."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T08:05:56.699Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507570",
+                    "label": {
+                        "_value": "Increase preschool and nursery funding entitlements."
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511228",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T22:00:41.535Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507570",
+                    "label": {
+                        "_value": "Increase preschool and nursery funding entitlements."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509915",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T21:30:48.190Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507570",
+                    "label": {
+                        "_value": "Increase preschool and nursery funding entitlements."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/507571",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-08T15:12:50.293Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/507570",
+                    "label": {
+                        "_value": "Increase preschool and nursery funding entitlements."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

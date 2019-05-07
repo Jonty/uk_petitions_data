@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/567720/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/567720/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/567720/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/567720/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/567720/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735462",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:30.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/567720",
+                    "label": {
+                        "_value": "Reduce the payment of stamp duty to 0% for British Armed Forces personnel"
+                    }
+                },
+                "numberOfSignatures": 30
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649239",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:07:35.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/567720",
+                    "label": {
+                        "_value": "Reduce the payment of stamp duty to 0% for British Armed Forces personnel"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/646966",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-28T13:02:49.237Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/567720",
+                    "label": {
+                        "_value": "Reduce the payment of stamp duty to 0% for British Armed Forces personnel"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630449",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:11:59.953Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/567720",
+                    "label": {
+                        "_value": "Reduce the payment of stamp duty to 0% for British Armed Forces personnel"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/568273",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T13:03:23.247Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/567720",
+                    "label": {
+                        "_value": "Reduce the payment of stamp duty to 0% for British Armed Forces personnel"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567721",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T14:19:57.810Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/567720",
+                    "label": {
+                        "_value": "Reduce the payment of stamp duty to 0% for British Armed Forces personnel"
+                    }
+                },
+                "numberOfSignatures": 19
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

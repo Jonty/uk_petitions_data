@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462288/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462288/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462288/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462288/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462288/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728845",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462288",
+                    "label": {
+                        "_value": "Change the system which allows GP's to receive bonuses for certain diagnosis."
+                    }
+                },
+                "numberOfSignatures": 145
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538498",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462288",
+                    "label": {
+                        "_value": "Change the system which allows GP's to receive bonuses for certain diagnosis."
+                    }
+                },
+                "numberOfSignatures": 145
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527757",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-19T00:00:04.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462288",
+                    "label": {
+                        "_value": "Change the system which allows GP's to receive bonuses for certain diagnosis."
+                    }
+                },
+                "numberOfSignatures": 145
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512344",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T06:34:34.324Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462288",
+                    "label": {
+                        "_value": "Change the system which allows GP's to receive bonuses for certain diagnosis."
+                    }
+                },
+                "numberOfSignatures": 142
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/489213",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T15:01:33.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462288",
+                    "label": {
+                        "_value": "Change the system which allows GP's to receive bonuses for certain diagnosis."
+                    }
+                },
+                "numberOfSignatures": 141
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-29T18:42:44.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462288",
+                    "label": {
+                        "_value": "Change the system which allows GP's to receive bonuses for certain diagnosis."
+                    }
+                },
+                "numberOfSignatures": 140
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

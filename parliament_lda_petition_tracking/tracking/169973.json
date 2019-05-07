@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/620783/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/620783/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/620783/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/620783/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/620783/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/640358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-17T03:01:24.729Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620783",
+                    "label": {
+                        "_value": "Make the mechanics behind weight gain and loss compulsory for secondary schools"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620784",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T16:43:35.407Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620783",
+                    "label": {
+                        "_value": "Make the mechanics behind weight gain and loss compulsory for secondary schools"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

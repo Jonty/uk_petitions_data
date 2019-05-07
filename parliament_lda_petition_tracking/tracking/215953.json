@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/874326/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/874326/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/874326/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/874326/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/874326/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/979358",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-28T23:00:00.320Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874326",
+                    "label": {
+                        "_value": "Lower the math entry requirement to a Grade D, to access teacher training."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/975785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-18T17:42:43.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874326",
+                    "label": {
+                        "_value": "Lower the math entry requirement to a Grade D, to access teacher training."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-15T07:53:45.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874326",
+                    "label": {
+                        "_value": "Lower the math entry requirement to a Grade D, to access teacher training."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/874327",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-03-28T09:29:46.858Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/874326",
+                    "label": {
+                        "_value": "Lower the math entry requirement to a Grade D, to access teacher training."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

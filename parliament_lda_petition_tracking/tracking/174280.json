@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/651075/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/651075/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/651075/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/651075/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/651075/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.618Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651075",
+                    "label": {
+                        "_value": "25 Year Old and over to pay less than \u00a32000 on car insurance"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659282",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-11T21:31:19.012Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651075",
+                    "label": {
+                        "_value": "25 Year Old and over to pay less than \u00a32000 on car insurance"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/653218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-06T14:21:13.079Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651075",
+                    "label": {
+                        "_value": "25 Year Old and over to pay less than \u00a32000 on car insurance"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651076",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T20:20:05.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651075",
+                    "label": {
+                        "_value": "25 Year Old and over to pay less than \u00a32000 on car insurance"
+                    }
+                },
+                "numberOfSignatures": 36
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

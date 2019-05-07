@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/591021/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/591021/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/591021/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/591021/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/591021/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733787",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:35.050Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591021",
+                    "label": {
+                        "_value": "Require the Department of Health to review outdated (1988) Child Growth Chart"
+                    }
+                },
+                "numberOfSignatures": 56
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655488",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-08T17:31:58.137Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591021",
+                    "label": {
+                        "_value": "Require the Department of Health to review outdated (1988) Child Growth Chart"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/593329",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-03T05:09:49.584Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591021",
+                    "label": {
+                        "_value": "Require the Department of Health to review outdated (1988) Child Growth Chart"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T20:23:41.637Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591021",
+                    "label": {
+                        "_value": "Require the Department of Health to review outdated (1988) Child Growth Chart"
+                    }
+                },
+                "numberOfSignatures": 53
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591022",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T21:20:17.226Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/591021",
+                    "label": {
+                        "_value": "Require the Department of Health to review outdated (1988) Child Growth Chart"
+                    }
+                },
+                "numberOfSignatures": 37
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

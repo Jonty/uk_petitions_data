@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/970037/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/970037/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/970037/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/970037/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/970037/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1084344",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-07T00:00:00.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/970037",
+                    "label": {
+                        "_value": "More training for teachers in supporting and identifying childhood trauma"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076095",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T21:12:31.883Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/970037",
+                    "label": {
+                        "_value": "More training for teachers in supporting and identifying childhood trauma"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1058566",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-10T20:29:22.212Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/970037",
+                    "label": {
+                        "_value": "More training for teachers in supporting and identifying childhood trauma"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/973852",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-13T12:43:17.071Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/970037",
+                    "label": {
+                        "_value": "More training for teachers in supporting and identifying childhood trauma"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/970038",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-09-06T22:04:09.941Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/970037",
+                    "label": {
+                        "_value": "More training for teachers in supporting and identifying childhood trauma"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

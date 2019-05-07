@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/468045/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/468045/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/468045/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/468045/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/468045/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/581836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-11T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468045",
+                    "label": {
+                        "_value": "Not to issue 12 month ban on drug driving offences with cannabis"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548819",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-01T19:29:56.912Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468045",
+                    "label": {
+                        "_value": "Not to issue 12 month ban on drug driving offences with cannabis"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/491445",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-31T16:54:36.355Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468045",
+                    "label": {
+                        "_value": "Not to issue 12 month ban on drug driving offences with cannabis"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480493",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T20:47:55.656Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468045",
+                    "label": {
+                        "_value": "Not to issue 12 month ban on drug driving offences with cannabis"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/478991",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-16T21:36:36.808Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468045",
+                    "label": {
+                        "_value": "Not to issue 12 month ban on drug driving offences with cannabis"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/468046",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T18:38:43.067Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/468045",
+                    "label": {
+                        "_value": "Not to issue 12 month ban on drug driving offences with cannabis"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

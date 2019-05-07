@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549672/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549672/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549672/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549672/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549672/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645720",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549672",
+                    "label": {
+                        "_value": "To introduce lessons on taxation and British law into the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630515",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:22:51.729Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549672",
+                    "label": {
+                        "_value": "To introduce lessons on taxation and British law into the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573096",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T16:00:38.340Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549672",
+                    "label": {
+                        "_value": "To introduce lessons on taxation and British law into the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571765",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:08:51.313Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549672",
+                    "label": {
+                        "_value": "To introduce lessons on taxation and British law into the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549673",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T06:56:54.298Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549672",
+                    "label": {
+                        "_value": "To introduce lessons on taxation and British law into the national curriculum."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

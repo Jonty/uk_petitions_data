@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1060456/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1060456/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1060456/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1060456/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1060456/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107538",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:10.931Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060456",
+                    "label": {
+                        "_value": "Urge international effort to move orphans from Idlib to safety, within 3 months!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1089389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-13T23:19:29.845Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060456",
+                    "label": {
+                        "_value": "Urge international effort to move orphans from Idlib to safety, within 3 months!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080223",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T12:33:25.784Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060456",
+                    "label": {
+                        "_value": "Urge international effort to move orphans from Idlib to safety, within 3 months!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076197",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-22T22:39:21.413Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060456",
+                    "label": {
+                        "_value": "Urge international effort to move orphans from Idlib to safety, within 3 months!"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1060457",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-11T11:28:36.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1060456",
+                    "label": {
+                        "_value": "Urge international effort to move orphans from Idlib to safety, within 3 months!"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/936422/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/936422/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/936422/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/936422/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/936422/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1034977",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-03T00:00:06.542Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936422",
+                    "label": {
+                        "_value": "Lower the voting age to 13!!!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/937406",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-09T13:50:35.816Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936422",
+                    "label": {
+                        "_value": "Lower the voting age to 13!!!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936423",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-05T08:17:32.880Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936422",
+                    "label": {
+                        "_value": "Lower the voting age to 13!!!"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

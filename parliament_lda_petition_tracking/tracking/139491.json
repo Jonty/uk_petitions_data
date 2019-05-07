@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549967/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549967/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549967/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549967/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549967/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630513",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T17:40:25.023Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549967",
+                    "label": {
+                        "_value": "Improve the representation of the British people in the UK parliament."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/623256",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T11:45:49.744Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549967",
+                    "label": {
+                        "_value": "Improve the representation of the British people in the UK parliament."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/621829",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-26T17:03:02.230Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549967",
+                    "label": {
+                        "_value": "Improve the representation of the British people in the UK parliament."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620751",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-24T21:06:06.528Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549967",
+                    "label": {
+                        "_value": "Improve the representation of the British people in the UK parliament."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571786",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T15:34:06.499Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549967",
+                    "label": {
+                        "_value": "Improve the representation of the British people in the UK parliament."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-09T16:35:39.433Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549967",
+                    "label": {
+                        "_value": "Improve the representation of the British people in the UK parliament."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1049961/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1049961/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1049961/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1049961/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1049961/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108382",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T20:10:08.761Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049961",
+                    "label": {
+                        "_value": "Allow towns to sack county police force and form a town or city force if failed"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076199",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-18T20:37:33.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049961",
+                    "label": {
+                        "_value": "Allow towns to sack county police force and form a town or city force if failed"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1049962",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-28T10:42:49.794Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1049961",
+                    "label": {
+                        "_value": "Allow towns to sack county police force and form a town or city force if failed"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

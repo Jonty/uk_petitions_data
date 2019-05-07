@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/887835/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/887835/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/887835/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/887835/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/887835/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/992131",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-19T23:00:03.498Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/887835",
+                    "label": {
+                        "_value": "Abolish prohibited lanes for HGV overtaking on M11 and A14."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/887836",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-19T13:29:47.506Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/887835",
+                    "label": {
+                        "_value": "Abolish prohibited lanes for HGV overtaking on M11 and A14."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

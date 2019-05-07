@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/465213/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/465213/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/465213/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/465213/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/465213/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/548628",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-12T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465213",
+                    "label": {
+                        "_value": "Allow refugees that have been resettled in the UK to do paid work."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T15:17:20.943Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465213",
+                    "label": {
+                        "_value": "Allow refugees that have been resettled in the UK to do paid work."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/465214",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:16:18.072Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/465213",
+                    "label": {
+                        "_value": "Allow refugees that have been resettled in the UK to do paid work."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549388/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549388/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549388/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549388/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549388/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635511",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549388",
+                    "label": {
+                        "_value": "Independent, more stringent scrutiny of MPs' interests, influences & conflicts"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/567718",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-23T01:49:09.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549388",
+                    "label": {
+                        "_value": "Independent, more stringent scrutiny of MPs' interests, influences & conflicts"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/554259",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-02T21:31:45.701Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549388",
+                    "label": {
+                        "_value": "Independent, more stringent scrutiny of MPs' interests, influences & conflicts"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549389",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-16T20:44:32.311Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549388",
+                    "label": {
+                        "_value": "Independent, more stringent scrutiny of MPs' interests, influences & conflicts"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

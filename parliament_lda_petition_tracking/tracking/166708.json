@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/581911/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/581911/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/581911/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/581911/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/581911/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/649285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T23:06:44.158Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581911",
+                    "label": {
+                        "_value": "Build a minimum of 100,000 social/council houses per year"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590188",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-25T21:41:29.546Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581911",
+                    "label": {
+                        "_value": "Build a minimum of 100,000 social/council houses per year"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/585427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-16T13:02:19.041Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581911",
+                    "label": {
+                        "_value": "Build a minimum of 100,000 social/council houses per year"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/581912",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-12T10:19:02.205Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/581911",
+                    "label": {
+                        "_value": "Build a minimum of 100,000 social/council houses per year"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

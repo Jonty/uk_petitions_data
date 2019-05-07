@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463987/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463987/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463987/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463987/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463987/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/735029",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.983Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463987",
+                    "label": {
+                        "_value": "Introduce E-sports into the National curriculum as a part of Physical education."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463987",
+                    "label": {
+                        "_value": "Introduce E-sports into the National curriculum as a part of Physical education."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/512568",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-13T00:00:05.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463987",
+                    "label": {
+                        "_value": "Introduce E-sports into the National curriculum as a part of Physical education."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511137",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-12T08:57:54.571Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463987",
+                    "label": {
+                        "_value": "Introduce E-sports into the National curriculum as a part of Physical education."
+                    }
+                },
+                "numberOfSignatures": 35
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463988",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T23:02:29.228Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463987",
+                    "label": {
+                        "_value": "Introduce E-sports into the National curriculum as a part of Physical education."
+                    }
+                },
+                "numberOfSignatures": 34
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

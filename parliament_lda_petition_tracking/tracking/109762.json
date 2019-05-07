@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461681/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461681/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461681/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461681/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461681/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727891",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:57.645Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461681",
+                    "label": {
+                        "_value": "Enforce/stop Nuclear FED discharges at Blackwater Essex the permit has expired."
+                    }
+                },
+                "numberOfSignatures": 279
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538039",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461681",
+                    "label": {
+                        "_value": "Enforce/stop Nuclear FED discharges at Blackwater Essex the permit has expired."
+                    }
+                },
+                "numberOfSignatures": 279
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/508692",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T00:00:04.421Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461681",
+                    "label": {
+                        "_value": "Enforce/stop Nuclear FED discharges at Blackwater Essex the permit has expired."
+                    }
+                },
+                "numberOfSignatures": 279
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461682",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-02T10:23:40.277Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461681",
+                    "label": {
+                        "_value": "Enforce/stop Nuclear FED discharges at Blackwater Essex the permit has expired."
+                    }
+                },
+                "numberOfSignatures": 279
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

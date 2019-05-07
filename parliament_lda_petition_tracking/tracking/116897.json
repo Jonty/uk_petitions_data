@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463467/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463467/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463467/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463467/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463467/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733692",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.486Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463467",
+                    "label": {
+                        "_value": "Ensure that anti-freeze, screenwash &all related products use a bittering agent"
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463467",
+                    "label": {
+                        "_value": "Ensure that anti-freeze, screenwash &all related products use a bittering agent"
+                    }
+                },
+                "numberOfSignatures": 59
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-06T07:52:22.027Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463467",
+                    "label": {
+                        "_value": "Ensure that anti-freeze, screenwash &all related products use a bittering agent"
+                    }
+                },
+                "numberOfSignatures": 54
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/502723",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-02T17:52:04.757Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463467",
+                    "label": {
+                        "_value": "Ensure that anti-freeze, screenwash &all related products use a bittering agent"
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486768",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T19:44:58.100Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463467",
+                    "label": {
+                        "_value": "Ensure that anti-freeze, screenwash &all related products use a bittering agent"
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463468",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-06T13:08:03.897Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463467",
+                    "label": {
+                        "_value": "Ensure that anti-freeze, screenwash &all related products use a bittering agent"
+                    }
+                },
+                "numberOfSignatures": 48
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

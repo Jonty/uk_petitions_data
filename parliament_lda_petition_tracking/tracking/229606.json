@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/983716/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/983716/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/983716/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/983716/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/983716/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107168",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-23T02:31:03.347Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983716",
+                    "label": {
+                        "_value": "Stop charging students council tax on property rented for graduating year"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1075943",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-23T17:33:23.858Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983716",
+                    "label": {
+                        "_value": "Stop charging students council tax on property rented for graduating year"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061915",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-13T17:25:55.413Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983716",
+                    "label": {
+                        "_value": "Stop charging students council tax on property rented for graduating year"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1028215",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-12-18T15:47:33.127Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983716",
+                    "label": {
+                        "_value": "Stop charging students council tax on property rented for graduating year"
+                    }
+                },
+                "numberOfSignatures": 23
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/985460",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T19:39:05.034Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983716",
+                    "label": {
+                        "_value": "Stop charging students council tax on property rented for graduating year"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/983717",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-08T12:06:23.556Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/983716",
+                    "label": {
+                        "_value": "Stop charging students council tax on property rented for graduating year"
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

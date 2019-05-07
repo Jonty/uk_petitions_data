@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551084/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551084/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551084/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551084/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551084/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-06T10:27:04.716Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551084",
+                    "label": {
+                        "_value": "Immediately raise the minimum wage by 10% to counteract the slump in the pound"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573229",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T09:08:58.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551084",
+                    "label": {
+                        "_value": "Immediately raise the minimum wage by 10% to counteract the slump in the pound"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T19:46:06.176Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551084",
+                    "label": {
+                        "_value": "Immediately raise the minimum wage by 10% to counteract the slump in the pound"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

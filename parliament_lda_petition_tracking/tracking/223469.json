@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/951288/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/951288/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/951288/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/951288/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/951288/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1053543",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-02T00:00:04.767Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951288",
+                    "label": {
+                        "_value": "Make causing a psychological injury (mental illness) a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1009035",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-17T19:19:21.786Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951288",
+                    "label": {
+                        "_value": "Make causing a psychological injury (mental illness) a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/962114",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-28T05:25:28.035Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951288",
+                    "label": {
+                        "_value": "Make causing a psychological injury (mental illness) a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/954030",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-08T12:42:45.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951288",
+                    "label": {
+                        "_value": "Make causing a psychological injury (mental illness) a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/951289",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-01T13:31:30.245Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/951288",
+                    "label": {
+                        "_value": "Make causing a psychological injury (mental illness) a criminal offence."
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

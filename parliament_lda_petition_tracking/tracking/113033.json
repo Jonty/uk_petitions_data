@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463445/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463445/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463445/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463445/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463445/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733842",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463445",
+                    "label": {
+                        "_value": "Change policies and tax religious groups and property."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463445",
+                    "label": {
+                        "_value": "Change policies and tax religious groups and property."
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/509747",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-10T23:44:19.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463445",
+                    "label": {
+                        "_value": "Change policies and tax religious groups and property."
+                    }
+                },
+                "numberOfSignatures": 52
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-26T18:42:37.518Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463445",
+                    "label": {
+                        "_value": "Change policies and tax religious groups and property."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T19:39:50.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463445",
+                    "label": {
+                        "_value": "Change policies and tax religious groups and property."
+                    }
+                },
+                "numberOfSignatures": 50
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463446",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T11:42:16.059Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463445",
+                    "label": {
+                        "_value": "Change policies and tax religious groups and property."
+                    }
+                },
+                "numberOfSignatures": 49
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

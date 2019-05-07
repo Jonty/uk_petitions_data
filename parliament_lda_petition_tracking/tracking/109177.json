@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/464971/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/464971/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/464971/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/464971/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/464971/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/549123",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464971",
+                    "label": {
+                        "_value": "CCJ to be reduced from 6 to 2 years with Certificate of Satisfaction"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T00:00:07.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464971",
+                    "label": {
+                        "_value": "CCJ to be reduced from 6 to 2 years with Certificate of Satisfaction"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/464972",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-05T01:40:59.692Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/464971",
+                    "label": {
+                        "_value": "CCJ to be reduced from 6 to 2 years with Certificate of Satisfaction"
+                    }
+                },
+                "numberOfSignatures": 20
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

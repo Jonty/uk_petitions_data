@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1061966/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1061966/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1061966/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1061966/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1061966/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108364",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T08:32:36.341Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061966",
+                    "label": {
+                        "_value": "Introcude machines in the supermarkets to recycle pet bottles, cans and get paid"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1107459",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T02:13:22.113Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061966",
+                    "label": {
+                        "_value": "Introcude machines in the supermarkets to recycle pet bottles, cans and get paid"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076107",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-19T11:19:38.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061966",
+                    "label": {
+                        "_value": "Introcude machines in the supermarkets to recycle pet bottles, cans and get paid"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1061967",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-14T08:53:08.721Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1061966",
+                    "label": {
+                        "_value": "Introcude machines in the supermarkets to recycle pet bottles, cans and get paid"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

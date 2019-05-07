@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/620764/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/620764/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/620764/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/620764/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/620764/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/623267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-27T08:56:53.673Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620764",
+                    "label": {
+                        "_value": "issue an apology  to homosexuals who were criminalised  under indecency laws"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/620765",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-25T20:01:00.823Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/620764",
+                    "label": {
+                        "_value": "issue an apology  to homosexuals who were criminalised  under indecency laws"
+                    }
+                },
+                "numberOfSignatures": 12
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

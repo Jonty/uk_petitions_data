@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/985505/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/985505/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/985505/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/985505/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/985505/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1005533",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-11-12T20:45:41.593Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/985505",
+                    "label": {
+                        "_value": "Add electric pet containment systems (\u2018invisible fences\u2019) to the e-collar ban."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991722",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-19T12:10:48.008Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/985505",
+                    "label": {
+                        "_value": "Add electric pet containment systems (\u2018invisible fences\u2019) to the e-collar ban."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/991067",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-18T18:11:10.660Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/985505",
+                    "label": {
+                        "_value": "Add electric pet containment systems (\u2018invisible fences\u2019) to the e-collar ban."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/986866",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-12T06:09:22.137Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/985505",
+                    "label": {
+                        "_value": "Add electric pet containment systems (\u2018invisible fences\u2019) to the e-collar ban."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/985506",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-10T20:43:08.726Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/985505",
+                    "label": {
+                        "_value": "Add electric pet containment systems (\u2018invisible fences\u2019) to the e-collar ban."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

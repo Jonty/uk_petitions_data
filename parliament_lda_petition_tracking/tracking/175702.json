@@ -1,0 +1,65 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/664830/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/664830/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/664830/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/664830/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/664830/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:12.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664830",
+                    "label": {
+                        "_value": "Service charges & tips should be given to staff automatically by law"
+                    }
+                },
+                "numberOfSignatures": 80
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/665779",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-28T16:46:14.531Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664830",
+                    "label": {
+                        "_value": "Service charges & tips should be given to staff automatically by law"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/664831",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-25T07:06:01.040Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/664830",
+                    "label": {
+                        "_value": "Service charges & tips should be given to staff automatically by law"
+                    }
+                },
+                "numberOfSignatures": 59
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 3,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

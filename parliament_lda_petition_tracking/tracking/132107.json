@@ -1,0 +1,121 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549666/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549666/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549666/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549666/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549666/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/666232",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-09T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T00:47:03.799Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587897",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T20:52:47.138Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583694",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-13T21:10:00.010Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556815",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-07T09:42:13.965Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556298",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T09:33:04.384Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549667",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-30T18:21:26.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549666",
+                    "label": {
+                        "_value": "Ban residential bonfires during Summer."
+                    }
+                },
+                "numberOfSignatures": 16
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 7,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

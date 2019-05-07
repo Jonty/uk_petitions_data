@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466965/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466965/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466965/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466965/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466965/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/575531",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T23:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466965",
+                    "label": {
+                        "_value": "Create Stricter Laws On Laser Attacks On Aircraft."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551651",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466965",
+                    "label": {
+                        "_value": "Create Stricter Laws On Laser Attacks On Aircraft."
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481544",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T19:54:43.785Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466965",
+                    "label": {
+                        "_value": "Create Stricter Laws On Laser Attacks On Aircraft."
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466966",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-03T12:41:11.163Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466965",
+                    "label": {
+                        "_value": "Create Stricter Laws On Laser Attacks On Aircraft."
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

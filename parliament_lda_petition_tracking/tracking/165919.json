@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/571833/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/571833/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/571833/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/571833/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/571833/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630606",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:36:35.287Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571833",
+                    "label": {
+                        "_value": "Introduce Mobile phone jammers into prisons to stop prisoners taunting victims"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/599743",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-10T08:25:15.875Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571833",
+                    "label": {
+                        "_value": "Introduce Mobile phone jammers into prisons to stop prisoners taunting victims"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/578392",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T20:41:36.836Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571833",
+                    "label": {
+                        "_value": "Introduce Mobile phone jammers into prisons to stop prisoners taunting victims"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573308",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T06:52:18.800Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571833",
+                    "label": {
+                        "_value": "Introduce Mobile phone jammers into prisons to stop prisoners taunting victims"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571834",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T19:10:09.914Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/571833",
+                    "label": {
+                        "_value": "Introduce Mobile phone jammers into prisons to stop prisoners taunting victims"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

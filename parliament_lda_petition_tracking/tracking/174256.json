@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/651077/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/651077/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/651077/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/651077/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/651077/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734428",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:10.559Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651077",
+                    "label": {
+                        "_value": "Initiate a Parliamentary Inquiry into the UK Insurance Industry"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/659276",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-12T22:04:48.143Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651077",
+                    "label": {
+                        "_value": "Initiate a Parliamentary Inquiry into the UK Insurance Industry"
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651581",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-04T15:56:37.418Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651077",
+                    "label": {
+                        "_value": "Initiate a Parliamentary Inquiry into the UK Insurance Industry"
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/651078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-03T15:46:22.483Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/651077",
+                    "label": {
+                        "_value": "Initiate a Parliamentary Inquiry into the UK Insurance Industry"
+                    }
+                },
+                "numberOfSignatures": 36
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

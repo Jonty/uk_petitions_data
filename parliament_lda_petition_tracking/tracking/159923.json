@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550808/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550808/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550808/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550808/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550808/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/624477",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-29T09:14:35.434Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550808",
+                    "label": {
+                        "_value": "Negotiate personal EU membership for certain categories of UK citizen."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618993",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T19:01:37.583Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550808",
+                    "label": {
+                        "_value": "Negotiate personal EU membership for certain categories of UK citizen."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/575032",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-03T11:08:11.121Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550808",
+                    "label": {
+                        "_value": "Negotiate personal EU membership for certain categories of UK citizen."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/553548",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-01T10:43:50.138Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550808",
+                    "label": {
+                        "_value": "Negotiate personal EU membership for certain categories of UK citizen."
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550809",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T19:15:16.715Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550808",
+                    "label": {
+                        "_value": "Negotiate personal EU membership for certain categories of UK citizen."
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

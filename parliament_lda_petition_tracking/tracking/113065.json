@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461528/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461528/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461528/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461528/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461528/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727628",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:01.205Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461528",
+                    "label": {
+                        "_value": "Drop the 7 Day NHS manifesto - it's not safe."
+                    }
+                },
+                "numberOfSignatures": 349
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/537899",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461528",
+                    "label": {
+                        "_value": "Drop the 7 Day NHS manifesto - it's not safe."
+                    }
+                },
+                "numberOfSignatures": 349
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-05-19T00:00:07.667Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461528",
+                    "label": {
+                        "_value": "Drop the 7 Day NHS manifesto - it's not safe."
+                    }
+                },
+                "numberOfSignatures": 349
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486641",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T21:28:39.636Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461528",
+                    "label": {
+                        "_value": "Drop the 7 Day NHS manifesto - it's not safe."
+                    }
+                },
+                "numberOfSignatures": 346
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461529",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-20T19:44:07.547Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461528",
+                    "label": {
+                        "_value": "Drop the 7 Day NHS manifesto - it's not safe."
+                    }
+                },
+                "numberOfSignatures": 345
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

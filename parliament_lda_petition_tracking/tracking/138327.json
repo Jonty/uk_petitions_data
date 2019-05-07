@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550616/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550616/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550616/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550616/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550616/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/591054",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T21:26:16.356Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550616",
+                    "label": {
+                        "_value": "Work with the Commonwealth of Nations to establish an economic union"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576148",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-05T12:23:46.358Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550616",
+                    "label": {
+                        "_value": "Work with the Commonwealth of Nations to establish an economic union"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569348",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-25T17:19:55.325Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550616",
+                    "label": {
+                        "_value": "Work with the Commonwealth of Nations to establish an economic union"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561726",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T00:39:08.243Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550616",
+                    "label": {
+                        "_value": "Work with the Commonwealth of Nations to establish an economic union"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550617",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T21:35:54.220Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550616",
+                    "label": {
+                        "_value": "Work with the Commonwealth of Nations to establish an economic union"
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

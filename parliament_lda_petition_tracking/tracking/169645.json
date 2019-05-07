@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/618345/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/618345/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/618345/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/618345/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/618345/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/652219",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T20:12:55.160Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618345",
+                    "label": {
+                        "_value": "Invest more money into front line policing increase number of response officers"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640218",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-20T10:39:16.831Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618345",
+                    "label": {
+                        "_value": "Invest more money into front line policing increase number of response officers"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630504",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:20:57.981Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618345",
+                    "label": {
+                        "_value": "Invest more money into front line policing increase number of response officers"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T19:42:15.518Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/618345",
+                    "label": {
+                        "_value": "Invest more money into front line policing increase number of response officers"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

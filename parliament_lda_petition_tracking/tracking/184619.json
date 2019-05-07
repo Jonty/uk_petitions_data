@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/724501/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/724501/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/724501/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/724501/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/724501/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726078",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:20.562Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/724501",
+                    "label": {
+                        "_value": "Stop the NHS defunding IVF Treatment and make it equal no matter where you live"
+                    }
+                },
+                "numberOfSignatures": 3129
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/724502",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-25T22:49:46.400Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/724501",
+                    "label": {
+                        "_value": "Stop the NHS defunding IVF Treatment and make it equal no matter where you live"
+                    }
+                },
+                "numberOfSignatures": 3031
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

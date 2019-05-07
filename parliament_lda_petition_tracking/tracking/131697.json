@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547609/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547609/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547609/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547609/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547609/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734384",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:19.737Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547609",
+                    "label": {
+                        "_value": "All NHS trusts should provide dual diagnosis treatment"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/655520",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-07T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547609",
+                    "label": {
+                        "_value": "All NHS trusts should provide dual diagnosis treatment"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618225",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-22T01:07:50.776Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547609",
+                    "label": {
+                        "_value": "All NHS trusts should provide dual diagnosis treatment"
+                    }
+                },
+                "numberOfSignatures": 44
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591843",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T11:43:07.783Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547609",
+                    "label": {
+                        "_value": "All NHS trusts should provide dual diagnosis treatment"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/576089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-04T23:05:44.040Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547609",
+                    "label": {
+                        "_value": "All NHS trusts should provide dual diagnosis treatment"
+                    }
+                },
+                "numberOfSignatures": 42
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547610",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547609",
+                    "label": {
+                        "_value": "All NHS trusts should provide dual diagnosis treatment"
+                    }
+                },
+                "numberOfSignatures": 41
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

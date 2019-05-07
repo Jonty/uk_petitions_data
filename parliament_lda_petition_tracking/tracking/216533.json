@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/880578/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/880578/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/880578/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/880578/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/880578/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/985495",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-10-09T23:00:00.201Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/880578",
+                    "label": {
+                        "_value": "Repair pot holed roads by introduction of vignette system for foreign drivers"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/920468",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-08T15:37:33.497Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/880578",
+                    "label": {
+                        "_value": "Repair pot holed roads by introduction of vignette system for foreign drivers"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/884838",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-16T13:39:35.915Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/880578",
+                    "label": {
+                        "_value": "Repair pot holed roads by introduction of vignette system for foreign drivers"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/883736",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-14T14:44:01.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/880578",
+                    "label": {
+                        "_value": "Repair pot holed roads by introduction of vignette system for foreign drivers"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/881040",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-09T23:33:42.419Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/880578",
+                    "label": {
+                        "_value": "Repair pot holed roads by introduction of vignette system for foreign drivers"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/880579",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-04-09T17:16:43.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/880578",
+                    "label": {
+                        "_value": "Repair pot holed roads by introduction of vignette system for foreign drivers"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

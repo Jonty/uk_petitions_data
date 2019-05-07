@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463525/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463525/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463525/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463525/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463525/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734013",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:04.708Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463525",
+                    "label": {
+                        "_value": "Discourage the profiteering in the UK property market and regulate prices."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543709",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-30T14:04:33.691Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463525",
+                    "label": {
+                        "_value": "Discourage the profiteering in the UK property market and regulate prices."
+                    }
+                },
+                "numberOfSignatures": 51
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/503346",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-03T11:07:51.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463525",
+                    "label": {
+                        "_value": "Discourage the profiteering in the UK property market and regulate prices."
+                    }
+                },
+                "numberOfSignatures": 49
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487826",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T13:54:41.136Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463525",
+                    "label": {
+                        "_value": "Discourage the profiteering in the UK property market and regulate prices."
+                    }
+                },
+                "numberOfSignatures": 48
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486772",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-23T21:18:01.174Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463525",
+                    "label": {
+                        "_value": "Discourage the profiteering in the UK property market and regulate prices."
+                    }
+                },
+                "numberOfSignatures": 47
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463526",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-07T18:34:49.684Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463525",
+                    "label": {
+                        "_value": "Discourage the profiteering in the UK property market and regulate prices."
+                    }
+                },
+                "numberOfSignatures": 46
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/936485/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/936485/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/936485/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/936485/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/936485/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1036086",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-01-05T00:00:00.461Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936485",
+                    "label": {
+                        "_value": "Raise parent earning limit from individual to joint to enable equal childcare"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/946028",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-20T19:00:41.847Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936485",
+                    "label": {
+                        "_value": "Raise parent earning limit from individual to joint to enable equal childcare"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/945416",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-19T19:05:33.544Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936485",
+                    "label": {
+                        "_value": "Raise parent earning limit from individual to joint to enable equal childcare"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/936486",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-07-05T10:03:31.284Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/936485",
+                    "label": {
+                        "_value": "Raise parent earning limit from individual to joint to enable equal childcare"
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

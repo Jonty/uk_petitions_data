@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1079250/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1079250/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1079250/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1079250/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1079250/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107490",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-28T18:05:48.212Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079250",
+                    "label": {
+                        "_value": "Legislate a Less Lethal Firearms license for civilians"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1090283",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-16T14:35:49.861Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079250",
+                    "label": {
+                        "_value": "Legislate a Less Lethal Firearms license for civilians"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1080238",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-01T20:26:42.920Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079250",
+                    "label": {
+                        "_value": "Legislate a Less Lethal Firearms license for civilians"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1079251",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-27T17:35:27.016Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1079250",
+                    "label": {
+                        "_value": "Legislate a Less Lethal Firearms license for civilians"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

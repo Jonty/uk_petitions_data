@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549457/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549457/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549457/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549457/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549457/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/653246",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-05T21:08:40.659Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549457",
+                    "label": {
+                        "_value": "Justine Greening to bring back GCSE and AS/A2 ICT development."
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/605379",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-18T19:15:19.045Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549457",
+                    "label": {
+                        "_value": "Justine Greening to bring back GCSE and AS/A2 ICT development."
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/573085",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-01T15:54:04.484Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549457",
+                    "label": {
+                        "_value": "Justine Greening to bring back GCSE and AS/A2 ICT development."
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/558041",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-09T09:34:19.848Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549457",
+                    "label": {
+                        "_value": "Justine Greening to bring back GCSE and AS/A2 ICT development."
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549458",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-24T09:05:11.061Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549457",
+                    "label": {
+                        "_value": "Justine Greening to bring back GCSE and AS/A2 ICT development."
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

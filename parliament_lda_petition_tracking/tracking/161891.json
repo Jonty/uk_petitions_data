@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550792/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550792/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550792/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550792/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550792/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/633303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T00:27:36.172Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550792",
+                    "label": {
+                        "_value": "Change policy \"reducing drugs & misuse & dependence\" for Fibromyalgia sufferers."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587927",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T05:46:16.605Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550792",
+                    "label": {
+                        "_value": "Change policy \"reducing drugs & misuse & dependence\" for Fibromyalgia sufferers."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/583730",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-14T16:50:06.866Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550792",
+                    "label": {
+                        "_value": "Change policy \"reducing drugs & misuse & dependence\" for Fibromyalgia sufferers."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570357",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-28T19:13:06.106Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550792",
+                    "label": {
+                        "_value": "Change policy \"reducing drugs & misuse & dependence\" for Fibromyalgia sufferers."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550793",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T20:16:12.950Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550792",
+                    "label": {
+                        "_value": "Change policy \"reducing drugs & misuse & dependence\" for Fibromyalgia sufferers."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

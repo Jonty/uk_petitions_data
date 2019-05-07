@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/527712/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/527712/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/527712/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/527712/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/527712/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728551",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:18.413Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527712",
+                    "label": {
+                        "_value": "Link time of raising earning threshold for Carers Allowance with the Living wage"
+                    }
+                },
+                "numberOfSignatures": 172
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/639409",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-18T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527712",
+                    "label": {
+                        "_value": "Link time of raising earning threshold for Carers Allowance with the Living wage"
+                    }
+                },
+                "numberOfSignatures": 172
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/570814",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-29T16:21:21.331Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527712",
+                    "label": {
+                        "_value": "Link time of raising earning threshold for Carers Allowance with the Living wage"
+                    }
+                },
+                "numberOfSignatures": 172
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538369",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T22:35:06.453Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527712",
+                    "label": {
+                        "_value": "Link time of raising earning threshold for Carers Allowance with the Living wage"
+                    }
+                },
+                "numberOfSignatures": 171
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/527713",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-02T09:39:30.042Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/527712",
+                    "label": {
+                        "_value": "Link time of raising earning threshold for Carers Allowance with the Living wage"
+                    }
+                },
+                "numberOfSignatures": 159
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

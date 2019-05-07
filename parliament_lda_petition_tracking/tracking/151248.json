@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552186/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552186/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552186/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552186/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552186/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645798",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T01:08:53.872Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552186",
+                    "label": {
+                        "_value": "Britain should apply to become the 51st state of the United States of America"
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633318",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T13:06:20.743Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552186",
+                    "label": {
+                        "_value": "Britain should apply to become the 51st state of the United States of America"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566145",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T00:02:15.449Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552186",
+                    "label": {
+                        "_value": "Britain should apply to become the 51st state of the United States of America"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/561750",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-15T02:02:00.616Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552186",
+                    "label": {
+                        "_value": "Britain should apply to become the 51st state of the United States of America"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556337",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T09:21:46.410Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552186",
+                    "label": {
+                        "_value": "Britain should apply to become the 51st state of the United States of America"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552187",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T13:45:45.283Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552186",
+                    "label": {
+                        "_value": "Britain should apply to become the 51st state of the United States of America"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

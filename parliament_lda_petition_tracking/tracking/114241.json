@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463267/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463267/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463267/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463267/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463267/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733267",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:02.368Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463267",
+                    "label": {
+                        "_value": "Dementia disease patients have a primary care need and deserve full NHS funding"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543260",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463267",
+                    "label": {
+                        "_value": "Dementia disease patients have a primary care need and deserve full NHS funding"
+                    }
+                },
+                "numberOfSignatures": 71
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/505918",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-07T15:34:35.375Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463267",
+                    "label": {
+                        "_value": "Dementia disease patients have a primary care need and deserve full NHS funding"
+                    }
+                },
+                "numberOfSignatures": 66
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/487799",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-25T19:10:08.231Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463267",
+                    "label": {
+                        "_value": "Dementia disease patients have a primary care need and deserve full NHS funding"
+                    }
+                },
+                "numberOfSignatures": 64
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/486758",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-24T09:56:23.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463267",
+                    "label": {
+                        "_value": "Dementia disease patients have a primary care need and deserve full NHS funding"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463268",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-25T14:50:29.391Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463267",
+                    "label": {
+                        "_value": "Dementia disease patients have a primary care need and deserve full NHS funding"
+                    }
+                },
+                "numberOfSignatures": 55
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

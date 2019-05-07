@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/463145/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/463145/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/463145/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/463145/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/463145/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/733556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:00.863Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463145",
+                    "label": {
+                        "_value": "Reverse the planned cuts of 25% - 40% to our police force to help fight terror"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/543427",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463145",
+                    "label": {
+                        "_value": "Reverse the planned cuts of 25% - 40% to our police force to help fight terror"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/511093",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-04-11T22:16:48.324Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463145",
+                    "label": {
+                        "_value": "Reverse the planned cuts of 25% - 40% to our police force to help fight terror"
+                    }
+                },
+                "numberOfSignatures": 63
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490047",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-28T21:57:14.875Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463145",
+                    "label": {
+                        "_value": "Reverse the planned cuts of 25% - 40% to our police force to help fight terror"
+                    }
+                },
+                "numberOfSignatures": 62
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/463146",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:13:58.680Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/463145",
+                    "label": {
+                        "_value": "Reverse the planned cuts of 25% - 40% to our police force to help fight terror"
+                    }
+                },
+                "numberOfSignatures": 61
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/717529/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/717529/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/717529/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/717529/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/717529/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726112",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:22.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717529",
+                    "label": {
+                        "_value": "Demand apology from US government for removing teacher Juhel Miah from US flight"
+                    }
+                },
+                "numberOfSignatures": 2401
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-16T22:15:11.295Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717529",
+                    "label": {
+                        "_value": "Demand apology from US government for removing teacher Juhel Miah from US flight"
+                    }
+                },
+                "numberOfSignatures": 2338
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/721317",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-13T07:32:26.241Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717529",
+                    "label": {
+                        "_value": "Demand apology from US government for removing teacher Juhel Miah from US flight"
+                    }
+                },
+                "numberOfSignatures": 2231
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/719556",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-09T21:16:26.440Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717529",
+                    "label": {
+                        "_value": "Demand apology from US government for removing teacher Juhel Miah from US flight"
+                    }
+                },
+                "numberOfSignatures": 2226
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/718403",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-05T12:07:47.206Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717529",
+                    "label": {
+                        "_value": "Demand apology from US government for removing teacher Juhel Miah from US flight"
+                    }
+                },
+                "numberOfSignatures": 2222
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/717530",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-03T22:35:46.934Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/717529",
+                    "label": {
+                        "_value": "Demand apology from US government for removing teacher Juhel Miah from US flight"
+                    }
+                },
+                "numberOfSignatures": 2219
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/552080/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/552080/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/552080/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/552080/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/552080/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/648285",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-29T00:33:55.595Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552080",
+                    "label": {
+                        "_value": "Theresa May; Appoint a Minister of State for Climate Change"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/633349",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-09T12:04:14.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552080",
+                    "label": {
+                        "_value": "Theresa May; Appoint a Minister of State for Climate Change"
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/624006",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-28T04:58:30.151Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552080",
+                    "label": {
+                        "_value": "Theresa May; Appoint a Minister of State for Climate Change"
+                    }
+                },
+                "numberOfSignatures": 8
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591099",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-28T16:22:48.712Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552080",
+                    "label": {
+                        "_value": "Theresa May; Appoint a Minister of State for Climate Change"
+                    }
+                },
+                "numberOfSignatures": 7
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/552081",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-27T09:15:57.133Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/552080",
+                    "label": {
+                        "_value": "Theresa May; Appoint a Minister of State for Climate Change"
+                    }
+                },
+                "numberOfSignatures": 6
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

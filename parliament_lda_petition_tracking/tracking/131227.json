@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548700/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548700/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548700/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548700/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548700/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645659",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-26T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548700",
+                    "label": {
+                        "_value": "Reform the House of Lords to become the revising chamber of devolved assemblies"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/635505",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-13T13:44:56.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548700",
+                    "label": {
+                        "_value": "Reform the House of Lords to become the revising chamber of devolved assemblies"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/584710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-15T14:07:27.376Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548700",
+                    "label": {
+                        "_value": "Reform the House of Lords to become the revising chamber of devolved assemblies"
+                    }
+                },
+                "numberOfSignatures": 24
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548701",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T20:08:42.688Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548700",
+                    "label": {
+                        "_value": "Reform the House of Lords to become the revising chamber of devolved assemblies"
+                    }
+                },
+                "numberOfSignatures": 23
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

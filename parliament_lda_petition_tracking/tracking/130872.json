@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550001/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550001/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550001/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550001/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550001/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645745",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-24T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550001",
+                    "label": {
+                        "_value": "Stop allowing supermarkets to sell cheap alcohol."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618968",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:00:49.411Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550001",
+                    "label": {
+                        "_value": "Stop allowing supermarkets to sell cheap alcohol."
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586920",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-18T21:05:19.047Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550001",
+                    "label": {
+                        "_value": "Stop allowing supermarkets to sell cheap alcohol."
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/560608",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-13T06:44:01.105Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550001",
+                    "label": {
+                        "_value": "Stop allowing supermarkets to sell cheap alcohol."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550002",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-31T12:22:52.761Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550001",
+                    "label": {
+                        "_value": "Stop allowing supermarkets to sell cheap alcohol."
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549515/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549515/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549515/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549515/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549515/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/630501",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:21:39.308Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549515",
+                    "label": {
+                        "_value": "Lobby FIFA to remove World Cup 2018 from current hosts Russia"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/627895",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-01T11:27:53.060Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549515",
+                    "label": {
+                        "_value": "Lobby FIFA to remove World Cup 2018 from current hosts Russia"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/592359",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-01T14:01:56.824Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549515",
+                    "label": {
+                        "_value": "Lobby FIFA to remove World Cup 2018 from current hosts Russia"
+                    }
+                },
+                "numberOfSignatures": 18
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549516",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-03T22:53:50.867Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549515",
+                    "label": {
+                        "_value": "Lobby FIFA to remove World Cup 2018 from current hosts Russia"
+                    }
+                },
+                "numberOfSignatures": 17
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

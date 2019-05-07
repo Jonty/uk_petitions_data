@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1106941/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1106941/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1106941/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1106941/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1106941/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1108278",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T23:05:00.658Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106941",
+                    "label": {
+                        "_value": "Add the study of architecture and urbanism to the national curriculum/schools"
+                    }
+                },
+                "numberOfSignatures": 55
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1106942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-29T00:58:23.182Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1106941",
+                    "label": {
+                        "_value": "Add the study of architecture and urbanism to the national curriculum/schools"
+                    }
+                },
+                "numberOfSignatures": 44
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

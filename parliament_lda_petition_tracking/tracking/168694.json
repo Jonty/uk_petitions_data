@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/601820/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/601820/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/601820/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/601820/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/601820/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734437",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-04-13T23:00:00.913Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/601820",
+                    "label": {
+                        "_value": "Prevent privatisation of any aspect of Children's Protective Services in the UK"
+                    }
+                },
+                "numberOfSignatures": 43
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603731",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-16T06:56:19.436Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/601820",
+                    "label": {
+                        "_value": "Prevent privatisation of any aspect of Children's Protective Services in the UK"
+                    }
+                },
+                "numberOfSignatures": 41
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/603164",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-15T19:31:00.180Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/601820",
+                    "label": {
+                        "_value": "Prevent privatisation of any aspect of Children's Protective Services in the UK"
+                    }
+                },
+                "numberOfSignatures": 40
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602543",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T20:46:13.358Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/601820",
+                    "label": {
+                        "_value": "Prevent privatisation of any aspect of Children's Protective Services in the UK"
+                    }
+                },
+                "numberOfSignatures": 37
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/601821",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-13T21:33:32.877Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/601820",
+                    "label": {
+                        "_value": "Prevent privatisation of any aspect of Children's Protective Services in the UK"
+                    }
+                },
+                "numberOfSignatures": 7
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

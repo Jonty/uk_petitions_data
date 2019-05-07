@@ -1,0 +1,107 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/586946/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/586946/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/586946/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/586946/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/586946/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/728200",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:34.385Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586946",
+                    "label": {
+                        "_value": "Make the use of parent and child parking spaces in car parks badge holders only!"
+                    }
+                },
+                "numberOfSignatures": 216
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T18:38:26.532Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586946",
+                    "label": {
+                        "_value": "Make the use of parent and child parking spaces in car parks badge holders only!"
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/590615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-27T18:50:47.514Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586946",
+                    "label": {
+                        "_value": "Make the use of parent and child parking spaces in car parks badge holders only!"
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-21T09:55:32.978Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586946",
+                    "label": {
+                        "_value": "Make the use of parent and child parking spaces in car parks badge holders only!"
+                    }
+                },
+                "numberOfSignatures": 11
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/587413",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-20T16:51:40.229Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586946",
+                    "label": {
+                        "_value": "Make the use of parent and child parking spaces in car parks badge holders only!"
+                    }
+                },
+                "numberOfSignatures": 10
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/586947",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-19T21:12:32.019Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/586946",
+                    "label": {
+                        "_value": "Make the use of parent and child parking spaces in car parks badge holders only!"
+                    }
+                },
+                "numberOfSignatures": 9
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 6,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

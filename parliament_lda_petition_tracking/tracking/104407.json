@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459761/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459761/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459761/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459761/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459761/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/716149",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:49.445Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459761",
+                    "label": {
+                        "_value": "Abolish the AFPRB and give the military a truly independent body to award pay."
+                    }
+                },
+                "numberOfSignatures": 18418
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/533995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-05T10:57:48.468Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459761",
+                    "label": {
+                        "_value": "Abolish the AFPRB and give the military a truly independent body to award pay."
+                    }
+                },
+                "numberOfSignatures": 18418
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529537",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459761",
+                    "label": {
+                        "_value": "Abolish the AFPRB and give the military a truly independent body to award pay."
+                    }
+                },
+                "numberOfSignatures": 18419
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459762",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-18T03:08:48.184Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459761",
+                    "label": {
+                        "_value": "Abolish the AFPRB and give the military a truly independent body to award pay."
+                    }
+                },
+                "numberOfSignatures": 18419
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

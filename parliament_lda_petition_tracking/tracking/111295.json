@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/462737/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/462737/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/462737/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/462737/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/462737/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/729583",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:59.362Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462737",
+                    "label": {
+                        "_value": "MP's should be breathalysed before entering the chamber of the House Of Commons"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/538874",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462737",
+                    "label": {
+                        "_value": "MP's should be breathalysed before entering the chamber of the House Of Commons"
+                    }
+                },
+                "numberOfSignatures": 93
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490673",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-30T19:53:44.195Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462737",
+                    "label": {
+                        "_value": "MP's should be breathalysed before entering the chamber of the House Of Commons"
+                    }
+                },
+                "numberOfSignatures": 91
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/481332",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-19T10:23:50.227Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462737",
+                    "label": {
+                        "_value": "MP's should be breathalysed before entering the chamber of the House Of Commons"
+                    }
+                },
+                "numberOfSignatures": 90
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/462738",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-23T00:59:31.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/462737",
+                    "label": {
+                        "_value": "MP's should be breathalysed before entering the chamber of the House Of Commons"
+                    }
+                },
+                "numberOfSignatures": 89
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/602636/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/602636/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/602636/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/602636/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/602636/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/655615",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-07T11:46:52.105Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602636",
+                    "label": {
+                        "_value": "As with perjury, hold politicians in contempt of the realm if they lie publicly."
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/645785",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:21:39.352Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602636",
+                    "label": {
+                        "_value": "As with perjury, hold politicians in contempt of the realm if they lie publicly."
+                    }
+                },
+                "numberOfSignatures": 14
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/640312",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-16T15:40:15.860Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602636",
+                    "label": {
+                        "_value": "As with perjury, hold politicians in contempt of the realm if they lie publicly."
+                    }
+                },
+                "numberOfSignatures": 13
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/630592",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-05T23:34:11.661Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602636",
+                    "label": {
+                        "_value": "As with perjury, hold politicians in contempt of the realm if they lie publicly."
+                    }
+                },
+                "numberOfSignatures": 12
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/602637",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-14T16:46:53.418Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/602636",
+                    "label": {
+                        "_value": "As with perjury, hold politicians in contempt of the realm if they lie publicly."
+                    }
+                },
+                "numberOfSignatures": 11
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

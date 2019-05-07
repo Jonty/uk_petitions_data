@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549809/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549809/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549809/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549809/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549809/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/645763",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-25T21:20:38.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549809",
+                    "label": {
+                        "_value": "Make it a requirement to hold a UK Election within a year of any change of PM"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549810",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T19:10:23.461Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549809",
+                    "label": {
+                        "_value": "Make it a requirement to hold a UK Election within a year of any change of PM"
+                    }
+                },
+                "numberOfSignatures": 15
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

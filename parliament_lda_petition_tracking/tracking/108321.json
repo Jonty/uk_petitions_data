@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/461253/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/461253/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/461253/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/461253/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/461253/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/727311",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:55.782Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461253",
+                    "label": {
+                        "_value": "Bring back CAPITAL PUNISHMENT for SERIOUS CRIMES like RAPE,MURDER and terrorism!"
+                    }
+                },
+                "numberOfSignatures": 492
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/531303",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461253",
+                    "label": {
+                        "_value": "Bring back CAPITAL PUNISHMENT for SERIOUS CRIMES like RAPE,MURDER and terrorism!"
+                    }
+                },
+                "numberOfSignatures": 492
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/480089",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-17T00:00:10.727Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461253",
+                    "label": {
+                        "_value": "Bring back CAPITAL PUNISHMENT for SERIOUS CRIMES like RAPE,MURDER and terrorism!"
+                    }
+                },
+                "numberOfSignatures": 492
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/461255",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-11T17:18:49.689Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/461253",
+                    "label": {
+                        "_value": "Bring back CAPITAL PUNISHMENT for SERIOUS CRIMES like RAPE,MURDER and terrorism!"
+                    }
+                },
+                "numberOfSignatures": 492
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

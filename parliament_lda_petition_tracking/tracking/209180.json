@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/840994/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/840994/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/840994/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/840994/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/840994/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/953554",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-08-06T23:00:00.179Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840994",
+                    "label": {
+                        "_value": "Allow more people of non British Nationality/Citizenship join the British Army"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/933411",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-25T14:14:25.173Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840994",
+                    "label": {
+                        "_value": "Allow more people of non British Nationality/Citizenship join the British Army"
+                    }
+                },
+                "numberOfSignatures": 27
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/917021",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-06-04T16:25:08.830Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840994",
+                    "label": {
+                        "_value": "Allow more people of non British Nationality/Citizenship join the British Army"
+                    }
+                },
+                "numberOfSignatures": 26
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/914180",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-05-30T19:18:10.263Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840994",
+                    "label": {
+                        "_value": "Allow more people of non British Nationality/Citizenship join the British Army"
+                    }
+                },
+                "numberOfSignatures": 25
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/840995",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2018-02-07T18:32:56.958Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/840994",
+                    "label": {
+                        "_value": "Allow more people of non British Nationality/Citizenship join the British Army"
+                    }
+                },
+                "numberOfSignatures": 24
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

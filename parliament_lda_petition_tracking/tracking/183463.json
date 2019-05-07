@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/691321/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/691321/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/691321/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/691321/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/691321/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/726598",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-05-02T23:01:19.538Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691321",
+                    "label": {
+                        "_value": "Please help us stop the closure of Newham Acute Day Hospital."
+                    }
+                },
+                "numberOfSignatures": 1134
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/707068",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-02T00:31:32.118Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691321",
+                    "label": {
+                        "_value": "Please help us stop the closure of Newham Acute Day Hospital."
+                    }
+                },
+                "numberOfSignatures": 1054
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/704946",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-25T21:41:43.476Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691321",
+                    "label": {
+                        "_value": "Please help us stop the closure of Newham Acute Day Hospital."
+                    }
+                },
+                "numberOfSignatures": 1013
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/691322",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-02-20T00:09:41.154Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/691321",
+                    "label": {
+                        "_value": "Please help us stop the closure of Newham Acute Day Hospital."
+                    }
+                },
+                "numberOfSignatures": 756
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

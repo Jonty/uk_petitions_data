@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/548903/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/548903/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/548903/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/548903/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/548903/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/594390",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-04T16:28:13.203Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548903",
+                    "label": {
+                        "_value": "Let us know the economic plan for departing the European Union. Immediately."
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/548904",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-21T11:16:42.433Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/548903",
+                    "label": {
+                        "_value": "Let us know the economic plan for departing the European Union. Immediately."
+                    }
+                },
+                "numberOfSignatures": 21
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

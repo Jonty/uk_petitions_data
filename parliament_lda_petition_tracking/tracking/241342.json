@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/1076177/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/1076177/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/1076177/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/1076177/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/1076177/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/1107246",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-26T20:43:52.312Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076177",
+                    "label": {
+                        "_value": "Introduction of a Healthcare professionals advice and liason services for Nhs"
+                    }
+                },
+                "numberOfSignatures": 22
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1091939",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-03-19T20:17:19.126Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076177",
+                    "label": {
+                        "_value": "Introduction of a Healthcare professionals advice and liason services for Nhs"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1078192",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-26T11:32:21.240Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076177",
+                    "label": {
+                        "_value": "Introduction of a Healthcare professionals advice and liason services for Nhs"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076623",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-24T19:57:06.365Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076177",
+                    "label": {
+                        "_value": "Introduction of a Healthcare professionals advice and liason services for Nhs"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/1076178",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2019-02-22T08:26:12.115Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/1076177",
+                    "label": {
+                        "_value": "Introduction of a Healthcare professionals advice and liason services for Nhs"
+                    }
+                },
+                "numberOfSignatures": 10
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/466671/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/466671/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/466671/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/466671/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/466671/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/551341",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466671",
+                    "label": {
+                        "_value": "Prevent any dignitaries or invited guests from the wearing of White Poppies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/490138",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-29T00:00:10.573Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466671",
+                    "label": {
+                        "_value": "Prevent any dignitaries or invited guests from the wearing of White Poppies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/482942",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-21T07:18:11.009Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466671",
+                    "label": {
+                        "_value": "Prevent any dignitaries or invited guests from the wearing of White Poppies."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/466672",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-02-24T06:10:10.343Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/466671",
+                    "label": {
+                        "_value": "Prevent any dignitaries or invited guests from the wearing of White Poppies."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

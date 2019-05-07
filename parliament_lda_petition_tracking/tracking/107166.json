@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/459707/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/459707/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/459707/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/459707/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/459707/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/716068",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:19:54.497Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459707",
+                    "label": {
+                        "_value": "Force close Retailers on Boxing day! Greed keeps many having to go to work!"
+                    }
+                },
+                "numberOfSignatures": 27525
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/649626",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-12-01T17:22:16.375Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459707",
+                    "label": {
+                        "_value": "Force close Retailers on Boxing day! Greed keeps many having to go to work!"
+                    }
+                },
+                "numberOfSignatures": 27525
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/529497",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-06-28T14:11:04.905Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459707",
+                    "label": {
+                        "_value": "Force close Retailers on Boxing day! Greed keeps many having to go to work!"
+                    }
+                },
+                "numberOfSignatures": 27525
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/459708",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-03-04T00:00:10.285Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/459707",
+                    "label": {
+                        "_value": "Force close Retailers on Boxing day! Greed keeps many having to go to work!"
+                    }
+                },
+                "numberOfSignatures": 27524
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

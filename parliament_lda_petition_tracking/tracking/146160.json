@@ -1,0 +1,51 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/551469/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/551469/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/551469/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/551469/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/551469/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/635034",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-12T07:56:34.239Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551469",
+                    "label": {
+                        "_value": "-Extend EU exit interim period to 5years.\n-Final Decision Referendum in Year 5."
+                    }
+                },
+                "numberOfSignatures": 9
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/551470",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-14T13:26:17.770Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/551469",
+                    "label": {
+                        "_value": "-Extend EU exit interim period to 5years.\n-Final Decision Referendum in Year 5."
+                    }
+                },
+                "numberOfSignatures": 8
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 2,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

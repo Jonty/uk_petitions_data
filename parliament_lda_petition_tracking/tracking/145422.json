@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/549330/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/549330/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/549330/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/549330/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/549330/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/571686",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T09:59:03.924Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549330",
+                    "label": {
+                        "_value": "add units to all special needs schools for children with advanced complex needs"
+                    }
+                },
+                "numberOfSignatures": 21
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/566653",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-20T20:56:52.860Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549330",
+                    "label": {
+                        "_value": "add units to all special needs schools for children with advanced complex needs"
+                    }
+                },
+                "numberOfSignatures": 20
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/556817",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-06T22:47:06.666Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549330",
+                    "label": {
+                        "_value": "add units to all special needs schools for children with advanced complex needs"
+                    }
+                },
+                "numberOfSignatures": 19
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/549331",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-13T11:01:03.125Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/549330",
+                    "label": {
+                        "_value": "add units to all special needs schools for children with advanced complex needs"
+                    }
+                },
+                "numberOfSignatures": 18
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

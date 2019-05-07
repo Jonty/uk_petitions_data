@@ -1,0 +1,79 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/547776/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/547776/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/547776/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/547776/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/547776/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/734710",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2017-03-31T14:20:23.521Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547776",
+                    "label": {
+                        "_value": "Negotiate and hold a new referendum on moving from EU membership into the EEA."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591850",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T15:47:32.758Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547776",
+                    "label": {
+                        "_value": "Negotiate and hold a new referendum on moving from EU membership into the EEA."
+                    }
+                },
+                "numberOfSignatures": 39
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/569217",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-24T23:41:25.338Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547776",
+                    "label": {
+                        "_value": "Negotiate and hold a new referendum on moving from EU membership into the EEA."
+                    }
+                },
+                "numberOfSignatures": 38
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/547777",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-24T09:07:13.875Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/547776",
+                    "label": {
+                        "_value": "Negotiate and hold a new referendum on moving from EU membership into the EEA."
+                    }
+                },
+                "numberOfSignatures": 37
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 4,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}

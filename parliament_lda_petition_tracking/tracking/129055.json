@@ -1,0 +1,93 @@
+{
+    "format": "linked-data-api",
+    "result": {
+        "_about": "http://eldaddp.azurewebsites.net/epetitions/550011/track.json?_pageSize=500",
+        "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+        "extendedMetadataVersion": "http://eldaddp.azurewebsites.net/epetitions/550011/track.json?_pageSize=500&_metadata=all",
+        "first": "http://eldaddp.azurewebsites.net/epetitions/550011/track.json?_page=0",
+        "isPartOf": {
+            "_about": "http://eldaddp.azurewebsites.net/epetitions/550011/track.json",
+            "definition": "http://eldaddp.azurewebsites.net/meta/epetitions/_id/track.json",
+            "hasPart": "http://eldaddp.azurewebsites.net/epetitions/550011/track.json?_pageSize=500",
+            "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+        },
+        "items": [
+            {
+                "_about": "http://data.parliament.uk/resources/629590",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-11-04T00:00:00.000Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550011",
+                    "label": {
+                        "_value": "stop means testing carers allowance"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/618969",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-10-23T18:14:52.095Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550011",
+                    "label": {
+                        "_value": "stop means testing carers allowance"
+                    }
+                },
+                "numberOfSignatures": 17
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/591922",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-09-30T03:36:37.156Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550011",
+                    "label": {
+                        "_value": "stop means testing carers allowance"
+                    }
+                },
+                "numberOfSignatures": 16
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/571791",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-08-30T18:39:45.297Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550011",
+                    "label": {
+                        "_value": "stop means testing carers allowance"
+                    }
+                },
+                "numberOfSignatures": 15
+            },
+            {
+                "_about": "http://data.parliament.uk/resources/550012",
+                "date": {
+                    "_datatype": "dateTime",
+                    "_value": "2016-07-04T10:06:13.164Z"
+                },
+                "ePetition": {
+                    "_about": "http://data.parliament.uk/resources/550011",
+                    "label": {
+                        "_value": "stop means testing carers allowance"
+                    }
+                },
+                "numberOfSignatures": 14
+            }
+        ],
+        "itemsPerPage": 500,
+        "page": 0,
+        "startIndex": 1,
+        "totalResults": 5,
+        "type": "http://purl.org/linked-data/api/vocab#Page"
+    },
+    "version": "0.2"
+}
