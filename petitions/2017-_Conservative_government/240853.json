@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-08T15:55:38.836Z",
         "opened_at": "2019-02-15T09:00:45.908Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 9,
+        "signature_count": 11,
         "signatures_by_constituency": [
             {
                 "mp": "Antoinette Sandbach MP",
@@ -58,9 +61,14 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "CA",
                 "name": "Canada",
-                "signature_count": 1
+                "signature_count": 2
             },
             {
                 "code": "GB",
@@ -69,7 +77,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-25T02:31:14.185Z"
+        "updated_at": "2019-05-10T02:34:21.181Z"
     },
     "id": 240853,
     "links": {
