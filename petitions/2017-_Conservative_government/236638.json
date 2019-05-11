@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-06T17:27:23.102Z",
         "opened_at": "2019-01-19T12:54:20.857Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 8,
+        "signature_count": 10,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Mark Tami MP",
@@ -46,13 +49,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "CA",
+                "name": "Canada",
+                "signature_count": 2
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 7
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-25T02:31:12.664Z"
+        "updated_at": "2019-05-11T06:38:24.581Z"
     },
     "id": 236638,
     "links": {

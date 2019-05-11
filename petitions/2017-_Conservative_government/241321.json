@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-12T14:44:01.272Z",
         "opened_at": "2019-02-20T12:35:24.672Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 11,
+        "signature_count": 12,
         "signatures_by_constituency": [
             {
                 "mp": "Sandy Martin MP",
@@ -58,13 +61,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "CA",
+                "name": "Canada",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 11
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T02:51:48.822Z"
+        "updated_at": "2019-05-11T06:40:56.006Z"
     },
     "id": 241321,
     "links": {
