@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-04T09:05:54.522Z",
         "opened_at": "2019-02-14T11:04:44.678Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 67,
+        "signature_count": 69,
         "signatures_by_constituency": [
             {
                 "mp": "Drew Hendry MP",
@@ -59,6 +62,12 @@
                 "mp": "Rt Hon Mel Stride MP",
                 "name": "Central Devon",
                 "ons_code": "E14000623",
+                "signature_count": 2
+            },
+            {
+                "mp": "Martin Vickers MP",
+                "name": "Cleethorpes",
+                "ons_code": "E14000643",
                 "signature_count": 2
             },
             {
@@ -198,11 +207,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 67
+                "signature_count": 69
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T05:39:40.837Z"
+        "updated_at": "2019-05-12T17:25:00.826Z"
     },
     "id": 240139,
     "links": {
