@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-12T00:44:39.598Z",
         "opened_at": "2019-01-19T08:26:25.975Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 12,
+        "signature_count": 13,
         "signatures_by_constituency": [
             {
                 "mp": "John McNally MP",
@@ -52,13 +55,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 12
             }
         ],
         "state": "open",
-        "updated_at": "2019-01-21T13:19:21.068Z"
+        "updated_at": "2019-05-14T03:58:52.000Z"
     },
     "id": 237073,
     "links": {

@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-18T17:17:02.454Z",
         "opened_at": "2018-12-20T18:20:12.624Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 14,
+        "signature_count": 15,
         "signatures_by_constituency": [
             {
                 "mp": "Mr Khalid Mahmood MP",
@@ -76,13 +79,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 14
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-31T19:38:51.944Z"
+        "updated_at": "2019-05-14T03:58:22.000Z"
     },
     "id": 235385,
     "links": {

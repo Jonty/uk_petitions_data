@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T01:45:06.185Z",
         "opened_at": "2019-04-03T08:46:56.456Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 8,
+        "signature_count": 9,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Ian Blackford MP",
@@ -58,13 +61,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 8
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T16:48:58.542Z"
+        "updated_at": "2019-05-14T03:59:22.000Z"
     },
     "id": 251083,
     "links": {
