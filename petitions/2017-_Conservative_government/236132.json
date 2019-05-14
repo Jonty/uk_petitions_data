@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-28T21:31:54.625Z",
         "opened_at": "2019-01-15T18:15:52.290Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 16,
+        "signature_count": 17,
         "signatures_by_constituency": [
             {
                 "mp": "Mr Ronnie Campbell MP",
@@ -106,6 +109,11 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GR",
                 "name": "Greece",
                 "signature_count": 1
@@ -117,7 +125,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-11T20:11:53.964Z"
+        "updated_at": "2019-05-14T09:00:52.000Z"
     },
     "id": 236132,
     "links": {

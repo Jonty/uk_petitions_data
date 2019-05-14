@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-05T20:17:16.369Z",
         "opened_at": "2019-02-12T17:20:38.917Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 14,
+        "signature_count": 15,
         "signatures_by_constituency": [
             {
                 "mp": "Rt Hon Keith Simpson MP",
@@ -70,13 +73,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 14
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-01T09:08:29.419Z"
+        "updated_at": "2019-05-14T09:00:52.000Z"
     },
     "id": 240595,
     "links": {
