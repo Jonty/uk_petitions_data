@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-07T09:35:52.600Z",
         "opened_at": "2019-02-20T11:35:36.842Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 25,
+        "signature_count": 27,
         "signatures_by_constituency": [
             {
                 "mp": "Nick Smith MP",
@@ -126,17 +129,23 @@
                 "name": "Wells",
                 "ons_code": "E14001026",
                 "signature_count": 1
+            },
+            {
+                "mp": "Mr Adrian Bailey MP",
+                "name": "West Bromwich West",
+                "ons_code": "E14001030",
+                "signature_count": 2
             }
         ],
         "signatures_by_country": [
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 25
+                "signature_count": 27
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T16:12:15.384Z"
+        "updated_at": "2019-05-15T00:16:02.000Z"
     },
     "id": 240808,
     "links": {
