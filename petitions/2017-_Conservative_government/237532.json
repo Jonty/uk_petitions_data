@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-18T06:27:27.066Z",
         "opened_at": "2019-01-23T12:18:21.038Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 25,
+        "signature_count": 26,
         "signatures_by_constituency": [
             {
                 "mp": "Ruth Cadbury MP",
@@ -100,13 +103,18 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "GB",
                 "name": "United Kingdom",
                 "signature_count": 25
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-02T06:34:55.756Z"
+        "updated_at": "2019-05-16T04:09:42.000Z"
     },
     "id": 237532,
     "links": {
