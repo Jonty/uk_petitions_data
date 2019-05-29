@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2019-03-12T21:16:29.210Z",
         "opened_at": "2019-03-26T09:03:23.685Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 12,
+        "signature_count": 13,
         "signatures_by_constituency": [
             {
                 "mp": "Anna McMorrin MP",
                 "name": "Cardiff North",
                 "ons_code": "W07000051",
+                "signature_count": 1
+            },
+            {
+                "mp": "Christian Matheson MP",
+                "name": "City of Chester",
+                "ons_code": "E14000640",
                 "signature_count": 1
             },
             {
@@ -66,11 +75,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 12
+                "signature_count": 13
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-26T09:03:27.741Z"
+        "updated_at": "2019-05-29T12:07:42.000Z"
     },
     "id": 244977,
     "links": {
