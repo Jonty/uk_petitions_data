@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-03T17:26:12.534Z",
         "opened_at": "2019-02-15T11:03:14.977Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 26,
+        "signature_count": 28,
         "signatures_by_constituency": [
             {
                 "mp": "Peter Grant MP",
@@ -128,6 +131,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Ann Coffey MP",
+                "name": "Stockport",
+                "ons_code": "E14000969",
+                "signature_count": 2
+            },
+            {
                 "mp": "Helen Jones MP",
                 "name": "Warrington North",
                 "ons_code": "E14001017",
@@ -161,11 +170,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 25
+                "signature_count": 27
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-06T15:11:32.309Z"
+        "updated_at": "2019-05-29T13:41:32.000Z"
     },
     "id": 240397,
     "links": {
