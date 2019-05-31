@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-06T09:54:54.308Z",
         "opened_at": "2018-12-17T10:35:34.628Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 338,
+        "signature_count": 339,
         "signatures_by_constituency": [
             {
                 "mp": "Joanna Cherry QC MP",
@@ -95,6 +98,12 @@
                 "mp": "Rt Hon David Lidington MP",
                 "name": "Aylesbury",
                 "ons_code": "E14000538",
+                "signature_count": 1
+            },
+            {
+                "mp": "Dan Jarvis MP",
+                "name": "Barnsley Central",
+                "ons_code": "E14000541",
                 "signature_count": 1
             },
             {
@@ -776,7 +785,7 @@
                 "signature_count": 2
             },
             {
-                "mp": "Rory Stewart MP",
+                "mp": "Rt Hon Rory Stewart MP",
                 "name": "Penrith and The Border",
                 "ons_code": "E14000877",
                 "signature_count": 1
@@ -1233,11 +1242,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 333
+                "signature_count": 334
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T06:00:18.567Z"
+        "updated_at": "2019-05-31T14:48:22.000Z"
     },
     "id": 234039,
     "links": {
