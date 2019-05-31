@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-02-14T16:38:35.157Z",
         "opened_at": "2019-02-26T17:27:37.333Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 26,
+        "signature_count": 27,
         "signatures_by_constituency": [
             {
                 "mp": "Chris Stephens MP",
@@ -112,6 +115,11 @@
         ],
         "signatures_by_country": [
             {
+                "code": "AU",
+                "name": "Australia",
+                "signature_count": 1
+            },
+            {
                 "code": "ZA",
                 "name": "South Africa",
                 "signature_count": 1
@@ -128,7 +136,7 @@
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T02:51:35.102Z"
+        "updated_at": "2019-05-31T06:29:42.000Z"
     },
     "id": 241595,
     "links": {
