@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-01T22:03:41.794Z",
         "opened_at": "2018-12-12T19:13:12.714Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 31,
+        "signature_count": 32,
         "signatures_by_constituency": [
             {
                 "mp": "Pete Wishart MP",
@@ -146,6 +149,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Rebecca Pow MP",
+                "name": "Taunton Deane",
+                "ons_code": "E14000988",
+                "signature_count": 1
+            },
+            {
                 "mp": "Richard Harrington MP",
                 "name": "Watford",
                 "ons_code": "E14001021",
@@ -161,11 +170,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 30
+                "signature_count": 31
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-07T19:18:26.822Z"
+        "updated_at": "2019-06-08T00:23:32.000Z"
     },
     "id": 234314,
     "links": {
