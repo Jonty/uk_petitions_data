@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2018-12-21T09:08:58.386Z",
         "opened_at": "2019-01-02T16:05:38.026Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 14,
+        "signature_count": 15,
         "signatures_by_constituency": [
             {
                 "mp": "Douglas Ross MP",
@@ -62,6 +65,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Lee Rowley MP",
+                "name": "North East Derbyshire",
+                "ons_code": "E14000843",
+                "signature_count": 1
+            },
+            {
                 "mp": "Anneliese Dodds MP",
                 "name": "Oxford East",
                 "ons_code": "E14000873",
@@ -96,11 +105,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 14
+                "signature_count": 15
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-12T04:41:56.415Z"
+        "updated_at": "2019-06-12T14:49:32.000Z"
     },
     "id": 235186,
     "links": {
