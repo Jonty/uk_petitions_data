@@ -14,15 +14,24 @@
         "moderation_threshold_reached_at": "2019-03-03T18:55:27.631Z",
         "opened_at": "2019-03-18T11:25:52.556Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 18,
+        "signature_count": 19,
         "signatures_by_constituency": [
             {
                 "mp": "Bob Stewart MP",
                 "name": "Beckenham",
                 "ons_code": "E14000551",
+                "signature_count": 1
+            },
+            {
+                "mp": "Jess Phillips MP",
+                "name": "Birmingham, Yardley",
+                "ons_code": "E14000568",
                 "signature_count": 1
             },
             {
@@ -84,11 +93,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 18
+                "signature_count": 19
             }
         ],
         "state": "open",
-        "updated_at": "2019-03-28T07:39:47.628Z"
+        "updated_at": "2019-06-18T14:58:42.000Z"
     },
     "id": 244075,
     "links": {
