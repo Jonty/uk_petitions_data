@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-01-01T23:37:03.136Z",
         "opened_at": "2019-01-15T18:44:29.696Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 10,
+        "signature_count": 11,
         "signatures_by_constituency": [
             {
                 "mp": "Patrick Grady MP",
@@ -44,6 +47,12 @@
                 "signature_count": 1
             },
             {
+                "mp": "Meg Hillier MP",
+                "name": "Hackney South and Shoreditch",
+                "ons_code": "E14000721",
+                "signature_count": 1
+            },
+            {
                 "mp": "Tulip Siddiq MP",
                 "name": "Hampstead and Kilburn",
                 "ons_code": "E14000727",
@@ -65,11 +74,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 9
+                "signature_count": 10
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-03T02:51:55.606Z"
+        "updated_at": "2019-07-11T18:37:42.000Z"
     },
     "id": 236344,
     "links": {
