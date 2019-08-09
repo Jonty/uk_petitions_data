@@ -14,10 +14,13 @@
         "moderation_threshold_reached_at": "2019-03-26T01:44:53.195Z",
         "opened_at": "2019-04-01T17:27:52.646Z",
         "rejected_at": null,
-        "rejection": null,
+        "rejection": {
+            "code": null,
+            "details": null
+        },
         "response_threshold_reached_at": null,
         "scheduled_debate_date": null,
-        "signature_count": 9,
+        "signature_count": 10,
         "signatures_by_constituency": [
             {
                 "mp": "Alan Brown MP",
@@ -36,6 +39,12 @@
                 "name": "Birmingham, Perry Barr",
                 "ons_code": "E14000566",
                 "signature_count": 2
+            },
+            {
+                "mp": "Rt Hon Mel Stride MP",
+                "name": "Central Devon",
+                "ons_code": "E14000623",
+                "signature_count": 1
             },
             {
                 "mp": "Rt Hon Dame Rosie Winterton MP",
@@ -72,11 +81,11 @@
             {
                 "code": "GB",
                 "name": "United Kingdom",
-                "signature_count": 9
+                "signature_count": 10
             }
         ],
         "state": "open",
-        "updated_at": "2019-04-01T17:27:57.726Z"
+        "updated_at": "2019-08-09T13:17:42.000Z"
     },
     "id": 250773,
     "links": {
