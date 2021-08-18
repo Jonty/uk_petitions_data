@@ -89,27 +89,25 @@ for row in cursor:
             })
 
     petition_data = {
+        'attributes': {
+            'action_prefix': 'We the undersigned petition the Prime Minister to',
+            'action': content,
+            'background': detail,
+            'state': status,
+            'signature_count': cached_signers,
+            'closed_at': deadline.isoformat() + 'Z',
+            'created_at': creationtime.isoformat() + 'Z',
+            'opened_at': creationtime.isoformat() + 'Z',
+            'creator_name': name,
+            'government_response_at': government_response_at,
+            'government_responses': government_responses,
+            'rejected_at': rejected_at,
+            'rejection': rejection,
+            'updated_at': lastupdate.isoformat() + 'Z',
+        },
+        'id': pid,
         'links': {
             'original': "http://petitions.number10.gov.uk/%s/" % ref
-        },
-        'data': {
-            'id': pid,
-            'attributes': {
-                'action_prefix': 'We the undersigned petition the Prime Minister to',
-                'action': content,
-                'background': detail,
-                'state': status,
-                'signature_count': cached_signers,
-                'closed_at': deadline.isoformat() + 'Z',
-                'created_at': creationtime.isoformat() + 'Z',
-                'opened_at': creationtime.isoformat() + 'Z',
-                'creator_name': name,
-                'government_response_at': government_response_at,
-                'government_responses': government_responses,
-                'rejected_at': rejected_at,
-                'rejection': rejection,
-                'updated_at': lastupdate.isoformat() + 'Z',
-            }
         },
         'type': 'petition',
     }
