@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           command: |
-            sudo pip3 install requests
+            pip install requests
             python dump_petitions.py
             git config --global user.email "uk_petitions@jonty.co.uk"
             git config --global user.name "Petition Update Bot"
