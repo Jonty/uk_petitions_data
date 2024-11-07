@@ -9,7 +9,8 @@ governments = {
     #    '2010-2015_Conservative_-_Liberal_Democrat_coalition_government': ('https://petition.parliament.uk/archived/petitions.json?state=all', '&parliament=3'),
     #    '2015-2017_Conservative_government': ('https://petition.parliament.uk/archived/petitions.json?parliament=1&state=all', '&parliament=2'),
     #    '2017-2019_Conservative_government': ('https://petition.parliament.uk/archived/petitions.json?parliament=1&state=all', '&parliament=1'),
-    "2019-_Conservative_government": (
+    #    "2019-2024_Conservative_government": ("https://petition.parliament.uk/petitions.json?state=all", "",)
+    "2024-_Labour_government": (
         "https://petition.parliament.uk/petitions.json?state=all",
         "",
     )
